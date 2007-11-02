@@ -169,7 +169,7 @@ def main():
     
         elif section.lower() == "strings":
             for key in ini.options(section):
-                strings[key.lower()] = string.strip(ini.get(section, key))
+                strings[key.lower()] = string.strip(ini.get(section, key)).replace('"','')
     
     
     for mfr in manufacturers.keys():
