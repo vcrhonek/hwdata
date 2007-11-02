@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.207
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPL+ and MIT and LGPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}.tar.gz
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Oct 25 2007 Matt Domsch <Matt_Domsch@dell.com> 0.207-2
+- MonitorsDB: add 20 new Dell monitors
+
 * Wed Aug 29 2007 Karsten Hopp <karsten@redhat.com> 0.207-1
 - update license tag
 
