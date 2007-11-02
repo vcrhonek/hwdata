@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+while (<>) {
+    /Identifier.*"(.*)"/ && print $1, "; 0; ";
+    /HorizSync ([0-9-]+)/ && print $1, "; ";
+    /VertRefresh ([0-9-]+)/ && print $1, "\n";
+}

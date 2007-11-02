@@ -1,0 +1,61 @@
+# modulename	class	new module name(s)
+
+3c90x		NETWORK	3c59x
+bcm5700		NETWORK tg3
+rtl8139		NETWORK	8139too
+old_tulip	NETWORK	tulip
+sktr		NETWORK	tmspci
+tr		NETWORK	lanstreamer
+eepro100	NETWORK e100
+veth		NETWORK	iseries_veth
+sk98lin		NETWORK skge
+
+aic7xxx_mod	SCSI	aic7xxx
+hpnraid 	SCSI	aacraid
+percraid	SCSI	aacraid
+qla2x00		SCSI	qla2200/qla2300/qla2322/qla6312
+qla2300		SCSI	qla2200/qal2300/qla2322/qla6312
+isp_mod		SCSI	qlogicisp
+ncr53c8xx	SCSI	sym53c8xx
+sym53c8xx_2	SCSI	sym53c8xx
+megaraid2	SCSI	megaraid_mbox
+megaraid	SCSI	megaraid_mbox
+dpt_i2o		SCSI	i2o_block
+mptscsih	SCSI	mptspi/mptfc/mptsas
+
+via82cxxx	AUDIO	snd-via82xx
+via82cxxx_audio	AUDIO	snd-via82xx
+ymfsb		AUDIO	snd-ymfpci
+ymf_sb		AUDIO	snd-ymfpci
+ymfpci		AUDIO	snd-ymfpci
+nm256		AUDIO	snd-nm256
+nm256_audio	AUDIO	snd-nm256
+trident		AUDIO	snd-trident/snd-ali5451
+rme96xx		AUDIO	snd-rme96/snd-rme9652/snd-hdsp
+maestro3	AUDIO	snd-maestro3
+i810_audio	AUDIO	snd-intel8x0
+ali5455		AUDIO	snd-intel8x0
+forte		AUDIO	snd-fm801
+maestro		AUDIO	snd-es1968
+esssolo1	AUDIO	snd-es1938
+es1370		AUDIO	snd-ens1370
+es1371		AUDIO	snd-ens1371
+cs4281		AUDIO	snd-cs4281
+cmpci		AUDIO	snd-cmipci
+sonicvibes	AUDIO	snd-sonicvibes
+emu10k1		AUDIO	snd-emu10k1
+audigy		AUDIO	snd-emu10k1
+cs46xx		AUDIO	snd-cs46xx
+sscape		AUDIO	snd-sscape
+opl3sa2		AUDIO	snd-opl3sa2
+sb		AUDIO	snd-es18xx/snd-als100/snd-sbawe/snd-sb16/snd-es968
+cs4232		AUDIO	snd-cs4236/snd-cs4232
+ad1816		AUDIO	snd-ad1816a
+mad16		AUDIO	snd-opti93x/snd-opti92x-cs4231/snd-opt92x-ad1848
+gus		AUDIO	snd-interwave
+ad1848		AUDIO	snd-ad1848
+audio		AUDIO	snd-usb-audio
+
+usb-uhci	USB	uhci-hcd
+uhci		USB	uhci-hcd
+usb-ohci	USB	ohci-hcd
