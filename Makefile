@@ -35,10 +35,16 @@ install:
 	install -m 644 blacklist $(sysconfdir)/modprobe.d
 
 tag:
-	@cvs -Q tag $(CVSTAG)
+	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
+	@echo "Tagged as $(NAME)-$(VERSION)-$(RELEASE)"
 
 force-tag:
-	@cvs -Q tag -F $(CVSTAG)
+	@git tag -f $(NAME)-$(VERSION)-$(RELEASE)
+	@echo "Tag forced as $(NAME)-$(VERSION)-$(RELEASE)"
+
+changelog:
+	@rm -f ChangeLog
+	@(GIT_DIR=.git git-log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 
 check:
 	[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null
@@ -47,15 +53,16 @@ check:
 	[ `grep -vc '	' videodrivers` -eq 0 ]
 
 create-archive:
-	@rm -rf /tmp/$(NAME)
-	@cd /tmp ; cvs -Q -d $(CVSROOT) export -r$(CVSTAG) $(NAME) || echo "Um... export aborted."
-	@mv /tmp/$(NAME) /tmp/$(NAME)-$(VERSION)
-	@cd /tmp ; tar -czSpf $(NAME)-$(VERSION).tar.gz $(NAME)-$(VERSION)
-	@rm -rf /tmp/$(NAME)-$(VERSION)
-	@cp /tmp/$(NAME)-$(VERSION).tar.gz .
-	@rm -f /tmp/$(NAME)-$(VERSION).tar.gz
+	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
+	@make changelog
+	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
+	@mkdir $(NAME)-$(VERSION)
+	@cp ChangeLog $(NAME)-$(VERSION)/
+	@tar --append -f $(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
+	@bzip2 -f $(NAME)-$(VERSION).tar
+	@rm -rf $(NAME)-$(VERSION)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION).tar.gz"
+	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
 
 archive: check clean tag create-archive
 
