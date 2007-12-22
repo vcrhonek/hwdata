@@ -4,8 +4,7 @@ Version: 0.208
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}.tar.gz
-Patch1: dell-monitors.patch
+Source: hwdata-%{version}.tar.bz2
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
@@ -18,7 +17,6 @@ such as the pci.ids database and MonitorsDb databases.
 %prep
 
 %setup -q
-%patch1 -p1 -b .dellmonitors
 
 %build
 # nothing to build
@@ -40,6 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.208-1
 - new release
+- drop dell-monitors patch, already included in tarball
 
 * Thu Dec 13 2007 Karsten Hopp <karsten@redhat.com> 0.207-3
 - fix License tag
