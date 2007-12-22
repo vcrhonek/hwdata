@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.208
+Version: 0.209
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.209-1
+- add Proview 926w monitor (#363091)
+
 * Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.208-1
 - new release
 - drop dell-monitors patch, already included in tarball
