@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.207
-Release: 3%{?dist}
+Version: 0.208
+Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}.tar.gz
@@ -38,6 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.208-1
+- new release
+
 * Thu Dec 13 2007 Karsten Hopp <karsten@redhat.com> 0.207-3
 - fix License tag
 - add empty %%build section for fedora-review
