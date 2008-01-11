@@ -3781,12 +3781,20 @@ Samsung; Samsung SyncMaster 198T/910T/CX901T (Digital); SAM010F; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 20GLsi; sam4690; 30.0-82.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 20gls; sam20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 21GLs; sam4610; 30.0-85.0; 50.0-160.0; 1
+Samsung; Samsung SyncMaster 205BW (Analog); SAM021D; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 205BW (Digital); SAM021E; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 206BW (Analog); SAM027C; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 206BW (Digital); SAM027D; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 210T/LXA210T (Analog); SAM4251; 30-93; 50-85; 1
 Samsung; Samsung SyncMaster 210T/LXA210T (Digital); SAM4252; 30-81; 50-85; 1
 Samsung; Samsung SyncMaster 211MP/215MP/CX211MP; SAMOO56; 30-85; 55-85; 1
 Samsung; Samsung SyncMaster 213T/CX210T; SAMOO91; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 215TW(Digital); SAM0214; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 215TW(Analog); SAM0213; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 225BW (Analog); SAM0254; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 225BW (Digital); SAM0255; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 226BW (Analog); SAM027E; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 226BW (Digital); SAM027F; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 240T (Analog); SAM4254; 30-93; 50-85; 1
 Samsung; Samsung SyncMaster 240T (Digital); SAM4255; 30-81; 50-85; 1
 Samsung; Samsung SyncMaster 204T/204Ts/214T,SyncMaster Magic CX201Ts(Digital); SAM01AE; 30-81; 56-75; 1
@@ -3820,6 +3828,7 @@ Samsung; Samsung SyncMaster 550b; sam1055; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 550(M)s; sam1035; 30-61; 50-120; 1
 Samsung; Samsung SyncMaster 550v; sam12b6; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 570B TFT/580B TFT; sam49d5; 30-61; 50-75; 1
+Samsung; Samsung SyncMaster 591v; sam022e; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 610(M)b(CHB6107*); sam2041; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 6Ne; sam4d72; 30.0-65.0; 50.0-100.0; 1
 Samsung; Samsung SyncMaster 700b Plus; sam2cf8; 30-70; 50-160; 1
@@ -3835,7 +3844,7 @@ Samsung; Samsung SyncMaster 701 IFT; sam4eeb; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 703(M)s/753(M)s/750(M)s/753(M)v/CM173A(M); SAM0027; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 710(M)b (CHB7709*); sam2059; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 710(M)s (CHB7707*); sam2057; 30-70; 50-160; 1
-Samsung; Samsung SyncMaster 710N/177N/CX711N/CX701N; SAM011E; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 710N/177N/CX711N/CX701N; SAM011E; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 710Tplus/711T/712T (Digital); SAM0166; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 710Tplus/711T/712T (Analog); SAM0165; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 711N/712N; SAM0124; 30-81; 56-85; 1
@@ -3873,6 +3882,8 @@ Samsung; Samsung SyncMaster 917MB/950MB/957MB/CD197D(P); SAM0070; 30-96; 50-160;
 Samsung; Samsung SyncMaster 920T/CX911T (Digital); SAM014B; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 920T/CX911T (Analog); SAM014A; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 930B; sam0193; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 931BF (DVI); SAM0217; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 931BF (VGA); SAM0218; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940N,SyncMaster Magic CX915N/CX916N/CX917N; SAM01E1; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940T/940B/940Fn(Analog); SAM01BA; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940T/940B/940Fn(Digital); SAM01BB; 30-81; 56-75; 1
