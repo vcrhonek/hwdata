@@ -1,15 +1,14 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.207
-Release: 1%{?dist}
-License: GPL+ and MIT and LGPLv2+
+Version: 0.211
+Release: 1
+License: GPL/MIT
 Group: System Environment/Base
 Source: hwdata-%{version}.tar.gz
-Patch1: dell-monitors.patch
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 hwdata contains various hardware identification and configuration data,
@@ -18,7 +17,6 @@ such as the pci.ids database and MonitorsDb databases.
 %prep
 
 %setup -q
-%patch1 -p1 -b .dellmonitors
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -30,73 +28,54 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc LICENSE COPYING
-%dir %{_datadir}/%{name}
-%config(noreplace) %{_sysconfdir}/modprobe.d/blacklist
-%{_datadir}/%{name}/*
+%dir /usr/share/hwdata
+%config(noreplace) /etc/modprobe.d/blacklist
+%config /usr/share/hwdata/*
 
 %changelog
-* Wed Aug 29 2007 Karsten Hopp <karsten@redhat.com> 0.207-1
-- update license tag
+* Wed Sep 26 2007 Karsten Hopp <karsten@redhat.com> 0.211-1
+- pull new upstream pci.ids, usb.ids
 
-* Mon Aug 06 2007 Adam Jackson <ajax@redhat.com> 0.207-1
-- MonitorsDB: Fix the sync ranges for the generic monitors to not be quite
-  so dumb.  90kHz hsync is way out of range for any common single-link DVI
-  panel, for example. (#247271)
+* Thu Sep 20 2007 Karsten Hopp <karsten@redhat.com> 0.210-1
+- add pci.id for Chelsio 10GbE Ethernet Adapter
+- Resolves: bz #296811
 
-* Thu Jul 12 2007 Karsten Hopp <karsten@redhat.com> 0.206-1
-- build
+* Wed Sep 19 2007 Karsten Hopp <karsten@redhat.com> 0.209-1
+- pull new upstream pci.ids, usb.ids
 
--* Wed Jul 11 2007 Matt Domsch <Matt_Domsch@dell.com>
-- add dell-monitors.patch so Dell can update these themselves.
+* Wed Aug 15 2007 Karsten Hopp <karsten@redhat.com> 0.207-1
+- pull new upstream pci.ids and rebuild
+- Resolves: bz #251732
+- Resolves: bz #251734
+- Resolves: bz #252195
+- Resolves: bz #252196
+- Resolves: bz #241274
 
-* Mon Jul 02 2007 Karsten Hopp <karsten@redhat.com> 0.206-1
-- add Acer AL1916W monitor (#200572)
-- add Eizo L568D, L568 (#200572)
-- add Samsung 795DF/795MB/Magic CD175GP (#200572)
+* Tue Aug 14 2007 Karsten Hopp <karsten@redhat.com> 0.205-1
+- add HP TFT5600        #229370
 
-* Mon Jun 25 2007 Karsten Hopp <karsten@redhat.com> 0.204-1
-- add some Samsung monitors to MonitorsDB, bz#245434, bz#245439
+* Mon Jul 09 2007 Karsten Hopp <karsten@redhat.com> 0.205-1
+- enable iwl4965 blacklist
+- Resolves: bz#245379
 
-* Mon Jun 25 2007 Karsten Hopp <karsten@redhat.com> 0.203-1
-- add Samsung Syncmaster 591v, bz#240660
-- add LG L1740B, Mtek MT-0910, bz#240662
-- move blacklist matrxfb_base from module-init-tools blacklist-compat 
-  into hwdata's blacklist, bz#241595
-- update pci.ids, usb.ids
+* Mon Jun 25 2007 Karsten Hopp <karsten@redhat.com> 0.205-1
+- really update pci.ids, update-pciids downloaded an old file
+- disable iwl4965 blacklist as it is not approved yet (#245379)
 
-* Tue Apr 10 2007 Karsten Hopp <karsten@redhat.com> 0.200-1
-- use macros
+* Mon Jun 25 2007 Karsten Hopp <karsten@redhat.com> 0.202-1
+- don't load iwl4965 module automatically
+- Resolves: #245379
+
+* Tue Jun 19 2007 Karsten Hopp <karsten@redhat.com> 0.201-1
+- add some monitors
+- Resolves: #224511
 - update pci.ids
+- Related: #223105
 
-* Mon Mar 12 2007 Karsten Hopp <karsten@redhat.com> 0.199-1
-- drop %%config from data files in /usr
-
-* Tue Feb 27 2007 Adam Jackson <ajax@redhat.com> 0.198-1
-- Fix the intel entry in videodrivers to be tab-delimited (#227591)
-- Add a check for same to the 'check' target
-- Add clog target to Makefile
-
-* Mon Feb 26 2007 Karsten Hopp <karsten@redhat.com> 0.197-1
-- add disttag
-
-* Wed Feb 21 2007 Karsten Hopp <karsten@redhat.com> 0.196-1
-- review fixes
-
-* Mon Jan 29 2007 Karsten Hopp <karsten@redhat.com>
-- add some monitors (#224510)
-
-* Tue Jan 23 2007 Karsten Hopp <karsten@redhat.com> 0.195-1
-- update pci.ids, usb.ids and build for FC-7
-
-* Tue Jan 02 2007 Karsten Hopp <karsten@redhat.com> 0.193-1
+* Tue Jan 02 2007 Karsten Hopp <karsten@redhat.com> 0.194-1
 - Update to latest pci.ids/usb.ids for RHEL5
 - Resolves: #220182
   Add some Dell monitors to MonitorDB
-
-* Wed Dec 06 2006 Karsten Hopp <karsten@redhat.com> 0.192-1
-- update pci.ids
-- update usb.ids
-- add some Samsung monitors (Till Maas, #204459)
 
 * Mon Oct 09 2006 Phil Knirsch <pknirsch@redhat.com> - 0.191-1
 - Update to latest pci.ids for RHEL5

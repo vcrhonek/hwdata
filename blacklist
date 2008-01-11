@@ -30,8 +30,10 @@ blacklist tridentfb
 blacklist tdfxfb
 blacklist virgefb
 blacklist vga16fb
-blacklist matrxfb_base
 
 # ISDN - see bugs 154799, 159068
 blacklist hisax
 blacklist hisax_fcpcipnp
+
+# don't load iwl4965 by default, bug 245379
+blacklist iwl4965

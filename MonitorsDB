@@ -1,4 +1,8 @@
 #
+# Monitor information for use by Xconfigurator
+# Supplies similar information to the data in the /usr/X11R6/lib/X11/Cards
+# file about video cards.
+#
 # Each line has format:
 #   <Manufacturer>; <Monitor name>; <EISA ID (if any)>; <horiz sync in \
 #   Khz>; <vert sync in Hz>; DPMS support
@@ -84,7 +88,6 @@ Acer; Acer AL1911; ACRAD10; 24.0-80.0; 56.0-75.0
 Acer; Acer AL1912; ACR5990; 24.0-80.0; 49.0-75.0
 Acer; Acer AL1913; ACRAD36; 30.0-82.0; 56.0-76.0
 Acer; Acer AL1914; ACRAD29; 30.0-83.0; 55.0-75.0
-Acer; Acer AL1916W; ACRAD52; 30.0-82.0; 56.0-76.0; 1
 Acer; Acer AL1931; ACRAD07; 24.0-80.0; 56.0-75.0
 Acer; Acer AL2032W; ACR07F0; 30.0-83.0; 50.0-75.0
 Acer; Acer 1768i; api424c; 30.0-69.0; 50.0-110.0; 1
@@ -1430,7 +1433,7 @@ Eizo; Eizo FX-C7; eiz1420; 30.0-96.0; 50.0-160.0; 1
 Eizo; Eizo FX-D7; eiz1413; 30.0-96.0; 50.0-160.0; 1
 Eizo; Eizo FX-E7; eiz1406; 30.0-95.0; 50.0-160.0; 1
 Eizo; Eizo FX-E8; eiz1407; 31.5-110.0; 50.0-160.0; 1
-Eizo; Eizo Nanao FlexScan FX-C7; eiz1420; 30.0-96.0; 50.0-160.0; 1
+Eizo; Eizo NANAO FlexScan FX-C7; eiz1420; 30.0-96.0; 50.0-160.0; 1
 Eizo; Eizo Nanao FlexScan FX-E7S; eiz1418; 30.0-110.0; 50.0-160.0; 1
 Eizo; Eizo T57; eiz1005; 27.0-92.0; 50.0-160.0; 1
 Eizo; Eizo T57S; eiz1001; 30.0-92.0; 50.0-160.0; 1
@@ -1451,8 +1454,6 @@ Eizo Nanao; Eizo F980; enc1603; 30.0-137.0; 50.0-160.0; 1
 Eizo Nanao; Eizo L351; enc1616; 30.0-50.0; 59.0-61.0; 1
 Eizo Nanao; Eizo L371D; enc1617; 27.0-65.0; 59.0-61.0; 1
 Eizo Nanao; Eizo L371; enc1618; 27.0-61.0; 50.0-75.0; 1
-EIZO Nanao; Eizo L568D; enc1733; 31.0-64.0; 59.0-61.0; 1
-EIZO Nanao; Eizo L568; enc1734; 24.0-80.0; 50.0-75.0; 1
 Eizo Nanao; Eizo L771; enc1622; 27.0-81.0; 50.0-75.0; 1
 Eizo Nanao; Eizo T550; enc1600; 30.0-82.0; 50.0-160.0; 1
 Eizo Nanao; Eizo T561; enc1615; 30.0-96.0; 50.0-160.0; 1
@@ -1914,7 +1915,7 @@ Hewlett-Packard;HP L1955 LCD Flat Panel Monitor;hwp262c;30.0-82.0;56.0-75.0;1
 Hewlett-Packard;HP LP2065 Flat Panel Monitor;hwp0a72;30.0-92.0;48.0-85.0;1
 Hewlett-Packard;HP L2335 LCD Flat Panel Monitor;hwp2615;30.0-92.0;48.0-85.0;1
 Hewlett-Packard;HP LP2465 Flat Panel Monitor;hwp2676;30.0-92.0;48.0-85.0;1
-Hewlett-Packard; HP TFT5600 RKM; 0; 29.2-48.4; 60; 1
+Hewlett-Packard; HP TFT5600 RKM; 0; 29.2-48.4; 40.0-70.0; 1
 Highscreen; Highscreen LE 1024; 45; 31.4-31.6,35.1-35.2,35.5-35.6; 50-87
 Hitachi, Ltd.; Hitachi 20-AP; 20-ap; 30.0-65.0; 55.0-80.0; 1
 Hitachi, Ltd.; Hitachi 20-APF; 20-apf; 30.0-65.0; 55.0-80.0; 1
@@ -2392,7 +2393,6 @@ LG Electronics Inc.; LG 1727; 1727; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1730DM; 1730dm; 30.0-82.0; 50.0-120.0; 1
 LG Electronics Inc.; LG L1730P(Digital); GSM439E; 30.0-71.0; 56.0-75.0
 LG Electronics Inc.; LG L1730P(Analog); GSM439D; 30.0-83.0; 56.0-75.0
-LG Electronics Inc.; LG L1740B; 1740b; 30-83; 56-75; 1
 LG Electronics Inc.; LG 2010; 2010; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 20i; gsm4e21; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG Studioworks28i; sw28i; 30.0-85.0; 50.0-120.0; 1
@@ -2732,7 +2732,6 @@ Monitronix; Monitronix MX-210EZ; mx-210ez; 30.0-75.0; 40.0-120.0; 1
 Monitronix; Monitronix MX-240EZ; mx-240ez; 30.0-75.0; 40.0-120.0; 1
 Monitronix; Monitronix MX240; mx240; 30.0-90.0; 20.0-120.0; 1
 Morse; Morse Monitor; morsemon; 30.0-57.0; 50.0-90.0; 1
-Mtek; Mtek 9" Monochrome MT-0910; 0; 28-37.5; 40-60; 0
 Nanao; Nanao 9060S; nan0502; 15.5-38.5; 50.0-90.0; 1
 Nanao; Nanao 9060S; nan0902; 15.5-38.5; 50.0-90.0; 1
 Nanao; Nanao 9065S; nan0503; 30.0-50.0; 50.0-90.0; 1
@@ -3668,14 +3667,6 @@ Samsung; Samsung SyncMaster 198T/910T/CX901T (Analog); SAM010E; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 198T/910T/CX901T (Digital); SAM010F; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 20GLsi; sam4690; 30.0-82.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 20gls; sam20gls; 30-82; 50-120; 1
-Samsung; Samsung SyncMaster 205BW (Analog); SAM021D; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 205BW (Digital); SAM021E; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 206BW (Analog); SAM027C; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 206BW (Digital); SAM027D; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 225BW (Analog); SAM0254; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 225BW (Digital); SAM0255; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 226BW (Analog); SAM027E; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 226BW (Digital); SAM027F; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 21GLs; sam4610; 30.0-85.0; 50.0-160.0; 1
 Samsung; Samsung SyncMaster 210T/LXA210T (Analog); SAM4251; 30-93; 50-85; 1
 Samsung; Samsung SyncMaster 210T/LXA210T (Digital); SAM4252; 30-81; 50-85; 1
@@ -3716,7 +3707,6 @@ Samsung; Samsung SyncMaster 550b; sam1055; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 550(M)s; sam1035; 30-61; 50-120; 1
 Samsung; Samsung SyncMaster 550v; sam12b6; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 570B TFT/580B TFT; sam49d5; 30-61; 50-75; 1
-Samsung; Samsung SyncMaster 591v; sam022e; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 610(M)b(CHB6107*); sam2041; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 6Ne; sam4d72; 30.0-65.0; 50.0-100.0; 1
 Samsung; Samsung SyncMaster 700b Plus; sam2cf8; 30-70; 50-160; 1
@@ -3732,7 +3722,7 @@ Samsung; Samsung SyncMaster 701 IFT; sam4eeb; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 703(M)s/753(M)s/750(M)s/753(M)v/CM173A(M); SAM0027; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 710(M)b (CHB7709*); sam2059; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 710(M)s (CHB7707*); sam2057; 30-70; 50-160; 1
-Samsung; Samsung SyncMaster 710N/177N/CX711N/CX701N; SAM011E; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 710N/177N/CX711N/CX701N; SAM011E; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 710Tplus/711T/712T (Digital); SAM0166; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 710Tplus/711T/712T (Analog); SAM0165; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 711N/712N; SAM0124; 30-81; 56-85; 1
@@ -3754,7 +3744,6 @@ Samsung; Samsung SyncMaster 790DF; SAM0126; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 793S/793V/CM173G; SAM0117; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 793DF/793MB; SAM0107; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 794MB/794MBplus/798MB; SAM01AB; 30-70; 50-160; 1
-Samsung; Samsung SyncMaster 795DF/795MB/Magic CD175GP; SAM0108; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 796MB/796MBplus; SAM01AC; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 800TFT; sam6058; 61.5-81.0; 59.0-76.0; 1
 Samsung; Samsung SyncMaster 900IFT; sam4f29; 30-96; 50-160; 1
@@ -3770,8 +3759,6 @@ Samsung; Samsung SyncMaster 917MB/950MB/957MB/CD197D(P); SAM0070; 30-96; 50-160;
 Samsung; Samsung SyncMaster 920T/CX911T (Digital); SAM014B; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 920T/CX911T (Analog); SAM014A; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 930B; sam0193; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 931BF (DVI); SAM0217; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 931BF (VGA); SAM0218; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940N,SyncMaster Magic CX915N/CX916N/CX917N; SAM01E1; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940T/940B/940Fn(Analog); SAM01BA; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940T/940B/940Fn(Digital); SAM01BB; 30-81; 56-75; 1
