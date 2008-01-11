@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.211
+Version: 0.212
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -8,7 +8,7 @@ Source: hwdata-%{version}.tar.bz2
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
 hwdata contains various hardware identification and configuration data,
@@ -31,11 +31,23 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc LICENSE COPYING
-%dir /usr/share/hwdata
-%config(noreplace) /etc/modprobe.d/blacklist
-%config /usr/share/hwdata/*
+%dir %{_datadir}/%{name}
+%config(noreplace) %{_sysconfdir}/modprobe.d/blacklist
+%{_datadir}/%{name}/*
 
 %changelog
+* Fri Jan 11 2008 Karsten Hopp <karsten@redhat.com> 0.212-1
+- pull new upstream pci.ids, usb.ids
+- Resolves: #300831
+- added HP TFT5600 LCD Monitor
+- Resolves: #250569
+- added Acer AL1916W, Eizo L568/L568D, Samsung 795DF
+- Resolves: #250582
+- Add Samsung 205BW/206BW/225BW/226BW
+- Resolves: #250584
+- Add Samsung 931BF
+- Resolves: #250587
+
 * Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.209-1
 - add Proview 926w monitor (#363091)
 
