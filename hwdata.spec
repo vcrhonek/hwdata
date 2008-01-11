@@ -1,10 +1,10 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.211
-Release: 1
-License: GPL/MIT
+Release: 1%{?dist}
+License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}.tar.gz
+Source: hwdata-%{version}.tar.bz2
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
@@ -17,6 +17,9 @@ such as the pci.ids database and MonitorsDb databases.
 %prep
 
 %setup -q
+
+%build
+# nothing to build
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -33,6 +36,20 @@ rm -rf $RPM_BUILD_ROOT
 %config /usr/share/hwdata/*
 
 %changelog
+* Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.209-1
+- add Proview 926w monitor (#363091)
+
+* Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.208-1
+- new release
+- drop dell-monitors patch, already included in tarball
+
+* Thu Dec 13 2007 Karsten Hopp <karsten@redhat.com> 0.207-3
+- fix License tag
+- add empty %%build section for fedora-review
+
+* Thu Oct 25 2007 Matt Domsch <Matt_Domsch@dell.com> 0.207-2
+- MonitorsDB: add 20 new Dell monitors
+
 * Wed Sep 26 2007 Karsten Hopp <karsten@redhat.com> 0.211-1
 - pull new upstream pci.ids, usb.ids
 
@@ -42,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 * Wed Sep 19 2007 Karsten Hopp <karsten@redhat.com> 0.209-1
 - pull new upstream pci.ids, usb.ids
+
+* Wed Aug 29 2007 Karsten Hopp <karsten@redhat.com> 0.207-1
+- update license tag
 
 * Wed Aug 15 2007 Karsten Hopp <karsten@redhat.com> 0.207-1
 - pull new upstream pci.ids and rebuild

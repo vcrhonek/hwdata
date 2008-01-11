@@ -95,18 +95,30 @@ def main():
                         "monitors database.  "
                         "The default is " + defaultDB + ".",
                     metavar="FILE")
+    parser.add_option("-i", "--inflist",
+                    dest="inflist",
+                    default=None,
+                    help="Read list of inf files from inflist",
+                    metavar="FILE")
     
     (options, args) = parser.parse_args()
     
-    if len(args) < 1:
-        usage()
-
     ini = ConfigParser.ConfigParser()
     ini.optionxform = __builtins__.str
     ini.OPTCRE = OPTCRE
-    f = myFile(args[0])
-    ini.readfp(f)
-    f.close()
+    if options.inflist is not None:
+        f = open(options.inflist)
+        lines = f.readlines()
+        f.close
+        for a in lines:
+            f = myFile(a.strip())
+            ini.readfp(f)
+            f.close
+
+    for a in args:
+        f = myFile(a)
+        ini.readfp(f)
+        f.close()
 
     # First, build a dictionary of monitors we already know about.
     # When we get ready to print the monitors we found in the .inf
@@ -157,7 +169,9 @@ def main():
     
         elif section.lower() == "strings":
             for key in ini.options(section):
-                strings[key.lower()] = string.strip(ini.get(section, key))
+                strings[key.lower()] = string.strip(ini.get(section, key)).replace('"','')
+            # exceptions
+            strings["dell"] = "Dell"
     
     
     for mfr in manufacturers.keys():
