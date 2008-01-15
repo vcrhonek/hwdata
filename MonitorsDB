@@ -13,75 +13,63 @@
 
 Aamazing; Aamazing CM-8426; cm-8426; 31.0-60.0; 40.0-80.0; 1
 Aamazing; Aamazing MS-8431; ms-8431; 15.0-36.0; 50.0-70.0; 1
-Acer; Acer 11D; API440B; 31.0-35.5; 50.0-90.0
-Acer; Acer 1455; API5514; 30.0-54.0; 50.0-120.0
-Acer; Acer 1555; API5515; 30.0-54.0; 50.0-120.0
+Acer; Acer 11D; API440B; 31.0-35.5; 50.0-90.0; 1
+Acer; Acer 1455; API5514; 30.0-54.0; 50.0-120.0; 1
+Acer; Acer 1555; API5515; 30.0-54.0; 50.0-120.0; 1
 Acer; Acer 15P; acer_15p; 15.0-70.0; 45.0-90.0; 1
-Acer; Acer 211c; API9708; 30.0-107.0; 50.0-160.0
+Acer; Acer 211c; API9708; 30.0-107.0; 50.0-160.0; 1
 Acer; Acer 33; acer_33; 31.0-38.0; 50.0-90.0; 1
-Acer; Acer 33D; API4421; 31.0-35.5; 50.0-100.0
-Acer; Acer 33DL; API4C21; 31.0-35.5; 50.0-100.0
-Acer; Acer 34e-2; API9709; 30.0-54.0; 50.0-110.0
-Acer; Acer 34e; API4522; 30.0-54.0; 50.0-110.0
-Acer; Acer 34T; API5422; 31.0-48.0; 50.0-100.0
-Acer; Acer 34TL; API4C22; 31.0-48.0; 50.0-100.0
+Acer; Acer 33D; API4421; 31.0-35.5; 50.0-100.0; 1
+Acer; Acer 33DL; API4C21; 31.0-35.5; 50.0-100.0; 1
+Acer; Acer 34e-2; API9709; 30.0-54.0; 50.0-110.0; 1
+Acer; Acer 34e; API4522; 30.0-54.0; 50.0-110.0; 1
+Acer; Acer 34T; API5422; 31.0-48.0; 50.0-100.0; 1
+Acer; Acer 34TL; API4C22; 31.0-48.0; 50.0-100.0; 1
 Acer; Acer 35; acer_35; 30.0-55.0; 45.0-90.0; 1
-Acer; Acer 35c; API9703; 30.0-54.0; 50.0-110.0
-Acer; Acer 35c; API970A; 30.0-54.0; 50.0-110.0
-Acer; Acer 54e; API4536; 31.0-54.0; 50.0-110.0
-Acer; Acer 54es; API9715; 31.0-54.0; 50.0-110.0
-Acer; Acer 55; API0037; 30.0-56.9; 50.0-80.0
-Acer; Acer 55c; API9704; 30.0-54.0; 50.0-110.0
-Acer; Acer 55e; API9701; 30.0-54.0; 50.0-110.0
-Acer; Acer 55L; API4C37; 30.0-56.9; 50.0-80.0
-Acer; Acer 56c; API9705; 30.0-69.0; 50.0-110.0
-Acer; Acer 56e-2; API9710; 30.0-69.0; 50.0-110.0
-Acer; Acer 56e; API4538; 30.0-69.0; 50.0-110.0
-Acer; Acer 56i-2; API9712; 30.0-69.0; 50.0-110.0
-Acer; Acer 56i; API4938; 30.0-69.0; 50.0-110.0
-Acer; Acer 56is-2; API4138; 30.0-69.0; 50.0-110.0
-Acer; Acer 56is; API0138; 30.0-69.0; 50.0-110.0
-Acer; Acer 56j; API9713; 30.0-69.0; 50.0-110.0
-Acer; Acer 56L; API4C38; 30.0-64.0; 50.0-110.0
-Acer; Acer 57c; API971B; 30.0-70.0; 50.0-120.0
-Acer; Acer 57e; API9809; 30.0-70.0; 50.0-110.0
-Acer; Acer 57i; API971B; 30.0-70.0; 50.0-110.0
+Acer; Acer 35c; API9703; 30.0-54.0; 50.0-110.0; 1
+Acer; Acer 35c; API970A; 30.0-54.0; 50.0-110.0; 1
+Acer; Acer 54e; API4536; 31.0-54.0; 50.0-110.0; 1
+Acer; Acer 54es; API9715; 31.0-54.0; 50.0-110.0; 1
+Acer; Acer 55; API0037; 30.0-56.9; 50.0-80.0; 1
+Acer; Acer 55c; API9704; 30.0-54.0; 50.0-110.0; 1
+Acer; Acer 55e; API9701; 30.0-54.0; 50.0-110.0; 1
+Acer; Acer 55L; API4C37; 30.0-56.9; 50.0-80.0; 1
+Acer; Acer 56c; API9705; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56e-2; API9710; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56e; API4538; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56i-2; API9712; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56i; API4938; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56is-2; API4138; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56is; API0138; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56j; API9713; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 56L; API4C38; 30.0-64.0; 50.0-110.0; 1
+Acer; Acer 57e; API9809; 30.0-70.0; 50.0-110.0; 1
+Acer; Acer 57i; API971B; 30.0-70.0; 50.0-110.0; 1
+Acer; Acer 58c; API9901; 30.0-70.0; 50.0-110.0; 1
 Acer; Acer 7015; acer_7015; 15.0-36.0; 45.0-90.0; 1
-Acer; Acer 7133s; api5321; 31.0-40.0; 55.0-90.0; 1
-Acer; Acer 7134e; api4522; 31.0-60.0; 55.0-90.0; 1
-Acer; Acer 7134s; api5322; 31.0-60.0; 55.0-90.0; 1
-Acer; Acer 7154e; api4536; 31.0-60.0; 55.0-90.0; 1
-Acer; Acer 7154s; api5336; 31.0-60.0; 55.0-90.0; 1
-Acer; Acer 7156e; api4538; 31.0-70.0; 55.0-90.0; 1
-Acer; Acer 7156i; api4938; 31.0-70.0; 55.0-90.0; 1
-Acer; Acer 7156s; api5338; 31.0-70.0; 55.0-90.0; 1
-Acer; Acer 7176ie; api454c; 31.0-70.0; 55.0-90.0; 1
-Acer; Acer 7176is; api534c; 31.0-70.0; 55.0-90.0; 1
-Acer; Acer 7178ie; api454e; 31.0-90.0; 55.0-90.0; 1
-Acer; Acer 1768i; api424c; 30.0-69.0; 50.0-110.0; 1
-Acer; Acer 76c; API9706; 30.0-72.0; 50.0-120.0
-Acer; Acer 76e; API9702; 30.0-72.0; 50.0-110.0
-Acer; Acer 76i; API494C; 30.0-64.0; 50.0-110.0
-Acer; Acer 76ie; API424C; 30.0-69.0; 50.0-110.0
-Acer; Acer 76j; API9711; 30.0-72.0; 50.0-110.0
-Acer; Acer 76N; API4E4C; 30.0-64.0; 50.0-110.0
-Acer; Acer 76sl; API9717; 30.0-72.0; 50.0-110.0
-Acer; Acer 77c; API9720; 30.0-72.0; 50.0-120.0
-Acer; Acer 77c; API980A; 30.0-72.0; 50.0-120.0
-Acer; Acer 77e; API971C; 30.0-72.0; 50.0-120.0
-Acer; Acer 77e; API9808; 30.0-72.0; 50.0-120.0
-Acer; Acer 78c; API9719; 30.0-86.0; 50.0-120.0
-Acer; Acer 78c/G781; API9805; 31.0-86.0; 50.0-120.0
-Acer; Acer 78i; API494E; 30.0-82.0; 50.0-110.0
-Acer; Acer 78ie; API424E; 30.0-86.0; 50.0-120.0
-Acer; Acer 78ie; API454E; 30.0-86.0; 50.0-120.0
-Acer; Acer 79g; API9716; 30.0-95.0; 50.0-160.0
-Acer; Acer 79g/P791; API971E; 30.0-95.0; 50.0-160.0
-Acer; Acer 98e/V981; API9806; 30.0-86.0; 50.0-160.0
-Acer; Acer 98i; API4962; 30.0-82.0; 50.0-120.0
-Acer; Acer 99c; API9718; 30.0-95.0; 50.0-160.0
-Acer; Acer 99g/P911; API9804; 30.0-107.0; 50.0-160.0
-Acer; Acer 99sl; API9721; 30.0-98.0; 50.0-160.0
+Acer; Acer 76c; API9706; 30.0-72.0; 50.0-120.0; 1
+Acer; Acer 76e; API9702; 30.0-72.0; 50.0-110.0; 1
+Acer; Acer 76i; API494C; 30.0-64.0; 50.0-110.0; 1
+Acer; Acer 76ie; API424C; 30.0-69.0; 50.0-110.0; 1
+Acer; Acer 76j; API9711; 30.0-72.0; 50.0-110.0; 1
+Acer; Acer 76N; API4E4C; 30.0-64.0; 50.0-110.0; 1
+Acer; Acer 76sl; API9717; 30.0-72.0; 50.0-110.0; 1
+Acer; Acer 77c; API9720; 30.0-72.0; 50.0-120.0; 1
+Acer; Acer 77c-2; API980A; 30.0-72.0; 50.0-120.0; 1
+Acer; Acer 77e; API971C; 30.0-72.0; 50.0-120.0; 1
+Acer; Acer 77e-2; API9808; 30.0-72.0; 50.0-120.0; 1
+Acer; Acer 78c; API9719; 30.0-86.0; 50.0-120.0; 1
+Acer; Acer 78c/G781; API9805; 31.0-86.0; 50.0-120.0; 1
+Acer; Acer 78i; API494E; 30.0-82.0; 50.0-110.0; 1
+Acer; Acer 78ie; API424E; 30.0-86.0; 50.0-120.0; 1
+Acer; Acer 78ie; API454E; 30.0-86.0; 50.0-120.0; 1
+Acer; Acer 79g; API9716; 30.0-95.0; 50.0-160.0; 1
+Acer; Acer 79g/P791; API971E; 30.0-98.0; 50.0-160.0; 1
+Acer; Acer 98e/V981; API9806; 30.0-86.0; 50.0-160.0; 1
+Acer; Acer 98i; API4962; 30.0-82.0; 50.0-120.0; 1
+Acer; Acer 99c; API9718; 30.0-95.0; 50.0-160.0; 1
+Acer; Acer 99g/P911; API9804; 30.0-107.0; 50.0-160.0; 1
+Acer; Acer 99sl; API9721; 30.0-98.0; 50.0-160.0; 1
 Acer; Acer AC501; ABO5572; 30.0-70.0; 50.0-120.0
 Acer; Acer AC511; ACRAC02; 30.0-54.0; 50.0-120.0
 Acer; Acer AC701; ABO7086; 30.0-70.0; 50.0-160.0
@@ -89,7 +77,9 @@ Acer; Acer AC711; ABO7087; 30.0-70.0; 50.0-160.0
 Acer; Acer AC713; ACRAC04; 30.0-72.0; 50.0-160.0
 Acer; Acer AC901; ACR1902; 30.0-96.0; 50.0-160.0
 Acer; Acer AF705; ABO7084; 30.0-70.0; 50.0-120.0
-Acer; Acer AF715; ACRAC05; 30.0-98.0; 50.0-160.0
+Acer; Acer AF715; ACRAC05; 30.0-98.0; 50.0-160.0; 1
+Acer; Acer AF-706; PTS0309; 30.0-70.0; 50.0-160.0; 1
+Acer; Acer AF-707; PTS0313; 30.0-86.0; 50.0-160.0; 1
 Acer; Acer AL501; ABO5580; 24.0-60.0; 56.0-75.0
 Acer; Acer AL502; ACR1602; 30.0-60.0; 55.0-75.0
 Acer; Acer AL501-502; LTN020E; 31.0-60.0; 55.0-75.0; 1
@@ -199,8 +189,8 @@ Acer; Acer FP850; API7605; 31.5-80.0; 56.0-75.0; 1
 Acer; Acer FP851; API760C; 31.5-80.0; 56.0-75.0
 Acer; Acer FP855; API7611; 31.5-80.0; 56.0-75.0; 1
 Acer; Acer G571; API0004; 30.0-70.0; 50.0-120.0
-Acer; Acer G772; API9902; 30.0-72.0; 50.0-120.0
-Acer; Acer G991; API9903; 30.0-98.0; 50.0-160.0
+Acer; Acer G772; API9902; 30.0-72.0; 50.0-120.0; 1
+Acer; Acer G991; API9903; 30.0-98.0; 50.0-160.0; 1
 Acer; Acer LM551; API760E; 31.5-60.0; 56.0-85.0
 Acer; Acer LM552; API760F; 48.4; 60
 Acer; Acer LM554; API7610; 48.4; 60
@@ -210,8 +200,8 @@ Acer; Acer P203Wt; ACRADAB; 31.0-83.0; 56.0-75.0; 1
 Acer; Acer P211; API0003; 30.0-115.0; 50.0-160.0
 Acer; Acer P221Wt; ACRADAE; 31.0-83.0; 56.0-75.0; 1
 Acer; Acer P223Wt; ACRADAD; 31.0-83.0; 56.0-75.0; 1
-Acer; Acer V551; API0002; 30.0-54.0; 50.0-120.0
-Acer; Acer V771; API0001; 30.0-72.0; 50.0-120.0
+Acer; Acer V551; API0002; 31.0-54.0; 50.0-110.0; 1
+Acer; Acer V771; API0001; 30.0-72.0; 50.0-120.0; 1
 Acer; Acer V772; API0102; 30.0-72.0; 50.0-120.0
 Acer; Acer V991; API0105; 30.0-98.0; 50.0-160.0
 Acer; Acer X173V; ACR0003; 30.0-83.0; 55.0-75.0; 1
@@ -222,15 +212,15 @@ Acer; Acer X202W; ACRAD97; 30.0-81.0; 55.0-75.0; 1
 Acer; Acer X203Wt; ACRADAC; 31.0-83.0; 56.0-75.0; 1
 Acer; Acer X222W; ACRAD98; 31.0-81.0; 56.0-75.0; 1
 Acer; Acer X243Wt; ACR0000; 30.0-82.0; 56.0-76.0; 1
-Acer; Aspire 33s; API5321; 31.0-35.5; 50.0-100.0
-Acer; Aspire 34Ts; API5322; 31.0-48.0; 50.0-100.0
-Acer; Aspire 54s; API5336; 30.0-54.0; 50.0-110.0
-Acer; Aspire 55s; API9802; 30.0-54.0; 50.0-120.0
-Acer; Aspire 56s; API5338; 30.0-66.0; 50.0-110.0
-Acer; Aspire 76is; API414C; 30.0-69.0; 50.0-110.0
-Acer; Aspire 76is; API534C; 30.0-69.0; 50.0-110.0
-Acer; Aspire 77is; API9707; 30.0-69.0; 50.0-110.0
-Acer; Aspire 77s; API9803; 30.0-72.0; 50.0-120.0
+Acer; Aspire 33s; API5321; 31.0-35.5; 50.0-100.0; 1
+Acer; Aspire 34Ts; API5322; 31.0-48.0; 50.0-100.0; 1
+Acer; Aspire 54s; API5336; 30.0-54.0; 50.0-110.0; 1
+Acer; Aspire 55s; API9802; 30.0-54.0; 50.0-120.0; 1
+Acer; Aspire 56s; API5338; 30.0-66.0; 50.0-110.0; 1
+Acer; Aspire 76is; API414C; 30.0-69.0; 50.0-110.0; 1
+Acer; Aspire 76is; API534C; 30.0-69.0; 50.0-110.0; 1
+Acer; Aspire 77is; API9707; 30.0-69.0; 50.0-110.0; 1
+Acer; Aspire 77s; API9803; 30.0-72.0; 50.0-120.0; 1
 Action Systems, Inc.; Action Monitor CA-1454; ACI0608; 30.0-54.0; 50.0-100.0; 1
 Action Systems, Inc.; Action Monitor CA-1570; ACI0622; 30.0-70.0; 50.0-120.0; 1
 Action Systems, Inc.; Action Monitor CH-1999; ACI1999; 30.0-99.0; 50.0-160.0; 1
@@ -2475,7 +2465,7 @@ LG Electronics Inc.; LG 1460DL; 1460dl; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1461D; 1461d; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1462DM; 1462dm; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1465DL; 1465dl; 48.4; 60.0; 1
-LG Electronics Inc.; LG 1465DLS; 1465dls; 48.4; 60.0; 1
+LG Electronics Inc.; LG 1465DLS/1468; GSM36BA; 30.0-54.0; 50.0-90.0; 1
 LG Electronics Inc.; LG 1466; 1466; 48.4; 60.0; 1
 LG Electronics Inc.; LG 1466DM; 1466dm; 48.4; 60.0; 1
 LG Electronics Inc.; LG 1466LR; 1466lr; 48.4; 60.0; 1
@@ -2484,37 +2474,677 @@ LG Electronics Inc.; LG 1467; 1467; 48.4; 60.0; 1
 LG Electronics Inc.; LG 1468; 1468; 48.4; 60.0; 1
 LG Electronics Inc.; LG 1485; 1485; 48.4; 60.0; 1
 LG Electronics Inc.; LG 1505; 1505; 37.5; 75.0; 1
-LG Electronics Inc.; LG 1505S; gsm3aa0; 48.4; 60.0; 1
+LG Electronics Inc.; LG 1505S; GSM3AA0; 30.0-54.0; 50.0-90.0; 1
 LG Electronics Inc.; LG 1515; 1515; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1520; 1520; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1520DM; 1520dm; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1527; 1527; 30.0-57.0; 50.0-110.0; 1
 LG Electronics Inc.; LG 1527; gsm3a9a; 30.0-57.0; 50.0-110.0; 1
-LG Electronics Inc.; LG L1710B(Digital); GSM4358; 30.0-71.0; 56.0-70.0
-LG Electronics Inc.; LG L1710B(Analog); GSM4356; 30.0-83.0; 56.0-70.0
 LG Electronics Inc.; LG 1725; 1725; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1725DM; 1725dm; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1725s; gsm42cf; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1727; 1727; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 1730DM; 1730dm; 30.0-82.0; 50.0-120.0; 1
-LG Electronics Inc.; LG L1730P(Digital); GSM439E; 30.0-71.0; 56.0-75.0
-LG Electronics Inc.; LG L1730P(Analog); GSM439D; 30.0-83.0; 56.0-75.0
+LG Electronics Inc.; LG 1771; GSM42F8; 30.0-70.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 2010; 2010; 30.0-85.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 285LT; GSM55F1; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 291U; GSM5215; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 295LM; GSM55F2; 30.0-94.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 500E; GSM3B65; 30.0-54.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 500G; GSM3B66; 30.0-54.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 500M; GSM3B38; 30.0-61.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 500N; GSM3B67; 30.0-54.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 501E; GSM3B51; 30.0-61.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 501S; GSM3B50; 30.0-61.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 505E; GSM3B83; 30.0-54.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 505G; GSM3B91; 30.0-54.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 55W; GSM3AD0; 30.0-54.0; 50.0-90.0; 1
+LG Electronics Inc.; LG 563A / 563N; GSM3B1B; 30.0-63.0; 50.0-120.0; 1
+LG Electronics Inc.; LG 563LE; GSM3B2F; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 563LS; GSM3B25; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 564LE; GSM3B4B; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 566LE; GSM3B60; 30.0-63.0; 50.0-75.0; 1
+LG Electronics Inc.; LG 566LM; GSM3B5D; 30.0-63.0; 50.0-75.0; 1
+LG Electronics Inc.; LG 568LM; GSM3B43; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 568LT; GSM3B5F; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 575E; GSM3B10; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 575LB / 575LE / 575MS; GSM3B34; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 575LC; GSM3B44; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 575LE; GSM3B02; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 575LM-2; GSM3B35; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 575LM; GSM3B03; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 575LS; GSM3B32; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 575MM; GSM3B07; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 575MS; GSM3B06; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 576LU; GSM3B08; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 577LH-2; GSM3B3D; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 577LH; GSM3B09; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 577LM-2; GSM3B3E; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 577LM; GSM3B0A; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 585E; GSM3B23; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 680LE; GSM3E81; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 700B; GSM430C; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 700E; GSM4317; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 700ME; GSM4335; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 700M; GSM4336; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 700P; GSM43B9; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 700S; GSM430B; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 701B; GSM432C; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 701S; GSM432B; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 702BE; GSM4398; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 702B; GSM434F; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 702S; GSM4350; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 710E; GSM437C; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 710S; GSM4378; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 771EF; GSM4305; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 772EF; GSM431F; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 772EF PLUS; GSM4345; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 772E; GSM4311; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 772EH PLUS; GSM4355; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 772G; GSM4316; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 773E; GSM42EF; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 773N; GSM42ED; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 774FT; GSM42DB; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 774FT PLUS; GSM437D; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 775E; GSM42E7; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 775FC; GSM42F5; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 775FT; GSM42D1; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 775FT PLUS; GSM4349; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 775N; GSM42B9; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 776FM; GSM42F1; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 777FN; GSM42F7; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 77E; GSM42E5; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 77G; GSM42E4; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 77SFN / 77SFT; GSM431A; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 781C; GSM4312; 30.0-86.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 782LE; GSM4327; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 782LM; GSM4341; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 782LS; GSM4351; 30.0-80.0; 56.0-75.0; 1
+LG Electronics Inc.; LG 786LS; GSM4353; 30.0-83.0; 55.0-75.0; 1
+LG Electronics Inc.; LG 787LE; GSM437E; 30.0-83.0; 50.0-75.0; 1
+LG Electronics Inc.; LG 78FT; GSM4298; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 793FT; GSM42EA; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 793FT PLUS; GSM42EB; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 795FT; GSM42DC; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 795FT PLUS/795FT SUPER; GSM42DD; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 870LE; GSM4657; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 882LE; GSM4656; 31.0-80.0; 58.0-120.0; 1
+LG Electronics Inc.; LG 882SL; GSM4654; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 885LE-2; GSM4655; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG 885LE; GSM4653; 31.0-80.0; 56.0-120.0; 1
+LG Electronics Inc.; LG 900B; GSM4A5B; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 900B Plus; GSM4A5C; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 901B; GSM4A68; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 910B; GSM4A7D; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 910E; GSM4A7E; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 910S; GSM4A7A; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 915FT PLUS; GSM4A4D; 30.0-107.0; 50.0-200.0; 1
+LG Electronics Inc.; LG 915FT SUPER (Analog); GSM4A63; 30.0-110.0; 50.0-200.0; 1
+LG Electronics Inc.; LG 915FT SUPER (Digital); GSM4A65; 30.0-92.0; 50.0-87.0; 1
+LG Electronics Inc.; LG 995FT PLUS; GSM4A5D; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 995SU; GSM4A55; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 99G; GSM4A54; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG CB910C; GSM4A40; 30.0-100.0; 50.0-200.0; 1
+LG Electronics Inc.; LG CF786C; GSM429F; 30.0-85.0; 50.0-120.0; 1
+LG Electronics Inc.; LG CS778DC; GSM42CA; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG CS788C; GSM42A9; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG CS788T; GSM4293; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG CS911; GSM4A4E; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG CS990DC; GSM4A50; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG CS990DE; GSM4A53; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG E700B; GSM4313; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG E700BH; GSM4352; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG E700BH/SH; GSM4389; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG E700S; GSM430D; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG E701S; GSM4340; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG E900B; GSM4A5E; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG E900P; GSM4A62; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG EB771D; GSM4323; 31.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T707B; GSM43F1; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T707S; GSM43F2; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T710BH; GSM4366; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T710MH; GSM43AD; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T710P; GSM4368; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T710PH; GSM4367; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T710PU; GSM437A; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T710S; GSM436C; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T710SH; GSM436B; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T711S; GSM4397; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T730B; GSM43BF; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T730BH; GSM43C2; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T730BH plus; GSM43C1; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T730PH; GSM43E2; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T730PU plus; GSM43CA; 30.0-85.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T730S; GSM43F8; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T730SH; GSM43CB; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T910B; GSM4A6D; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T910BH; GSM4A6E; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG ez T910BU; GSM4A6C; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F700B; GSM4344; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F700PD (Analog); GSM435A; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F700PD (Digital); GSM4359; 30.0-90.0; 50.0-87.0; 1
+LG Electronics Inc.; LG F700P; GSM434C; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F700PH; GSM435C; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F702B/710B; GSM437B; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F702P; GSM4379; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F702PU; GSM4387; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F710B; GSM436E; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F720B; GSM4396; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F720PD (Analog); GSM4394; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F720PD (Digital); GSM4393; 30.0-92.0; 50.0-87.0; 1
+LG Electronics Inc.; LG F720P; GSM4395; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F730B; GSM43C3; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F730BY; GSM43D7; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F730P; GSM43C4; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F900B; GSM4A66; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F900BL; GSM4A6A; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F900P; GSM4A67; 30.0-111.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F900PL; GSM4A6B; 30.0-111.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F920B; GSM4A95; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG F920P; GSM4A88; 30.0-111.0; 50.0-160.0; 1
+LG Electronics Inc.; LG L1510A; GSM3B69; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510BF; GSM3B7E; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510B; GSM3B5C; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510H; GSM3B70; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510M; GSM3B61; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510P (Analog); GSM3B62; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510P (Digital); GSM3B76; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510P Plus (Analog); GSM3B77; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510P Plus (Digital); GSM3B78; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510SF; GSM3B73; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510SG; GSM3B8D; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510S; GSM3B55; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1510T; GSM3B6A; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1511S; GSM3B59; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1511SK; GSM3B68; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1512S; GSM3B64; 30.0-63.0; 50.0-75.0; 1
+LG Electronics Inc.; LG L1515S; GSM3B7C; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1515SR; GSM3B94; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1516S; GSM3B85; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1520B; GSM3B80; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1520P (Analog); GSM3B8E; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1520P (Digital); GSM3B90; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1521B; GSM3BA6; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1530B (Analog); GSM3B96; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1530B (Digital); GSM3B97; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1530P (Analog); GSM3B98; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1530P (Digital); GSM3B99; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1530S; GSM3B95; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1530TM (Analog); GSM3B92; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1530TM (Digital); GSM3B93; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1550G; GSM3BAE; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1550S; GSM3BA7; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1710B (Analog); GSM4356; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1710B (Digital); GSM4358; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1710M; GSM4370; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1710P (Analog); GSM4384; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1710P (Digital); GSM4388; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1710S; GSM4357; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1711S; GSM4371; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1712T (Analog); GSM4443; 30.0-83.0; 50.0-75.0; 1
+LG Electronics Inc.; LG L1712T (Digital); GSM4444; 30.0-71.0; 50.0-75.0; 1
+LG Electronics Inc.; LG L1713P (Analog); GSM43AB; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1713P (Digital); GSM43AC; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1714SQ; GSM4400; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1715S; GSM436F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1715SR; GSM438B; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1716S; GSM4373; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1717S; GSM4404; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1718S; GSM443C; 30.0-83.0; 50.0-75.0; 1
+LG Electronics Inc.; LG L1719S; GSM4441; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1719SP; GSM444C; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L171WT; GSM43A6; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1720B; GSM4372; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720B Plus; GSM43BC; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720BQ; GSM4418; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720BU; GSM442E; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720P (Analog); GSM437F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720P (Digital); GSM4383; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720P Plus (Analog); GSM43BD; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720P Plus (Digital); GSM43BE; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720PQ (Analog); GSM4419; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1720PQ (Digital); GSM441A; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1721B; GSM43DF; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1722P (Analog); GSM43FD; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1722P (Digital); GSM43FE; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L172WA; GSM4390; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L172WT; GSM4385; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1730B (Analog); GSM438E; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1730B (Digital); GSM438F; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1730P (Analog); GSM439D; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1730P (Digital); GSM439E; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1730SF; GSM43D5; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1730S; GSM438D; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1730SY; GSM43D8; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732P (Analog); GSM441D; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732P (Digital); GSM441E; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732P Plus (Analog); GSM4459; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732P Plus (Digital); GSM445A; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732S; GSM4413; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732S PLUS; GSM444F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732TQ (Analog); GSM43E9; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732TQ (Digital); GSM43F9; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732TX (Analog); GSM4401; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1732TX (Digital); GSM440A; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L173SA (Analog); GSM43A9; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L173SA (Digital); GSM43AA; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L173ST (Analog); GSM43B0; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L173ST (Digital); GSM43B1; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L173WT (Analog); GSM43EC; 30.0-66.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L173WT (Digital); GSM43ED; 30.0-66.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740B; GSM43D4; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740B PLUS; GSM4450; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740BQ; GSM43E5; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740BU; GSM442F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740P (Analog); GSM43CF; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740P (Digital); GSM43D0; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740P Plus (Analog); GSM4451; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740P Plus (Digital); GSM4452; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740PQ (Analog); GSM43E6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1740PQ (Digital); GSM43E7; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750B (Analog); GSM4406; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750B (Digital); GSM4407; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750E; GSM4405; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750G; GSM43FF; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750H (Analog); GSM43CD; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750H (Digital); GSM43CE; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750HQ (Analog); GSM43EA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750HQ (Digital); GSM43EB; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750S; GSM43CC; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750SQ; GSM43E8; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750T (Analog); GSM4420; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1750T (Digital); GSM4421; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1751H (Analog); GSM43DA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1751H (Digital); GSM43DB; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1751S; GSM43D9; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1751SQ; GSM43F3; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752H (Analog); GSM443D; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752H (Digital); GSM443E; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752HM (Analog); GSM443F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752HM (Digital); GSM4440; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752HQ (Analog); GSM4457; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752HQ (Digital); GSM4458; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752S; GSM4432; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752T (Analog); GSM4433; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752T (Digital); GSM4434; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752TQ (Analog); GSM4453; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752TQ (Digital); GSM4454; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752TX (Analog); GSM4435; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1752TX (Digital); GSM4436; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1760SR; GSM445C; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1760TG (Analog); GSM4455; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1760TG (Digital); GSM4456; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1760TQ (Analog); GSM4446; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1760TQ (Digital); GSM4447; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1760TR (Analog); GSM445D; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1760TR (Digital); GSM445E; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1770H (Analog); GSM4425; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1770H (Digital); GSM4426; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1770HQ (Analog); GSM4408; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1770HQ (Digital); GSM4409; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1780Q (Analog); GSM43E0; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1780Q (Digital); GSM43E1; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1780Q Plus (Analog); GSM441B; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1780Q Plus (Digital); GSM441C; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1780U (Analog); GSM43BA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1780U (Digital); GSM43BB; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1781Q/U (Analog); GSM43DC; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1781Q/U (Digital); GSM43DD; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1800P (Analog); GSM4659; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1800P (Digital); GSM466C; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1800PK (Analog); GSM465E; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1800PK (Digital); GSM466E; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1800PM (Analog); GSM465C; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1800PM (Digital); GSM466D; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1800P Plus (Analog); GSM466A; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1800P Plus (Digital); GSM466B; 30.0-71.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1810A (Analog); GSM4661; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1810A (Digital); GSM4664; 30.0-71.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1810B (Analog); GSM465D; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1810B (Digital); GSM4668; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1810M (Analog); GSM4660; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1810M (Digital); GSM4663; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1810S; GSM465B; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1810T (Analog); GSM4666; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1810T (Digital); GSM4667; 30.0-71.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1810TS (Analog); GSM466F; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1810TS (Digital); GSM4670; 30.0-71.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L1811B (Analog); GSM465F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1811B (Digital); GSM4669; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1811S (Analog); GSM4662; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1811S (Digital); GSM4665; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1900E (Analog); GSM4AFF; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1900E (Digital); GSM4B00; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1900J (Analog); GSM4B01; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1900J (Digital); GSM4B02; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1900R (Analog); GSM4AFD; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1900R (Digital); GSM4AFE; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910BA (Analog); GSM4A9E; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910BA (Digital); GSM4A9F; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910B (Analog); GSM4A70; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910B (Digital); GSM4A71; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910BG (Analog); GSM4A7F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910BG (Digital); GSM4A80; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910BM (Analog); GSM4A74; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910BM (Digital); GSM4A75; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910P (Analog); GSM4A72; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910P (Digital); GSM4A73; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910PM (Analog); GSM4A76; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910PM (Digital); GSM4A77; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910SA; GSM4A9D; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910S; GSM4A78; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1910SM; GSM4A8A; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1912T (Analog); GSM4AF4; 30.0-83.0; 50.0-75.0; 1
+LG Electronics Inc.; LG L1912T (Digital); GSM4AF5; 30.0-71.0; 50.0-75.0; 1
+LG Electronics Inc.; LG L1913P (Analog); GSM4A8E; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1913P (Digital); GSM4A8F; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1915S; GSM4A90; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1915SV; GSM4A9B; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1917S; GSM4AC6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1919S; GSM4AF2; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1919SP; GSM4B07; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1920B; GSM4A84; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1920P (Analog); GSM4A7B; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1920P (Digital); GSM4A7C; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1920P Plus (Analog); GSM4A99; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1920P Plus (Digital); GSM4A9A; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1921B; GSM4AAD; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1922P (Analog); GSM4AC4; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1922P (Digital); GSM4AC5; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930B (Analog); GSM4A85; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930B (Digital); GSM4A86; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930BQ (Analog); GSM4A94; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930BQ (Digital); GSM4A96; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930P (Analog); GSM4A82; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930P (Digital); GSM4A83; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930PE (Analog); GSM4AA8; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930PE (Digital); GSM4AA9; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930S; GSM4A87; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1930SQ; GSM4A93; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932P (Analog); GSM4AD4; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932P (Digital); GSM4AD5; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932P Plus (Analog); GSM4B1C; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932P Plus (Digital); GSM4B1D; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932S; GSM4ACD; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932S PLUS; GSM4B12; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932TQ (Analog); GSM4AB6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932TQ (Digital); GSM4AB7; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932TX (Analog); GSM4AE3; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1932TX (Digital); GSM4AE4; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L193SA (Analog); GSM4A8C; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L193SA (Digital); GSM4A8D; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L193ST (Analog); GSM4A91; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L193ST (Digital); GSM4A92; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940B; GSM4AA6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940B PLUS; GSM4B13; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940BQ; GSM4AD2; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940P (Analog); GSM4AA4; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940P (Digital); GSM4AA5; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940P Plus (Analog); GSM4B14; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940P Plus (Digital); GSM4B15; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940PQ (Analog); GSM4AD0; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1940PQ (Digital); GSM4AD1; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L194WT (Analog); GSM4B05; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L194WT (Digital); GSM4B06; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L194WTM (Analog); GSM4B0C; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L194WTM (Digital), GSM4B0D; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L194WTQ (Analog); GSM4B0E; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L194WTQ (Digital); GSM4B0F; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950B (Analog); GSM4AC8; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950B (Digital); GSM4AC9; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950E; GSM4AC7; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950G; GSM4ABE; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950H (Analog); GSM4AA2; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950H (Digital); GSM4AA3; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950S; GSM4AA1; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950SQ; GSM4AD3; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950T (Analog); GSM4ACA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1950T (Digital); GSM4ACB; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1951H (Analog); GSM4AAB; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1951H (Digital); GSM4AAC; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1951S; GSM4AAA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1951SQ; GSM4AD6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952H (Analog); GSM4AEC; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952H (Digital); GSM4AED; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952HM (Analog); GSM4AEE; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952HM (Digital); GSM4AEF; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952HQ (Analog); GSM4B08; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952HQ (Digital); GSM4B09; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952S; GSM4AE0; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952T (Analog); GSM4AE1; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952T (Digital); GSM4AE2; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952TQ (Analog); GSM4B16; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952TQ (Digital); GSM4B17; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952TX (Analog); GSM4AE6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1952TX (Digital); GSM4AE7; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1960TG (Analog); GSM4B18; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1960TG (Digital); GSM4B19; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1960TQ (Analog); GSM4AF9; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1960TQ (Digital); GSM4AFA; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1960TR (Analog); GSM4B20; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1960TR (Digital); GSM4B21; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1970H (Analog); GSM4ADB; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1970H (Digital); GSM4ADC; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1970HQ (Analog); GSM4AD7; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1970HQ (Digital); GSM4AD8; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1970HR (Analog); GSM4AE8; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1970HR (Digital); GSM4AE9; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1980Q (Analog); GSM4AB2; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1980Q (Digital); GSM4AB3; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1980Q Plus (Analog); GSM4ACE; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1980Q Plus (Digital); GSM4ACF; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1980U (Analog); GSM4A97; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1980U (Digital); GSM4A98; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1981Q/U (Analog); GSM4AAE; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1981Q/U (Digital); GSM4AAF; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1982U (Analog); GSM4B0A; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L1982U (Digital); GSM4B0B; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000C (Analog); GSM4E39; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000C (Digital); GSM4E3A; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CE (Analog); GSM4E41; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CE (Digital); GSM4E42; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CEM (Analog); GSM4E43; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CEM (Digital); GSM4E44; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CM (Analog); GSM4E45; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CM (Digital); GSM4E46; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CN (Analog); GSM4E52; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2000CN (Digital); GSM4E53; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2010B (Analog) GSM4E2A; 28.0-92.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2010B (Digital); GSM4E2B; 28.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2010P (Analog); GSM4E27; 30.0-96.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2010P (Digital); GSM4E28; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2010T (Analog); GSM4E35; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2010T (Digital); GSM4E36; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2012P (Analog); GSM4E37; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2012P (Digital); GSM4E38; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2013P (Analog); GSM4E2E; 28.0-92.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2013P (Digital); GSM4E2F; 28.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L203WT (Analog); GSM4E3D; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L203WT (Digital); GSM4E3E; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L203WTX (Analog); GSM4E3F; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L203WTX (Digital); GSM4E40; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2040P (Analog); GSM4E30; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2040P (Digital); GSM4E31; 28.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L204WT (Analog); GSM4E47; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L204WT (Digital); GSM4E48; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L204WTM (Analog); GSM4E49; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L204WTM (Digital); GSM4E4A; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L204WTQ (Analog); GSM4E4B; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L204WTQ (Digital); GSM4E4C; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2300B (Analog); GSM5611; 30.0-92.0; 57.0-85.0; 1
+LG Electronics Inc.; LG L2300B (Digital); GSM5612; 30.0-75.0; 57.0-63.0; 1
+LG Electronics Inc.; LG L2300C (Analog); GSM5613; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2300C (Digital); GSM5614; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2320A (ANALOG); GSM55F5; 30.0-96.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2320A (DVI-D); GSM55F7; 30.0-71.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2320A (DVI-I); GSM55F6; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2320T (ANALOG); GSM55F8; 30.0-96.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2320T (DVI-D); GSM55FA; 30.0-71.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2320T (DVI-I); GSM55F9; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L2323T (Analog); GSM55FD; 30.0-66.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L2323T (Digital); GSM55FE; 30.0-66.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L245WP (Analog); GSM5623; 28.0-84.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L245WP (Digital); GSM5624; 28.0-84.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L245WPM (Analog); GSM562B; 28.0-84.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L245WPM (Digital); GSM562C; 28.0-84.0; 56.0-75.0; 1
+LG Electronics Inc.; LG L3000A (Analog); GSM7531; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3000A (Digital); GSM7532; 30.0-63.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3000H (Analog); GSM7537; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3000H (Digital); GSM7538; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3010T (Analog); GSM753B; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3010T (Digital); GSM753C; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3020A (Analog); GSM7535; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3020A (Digital); GSM7536; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3020AL/T (Analog); GSM7533; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3020AL/T (Digital); GSM7534; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3200A (Analog); GSM754F; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3200A (Digital); GSM7550; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3200T (Analog); GSM7549; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3200T (Digital); GSM754A; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3700A (Analog); GSM754D; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3700A (Digital); GSM754E; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3700T (Analog); GSM7547; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L3700T (Digital); GSM7548; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L4200A (Analog); GSM9C41; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L4200A (Digital); GSM9C42; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L4200T (Analog); GSM9C43; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG L4200T (Digital); GSM9C44; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG LB500; GSM3B6F; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LB563B; GSM3B3A; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LG777; GSM4320; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LGIBM 1510TFT; GSM3B5A; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 1510TXW; GSM3B6B; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 1520TFT; GSM3B9C; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 1710TFT (Analog); GSM4360; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 1710TFT (Digital); GSM4364; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 1711TFT; GSM4376; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 1770X; GSM431C; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LGIBM 1771FT; GSM42D3; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LGIBM 1771FT PLUS; GSM434D; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LGIBM 1771FXW; GSM4330; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LGIBM 1771X; GSM4380; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LGIBM 1772 SUPER; GSM4342; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LGIBM 1910TFT (Digital); GSM4A89; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 568TXW; GSM3B49; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 571TFT; GSM3B2D; 31.0-61.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LGIBM 871TFT; GSM465A; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG LN777F; GSM431D; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LPL-22W03 (Analog); GSM55FB; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG LPL-22W03 (Digital); GSM55FC; 30.0-64.0; 60.0-60.0; 1
+LG Electronics Inc.; LG LS773; GSM4318; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG LX151; GSM3BA2; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX151M; GSM3BA3; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX152; GSM3BAA; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1717; GSM4415; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX171D (Analog); GSM43C5; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX171D (Digital); GSM43C6; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX171; GSM43C7; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1721; GSM43DE; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX172; GSM43C9; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX174D (Analog); GSM43F4; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX174D (Digital); GSM43F5; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1751QD (Analog); GSM43FB; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1751QD (Digital); GSM43FC; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1751Q; GSM43FA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX178QD (Analog); GSM43EE; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX178QD (Digital); GSM43EF; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX191D (Analog); GSM4A9C; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX191D (Digital); GSM4AB0; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX191; GSM4ABA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1921; GSM4AB1; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX194D (Analog); GSM4ABB; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX194D (Digital); GSM4ABC; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1951D (Analog); GSM4AC2; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1951D (Digital); GSM4AC3; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX1951; GSM4AC0; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX198QD (Analog); GSM4AB8; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX198QD (Digital); GSM4AB9; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX20D (Analog); GSM4E4E; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX20D (Digital); GSM4E4F; 28.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX713D (Analog); GSM4416; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX713D (Digital); GSM4417; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX732J; GSM4442; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX74Q; GSM442A; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX752D (Analog); GSM444A; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX752D (Digital); GSM444B; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX752; GSM4445; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX77D (Analog); GSM443A; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX77D (Digital); GSM443B; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX932J; GSM4AF3; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX952D (Analog); GSM4B03; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX952D (Digital); GSM4B04; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX952; GSM4AF8; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX97D (Analog); GSM4AEA; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG LX97D (Digital); GSM4AEB; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1510A; GSM3BA5; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1510S; GSM3BAB; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1710A; GSM43D6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1710S; GSM43F6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1717A; GSM4424; 30.0-70.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1717S; GSM441F; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1717TM (Analog); GSM442C; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1717TM (Digital); GSM442D; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M173WA (Analog); GSM43D1; 30.0-66.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M173WA (Digital); GSM43D2; 30.0-66.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1740A (Analog); GSM43E3; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1740A (Digital); GSM43E4; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1910A; GSM4AA7; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1910S; GSM4ABF; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1917A; GSM4ADA; 30.0-70.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1917S; GSM4AD9; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1917TM (Analog); GSM4ADD; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1917TM (Digital); GSM4ADE; 30.0-71.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1940A (Analog); GSM4AB4; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M1940A (Digital); GSM4AB5; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M203WA (Analog); GSM4E3B; 28.0-83.0; 55.0-75.0; 1
+LG Electronics Inc.; LG M203WA (Digital); GSM4E3C; 28.0-83.0; 55.0-75.0; 1
+LG Electronics Inc.; LG M203WX (Analog); GSM4E2C; 28.0-83.0; 55.0-75.0; 1
+LG Electronics Inc.; LG M203WX (Digital); GSM4E2D; 28.0-83.0; 55.0-75.0; 1
+LG Electronics Inc.; LG M2040A (Analog); GSM4E32; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M2040A (Digital); GSM4E33; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG M2343A (Analog); GSM5615; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M2343A (Digital); GSM5616; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3200C (Analog); GSM7551; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3200C (Digital); GSM7552; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3201C (Analog); GSM7579; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3201C (Digital); GSM757A; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3700C (Analog); GSM7555; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3700C (Digital); GSM7556; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3701C (Analog); GSM757B; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M3701C (Digital); GSM757C; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M4200C (Analog); GSM9C49; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M4200C (Digital); GSM9C4A; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M4201C (Analog); GSM9C5F; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M4201C (Digital); GSM9C60; 30.0-72.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M4600C (Analog); GSM9C4B; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M4600C (Digital); GSM9C4C; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M5500C (Analog); GSMC353; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG M5500C (Digital); GSMC354; 30.0-83.0; 56.0-85.0; 1
+LG Electronics Inc.; LG MX172WT; GSM43F0; 30.0-66.0; 56.0-85.0; 1
+LG Electronics Inc.; LG MX94D (Analog); GSM4AF6; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG MX94D (Digital); GSM4AF7; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG N2200P; GSM55F3; 30.0-124.0; 50.0-160.0; 1
+LG Electronics Inc.; LG RM151; GSM3B86; 30.0-63.0; 56.0-75.0, 1
 LG Electronics Inc.; LG StudioWorks 20i; gsm4e21; 30.0-85.0; 50.0-120.0; 1
-LG Electronics Inc.; LG Studioworks28i; sw28i; 30.0-85.0; 50.0-120.0; 1
+LG Electronics Inc.; LG StudioWorks 28i; sw28i; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 44i; gsm36b9; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 44m; gsm36b4; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 45i; gsm36bb; 30.0-54.0; 50.0-90.0; 1
+LG Electronics Inc.; LG StudioWorks 500LC; GSM3ACE; 31.0-61.0; 56.0-75.0; 1
 LG Electronics Inc.; LG StudioWorks 54m; gsm3aa9; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 550m; CXO0f0f; 30.0-54.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 55i; gsm3abd; 30.0-54.0; 50.0-90.0; 1
+LG Electronics Inc.; LG StudioWorks 560LS; GSM3B1A; 31.0-61.0; 56.0-75.0; 1
 LG Electronics Inc.; LG StudioWorks 56i; gsm3aa8; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 56m; gsm3aa2; 30.0-65.0; 50.0-110.0; 1
 LG Electronics Inc.; LG StudioWorks 56T; gsm3aaf; 30.0-65.0; 50.0-120.0; 1
+LG Electronics Inc.; LG StudioWorks 570LE; GSM3AF2; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG StudioWorks 570LS; GSM3AF3; 31.0-69.0; 56.0-85.0; 1
+LG Electronics Inc.; LG StudioWorks 575N; GSM3AE1; 30.0-70.0; 50.0-160.0; 1
 LG Electronics Inc.; LG StudioWorks 5D; gsm3ab6; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 74i; gsm4278; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 74m; gsm4277; 30.0-50.0; 50.0-90.0; 1
-LG Electronics Inc.; LG StudioWorks74m; sw74m; 30.0-50.0; 50.0-90.0; 1
+LG Electronics Inc.; LG StudioWorks 74m; sw74m; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 76i; gsm426e; 30.0-65.0; 50.0-110.0; 1
 LG Electronics Inc.; LG StudioWorks 76m; gsm4273; 30.0-65.0; 50.0-110.0; 1
 LG Electronics Inc.; LG StudioWorks 76T; gsm4284; 30.0-65.0; 50.0-120.0; 1
@@ -2522,10 +3152,28 @@ LG Electronics Inc.; LG StudioWorks 78D; gsm427f; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78DT; gsm4280; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78i; gsm426c; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78m; gsm4274; 30.0-85.0; 50.0-120.0; 1
-LG Electronics Inc.; LG StudioWorks78T; gsm426b; 30.0-85.0; 50.0-120.0; 1
+LG Electronics Inc.; LG StudioWorks 78T; gsm426b; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78T; gsm426d; 30.0-85.0; 50.0-120.0; 1
-LG Electronics Inc.; LG StudioWorks 7D; gsm427e; 30.0-65.0; 50.0-120.0; 1
+LG Electronics Inc.; LG StudioWorks 7D; GSM427E; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 7DT; gsm4281; 30.0-65.0; 50.0-120.0; 1
+LG Electronics Inc.; LG StudioWorks 880LC; GSM4658; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG T530B; GSM3BA8; 30.0-54.0; 50.0-120.0; 1
+LG Electronics Inc.; LG T530S; GSM3BA9; 30.0-54.0; 50.0-120.0; 1
+LG Electronics Inc.; LG T705B; GSM43A2; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG T705BH; GSM43A4; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG T705S; GSM43A1; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG T705SH; GSM43A3; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG T710B; GSM4365; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG T711B; GSM43A7; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG T730BG; GSM43C0; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG TX171; GSM43C8; 30.0-71.0; 50.0-160.0; 1
+LG Electronics Inc.; LG TX191; GSM4ABD; 30.0-98.0; 50.0-160.0; 1
+LG Electronics Inc.; LG WS771A; GSM42F2; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG WS771B; GSM42F3; 30.0-70.0; 50.0-160.0; 1
+LG Electronics Inc.; LG Zenith 515Z; GSM3BAC; 30.0-63.0; 56.0-75.0; 1
+LG Electronics Inc.; LG Zenith 715Z; GSM43F7; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG Zenith 721Z; GSM440B; 30.0-83.0; 56.0-75.0; 1
+LG Electronics Inc.; LG Zenith 921Z; GSM4ACC; 30.0-83.0; 56.0-75.0; 1
 Link Computer, Inc.; Link Computer CE-8; ce-8; 15.5-38.0; 50.0-90.0; 1
 Link Computer, Inc.; Link Computer CM-3; cm-3; 15.5-36.0; 50.0-70.0; 1
 Lite-On; Lite-On 1570; ltn1570; 30.0-70.0; 50.0-120.0; 1
@@ -2923,6 +3571,7 @@ NEC; NEC AccuSync LCD5V; NEC6615; 30.0-63.0; 55.0-76.0; 1
 NEC; NEC AccuSync LCD7V; NEC6617; 30.0-83.0; 55.0-76.0; 1
 NEC; NEC AccuSync LCD9V; NEC6619; 31.0-84.0; 56.0-75.0; 1
 NEC; NEC AccuSync LCD200VX; NEC665C; 31.0-95.0; 56.0-85.0; 1
+NEC; NEC CI A727; GSM5011; 30.0-70.0; 50.0-160.0; 1
 NEC; NEC C510; necea6b; 30.0-70.0; 50.0-120.0; 1
 NEC; NEC C550; necea65; 30.0-70.0; 50.0-90.0; 1
 NEC; NEC C700; necea67; 30.0-70.0; 50.0-90.0; 1
@@ -2947,6 +3596,7 @@ NEC; NEC F14T2H; nec00dc; 31.0-61.0; 59.0-76.0; 1
 NEC; NEC F14T2L; nec00e6; 31.0-61.0; 59.0-76.0; 1
 NEC; NEC F14T2; nec00b4; 30.0-63.0; 60.0-75.0; 1
 NEC; NEC F15T1; nec00d2; 31.0-61.0; 59.0-76.0; 1
+NEC; NEC F727; NCI5015; 31.0-70.0; 50.0-160.0; 1
 NEC; NEC LCD1280; 0; 29.5-33.5; 60.0-62.0; 1
 NEC; NEC LCD200; nec2fb2; 24.0-62.0; 53.0-85.0; 1
 NEC; NEC LCD300; 0; 30.8-38.0; 55.0-72.8; 1
@@ -3201,6 +3851,7 @@ Nokia; Nokia 800PRO; nok1802; 30.0-82.0; 55.0-86.0; 1
 Nokia; Nokia 800PRO; nok1803; 31.0-65.0; 58.0-62.0; 1
 Nokia; Nokia 800XA/820L; nok1801; 24.0-80.0; 56.0-75.0; 1
 Nokia; Nokia 800Xi; nok1800; 24.0-80.0; 56.0-75.0; 1
+OKI; Oki GD1203; OKI04B3; 31.0-61.0; 56.0-75.0; 1
 Olivetti; Olivetti DSM 25-314 P-Y; dsm25-314p-y; 31.5; 60.0-70.0; 1
 Olivetti; Olivetti DSM 26-314 LE; dsm26-314le; 31.5; 60.0-70.0; 1
 Olivetti; Olivetti DSM 27-039; dsm27-039; 35.5; 87.0; 1
