@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213
+Version: 0.214
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -36,6 +36,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Fri Jan 18 2008 Karsten Hopp <karsten@redhat.com> 0.214-1
+- remove MonitorsDB.generic as it isn't used anywhere
+- drop RHEL-5 blacklist patch in -devel
+
 * Tue Jan 15 2008 Karsten Hopp <karsten@redhat.com> 0.213-1
 - add many monitor entries (Im Sza, #367111)
 
