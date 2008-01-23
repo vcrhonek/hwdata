@@ -19,7 +19,7 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers
+FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers oui.txt
 
 .PHONY: all install tag force-tag check create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 

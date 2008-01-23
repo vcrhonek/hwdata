@@ -39,6 +39,10 @@ rm -rf $RPM_BUILD_ROOT
 * Tue Jan 29 2008 Phil Knirsch <pknirsch@redhat.com> 0.215-1
 - Pull new upstream pci.ids
 
+* Wed Jan 23 2008 Karsten Hopp <karsten@redhat.com> 0.215-1
+- add HP W2207 monitor
+- add oui.txt, a list of bluetooth device makers
+
 * Fri Jan 18 2008 Karsten Hopp <karsten@redhat.com> 0.214-1
 - remove MonitorsDB.generic as it isn't used anywhere
 - drop RHEL-5 blacklist patch in -devel
