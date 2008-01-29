@@ -11,7 +11,7 @@
 #	This file can be distributed under either the GNU General Public License
 #	(version 2 or higher) or the 3-clause BSD License.
 #
-#	Daily snapshot on Fri 2008-01-11 02:05:01
+#	Daily snapshot on Mon 2008-01-28 02:05:01
 #
 
 # Vendors, devices and subsystems. Please keep sorted.
@@ -3359,6 +3359,7 @@
 	6312  SP202-based 2Gb Fibre Channel to PCI-X HBA
 	6322  SP212-based 2Gb Fibre Channel to PCI-X HBA
 	7220  IBA7220 InfiniBand HCA
+	8432  10GbE FCoE to PCI Express Converged Network Adapter (CNA)
 1078  Cyrix Corporation
 	0000  5510 [Grappa]
 	0001  PCI Master
@@ -6796,6 +6797,7 @@
 	0015  CMIC-GC Host Bridge
 	0016  CMIC-GC Host Bridge
 	0017  GCNB-LE Host Bridge
+	0031  HT1100 HPX0 HT Host Bridge
 	0036  BCM5785 [HT1000] PCI/PCI-X Bridge
 	0101  CIOB-X2 PCI-X I/O Bridge
 	0103  EPB PCI-Express to PCI-X Bridge
@@ -6825,6 +6827,7 @@
 	0214  BCM5785 [HT1000] IDE
 	0217  CSB6 IDE Controller
 		1028 4134  Poweredge SC600
+	021b  HT1100 HD Audio
 	0220  OSB4/CSB5 OHCI USB Controller
 		4c53 1080  CT8 mainboard
 	0221  CSB6 OHCI USB Controller
@@ -6844,6 +6847,17 @@
 	024a  BCM5785 [HT1000] SATA (Native SATA Mode)
 # The device starts as 024A, and changes to 024B if set to PATA mode in BIOS
 	024b  BCM5785 [HT1000] SATA (PATA/IDE Mode)
+	0406  HT1100 PCI-X Bridge
+	0408  HT1100 Legacy Device
+	040a  HT1100 ISA-LPC Bridge
+	0410  HT1100 SATA Controller (Native SATA Mode)
+	0411  HT1100 SATA Controller (PATA / IDE Mode)
+	0412  HT1100 USB OHCI Controller
+	0414  HT1100 USB EHCI Controller
+	0416  HT1100 USB EHCI Controller (with Debug Port)
+	0420  HT1100 PCI-Express Bridge
+	0421  HT1100 SAS/SATA Controller
+	0422  HT1100 PCI-Express Bridge
 1167  Mutoh Industries Inc
 1168  Thine Electronics Inc
 1169  Centre for Development of Advanced Computing
@@ -10435,9 +10449,12 @@
 	6279  MT25208 [InfiniHost III Ex HCA Flash Recovery]
 	6282  MT25208 InfiniHost III Ex
 	6340  MT25408 [ConnectX IB SDR]
-	634a  MT25418 [ConnectX IB DDR]
+	634a  MT25418 [ConnectX IB DDR, PCIe 2.0 2.5GT/s]
 	6354  MT25428 [ConnectX IB QDR]
-	6368  MT25448 [ConnectX EN 10GigE]
+	6368  MT25448 [ConnectX EN 10GigE, PCIe 2.0 2.5GT/s]
+	6732  MT26418 [ConnectX IB DDR, PCIe 2.0 5GT/s]
+	673c  MT26428 [ConnectX IB QDR, PCIe 2.0 5GT/s]
+	6750  MT26448 [ConnectX EN 10GigE, PCIe 2.0 5GT/s]
 15b4  CCI/TRIAD
 15b5  Cimetrics Inc
 15b6  Texas Memory Systems Inc
@@ -11848,10 +11865,10 @@
 		8086 0075  PRO/1000 CT Network Connection
 		8086 1075  PRO/1000 CT Network Connection
 	1076  82541GI Gigabit Ethernet Controller
-		1028 0165  PowerEdge 750
-		1028 016d  PowerEdge 1850
-		1028 019a  PowerEdge SC1425
-		1028 106d  PowerEdge 1850
+		1028 0165  PRO/1000 MT Network Connection
+		1028 016d  PRO/1000 MT Network Connection
+		1028 019a  PRO/1000 MT Network Connection
+		1028 106d  PRO/1000 MT Network Connection
 		8086 0076  PRO/1000 MT Network Connection
 		8086 1076  PRO/1000 MT Network Connection
 		8086 1176  PRO/1000 MT Desktop Adapter
@@ -13821,6 +13838,62 @@
 	360e  7300 Chipset Debug and Miscellaneous Registers
 	360f  7300 Chipset FBD Branch 0 Registers
 	3610  7300 Chipset FBD Branch 1 Registers
+	3a00  4 port SATA IDE Controller
+	3a01  2 port SATA IDE Controller
+	3a02  6 port SATA AHCI Controller
+	3a03  4 port SATA AHCI Controller
+	3a05  SATA RAID Controller
+	3a06  2 port SATA IDE Controller
+	3a10  LPC Interface Controller
+	3a14  LPC Interface Controller
+	3a16  LPC Interface Controller
+	3a18  LPC Interface Controller
+	3a1a  LPC Interface Controller
+	3a1e  LPC Interface Controller
+	3a20  4 port SATA IDE Controller
+	3a21  2 port SATA IDE Controller
+	3a22  6 port SATA AHCI Controller
+	3a23  4 port SATA AHCI Controller
+	3a25  SATA RAID Controller
+	3a26  2 port SATA IDE Controller
+	3a30  SMBus Controller
+	3a32  Thermal Subsystem
+	3a34  USB UHCI Controller #1
+	3a35  USB UHCI Controller #2
+	3a36  USB UHCI Controller #3
+	3a37  USB UHCI Controller #4
+	3a38  USB UHCI Controller #5
+	3a39  USB UHCI Controller #6
+	3a3a  USB EHCI Controller #1
+	3a3c  USB EHCI Controller #2
+	3a3e  HD Audio Controller
+	3a40  PCI Express Port 1
+	3a42  PCI Express Port 2
+	3a44  PCI Express Port 3
+	3a46  PCI Express Port 4
+	3a48  PCI Express Port 5
+	3a4a  PCI Express Port 6
+	3a4c  Gigabit Ethernet Controller
+	3a51  VECI Controller
+	3a55  Virtual SATA Contoller
+	3a60  SMBus Controller
+	3a62  Thermal Subsystem
+	3a64  USB UHCI Controller #1
+	3a65  USB UHCI Controller #2
+	3a66  USB UHCI Controller #3
+	3a67  USB UHCI Controller #4
+	3a68  USB UHCI Controller #5
+	3a69  USB UHCI Controller #6
+	3a6a  USB EHCI Controller #1
+	3a6c  USB EHCI Controller #2
+	3a6e  HD Audio Controller
+	3a70  PCI Express Port 1
+	3a72  PCI Express Port 2
+	3a74  PCI Express Port 3
+	3a76  PCI Express Port 4
+	3a78  PCI Express Port 5
+	3a7a  PCI Express Port 6
+	3a7c  Gigabit Ethernet Controller
 	4000  5400 Chipset Memory Controller Hub
 	4001  5400 Chipset Memory Controller Hub
 	4003  5400 Chipset Memory Controller Hub
