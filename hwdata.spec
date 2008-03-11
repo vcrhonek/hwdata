@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213.2
+Version: 0.213.3
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -36,6 +36,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue Mar 11 2008 Karsten Hopp <karsten@redhat.com> 0.213.3-1
+- Pull new upstream pci.ids, usb.ids
+- remove iwl4965 from modprobe blacklist
+
 * Wed Jan 30 2008 Phil Knirsch <pknirsch@redhat.com> 0.213.2-1
 - Revert MonitorsDB to proper version
 - Resolves: #300831

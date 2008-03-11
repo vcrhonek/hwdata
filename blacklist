@@ -35,5 +35,3 @@ blacklist vga16fb
 blacklist hisax
 blacklist hisax_fcpcipnp
 
-# don't load iwl4965 by default, bug 245379
-blacklist iwl4965
