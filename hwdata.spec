@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.216
+Version: 0.217
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -36,6 +36,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue Apr 01 2008 Karsten Hopp <karsten@redhat.com> 0.217-1
+- update pci.ids, oui.txt
+- update usb.ids, fixes #439963
+- add HP w1907 LCD monitor, fixes #431359
+- fix many monitor entries (Stanislav Ievlev, #430276)
+
+
 * Wed Mar 03 2008 Karsten Hopp <karsten@redhat.com> 0.216-1
 - update pci.ids, usb.ids (#431658)
 
