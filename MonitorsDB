@@ -88,7 +88,6 @@ Acer; Acer AL511; ABO5581; 24.0-60.0; 56.0-75.0
 Acer; Acer AL513; ACR02A6; 30.0-60.0; 50.0-75.0; 1
 Acer; Acer AL532; ACR0214; 31.0-60.0; 56.0-75.0; 1
 Acer; Acer AL702; ACR7204; 31.5.0-81.0; 56.3.0-75.0
-Acer; Acer AL702; LTN0210; 31.0-91.0; 56.0-85.0; 1
 Acer; Acer AL707; ACRA707; 30.0-83.0; 55.0-75.0; 1
 Acer; Acer AL711; ABO6781; 24.0-80.0; 56.0-75.0; 1
 Acer; Acer AL712; ABO7772; 24.0-80.0; 56.0-75.0; 1
@@ -299,7 +298,7 @@ ADI; ADI MicroScan 4V; adi0740; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0750; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0755; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0940; 30-64; 50-100; 1
-ADI; ADI MicroScan 4V; adi4v; 30.0-64.0; 50.0-95.0; 1
+ADI; ADI MicroScan 4V; adi4v; 30-64; 50-100.0; 1
 ADI; ADI MicroScan 5AP; adi5ap; 30-64; 50-100; 1
 ADI; ADI MicroScan 5EP; adi5ep; 30-64; 50-100; 1
 ADI; ADI MicroScan 5G; adi1550; 30.0-95.0; 50.0-120.0; 1
@@ -421,7 +420,7 @@ ADI; ADI MicroScan A600; adi5D10; 31.0-61.0; 56.0-75.0; 1
 ADI; ADI MicroScan A610; adi6450; 31.0-61.0; 56.0-75.0; 1
 ADI; ADI MicroScan E50; adi2E30; 30.0-70.0; 50.0-120.0; 1
 ADI; ADI MicroScan E66; adi8930; 30.0-96.0; 50.0-160.0; 1
-ADI; ADI MicroScan E66; adi3E30; 30.0-96.0; 50.0-155.0; 1
+ADI; ADI MicroScan E66; adi3E30; 30.0-96.0; 50.0-160.0; 1
 ADI; ADI MicroScan E75; adi5230; 30.0-86.0; 50.0-160.0; 1
 ADI; ADI MicroScan F520; adi9830; 30.0-70.0; 50.0-160.0; 1
 ADI; ADI MicroScan F720; adi9530; 30.0-70.0; 50.0-160.0; 1
@@ -460,7 +459,7 @@ AOC; AOC SPECTRUM 5Elr & 5ElrA & 5E & 5EA; aocd556; 30.0-54.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Glr & 5GlrA & 5Glr+ & 5GlrA+; aoc569e; 30.0-69.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Glr; aoce570; 30.0-64.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Llr & 5LlrA; aocc564; 30.0-64.0; 50.0-90.0; 1
-AOC; AOC SPECTRUM 5Nlr; aoca566; 30.0-66.0; 50.0-100.0; 1
+AOC; AOC LM560; aoca566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 5Nlr; aoca569; 30.0-69.0;50.0-120; 1
 AOC; AOC SPECTRUM 5Vlr & 5VlrA; aocd566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 7Clr; aocf764; 30.0-64.0; 47.0-100.0; 1
@@ -1105,33 +1104,33 @@ CTX; CTX VL410; ctx3450; 30.0-54.0; 50.0-110.0; 1
 CTX; CTX VL410; ctx3451; 30.0-54.0; 50.0-110.0; 1
 CTX; CTX VL410; ctx3455; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL410; ctx3456; 30.0-55.0; 50.0-110.0; 1
-CTX; CTX VL500 series, MS500 series; ctx0150; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3520; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3521; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3550; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3560; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3571; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3572; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3575; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3576; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5002; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5690; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5695; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5696; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5698; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5699; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz); ctx0150; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (160 Hz); ctx3520; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL500 series, MS500 series (160 Hz); ctx3521; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx3550; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx3560; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (130 Hz); ctx3571; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL500 series, MS500 series (130 Hz); ctx3572; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz; ctx3575; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz; ctx3576; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx5002; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx5690; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz); ctx5695; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz; ctx5696; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (160 Hz); ctx5696; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz); ctx5699; 30.0-70.0; 50.0-120.0; 1
 CTX; CTX VL510 series, PL5 series; ctx3580; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL510 series, PL5 series; ctx3590; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL510 series, PL5 series; ctx5655; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL700; ctx3615; 30.0-65.0; 50.0-120.0; 1
-CTX; CTX VL700; ctx3621; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3620; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3650; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3651; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3655; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3656; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx7694; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx7695; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 (Win); ctx3621; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (120 Hz); ctx3620; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (130 Hz); ctx3650; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (130 Hz); ctx3651; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx3655; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx3656; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx7694; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx7695; 30.0-70.0; 50.0-160.0; 1
 CTX; CTX VL705; ctx3675; 30.0-85.0; 50.0-160.0; 1
 CTX; CTX VL710 series; ctx3680; 30.0-95.0; 50.0-160.0; 1
 CTX; CTX VL710 series; ctx3683; 30.0-95.0; 50.0-160.0; 1
@@ -1551,7 +1550,7 @@ Eizo Nanao; Eizo F980; enc1603; 30.0-137.0; 50.0-160.0; 1
 Eizo Nanao; Eizo L351; enc1616; 30.0-50.0; 59.0-61.0; 1
 Eizo Nanao; Eizo L371D; enc1617; 27.0-65.0; 59.0-61.0; 1
 Eizo Nanao; Eizo L371; enc1618; 27.0-61.0; 50.0-75.0; 1
-Eizo Nanao; Eizo L568; enc1733; 31.0-64.0; 59.0-61.0; 1
+Eizo Nanao; Eizo L568D; enc1733; 31.0-64.0; 59.0-61.0; 1
 Eizo Nanao; Eizo L568; enc1734; 24.0-80.0; 50.0-75.0; 1
 Eizo Nanao; Eizo L771; enc1622; 27.0-81.0; 50.0-75.0; 1
 Eizo Nanao; Eizo T550; enc1600; 30.0-82.0; 50.0-160.0; 1
@@ -1706,22 +1705,22 @@ Gateway; Gateway EV500; gwy138b; 31-69; 50-110; 1
 Gateway; Gateway EV500; gwy138c; 31-69; 50-110; 1
 Gateway; Gateway EV500B; gwy1390; 30.0-70.0; 50.0-160.0; 1
 Gateway; Gateway EV500; gwy5005; 31-69; 50-110; 1
-Gateway; Gateway EV500; gwy1393; 30.0-70.0; 50.0-120.0; 1
+Gateway; Gateway EV500 (Variant 2); gwy1393; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV530; gwy1394; 30.0-56.0; 50.0-120.0; 1
 Gateway; Gateway EV575; gwy15c7; 31.0-60.0; 50.0-110.0; 1
-Gateway; Gateway EV700; gwy1b5a; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5b; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5c; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5d; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5e; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5f; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1B62; 30.0-70.0; 50.0-160.0; 1
-Gateway; Gateway EV700; gwy1B67; 30.0-69.0; 50.0-120.0; 1
-Gateway; Gateway EV700; gwy7658; 30.0-70.0; 50.0-120.0; 1
+Gateway; Gateway EV700; gwy1b5a; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5b; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5c; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5d; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5e; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5f; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1B62; 30-70; 50-110; 1
+Gateway; Gateway EV700 (Win1); gwy1B67; 30.0-69.0; 50.0-120.0; 1
+Gateway; Gateway EV700 (Win2); gwy7658; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV700B; gwy1B64; 30.0-70.0; 50.0-160.0; 1
 Gateway; Gateway EV700-H; gwy7659; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV700C; gwy1B66; 30.0-70.0; 50.0-160.0; 1
-Gateway; Gateway EV730; gwy1B69; 30.0-69.0; 50.0-120.0; 1
+Gateway; Gateway EV730 (LiteOn manufactured); gwy1B69; 30.0-69.0; 50.0-120.0; 1
 Gateway; Gateway EV730; gwy1B6A; 30.0-71.0; 50.0-160.0; 1
 Gateway; Gateway EV730; gwy1B6B; 30.0-71.0; 50.0-160.0; 1
 Gateway; Gateway EV910C; gwy232C; 30.0-95.0; 50.0-160.0; 1
@@ -1981,7 +1980,7 @@ Hewlett-Packard; HP P4829J L1820 18.1-inch LCD Monitor; 0; 25-82; 54-88; 1
 Hewlett-Packard; HP Pavilion M45/S40 Monitor; hwp14b2; 31.468-50.0; 56.0-75.0; 1
 Hewlett-Packard;HP F1503 Flat Panel Monitor;hwp2590;30.0-63.0;56.0-76.0;1
 Hewlett-Packard;HP 2025 Flat Panel Monitor;hwp144a;30.0-94.0;56.0-85.0;1
-Hewlett-Packard;HP 2025 Flat Panel Monitor;hwp144b;30.0-92.0;56.0-85.0;1
+Hewlett-Packard;HP 2025 Flat Panel Monitor (Variant 2);hwp144b;30.0-92.0;56.0-85.0;1
 Hewlett-Packard;HP 7550 Color Monitor;hwp2604;30.0-86.0;50.0-140.0;1
 Hewlett-Packard;HP F1723 Flat Panel Monitor;hwp2609;30.0-81.0;56.0-76.0;1
 Hewlett-Packard;HP L1730 Flat Panel Monitor;hwp260e;30.0-83.0;56.0-76.0;1
@@ -2442,17 +2441,20 @@ Korea Data Systems; KDS Visual Sensations VS-19SN; kds1981; 30.0-95.0; 50.0-120.
 Korea Data Systems; KDS Visual Sensations VS-21; kds0834; 30.0-117.0; 50.0-160.0; 1
 Korea Data Systems; KDS Visual Sensations VS-21; kds3408; 30.0-117.0; 50.0-160.0; 1
 Korea Data Systems; KDS Visual Sensations VS-4D; kds05af; 28.0-55.0; 40.0-120.0; 1
-Korea Data Systems; KDS Visual Sensations VS-4D; kdsaf05; 28.0-55.0; 50.0-120.0; 1
+# wrong data ? #430276
+#Korea Data Systems; KDS Visual Sensations VS-4D; kdsaf05; 28.0-55.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-4(KD-1452); kds05ac; 28.0-50.0; 40.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-4; kdsab05; 48.3; 60.0; 1
 Korea Data Systems; KDS Visual Sensations VS-55; kds05f5; 28.0-55.0; 40.0-120.0; 1
-Korea Data Systems; KDS Visual Sensations VS-55; kdsf505; 28.0-55.0; 50.0-120.0; 1
+# wrong data ? #430276
+#Korea Data Systems; KDS Visual Sensations VS-55; kdsf505; 28.0-55.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-5; kdse605; 28.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-5/VS-51/VSx-5; kds05e6; 30.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-7; kdsc206; 30.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-7/VSx-7; kds06c2; 30.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-9; kds06d6; 31.0-95.0; 50.0-120.0; 1
-Korea Data Systems; KDS Visual Sensations VS-9; kdsd606; 30.0-95.0; 50.0-120.0; 1
+# wrong data ? #430276
+#Korea Data Systems; KDS Visual Sensations VS-9; kdsd606; 30.0-95.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VSx-5; kdsfa05; 28.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-190is; STC0812; 30.0-96.0; 50.0-160.0
 Korea Data Systems; KDS Visual Sensations VS-190i; STC0812; 30.0-95.0; 50.0-120.0
@@ -3856,8 +3858,8 @@ Nokia; Nokia 449X; nok0098; 30.0-64.0; 50.0-100.0; 1
 Nokia; Nokia 449ZA; nok009a; 30.0-70.0; 50.0-120.0; 1
 Nokia; Nokia 44BS; nok0093; 30.0-62.0; 50.0-100.0; 1
 Nokia; Nokia 500Xa; nok1500; 31.4-60.0; 56.2-75.0; 1
-Nokia; Nokia 800PRO; nok1802; 30.0-82.0; 55.0-86.0; 1
-Nokia; Nokia 800PRO; nok1803; 31.0-65.0; 58.0-62.0; 1
+Nokia; Nokia 800PRO-1; nok1802; 30.0-82.0; 55.0-86.0; 1
+Nokia; Nokia 800PRO-2; nok1803; 31.0-65.0; 58.0-62.0; 1
 Nokia; Nokia 800XA/820L; nok1801; 24.0-80.0; 56.0-75.0; 1
 Nokia; Nokia 800Xi; nok1800; 24.0-80.0; 56.0-75.0; 1
 OKI; Oki GD1203; OKI04B3; 31.0-61.0; 56.0-75.0; 1
@@ -3960,20 +3962,20 @@ Packard Bell; Packard Bell PnP 2024S; pbn5222; 30.0-65.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 2024S; pbn5234; 30.0-54.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 2025E; pbn5100; 30.0-54.0; 30.0-102.0; 1
 Packard Bell; Packard Bell PnP 2025; pbe2352; 30.0-65.0; 50.0-80.0; 1
-Packard Bell; Packard Bell PnP 2025; pbn5102; 30.0-65.0; 30.0-122.0; 1
+Packard Bell; Packard Bell PnP 2025 (for Europe 3G); pbn5102; 30.0-65.0; 30.0-122.0; 1
 Packard Bell; Packard Bell PnP 2160; pbn5002; 30.0-54.0; 50.0-120.0; 1
 Packard Bell; Packard Bell PnP 2160; pbn5109; 30.0-54.0; 50.0-120.0; 1
 Packard Bell; Packard Bell PnP 3025; pbe2372; 30.0-65.0; 50.0-80.0; 1
-Packard Bell; Packard Bell PnP 3025; pbn7100; 30.0-65.0; 30.0-122.0; 1
+Packard Bell; Packard Bell PnP 3025 (for Europe 3G); pbn7100; 30.0-65.0; 30.0-122.0; 1
 Packard Bell; Packard Bell PnP 3030; pbe1c9d; 30.0-65.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 3030; pbn2372; 30.0-65.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 3070; pbn7108; 30.0-70.0; 50.0-90.0; 1
-Packard Bell; Packard Bell PnP 4480; pbn4101; 30.0-50.0; 30.0-92.0; 1
+Packard Bell; Packard Bell PnP 4480 (for Europe 3G); pbn4101; 30.0-50.0; 30.0-92.0; 1
 Packard Bell; Packard Bell PnP 4480; pbn4480; 30.0-50.0; 50.0-75.0; 1
 Packard Bell; Packard Bell PnP 4480; pbn4483; 30.0-50.0; 50.0-75.0; 1
 Packard Bell; Packard Bell PnP 4480; pbn4484; 30.0-50.0; 50.0-75.0; 1
 Packard Bell; Packard Bell PnP 5480E; pbn5101; 30.0-54.0; 30.0-102.0; 1
-Packard Bell; Packard Bell PnP 5480; pbn5103; 30.0-70.0; 30.0-122.0; 1
+Packard Bell; Packard Bell PnP 5480 (for Europe 3G); pbn5103; 30.0-70.0; 30.0-122.0; 1
 Packard Bell; Packard Bell PnP 5480; pbn5480; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 5480; pbn5481; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 5480; pbn5482; 30.0-69.0; 50.0-90.0; 1
@@ -3982,7 +3984,7 @@ Packard Bell; Packard Bell PnP 5480; pbn5484; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 5480; pbn5486; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 5680; pbn5684; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 7480; pbn1d39; 30.0-69.0; 50.0-90.0; 1
-Packard Bell; Packard Bell PnP 7480; pbn7101; 30.0-70.0; 30.0-122.0; 1
+Packard Bell; Packard Bell PnP 7480 (for Europe 3G); pbn7101; 30.0-70.0; 30.0-122.0; 1
 Packard Bell; Packard Bell PnP 7480; pbn7481; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 7480; pbn7483; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 7680; pbn7683; 30.0-69.0; 50.0-90.0; 1
@@ -4207,18 +4209,18 @@ Princeton; Princeton EO2010; pgs00ce; 30.0-117.0; 50.0-160.0; 1
 Princeton; Princeton EO400; pgs009d; 30.0-54.0; 55.0-90.0; 1
 Princeton; Princeton EO40; pgs004e; 30.0-50.0; 50.0-90.0; 1
 Princeton; Princeton EO500; pgs008e; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO500; pgs00d6; 30.0-70.0; 50.0-140.0; 1
+Princeton; Princeton EO500n; pgs00d6; 30.0-70.0; 50.0-140.0; 1
 Princeton; Princeton EO505; pgs00be; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO50; pgs004f; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO700; pgs00b6; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO700; pgs00d5; 30.0-70.0; 50.0-150.0; 1
-Princeton; Princeton EO700; pgs00e6; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO700n; pgs00d5; 30.0-70.0; 50.0-150.0; 1
+Princeton; Princeton EO700-1b; pgs00e6; 30.0-70.0; 50.0-160.0; 1
 Princeton; Princeton EO705; pgs00bf; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO705; pgs00dd; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO705n; pgs00dd; 30.0-70.0; 50.0-160.0; 1
 Princeton; Princeton EO70; pgs0050; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO70; pgs00d4; 30.0-70.0; 50.0-150.0; 1
+Princeton; Princeton EO70n; pgs00d4; 30.0-70.0; 50.0-150.0; 1
 Princeton; Princeton EO710; pgs008f; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO710; pgs00e7; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO710-1b; pgs00e7; 30.0-70.0; 50.0-160.0; 1
 Princeton; Princeton EO720; pgs00b7; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO72; pgs0052; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO74/74T; pgs0055; 30.0-70.0; 50.0-120.0; 1
@@ -4265,10 +4267,10 @@ Princeton; Princeton Ultra 90/90B; pgs00d2; 30.0-94.0; 50.0-160.0; 1
 Princeton; Princeton Ultra 90e; pgs0130; 30.0-86.0; 50.0-160.0; 1
 Princeton; Princeton Ultra 92; pgs016c; 30.0-96.0; 50.0-160.0; 1
 Princeton; Princeton Ultra 95e; pgs016d; 30.0-96.0; 47.0-150.0; 1
-Princeton; Princeton Ultra 95; pgs00db; 30.0-95.0; 50.0-160.0; 1
+Princeton; Princeton Ultra 95n; pgs00db; 30.0-95.0; 50.0-160.0; 1
 Princeton; Princeton Ultra 95; pgs00fa; 30.0-95.0; 50.0-120.0; 1
 Princeton; W74; pgs00e5; 30.0-70.0; 50.0-160.0; 1
-Princeton; W74; pgs00fb; 30.0-70.0; 55.0-120.0; 1
+Princeton; W74n; pgs00fb; 30.0-70.0; 55.0-160.0; 1
 Proview; Proview 456/482; PTS0579; 30.0-60.0; 60.0-75.0; 1
 Proview; Proview 513/516; PTS05DD; 30.0-60.0; 60.0-75.0; 1
 Proview; Proview 570; pts023a; 30.0-70.0; 50.0-150.0; 1
@@ -4774,7 +4776,6 @@ Tatung; Intelliscan TM671x series; tat1f67; 31.0-65.0; 50.0-110.0; 1
 Tatung; Tatung C4A; c4a; 31.5-48.4; 50.0-90.0; 1
 Tatung; Tatung C4D; c4d; 31.5-54.0; 50.0-90.0; 1
 Tatung; Tatung C4E; c4e; 31.5-54.0; 50.0-90.0; 1
-Tatung; Tatung C5D; c5d; 31.5-56.5; 50.0-90.0; 1
 Tatung; Tatung C5D; tat3044; 30.0-54.0; 50.0-100.0; 1
 Tatung; Tatung C5E; c5e; 31.5-56.5; 50.0-90.0; 1
 Tatung; Tatung C5V; c5v; 30.0-70.0; 50.0-100.0; 1
