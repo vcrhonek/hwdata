@@ -52,8 +52,6 @@ changelog:
 check:
 	[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null
 	./check-pci-ids.py
-	@: videodrivers is tab-separated
-	[ `grep -vc '	' videodrivers` -eq 0 ]
 
 create-archive:
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
