@@ -49,15 +49,21 @@ changelog:
 	@rm -f ChangeLog
 	@(GIT_DIR=.git git-log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 
-check:
+pcitable:
+	./makeids
+
+check: pcilint
 	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@grep -q "^VT " usb.ids && { echo "FAILURE: VT entries in usb.ids need to be commented out"; exit 1; } || echo "OK: VT entries commented out"
 	@grep -q "^HCC " usb.ids && { echo "FAILURE: HCC entries in usb.ids need to be commented out"; exit 1; } || echo "OK: HCC entries commented out"
+	@./pcilint && echo "OK: pcilint" || { echo "FAILURE: pcilint"; exit 1; }
+	@/bin/rm -f pcilint
+	@./check-cards && echo "OK: check-cards" || { echo "FAILURE: check-cards"; exit 1; }
+	@test pcitable -ot pci.ids && { echo "FAILURE: pcitable older than pci.ids, you probably forgot to run ./makeids"; exit 1; } || echo "OK: pcitable newer than pci.ids"
 
-create-archive:
+create-archive: changelog
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
-	@make changelog
 	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
 	@mkdir $(NAME)-$(VERSION)
 	@cp ChangeLog $(NAME)-$(VERSION)/
