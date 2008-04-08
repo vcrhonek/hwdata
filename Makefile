@@ -30,7 +30,6 @@ install:
 	for foo in $(FILES) ; do \
 		install -m 644 $$foo $(datadir)/$(NAME) ;\
 	done
-	mkdir -p -m 755 $(datadir)/$(NAME)/videoaliases
 	mkdir -p -m 755 $(prefix)/X11R6/lib/X11
 	ln -s ../../../share/$(NAME)/Cards $(prefix)/X11R6/lib/X11/Cards
 	mkdir -p -m 755 $(sysconfdir)/pcmcia
@@ -59,14 +58,14 @@ check:
 create-archive:
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
 	@make changelog
-	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
+	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
 	@mkdir $(NAME)-$(VERSION)
 	@cp ChangeLog $(NAME)-$(VERSION)/
-	@tar --append -f $(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
-	@bzip2 -f $(NAME)-$(VERSION).tar
+	@tar --append -f $(NAME)-$(VERSION)-$(RELEASE).tar $(NAME)-$(VERSION)
+	@gzip -9 $(NAME)-$(VERSION)-$(RELEASE).tar
 	@rm -rf $(NAME)-$(VERSION)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
+	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELEASE).tar.gz"
 
 archive: check clean tag create-archive
 
