@@ -1,0 +1,10 @@
+#!/bin/sh
+
+awk -F \" '/"Card:/ { print $2 }' pcitable | sed "s|Card:||g" | sort -u | \
+  while read card ; do
+        export err=
+  	if ! grep -q "^NAME $card$" Cards ; then
+	  echo "Error: Card $card not found in CardsDB"
+	  exit 1
+	fi
+  done

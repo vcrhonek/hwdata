@@ -1,0 +1,4245 @@
+# $Revision: 1.173.2.12 $
+# This is the database of card definitions used by redhat-config-xfree86,
+# Xconfigurator, xf86cfg, anaconda, and many other X configuration programs.
+#
+# Each definition should have a NAME entry, CHIPSET (descriptive) and
+# SERVER (one of Mono, VGA16, SVGA, S3, 8514, Mach8, Mach32, Mach64, AGX,
+# P9000, W32, I128).
+# A reference to another definition is made with SEE (already defined
+# entries are not overridden).
+# Optional entries are RAMDAC (identifier), CLOCKCHIP (identifier),
+# DACSPEED, NOCLOCKPROBE (advises never to probe clocks), UNSUPPORTED
+# (indicates card that is not yet properly supported by a dedicated
+# server). A LINE entry adds a line of text to be included in the
+# Device section (can include options or comments).
+# There's no CLOCKS option (although a Clocks line can be included
+# with LINE), as it is very undesirable to have a Clocks line that
+# is incorrect. The idea is that the Clocks are probed for to be
+# sure (a commented suggested Clocks line can be included).
+#
+# The majority of entries are just a binding of a model name to a
+# chipset/server and untested.
+
+
+#                     *** RED HAT IMPORTANT NOTE ***
+#
+# Support is now being dropped for XFree86 3.3.6 as of this Cards file
+# Cards unsupported or broken in 4.x will be configured to use the "vesa"
+# driver if it works, and the "vga" driver if not.  Cards that don't work
+# with any driver are now considered unsupported.  Bug reports and requests
+# to support such hardware should be filed with XFree86.org and discussed on
+# the xpert@xfree86.org mailing list.
+
+# When adding entries to this file, if XFree86 does *NOT* currently support
+# the hardware you're adding, make *SURE* the entry is commented OUT, or else
+# users *EXPECT* that the card works, because they see it on the menu.
+
+
+
+######
+# VGA
+
+NAME Generic VGA compatible
+CHIPSET Generic VGA
+SERVER VGA16
+DRIVER vga
+
+NAME Unsupported VGA compatible
+CHIPSET Generic VGA
+SERVER VGA16
+DRIVER vga
+#UNSUPPORTED
+
+######################################################################
+# VESA driver
+NAME VESA driver (generic)
+CHIPSET VESA VBE 2.0
+DRIVER vesa
+
+######################################################################
+# Frame Buffer driver
+NAME Framebuffer driver (generic)
+CHIPSET fb
+DRIVER fbdev
+
+######################################################################
+#Chips & Technologies
+
+#untested
+NAME Chips & Technologies CT65520
+CHIPSET ct65520
+DRIVER chips
+LINE # Device section for C&T cards.
+LINE # Option "suspend_hack"
+LINE # Option "STN"
+LINE # Option "no_stretch"
+LINE # Option "no_center"
+LINE # Option "use_modeline"
+LINE # Option "fix_panel_size"
+LINE # videoram 512
+#UNSUPPORTED
+
+NAME Chips & Technologies CT65525
+CHIPSET ct65525
+LINE # Option "nolinear"
+LINE # MemBase 0x03b00000
+SEE Chips & Technologies CT65520
+
+NAME Chips & Technologies CT65530
+CHIPSET ct65530
+SEE Chips & Technologies CT65525
+
+NAME Chips & Technologies CT65535
+CHIPSET ct65535
+NOCLOCKPROBE
+LINE # Option "hw_clocks"
+LINE # Textclockfreq 25.175
+SEE Chips & Technologies CT65530
+
+NAME Chips & Technologies CT65540
+CHIPSET ct65540
+NOCLOCKPROBE
+LINE # Option "use_18bit_bus"
+SEE Chips & Technologies CT65535
+
+NAME Chips & Technologies CT65545
+CHIPSET ct65545
+NOCLOCKPROBE
+LINE # Option "noaccel"
+LINE # Option "no_bitblt"
+LINE # Option "xaa_no_color_exp"
+LINE # Option "xaa_benchmark"
+LINE # Option "hw_cursor"
+LINE # Option "mmio"
+SEE Chips & Technologies CT65540
+
+NAME Chips & Technologies CT65546
+CHIPSET ct65546
+SEE Chips & Technologies CT65545
+
+NAME Chips & Technologies CT65548
+CHIPSET ct65548
+SEE Chips & Technologies CT65545
+
+# Confirmed working by Alan Cox, Dec 19, 2002 with XFree86 4.2.99.2 CVS
+NAME Chips & Technologies CT65550
+CHIPSET ct65550
+NOCLOCKPROBE
+LINE # Option "noaccel"
+LINE # Option "no_bitblt"
+LINE # Option "xaa_no_color_exp"
+LINE # Option "xaa_benchmark"
+LINE # Option "hw_cursor"
+LINE # Option "sync_on_green"
+LINE # Option "fast_dram"
+LINE # Option "use_vclk1"
+LINE # Textclockfreq 25.175
+SEE Chips & Technologies CT65530
+
+NAME Chips & Technologies CT65554
+CHIPSET ct65554
+SEE Chips & Technologies CT65550
+
+NAME Chips & Technologies CT65555
+CHIPSET ct65555
+SEE Chips & Technologies CT65550
+
+NAME Chips & Technologies CT68554
+CHIPSET ct68554
+SEE Chips & Technologies CT65550
+
+# The CT69000 XaaNo options were added into rawhide July 26, 2002, in order
+# to prevent lockups using XFree86 4.2.0 in this driver.  The problem has
+# been reported widely on xpert@xfree86.org, and in bugzilla.  The following
+# bugzilla ID's are relevant and should be updated in the future should the
+# bugs get fixed and testing be required:
+# Bug ID's:  63284
+# Update: Aug 3, 2004 <mharris@redhat.com>
+# Warren has indicated the XaaNo options are no longer needed for this
+# hardware, so I've commented them out and updated bug 63284.
+NAME Chips & Technologies CT69000
+CHIPSET ct69000
+LINE #Option "XaaNoPixmapCache"
+LINE #Option "XaaNoScreenToScreenCopy"
+LINE #Option "XaaNoCPUToScreenColorExpandFill"
+LINE #Option "NoAccel"
+SEE Chips & Technologies CT65550
+
+NAME Chips & Technologies CT69030
+CHIPSET ct69030
+SEE Chips & Technologies CT65550
+
+NAME Chips & Technologies CT64200
+CHIPSET ct64200
+SERVER SVGA
+DRIVER chips
+LINE # Device section for C&T cards.
+LINE # videoram 1024
+
+NAME Chips & Technologies CT64300
+CHIPSET ct64300
+SERVER SVGA
+DRIVER chips
+LINE # Option "noaccel"
+LINE # Option "no_bitblt"
+LINE # Option "xaa_no_color_exp"
+LINE # Option "xaa_benchmark"
+LINE # Option "hw_cursor"
+LINE # Option "nolinear"
+LINE # MemBase 0x03b00000
+LINE # Option "hw_clocks"
+LINE # Textclockfreq 25.175
+SEE Chips & Technologies CT64200
+
+######################################################################
+# Cirrus Logic
+
+NAME Cirrus Logic GD542x
+CHIPSET CL-GD5420/2/4/6/8/9
+SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+LINE # Device section for Cirrus Logic GD5420/2/4/6/8/9-based cards.
+LINE     #MemBase 0x00e00000
+LINE     #MemBase 0x04e00000
+LINE     #Option "linear"
+#UNSUPPORTED
+
+# Flagged unsupported for 4.1.0 release (IRC feedback) <mharris>
+# Switched back to 4.2.0 to test if it works now (March 7, 2002)
+NAME Cirrus Logic GD543x
+CHIPSET CL-GD5430/5434/5436
+SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+LINE # Device section for Cirrus Logic GD5430/34-based cards.
+LINE     #MemBase 0x00e00000		# ISA card that maps to 14Mb
+LINE     #MemBase 0x04000000		# VLB card that maps to 64Mb
+LINE     #MemBase 0x80000000		# VLB card that maps to 2048Mb
+LINE     #MemBase 0x02000000		# VLB card that maps to 32Mb
+LINE     #Option "linear"
+#UNSUPPORTED
+
+# Fixed in XFree86 4.1.0-0.9.10 release confirmed on 5446.  mharris@redhat.com Aug 7, 2001
+NAME Cirrus Logic GD544x
+CHIPSET CL-GD544x
+DRIVER cirrus
+#LINE   Option "NoAccel"
+
+NAME Cirrus Logic GD5446 (noname card)
+SEE Cirrus Logic GD544x
+
+NAME Creative Labs Graphics Blaster MA201
+SEE Cirrus Logic GD544x
+
+NAME Creative Labs Graphics Blaster MA202
+SEE Cirrus Logic GD544x
+
+#tested
+NAME Cirrus Logic GD5462
+CHIPSET CL-GD5462
+SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+LINE #Option "fifo_conservative"
+
+#tested
+NAME Cirrus Logic GD5464
+CHIPSET CL-GD5464
+SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+LINE #Option "fifo_conservative"
+
+# CpuToScreenColorExpandFill reported broken, so disabled on Feb 18, 2003 by
+# mharris for bug: http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=82704
+# and http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=83307 for 4.2.99.902
+NAME Cirrus Logic GD5465
+CHIPSET CL-GD5465
+#SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+LINE Option "XaaNoCpuToScreenColorExpandFill"
+LINE #Option "fifo_conservative"
+
+NAME Creative Labs Graphics Blaster MA302
+CHIPSET CL-GD5462
+SEE Cirrus Logic GD5462
+
+NAME Creative Labs Graphics Blaster MA334
+CHIPSET CL-GD5464
+SEE Cirrus Logic GD5464
+
+NAME Creative Labs Graphics Blaster 3D
+CHIPSET CL-GD5464
+SEE Cirrus Logic GD5464
+
+# reported not working on SGI 1200 as of 02/22/2001
+# Reported working in XFree86-4.1.0-0.9.11 in bug (#13494) on Aug 7, 2001 <mharris>
+NAME Cirrus Logic GD5480
+CHIPSET CL-GD5480
+SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+
+NAME Diamond SpeedStar 64
+CHIPSET CL-GD5434
+SEE Cirrus Logic GD543x
+
+NAME Diamond SpeedStar64 Graphics 2000/2200
+CHIPSET CL-GD5434
+SEE Cirrus Logic GD543x
+
+NAME Diamond SpeedStar Pro SE (CL-GD5430/5434)
+SEE Cirrus Logic GD543x
+
+NAME Diamond SpeedStar Pro 1100
+SEE Cirrus Logic GD542x
+
+NAME Orchid Kelvin 64 VLB Rev A
+CHIPSET CL-GD5434
+SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+LINE # Device section for Orchid Kelvin 64 VLB Rev A
+LINE # Linear framebuffer maps at 2048Mb. Some motherboards make linear addressing
+LINE # impossible. Some cards map at 32Mb.
+LINE     #MemBase 0x02000000		# VLB card that maps to 32Mb
+LINE     #MemBase 0x04000000		# VLB card that maps to 64Mb
+LINE     MemBase 0x80000000		# VLB card that maps to 2048Mb
+LINE     #Option "linear"
+
+NAME Orchid Kelvin 64 VLB Rev B
+CHIPSET CL-GD5434
+SERVER SVGA
+DRIVER cirrus
+NOCLOCKPROBE
+LINE # Device section for Orchid Kelvin 64 VLB Rev B
+LINE # Linear framebuffer maps at 32Mb. Some motherboards make linear addressing
+LINE # impossible. Some cards map at 2048Mb.
+LINE     MemBase 0x02000000		# VLB card that maps to 32Mb
+LINE     #MemBase 0x04000000		# VLB card that maps to 64Mb
+LINE     #MemBase 0x80000000		# VLB card that maps to 2048Mb
+LINE     #Option "linear"
+
+NAME Orchid Kelvin 64
+CHIPSET CL-GD5434
+SEE Cirrus Logic GD543x
+
+NAME Intel 5430
+CHIPSET CL-GD5430
+SEE Cirrus Logic GD543x
+
+NAME STB Nitro (64)
+CHIPSET CL-GD5434
+SEE Cirrus Logic GD543x
+
+NAME STB Nitro 64 Video
+CHIPSET CL-GD5446
+SEE Cirrus Logic GD544x
+
+NAME STB Horizon
+CHIPSET CL-GD5426/28
+SEE Cirrus Logic GD542x
+
+NAME STB Horizon Video
+CHIPSET CL-GD5440
+SEE Cirrus Logic GD544x
+
+NAME Genoa 8500VL(-28)
+CHIPSET CL-GD5426/28
+SEE Cirrus Logic GD542x
+
+NAME Diamond SpeedStar Pro (not SE)
+CHIPSET CL-GD5426/28
+SEE Cirrus Logic GD542x
+
+NAME ALG-5434(E)
+CHIPSET CL-GD5434
+SEE Cirrus Logic GD543x
+
+NAME Actix ProStar
+CHIPSET CL-GD5426/5428
+SEE Cirrus Logic GD542x
+
+NAME Actix ProStar 64
+CHIPSET CL-GD5434
+SEE Cirrus Logic GD543x
+
+#tested
+NAME Acumos AVGA3
+SEE Cirrus Logic GD542x
+
+NAME DFI-WG1000
+SEE Cirrus Logic GD542x
+
+NAME Spider VLB Plus
+CHIPSET CL-GD5428
+SEE Cirrus Logic GD542x
+
+NAME VI720
+CHIPSET CL-GD5434
+SEE Cirrus Logic GD543x
+
+NAME Cirrus Logic GD62xx (laptop)
+CHIPSET CL-GD6205/15/25/35
+SERVER SVGA
+DRIVER vga
+NOCLOCKPROBE
+#UNSUPPORTED
+
+NAME Cirrus Logic GD64xx (laptop)
+CHIPSET CL-GD6420/6440
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Cirrus Logic GD754x (laptop)
+CHIPSET CL-GD7541/42/43/48
+SERVER SVGA
+DRIVER vga
+NOCLOCKPROBE
+#UNSUPPORTED
+
+NAME Techworks Ultimate 3D
+CHIPSET CL-GD5464
+SEE Cirrus Logic GD5464
+
+NAME VideoLogic GrafixStar 550
+CHIPSET CL-GD5464
+SEE Cirrus Logic GD5464
+
+NAME Jaton Video-70P
+CHIPSET CL-GD5464
+SEE Cirrus Logic GD5464
+
+NAME PixelView Combo TV Pro (Prolink)
+CHIPSET CL-GD5480, 4MB
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+LINE # COMMENT on card TV Tuner
+NOCLOCKPROBE
+
+NAME PixelView Combo TV 3D AGP (Prolink)
+CHIPSET CL-GD5465, 4MB
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+LINE # COMMENT on card TV+FM Tuner
+NOCLOCKPROBE
+
+NAME Creative Labs Graphics Blaster Eclipse (OEM Model CT6510)
+SEE Cirrus Logic GD5465
+
+NAME VideoLogic GrafixStar 560 (PCI/AGP)
+SEE Cirrus Logic GD5465
+
+NAME Octek VL-VGA-26
+CHIPSET CL-GD5426
+SEE Cirrus Logic GD542x
+
+NAME Octek VL-VGA-28
+CHIPSET CL-GD5428
+SEE Cirrus Logic GD542x
+
+NAME Octek Combo-26
+CHIPSET CL-GD5426
+SEE Cirrus Logic GD542x
+
+NAME Octek Combo-28
+CHIPSET CL-GD5428
+SEE Cirrus Logic GD542x
+
+NAME Octek AVGA-20
+CHIPSET CL-GD5420
+SEE Cirrus Logic GD542x
+
+
+######################################################################
+# S3 801/805
+
+NAME S3 801/805 (generic)
+CHIPSET S3 801/805
+SERVER S3
+DRIVER s3
+#UNSUPPORTED
+
+NAME S3 86C801 (generic)
+SEE S3 801/805 (generic)
+
+NAME S3 86C805 (generic)
+SEE S3 801/805 (generic)
+
+#tested
+NAME S3 801/805 with ATT20c490 RAMDAC
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c490
+LINE     #Option "dac_8_bit"		# Not supported by some 20c490 clones
+
+NAME S3 801/805 with SC1148{2,3,4} RAMDAC
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC sc11482
+
+NAME S3 801/805 with SC1148{5,7,9} RAMDAC
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC sc11485
+
+NAME S3 801/805 with S3 GenDAC
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC s3gendac
+CLOCKCHIP s3gendac
+
+NAME S3 801/805 with ATT20c490 RAMDAC and ICD2061A
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c490
+CLOCKCHIP icd2061a
+LINE     #Option "dac_8_bit"		# Not supported by some 20c490 clones
+
+NAME S3 801/805 with Chrontel 8391
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c490
+CLOCKCHIP ch8391
+LINE     Option "dac_8_bit"
+
+#tested
+NAME Actix GE32+ 2MB
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c490
+LINE     #Option "dac_8_bit"
+
+NAME Actix GE32i
+CHIPSET S3 805i
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+
+NAME Orchid Fahrenheit VA
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c490
+
+NAME Orchid Fahrenheit 1280
+CHIPSET S3 801
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+LINE     #Probable clocks:
+LINE     #Clocks 25.20 28.32 32.50 0.00 40.00 44.90 50.40 65.00
+LINE     #Clocks 78.00 56.70 63.10 75.10 80.00 89.90 100.90 31.50
+
+NAME Orchid Fahrenheit-1280+
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20C490
+LINE     Dacspeed   110
+LINE     Option     "dac_8_bit"
+LINE     #Option    "nolinear" # VLB card may require this
+LINE     #Probable clocks:
+LINE     #Clocks     25.20 28.32 40.0 0.0 50.10 77.0 36.10 45.0
+LINE     #Clocks     130.0 120.20 80.0 31.50 110.30 65.0 75.0 94.60
+
+NAME Diamond Stealth 24
+CHIPSET S3 801/805
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP icd2061a
+LINE     #Option    "nolinear"
+LINE     #Ramdac "att20c490" # The Diamond RAMDAC is reportedly compatible for 15bpp
+
+NAME Miro Crystal 8S
+SEE S3 801/805 (generic)
+
+NAME Miro Crystal 10SD with GenDAC
+SEE S3 801/805 with S3 GenDAC
+
+NAME Dell S3 805
+SEE S3 801/805 (generic)
+
+NAME STB Powergraph X-24
+SEE S3 801/805 with ATT20c490 RAMDAC and ICD2061A
+
+NAME JAX 8241
+SEE S3 801/805 with Chrontel 8391
+
+NAME VL-41
+SEE S3 801/805 with Chrontel 8391
+
+NAME SPEA Mirage
+SEE S3 801/805 with Chrontel 8391
+
+######################################################################
+# S3 864/Trio64/Trio32/868
+
+NAME S3 864 (generic)
+CHIPSET S3 864
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+
+NAME S3 86C864 (generic)
+SEE S3 864 (generic)
+
+NAME S3 Vision864 (generic)
+SEE S3 864 (generic)
+
+NAME S3 864 with SDAC (86C716)
+CHIPSET S3 864
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC s3_sdac
+CLOCKCHIP s3_sdac
+NOCLOCKPROBE
+
+NAME S3 864 with ATT 20C498 or 21C498
+CHIPSET S3 864
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c498
+
+NAME S3 864 with STG1703
+CHIPSET S3 864
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC stg1703
+NOCLOCKPROBE
+
+NAME S3 868 (generic)
+CHIPSET S3 868
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+
+NAME S3 86C868 (generic)
+SEE S3 868 (generic)
+
+NAME S3 Vision868 (generic)
+SEE S3 868 (generic)
+
+NAME S3 868 with SDAC (86C716)
+CHIPSET S3 868
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME S3 868 with ATT 20C498 or 21C498
+CHIPSET S3 868
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c498
+
+NAME S3 868 with ATT 20C409
+CHIPSET S3 868
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c409
+NOCLOCKPROBE
+
+NAME Number Nine FX Motion 531
+CLOCKCHIP icd2061a
+SEE S3 868 with ATT 20C498 or 21C498
+
+######################################################################
+# S3 Trio64
+
+NAME S3 Trio64 (generic)
+CHIPSET S3 Trio64
+SERVER S3
+DRIVER s3
+NOCLOCKPROBE
+#UNSUPPORTED
+
+NAME S3 86C764 (Trio64)
+SEE S3 Trio64 (generic)
+
+NAME Number Nine GXE64 with S3 Trio64
+SEE S3 Trio64 (generic)
+
+NAME Cardex Trio64
+SEE S3 Trio64 (generic)
+
+NAME Cardex Trio64Pro
+SEE S3 Trio64 (generic)
+
+NAME S3 Trio64V+ (generic)
+CHIPSET S3 Trio64V+
+SERVER S3
+DRIVER s3
+NOCLOCKPROBE
+#UNSUPPORTED
+
+NAME S3 86C765 (Trio64V+)
+SEE S3 Trio64V+ (generic)
+
+######################################################################
+# S3 Trio32
+
+NAME S3 Trio32 (generic)
+CHIPSET S3 Trio32
+SERVER S3
+DRIVER s3
+NOCLOCKPROBE
+#UNSUPPORTED
+
+NAME Genoa Phantom 64i with S3 SDAC
+DACSPEED 135
+SEE S3 864 with SDAC (86C716)
+
+NAME Number Nine GXE64
+CHIPSET S3 864
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP icd2061a
+LINE     Option "number_nine"
+
+NAME Diamond Stealth 64 DRAM with S3 SDAC
+DACSPEED 135
+SEE S3 864 with SDAC (86C716)
+
+NAME Diamond Stealth64 Graphics 2xx0 series (864 + SDAC)
+DACSPEED 135
+SEE S3 864 with SDAC (86C716)
+
+NAME Diamond Stealth 64 DRAM with S3 Trio64
+SEE S3 Trio64 (generic)
+
+NAME Diamond Stealth64 Graphics 2xx0 series (Trio64)
+SEE S3 Trio64 (generic)
+
+NAME Diamond Stealth 64 DRAM SE
+SEE S3 Trio32 (generic)
+
+NAME Diamond Stealth64 Video 2001 series (2121/2201)
+SEE S3 Trio64V+ (generic)
+
+NAME Actix GE64
+CLOCKCHIP icd2061a
+SEE S3 864 (generic)
+
+NAME ELSA Winner 1000PRO with S3 SDAC
+SEE S3 864 with SDAC (86C716)
+
+NAME ELSA Winner 1000PRO with STG1700 or AT&T RAMDAC
+CHIPSET S3 864
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP icd2061a
+
+NAME ELSA Winner 1000PRO/X
+SEE S3 868 with SDAC (86C716)
+
+NAME ELSA Winner 1000ISA
+CHIPSET S3 805i
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP icd2061a
+LINE     Option "dac_8_bit"
+LINE     # the following settings should be detected and set automatically by XF86_S3
+LINE     # if the serial number of the ELSA card is printed correctly:
+LINE     #ClockChip "icd2061a"
+
+NAME Miro Crystal 12SD
+SEE S3 Trio32 (generic)
+
+NAME Miro Crystal 22SD
+SEE S3 Trio64 (generic)
+
+NAME Miro Crystal 20SD with ICS2494 (BIOS 1.xx)
+SEE S3 864 with ATT 20C498 or 21C498
+
+NAME Miro Crystal 20SD with ICD2061A (BIOS 2.xx)
+CLOCKCHIP icd2061a
+SEE S3 864 with ATT 20C498 or 21C498
+
+NAME Miro Crystal 20SD VLB with S3 SDAC (BIOS 3.xx)
+SEE S3 864 with SDAC (86C716)
+
+NAME Miro Crystal 20SD PCI with S3 SDAC
+SEE S3 868 with SDAC (86C716)
+
+NAME ELSA Winner 1000AVI (SDAC version)
+SEE S3 868 with SDAC (86C716)
+
+NAME ELSA Winner 1000AVI (AT&T 20C409 version)
+SEE S3 868 with ATT 20C409
+
+NAME Diamond Stealth Video DRAM
+SEE S3 868 with SDAC (86C716)
+
+NAME Diamond Stealth64 Video 2120/2200
+SEE S3 868 with SDAC (86C716)
+
+NAME SPEA/V7 Mirage P64
+CLOCKCHIP ics2595
+SEE S3 864 (generic)
+
+NAME SPEA/V7 Mirage P64 with S3 Trio64
+SEE S3 Trio64 (generic)
+
+NAME Number Nine FX Vision 330
+SEE S3 Trio64 (generic)
+
+NAME Number Nine FX Motion 331
+SEE S3 Trio64V+ (generic)
+
+NAME ASUS Video Magic PCI V864
+SEE S3 864 (generic)
+
+NAME ASUS Video Magic PCI VT64
+SEE S3 Trio64 (generic)
+
+NAME VidTech FastMax P20
+SEE S3 864 (generic)
+
+NAME VideoLogic GrafixStar 500
+SEE S3 868 with SDAC (86C716)
+
+NAME VideoLogic GrafixStar 400
+SEE S3 Trio64V+ (generic)
+
+NAME VideoLogic GrafixStar 300
+SEE S3 Trio64 (generic)
+
+NAME 2 the Max MAXColor S3 Trio64V+
+SEE S3 Trio64V+ (generic)
+
+NAME DataExpert DSV3365
+SEE S3 Trio64V+ (generic)
+
+NAME ExpertColor DSV3365
+SEE S3 Trio64V+ (generic)
+
+NAME DSV3326
+SEE S3 Trio64V+ (generic)
+
+# S3 Trio64V2
+
+# https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=65582
+# This entry is defaulted to "vesa" driver for the above bug report.
+# The specific chip is: 5333:8a13 5333:8a13 rev 01 class 03,00,00 hdr 00
+# This was added for XFree86 4.3.0 on Jan 24, 2003 <mharris>
+NAME S3 Trio64V2 (generic)
+CHIPSET S3 Trio64V2
+#DRIVER s3
+DRIVER vesa
+NOCLOCKPROBE
+#UNSUPPORTED
+
+# https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=65582
+# This entry was changed to default to "vesa" for the above bug report
+# on Jan 24, 2003 <mharris>
+NAME S3 Trio64V2 (Unsupported RAMDAC)
+CHIPSET s3virge
+#DRIVER s3
+DRIVER vesa
+NOCLOCKPROBE
+
+NAME S3 Trio64V2/DX (generic)
+SEE S3 Trio64V2 (generic)
+
+NAME S3 Trio64V2/GX (generic)
+SEE S3 Trio64V2 (generic)
+
+NAME S3 86C775 (Trio64V2/DX)
+SEE S3 Trio64V2/DX (generic)
+
+NAME S3 86C785 (Trio64V2/GX)
+SEE S3 Trio64V2/GX (generic)
+
+NAME ELSA WINNER 1000/T2D
+SEE S3 Trio64V2/DX (generic)
+
+
+# S3 Aurora64V+
+
+NAME S3 Aurora64V+ (generic)
+CHIPSET S3 Aurora64V+
+SERVER S3
+DRIVER s3
+NOCLOCKPROBE
+LINE     # Option "lcd_center"
+LINE     # Set_LCDClk  <pixel_clock_for_LCD>
+#UNSUPPORTED
+
+NAME S3 86CM65 (Aurora64V+)
+SEE S3 Aurora64V+ (generic)
+
+NAME SHARP 9080
+SEE S3 Aurora64V+ (generic)
+
+NAME SHARP 9090
+SEE S3 Aurora64V+ (generic)
+
+NAME COMPAQ Armada 7730MT
+SEE S3 Aurora64V+ (generic)
+
+NAME COMPAQ Armada 7380DMT
+SEE S3 Aurora64V+ (generic)
+
+
+# S3 964/968
+
+NAME S3 964 (generic)
+CHIPSET S3 964
+SERVER S3
+DRIVER s3
+NOCLOCKPROBE
+#UNSUPPORTED
+
+NAME S3 86C964 (generic)
+SEE S3 964 (generic)
+
+NAME S3 Vision964 (generic)
+SEE S3 964 (generic)
+
+NAME S3 968 (generic)
+CHIPSET S3 968
+SERVER S3
+DRIVER s3
+NOCLOCKPROBE
+#UNSUPPORTED
+
+NAME S3 86C968 (generic)
+SEE S3 968 (generic)
+
+NAME S3 Vision968 (generic)
+SEE S3 968 (generic)
+
+NAME Number Nine GXE64 Pro
+CHIPSET S3 964
+SERVER S3
+DRIVER s3
+RAMDAC ti3025
+LINE     Option "number_nine"
+#UNSUPPORTED
+
+NAME Diamond Stealth 64 VRAM
+CLOCKCHIP icd2061a
+LINE    #Option "slow_vram"
+SEE S3 964 (generic)
+
+NAME Diamond Stealth64 Video 3200
+LINE    #Option "slow_vram"
+SEE S3 968 (generic)
+
+NAME Diamond Stealth 64 Video VRAM (TI RAMDAC)
+LINE    #Option "slow_vram"
+LINE    #DacSpeed 220
+SEE S3 968 (generic)
+
+NAME Diamond Stealth64 Video 3240/3400 (TI RAMDAC)
+LINE    #Option "slow_vram"
+LINE    #DacSpeed 220
+SEE S3 968 (generic)
+
+NAME Diamond Stealth64 Video 3240/3400 (IBM RAMDAC)
+LINE    #Option "slow_vram"
+RAMDAC  ibm_rgb526
+LINE    DacSpeed 220
+SEE S3 968 (generic)
+
+NAME Genoa VideoBlitz III AV
+LINE    #s3RefClk  50
+LINE    #DACspeed 170
+SEE S3 968 (generic)
+
+NAME STB Velocity 64 Video
+LINE    #s3RefClk  24
+LINE    #DACspeed 220
+SEE S3 968 (generic)
+
+NAME STB Powergraph 64 Video
+SEE S3 Trio64V+ (generic)
+
+NAME STB Powergraph 64
+SEE S3 Trio64 (generic)
+
+NAME ELSA Winner 1000TRIO
+SEE S3 Trio64 (generic)
+
+NAME ELSA Winner 1000TRIO/V
+SEE S3 Trio64V+ (generic)
+
+NAME Hercules Graphite Terminator 64
+LINE     Option "slow_vram"
+LINE    #s3RefClk  50
+LINE    #DACspeed 170
+SEE S3 964 (generic)
+
+NAME Hercules Terminator 64/Video
+SEE S3 Trio64V+ (generic)
+
+NAME Hercules Graphite Terminator 64/DRAM
+SEE S3 Trio64 (generic)
+
+NAME Hercules Graphite Terminator Pro 64
+LINE    #s3RefClk  16
+LINE    #DACspeed 220
+SEE S3 968 (generic)
+
+NAME Number Nine FX Motion 771
+LINE    #s3RefClk  16
+SEE S3 968 (generic)
+
+NAME Spider Tarantula 64
+SEE S3 964 (generic)
+
+# Changed "DRIVER s3" to "DRIVER vesa" for bug #70743.  Be sure to confirm
+# any changes to this with the reporter of that bug.  Aug 10, 2002 - mharris
+NAME Miro Crystal 20SV
+CHIPSET S3 964
+SERVER S3
+DRIVER vesa
+CLOCKCHIP icd2061a
+#UNSUPPORTED
+
+NAME Miro Crystal 40SV
+CHIPSET S3 964
+SERVER S3
+DRIVER s3
+CLOCKCHIP ti3025
+#UNSUPPORTED
+
+NAME Miro Crystal 80SV
+SEE S3 968 (generic)
+
+NAME Miro Video 20SV
+CLOCKCHIP ics9161a
+SEE S3 968 (generic)
+
+NAME SPEA Mercury 64
+CLOCKCHIP ics9161a
+LINE     #Option "spea_mercury"
+SEE S3 964 (generic)
+
+NAME ELSA Winner 2000PRO-2
+LINE     #Option "ELSA_w2000pro"
+SEE S3 968 (generic)
+
+NAME ELSA Winner 2000PRO-4
+LINE     #Option "ELSA_w2000pro"
+SEE S3 964 (generic)
+
+NAME ELSA Winner 2000PRO/X-2
+LINE     #Option "sync_on_green"
+SEE S3 968 (generic)
+
+NAME ELSA Winner 2000PRO/X-4
+LINE     #Option "sync_on_green"
+SEE S3 968 (generic)
+
+NAME ELSA Winner 2000PRO/X-8
+LINE     #Option "sync_on_green"
+SEE S3 968 (generic)
+
+NAME ELSA Winner 2000AVI
+LINE     #Option "sync_on_green"
+SEE S3 968 (generic)
+
+NAME ELSA Gloria-4
+LINE     #Option "sync_on_green"
+SEE S3 968 (generic)
+
+NAME ELSA Gloria-8
+LINE     #Option "sync_on_green"
+SEE S3 968 (generic)
+
+NAME VideoLogic GrafixStar 700
+SEE S3 968 (generic)
+
+NAME LeadTek WinFast S430
+SEE S3 968 (generic)
+
+NAME WinFast S430
+SEE LeadTek WinFast S430
+
+NAME LeadTek WinFast S510
+SEE S3 968 (generic)
+
+NAME WinFast S510
+SEE LeadTek WinFast S510
+
+######################################################################
+# S3 928
+
+NAME S3 928 (generic)
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+
+NAME S3 86C928 (generic)
+SEE S3 928 (generic)
+
+NAME Actix Ultra
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c490
+LINE     #Option "dac_8_bit"
+
+NAME Diamond Stealth Pro
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP icd2061a
+LINE     #Ramdac "att20c490" # The Diamond RAMDAC is reportedly compatible for 15bpp
+LINE     #Option "no_linear" # Some VLB machines may require this
+
+NAME ELSA Winner 1000VL
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+LINE     # the following settings should be detected and set automMatically by XF86_S3
+LINE     # if the serial number of the ELSA card is printed correctly:
+LINE     #ClockChip "icd2061a"
+LINE     #Membase 0xf8000000
+
+NAME ELSA Winner 1000TwinBus
+SEE ELSA Winner 1000VL
+
+NAME ELSA Winner 2000
+SEE S3 928 (generic)
+
+NAME Miro Crystal 16S
+SEE S3 928 (generic)
+
+NAME SPEA/V7 Mercury
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP sc11412
+LINE     Option "spea_mercury"
+
+NAME STB Pegasus
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+RAMDAC bt485
+CLOCKCHIP icd2061a
+LINE     Option "stb_pegasus"
+LINE     #Option "sync_on_green"
+
+NAME Number Nine GXE Level 14/16
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+DACSPEED 200
+CLOCKCHIP icd2061a
+LINE     Option "number_nine"
+LINE     #Option "nolinear"
+LINE     #Option "nomemaccess"
+
+NAME Number Nine GXE Level 10/11/12
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP icd2061a
+LINE     Option "number_nine"
+
+NAME 928Movie
+CHIPSET S3 928
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+CLOCKCHIP icd2595
+RAMDAC bt485
+LINE     # pixel multiplexing not supported
+
+######################################################################
+# S3 911/924
+
+NAME S3 911/924 (generic)
+CHIPSET S3 911/924
+SERVER S3
+DRIVER vga
+#UNSUPPORTED
+
+NAME S3 86C911 (generic)
+SEE S3 911/924 (generic)
+
+NAME S3 86C924 (generic)
+SEE S3 911/924 (generic)
+
+NAME Diamond Stealth VRAM
+CLOCKCHIP icd2061a
+SEE S3 911/924 (generic)
+
+NAME Orchid Fahrenheit 1280
+SEE S3 911/924 (generic)
+
+NAME S3 924 with SC1148 DAC
+LINE     #Probable clocks:
+LINE     #Clocks 25.2 28.3 39.7 1.7 49.9 76.7 35.7 44
+LINE     #Clocks 130.2 119.5 79.4 31.2 110.0 65.2 74.9 71.3
+SEE S3 911/924 (generic)
+
+######################################################################
+# S3 ViRGE,/DX,/GX and ViRGE/VX
+
+NAME S3 ViRGE (generic)
+CHIPSET S3 ViRGE
+SERVER SVGA
+DRIVER s3virge
+NOCLOCKPROBE
+LINE      #Option "xaa_benchmark"
+LINE      #Option "fifo_moderate"
+LINE      #Option "pci_burst_on"
+LINE      #Option "pci_retry"
+#UNSUPPORTED
+
+NAME S3 ViRGE/DX (generic)
+CHIPSET S3 ViRGE/DX
+SERVER SVGA
+DRIVER s3virge
+NOCLOCKPROBE
+LINE      #Option "xaa_benchmark"
+LINE      #Option "fifo_moderate"
+LINE      #Option "pci_burst_on"
+LINE      #Option "pci_retry"
+#UNSUPPORTED
+
+NAME S3 ViRGE/GX (generic)
+CHIPSET S3 ViRGE/GX
+DRIVER s3virge
+NOCLOCKPROBE
+LINE      #Option "xaa_benchmark"
+LINE      #Option "fifo_moderate"
+LINE      #Option "pci_burst_on"
+LINE      #Option "pci_retry"
+#UNSUPPORTED
+
+NAME S3 ViRGE/GX2 (generic)
+CHIPSET S3 ViRGE/GX2
+DRIVER s3virge
+NOCLOCKPROBE
+LINE      #Option "xaa_benchmark"
+LINE      #Option "fifo_moderate"
+LINE      #Option "pci_burst_on"
+LINE      #Option "pci_retry"
+#UNSUPPORTED
+
+NAME S3 ViRGE/MX (generic)
+CHIPSET S3 ViRGE/MX
+DRIVER s3virge
+NOCLOCKPROBE
+LINE      #Option "lcd_center"
+LINE      #Set_LCDClk  <pixel_clock_for_LCD>
+LINE      #Option "xaa_benchmark"
+LINE      #Option "fifo_moderate"
+LINE      #Option "pci_burst_on"
+LINE      #Option "pci_retry"
+#UNSUPPORTED
+
+NAME S3 ViRGE/MX+ (generic)
+SEE S3 ViRGE/MX (generic)
+
+# Changed default driver for S3 Trio3D from "s3virge" to "vesa" driver as per
+# bug #59956 in bugzilla.  The bug reporter of the above report should be
+# consulted before changing this back to a native driver in the future.  This
+# is changed for 4.2.0 post RHL 7.3.  --  July 26, 2002 - Mike A. Harris
+# Update:  Bug #125866 has requested the driver for this hardware be changed
+# to use the "s3virge" driver.  I've investigated the original bug #59956 and
+# the PCI IDs are identical for all 3 users in those 2 bug reports, so I
+# assume the "s3virge" driver works now in X.Org X11 6.7.99.903 et al.  I'm
+# changing the default back from "vesa" to "s3virge" for the "S3 Trio3D" entry
+# here, but I've added a new one named "S3 Trio64 3D" as well, which also
+# defaults to the "s3virge" driver.  I've left the pcitable->Cards mapping
+# alone for the 0x8904 and 0x8903 entries so that they can be changed in the
+# future if a problem is discovered, however the new entry added to pcitable
+# is for the specific card referenced in these above bug reports, specified
+# including the subvendor/subdevice fields, so that we can assign drivers for
+# these card ranges in a more finely grained manner.
+NAME S3 Trio3D
+CHIPSET S3 Trio3D
+NOCLOCKPROBE
+DRIVER s3virge
+
+# See above comment for "S3 Trio3D" as it applies to this one as well.
+# This "S3 Trio64 3D" entry is specifically for:
+#	01:01.0 Class 0300: 5333:8904 (rev 01) Subsystem: 1014:00db
+NAME S3 Trio64 3D
+CHIPSET S3 Trio3D
+NOCLOCKPROBE
+DRIVER s3virge
+
+NAME S3 86C365 (Trio3D)
+SEE S3 Trio3D
+
+NAME Elsa Winner T3D
+SEE S3 Trio3D
+
+NAME Hercules Terminator 128/3D
+SEE S3 Trio3D
+
+NAME AOpen PG128
+SEE S3 Trio3D
+
+NAME S3 86C368 (Trio3D/2X)
+LINE      # Option "no_accel"	# You may enable this if there are timeouts when starting X
+SEE S3 Trio3D
+
+NAME S3 Trio3D/2X
+LINE      # Option "no_accel"	# You may enable this if there are timeouts when starting X
+SEE S3 Trio3D
+
+NAME S3 86C325 (ViRGE)
+SEE S3 ViRGE (generic)
+
+NAME S3 86C375 (ViRGE/DX)
+SEE S3 ViRGE/DX (generic)
+
+NAME S3 86C385 (ViRGE/GX)
+SEE S3 ViRGE/GX (generic)
+
+NAME S3 86C357 (ViRGE/GX2)
+SEE S3 ViRGE/GX2 (generic)
+
+NAME S3 86C260 (ViRGE/MX)
+SEE S3 ViRGE/MX (generic)
+
+NAME S3 86C280 (ViRGE/MX+)
+SEE S3 ViRGE/MX+ (generic)
+
+
+NAME ELSA Victory 3D
+SEE S3 ViRGE (generic)
+
+NAME ELSA Victory 3DX
+SEE S3 ViRGE/DX (generic)
+
+NAME ELSA Winner 3000-S
+SEE S3 ViRGE (generic)
+
+NAME Number Nine Visual 9FX Reality 332
+SEE S3 ViRGE (generic)
+
+NAME Number Nine FX Motion 332
+SEE S3 ViRGE (generic)
+
+NAME Diamond Stealth 3D 2000
+SEE S3 ViRGE (generic)
+
+NAME Diamond Stealth 3D 2000 PRO
+SEE S3 ViRGE/DX (generic)
+
+NAME Diamond Multimedia Stealth 3D 2000
+SEE S3 ViRGE (generic)
+
+NAME Diamond Multimedia Stealth 3D 2000 PRO
+SEE S3 ViRGE/DX (generic)
+
+NAME Canopus Co. Power Window 3DV
+SEE S3 ViRGE (generic)
+
+NAME DataExpert DSV3325
+SEE S3 ViRGE (generic)
+
+NAME ExpertColor DSV3325
+SEE S3 ViRGE (generic)
+
+NAME DSV3325
+SEE S3 ViRGE (generic)
+
+NAME Hercules Terminator 64/3D
+SEE S3 ViRGE (generic)
+
+NAME Hercules Terminator 3D/DX
+SEE S3 ViRGE/DX (generic)
+
+NAME AOpen PT70
+SEE S3 ViRGE/DX (generic)
+
+NAME AOpen PT75
+SEE S3 ViRGE/DX (generic)
+
+NAME LeadTek WinFast 3D S600
+SEE S3 ViRGE (generic)
+
+NAME LeadTek WinFast 3D S680
+SEE S3 ViRGE/GX2 (generic)
+
+NAME Miro MiroMedia 3D
+SEE S3 ViRGE (generic)
+
+NAME Orchid Technology Fahrenheit Video 3D
+SEE S3 ViRGE (generic)
+
+NAME STB Systems Powergraph 3D
+SEE S3 ViRGE (generic)
+
+NAME STB Nitro 3D
+CHIPSET S3 ViRGE/GX
+SEE S3 ViRGE/GX (generic)
+
+NAME MELCO WGP-VG4S
+LINE      #DACSpeed  191 162 111 83
+LINE      #SetMClck  75
+SEE S3 ViRGE (generic)
+
+
+
+NAME S3 ViRGE/VX (generic)
+CHIPSET S3 ViRGE/VX
+SERVER SVGA
+DRIVER s3virge
+NOCLOCKPROBE
+LINE      #Option "xaa_benchmark"
+LINE      #Option "fifo_moderate"
+LINE      #Option "pci_burst_on"
+LINE      #Option "pci_retry"
+#UNSUPPORTED
+
+NAME S3 86C988 (ViRGE/VX)
+SEE S3 ViRGE/VX (generic)
+
+NAME ELSA Winner 3000
+SEE S3 ViRGE/VX (generic)
+
+NAME ELSA Winner 3000-M-22
+SEE S3 ViRGE/VX (generic)
+
+NAME ELSA Winner 3000-L-42
+SEE S3 ViRGE/VX (generic)
+
+NAME ELSA Winner 2000AVI/3D
+SEE S3 ViRGE/VX (generic)
+
+NAME Diamond Stealth 3D 3000
+SEE S3 ViRGE/VX (generic)
+
+NAME STB Systems Velocity 3D
+SEE S3 ViRGE/VX (generic)
+
+NAME MELCO WGP-VX8
+SEE S3 ViRGE/VX (generic)
+
+NAME Number Nine FX Reality 772
+SEE S3 ViRGE/VX (generic)
+
+NAME Diamond Stealth 3D 4000
+SEE S3 ViRGE/GX2 (generic)
+
+NAME Toshiba Tecra 750CDT
+SEE S3 ViRGE/MX (generic)
+
+NAME Toshiba Tecra 750DVD
+SEE S3 ViRGE/MX (generic)
+
+NAME Toshiba Tecra 540CDT
+SEE S3 ViRGE/MX (generic)
+
+NAME Toshiba Tecra 550CDT
+SEE S3 ViRGE/MX (generic)
+
+NAME Toshiba Satellite 2050 CDS
+SEE S3 ViRGE/MX (generic)
+
+NAME Toshiba Satellite 2520 CDS
+SEE S3 ViRGE/MX (generic)
+
+NAME Compaq Armada 7400
+SEE S3 ViRGE/MX (generic)
+
+NAME Compaq Armada 7800
+SEE S3 ViRGE/MX (generic)
+
+######################################################################
+# S3 Savage cards #######
+
+NAME S3 Savage (generic)
+CHIPSET S3 Savage
+DRIVER savage
+NOCLOCKPROBE
+LINE      #Option "xaa_benchmark"
+
+NAME S3 86C390 (Savage3D)
+SEE S3 Savage (generic)
+
+NAME S3 86C391 (Savage3D)
+SEE S3 Savage (generic)
+
+NAME S3 Savage3D
+SEE S3 Savage (generic)
+
+NAME Aristo ART-390-G  S3 Savage3D
+SEE S3 Savage (generic)
+
+NAME S3 Savage4 (generic)
+LINE      # Option "no_accel"	# You may enable this if there are timeouts when starting X
+SEE S3 Savage (generic)
+
+NAME S3 86C395 (Savage4 Pro+)
+SEE S3 Savage4 (generic)
+
+NAME S3 86C396 (Savage4)
+SEE S3 Savage4 (generic)
+
+NAME S3 86C397 (Savage4)
+SEE S3 Savage4 (generic)
+
+NAME S3 Savage4
+SEE S3 Savage4 (generic)
+
+NAME S3 Savage4 Pro+
+SEE S3 Savage4 (generic)
+
+NAME Diamond Stealth III (S520/S540)
+SEE S3 Savage4 (generic)
+
+NAME Creative Labs Savage 4  3D Blaster
+SEE S3 Savage4 (generic)
+
+NAME S3 Savage 2000 (generic)
+CHIPSET S3 Savage2000
+SERVER SVGA
+DRIVER savage
+NOCLOCKPROBE
+
+# This was reverted to the 'vesa' driver Feb 13, 2003 because Savage/MX
+# support is broken in XFree86 4.2.99.901 and is unlikely to be fixed for
+# 4.3.0 at this stage.  Email to the driver maintainer has not garnered a
+# response, so I assume he is not actively maintaining the driver currently.
+# The safest bet for now is to use 'vesa' until a public fix is available.
+# <mharris> https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=80278
+#
+# Update: I've updated the driver to 1.1.27t in 4.2.99.902, which is supposed
+# to fix the Savage MX/IX problems, so I've changed back to the native driver
+# here.  mharris - Feb 18, 2003
+NAME S3 Savage/MX
+CHIPSET Savage/MX
+DRIVER savage
+#DRIVER vesa
+NOCLOCKPROBE
+
+NAME S3 Savage/IX
+CHIPSET Savage/IX
+DRIVER savage
+#DRIVER vesa
+NOCLOCKPROBE
+
+NAME S3 ProSavage KM133
+CHIPSET ProSavage/Twister
+DRIVER savage
+NOCLOCKPROBE
+
+NAME S3 ProSavage PM133
+CHIPSET ProSavage/Twister
+DRIVER savage
+NOCLOCKPROBE
+
+NAME S3 ProSavage KN133
+CHIPSET ProSavage/Twister
+DRIVER savage
+NOCLOCKPROBE
+
+NAME S3 ProSavage PN133
+CHIPSET ProSavage/Twister
+DRIVER savage
+NOCLOCKPROBE
+
+# S3 UniChrome (via)
+
+NAME S3 UniChrome
+CHIPSET UniChrome
+DRIVER via
+NOCLOCKPROBE
+
+# Tseng Labs ET4000/ET6000
+
+NAME ET3000 (generic)
+CHIPSET ET3000
+SERVER SVGA
+DRIVER tseng
+
+NAME Genoa 5400
+SEE ET3000 (generic)
+
+NAME ET4000 (generic)
+CHIPSET ET4000
+SERVER SVGA
+DRIVER tseng
+
+NAME ET4000/W32 (generic)
+CHIPSET ET4000/W32
+SERVER W32
+DRIVER tseng
+
+NAME ET4000 W32i, W32p (generic)
+CHIPSET ET4000/W32(i/p)
+SERVER SVGA
+DRIVER tseng
+LINE     #Option "linear"       # for linear mode at 8bpp
+LINE     #Option "noaccel"      # when problems with accelerator
+LINE     #Option "power_saver"  # enable VESA DPMS
+LINE     #Option "fast_dram"
+LINE     #Option "pci_retry"    # faster, but problematic for ISA DMA
+LINE     #Option "hibit_high"   # see README.tseng -- most cards need this
+LINE     #Option "hibit_low"    # see README.tseng -- mostly for older ET4000 cards
+LINE     #MemBase 0x3C00000     # when automatic MemBase detection doesn't work
+LINE         # -- see README.tseng for more (important) information on MemBase
+
+NAME ET6000 (generic)
+CHIPSET ET6000
+SERVER SVGA
+DRIVER tseng
+NOCLOCKPROBE
+LINE     #videoram 2304         # 2.25 MB, when memory probe is incorrect
+LINE     #Option "linear"       # for linear mode at 8bpp
+LINE     #Option "noaccel"      # when problems with accelerator
+LINE     #Option "power_saver"  # enable VESA DPMS
+LINE     #Option "pci_retry"    # faster, but problematic for ISA DMA
+LINE     #Option "hw_cursor"    # Use hardware cursor (see docs for limitations)
+LINE     #Option "xaa_no_color_exp"  # When text (or bitmap) is not rendered correctly
+
+NAME ET6100 (generic)
+CHIPSET ET6100
+SEE ET6000 (generic)
+
+NAME ET6300 (generic)
+CHIPSET ET6300
+SEE ET6000 (generic)
+
+NAME Diamond Stealth 32
+CLOCKCHIP icd2061a
+NOCLOCKPROBE
+SEE ET4000 W32i, W32p (generic)
+
+NAME Cardex Cobra
+SEE ET4000 W32i, W32p (generic)
+
+NAME Cardex Challenger (Pro)
+SEE ET4000 W32i, W32p (generic)
+
+NAME Colorgraphic Dual Lightning
+SEE ET4000 W32i, W32p (generic)
+
+NAME Dell onboard ET4000
+SEE ET4000 (generic)
+
+NAME DFI-WG5000
+SEE ET4000 W32i, W32p (generic)
+
+NAME Diamond SpeedStar (Plus)
+SEE ET4000 (generic)
+
+NAME Diamond SpeedStar 24
+SEE ET4000 (generic)
+
+NAME Diamond SpeedStar HiColor
+SEE ET4000 (generic)
+
+NAME Genoa 8900 Phantom 32i
+SEE ET4000 W32i, W32p (generic)
+
+NAME Hercules Dynamite
+SEE ET4000/W32 (generic)
+
+NAME Hercules Dynamite Power
+SEE ET4000 W32i, W32p (generic)
+
+NAME Hercules Dynamite Pro
+SEE ET4000 W32i, W32p (generic)
+
+NAME Integral FlashPoint
+SEE ET4000 W32i, W32p (generic)
+
+NAME LeadTek WinFast S200
+SEE ET4000 W32i, W32p (generic)
+
+NAME Matrox Comet
+SEE ET4000 W32i, W32p (generic)
+
+NAME Matrox Marvel II
+SEE ET4000 W32i, W32p (generic)
+
+NAME Miro MiroVideo 20TD
+SEE ET4000 W32i, W32p (generic)
+
+NAME WinFast S200
+SEE LeadTek WinFast S200
+
+NAME Sigma Concorde
+SEE ET4000/W32 (generic)
+
+NAME Sigma Legend
+SEE ET4000 (generic)
+
+NAME SPEA/V7 ShowTime Plus
+SEE ET4000 W32i, W32p (generic)
+
+NAME STB LightSpeed
+SEE ET4000 W32i, W32p (generic)
+
+NAME STB MVP-2
+SEE ET4000 (generic)
+
+NAME STB MVP-2 PCI
+SEE ET4000 W32i, W32p (generic)
+
+NAME STB MVP-2X
+SEE ET4000 W32i, W32p (generic)
+
+NAME STB MVP-4 PCI
+SEE ET4000 W32i, W32p (generic)
+
+NAME STB MVP-4X
+SEE ET4000 W32i, W32p (generic)
+
+NAME TechWorks Thunderbolt
+SEE ET4000/W32 (generic)
+
+NAME ViewTop PCI
+SEE ET4000 W32i, W32p (generic)
+
+NAME SNI PC5H W32
+CLOCKCHIP stg1703
+NOCLOCKPROBE
+SEE ET4000 W32i, W32p (generic)
+
+NAME SNI Scenic W32
+CLOCKCHIP stg1703
+NOCLOCKPROBE
+SEE ET4000 W32i, W32p (generic)
+
+NAME Hercules Dynamite 128/Video
+SEE ET6000 (generic)
+
+NAME STB LightSpeed 128
+SEE ET6000 (generic)
+
+NAME VideoLogic GrafixStar 600
+SEE ET6000 (generic)
+
+NAME Jazz Multimedia G-Force 128
+SEE ET6000 (generic)
+
+NAME Mirage Z-128
+SEE ET6000 (generic)
+
+NAME California Graphics SunTracer 6000
+SEE ET6000 (generic)
+
+NAME Binar Graphics AnyView
+SEE ET6000 (generic)
+
+NAME MediaVision Proaxcel 128
+SEE ET6000 (generic)
+
+NAME ATrend ATC-2165A
+SEE ET6000 (generic)
+
+NAME Interay PMC Viper
+SEE ET6000 (generic)
+
+NAME 2-the-Max MAXColor 6000
+SEE ET6000 (generic)
+
+NAME Gainward Challenger EV
+SEE ET6000 (generic)
+
+NAME MachSpeed VGA ET6000
+SEE ET6000 (generic)
+
+NAME KouTech KeyVision 128 EV
+SEE ET6000 (generic)
+
+NAME Jaton Video-58P
+SEE ET6000 (generic)
+
+######################################################################
+# ATI
+
+NAME ATI 8514 Ultra (no VGA)
+CHIPSET ATI-Mach8
+DRIVER vga
+
+NAME ATI Graphics Ultra
+CHIPSET ati
+DRIVER ati
+
+NAME ATI Graphics Ultra Pro
+CHIPSET ati
+DRIVER ati
+
+NAME ATI Wonder SVGA
+CHIPSET ati
+DRIVER ati
+
+NAME ATI Ultra Plus
+CHIPSET ati
+DRIVER ati
+
+NAME ATI Mach32
+CHIPSET ati
+DRIVER ati
+
+NAME ATI Mach64
+CHIPSET ati
+DRIVER ati
+NOCLOCKPROBE
+
+NAME ATI Mach64 CT (264CT)
+SEE ATI Mach64
+
+NAME ATI Mach64 VT (264VT)
+SEE ATI Mach64
+
+NAME ATI Mach64 GT (264GT), aka 3D RAGE
+SEE ATI Mach64
+
+NAME ATI Mach64 3D RAGE II
+SEE ATI Mach64
+
+NAME ATI Mach64 3D RAGE II+DVD
+SEE ATI Mach64
+
+NAME ATI Mach64 3D Rage IIC
+SEE ATI Mach64
+
+NAME ATI Mach64 3D Rage Pro
+SEE ATI Mach64
+
+NAME ATI 3D Pro Turbo
+SEE ATI Mach64
+
+NAME ATI 3D Pro Turbo PC2TV
+SEE ATI Mach64
+
+NAME ATI 3D Xpression
+SEE ATI Mach64
+
+NAME ATI 3D Xpression+
+SEE ATI Mach64
+
+NAME ATI 3D Xpression+ PC2TV
+SEE ATI Mach64
+
+NAME ATI All-in-Wonder
+SEE ATI Mach64
+
+NAME ATI All-in-Wonder Pro
+SEE ATI Mach64
+
+NAME ATI Graphics Pro Turbo
+SEE ATI Mach64
+
+NAME ATI Graphics Pro Turbo 1600
+SEE ATI Mach64
+
+NAME ATI Graphics Xpression
+SEE ATI Mach64
+
+NAME ATI Video Boost
+SEE ATI Mach64
+
+NAME ATI Video Charger
+SEE ATI Mach64
+
+NAME ATI Video Xpression
+SEE ATI Mach64
+
+NAME ATI Video Xpression+
+SEE ATI Mach64
+
+NAME ATI WinBoost
+SEE ATI Mach64
+
+NAME ATI WinCharger
+SEE ATI Mach64
+
+NAME ATI WinTurbo
+SEE ATI Mach64
+
+NAME ATI Xpert 98
+SEE ATI Mach64
+
+NAME ATI Xpert XL
+SEE ATI Mach64
+
+NAME ATI Xpert@Play
+SEE ATI Mach64
+
+NAME ATI Xpert@Play 98
+SEE ATI Mach64
+
+NAME ATI Xpert@Work
+SEE ATI Mach64
+
+NAME ATI integrated on Intel Maui MU440EX motherboard
+SEE ATI Mach64
+
+NAME ASUS PCI-V264CT
+SEE ATI Mach64
+
+NAME ASUS PCI-AV264CT
+SEE ATI Mach64
+
+NAME ATI Rage LT
+SEE ATI Mach64
+
+NAME ATI Rage LT PRO
+SEE ATI Mach64
+
+NAME ATI Rage XL
+CHIPSET ati
+DRIVER ati
+NOCLOCKPROBE
+
+NAME ATI Rage XL AGP
+SEE ATI Rage XL
+
+NAME ATI Rage Mobility P
+SEE ATI Mach64
+
+NAME ATI Rage Mobility
+CHIPSET ati
+DRIVER ati
+LINE     # Uncomment the following line to enable external display
+LINE     # Option "crt_screen"
+NOCLOCKPROBE
+
+# New ATI server chip
+NAME ATI ES1000
+CHIPSET ati
+DRIVER ati
+
+######################################################################
+# ATI Radeon
+
+NAME ATI Radeon (generic)
+CHIPSET R100
+DRIVER radeon
+
+NAME ATI Radeon AGP
+SEE ATI Radeon (generic)
+
+NAME ATI Radeon 32 DDR (AGP)
+SEE ATI Radeon (generic)
+
+NAME ATI Radeon 32 SDR (AGP)
+SEE ATI Radeon (generic)
+
+NAME ATI Radeon 64 DDR (AGP)
+SEE ATI Radeon (generic)
+
+NAME ATI Radeon AGP VIVO
+SEE ATI Radeon (generic)
+
+NAME ATI Radeon All In Wonder AGP
+SEE ATI Radeon (generic)
+
+NAME ATI Radeon VE
+CHIPSET RV100
+DRIVER radeon
+
+# The Radeon 7000 is identical to the Radeon VE, however it has a different
+# Subdevice ID, and possibly subvendor ID as well as ATI licences their chips
+# to other vendors.  It is possible that other vendor's hardware may require
+# different entries in pcitable, and also the Cards database if they differ
+# greatly from ATI's hardware.
+NAME ATI Radeon 7000
+SEE ATI Radeon VE
+
+NAME ATI Radeon Mobility M6
+CHIPSET RV100
+DRIVER radeon
+
+# The Radeon 7200 is identical to the Radeon 64DDR for the most part only
+# has differing subid's.  This card is fairly rare in practice.
+NAME ATI Radeon 7200
+SEE ATI Radeon (generic)
+
+# Radeon 7500 is made by ATI, but also boards are available from other
+# manufacturers, some of which are customized and require special configuration.
+# As these custom configurations become known, the database will be extended
+# to handle these variants.
+# This was added for special Dell hardware, but 4.2.99.x handles them
+# properly in the driver now.  Commenting out the LINE options
+NAME ATI Radeon 7500
+CHIPSET RV200
+DRIVER radeon
+#LINE # Some 7500 boards aparently need this option enabled to work - bug (#62760)
+#LINE # Option "CrtScreen"
+
+# The Radeon Mobility 7500 is the M7.  Both entries provided for compatibility.
+NAME ATI Radeon Mobility 7500
+CHIPSET RV200
+DRIVER radeon
+
+NAME ATI Radeon Mobility M7
+CHIPSET RV200
+DRIVER radeon
+
+# This card is Radeon Mobility M7 variant LX, not supported by stock 4.2.0, but
+# supported by Red Hat Linux XFree86 4.2.0.
+# alphablue on freenode has one of these
+NAME ATI Mobility FireGL 7800
+CHIPSET RV200
+DRIVER radeon
+
+NAME ATI Radeon 8500
+CHIPSET R200
+DRIVER radeon
+
+NAME ATI Radeon 8500LE
+CHIPSET R200
+DRIVER radeon
+
+NAME ATI FireGL 8700
+CHIPSET R200
+DRIVER radeon
+
+NAME ATI FireGL 8800
+CHIPSET R200
+DRIVER radeon
+
+NAME ATI Radeon 9000
+CHIPSET R250
+DRIVER radeon
+
+NAME ATI Radeon 9000 Pro
+CHIPSET R250
+DRIVER radeon
+
+NAME ATI Radeon 9100
+CHIPSET R250
+DRIVER radeon
+
+NAME ATI Radeon Mobility M9
+CHIPSET R250
+DRIVER radeon
+
+NAME ATI Radeon 9200
+CHIPSET R250
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9200SE
+CHIPSET R250
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9500
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9500 Pro
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9600
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9600 Pro
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon Mobility 9600
+CHIPSET RV350
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon Mobility 9600 M10
+CHIPSET RV350
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9700
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9700 Pro
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9800
+CHIPSET R350
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9800 Pro
+CHIPSET R350
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI Radeon 9800 XT
+CHIPSET R350
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI FireGL Z1/X1
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI FireGL X1
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI FireGL X2
+CHIPSET RV350
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI FireGL Z1
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI FireGL T2
+CHIPSET RV350
+DRIVER radeon
+
+NAME ATI FireGL Mobility T2
+CHIPSET RV350
+DRIVER radeon
+
+NAME ATI Radeon Mobility U1
+CHIPSET R300
+DRIVER radeon
+LINE #Option "nodri"
+
+NAME ATI FireGL D1100
+DRIVER radeon
+
+NAME ATI FireGL M22 GL
+DRIVER radeon
+
+NAME ATI FireGL M24 GL
+DRIVER radeon
+
+NAME ATI FireGL Mobility T2e
+DRIVER radeon
+
+NAME ATI FireGL V3100
+DRIVER radeon
+
+NAME ATI FireGL V3200
+DRIVER radeon
+
+NAME ATI FireGL V5100
+DRIVER radeon
+
+NAME ATI FireGL V7100
+DRIVER radeon
+
+NAME ATI FireGL V7200
+DRIVER radeon
+
+NAME ATI FireGL X3
+DRIVER radeon
+
+NAME ATI Radeon 7000 IGP
+DRIVER radeon
+
+NAME ATI Radeon 9100 IGP
+DRIVER radeon
+
+NAME ATI Radeon 9100 PRO IGP
+DRIVER radeon
+
+NAME ATI Radeon 9200PRO
+DRIVER radeon
+
+NAME ATI Radeon IGP320
+DRIVER radeon
+
+NAME ATI Radeon IGP330/340/350
+DRIVER radeon
+
+NAME ATI Radeon IGP330M/340M/350M
+DRIVER radeon
+
+NAME ATI Radeon Mobility 7000
+DRIVER radeon
+
+NAME ATI Radeon Mobility 9100 IGP
+DRIVER radeon
+
+NAME ATI Radeon Mobility 9200
+DRIVER radeon
+
+NAME ATI Radeon Mobility 9200 IGP
+DRIVER radeon
+
+NAME ATI Radeon Mobility 9800
+DRIVER radeon
+
+NAME ATI Radeon Mobility M300
+DRIVER radeon
+
+NAME ATI Radeon Mobility X600
+DRIVER radeon
+
+NAME ATI Radeon X800
+DRIVER radeon
+
+NAME ATI Radeon X800LE
+DRIVER radeon
+
+NAME ATI Radeon X800PRO
+DRIVER radeon
+
+NAME ATI Radeon X800SE
+DRIVER radeon
+
+NAME ATI Radeon X300
+DRIVER radeon
+
+NAME ATI Radeon X600
+DRIVER radeon
+
+NAME ATI Radeon X800XT
+DRIVER radeon
+
+######################################################################
+NAME ATI Rage Fury Pro AGP
+CHIPSET ATI
+DRIVER r128
+NOCLOCKPROBE
+
+NAME ATI Rage Mobility M4 AGP
+CHIPSET ati
+DRIVER r128
+NOCLOCKPROBE
+
+NAME ATI Rage 128 (generic)
+CHIPSET ati
+DRIVER r128
+NOCLOCKPROBE
+
+NAME ATI Rage 128 Mobility
+CHIPSET ati
+DRIVER r128
+NOCLOCKPROBE
+
+NAME ATI Rage 128
+SEE ATI Rage 128 (generic)
+
+NAME ATI Rage Fury AGP
+SEE ATI Rage 128 (generic)
+
+NAME ATI Xpert 128 AGP
+SEE ATI Rage 128 (generic)
+
+NAME ATI Xpert 99 AGP
+SEE ATI Rage 128 (generic)
+
+NAME ATI Xpert 2000 AGP
+SEE ATI Rage 128 (generic)
+
+NAME ATI All-in-Wonder 128 Pro AGP
+SEE ATI Rage 128 (generic)
+
+NAME ATI Rage 128 Pro Ultra
+SEE ATI Rage 128 (generic)
+
+##############################################################################
+# AGX
+
+NAME AGX (generic)
+CHIPSET AGX-014/15/16
+SERVER AGX
+DRIVER vga
+
+NAME Boca Vortex (Sierra RAMDAC)
+CHIPSET AGX-015
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+RAMDAC sc15025
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
+
+NAME EIZO (VRAM)
+SEE AGX (generic)
+
+NAME Orchid Celsius (AT&T RAMDAC)
+CHIPSET AGX-015
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+RAMDAC att20c490
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
+
+NAME Orchid Celsius (Sierra RAMDAC)
+CHIPSET AGX-015
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+RAMDAC sc15025
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
+
+
+NAME Spider Black Widow
+CHIPSET AGX-015
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+RAMDAC sc15025
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
+
+
+NAME Spider Black Widow Plus
+CHIPSET AGX-016
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+RAMDAC sc15025
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
+LINE     #Option "fifo_aggressive" # 3x bus bw - may result in random pixels
+LINE	 #Probable clocks:
+LINE     #Clocks 25.2  28.3  39.9  72.2  50.0  76.9  36.1  44.8
+LINE     #Clocks 89.0  119.8 79.9  31.5 110.0  64.9  74.9  94.9
+
+NAME Hercules Graphite HG210
+CHIPSET AGX-014
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+RAMDAC bt482
+DACSPEED 85
+LINE     Chipset "AGX-014"
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Probable clocks:
+LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
+LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
+
+NAME Hercules Graphite Pro
+CHIPSET AGX-015
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+# Card specific DAC, doesn't appear in ramdac menu
+LINE     Ramdac "herc_dual_dac"
+LINE     Chipset "AGX-015"
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
+LINE     #Probable clocks:
+LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
+LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
+
+NAME Hercules Graphite Power
+CHIPSET AGX-016
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+# Card specific DAC, doesn't appear in ramdac menu
+#   The glue logic state machine for RAMDAC switching doesn't work as
+#   documented, for now we're stuck with the small RAMDAC
+LINE     Ramdac "herc_small_dac"
+LINE     Chipset "AGX-016"
+LINE     Option "dac_8_bit"
+LINE     Option "no_wait_state"
+LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
+LINE     #Option "fifo_aggressive" # 3x bus bw - may result in random pixels
+LINE     #Probable clocks:
+LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
+LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
+
+NAME XGA-2  (ISA bus)
+CHIPSET XGA-2
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+NOCLOCKPROBE
+LINE     #Instance  7           # XGA instance 0-7
+LINE     #COPbase   0xC8F00     # XGA memory-mapped register address
+LINE     #POSbase   0           # Disable probing if above are specified
+
+NAME XGA-1  (ISA bus)
+CHIPSET XGA-1
+SERVER AGX
+DRIVER vga
+#UNSUPPORTED
+LINE     #Instance  7           # XGA instance 0-7
+LINE     #COPbase   0xC8F00     # XGA memory-mapped register address
+LINE     #POSbase   0           # Disable probing if above are specified
+
+# WD
+
+NAME Paradise/WD 90CXX
+CHIPSET WD90CXX
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME DFI-WG6000
+CHIPSET WD90C33
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Diamond SpeedStar 24X (not fully supported)
+CHIPSET WD90C31
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME WD 90C24 (laptop)
+CHIPSET WD90C24
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+LINE     #Chipset "wd90c24"
+LINE     #Option "noaccel" # Use this if acceleration is causing problems
+LINE     #Clocks 25.175 28.322 65     36     # These are not programmable
+LINE     #Clocks 29.979 77.408 62.195 59.957 # These are programmable
+LINE     #Clocks 31.5   35.501 75.166 50.114 # These are not programmable
+LINE     #Clocks 39.822 72.038 44.744 80.092 # These are programmable
+LINE     #Clocks 44.297                      # Must match Mclk
+
+
+NAME WD 90C24A or 90C24A2 (laptop)
+CHIPSET WD90C24A
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+LINE     #Chipset "wd90c24"
+LINE     #Clocks 25.175 28.322 65     36     # These are not programmable
+LINE     #Clocks 29.979 77.408 62.195 59.957 # These are programmable
+LINE     #Clocks 31.5   35.501 75.166 50.114 # These are not programmable
+LINE     #Clocks 39.822 72.038 44.744 80.092 # These are programmable
+LINE     #Clocks 44.297                      # Must match Mclk
+
+# Avance Logic
+
+NAME Avance Logic 2101
+CHIPSET Avance Logic
+LINE   #chipset "al2101"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Avance Logic 2228
+CHIPSET Avance Logic
+LINE   #chipset "ali2228"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Avance Logic 2301
+CHIPSET Avance Logic
+LINE   #chipset "ali2301"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Avance Logic 2302
+CHIPSET Avance Logic
+LINE   #chipset "ali2302"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Avance Logic 2308
+CHIPSET Avance Logic
+LINE   #chipset "ali2308"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Avance Logic 2401
+CHIPSET Avance Logic
+LINE   #chipset "ali2401"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Hercules Stingray
+CHIPSET ALG-2228/2301/2302
+LINE   #chipset "ali2228"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME SPEA/V7 Mirage VEGA Plus
+CHIPSET ALG-2228
+LINE   #chipset "ali2228"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+# ARK Logic
+
+NAME Ark Logic ARK1000PV (generic)
+CHIPSET ARK1000PV
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+# For now, treat the VL as a PV.  This may be changed later
+NAME Ark Logic ARK1000VL (generic)
+CHIPSET ARK1000VL
+LINE Chipset "ark1000pv"
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Ark Logic ARK2000PV (generic)
+CHIPSET ARK1000PV
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Ark Logic ARK2000MT (generic)
+CHIPSET ARK1000MT
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Hercules Stingray Pro
+SEE Ark Logic ARK1000PV (generic)
+
+NAME Hercules Stingray Pro/V
+SEE Ark Logic ARK1000PV (generic)
+
+NAME Ocean (octek) VL-VGA-1000
+RAMDAC att20c490
+SEE Ark Logic ARK1000VL (generic)
+
+NAME Hercules Stingray 64/V with ZoomDAC
+SEE Ark Logic ARK2000PV (generic)
+
+NAME Hercules Stingray 64/V with ICS5342
+CHIPSET ARK2000MT
+RAMDAC ics5342
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Diamond Stealth64 Graphics 2001 series
+CHIPSET ARK2000PV
+RAMDAC ics5342
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+# Oak
+
+NAME Oak ISA Card (generic)
+CHIPSET Oak OTI-067/77
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Oak 87 VLB (generic)
+CHIPSET Oak OTI-087
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+LINE Option "fifo_aggressive" # Comment this if you experience streaks.
+LINE Option "no_wait"         # Comment this if you find problems.        
+LINE #Option "enable_bitblt"  # You may enable this and see if it works (see README.Oak file)
+
+NAME Oak 87 ISA (generic)
+CHIPSET Oak OTI-087
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+LINE Option "noaccel"        # ISA cards seem to have Color Expansion support broken
+LINE #Option "enable_bitblt" # This should work on ISA, but lets not make it default just in case.
+
+NAME Paradise Accelerator Value
+SEE Oak 87 ISA (generic)
+
+# P9000
+
+NAME Diamond Viper VLB 2Mb
+CHIPSET Weitek 9000
+SERVER P9000
+DRIVER vga
+#UNSUPPORTED
+LINE     #Clocks must match the mode clocks (XFree86 3.1 P9000 server)
+LINE     #Versions later than 3.1 do not require a clocks line
+LINE     Chipset "vipervlb" # Required for some cards which autodetect as PCI
+LINE     Videoram 2048      # Required
+LINE     Membase 0x80000000 # Optional (0x80000000 is default)
+NOCLOCKPROBE
+
+NAME Diamond Viper PCI 2Mb
+CHIPSET Weitek 9000
+SERVER P9000
+DRIVER vga
+#UNSUPPORTED
+LINE     #Clocks must match the mode clocks (XFree86 3.1 P9000 server)
+LINE     #Versions later than 3.1 do not require a clocks line
+LINE     Videoram 2048      # Required
+LINE     #Membase 0x80000000 # Use scanpci to get the correct Membase
+NOCLOCKPROBE
+
+NAME Orchid P9000 VLB
+CHIPSET Weitek 9000
+SERVER P9000
+DRIVER vga
+#UNSUPPORTED
+LINE     Chipset "orchid_p9000"
+LINE     Membase 0xE0000000
+NOCLOCKPROBE
+
+# P9100
+
+NAME Weitek P9100 (generic)
+CHIPSET Weitek P9100
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Diamond Viper Pro Video
+SEE Weitek P9100 (generic)
+
+# Trident
+
+NAME Trident 8900/9000 (generic)
+CHIPSET TVGA8900/9000
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Trident 8900D (generic)
+CHIPSET TVGA8900D
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Trident TVGA9200CXr (generic)
+CHIPSET TVGA9200CXr
+SERVER SVGA
+DRIVER vga
+#UNSUPPORTED
+
+NAME Trident TGUI9400CXi (generic)
+CHIPSET TGUI9400CXi
+SERVER SVGA
+DRIVER trident
+
+NAME Trident TGUI9420DGi (generic)
+CHIPSET TGUI9420DGi
+SERVER SVGA
+DRIVER trident
+
+NAME Trident TGUI9420 (generic)
+CHIPSET TGUI9420
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident TGUI9430DGi (generic)
+CHIPSET TGUI9430DGi
+SERVER SVGA
+DRIVER trident
+
+NAME Trident TGUI9440 (generic)
+CHIPSET TGUI9440
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident TGUI9660 (generic)
+CHIPSET TGUI9660
+SERVER SVGA
+DRIVER trident
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Trident TGUI9680 (generic)
+CHIPSET TGUI9680
+SERVER SVGA
+DRIVER trident
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Trident TGUI9682 (generic)
+CHIPSET TGUI9682
+SERVER SVGA
+DRIVER trident
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Trident TGUI9685 (generic)
+CHIPSET TGUI9685
+SERVER SVGA
+DRIVER trident
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Trident Cyber 9320 (generic)
+CHIPSET Cyber9320
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Cyber 9382 (generic)
+CHIPSET Cyber9382
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Cyber 9385 (generic)
+CHIPSET Cyber9385
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Cyber 9388 (generic)
+CHIPSET Cyber9388
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Cyber 9397 (generic)
+CHIPSET Cyber9397
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Cyber 939a (generic)
+CHIPSET Cyber939a
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Cyber 9320 (generic)
+CHIPSET Cyber9320
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+             
+NAME Trident Cyber 9325 (generic)
+CHIPSET Cyber9325
+SERVER SVGA
+DRIVER trident
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Trident Cyber 9520 (generic)
+CHIPSET Cyber9520
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Cyber 9525 (generic)
+CHIPSET Cyber9525
+SERVER SVGA
+DRIVER trident
+LINE     # Option "accel" # Use this if acceleration works on your laptop
+NOCLOCKPROBE
+
+NAME Trident 3DImage975 (generic)
+CHIPSET 3dimage975
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident 3DImage975 AGP
+SEE Trident 3DImage975 (generic)
+
+NAME Trident 3DImage985 (generic)
+CHIPSET 3dimage985
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Blade3D (generic)
+CHIPSET Blade3D
+SERVER SVGA
+DRIVER trident
+NOCLOCKPROBE
+
+# tested #UNSUPPORTED by 12XL125 compaq laptop 03/30/2001
+NAME Trident CyberBlade (generic)
+CHIPSET CyberBlade
+SERVER SVGA
+#UNSUPPORTED
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident CyberBladeXP
+CHIPSET CyberBladeXP
+SERVER SVGA
+#UNSUPPORTED
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident 9910
+SEE Trident CyberBladeXP
+
+NAME Trident CyberBladeXPm
+CHIPSET CyberBladeXPm
+SERVER SVGA
+#UNSUPPORTED
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident 9930
+SEE Trident CyberBladeXPm
+
+NAME Trident Providia 9682 (generic)
+CHIPSET Providia9682
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident Providia 9685 (generic)
+CHIPSET Providia9685
+DRIVER trident
+NOCLOCKPROBE
+
+NAME Trident TVGA 8800BR
+SEE Generic VGA compatible
+
+NAME Trident TVGA 8800CS
+SEE Generic VGA compatible
+
+# swcursor for bug #53628
+# mharris - Nov 23, 2002 - Commented out the swcursor option, if it is still
+# needed, then lets disable it right in the driver completely, or possibly
+# fix it.
+NAME Trident CyberBlade/Ai1
+CHIPSET CyberBladeAi1
+DRIVER trident
+SERVER SVGA
+LINE     #Option "swcursor"
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME AOpen PG975
+SEE Trident 3DImage975 AGP
+
+NAME Toshiba Satellite 4030CDT
+LINE     Option "cyber_shadow"
+SEE Trident Cyber 9525 (generic)
+
+NAME Toshiba Satellite 4060CDT
+SEE Trident Cyber 9525 (generic)
+
+NAME Toshiba Satellite 4080CDT
+SEE Trident Cyber 9525 (generic)
+
+# swcursor for bug #58368
+# mharris - Nov 23, 2002 - Commented out the swcursor option, if it is still
+# needed, then lets disable it right in the driver completely, or possibly
+# fix it.
+NAME Trident Cyberblade/i1
+DRIVER trident
+LINE    #Option "swcursor"
+NOCLOCKPROBE
+
+#
+# SiS
+#
+# mharris - General SiS driver status update for 4.2.0 - the SiS driver
+# works fairly well now.  Most reported bugs can be easily worked around by
+# using option NoAccel and/or swcursor.  To speed things up instead of using
+# NoAccel, someone with the hardware can test the XAANoxxxxxx options to
+# see which specific XAA functions dont work and use those instead.
+
+# The SiS 620 needs noaccel to work, someone who has one, should pinpoint
+# which specific XAANo.... options are needed so that some acceleration is
+# present.
+# Changed to default to 4.2.0 with no options to test if it works now.
+# http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=65791
+NAME SiS 620
+CHIPSET SIS620
+SERVER SVGA
+DRIVER sis
+LINE     # Option "No_Accel"
+LINE	 # Option "XaaNoPixmapCache"
+
+NAME SiS SG86C201
+CHIPSET SIS86C201
+SERVER SVGA
+DRIVER sis
+
+NAME SiS SG86C205
+CHIPSET SIS86C205
+SERVER SVGA
+DRIVER sis
+LINE     # Option "no_accel" # Use this if acceleration is causing problems
+LINE     # Option "fifo_moderate" 
+LINE     # Option "fifo_conserv" 
+LINE     # Option "fifo_aggressive" 
+NOCLOCKPROBE
+
+NAME SiS SG86C215
+CHIPSET SIS86C215 
+SERVER SVGA
+DRIVER sis
+LINE     # This is a cheap version of 86c205. I am not sure if acceleration works
+LINE     # Option "no_accel" # Use this if acceleration is causing problems
+LINE     # Option "no_BitBlt" # Use this if acceleration is causing problems
+LINE     # Option "fifo_moderate" 
+LINE     # Option "fifo_conserv" 
+LINE     # Option "fifo_aggressive" 
+NOCLOCKPROBE
+
+NAME SiS SG86C225
+CHIPSET SIS86C225
+SERVER SVGA
+DRIVER sis
+LINE     # Option "no_accel" # Use this if acceleration is causing problems
+LINE     # Option "fifo_moderate" 
+LINE     # Option "fifo_conserv" 
+LINE     # Option "fifo_aggressive" 
+NOCLOCKPROBE
+
+NAME SiS 5597
+CHIPSET SiS5597
+SERVER SVGA
+DRIVER sis
+LINE     # Option "no_accel" # Use this if acceleration is causing problems
+LINE     # Option "fifo_moderate" 
+LINE     # Option "fifo_conserv" 
+LINE     # Option "fifo_aggressive" 
+LINE     # Option "fast_vram"
+LINE     # Option "pci_burst_on"
+LINE     # Option "xaa_benchmark" # DON'T use with "ext_eng_queue" !!!
+LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing
+LINE                              # errors, but gives some accel
+NOCLOCKPROBE
+
+NAME SiS 5598
+CHIPSET SIS5598
+SERVER SVGA
+DRIVER sis
+LINE     # Option "no_accel" # Use this if acceleration is causing problems
+LINE     # Option "fifo_moderate" 
+LINE     # Option "fifo_conserv" 
+LINE     # Option "fifo_aggressive" 
+LINE     # Option "fast_vram"
+LINE     # Option "pci_burst_on"
+LINE     # Option "xaa_benchmark" # DON'T use with "ext_eng_queue" !!!
+LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing
+LINE                              # errors, but gives some accel
+NOCLOCKPROBE
+
+# mharris - Mar 7, 2002 - Changed default to XFree86 4.2.0 with swcursor
+# after troubleshooting with twaugh@redhat.com
+# mharris - Nov 23, 2002 - Commented out the swcursor option, if it is still
+# needed, then lets disable it right in the driver completely, or possibly
+# fix it.
+NAME SiS 6326
+CHIPSET SiS6326
+DRIVER sis
+LINE     # Option "swcursor" # Enables software mouse cursor workaround
+LINE     # Option "NoAccel" # Use this if acceleration is causing problems
+LINE     # Option "fifo_moderate" 
+LINE     # Option "fifo_conserv" 
+LINE     # Option "fifo_aggressive" 
+LINE     # Option "fast_vram"
+LINE     # Option "pci_burst_on"
+LINE     # Option "xaa_benchmark" # DON'T use with "ext_eng_queue" !!!
+LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing 
+LINE                              # errors, but gives some accel
+NOCLOCKPROBE
+
+# Hardware cursor reported broken on SiS530 in XFree86 4.2.0 stock
+# Mike A. Harris <mharris@redhat.com> Feb 8, 2002
+# noaccel, fastvram, XAAFillSolidRects options added for bug #<dunno>
+#
+# mharris - Nov 23, 2002 - Commented out the swcursor option, if it is still
+# needed, then lets disable it right in the driver completely, or possibly
+# fix it.
+NAME SiS 530
+CHIPSET SiS530
+DRIVER sis
+LINE    #Option "swcursor"
+LINE    #Option "noaccel"
+LINE    #Option "FastVram"
+LINE    #Option "XAAFillSolidRects"
+NOCLOCKPROBE
+
+NAME SiS 540
+CHIPSET SiS540
+DRIVER sis
+NOCLOCKPROBE
+
+NAME SiS 630
+CHIPSET SiS630
+DRIVER sis
+NOCLOCKPROBE
+
+NAME SiS 650
+CHIPSET SiS650
+DRIVER sis
+NOCLOCKPROBE
+
+NAME SiS 300
+CHIPSET SiS300
+DRIVER sis
+NOCLOCKPROBE
+
+NAME SiS 315
+CHIPSET SiS315
+DRIVER sis
+
+NAME MSI MS-4417
+SEE SiS 6326
+
+NAME SiS 3D PRO AGP
+SEE SiS 6326
+
+NAME Miro Crystal DVD
+SEE SiS 6326
+
+NAME PC-Chips M567 Mainboard
+SEE SiS 5597
+
+NAME Diamond SpeedStar A50
+SEE SiS 6326
+
+NAME AOpen PA50D
+SEE SiS 6326
+
+NAME AOpen PA50V
+SEE SiS 6326
+
+NAME AOpen PA50E
+SEE SiS 6326
+
+NAME AOpen PA80/DVD
+SEE SiS 6326
+
+NAME AOpen PA45
+SEE SiS 6326
+
+NAME AOpen PT80
+SEE SiS 6326
+
+NAME Chaintech Tornado S6000
+SEE SiS 6326
+
+NAME Chaintech Desperado SI21
+SEE SiS 6326
+
+NAME Chaintech Desperado SI31
+SEE SiS 6326
+
+#
+# XGI
+# 
+NAME XGI Volari Z7/Z9
+CHIPSET XG20
+DRIVER xgi
+
+#
+# Cyrix
+# Changed to DRIVER "cyrix" at Alan Cox's request.
+NAME Cyrix MediaGX
+CHIPSET MediaGX
+DRIVER cyrix
+NOCLOCKPROBE
+
+NAME NatSemi Geode
+CHIPSET Geode
+DRIVER geode
+NOCLOCKPROBE
+
+#
+# Alliance ProMotion
+#
+
+NAME Alliance ProMotion 6422
+CHIPSET AP6422
+DRIVER vga
+
+# Number 9 I128
+
+NAME Number Nine Imagine 128
+CHIPSET I128
+DRIVER i128
+NOCLOCKPROBE
+
+NAME Number Nine Imagine 128 (2-8MB)
+SEE Number Nine Imagine 128
+
+NAME Number Nine Imagine 128 Series 2 (2-4MB)
+SEE Number Nine Imagine 128
+
+NAME Revolution 3D T2R
+SEE Number Nine Imagine 128
+
+NAME Number Nine Revolution 3D AGP T2R
+SEE Number Nine Imagine 128
+
+NAME Number Nine Imagine 128 T2R
+SEE Number Nine Imagine 128
+
+NAME Number Nine Revolution IV (T2R4)
+SEE Number Nine Imagine 128
+
+# Matrox
+
+# mharris - Nov 23, 2002 - Commented out the swcursor option, if it is still
+# needed, then lets disable it right in the driver completely, or possibly
+# fix it.
+NAME Matrox Millennium
+CHIPSET mga2064w
+DRIVER mga
+#UNSUPPORTED
+LINE #Option	"sw_cursor"
+NOCLOCKPROBE
+
+# Brent Fox <bfox@redhat.com> says this card works with
+# XFree86 4 now (Jul 31, 2001)  mharris
+NAME Matrox Millennium II
+CHIPSET mga2164w
+DRIVER mga
+NOCLOCKPROBE
+
+NAME Matrox Millennium G200
+CHIPSET mgag200
+DRIVER mga
+NOCLOCKPROBE
+
+NAME Matrox G200e
+CHIPSET mgag200 SE A PCI
+DRIVER mga
+NOCLOCKPROBE
+
+NAME Matrox Millennium G400
+CHIPSET mgag400
+DRIVER mga
+NOCLOCKPROBE
+
+# Option "XaaNoScreenToScreenCopy" has been added to default G450 config now
+# in order to workaround the problem in bug #66697.  This should remain here
+# until the problem has been fixed upstream and verified directly, and the
+# bug reporter also queried at that time.   Aug 5, 2002 - mharris
+NAME Matrox Millennium G450
+CHIPSET mgag450
+DRIVER mga
+LINE # XaaNoScreenToScreenCopy is required in Xinerama configurations only
+LINE #Option "XaaNoScreenToScreenCopy"
+NOCLOCKPROBE
+
+NAME Matrox Millennium G550
+CHIPSET mgag550
+DRIVER mga
+NOCLOCKPROBE
+
+NAME Matrox Mystique
+CHIPSET mga1064sg
+DRIVER mga
+NOCLOCKPROBE
+
+NAME Matrox Mystique G200
+CHIPSET mgag200
+DRIVER mga
+NOCLOCKPROBE
+
+NAME Matrox Productiva G100
+CHIPSET mgag100
+DRIVER mga
+NOCLOCKPROBE
+
+#
+# NVIDIA
+#
+
+NAME Diamond Edge 3D
+CHIPSET nv1
+DRIVER vga
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME RIVA128
+CHIPSET RIVA128
+DRIVER nv
+NOCLOCKPROBE
+
+NAME RIVA TNT
+CHIPSET RIVATNT
+DRIVER nv
+NOCLOCKPROBE
+
+NAME RIVA TNT2
+CHIPSET RIVATNT2
+DRIVER nv
+NOCLOCKPROBE
+
+# mharris - Nov 23, 2002 - Commented out the swcursor option, if it is still
+# needed, then lets disable it right in the driver completely, or possibly
+# fix it.
+# swcursor added to default configuration for bug #22173
+NAME RIVA Ultra TNT2 
+CHIPSET RIVA ULTRA TNT2 
+DRIVER nv
+LINE #Option "swcursor"
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce
+CHIPSET GeForce
+DRIVER nv
+NOCLOCKPROBE
+
+NAME ELSA VICTORY ERAZOR
+SEE RIVA128
+
+NAME ELSA VICTORY ERAZOR LT
+SEE RIVA128
+
+NAME ELSA Winner 1000 R3D
+SEE RIVA128
+
+NAME ELSA ERAZOR II
+SEE RIVA TNT
+
+NAME ELSA ERAZOR III
+SEE RIVA TNT2
+
+NAME ELSA Synergy II
+SEE RIVA TNT2
+
+NAME Leadtek WinFast 3D S320II
+SEE RIVA TNT2
+
+NAME Leadtek WinFast 3D S320
+SEE RIVA TNT
+
+NAME Leadtek WinFast 3D S3500
+SEE RIVA128
+
+NAME Diamond Viper 330
+SEE RIVA128
+
+NAME Diamond Viper 550
+SEE RIVA TNT
+
+NAME Diamond Viper 770
+SEE RIVA TNT2
+
+NAME AOpen PS3010
+SEE RIVA TNT2
+
+NAME STB Velocity 128
+SEE RIVA128
+
+NAME STB nvidia 128
+SEE RIVA128
+
+NAME ASUS 3Dexplorer
+SEE RIVA128
+
+NAME Chaintech Desperado RI20
+SEE RIVA128
+
+NAME Chaintech Desperado RI30
+SEE RIVA TNT
+
+NAME Chaintech Desperado RI40/41
+SEE RIVA TNT2
+
+NAME Chaintech Desperado RI50
+SEE RIVA TNT2
+
+NAME Chaintech Desperado RI60
+SEE RIVA TNT2
+
+NAME Graphics Blaster TNT
+SEE RIVA TNT
+
+NAME Creative Graphics Blaster TNT2
+SEE RIVA TNT2
+
+NAME Hercules Dynamite TNT
+SEE RIVA TNT
+
+NAME MELCO WGA-TS 
+SEE RIVA TNT2 
+
+NAME Canopus SPECTRA 3200R2 
+SEE RIVA TNT 
+
+NAME Canopus SPECTRA 5400 
+SEE RIVA TNT2 
+
+NAME Canopus SPECTRA 5400 Premium Edition 
+SEE RIVA Ultra TNT2 
+
+NAME Guillemot Maxi Gamer Xentor 32
+SEE RIVA TNT2
+
+NAME NVIDIA Riva 128 (generic)
+SEE RIVA128
+
+NAME NVIDIA Riva TNT (generic)
+SEE RIVA TNT
+
+NAME NVIDIA Riva TNT2 (generic)
+SEE RIVA TNT2
+
+NAME NVIDIA GeForce 256 (generic)
+CHIPSET GeForce 256
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce DDR (generic)
+CHIPSET GeForce DDR
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 2 (generic)
+CHIPSET GeForce 2
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 2 MX (generic)
+SEE NVIDIA GeForce 2 (generic)
+
+NAME NVIDIA GeForce 2 GTS (generic)
+SEE NVIDIA GeForce 2 (generic)
+
+# Supported in XFree86 4.3.0
+# UNSUPPORTED by XFree86 4.2.1 and earlier
+NAME nVidia GeForce 2 Go
+SEE NVIDIA GeForce 2 (generic)
+
+NAME NVIDIA GeForce 3 (generic)
+CHIPSET GeForce 3
+DRIVER nv
+NOCLOCKPROBE
+
+# mharris - Nov 23, 2002 - enabling "nv" driver for GeForce 4 and Quadro 4 as
+# CVS XFree86 support them now in 4.2.99.2
+NAME NVIDIA GeForce 4 (generic)
+CHIPSET GeForce 4
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 4 MX (generic)
+SEE NVIDIA GeForce 4 (generic)
+
+NAME NVIDIA Quadro 4 (generic)
+CHIPSET Quadro 4
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce FX (generic)
+CHIPSET GeForce FX
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA Quadro FX (generic)
+CHIPSET Quadro FX
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6200
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6600
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6600 GT
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6610 XL
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6800
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6800 GT
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6800 LE
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce 6800 Ultra
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce FX 5100
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce FX 5500
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce Go 6600
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce Go 6600 TE/6200 TE
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA GeForce4 448 Go
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA Quadro FX 4000
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA Quadro FX 4400
+DRIVER nv
+NOCLOCKPROBE
+
+# Use vesa driver for bug (#140601) for RHEL4.  This should not be changed
+# to "nv" without this bug being reopened and reconfirmed with "nv".
+NAME NVIDIA Quadro FX 540
+DRIVER vesa
+NOCLOCKPROBE
+
+NAME NVIDIA Quadro FX 550
+DRIVER vesa
+NOCLOCKPROBE
+
+NAME NVIDIA Quadro FX 700
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA Quadro NVS 50 PCI
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA Quadro NVS 285
+DRIVER nv
+NOCLOCKPROBE
+
+NAME NVIDIA Unknown (generic)
+DRIVER nv
+
+#########################################################################
+#
+# 3DLabs
+
+NAME 3Dlabs Permedia2 (generic)
+CHIPSET PERMEDIA 2
+DRIVER glint
+LINE #Option     "no_accel"
+NOCLOCKPROBE
+
+NAME ELSA GLoria-L/MX
+CHIPSET GLINT MX
+DRIVER glint
+LINE #Option "no_accel"
+NOCLOCKPROBE
+
+NAME ELSA GLoria-L
+CHIPSET GLINT 500TX
+DRIVER glint
+LINE #Option     "SWcursor"
+NOCLOCKPROBE
+
+NAME ELSA GLoria-XL
+CHIPSET GLINT MX
+DRIVER glint
+NOCLOCKPROBE
+
+NAME ELSA GLoria-XXL
+CHIPSET GLINT MX
+DRIVER glint
+NOCLOCKPROBE
+
+NAME Diamond Fire GL 3000
+CHIPSET GLINT 500TX
+DRIVER glint
+LINE Option "firegl_3000"
+NOCLOCKPROBE
+
+NAME ELSA GLoria-S
+CHIPSET PERMEDIA
+DRIVER glint
+LINE #Option "no_accel"
+LINE #VideoRam 8192
+NOCLOCKPROBE
+
+NAME Diamond Fire GL 1000
+CHIPSET PERMEDIA
+DRIVER glint
+LINE #Option "no_accel"
+LINE #VideoRam 8192
+NOCLOCKPROBE
+
+NAME ELSA GLoria Synergy
+SEE 3Dlabs Permedia2 (generic)
+
+NAME ELSA Winner 2000/Office
+SEE 3Dlabs Permedia2 (generic)
+
+NAME Diamond Fire GL 1000 PRO
+SEE 3Dlabs Permedia2 (generic)
+
+NAME Creative Blaster Exxtreme
+SEE 3Dlabs Permedia2 (generic)
+
+NAME AccelStar Permedia II AGP
+SEE 3Dlabs Permedia2 (generic)
+
+NAME Leadtek WinFast 2300
+SEE 3Dlabs Permedia2 (generic)
+
+NAME Hercules Dynamite 3D/GL
+SEE 3Dlabs Permedia2 (generic)
+
+NAME 3DLabs Oxygen GMX
+SEE 3Dlabs Permedia2 (generic)
+
+NAME Appian Jeronimo 2000
+CHIPSET PERMEDIA 3
+DRIVER glint
+NOCLOCKPROBE
+
+# Alliance Semiconductor
+
+NAME Diamond Stealth Video 2500
+CHIPSET Alliance AT24 
+DRIVER apm
+NOCLOCKPROBE
+
+# XFree86 4.1.0 and older require "swcursor" and "noaccel" to function properly
+# with this card.  If someone who has an AT3D card can pinpoint the exact
+# XAANo..... option which fixes this, I can use it instead of noaccel to speed
+# things up.  XFree86 4.2.0 is untested currently.       mharris:Jan/29/2002
+# Also, the "vesa" driver might be more appropriate for this card until the apm
+# driver is correctly working.
+NAME AT3D
+CHIPSET Alliance AT3D
+DRIVER apm
+NOCLOCKPROBE
+LINE Option "swcursor"
+LINE Option "no_accel"
+
+NAME AT25
+DRIVER apm
+SEE AT3D
+
+NAME Hercules Stingray 128 3D
+SEE AT3D
+
+# NeoMagic
+# I just painstakingly updated the pcitable database as well as the one
+# on sourceforge, to have the following entries for Neomagic chipsets, as
+# based on the XFree86 driver code for neomagic.  I put the pcitable
+# entries here commented out for reference, and in case pcitable gets
+# munged by hand editing as it sometimes seems to.  <mharris> Nov 25, 2002
+#0x10c8  0x0001  "Card:NeoMagic MagicGraph 128 (laptop/notebook)"        "Neomagic Corporation|NM2070 [MagicGraph 128]"
+#0x10c8  0x0002  "Card:NeoMagic MagicGraph 128V (laptop/notebook)"       "Neomagic Corporation|NM2090 [MagicGraph 128V]"
+#0x10c8  0x0003  "Card:NeoMagic MagicGraph 128ZV (laptop/notebook)"      "Neomagic Corporation|NM2093 [MagicGraph 128ZV]"
+#0x10c8  0x0004  "Card:NeoMagic MagicGraph 128XD (laptop/notebook)"      "Neomagic Corporation|NM2160 [MagicGraph 128XD]"
+#0x10c8  0x0005  "Card:NeoMagic MagicMedia 256AV (laptop/notebook)"      "Neomagic Corporation|NM2200 [MagicMedia 256AV]"
+#0x10c8  0x0006  "Card:NeoMagic MagicMedia 256ZX (laptop/notebook)"      "Neomagic Corporation|NM2360 [MagicMedia 256ZX]"
+#0x10c8  0x0016  "Card:NeoMagic MagicMedia 256XL+ (laptop/notebook)"     "Neomagic Corporation|NM2380 [MagicMedia 256XL+]"
+#0x10c8  0x0025  "Card:NeoMagic MagicMedia 256AV+ (laptop/notebook)"     "Neomagic Corporation|NM2230 [MagicMedia 256AV+]"
+#0x10c8  0x0083  "Card:NeoMagic MagicGraph 128ZV+ (laptop/notebook)"     "Neomagic Corporation|NM2093 [MagicGraph 128ZV+]"
+
+# I am disabling the forced SWcursor on all neomagic cards in order to see
+# if it works now or not, and if not, to patch the driver itself to disable
+# the hardware cursor, or fix it possibly.  This is XFree86 4.2.99.2 CVS as
+# of Nov 23, 2002.  Do not re-enable swcursor here.  <mharris@redhat.com>
+NAME NeoMagic MagicGraph 128 (laptop/notebook)
+DRIVER neomagic
+CHIPSET NM2070
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #    Option     "SWcursor"    # Normally enabled, disabled for now for Red Hat testing
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+NAME NeoMagic MagicGraph 128V (laptop/notebook)
+DRIVER neomagic
+CHIPSET NM2090
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #    Option     "SWcursor"    # Normally enabled, disabled for now for Red Hat testing
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+NAME NeoMagic MagicGraph 128ZV (laptop/notebook)
+CHIPSET NM2093
+DRIVER neomagic
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #    Option     "SWcursor"    # Normally enabled, disabled for now for Red Hat testing
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+NAME NeoMagic MagicGraph 128XD (laptop/notebook)
+CHIPSET NM2160
+DRIVER neomagic
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #    Option     "SWcursor"    # Normally enabled, disabled for now for Red Hat testing
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+# Hardware mouse cursor works, confirmed by <twaugh>, <llch> on Nov 25, 2002
+# for XFree86 4.2.99.2 in rawhide.  Probably works in 4.2.0 also.
+# Bug IDs: #78038
+NAME NeoMagic MagicMedia 256AV (laptop/notebook)
+CHIPSET NM2200
+DRIVER neomagic
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #   Option     "SWcursor"
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+# Hardware mouse cursor works, confirmed by <notting> on Nov 25, 2002 for
+# XFree86 4.2.99.2 in rawhide.  Probably works in 4.2.0 also.
+# Bug IDs: #78038
+NAME NeoMagic MagicMedia 256ZX (laptop/notebook)
+CHIPSET NM2360
+DRIVER neomagic
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #   Option     "SWcursor"
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+NAME NeoMagic MagicMedia 256XL+ (laptop/notebook)
+CHIPSET NM2380
+DRIVER neomagic
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #    Option     "SWcursor"    # Normally enabled, disabled for now for Red Hat testing
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+NAME NeoMagic MagicMedia 256AV+ (laptop/notebook)
+CHIPSET NM2230
+DRIVER neomagic
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #    Option     "SWcursor"    # Normally enabled, disabled for now for Red Hat testing
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+NAME NeoMagic MagicGraph 128ZV+ (laptop/notebook)
+CHIPSET NM2093
+DRIVER neomagic
+LINE #   Option     "Rotate"
+LINE #   Option     "pciBurst"
+LINE #   Option     "ShadowFB"
+LINE #   Option     "NoStretch"
+LINE #   Option     "LcdCenter"
+LINE     Option     "externDisp"
+LINE     Option     "internDisp"
+LINE #   Option     "noMMIO"
+LINE #    Option     "SWcursor"    # Normally enabled, disabled for now for Red Hat testing
+LINE #   Option     "NoAccel"
+LINE #   Option     "NoLinear"
+LINE #    Option     "XaaNoScanlineImageWriteRect" # Normally enabled, disabled for now for Red Hat testing
+LINE #    Option     "XaaNoScanlineCPUToScreenColorExpandFill" # Normally enabled, disabled for now for Red Hat testing
+NOCLOCKPROBE
+
+
+
+# Epson SPC8110
+
+NAME EPSON SPC8110 (CardPC)
+CHIPSET SPC8110
+DRIVER vga
+#UNSUPPORTED
+LINE #    Chipset    "spc8110"
+LINE #    MemBase    0x03e00000
+LINE #    VideoRam   1024
+LINE #    Option     "nolinear"
+LINE #    Option     "sw_cursor"
+LINE #    Option     "noaccel"
+LINE #    Option     "fifo_moderate"
+LINE #    Option     "fifo_conservative"
+
+# Silicon Motion, Inc.
+
+NAME Silicon Motion Lynx (generic)
+CHIPSET Lynx
+DRIVER siliconmotion
+#UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Silicon Motion LynxEM
+CHIPSET Lynx
+DRIVER siliconmotion
+NOCLOCKPROBE
+#UNSUPPORTED
+
+
+# Rendition
+
+NAME Rendition Verite 1000
+CHIPSET Verite 1000
+DRIVER vga
+#UNSUPPORTED
+LINE # Option "sw_cursor"
+
+NAME Rendition Verite 2x00
+CHIPSET Verite 2x00
+DRIVER vga
+#UNSUPPORTED
+LINE # Option "sw_cursor"
+
+NAME Creative Labs 3D Blaster PCI (Verite 1000)
+SEE Rendition Verite 1000
+
+NAME Canopus Total-3D
+SEE Rendition Verite 1000
+
+NAME Sierra Screaming 3D
+SEE Rendition Verite 1000
+
+NAME Miro CRYSTAL VRX
+SEE Rendition Verite 1000
+
+NAME Diamond Stealth II S220
+CHIPSET Verite 2100
+SEE Rendition Verite 2x00
+
+NAME Hercules Thriller3D
+CHIPSET Verite 2200
+SEE Rendition Verite 2x00
+
+# Digital
+
+NAME Digital 8-plane TGA (UDB/Multia)
+CHIPSET TGA
+DRIVER tga
+RAMDAC Bt485
+
+NAME Digital 8-plane TGA (ZLXp-E1)
+CHIPSET TGA
+DRIVER tga
+RAMDAC Bt485
+
+NAME Digital 24-plane TGA (ZLXp-E2)
+CHIPSET TGA
+DRIVER tga
+RAMDAC Bt463
+
+NAME Digital 24-plane+3D TGA (ZLXp-E3)
+CHIPSET TGA
+DRIVER tga
+RAMDAC Bt463
+
+# Epson
+
+NAME EPSON CardPC (onboard)
+CHIPSET SPC8110
+DRIVER vesa
+
+
+######################################################################
+# Intel Hardware - i740, i810, 815, i815e, i830, i845, i852, i855, i865
+#
+# Section fully updated by Mike A. Harris <mharris@redhat.com> for
+# XFree86 4.2.0 on Feb 9, 2002
+
+NAME Intel 740 (generic)
+CHIPSET Intel 740
+DRIVER i740
+NOCLOCKPROBE
+LINE     #Option     "no_accel"
+LINE     #Option     "sw_cursor"
+LINE     #Option     "sgram"
+LINE     #Option     "sdram"
+
+NAME Real3D Starfighter AGP
+SEE Intel 740 (generic)
+
+NAME Real3D Starfighter PCI
+SEE Intel 740 (generic)
+
+NAME Diamond Stealth II/G460 AGP
+SEE Intel 740 (generic)
+
+NAME 3DVision-i740 AGP
+SEE Intel 740 (generic)
+
+NAME ABIT G740 8MB SDRAM
+SEE Intel 740 (generic)
+
+NAME Acorp AGP i740
+SEE Intel 740 (generic)
+
+NAME AGP 2D/3D V. 1N, AGP-740D
+SEE Intel 740 (generic)
+
+NAME AOpen AGP 2X 3D Navigator PA740
+SEE Intel 740 (generic)
+
+NAME ARISTO i740 AGP (ART-i740-G)
+SEE Intel 740 (generic)
+
+NAME ASUS AGP-V2740
+SEE Intel 740 (generic)
+
+NAME Atrend (Speedy) 3DIO740 AGP (ATC-2740)
+SEE Intel 740 (generic)
+
+NAME Chaintech AGP-740D
+SEE Intel 740 (generic)
+
+NAME Chaintech Tornado I7000
+SEE Intel 740 (generic)
+
+NAME EliteGroup(ECS) 3DVision-i740 AGP
+SEE Intel 740 (generic)
+
+NAME EONtronics Picasso 740
+SEE Intel 740 (generic)
+
+NAME EONtronics Van Gogh
+SEE Intel 740 (generic)
+
+NAME Everex MVGA i740/AG
+SEE Intel 740 (generic)
+
+NAME Flagpoint Shocker i740 8MB
+SEE Intel 740 (generic)
+
+NAME Gainward CardExpert 740 8MB
+SEE Intel 740 (generic)
+
+NAME Genoa Systems Phantom 740
+SEE Intel 740 (generic)
+
+NAME Gigabyte Predator i740 8MB AGP
+SEE Intel 740 (generic)
+
+NAME Hercules Terminator 128 2X/i AGP
+SEE Intel 740 (generic)
+
+NAME HOT-158 (Shuttle)
+SEE Intel 740 (generic)
+
+NAME Intel Express 3D AGP
+SEE Intel 740 (generic)
+
+NAME Jaton Video-740 AGP 3D
+SEE Intel 740 (generic)
+
+NAME Jetway J-740-3D 8MB AGP, i740 AGP 3D
+SEE Intel 740 (generic)
+
+NAME Joymedia Apollo 7400
+SEE Intel 740 (generic)
+
+NAME Leadtek Winfast S900
+SEE Intel 740 (generic)
+
+NAME Machspeed Raptor i740 AGP 4600
+SEE Intel 740 (generic)
+
+NAME Magic-Pro MP-740DVD
+SEE Intel 740 (generic)
+
+NAME MAXI Gamer AGP 8 MB
+SEE Intel 740 (generic)
+
+NAME Palit Daytona AGP740
+SEE Intel 740 (generic)
+
+NAME PowerColor C740 (SG/SD) AGP
+SEE Intel 740 (generic)
+
+NAME QDI Amazing I
+SEE Intel 740 (generic)
+
+NAME Soyo AGP (SY-740 AGP)
+SEE Intel 740 (generic)
+
+NAME Spacewalker Hot-158 
+SEE Intel 740 (generic)
+
+NAME VideoExcel AGP 740
+SEE Intel 740 (generic)
+
+NAME ViewTop ZeusL 8MB 
+SEE Intel 740 (generic)
+
+NAME Winfast S900 i740 AGP 8MB
+SEE Intel 740 (generic)
+
+NAME Intel 810
+CHIPSET Intel 810
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 815
+CHIPSET Intel 815
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 815e
+SEE Intel 815
+
+NAME Intel 830
+CHIPSET Intel 830
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 845
+CHIPSET Intel 845
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 852
+CHIPSET Intel 852
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 855
+CHIPSET Intel 855
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 865
+CHIPSET Intel 865
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 915
+DRIVER i810
+NOCLOCKPROBE
+
+NAME Intel 945
+DRIVER i810
+NOCLOCKPROBE
+
+######################################################################
+# 3Dfx Hardware
+#
+# Section fully updated by Mike A. Harris <mharris@redhat.com> for
+# XFree86 4.2.0 on Feb 9, 2002
+
+# Alan Cox's new "voodoo" driver for Voodoo Graphics and Voodoo II
+#0x121a  0x0001  "Card:Voodoo Graphics"  "3Dfx Interactive, Inc.|Voodoo"
+NAME Voodoo Graphics
+CHIPSET Voodoo Graphics
+DRIVER voodoo
+
+# Alan Cox's new "voodoo" driver for Voodoo Graphics and Voodoo II
+#0x121a  0x0002  "Card:Voodoo II"    "3Dfx Interactive, Inc.|Voodoo 2"
+NAME Voodoo II
+CHIPSET Voodoo II
+DRIVER voodoo
+
+NAME Banshee (generic)
+CHIPSET Banshee
+DRIVER tdfx
+
+NAME Voodoo Rush (generic)
+CHIPSET Voodoo Rush
+DRIVER tdfx
+LINE	Option "nodri"
+
+NAME Voodoo3 (generic)
+CHIPSET Voodoo3 
+DRIVER tdfx
+
+NAME Voodoo4 (generic)
+CHIPSET Voodoo4
+DRIVER tdfx
+NOCLOCKPROBE
+
+NAME Voodoo5 (generic)
+CHIPSET Voodoo5
+DRIVER tdfx
+NOCLOCKPROBE
+
+NAME Elsa Victory II
+SEE Banshee (generic)
+
+NAME Diamond Monster Fusion
+SEE Banshee (generic)
+
+NAME AOpen PA2010
+SEE Banshee (generic)
+
+NAME Chaintech Desperado 3F10
+SEE Banshee (generic)
+
+######################################################################
+# VMWare Virtual Hardware
+
+NAME VMWare
+CHIPSET VMWare 
+DRIVER vmware
+
+######################################################################
+# SUN Cards / Servers
+
+NAME Sun Monochrome (bwtwo)
+CHIPSET bwtwo
+DRIVER sunbw2
+ 
+NAME Sun Color3 (cgthree)
+CHIPSET cgthree
+DRIVER suncg3
+
+# These Sun cards are not listed as supported in XFree86 4.2.0 on the XFree86
+# Status pages, so they are currently disabled pending someone porting
+# drivers from 3.3.6 to 4.x, as we no longer support 3.3.6.
+# Sun CG8/RasterOps, Sun GS (cgtwelve), Sun Graphics Tower,
+# Quantum 3D MGXplus with 4M VRAM, Quantum 3D MGXplus
+# Aug 5, 2002 - mharris
+ 
+NAME Sun Unknown GX
+CHIPSET cgsix
+SERVER Sun
+DRIVER suncg6
+ 
+NAME Sun Double width GX
+CHIPSET cgsix
+SERVER Sun
+DRIVER suncg6
+ 
+NAME Sun Single width GX
+CHIPSET cgsix
+SERVER Sun
+DRIVER suncg6
+
+NAME Sun Turbo GX with 1M VSIMM
+CHIPSET cgsix
+SERVER Sun
+DRIVER suncg6
+ 
+NAME Sun Turbo GX Plus
+CHIPSET cgsix
+SERVER Sun
+DRIVER suncg6
+ 
+NAME Sun Turbo GX
+CHIPSET cgsix
+SERVER Sun
+DRIVER suncg6
+ 
+NAME Sun SX with 4M VSIMM
+CHIPSET cgfourteen
+SERVER Sun24
+DRIVER suncg14
+ 
+NAME Sun SX with 8M VSIMM
+CHIPSET cgfourteen
+SERVER Sun24
+DRIVER suncg14
+ 
+NAME Sun SX
+CHIPSET cgfourteen
+SERVER Sun24
+DRIVER suncg14
+
+NAME Sun Turbo ZX
+CHIPSET leo
+SERVER Sun24
+DRIVER sunleo
+ 
+NAME Sun ZX or Turbo ZX
+CHIPSET leo
+SERVER Sun24
+DRIVER sunleo
+
+NAME Sun TCX (8bit)
+CHIPSET tcx
+SERVER Sun
+DRIVER suntcx
+ 
+NAME Sun TCX (S24)
+CHIPSET tcx
+SERVER Sun24
+DRIVER suntcx
+ 
+NAME Sun Elite3D-M6 Horizontal
+CHIPSET afb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun Elite3D
+CHIPSET afb
+SERVER Sun24
+DRIVER sunffb
+
+NAME Sun FFB 67MHz Creator
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB 67MHz Creator 3D
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB 75MHz Creator 3D
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB2 Vertical Creator
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB2 Vertical Creator 3D
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB2Vertical Creator
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+
+NAME Sun FFB2Vertical Creator 3D
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB2 Horizontal Creator
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB2 Horizontal Creator 3D
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+ 
+NAME Sun FFB
+CHIPSET ffb
+SERVER Sun24
+DRIVER sunffb
+
+# Misc
+
+END

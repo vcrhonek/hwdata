@@ -9,29 +9,35 @@
 #
 
 # watchdog drivers
-blacklist i8xx_tco
+i8xx_tco
 
 # framebuffer drivers
-blacklist aty128fb
-blacklist atyfb
-blacklist radeonfb
-blacklist i810fb
-blacklist cirrusfb
-blacklist intelfb
-blacklist kyrofb
-blacklist i2c-matroxfb
-blacklist hgafb
-blacklist nvidiafb
-blacklist rivafb
-blacklist savagefb
-blacklist sstfb
-blacklist neofb
-blacklist tridentfb
-blacklist tdfxfb
-blacklist virgefb
-blacklist vga16fb
+aty128fb
+atyfb
+radeonfb
+i810fb
+cirrusfb
+kyrofb
+i2c-matroxfb
+hgafb
+rivafb
+sstfb
+neofb
+tridentfb
+tdfxfb
+virgefb
+vga16fb
 
 # ISDN - see bugs 154799, 159068
-blacklist hisax
-blacklist hisax_fcpcipnp
+hisax
+hisax_fcpcipnp
+
+#disable edac
+edac_mc
+e752x_edac
+i82860_edac
+e7xxx_edac
+r82600_edac
+amd76x_edac
+i82875p_edac
 

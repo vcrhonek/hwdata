@@ -8,20 +8,19 @@ sktr		NETWORK	tmspci
 tr		NETWORK	lanstreamer
 eepro100	NETWORK e100
 veth		NETWORK	iseries_veth
-sk98lin		NETWORK skge
 
 aic7xxx_mod	SCSI	aic7xxx
 hpnraid 	SCSI	aacraid
 percraid	SCSI	aacraid
 qla2x00		SCSI	qla2200/qla2300/qla2322/qla6312
-qla2300		SCSI	qla2200/qal2300/qla2322/qla6312
+qla2300		SCSI	qla2200/qla2300/qla2322/qla6312
+qla6322		SCSI	qla6312
 isp_mod		SCSI	qlogicisp
 ncr53c8xx	SCSI	sym53c8xx
 sym53c8xx_2	SCSI	sym53c8xx
 megaraid2	SCSI	megaraid_mbox
 megaraid	SCSI	megaraid_mbox
 dpt_i2o		SCSI	i2o_block
-mptscsih	SCSI	mptspi/mptfc/mptsas
 
 via82cxxx	AUDIO	snd-via82xx
 via82cxxx_audio	AUDIO	snd-via82xx

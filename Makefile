@@ -19,7 +19,7 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers oui.txt
+FILES = CardMonitorCombos Cards MonitorsDB pci.ids pcitable upgradelist usb.ids
 
 .PHONY: all install tag force-tag check create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
@@ -31,8 +31,12 @@ install:
 		install -m 644 $$foo $(datadir)/$(NAME) ;\
 	done
 	mkdir -p -m 755 $(datadir)/$(NAME)/videoaliases
-	mkdir -p -m 755 $(sysconfdir)/modprobe.d
-	install -m 644 blacklist $(sysconfdir)/modprobe.d
+	mkdir -p -m 755 $(prefix)/X11R6/lib/X11
+	ln -s ../../../share/$(NAME)/Cards $(prefix)/X11R6/lib/X11/Cards
+	mkdir -p -m 755 $(sysconfdir)/pcmcia
+	install -m 644 config $(sysconfdir)/pcmcia
+	mkdir -p -m 755 $(sysconfdir)/hotplug/
+	install -m 644 blacklist $(sysconfdir)/hotplug/
 
 tag:
 	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)

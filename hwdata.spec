@@ -1,25 +1,21 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.217
-Release: 1%{?dist}
-License: GPLv2+ and LGPLv2+
+Version: 0.146.33.EL
+Release: 1
+License: GPL/MIT
 Group: System Environment/Base
-Source: hwdata-%{version}.tar.bz2
+Source: hwdata-%{version}-%{release}.tar.gz
 BuildArch: noarch
-Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
-Requires: module-init-tools >= 3.2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+Conflicts: Xconfigurator < 4.9.42-1, kernel-pcmcia-cs < 3.1.31-11, kudzu < 1.1.86
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 hwdata contains various hardware identification and configuration data,
-such as the pci.ids database and MonitorsDb databases.
+such as the pci.ids database, the XFree86 Cards and MonitorsDb databases.
 
 %prep
 
 %setup -q
-
-%build
-# nothing to build
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -31,270 +27,156 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc LICENSE COPYING
-%dir %{_datadir}/%{name}
-%config(noreplace) %{_sysconfdir}/modprobe.d/blacklist
-%{_datadir}/%{name}/*
+%dir /usr/share/hwdata
+%dir /etc/pcmcia
+%config(noreplace) /etc/hotplug/blacklist
+%config /etc/pcmcia/config
+%config /usr/share/hwdata/*
+# This file is screaming to be moved into /usr/share/hwdata sometime <g>
+/usr/X11R6/lib/X11/Cards
 
 %changelog
-* Tue Apr 01 2008 Karsten Hopp <karsten@redhat.com> 0.217-1
-- update pci.ids, oui.txt
-- update usb.ids, fixes #439963
-- add HP w1907 LCD monitor, fixes #431359
-- fix many monitor entries (Stanislav Ievlev, #430276)
+* Thu Oct 25 2007 Phil Knirsch <pknirsch@redhat.com> 0.146.33.EL-1
+- Map specific Intel network cards to the new e1000e driver (#253792)
 
+* Wed Oct 17 2007 Karsten Hopp <karsten@redhat.com> 0.146.32.EL-1
+- update pci.ids, usb.ids
 
-* Wed Mar 03 2008 Karsten Hopp <karsten@redhat.com> 0.216-1
-- update pci.ids, usb.ids (#431658)
+* Thu Aug 30 2007 Karsten Hopp <karsten@redhat.com> 0.146.31.EL-1
+- update pci.ids, usb.ids
 
-* Tue Jan 29 2008 Phil Knirsch <pknirsch@redhat.com> 0.215-1
-- Pull new upstream pci.ids
+* Thu Jul 26 2007 Karsten Hopp <karsten@redhat.com> 0.146.30.EL-1
+- update pci.ids, usb.ids, fixes bz #229367
 
-* Wed Jan 23 2008 Karsten Hopp <karsten@redhat.com> 0.215-1
-- add HP W2207 monitor
-- add oui.txt, a list of bluetooth device makers
+* Tue Jul 10 2007 Karsten Hopp <karsten@redhat.com> 0.146.29.EL-1
+- fix usb.ids file
+- Resolves: bz #233420
 
-* Fri Jan 18 2008 Karsten Hopp <karsten@redhat.com> 0.214-1
-- remove MonitorsDB.generic as it isn't used anywhere
-- drop RHEL-5 blacklist patch in -devel
+* Tue Jul 03 2007 Karsten Hopp <karsten@redhat.com> 0.146.29.EL-1
+- make some network cards use the e1000 driver 
+- Resolves: bz#206415
 
-* Tue Jan 15 2008 Karsten Hopp <karsten@redhat.com> 0.213-1
-- add many monitor entries (Im Sza, #367111)
+* Thu Mar 29 2007 Karsten Hopp <karsten@redhat.com> 0.146.28.EL-1
+- fix pcitables entry for NVIDIA Quadro NVS 285
 
-* Fri Jan 11 2008 Karsten Hopp <karsten@redhat.com> 0.212-1
-- pull new upstream pci.ids, usb.ids
-- Resolves: #300831
-- added HP TFT5600 LCD Monitor
-- Resolves: #250569
-- added Acer AL1916W, Eizo L568/L568D, Samsung 795DF
-- Resolves: #250582
-- Add Samsung 205BW/206BW/225BW/226BW
-- Resolves: #250584
-- Add Samsung 931BF
-- Resolves: #250587
+* Wed Mar 28 2007 Karsten Hopp <karsten@redhat.com> 0.146.27.EL-1
+- update pcitables
 
-* Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.209-1
-- add Proview 926w monitor (#363091)
-
-* Sat Dec 22 2007 Karsten Hopp <karsten@redhat.com> 0.208-1
-- new release
-- drop dell-monitors patch, already included in tarball
-
-* Thu Dec 13 2007 Karsten Hopp <karsten@redhat.com> 0.207-3
-- fix License tag
-- add empty %%build section for fedora-review
-
-* Thu Oct 25 2007 Matt Domsch <Matt_Domsch@dell.com> 0.207-2
-- MonitorsDB: add 20 new Dell monitors
-
-* Wed Sep 26 2007 Karsten Hopp <karsten@redhat.com> 0.211-1
-- pull new upstream pci.ids, usb.ids
-
-* Thu Sep 20 2007 Karsten Hopp <karsten@redhat.com> 0.210-1
-- add pci.id for Chelsio 10GbE Ethernet Adapter
-- Resolves: bz #296811
-
-* Wed Sep 19 2007 Karsten Hopp <karsten@redhat.com> 0.209-1
-- pull new upstream pci.ids, usb.ids
-
-* Wed Aug 29 2007 Karsten Hopp <karsten@redhat.com> 0.207-1
-- update license tag
-
-* Wed Aug 15 2007 Karsten Hopp <karsten@redhat.com> 0.207-1
-- pull new upstream pci.ids and rebuild
-- Resolves: bz #251732
-- Resolves: bz #251734
-- Resolves: bz #252195
-- Resolves: bz #252196
-- Resolves: bz #241274
-
-* Tue Aug 14 2007 Karsten Hopp <karsten@redhat.com> 0.205-1
-- add HP TFT5600        #229370
-
-* Mon Jul 09 2007 Karsten Hopp <karsten@redhat.com> 0.205-1
-- enable iwl4965 blacklist
-- Resolves: bz#245379
-
-* Mon Jun 25 2007 Karsten Hopp <karsten@redhat.com> 0.205-1
-- really update pci.ids, update-pciids downloaded an old file
-- disable iwl4965 blacklist as it is not approved yet (#245379)
-
-* Mon Jun 25 2007 Karsten Hopp <karsten@redhat.com> 0.202-1
-- don't load iwl4965 module automatically
-- Resolves: #245379
-
-* Tue Jun 19 2007 Karsten Hopp <karsten@redhat.com> 0.201-1
-- add some monitors
-- Resolves: #224511
+* Wed Mar 28 2007 Karsten Hopp <karsten@redhat.com> 0.146.26.EL-1
 - update pci.ids
-- Related: #223105
+- Resolves: #197012
 
-* Tue Jan 02 2007 Karsten Hopp <karsten@redhat.com> 0.194-1
-- Update to latest pci.ids/usb.ids for RHEL5
-- Resolves: #220182
-  Add some Dell monitors to MonitorDB
+* Mon Feb 12 2007 Karsten Hopp <karsten@redhat.com> 0.146.25.EL-1
+- add HP TFT5600 monitor
 
-* Mon Oct 09 2006 Phil Knirsch <pknirsch@redhat.com> - 0.191-1
-- Update to latest pci.ids for RHEL5
+* Mon Jan 29 2007 Soren Sandmann <sandmann@redhat.com> 0.146.25.EL-1
+- update pcitable / Cards to support new XGI driver
+- Related: #196785
 
-* Thu Sep 21 2006 Adam Jackson <ajackson@redhat.com> - 0.190-1
-- Add a description for the 'intel' driver.
+* Fri Jan 19 2007 Karsten Hopp <karsten@redhat.com> 0.146.24.EL-3
+- update pci.ids / usb.ids
+- Resolves: #197012
 
-* Mon Sep 18 2006 Phil Knirsch <pknirsch@redhat.com> - 0.189-1
-- Updated usb.ids for FC6
+* Mon Jan 08 2007 Karsten Hopp <karsten@redhat.com> 0.146.24.EL-2
+- update pci.ids / usb.ids
+- sync MonitorsDB between releases
+- Resolves: #197070
+- Resolves: #197792
+- Resolves: #200734
+- Resolves: #206458
 
-* Mon Sep 11 2006 Phil Knirsch <pknirsch@redhat.com> - 0.188-1
-- Update of pci.ids for FC6
+* Mon Aug 28 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.24.EL-1
+- Included fix for Intel NIC issue for quad e1000 from Oracle on a Sun box
 
-* Thu Aug 31 2006 Adam Jackson <ajackson@redhat.com> - 0.187-1
-- Fix sync ranges for Samsung SyncMaster 710N (#202344)
+* Mon Aug 21 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.23.EL-1
+- Fixed regression in pcitable for QLA24x cards (#202267)
 
-* Thu Aug 03 2006 Phil Knirsch <pknirsch@redhat.com> - 0.186-1
-- Updated pci.ids once more.
+* Tue Jul 11 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.22.EL-1
+- Final pull of pci.ids and pcitable (#180521)
 
-* Tue Jul 25 2006 Phil Knirsch <pknirsch@redhat.com> - 0.185-1
-- Added the 17inch Philips LCD monitor entry (#199828)
+* Thu Jun 22 2006 Adam Jackson <ajackson@redhat.com> 0.146.21.EL-1
+- Add Matrox G200e to Cards and pcitable
 
-* Mon Jul 24 2006 Phil Knirsch <pknirsch@redhat.com> - 0.184-1
-- Added one more entry for missing Philips LCD monitor (#199828)
+* Fri May 26 2006 Karsten Hopp <karsten@redhat.de> 0.146.20.EL-1
+- add some monitors to MonitorsDB (#191693)
 
-* Tue Jul 18 2006 Phil Knirsch <pknirsch@redhat.com> - 0.183-1
-- Updated pci.ids before FC6 final (#198994)
-- Added several missing Samsung monitors (#197463)
-- Included a new inf2mondb.py from Matt Domsch (#158723)
+* Fri May 05 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.19.EL-1
+- Included pcitable update to support Nvidia FX3450 cards (#178462)
+- Updated PCI ids from upstream (#180521)
+- Fixed missing monitor entry in MonitorsDB (#189447)
 
-* Tue Jul 11 2006 Adam Jackson <ajackson@redhat.com> - 0.182-1
-- Added ast driver description to videodrivers
-- Numerous Dell monitor additions (#196734)
-- Numerous Belinea monitor additions (#198087)
+* Fri Mar  3 2006 Bill Nottingham <notting@redhat.com> 0.146.18.EL-1
+- blacklist EDAC modules (#183232)
 
-* Sat Jul  8 2006 Adam Jackson <ajackson@redhat.com> - 0.181-1
-- Updated videodrivers to mention i945
-- New monitors: Sony CPD-G420 (#145902), Compaq P1110 (#155120).
+* Thu Feb 09 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.17.EL-1
+- Added fix to detect the new ATI ES1000 chip properly (#180523)
 
-* Thu May 11 2006 Phil Knirsch <pknirsch@redhat.com> - 0.180-1
-- Updated and added some MonitorsDB entries
+* Fri Feb 03 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.16.EL-1
+- Fixed typo in upgradelist (#169783)
 
-* Tue May 02 2006 Phil Knirsch <pknirsch@redhat.com> - 0.179-1
-- Updated PCI ids from upstream (#180402)
-- Fixed missing monitor entry in MonitorsDB (#189446)
+* Fri Jan 27 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.15.EL-1
+- Updated pci.ids according to our schedule (#179097)
 
-* Wed Mar 01 2006 Phil Knirsch <pknirsch@redhat.com> - 0.178-1
-- Commented out the VT lines at the end of usb.ids as our tools don't handle
-  them properly.
+* Thu Jan 19 2006 Phil Knirsch <pknirsch@redhat.com> 0.146.14.EL-1
+- Fixed regression of missing line in pci.ids (#177169)
 
-* Fri Feb 24 2006 Bill Nottingham <notting@redhat.com> - 0.177-1
-- remove stock videoaliases in favor of driver-specific ones in
-  the X driver packages
+* Mon Nov 28 2005 Bill Nottingham <notting@redhat.com> 0.146.13.EL-1
+- update pci.ids, usb.ids from upstream (#168602)
+- add support for Intel 915/945 (#170517)
 
-* Wed Feb 22 2006 Phil Knirsch <pknirsch@redhat.com> - 0.176-1
-- More entries from Dell to MonitorsDB (#181008)
+* Wed Aug 31 2005 Bill Nottingham <notting@redhat.com> 0.146.12.EL-1
+- update pci.ids (#156948)
 
-* Fri Feb 10 2006 Phil Knirsch <pknirsch@redhat.com> - 0.175-1
-- Added a few more entries to MonitorsDB
+* Thu Aug 25 2005 Bill Nottingham <notting@redhat.com>
+- /etc/pcmcia/config: fix typo (#166635)
 
-* Wed Feb 01 2006 Phil Knirsch <pknirsch@redhat.com> - 0.174-1
-- Some cleanup and adds to the MonitorDB which closes several db related bugs.
+* Thu Jul 21 2005 Bill Nottingham <notting@redhat.com> 0.146.11.EL-1
+- update usb.ids, MonitorsDB (#158961)
 
-* Tue Dec 13 2005 Bill Nottingham <notting@redhat.com> - 0.173-1
-- add some IDs to the generic display entries for matching laptops
+* Tue Jul 19 2005 Bill Nottingham <notting@redhat.com>
+- fix qlogic mapping
 
-* Fri Nov 18 2005 Bill Nottingham <notting@redhat.com> - 0.172-1
-- ditto for radeon
+* Thu Jun 30 2005 Bill Nottingham <notting@redhat.com>
+- add more mptfusion cards (#107088)
 
-* Fri Nov 18 2005 Jeremy Katz <katzj@redhat.com> - 0.171-1
-- r128 -> ati.  should fix the unresolved symbol and kem says its more 
-  generally the "right" thing to do
+* Wed Jun 22 2005 Bill Nottingham <notting@redhat.com>
+- add hisax modules to blacklist (#154799, #159068)
 
-* Wed Nov 16 2005 Bill Nottingham <notting@redhat.com> - 0.170-1
-- handle mptsas for migration as well
-- move videoaliases file to a subdir
+* Fri Jun 10 2005 Bill Nottingham <notting@redhat.com>
+- fix ATI branding (#160047)
 
-* Fri Sep 16 2005 Bill Nottingham <notting@redhat.com>
-- add Iiyama monitor (#168143)
+* Wed May  4 2005 Bill Nottingham <notting@redhat.com> 0.146.10.EL-1
+- update pci.ids
 
-* Tue Sep 13 2005 Bill Nottingham <notting@redhat.com>
-- add IBM monitor (#168080)
+* Fri Apr  8 2005 Mike A. Harris <mharris@redhat.com> 0.146.9.EL-1
+- Updated Cards to change the default driver for Nvidia FX1400 or FX540 to
+  "vesa" (#140601)
 
-* Thu Sep  8 2005 Bill Nottingham <notting@redhat.com> - 0.169-1
-- remove Cards, pcitable. Add videodrivers
+* Wed Mar 23 2005 Bill Nottingham <notting@redhat.com> 0.146.8.EL-1
+- fix qla6322 mapping (correction of fix for #150621)
 
-* Fri Sep  2 2005 Dan Williams <dcbw@redhat.com> - 0.168-1
-- Add more Gateway monitors
+* Mon Mar 14 2005 Bill Nottingham <notting@redhat.com> 0.146.7.EL-1
+- update pci.ids
 
-* Fri Sep  2 2005 Dan Williams <dcbw@redhat.com> - 0.167-1
-- Add some ADI monitors, one BenQ, and and DPMS codes for two Apples
+* Wed Mar  9 2005 Bill Nottingham <notting@redhat.com> 0.146.6.EL-1
+- fix qlaXXXX mappings, add migration entries (#150621)
 
-* Fri Sep  2 2005 Bill Nottingham <notting@redhat.com> - 0.166-1
-- add videoaliases file
-- remove CardMonitorCombos, as nothing uses it
+* Mon Mar  7 2005 Bill Nottingham <notting@redhat.com> 0.146.5.EL-1
+- more aic79xx entries (IT%67884)
 
-* Thu Aug 25 2005 Dan Williams <dcbw@redhat.com> - 0.165-1
-- Add a bunch of Acer monitors
+* Wed Mar  2 2005 Mike A. Harris <mharris@redhat.com> 0.146.4.EL-1
+- Bump and rebuild to fix build problem
 
-* Tue Aug  9 2005 Jeremy Katz <katzj@redhat.com> - 0.164-1
-- migrate sk98lin -> skge
+* Wed Mar  2 2005 Mike A. Harris <mharris@redhat.com> 0.146.3.EL-1
+- Added many new nvidia PCI IDs to pcitable and Cards to synchronize it
+  with X.Org X11 6.8.2. (#140601)
 
-* Sat Jul 30 2005 Bill Nottingham <notting@redhat.com>
-- migrate mpt module names (#161420)
-- remove pcitable entries for drivers in modules.pcimap
-- switch lone remaining 'Server' entry - that can't work right
+* Tue Mar  1 2005 Bill Nottingham <notting@redhat.com> - 0.146.2.EL-1
+- add sk98lin mapping (#145538)
+- fix emu10k1x mapping (#147787)
+- update usb.ids, pci.ids, MonitorsDB
 
-* Tue Jul 26 2005 Bill Nottingham <notting@redhat.com>
-- add Daytek monitor (#164339)
-
-* Wed Jul 13 2005 Bill Nottingham <notting@redhat.com> - 0.162-1
-- remove /etc/pcmcia/config, conflict with pcmcia-cs
-
-* Fri Jul  7 2005 Bill Nottingham <notting@redhat.com> - 0.160-1
-- move blacklist to /etc/modprobe.d, require new module-init-tools
-- add LG monitors (#162466, #161734)
-- add orinoco card (#161696)
-- more mptfusion stuff (#107088)
-
-* Thu Jun 23 2005 Bill Nottingham <notting@redhat.com>
-- add Samsung monitor (#161013)
-
-* Wed Jun 22 2005 Bill Nottingham <notting@redhat.com> - 0.159-1
-- pcitable: make branding happy (#160047)
-- Cards: add required blank line (#157972)
-- add some monitors
-- add JVC CD-ROM (#160907, <richard@rsk.demon.co.uk>)
-- add hisax stuff to blacklist (#154799, #159068)
-
-* Mon May 16 2005 Bill Nottingham <notting@redhat.com> - 0.158-1
-- add a orinoco card (#157482)
-
-* Thu May  5 2005 Jeremy Katz <katzj@redhat.com> - 0.157-1
-- add 20" Apple Cinema Display
-
-* Sun Apr 10 2005 Mike A. Harris <mharris@redhat.com> 0.156-1
-- Update SiS entries in Cards/pcitable to match what Xorg X11 6.8.2 supports
-
-* Wed Mar 30 2005 Dan Williams <dcbw@redhat.com> 0.155-1
-- Add a boatload of BenQ, Acer, Sony, NEC, Mitsubishi, and Dell monitors
-
-* Wed Mar 30 2005 Dan Williams <dcbw@redhat.com> 0.154-1
-- Add Typhoon Speednet Wireless PCMCIA Card mapping to atmel_cs driver
-
-* Mon Mar 28 2005 Bill Nottingham <notting@redhat.com> 0.153-1
-- update the framebuffer blacklist
-
-* Wed Mar  9 2005 Bill Nottingham <notting@redhat.com> 0.152-1
-- fix qlogic driver mappings, add upgradelist mappings for the modules
-  that changed names (#150621)
-
-* Wed Mar  2 2005 Mike A. Harris <mharris@redhat.com> 0.151-1
-- Added one hundred billion new nvidia PCI IDs to pcitable and Cards to
-  synchronize it with X.Org X11 6.8.2.  (#140601)
-
-* Tue Jan 11 2005 Dan Williams <dcbw@redhat.com> - 0.150-1
-- Add Dell UltraSharp 1704FPV (Analog & Digital)
-
-* Sun Nov 21 2004 Bill Nottingham <notting@redhat.com> - 0.148-1
-- add Amptron monitors (#139142)
-
-* Wed Nov 10 2004 Bill Nottingham <notting@redhat.com> - 0.147-1
-- update usb.ids (#138533)
+* Wed Nov 10 2004 Bill Nottingham <notting@redhat.com> - 0.146.1.EL-1
 - migrate dpt_i2o to i2o_block (#138603)
 
 * Tue Nov  9 2004 Bill Nottingham <notting@redhat.com> - 0.146-1
