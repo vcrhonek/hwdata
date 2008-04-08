@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.146.33.EL
-Release: 1
+Release: 2
 License: GPL/MIT
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.gz
@@ -36,6 +36,10 @@ rm -rf $RPM_BUILD_ROOT
 /usr/X11R6/lib/X11/Cards
 
 %changelog
+* Tue Apr 08 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-2
+- unify MonitorsDB 
+- update pci.ids, usb.ids, pcitable
+
 * Thu Oct 25 2007 Phil Knirsch <pknirsch@redhat.com> 0.146.33.EL-1
 - Map specific Intel network cards to the new e1000e driver (#253792)
 
