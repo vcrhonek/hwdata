@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.146.33.EL
-Release: 2
+Release: 3
 License: GPL/MIT
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.gz
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/X11R6/lib/X11/Cards
 
 %changelog
+* Tue Apr 08 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-3
+- release 2 already built, bump release
+
 * Tue Apr 08 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-2
 - unify MonitorsDB 
 - update pci.ids, usb.ids, pcitable
