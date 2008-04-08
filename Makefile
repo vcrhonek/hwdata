@@ -50,8 +50,10 @@ changelog:
 	@(GIT_DIR=.git git-log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 
 check:
-	[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null
-	./check-pci-ids.py
+	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
+	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
+	@grep -q "^VT " usb.ids && { echo "FAILURE: VT entries in usb.ids need to be commented out"; exit 1; } || echo "OK: VT entries commented out"
+	@grep -q "^HCC " usb.ids && { echo "FAILURE: HCC entries in usb.ids need to be commented out"; exit 1; } || echo "OK: HCC entries commented out"
 
 create-archive:
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
@@ -79,6 +81,8 @@ clean:
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
+
+download: new-usb-ids new-pci-ids
 
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
