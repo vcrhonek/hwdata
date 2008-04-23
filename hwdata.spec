@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213.4
+Version: 0.213.5
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Apr 23 2008 Karsten Hopp <karsten@redhat.com> 0.213.5-1
+- update to latest pci.ids, usb.ids
+
 * Tue Mar 11 2008 Karsten Hopp <karsten@redhat.com> 0.213.4-1
 - Pull new upstream pci.ids, usb.ids
 - remove iwl4965 from modprobe blacklist
