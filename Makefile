@@ -47,22 +47,21 @@ changelog:
 	@(GIT_DIR=.git git-log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 
 check:
-	[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null
-	./check-pci-ids.py
+	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
+	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@: videodrivers is tab-separated
-	[ `grep -vc '	' videodrivers` -eq 0 ]
+	@[ `grep -vc '	' videodrivers` -eq 0 ] || { echo "FAILURE: videodrivers not TAB separated"; exit 1; } && echo "OK: videodrivers"
 
-create-archive:
+create-archive: changelog
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
-	@make changelog
-	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
+	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
 	@mkdir $(NAME)-$(VERSION)
 	@cp ChangeLog $(NAME)-$(VERSION)/
-	@tar --append -f $(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
-	@bzip2 -f $(NAME)-$(VERSION).tar
+	@tar --append -f $(NAME)-$(VERSION)-$(RELEASE).tar $(NAME)-$(VERSION)
+	@gzip -9 $(NAME)-$(VERSION)-$(RELEASE).tar
 	@rm -rf $(NAME)-$(VERSION)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
+	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELEASE).tar.gz"
 
 archive: check clean tag create-archive
 
@@ -78,6 +77,8 @@ clean:
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
+
+download: new-usb-ids new-pci-ids
 
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
