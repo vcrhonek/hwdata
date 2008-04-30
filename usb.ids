@@ -7,7 +7,7 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# $Id: usb.ids,v 1.345 2008/04/22 12:42:51 gowdy Exp $
+# $Id: usb.ids,v 1.346 2008/04/23 13:51:46 gowdy Exp $
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -11217,7 +11217,7 @@
 	913c  Argus DC-1730
 	9150  Mini Cam
 	9153  iClick 5X
-	915d  Cyberpix S-210S
+	915d  Cyberpix S-210S / Little Tikes My Real Digital Camera
 	930b  CCD Webcam(PC370R)
 	930c  CCD Webcam(PC370R)
 2899  Toptronic Industrial Co., Ltd
