@@ -4,7 +4,7 @@ Version: 0.213.5
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}.tar.bz2
+Source: hwdata-%{version}-1.tar.gz
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
