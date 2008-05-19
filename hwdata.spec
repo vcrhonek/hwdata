@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.217
+Version: 0.218
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon May 19 2008 Karsten Hopp <karsten@redhat.com> 0.218-1
+- add some Acer monitors (Im Sz)
+
 * Tue Apr 01 2008 Karsten Hopp <karsten@redhat.com> 0.217-1
 - update pci.ids, oui.txt
 - update usb.ids, fixes #439963

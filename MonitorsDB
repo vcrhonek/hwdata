@@ -136,6 +136,12 @@ Acer; Acer AL1916W; ACRAD52; 30.0-82.0; 56.0-76.0; 1
 Acer; Acer AL1916Wc; ACRAD52; 30.0-82.0; 56.0-76.0; 1
 Acer; Acer AL1916Wp; ACRAD76; 30.0-80.0; 50.0-75.0; 1
 Acer; Acer AL1916Wx; ACRAD80; 31.5-84.0; 56.0-76.0; 1
+Acer; Acer AL1917C; ACRAD53; 30.0-82.0; 56.0-76.0; 1
+Acer; Acer AL1917T (Analog); ACR57AD; 30.0-82.0; 56.0-76.0; 1
+Acer; Acer AL1917T (Digital); ACR57AD; 30.0-82.0; 56.0-76.0; 1
+Acer; Acer AL1917V; ACRAD73; 30.0-83.0; 55.0-75.0; 1
+Acer; Acer AL1917W; ACRAD87; 31.0-84.0; 56.0-76.0; 1
+Acer; Acer AL1917X; ACRAD63; 30.0-83.0; 56.0-75.0; 1
 Acer; Acer AL1923E; ACR0783; 31.0-81.0; 55.0-75.0; 1
 Acer; Acer AL1923We; ACRAD83; 31.0-80.0; 56.0-75.0; 1
 Acer; Acer AL1931; ACRAD07; 24.0-80.0; 56.0-75.0; 1
@@ -1186,12 +1192,18 @@ Daytek; Daytek TM-1569D; oec020f; 30.0-70.0; 50.0-120.0; 1
 Daytek; Daytek TM-1769D; oec0211; 30.0-70.0; 50.0-120.0; 1
 Daytek; Daytek TM-1770D; oec0707; 30.0-70.0; 50.0-120.0; 1
 Daytek; Daytek 755DF; oec7704; 30.0-70.0; 50.0-150.0; 1
+Dell; Dell Laptop Display Panel 1024x768; QDS005; 31.5-48.5; 59.0-75.0; 1
+Dell; Dell Laptop Display Panel 1280x800; 0; 31.5-50.0; 56.0 - 65.0
+Dell; Dell Laptop Display Panel 1280x1024; 0; 31.5-90.0; 59.0-75.0; 1
+Dell; Dell Laptop Display Panel 1400x1050; SEC3450; 31.5-90.0; 59.0-75.0; 1
+Dell; Dell Laptop Display Panel 1440x900; 0; 31.5-56.0; 56.0 - 65.0
+Dell; Dell Laptop Display Panel 1600x1200; 0; 31.5-90.0; 59.0-85.0; 1
+Dell; Dell Laptop Display Panel 1680x1050; 0; 31.5-65.5; 56.0 - 65.0
+Dell; Dell Laptop Display Panel 1920x1080; 0; 31.5-67.0; 56.0 - 65.0
+Dell; Dell Laptop Display Panel 1920x1200; 0; 31.5-74.5; 56.0 - 65.0
 Dell; Dell 1024i; 0; 35.5; 87.0; 1
 Dell; Dell 1024i-P/1024i-Color; 0; 35.5; 87.0; 1
-Dell; Dell 1024x768 Laptop Display Panel; QDS005; 31.5-48.5; 59.0-75.0; 1
-Dell; Dell 1280x1024 Laptop Display Panel; 0; 31.5-90.0; 59.0-75.0; 1
 Dell; Dell 1400FP; del8162; 31.0-60.0; 55.0-86.0; 1
-Dell; Dell 1400x1050 Laptop Display Panel; SEC3450; 31.5-90.0; 59.0-75.0; 1
 Dell; Dell 1401FP; delc0ec; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1500FP; del715d; 30.0-61.0; 56.0-75.0; 1
 Dell; Dell 1501FP (Analog); del73a4; 30.0-61.0; 56.0-75.0; 1
@@ -1204,7 +1216,6 @@ Dell; Dell 1505FP (Analog); DEL4006; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell 1505FP (Digital); DEL4007; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell 1569; del1569; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1569; del6915; 30.0-69.0; 50.0-110.0; 1
-Dell; Dell 1600x1200 Laptop Display Panel; 0; 31.5-90.0; 59.0-85.0; 1
 Dell; Dell 1700FP; del3092; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP (Analog); del3002; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP (Digital); del3001; 31.0-80.0; 56.0-76.0; 1
