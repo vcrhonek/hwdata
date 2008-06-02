@@ -79,8 +79,13 @@ clean:
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
+download: new-usb-ids new-pci-ids new-oui.txt
+
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
 
 new-pci-ids:
 	@curl -O http://pciids.sourceforge.net/pci.ids
+
+new-oui.txt:
+	@curl -O http://standards.ieee.org/regauth/oui/oui.txt
