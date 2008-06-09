@@ -2134,12 +2134,16 @@ Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan 17; heib81e; 30.0-64
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan 17MB/17MS; 0; 30-50; 50-130
 Hyundai Electronics Industries Co., Ltd.; Hyundai Deluxscan 17 Pro; hei1e02; 30-82; 45-100; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai Deluxscan 21; hei0b42; 30-82; 45-100; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan 2595; hei259c; 30.0-97.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan B790+; hei0790; 30.0-95.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan HLM-1510A; hei151a; 30.0-70.0; 43.0-85.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan P210; hei0210; 30.0-110.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan P910+; hei0910; 30.0-107.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan V560; hei1560; 30.0-55.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan V570; hei1570; 30.0-70.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan V770; hei1770; 30.0-70.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan HLM-1410A; hei141A; 24.0-69.0; 50.0-88.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan HLM-1500A; hei150A; 24.0-69.0; 50.0-88.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HCM-40X; hcm-40x; 31.5; 60.0-70.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HCM-421E; 0; 30-36; 43-72; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HCM-42X; hcm-42x; 35.5; 87.0; 1
@@ -2165,6 +2169,7 @@ Hyundai Electronics Industries Co., Ltd.; Hyundai HL-5870B; hei58b0; 30.0-70.0; 
 Hyundai Electronics Industries Co., Ltd.; Hyundai HL-5870BM; hei58b1; 30-70; 50-150; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HL-5870C; hei587c; 30.0-70.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HL-7682A; hei1e02; 30-82; 45-100; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai HT-7682B/DeluxScan 7687; hei768b; 30-82; 50-120; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HL-7682; hl-7682; 31.0-82.0; 56.0-100.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HL-7682P; hl-7682p; 31.0-82.0; 56.0-100.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HL-7770A; hei777a; 30.0-70.0; 50.0-150.0; 1
@@ -2182,8 +2187,23 @@ Hyundai Electronics Industries Co., Ltd.; Hyundai HN-7448M; hei1d18; 30-48; 50-1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HN/L-4850; hn/l-4850; 30.0-50.0; 50.0-90.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HT-2896B; hei289b; 30-96; 50-150; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HT-7695B; hei769b; 30.0-95.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai S450; hei0450; 30.0-54.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai S560; hei0560; 30.0-57.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai S570; hei0570; 30.0-70.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai S770; hei0770; 30.0-70.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co.,Ltd.; Hyundai ImageFlat F790; HEIF790; 30.0-95.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai ImageFlat F790D; heif790; 30.0-96.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai ImageFlat F910; heif910; 30.0-110.0; 50.0-150.0; 1
+Hyundai IT Corporation; Hyundai IT T91D Digital; hiq6d0b; 30.0-83.0; 55.0-75.0; 1
+Hyundai IT Corporation; Hyundai IT T71S; hiq6009; 30.0-83.0; 55.0-75.0; 1
+Hyundai IT Corporation; Hyundai IT T91D Analog; hiq600b; 30.0-83.0; 55.0-75.0; 1
+Hyundai IT Corporation; Hyundai IT X91D Digital; hit6d12; 30.0-83.0; 56.0-75.0; 1
+Hyundai IT Corporation; Hyundai IT X91D Analog; hit6010; 30.0-83.0; 56.0-75.0; 1
+Hyundai IT Corporation; Hyundai IT X91D Analog; hit6012; 30.0-83.0; 56.0-75.0; 1
+Hyundai IT Corporation; Hyundai IT X91D Digital; hit6d10; 30.0-83.0; 56.0-75.0; 1
+Hyundai IT Corporation; Hyundai IT X71S; hit600f; 24.0-83.0; 55.0-77.0; 1
+Hyundai IT Corporation; Hyundai IT X90W Analog; hiq6008; 31-84.0; 56.0-76.0; 1
+Hyundai IT Corporation; Hyundai IT X90W Digital; hiq6d08; 31-84.0; 56.0-76.0; 1
 IBM; IBM 2112; ibm2112; 31.0-38.0; 50.0-80.0; 1
 IBM; IBM 2113; ibm2113; 31.0-38.0; 50.0-80.0; 1
 IBM; IBM 2114; ibm2114; 31.0-62.0; 50.0-120.0; 1
@@ -2385,7 +2405,56 @@ Ikegami; Ikegami C/DM-2010A; dm-2010a; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami C/DM-2060; dm-2060; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami CN-20; cn-20; 45.0-68.0; 50.0-150.0; 1
 Ikegami; Ikegami CT-20; ct-20; 48.0-64.0; 50.0-70.0; 1
-ImageQuest Co., Ltd.; ImageQuest Q910; IQT2910; 30.0-110.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageFlat F770D; iqtf772; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageFlat F790; iqtf790; 30.0-95.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest B70A; hiq5004; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B70D Analog; hiq5008; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B70D Digital; hiq5d08; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B71D/B70D Analog; hiq501f; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B71D/B70D Digital; hiq5d1f; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B90A; hiq5005; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B91D/B70D Analog; hiq5020; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B91D/B70D Digital; hiq5d20; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B790+; iqt0790; 30.0-97.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest F230; iqtf230; 30.0-125.0; 50.0-160.0; 1
+ImageQuest Co., Ltd.; ImageQuest F791; iqtf791; 30.0-96.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest G210; iqt0210; 30.0-110.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest L50A; iqt0520; 31.0-60.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L50S; iqt0503; 31.0-63.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L52S; hiq5006; 31.0-63.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70A Analog; iqt70aa; 31.0-80.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70A Digital; iqt70ad; 31.0-80.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70D+ Analog; hiq70da; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70D+ Digital; hiq70dd; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70N; hiq0705; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70S; iqt0703; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L72D Analog; hiq5002; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L72D Digital; hiq5003; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L72S; hiq5001; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L80A Digital; iqt80ad; 31.0-80.0; 56.0-87.0; 1
+ImageQuest Co., Ltd.; ImageQuest L80A Analog; iqt80aa; 31.0-80.0; 56.0-87.0; 1
+ImageQuest Co., Ltd.; ImageQuest L90D+ Analog; hiq91da; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L90D+ Digital; hiq91dd; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest LM1510A; iqt151b; 31.0-60.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest N71S; hiq6001; 30-83; 56-75; 1
+ImageQuest Co., Ltd.; ImageQuest N91S; hiq6002; 30-83; 56-75; 1
+ImageQuest Co., Ltd.; ImageQuest V560; iqt1560; 30.0-55.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V570; iqt1570; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V770; iqt1770; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V770+; iqt1772; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V773; iqt1773; 30.0-73.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V780; iqt1780; 30.0-87.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V791; iqt1791; 30.0-95.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V995; iqt1995; 30.0-97.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest P910+; iqt0910; 30.0-107.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest P990+; iqt0990; 30.0-95.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q15; iqt2015; 31.0-63.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q19+ DVI; hiq5d0d; 31.0-67.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q19+ D-sub; hiq500d; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q770; iqt2770; 30.0-73.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q790; iqt2790; 30.0-97.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q910; iqt2910; 30.0-110.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q995; iqt2995; 30.0-97.0; 50.0-150.0; 1
 Image Systems Corp.; Image Systems C21LMAX; cs1lmax; 48.0-96.0; 60.0-80.0; 1
 Image Systems Corp.; Image Systems M24LMAX; m24lmax; 48.0-96.0; 60.0-80.0; 1
 Impression; Impression 3 3428G; dcm-1488e; 35.5; 87.0; 1
