@@ -38,6 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Mon Jun 09 2008 Karsten Hopp <karsten@redhat.com> 0.219-1
 - add BenQ FP2091 monitor (Peter Williams)
+- add a bunch of Hyundai and ImageQuest monitors
 
 * Mon Jun 02 2008 Karsten Hopp <karsten@redhat.com> 0.219-1
 - update pci.ids, usb.ids, oui.txt
