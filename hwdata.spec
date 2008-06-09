@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Jun 09 2008 Karsten Hopp <karsten@redhat.com> 0.219-1
+- add BenQ FP2091 monitor (Peter Williams)
+
 * Mon Jun 02 2008 Karsten Hopp <karsten@redhat.com> 0.219-1
 - update pci.ids, usb.ids, oui.txt
 - blacklist snd-pcsp (#448425)
