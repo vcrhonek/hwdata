@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.146.33.EL
-Release: 4
+Release: 5
 License: GPL/MIT
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.gz
@@ -36,9 +36,12 @@ rm -rf $RPM_BUILD_ROOT
 /usr/X11R6/lib/X11/Cards
 
 %changelog
+* Wed Jun 11 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-5
+- add pcitable mappings for some SATA AHCI controllers
+
 * Wed Jun 11 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-4
 - update usb.ids, pci.ids
-- add mappings for some NVidia cards
+- add pcitable mappings for some NVidia cards
 
 * Tue Apr 08 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-3
 - release 2 already built, bump release
