@@ -11,7 +11,7 @@
 #	This file can be distributed under either the GNU General Public License
 #	(version 2 or higher) or the 3-clause BSD License.
 #
-#	Daily snapshot on Wed 2008-06-11 01:05:02
+#	Daily snapshot on Tue 2008-06-24 01:05:02
 #
 
 # Vendors, devices and subsystems. Please keep sorted.
@@ -6478,6 +6478,46 @@
 	0003  IDT77222/77252 155Mbps ATM MICRO ABR SAR Controller
 	0004  IDT77V252 155Mbps ATM MICRO ABR SAR Controller
 	0005  IDT77V222 155Mbps ATM MICRO ABR SAR Controller
+	8018  PES12N3A PCI Express Switch
+	801c  PES24N3A PCI Express Switch
+	8028  PES4T4 PCI Express Switch
+	802b  PES8T5A PCI Express Switch
+	802c  PES16T4 PCI Express Switch
+	802d  PES16T7 PCI Express Switch
+	802e  PES24T6 PCI Express Switch
+	802f  PES32T8 PCI Express Switch
+	8032  PES48T12 PCI Express Switch
+	8034  PES16/22/34H16 PCI Express Switch
+	8035  PES32H8 PCI Express Switch
+	8036  PES48H12 PCI Express Switch
+	8037  PES64H16 PCI Express Switch
+	8039  PES3T3 PCI Express Switch
+	803a  PES4T4 PCI Express Switch
+	803c  PES5T5 PCI Express Switch
+	803d  PES6T5 PCI Express Switch
+	8048  PES8NT2 PCI Express Switch
+	8049  PES8NT2 PCI Express Switch
+	804a  PES8NT2 PCI Express Internal NTB
+	804b  PES8NT2 PCI Express External NTB
+	804c  PES16NT2 PCI Express Switch
+	804d  PES16NT2 PCI Express Switch
+	804e  PES16NT2 PCI Express Internal NTB
+	804f  PES16NT2 PCI Express External NTB
+	8058  PES12NT3 PCI Express Switch
+	8059  PES12NT3 PCI Express Switch
+	805a  PES12NT3 PCI Express Internal NTB
+	805b  PES12NT3 PCI Express External NTB
+	805c  PES24NT3 PCI Express Switch
+	805d  PES24NT3 PCI Express Switch
+	805e  PES24NT3 PCI Express Internal NTB
+	805f  PES24NT3 PCI Express External NTB
+	8060  PES16T4G2 PCI Express Gen2 Switch
+	8061  PES12T3G2 PCI Express Gen2 Switch
+	8068  PES6T6G2 PCI Express Gen2 Switch
+	806a  PES24T3G2 PCI Express Gen2 Switch
+	806c  PES16T4A/4T4G2 PCI Express Gen2 Switch
+	806e  PES24T6G2 PCI Express Gen2 Switch
+	806f  HIO524G2 PCI Express Gen2 Switch
 111e  Eldec
 111f  Precision Digital Images
 	4a47  Precision MX Video engine interface
@@ -10803,6 +10843,7 @@
 	12d7  5LS172.61 B&R Dual CAN Interface Card
 	20ad  5ACPCI.MFIO-K01 Profibus DP / K-Feldbus / COM
 1678  NetEffect
+	0100  NE020 10Gb Accelerated Ethernet Adapter (iWARP RNIC)
 1679  Tokyo Electron Device Ltd.
 167b  ZyDAS Technology Corp.
 	2102  ZyDAS ZD1202
@@ -12190,6 +12231,7 @@
 	1095  PRO/100 VE Network Connection
 	1096  80003ES2LAN Gigabit Ethernet Controller (Copper)
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	1097  631xESB/632xESB DPT LAN Controller (Fiber)
 	1098  80003ES2LAN Gigabit Ethernet Controller (Serdes)
 	1099  82546GB Gigabit Ethernet Controller (Copper)
@@ -12261,6 +12303,8 @@
 	10cc  82567LM-2 Gigabit Network Connection
 	10cd  82567LF-2 Gigabit Network Connection
 	10ce  82567V-2 Gigabit Network Connection
+	10d3  82574L Gigabit Network Connection
+		8086 a01f  Gigabit CT Desktop Adapter
 	10d5  82571PT Gigabit PT Quad Port Server ExpressModule
 	10d6  82575GB Gigabit Network Connection
 		8086 10d6  Gigabit VT Quad Port Server Adapter
@@ -12270,8 +12314,11 @@
 	10da  82571EB Quad Port Gigabit Mezzanine Adapter
 		103c 1717  NC364m Quad Port 1GbE BL-c Adapter
 	10dd  82598EB 10 Gigabit AT CX4 Network Connection
+	10de  82567LM-3 Gigabit Network Connection
+	10df  82567LF-3 Gigabit Network Connection
 	10e2  82575GB Gigabit Network Connection
 		8086 10e2  Gigabit VT Quad Port Server Adapter
+	10e5  82567LM-4 Gigabit Network Connection
 	10ec  10 Gigabit AT CX4 Network Connection
 		8086 a01f  10 Gigabit CX4 Dual Port Server Adapter
 		8086 a11f  10 Gigabit CX4 Dual Port Server Adapter
@@ -12530,6 +12577,7 @@
 	1a31  82845 845 [Brookdale] Chipset AGP Bridge
 	1a38  5000 Series Chipset DMA Engine
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	1a48  82597EX 10GbE Ethernet Controller
 		8086 a01f  PRO/10GbE SR Server Adapter
 		8086 a11f  PRO/10GbE SR Server Adapter
@@ -12613,6 +12661,7 @@
 # (rev d3) (prog-if (rev d3) (prog-if 01 [Subtractive decode])
 		103c 0934  HP Compaq nw8240 Mobile Workstation
 		103c 099c  NX6110/NC6120
+		103c 309f  HP Compaq nx9420
 		103c 30a3  Compaq nw8440
 		103c 30c1  Compaq 6910p
 		144d c00c  P30 notebook
@@ -13252,6 +13301,7 @@
 	25d4  5000V Chipset Memory Controller Hub
 		15d9 8680  X7DVL-E-O motherboard
 	25d8  5000P Chipset Memory Controller Hub
+		8086 3476  Intel S5000PSLSATA Server Board
 	25e2  5000 Series Chipset PCI Express x4 Port 2
 	25e3  5000 Series Chipset PCI Express x4 Port 3
 	25e4  5000 Series Chipset PCI Express x4 Port 4
@@ -13260,14 +13310,19 @@
 	25e7  5000 Series Chipset PCI Express x4 Port 7
 	25f0  5000 Series Chipset FSB Registers
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	25f1  5000 Series Chipset Reserved Registers
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	25f3  5000 Series Chipset Reserved Registers
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	25f5  5000 Series Chipset FBD Registers
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	25f6  5000 Series Chipset FBD Registers
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	25f7  5000 Series Chipset PCI Express x8 Port 2-3
 	25f8  5000 Series Chipset PCI Express x8 Port 4-5
 	25f9  5000 Series Chipset PCI Express x8 Port 6-7
@@ -13457,21 +13512,28 @@
 		e4bf 58b1  XB1
 	2670  631xESB/632xESB/3100 Chipset LPC Interface Controller
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	2680  631xESB/632xESB/3100 Chipset SATA IDE Controller
 	2681  631xESB/632xESB SATA AHCI Controller
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	2682  631xESB/632xESB SATA RAID Controller
 	2683  631xESB/632xESB SATA RAID Controller
 	2688  631xESB/632xESB/3100 Chipset UHCI USB Controller #1
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	2689  631xESB/632xESB/3100 Chipset UHCI USB Controller #2
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	268a  631xESB/632xESB/3100 Chipset UHCI USB Controller #3
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	268b  631xESB/632xESB/3100 Chipset UHCI USB Controller #4
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	268c  631xESB/632xESB/3100 Chipset EHCI USB2 Controller
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	2690  631xESB/632xESB/3100 Chipset PCI Express Root Port 1
 	2692  631xESB/632xESB/3100 Chipset PCI Express Root Port 2
 	2694  631xESB/632xESB/3100 Chipset PCI Express Root Port 3
@@ -13481,6 +13543,7 @@
 	269a  631xESB/632xESB High Definition Audio Controller
 	269b  631xESB/632xESB/3100 Chipset SMBus Controller
 		15d9 8680  X7DVL-E-O motherboard
+		8086 3476  Intel S5000PSLSATA Server Board
 	269e  631xESB/632xESB IDE Controller
 		15d9 8680  X7DVL-E-O motherboard
 	2770  82945G/GZ/P/PL Memory Controller Hub
@@ -13535,6 +13598,7 @@
 		107b 5048  E4500
 		8086 544e  DeskTop Board D945GTP
 	27b9  82801GBM (ICH7-M) LPC Interface Bridge
+		103c 309f  HP Compaq nx9420
 		103c 30a1  NC2400
 		103c 30a3  Compaq nw8440
 		10f7 8338  Panasonic CF-Y5 laptop
@@ -13789,6 +13853,7 @@
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		1028 01f9  Dell Latitude D630
+		1028 01ff  Dell Precision M4300
 		103c 2802  HP Compaq dc7700p
 		103c 30c0  Compaq 6710b
 		103c 30c1  Compaq 6910p

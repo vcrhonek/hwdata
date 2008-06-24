@@ -7,7 +7,7 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# $Id: usb.ids,v 1.357 2008/06/09 12:08:46 gowdy Exp $
+# $Id: usb.ids,v 1.361 2008/06/20 12:39:54 gowdy Exp $
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -1550,7 +1550,7 @@
 	00da  eHome Infrared Receiver
 	00db  Natural Ergonomic Keyboard 4000 V1.0
 	00e1  Wireless Laser Mouse 6000 Reciever
-	00f4  LifeCam VX-6000.
+	00f4  LifeCam VX-6000 (SN9C20x + OV9650)
 	00f5  LifeCam VX-3000.
 	00f7  LifeCam VX-1000.
 	00f8  LifeCam NX-6000.
@@ -1696,6 +1696,8 @@
 	04ea  Windows Powered Smartphone 2003
 	0708  Transceiver v 3.0 for Bluetooth
 	070a  Charon Bluetooth Dongle (DFU)
+	0721  LifeCam NX-3000 (UVC-compliant)
+	0723  LifeCam VX-7000 (UVC-compliant)
 	930a  ISOUSB.SYS Intel 82930 Isochronous IO Test Board
 	fff8  Keyboard
 0460  Ace Cad Enterprise Co., Ltd
@@ -3589,6 +3591,7 @@
 	a122  ORITE CCD Webcam(PC370R)
 	a123  ORITE CCD Webcam(PC370R)
 	a124  ORITE CCD Webcam(PC370R)
+	a128  PC Camera (SN9C202 + OV7663 + EEPROM)
 	a133  Gateway Webcam
 	a204  DSC WIA Device (1300)
 	a208  DSC WIA Device (2320)
@@ -4717,6 +4720,7 @@
 	2802  Monterey Keyboard
 	5492  Hub
 	6232  Hi-Speed 16-in-1 Flash Card Reader/Writer
+	6335  SD/MMC Card Reader
 	6360  Multimedia Card Reader
 	6361  Multimedia Card Reader
 	6362  Hi-Speed 21-in-1 Flash Card Reader/Writer (Internal/External)
@@ -6432,6 +6436,11 @@
 	1016  AirClick
 	627a  Radio SHARK
 077f  Well Excellent & Most Corp.
+0780  Sagem Monetel GmbH
+	1202  ORGA 900 Smart Card Terminal Virtual Com Port
+	1302  ORGA 6000 Smart Card Terminal Virtual Com Port
+	1303  ORGA 6000 Smart Card Terminal USB RNDIS
+	df55  ORGA 900/6000 Smart Card Terminal DFU
 0781  SanDisk Corp.
 	0001  SDDR-05a ImageMate CompactFlash Reader
 	0002  SDDR-31 ImageMate II CompactFlash Reader
@@ -8044,6 +8053,10 @@
 	030a  POS Printer, TH200B
 	0400  Lottery Scanner, Xiscan S
 	0401  Lottery Scanner, Xiscan 3
+	0402  Programmable Magnetic Swipe Card Reader, MSRP-USB
+	0500  IDE Adapter
+	0501  Hub Printer Interface
+	0502  Hub SNIKey Keyboard
 	4304  Banking Printer TP07
 0aa8  TriGem Computer, Inc.
 	0060  TG 11Mbps WLAN Mini Adapter
@@ -8064,7 +8077,8 @@
 0aaf  Digitalway Co., Ltd
 0ab0  Arrow Strong Electronics Co., Ltd
 0aba  Ellisys
-	8001  USB Tracker 110 Protocol Analyzer
+	8001  Tracker 110 Protocol Analyzer
+	8002  Explorer 200 Protocol Analyzer
 0abe  Stereo-Link
 	0101  SL1200 DAC
 0ac3  Sanyo Semiconductor Company Micro
@@ -8729,8 +8743,9 @@
 	60fe  Audio (Microphone)
 	6108  Win2 PC Camera
 	6122  PC Camera (SN9C110)
+	6128  PC Camera (SN9C325 + OM6802)
 	6123  PC Camera (SN9C110)
-	612a  PC Camera (SN9C110)
+	612a  PC Camera (SN9C325)
 	612c  PC Camera (SN9C110)
 	612e  PC Camera (SN9C110)
 	612f  PC Camera (SN9C110)
@@ -8740,34 +8755,39 @@
 	613b  Win2 PC Camera
 	613c  PC Camera (SN9C120)
 	613e  PC Camera (SN9C120)
-	6240  PC Camera (SN9C201)
-	6242  PC Camera (SN9C201)
-	6243  PC Camera (SN9C201)
-	6248  PC Camera (SN9C201)
-	624b  PC Camera (SN9C201)
-	624c  PC Camera (SN9C201)
-	624e  PC Camera (SN9C201)
-	624f  PC Camera (SN9C201)
-	6260  PC Camera (SN9C201)
-	6270  U-CAM PC Camera NE878
-	627a  PC Camera (SN9C201)
-	627b  PC Camera (SN9C201)
-	627c  PC Camera (SN9C201)
-	627f  PC Camera (SN9C201)
-	6280  Composite Device
-	6282  Audio (Microphone)
-	6283  Audio (Microphone)
-	6288  Audio (Microphone)
-	628a  Composite Device
-	628b  PC Camera (SN9C202)
-	628c  PC Camera (SN9C202)
-	628e  Composite Device
-	628f  Composite Device
-	62a0  Audio (Microphone)
-	62b0  Audio (Microphone)
-	62ba  PC Camera (SN9C202)
-	62bb  PC Camera (SN9C202)
-	62bc  Composite Device
+	6240  PC Camera (SN9C201 + MI1300)
+	6242  PC Camera (SN9C201 + MI1310)
+	6243  PC Camera (SN9C201 + S5K4AAFX)
+	6248  PC Camera (SN9C201 + OV9655)
+	624b  PC Camera (SN9C201 + CX1332)
+	624c  PC Camera (SN9C201 + MI1320)
+	624e  PC Camera (SN9C201 + SOI968)
+	624f  PC Camera (SN9C201 + OV9650)
+	6253  PC Camera (SN9C201 + OV9650)
+	6260  PC Camera (SN9C201 + OV7670ISP)
+	6262  PC Camera (SN9C201 + OM6802)
+	6270  PC Camera (SN9C201 + MI0360/MT9V011 or MI0360SOC/MT9V111) U-CAM PC Camera NE878, Whitcom WHC017, ...
+	627a  PC Camera (SN9C201 + S5K53BEB)
+	627b  PC Camera (SN9C201 + OV7660)
+	627c  PC Camera (SN9C201 + HV7131R)
+	627f  PC Camera (SN9C201 + OV965x + EEPROM)
+	6280  PC Camera with Microphone (SN9C202 + MI1300)
+	6282  PC Camera with Microphone (SN9C202 + MI1310)
+	6283  PC Camera with Microphone (SN9C202 + S5K4AAFX)
+	6288  PC Camera with Microphone (SN9C202 + OV9655)
+	628a  PC Camera with Microphone (SN9C202 + ICM107)
+	628b  PC Camera with Microphone (SN9C202 + CX1332)
+	628c  PC Camera with Microphone (SN9C202 + MI1320)
+	628e  PC Camera with Microphone (SN9C202 + SOI968)
+	628f  PC Camera with Microphone (SN9C202 + OV9650)
+	62a0  PC Camera with Microphone (SN9C202 + OV7670ISP)
+	62a2  PC Camera with Microphone (SN9C202 + OM6802)
+	62b0  PC Camera with Microphone (SN9C201 + MI0360/MT9V011 or MI0360SOC/MT9V111)
+	62b3  PC Camera with Microphone (SN9C202 + OV9655)
+	62ba  PC Camera with Microphone (SN9C202 + S5K53BEB)
+	62bb  PC Camera with Microphone (SN9C202 + OV7660)
+	62bc  PC Camera with Microphone (SN9C202 + HV7131R)
+	62be  PC Camera with Microphone (SN9C202 + OV7663)
 	62c0  Pavilion Webcam
 	8000  DC31VC
 	8006  Dual Mode Camera (8006 VGA)
@@ -9755,6 +9775,8 @@
 	9967  W9967CF/W9968CF WebCam IC
 1048  Targus Group International
 104c  AMCO TEC International, Inc.
+1050  Yubico.com
+	0010  Yubikey
 1053  Immanuel Electronics Co., Ltd
 1054  BMS International Beheer N.V.
 	5004  DSL 7420 Loader
@@ -9933,7 +9955,7 @@
 10d6  Actions Semiconductor Co., Ltd
 	1000  MP3 Player
 	1100  MPMan MP-Ki 128 MP3 Player/Recorder
-	1101  D-Wave 2GB MP4 Player
+	1101  D-Wave 2GB MP4 Player / AK1025 MP3/MP4 Player
 	8888  ADFU Device
 	ff51  ADFU Device
 10de  Authenex, Inc.
@@ -10311,6 +10333,8 @@
 	0829  AR5523 (no firmware)
 1436  Denali Software, Inc.
 143c  Altek Corporation
+145f  Unknown
+	013d  PC Camera (SN9C201 + OV7660)
 1453  Radio Shack
 	4026  26-183 Serial Cable
 1456  Extending Wire & Cable Co., Ltd.
@@ -10820,6 +10844,8 @@
 19ca  Mindtribe
 	0001  Sandio 3D HID Mouse
 19cf  Parrot SA
+19d2  ONDA Communication S.p.A.
+	0002  MT505UP MF632
 19e1  WeiDuan Electronic Accessory (S.Z.) Co., Ltd.
 19e8  Industrial Technology Research Institute
 19ef  Pak Heng Technology (Shenzhen) Co., Ltd.
@@ -11036,6 +11062,7 @@
 	0001  1.1 root hub
 	0002  2.0 root hub
 	0003  3.0 root hub
+1e1f  INVIA
 1e29  Festo AG & Co. KG
 	0101  CPX Adapter
 1ebb  NuCORE Technology, Inc.
@@ -11291,7 +11318,7 @@
 	913c  Argus DC-1730
 	9150  Mini Cam
 	9153  iClick 5X
-	915d  Cyberpix S-210S
+	915d  Cyberpix S-210S / Little Tikes My Real Digital Camera
 	930b  CCD Webcam(PC370R)
 	930c  CCD Webcam(PC370R)
 2899  Toptronic Industrial Co., Ltd
@@ -13223,7 +13250,6 @@ L 0060  Kashmiri
 L 0061  Nepali
 	02  India
 
-# karsten@redhat.com: from here to EOF commented out as RHEL-4 lsusb can't handle these entries
 # # HID Descriptor bCountryCode
 # # HID Specification 1.11 (2001-06-27) page 23
 # #
