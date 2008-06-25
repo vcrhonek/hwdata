@@ -5754,7 +5754,7 @@
 0x19e7	0x1003	"unknown"	"NET (Network Equipment Technologies)|STIX - 2 Port T1/E1 Card"
 0x19e7	0x1004	"unknown"	"NET (Network Equipment Technologies)|STIX - 4 Port T1/E1 Card"
 0x19e7	0x1005	"unknown"	"NET (Network Equipment Technologies)|STIX - 4 Port FXS Card"
-0x1a03	0x2000	"unknown"	"ASPEED Technology, Inc.|AST2000"
+0x1a03	0x2000	"Card:AST2000"	"ASPEED Technology, Inc.|AST2000"
 0x1a07	0x0006	"unknown"	"Kvaser AB|CAN interface PC104+ HS/HS"
 0x1a07	0x0007	"unknown"	"Kvaser AB|CAN interface PCIcanx II HS or HS/HS"
 0x1a08	0x0000	"unknown"	"Sierra semiconductor|SC15064"

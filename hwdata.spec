@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.146.33.EL
-Release: 6
+Release: 7
 License: GPL/MIT
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.gz
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/X11R6/lib/X11/Cards
 
 %changelog
+* Mi Jun 25 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-7
+- add pcitable mapping for AST2000 card
+
 * Tue Jun 24 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-6
 - update pci.ids, usb.ids
 - add more pcitable mappings for SATA AHCI controllers

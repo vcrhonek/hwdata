@@ -4242,4 +4242,8 @@ DRIVER sunffb
 
 # Misc
 
+NAME AST2000
+CHIPSET ast
+DRIVER ast
+
 END
