@@ -5740,7 +5740,7 @@
 0x197b	0x2363	"unknown"	"JMicron Technologies, Inc.|JMicron 20360/20363 AHCI Controller"
 0x197b	0x2365	"unknown"	"JMicron Technologies, Inc.|JMB365 AHCI/IDE"
 0x197b	0x2366	"unknown"	"JMicron Technologies, Inc.|JMB366 AHCI/IDE"
-0x197b	0x2368	"unknown"	"JMicron Technologies, Inc.|JMB368 IDE controller"
+0x197b	0x2368	"pata_jmicron"	"JMicron Technologies, Inc.|JMB368 IDE controller"
 0x1982	0x1600	"unknown"	"Distant Early Warning Communications Inc|OX16C954 HOST-A"
 0x1982	0x16ff	"unknown"	"Distant Early Warning Communications Inc|OX16C954 HOST-B"
 0x1989	0x0001	"unknown"	"Montilio Inc.|RapidFile Bridge"
