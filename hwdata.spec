@@ -38,6 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Tue Jul 01 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-8
 - add pcitable mapping for JMicron JMB368 chip
+- drop pcitable mappings for NVidia G84 and G86 cards
 
 * Mi Jun 25 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-7
 - add pcitable mapping for AST2000 card
