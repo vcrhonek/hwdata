@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.219
+Version: 0.220
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -36,6 +36,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Jul 23 2008 Karsten Hopp <karsten@redhat.com> 0.220-1
+- update pci.ids, usb.ids, oui.txt
+- MonitorsDB: add some Samsung monitors (Ronald Warsow)
+- MonitorsDB: add Dell E1609W (Matt Domsch)
+- MonitorsDB: add 7 Dell monitors (Matt Domsch)
+- MonitorsDB: add a bunch of Hyundai and ImageQuest monitors
+
 * Mon Jun 09 2008 Karsten Hopp <karsten@redhat.com> 0.219-1
 - add BenQ FP2091 monitor (Peter Williams)
 - add a bunch of Hyundai and ImageQuest monitors
