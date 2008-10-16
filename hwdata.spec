@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213.6
-Release: 3%{?dist}
+Version: 0.213.7
+Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}-1.tar.gz
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Oct 16 2008 Karsten Hopp <karsten@redhat.com> 0.213.7-1
+- fix release
+
 * Thu Oct 16 2008 Karsten Hopp <karsten@redhat.com> 0.213.6-3
 - update to latest pci.ids, usb.ids
 
