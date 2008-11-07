@@ -4213,6 +4213,10 @@
 	8112  PEX8112 x1 Lane PCI Express-to-PCI Bridge
 	8114  PEX 8114 PCI Express-to-PCI/PCI-X Bridge
 	8311  PEX8311 x1 Lane PCI Express-to-Generic Local Bus Bridge
+		10b5 3352  Alpermann+Velte PCL PCIe HD: Timecode Reader Board
+		10b5 3353  Alpermann+Velte PCL PCIe D: Timecode Reader Board
+		10b5 3354  Alpermann+Velte PCL PCIe LV: Timecode Reader Board
+		10b5 3355  Alpermann+Velte PCL PCIe L: Timecode Reader Board
 	8505  PEX 8505 5-lane, 5-port PCI Express Switch
 	8508  PEX 8508 8-lane, 5-port PCI Express Switch
 	8509  PEX 8509 8-lane, 8-port PCI Express Switch
