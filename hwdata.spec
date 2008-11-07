@@ -1,10 +1,10 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213.5
+Version: 0.213.9
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}.tar.bz2
+Source: hwdata-%{version}-1.tar.gz
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
@@ -36,6 +36,26 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Nov 05 2008 Karsten Hopp <karsten@redhat.com> 0.213.9-1
+- update to latest pci.ids, usb.ids
+- fix missing monitor entries
+- fix wrong ID of Proview 926w monitor
+
+* Wed Nov 05 2008 Karsten Hopp <karsten@redhat.com> 0.213.8-1
+- update to latest pci.ids, usb.ids
+
+* Thu Oct 16 2008 Karsten Hopp <karsten@redhat.com> 0.213.7-1
+- fix release
+
+* Thu Oct 16 2008 Karsten Hopp <karsten@redhat.com> 0.213.6-3
+- update to latest pci.ids, usb.ids
+
+* Fri Sep 12 2008 Karsten Hopp <karsten@redhat.com> 0.213.6-2
+- update to latest pci.ids, usb.ids
+
+* Wed Apr 30 2008 Karsten Hopp <karsten@redhat.com> 0.213.6-1
+- update to latest pci.ids, usb.ids
+
 * Wed Apr 23 2008 Karsten Hopp <karsten@redhat.com> 0.213.5-1
 - update to latest pci.ids, usb.ids
 
@@ -49,6 +69,9 @@ rm -rf $RPM_BUILD_ROOT
 
 * Tue Jan 29 2008 Phil Knirsch <pknirsch@redhat.com> 0.213.1-1
 - Pull new upstream pci.ids
+
+* Tue Jan 15 2008 Karsten Hopp <karsten@redhat.com> 0.213-1
+- add many monitor entries (Im Sza, #367111)
 
 * Fri Jan 11 2008 Karsten Hopp <karsten@redhat.com> 0.212-1
 - pull new upstream pci.ids, usb.ids
