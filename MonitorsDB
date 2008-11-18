@@ -985,7 +985,7 @@ Compaq; Compaq V710 Color Monitor; cpq1382; 30.0-85.0; 50.0-160.0; 1
 Compaq; Compaq V75 Color Monitor; cpq1332; 31.5-69.0; 50.0-100.0; 1
 Compaq; Compaq V900 Color Monitor; cpq1325; 30.0-96.0; 48.0-160.0; 1
 Compaq; Compaq VGA; cvga; 31.5; 50.0-70.0; 1
-Compdyne; Compudyne KD-1500N; 0; 74.8; 30.00-66; 50-90
+Compdyne; Compudyne KD-1500N; 0; 30.00-66; 50-90
 Compeq USA/Focus; Compeq CT-1458; ct-1458; 15.0-48.0; 47.0-100.0; 1
 Compeq USA/Focus; Compeq CT-1958; ct-1958; 15.0-51.0; 47.0-100.0; 1
 Conrac; Conrac 7126; 7126; 15.0-32.0; 48.0-75.0; 1
@@ -1330,7 +1330,7 @@ Dell; Dell E198WFP(Analog); DELF005; 24.0-83.0; 50.0-76.0; 1
 Dell; Dell E198WFP(Digital); DELF006; 24.0-83.0; 50.0-76.0; 1
 Dell; Dell E2009W(Analog); DEL4043; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E2009W(Digital); DEL4044; 30.0-83.0; 56.0-75.0; 1
-Dell; DELL E207WFP; DELD010; 30.0-83.0; 56.0-75.0; 1
+Dell; DeLL E207WFP; DELD010; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E207WFP; DELD011; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E2209W; DELD01F; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E228WFP; DELD015; 30.0-83.0; 56.0-75.0; 1
@@ -1877,14 +1877,14 @@ GoldStar Technology, Inc.; GoldStar 1510; 1510; 30.0-60.0; 50.0-105.0; 1
 GoldStar Technology, Inc.; GoldStar 1620; 1620; 30.0-50.0; 45.0-90.0; 1
 GoldStar Technology, Inc.; GoldStar 1710; 1710; 30.0-60.0; 50.0-105.0; 1
 GoldStar Technology, Inc.; GoldStar 1725; 1725; 30-65; 50-120; 1
-Goldstar; Goldstar LG StudioWorks20i; 0; 30.0-85.0; 50.0-120.0
-Goldstar; Goldstar LG StudioWorks56i; 0; 30.0-60.0; 50.0-110.0
-Goldstar; Goldstar LG StudioWorks56m; 0; 30.0-65.0; 50.0-110.0
-Goldstar; Goldstar LG StudioWorks74m; 0; 30.0-50.0; 50.0-90.0
-Goldstar; Goldstar LG StudioWorks76i; 0; 30.0-65.0; 50.0-110.0
-Goldstar; Goldstar LG StudioWorks76m; 0; 30.0-65.0; 50.0-110.0
-Goldstar; Goldstar LG StudioWorks78i; 0; 30.0-85.0; 50.0-120.0
-Goldstar; Goldstar LG StudioWorks78T; 0; 30.0-85.0; 50.0-120.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks20i; 0; 30.0-85.0; 50.0-120.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks56i; 0; 30.0-60.0; 50.0-110.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks56m; 0; 30.0-65.0; 50.0-110.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks74m; 0; 30.0-50.0; 50.0-90.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks76i; 0; 30.0-65.0; 50.0-110.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks76m; 0; 30.0-65.0; 50.0-110.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks78i; 0; 30.0-85.0; 50.0-120.0
+Goldstar Technology, Inc.; Goldstar LG StudioWorks78T; 0; 30.0-85.0; 50.0-120.0
 Hansol Electronics; Hansol Electronics Mazellan14px; hsl0579; 30.0-54.0; 50.0-120.0; 1
 Hansol Electronics; Hansol Electronics Mazellan15ax; hsl05dd; 30.0-54.0; 50.0-120.0; 1
 Hansol Electronics; Hansol Electronics Mazellan17ax; hsl06a6; 30.0-69.0; 50.0-120.0; 1
