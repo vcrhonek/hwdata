@@ -8,7 +8,8 @@
 # Horiz and vert sync can be a range; like 35.2-55.75; or 31.5,35.5
 # BUT remember to use ';' to separate fields
 #
-# This file has bee sorted with sort -f -t ";" -k1,2
+# This file has been sorted with sort -f -t ";" -k1,2
+# Source URL: http://git.fedorahosted.org/git/hwdata.git
 
 Aamazing; Aamazing CM-8426; cm-8426; 31.0-60.0; 40.0-80.0; 1
 Aamazing; Aamazing MS-8431; ms-8431; 15.0-36.0; 50.0-70.0; 1
