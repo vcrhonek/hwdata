@@ -39,6 +39,11 @@ rm -rf $RPM_BUILD_ROOT
 * Tue Nov 25 2008 Karsten Hopp <karsten@redhat.com> 0.213.9-1
 - update to latest pci.ids, usb.ids
 
+* Wed Nov 05 2008 Karsten Hopp <karsten@redhat.com> 0.213.9-1
+- update to latest pci.ids, usb.ids
+- fix missing monitor entries
+- fix wrong ID of Proview 926w monitor
+
 * Wed Nov 05 2008 Karsten Hopp <karsten@redhat.com> 0.213.8-1
 - update to latest pci.ids, usb.ids
 
@@ -67,6 +72,9 @@ rm -rf $RPM_BUILD_ROOT
 
 * Tue Jan 29 2008 Phil Knirsch <pknirsch@redhat.com> 0.213.1-1
 - Pull new upstream pci.ids
+
+* Tue Jan 15 2008 Karsten Hopp <karsten@redhat.com> 0.213-1
+- add many monitor entries (Im Sza, #367111)
 
 * Fri Jan 11 2008 Karsten Hopp <karsten@redhat.com> 0.212-1
 - pull new upstream pci.ids, usb.ids
