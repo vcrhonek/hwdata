@@ -744,6 +744,7 @@ BenQ; BenQ FP567s ver.2; BNQ7664; 31.5-63.0; 56.0-75.0; 1
 BenQ; BenQ FP581s; BNQ7643; 31.5-60.0; 56.0-75.0; 1
 BenQ; BenQ FP591; BNQ7641; 31.0-60.0; 56.0-75.0; 1
 BenQ; BenQ FP71E; BNQ7683; 31-83.0; 56.0-76.0; 1
+BenQ; BenQ FP71G; BNQ7688; 31-83; 56-76
 BenQ; BenQ FP731; BNQ7659; 31.5-83.0; 60.0-76.0; 1
 BenQ; BenQ FP747; BNQ765A; 31.0-83.0; 56.0-76.0; 1
 BenQ; BenQ FP752-T; BNQ7635; 31.5-83.0; 56.0-76.0; 1
@@ -761,13 +762,16 @@ BenQ; BenQ FP937s; BNQ7685; 31-83.0; 56.0-76.0; 1
 BenQ; BenQ FP951; BNQ7666; 31.0-83.0; 56.0-76.0; 1
 BenQ; BenQ FP991; BNQ7646; 31.0-83.0; 56.0-76.0; 1
 BenQ; BenQ FP992; BNQ7276; 31.0-83.0; 56.0-76.0; 1
+BenQ; BenQ G2400W; BNQ780a; 31-94; 50-85
 BenQ; BenQ P992; BNQ0106; 30.0-98.0; 50.0-160.0; 1
 BenQ; BenQ T720; BNQ7659; 31.5-83.0; 60.0-76.0; 1
 BenQ; BenQ T903; BNQ7680; 31-83.0; 56.0-76.0; 1
 BenQ; BenQ T904; BNQ7681; 31-83.0; 56.0-76.0; 1
 Bridge; Bridge BM17C; brg00ab; 30.0-70.0; 50.0-160.0; 1
+Brother; Brother BM85L; 0; 30.0-64.0; 50.0-100.0; 1
 Bus Computer Systems; Bus Computer Systems Bus_VGA; bus_vga; 31.5-38.0; 50.0-70.0; 1
 Carroll Touch; Carroll Touch CT1381A; ct1381a; 15.7-38.0; 45.0-90.0; 1
+CMC; CMC 17 AD; CMO7801; 30-82; 50-75
 Colorgraphic; Colorgraphic EG2040; eg2040; 20.0-40.0; 40.0-100.0; 1
 Compal; Compal BJ350; CPL9565; 31.5-61.0; 50-90
 Compal; Compal BP350; CPL9566; 24-60; 56-75
@@ -896,6 +900,7 @@ Compaq; Compaq FP17 Flat Panel Monito; cpq145e; 30.0-81.0; 56.0-76.0; 1
 Compaq; Compaq FP5315 Flat Panel Monitor; cpq1459; 30.0-61.0; 56.0-76.0; 1
 Compaq; Compaq FP7317 Flat Panel Monitor; cpq145b; 30.0-81.0; 56.0-76.0; 1
 Compaq; Compaq Internal VGA Panel; ivga; 31.5; 50.0-70.0; 1
+Compaq; Compaq MV920; CPQ3027; 30-96; 50-160
 Compaq; Compaq P110 Color Monitor; cpq1321; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq P1110 Color Monitor; 0; 50.0-160.0; 30.0-121.0; 1
 Compaq; Compaq P1210 Color Monitor; cpq1386; 30.0-121.0; 50.0-160.0; 1
@@ -1019,6 +1024,7 @@ Cornerstone; Cornerstone p1500; crn000f; 31.0-107.0; 50.0-160.0; 1
 Cornerstone; Cornerstone p1600; crn0010; 31.0-117.0; 50.0-160.0; 1
 Cornerstone; Cornerstone p1700; crn0012; 31.0-130.0; 50.0-160.0; 1
 Cornerstone; Cornerstone v300; crn0013; 31.0-93.0; 50.0-160.0; 1
+CTL; CTL 910TF; dwe90a5; 30.0-95.0; 50-160; 1
 CTX; CTX 1451; ctx1451; 30.0-50.0; 45.0-90.0; 1
 CTX; CTX 1451ES; ctx-1451es; 30-50; 50-90; 1
 CTX; CTX 1451GM; ctx-1451gm; 30-50; 50-90; 1
@@ -1035,8 +1041,11 @@ CTX; CTX 1565GM; ctx-1565gm; 30.0-65.0; 50.0-90.0; 1
 CTX; CTX 1569; ctx0150; 30.0-70.0; 50.0-130.0; 1
 CTX; CTX 1765; ctx1765; 30.0-65.0; 45.0-110.0; 1
 CTX; CTX 1765GM; ctx-1765gm; 30.0-65.0; 50.0-100.0; 1
+CTX; CTX 1769UA; 0; 30.0-70.0; 50.0-160.0
 CTX; CTX 1785; ctx1785; 30.0-85.0; 45.0-110.0; 1
 CTX; CTX 1785GM; ctx-1785gm; 30.0-85.0; 50.0-100.0; 1
+CTX; CTX 1792UA; 0; 30.0-95.0; 50.0-160.0
+CTX; CTX 1792UD; 0; 30.0-95.0; 50.0-160.0
 CTX; CTX 19D-Group 107KHz/160Hz Monitor; ctx5100; 30.0-107.0; 50.0-160.0; 1
 CTX; CTX 2085; ctx2085; 30.0-85.0; 45.0-110.0; 1
 CTX; CTX 2185; ctx2185; 30.0-85.0; 45.0-110.0; 1
@@ -1150,6 +1159,20 @@ CTX; CTX VL710 series, EX710 series; ctx3660; 30.0-92.0; 50.0-160.0; 1
 CTX; CTX VL710 series, EX710 series; ctx3661; 30.0-92.0; 50.0-160.0; 1
 CTX; CTX VL950 series, EX950 series, PL9 series; ctx3700; 30.0-95.0; 50.0-160.0; 1
 CTX; CTX VL950 series, EX950 series, PL9 series; ctx3710; 30.0-95.0; 50.0-160.0; 1
+Cybervision; Cybervision C112; CYB3131; 30-95; 50-150; 1
+Cybervision; Cybervision C40; CYB5031; 30-50; 50-90; 1
+Cybervision; Cybervision C50; CYB5331; 30-50; 50-90; 1
+Cybervision; Cybervision C50-2; CYB5434; 30-54; 50-100; 1
+Cybervision; Cybervision C52; CYB5332; 30-70; 50-90; 1
+Cybervision; Cybervision C52-2; CYB5334; 30-70; 50-120; 1
+Cybervision; Cybervision C70; CYB5631; 30-70; 50-90; 1
+Cybervision; Cybervision C70-2; CYB5635; 30-70; 50-120; 1
+Cybervision; Cybervision C72; CYB5632; 30-70; 50-120; 1
+Cybervision; Cybervision C72-2; CYB5637; 30-70; 50-120; 1
+Cybervision; Cybervision C92; CYB5931; 30-85; 50-150; 1
+Cybervision; Cybervision CP21; CYB5032; 30-50; 50-75; 1
+Cybervision; Cybervision CP45; CYB5333; 30-62; 50-75; 1
+Daewoo; Daewin LCD17/HGM; hglec20; 31.5-80.0; 58.0-75.0; 1
 Daewoo; Daewoo 1509B; dwe5093; 30.0-69.0; 50.0-120.0; 1
 Daewoo; Daewoo 1705B; dwe7053; 30.0-69.0; 50.0-120.0; 1
 Daewoo; Daewoo 431X; dwe4312; 30.0-54.0; 50.0-120.0; 1
@@ -1194,9 +1217,14 @@ Daytek; Daytek TM-1554D; oec0504; 30.0-54.0; 50.0-120.0; 1
 Daytek; Daytek TM-1569D; oec020f; 30.0-70.0; 50.0-120.0; 1
 Daytek; Daytek TM-1769D; oec0211; 30.0-70.0; 50.0-120.0; 1
 Daytek; Daytek TM-1770D; oec0707; 30.0-70.0; 50.0-120.0; 1
+Daytek; Vista v19; STC032b; 30.0-95.0; 50.0-160.0
 Dell; Dell 1024i; 0; 35.5; 87.0; 1
 Dell; Dell 1024i-P/1024i-Color; 0; 35.5; 87.0; 1
+Dell; Dell 1024x768 Laptop Display Panel; QDS005; 31.5-48.5; 59.0-75.0; 1
+Dell; Dell 1280x1024 Laptop Display Panel; 0; 31.5-90.0; 59.0-75.0; 1
+Dell; Dell 1280x800 Laptop Display Panel (16/10); 0; 30.0-107.0; 50.0-185.0; 1
 Dell; Dell 1400FP; del8162; 31.0-60.0; 55.0-86.0; 1
+Dell; Dell 1400x1050 Laptop Display Panel; SEC3450; 31.5-90.0; 59.0-75.0; 1
 Dell; Dell 1401FP; delc0ec; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1500FP; del715d; 30.0-61.0; 56.0-75.0; 1
 Dell; Dell 1501FP (Analog); del73a4; 30.0-61.0; 56.0-75.0; 1
@@ -1209,6 +1237,8 @@ Dell; Dell 1505FP (Analog); DEL4006; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell 1505FP (Digital); DEL4007; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell 1569; del1569; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1569; del6915; 30.0-69.0; 50.0-110.0; 1
+Dell; Dell 1600x1200 Laptop Display Panel; 0; 31.5-90.0; 59.0-85.0; 1
+Dell; Dell 1680x1050 Laptop Display Panel (16/10); 0; 30.0-107.0; 50.0-185.0; 1
 Dell; Dell 1700FP; del3092; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP (Analog); del3002; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP (Digital); del3001; 31.0-80.0; 56.0-76.0; 1
@@ -1253,6 +1283,7 @@ Dell; Dell 1908WFP(Analog); DELF007; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell 1908WFP(Digital); DELF008; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell 1909W(Analog); DELA03C; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell 1909W(Digital); DELA03D; 30.0-83.0; 56.0-75.0; 1
+Dell; Dell 1920x1200 Laptop Display Panel (16/10); 0; 30.0-107.0; 50.0-185.0; 1
 Dell; Dell 2000FP (Analog); DELA002; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 2001FP (Analog); DELA007; 31.0-80.0; 56.0-76.0; 1
@@ -1516,6 +1547,7 @@ Eizo Nanao; Eizo F980; enc1603; 30.0-137.0; 50.0-160.0; 1
 Eizo Nanao; Eizo L351; enc1616; 30.0-50.0; 59.0-61.0; 1
 Eizo Nanao; Eizo L371; enc1618; 27.0-61.0; 50.0-75.0; 1
 Eizo Nanao; Eizo L371D; enc1617; 27.0-65.0; 59.0-61.0; 1
+Eizo Nanao; Eizo L557; enc1689; 31-64; 59-61
 Eizo Nanao; Eizo L568; enc1734; 24.0-80.0; 50.0-75.0; 1
 Eizo Nanao; Eizo L568D; enc1733; 31.0-64.0; 59.0-61.0; 1
 Eizo Nanao; Eizo L771; enc1622; 27.0-81.0; 50.0-75.0; 1
@@ -1606,6 +1638,8 @@ Elitegroup Computer Systems; ECS VERTOS 2101; ecs0008; 24.0-90.0; 50.0-100.0; 1
 Elitegroup Computer Systems; ECS VERTOS 2102; ecs0009; 24.0-90.0; 50.0-100.0; 1
 Elsa AG; Elsa Ecomo Office; els4160; 30.0-86.0; 50.0-130.0; 1
 Elsa AG; Elsa GDM-17E40; 135; 29-82; 50-150
+EMC; EMC 787n Flat Panel; EMC0313; 30-80; 50-160; 1
+EMC; EMC EF-836; 0; 31.5,35.5; 50-90
 EMC; EMC SA-560; 0; 30-64; 50-100; 1
 Epson; Epson CG1428I; epson2; 35.5; 56.0-87.0; 1
 Epson; Epson CG1428N; epson3; 48.0; 56.0-87.0; 1
@@ -1717,6 +1751,8 @@ Fujitsu; Fujitsu x177; fuj2218; 30.0-92.0; 50.0-150.0; 1
 Fujitsu; Fujitsu x177a; fuj2318; 30.0-92.0; 50.0-150.0; 1
 Fujitsu; Fujitsu x191; icl2800; 30.0-96.0; 50.0-160.0; 1
 Funai Electric Company of Taiwan; Funai 17GD; fcm3313; 30.0-70.0; 50.0-120.0; 1
+Futura; Futura K7034LD 0; 30.0-95.0; 50.0-160.0; 1
+Futura; Futura K9034LD 0; 30.0-95.0; 50.0-160.0; 1
 Gateway; Gateway 14SVGA; 14svga; 31.5-35.5; 50-90; 1
 Gateway; Gateway AN1_15; gwy07d0; 30-60; 50-100; 1
 Gateway; Gateway CM751; gwy0013; 31-95; 50-160; 1
@@ -1881,8 +1917,11 @@ GoldStar Technology, Inc.; GoldStar LG StudioWorks56m; 0; 30.0-65.0; 50.0-110.0
 GoldStar Technology, Inc.; GoldStar LG StudioWorks74m; 0; 30.0-50.0; 50.0-90.0
 GoldStar Technology, Inc.; GoldStar LG StudioWorks76i; 0; 30.0-65.0; 50.0-110.0
 GoldStar Technology, Inc.; GoldStar LG StudioWorks76m; 0; 30.0-65.0; 50.0-110.0
+GoldStar Technology, Inc.; GoldStar LG StudioWorks77i; 0; 30.0-70.0; 50.0-160.0; 1
 GoldStar Technology, Inc.; GoldStar LG StudioWorks78i; 0; 30.0-85.0; 50.0-120.0
 GoldStar Technology, Inc.; GoldStar LG StudioWorks78T; 0; 30.0-85.0; 50.0-120.0
+Hanns.G; Hanns.G HG216D; HSD1ca3; 30-82; 50-75
+Hanns.G; Hanns.G HW191; HSD8991; 30-80; 49-75
 Hansol Electronics; Hansol Electronics Mazellan14px; hsl0579; 30.0-54.0; 50.0-120.0; 1
 Hansol Electronics; Hansol Electronics Mazellan15ax; hsl05dd; 30.0-54.0; 50.0-120.0; 1
 Hansol Electronics; Hansol Electronics Mazellan17ax; hsl06a6; 30.0-69.0; 50.0-120.0; 1
@@ -1899,7 +1938,7 @@ HCI; HCI Maxiscan; maxiscan; 15.0-35.0; 50.0-70.0; 1
 Hewlett-Packard; HP 1024 LCD Flat Panel 14-inch Display; 0; 32-61; 50-90
 Hewlett-Packard; HP 1024 LE Flat Panel 14-inch Display; 0; 32-54; 50-105
 Hewlett-Packard; HP 1825 Flat Panel Monitor; hwp0721; 30.0-82.0; 56.0-76.0; 1
-Hewlett-Packard; HP 2025 Flat Panel Monitor; hwp144a; 30.0-94.0; 56.0-85.0; 1
+Hewlett-Packard; HP 2025 (P4831) Flat Panel Monitor; hwp144a; 30.0-94.0; 56.0-85.0; 1
 Hewlett-Packard; HP 2025 Flat Panel Monitor (Variant 2); hwp144b; 30.0-92.0; 56.0-85.0; 1
 Hewlett-Packard; HP 5500 Color Monitor; hwp2602; 30.0-54.0; 50.0-120.0; 1
 Hewlett-Packard; HP 7500 Color Monitor; hwp2603; 30.0-70.0; 50.0-140.0; 1
@@ -2034,6 +2073,7 @@ Hewlett-Packard; HP L2335 Flat Panel Monitor; HWP2615; 30.0-107.0; 48.0-85.0; 1
 Hewlett-Packard; HP L2335 LCD Flat Panel Monitor; hwp2615; 30.0-92.0; 48.0-85.0; 1
 Hewlett-Packard; HP LP2065 Flat Panel Monitor; hwp0a72; 30.0-92.0; 48.0-85.0; 1
 Hewlett-Packard; HP LP2465 Flat Panel Monitor; hwp2676; 30.0-92.0; 48.0-85.0; 1
+Hewlett-Packard; HP LP3065 Wide LCD Monitor; HWP2690; 98.0-100.0; 59-60; 1
 Hewlett-Packard; HP M500 15-inch Display; 0; 30-70; 50-120
 Hewlett-Packard; HP M700 17-inch Display; 0; 30-86; 50-160
 Hewlett-Packard; HP M703 Color Monitor; hwp2584; 30.0-70.0; 50.0-140.0; 1
@@ -2042,8 +2082,9 @@ Hewlett-Packard; HP M900 19-inch Display; 0; 31-95; 50-150
 Hewlett-Packard; HP M910 19-inch Display; 0; 29-107; 50-150
 Hewlett-Packard; HP M920 19-inch Display; 0; 29-107; 50-150
 Hewlett-Packard; HP MX703 Color Monitor; hwp2585; 30.0-70.0; 50.0-150.0; 1
-Hewlett-Packard; HP P1130 Color Monitor; hwp12d3; 30.0-130.0; 48.0-170.0; 1
+Hewlett-Packard; HP P1130 (P4819) Color Monitor; hwp12d3; 30.0-130.0; 48.0-170.0; 1
 Hewlett-Packard; HP P1230 Color Monitor; HWP2617; 30.0-140.0; 50.0-160.0; 1
+Hewlett-Packard; HP P4829 L1820 18.1-inch LCD Monitor; hwp12dd; 31-80; 56-75; 1
 Hewlett-Packard; HP P4829J L1820 18.1-inch LCD Monitor; 0; 25-82; 54-88; 1
 Hewlett-Packard; HP P930 Color Monitor; hwp03a2; 30.0-110.0; 50.0-160.0; 1
 Hewlett-Packard; HP Pavilion M45/S40 Monitor; hwp14b2; 31.468-50.0; 56.0-75.0; 1
@@ -2210,8 +2251,12 @@ Hyundai Electronics Industries Co., Ltd.; Hyundai HN/L-4850; hn/l-4850; 30.0-50.
 Hyundai Electronics Industries Co., Ltd.; Hyundai HT-2896B; hei289b; 30-96; 50-150; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HT-7682B/DeluxScan 7687; hei768b; 30-82; 50-120; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai HT-7695B; hei769b; 30.0-95.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai Image Quest B91A; HIQ500a; 31-83; 56-75
+Hyundai Electronics Industries Co., Ltd.; Hyundai Image Quest L70S+; IQT0704; 31-80; 56-75
+Hyundai Electronics Industries Co., Ltd.; Hyundai Image Quest Q17; IQT217a; 31-80; 56-75; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai ImageFlat F790D; heif790; 30.0-96.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai ImageFlat F910; heif910; 30.0-110.0; 50.0-150.0; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai Q320WD D-sub; HIQ500c; 31-83; 56-85
 Hyundai Electronics Industries Co., Ltd.; Hyundai S450; hei0450; 30.0-54.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai S560; hei0560; 30.0-57.0; 50.0-150.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai S570; hei0570; 30.0-70.0; 50.0-150.0; 1
@@ -2358,8 +2403,11 @@ Iiyama; Iiyama A702HT, VisionMaster Pro 410; ivm1740; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A705MT, VisionMaster Pro 411 /i70A; ivm174a; 30.0-86.0; 50.0-180.0; 1
 Iiyama; Iiyama A901HT, VisionMaster Pro 450; ivm1901; 27.0-115.0; 50.0-160.0; 1
 Iiyama; Iiyama A902MT, VisionMaster Pro 451; ivm1918; 30.0-115.0; 50.0-180.0; 1
+Iiyama; Iiyama AS4314UT 17inches; ivm4648; 24.0-80.0; 56.0-75.0; 1
+Iiyama; Iiyama AS4612UT 18inches; ivm4698; 24.0-80.0; 56.0-85.0; 1
 Iiyama; Iiyama DR-3114; dr-3114; 38.0; 43.0-70.0; 1
 Iiyama; Iiyama HM903DT, VisionMaster Pro 454; ivm1942; 30-132; 45-200; 1
+Iiyama; Iiyama LS902U; IVM1938; 30-96; 50-160
 Iiyama; Iiyama MA201D, VisionMaster Pro 511; ivm2150; 30.0-110.0; 50.0-180.0; 1
 Iiyama; Iiyama MA901U, VisionMaster Pro 452; ivm1928; 30.0-96.0; 50.0-180.0; 1
 Iiyama; Iiyama MF-5014A; mf-5014a; 15.5-38.5; 50.0-90.0; 1
@@ -2554,14 +2602,17 @@ Korea Data Systems; KDS Visual Sensations VS-4; kdsab05; 48.3; 60.0; 1
 Korea Data Systems; KDS Visual Sensations VS-4(KD-1452); kds05ac; 28.0-50.0; 40.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-450; STC01FF; 30.0-50.0; 50.0-90.0
 Korea Data Systems; KDS Visual Sensations VS-4D; kds05af; 28.0-55.0; 40.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-4D; kdsaf05; 28.0-55.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-5; kdse605; 28.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-5/VS-51/VSx-5; kds05e6; 30.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-55; kds05f5; 28.0-55.0; 40.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-55; kdsf505; 28.0-55.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-55i/VS-55p; STC01FF; 30.0-58.0; 50.0-120.0
 Korea Data Systems; KDS Visual Sensations VS-7; kdsc206; 30.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-7/VSx-7; kds06c2; 30.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-70/VS-77/VS-7b/VS-7p; STC02CE; 30.0-72.0; 50.0-160.0
 Korea Data Systems; KDS Visual Sensations VS-9; kds06d6; 31.0-95.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-9; kdsd606; 30.0-95.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VSx-5; kdsfa05; 28.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS XFlat XF-70/XF-7b/XF-7e/XF-71/XF-7p; STC0777; 30.0-72.0; 50.0-160.0
 Korea Data Systems; KDS XFlat XF-9b/XF-9c/XF-9e/XF-9p; PTS03E5; 30.0-98.0; 50.0-160.0
@@ -2597,6 +2648,7 @@ LG Electronics Inc.; LG 1460DL; 1460dl; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1461D; 1461d; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1462DM; 1462dm; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1465DL; 1465dl; 48.4; 60.0; 1
+LG Electronics Inc.; LG 1465DLS; 1465dls; 48.4; 60.0; 1
 LG Electronics Inc.; LG 1465DLS/1468; GSM36BA; 30.0-54.0; 50.0-90.0; 1
 LG Electronics Inc.; LG 1466; 1466; 48.4; 60.0; 1
 LG Electronics Inc.; LG 1466DM; 1466dm; 48.4; 60.0; 1
@@ -2698,6 +2750,7 @@ LG Electronics Inc.; LG 78FT; GSM4298; 30.0-85.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 793FT; GSM42EA; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 793FT PLUS; GSM42EB; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 795FT; GSM42DC; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 795FT; gsm42c6; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 795FT PLUS/795FT SUPER; GSM42DD; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 870LE; GSM4657; 30.0-80.0; 56.0-85.0; 1
 LG Electronics Inc.; LG 882LE; GSM4656; 31.0-80.0; 58.0-120.0; 1
@@ -3291,6 +3344,7 @@ LG Electronics Inc.; LG StudioWorks 78T; gsm426d; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 7D; GSM427E; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 7DT; gsm4281; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 880LC; GSM4658; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG StudioWorks 995E; gsm4a4c; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG T530B; GSM3BA8; 30.0-54.0; 50.0-120.0; 1
 LG Electronics Inc.; LG T530S; GSM3BA9; 30.0-54.0; 50.0-120.0; 1
 LG Electronics Inc.; LG T705B; GSM43A2; 30.0-71.0; 50.0-160.0; 1
@@ -3356,10 +3410,12 @@ Lite-On; Lite-On DC150AT; ltn020c; 31.0-61.0; 56.0-85.0; 1
 Lite-On; Lite-On DC150ATA; ltn0208; 31.0-61.0; 56.0-85.0; 1
 Lite-On; Lite-On DP150AT; ltn020b; 31.0-61.0; 56.0-85.0; 1
 Lite-On; Lite-On DR150ATA; ltn0209; 31.0-61.0; 56.0-85.0; 1
+Lite-On; Lite-On H15ANC; ltn021c; 31.5-60.1; 56.3-75.0; 1
 Lite-On; Lite-On L140PTA; ltn0201; 45.0-54.0; 57.0-65.0; 1
 Lite-On; Lite-On L150ATA; ltn0202; 24.0-61.0; 56.0-85.0; 1
 Lite-On; Lite-On L150PTA; ltn0203; 48.0-61.0; 56.0-61.0; 1
 Lite-On; Lite-On P150AT; ltn0207; 24.0-61.0; 56.0-85.0; 1
+Lite-On; Lite-On S1770NSL; ltn1704; 30-70; 50-160; 1
 Logitec; Logitec LCM-15FA; LOG1026; 30.0-69.0; 50.0-120.0
 Logitec; Logitec LCM-15FA2; LOG1040; 30.0-70.0; 50.0-120.0
 Logitec; Logitec LCM-15FA3; LOG1053; 30.0-70.0; 50.0-120.0
@@ -3473,7 +3529,9 @@ Maxdata Computer; Maxdata Belinea 10 30 52; max06b9; 30.0-97.0; 50.0-150.0; 1
 Maxdata Computer; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
 Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
 Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
+MED; MED 2914; MED2914; 30-98; 50-120
 MegaImage; MegaImage 17; 106; 30-64; 50-100
+Megavision; MV173 LCD; ate8506; 31.0-80.0; 58.0-75.0
 Microtec; Microtec MD15-9; PBR023c; 30.0-70.0; 50.0-150.0; 1
 Microvitec, Inc.; Microvitec 1020/LP; 1020lp; 15.0-36.5; 45.0-100.0; 1
 Microvitec, Inc.; Microvitec 1020/SP; 1020sp; 15.0-36.5; 45.0-100.0; 1
@@ -4112,6 +4170,7 @@ Packard Bell; Packard Bell PnP 7480; pbn7483; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 7480 (for Europe 3G); pbn7101; 30.0-70.0; 30.0-122.0; 1
 Packard Bell; Packard Bell PnP 7680; pbn7683; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell Pnp LCD15; pbn5105; 60.0; 75.0; 1
+Panasonic; Panasonic 264a; MEI264a; 30-61; 50-120
 Panasonic; Panasonic C-1591E; 7e_f; 30-69; 50-160; 1
 Panasonic; Panasonic C-1591EA; 7e_e; 30-69; 50-160; 1
 Panasonic; Panasonic C1491; mp2; 30-49; 50-90; 1
@@ -4122,6 +4181,7 @@ Panasonic; Panasonic C2192P; mei1603; 30-82; 50-160; 1
 Panasonic; Panasonic E15; mei2618; 30-61; 50-90; 1
 Panasonic; Panasonic E21; mei1638; 30-89; 50-160; 1
 Panasonic; Panasonic E50; mei2637; 30.0-61.0; 50.0-120.0; 1
+Panasonic; Panasonic E70i; mei2c03; 30.0-70.0; 50.0-180.0; 1
 Panasonic; Panasonic LC40; mei1e02; 24.0-61.0; 50.0-77.0; 1
 Panasonic; Panasonic LC50S (TX-D5L31F); mei1e07; 30.0-61.0; 50.0-77.0; 1
 Panasonic; Panasonic P15; mei2617; 30-69; 50-160; 1
@@ -4244,16 +4304,25 @@ Philips; Philips 105B(15inch/CM1200); phla15b; 30.0-66.0; 50.0-110.0; 1
 Philips; Philips 105S(15inch/CM1300); phl105c; 30.0-54.0; 50.0-110.0; 1
 Philips; Philips 105S(15inch/CM2300); phlb15c; 30.0-60.0; 50.0-120.0; 1
 Philips; Philips 107B(17inch/CM6800); phl6800; 30.0-69.0; 50.0-130.0; 1
+Philips; Philips 107B20(17inch/CM2317); phle003; 30.0-92.0; 50.0-160.0; 1
+Philips; Philips 107E; PHL0004; 30-70; 50-160; 1
 Philips; Philips 107P(17inch); phle002; 30.0-92.0; 50.0-160.0; 1
 Philips; Philips 107S(17inch/CM1300); phla17c; 30.0-69.0; 50.0-120.0; 1
 Philips; Philips 107S(17inch/CM6800); phl107c; 30.0-66.0; 50.0-130.0; 1
 Philips; Philips 109B40; PHLE00E; 30.0-97.0; 50.0-160.0
 Philips; Philips 109S; phl4109; 30.0-95.0; 50.0-160.0; 1
+Philips; Philips 14C(14inch/7CM5209); 0; 31.5,35.2,35.5; 50.0-100.0; 1
+Philips; Philips 14C(14inch/7CM5279); 0; 31.5,35.2,35.5; 50.0-100.0; 1
 Philips; Philips 150C5 (15inch); PHLC00A; 30.0-63.0; 56.0-76.0; 1
+Philips; Philips 150S; PHL0805; 30-61; 56-75; 1024x768
 Philips; Philips 170C5 (17inch); PHLC00B; 30.0-82.0; 56.0-76.0; 1
+Philips; Philips 170X; phlc00f; 30-83; 56-76
 Philips; Philips 17ACM38; phl3800; 30-82; 50-160; 1
 Philips; Philips 17BCM28; phl2800; 30-66; 50-130; 1
 Philips; Philips 17TCM26; phl2600; 30-66; 50-100; 1
+Philips; Philips 180B2; PHL0810; 30-82; 56-76
+Philips; Philips 190C; PHL0849; 30-83; 56-76
+Philips; Philips 190S; PHL082f; 30-83; 56-76
 Philips; Philips 200T(20inch/CM0700); phl200d; 30.0-90.0; 50.0-160.0; 1
 Philips; Philips 201B(21inch/CM0770); phl201b; 30.0-94.0; 48.0-160.0; 1
 Philips; Philips 20CM64; 20cm64; 30.0-64.0; 50.0-90.0; 1
@@ -4326,6 +4395,7 @@ Princeton; Princeton DPP800; pgs00eb; 45.1; 42.7; 1
 Princeton; Princeton DPP810; pgs0165; 45.1; 42.7; 1
 Princeton; Princeton EO14; pgs003a; 48.0; 50.0-120.0; 1
 Princeton; Princeton EO15; pgs003b; 30.0-70.0; 50.0-120.0; 1
+Princeton; Princeton EO17; kds06c2; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO17; pgs003d; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO2000; pgs00f6; 30.0-115.0; 50.0-160.0; 1
 Princeton; Princeton EO2010; pgs00ce; 30.0-117.0; 50.0-160.0; 1
@@ -4392,6 +4462,8 @@ Princeton; Princeton Ultra-1200; max-15; 15.0-38.0; 45.0-120.0; 1
 Princeton; Princeton Ultra-1400; ultra-1400; 15.0-38.0; 45.0-120.0; 1
 Princeton; Princeton Ultra-1600; ultra-1600; 15.0-38.0; 45.0-120.0; 1
 Princeton; Princeton Ultra-2000; ultra-2000; 45.0-68.0; 50.0-150.0; 1
+Princeton; Princeton VL173 Flat Panel; pgs4902; 31-75; 56-75; 1
+Princeton; Princeton VL1916 19inch LCD Display; 0; 24-83; 55-76; 1
 Princeton; W74; pgs00e5; 30.0-70.0; 50.0-160.0; 1
 Princeton; W74n; pgs00fb; 30.0-70.0; 55.0-160.0; 1
 Proview; Proview 2072; PTS0000; 30.0-93.0; 60.0-85.0; 1
@@ -4401,10 +4473,14 @@ Proview; Proview 570; pts023a; 30.0-70.0; 50.0-150.0; 1
 Proview; Proview 576w; PTS05DF; 30.0-50.0; 60.0-70.0; 1
 Proview; Proview 713/716; PTS06A5; 30.0-80.0; 60.0-75.0; 1
 Proview; Proview 770; pts0302; 30.0-76.0; 50.0-150.0; 1
+Proview; Proview 775N; PTS0304; 30-75; 50-160; 1"
+Proview; Proview 786N; 0; 30.0-70.0; 50.0-160.0; 1
 Proview; Proview 860; pts035c; 30.0-54.0; 50.0-150.0; 1
 Proview; Proview 913/916; PTS076D; 30.0-80.0; 60.0-75.0; 1
 Proview; Proview 926w; PTS077D; 31.0-94.0; 60.0-75.0; 1
 Proview; Proview 996N; pts025c; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview CY965; PTS03c5; 30-80; 60-75
+QDS; QDS 0014; QDS0014; 48-50; 57-62; 1280x800
 Quantex; Quantex TE1564M - Super View 1280; 75; 30-64; 50-100
 Qume; Qume QM835; qm835; 30.0-36.5; 50.0-90.0; 1
 Radius; Radius PrecisionColor Display/19; pcd19; 30.0-67.0; 72; 1
@@ -4526,12 +4602,14 @@ Samsung; Samsung SyncMaster 1100DF/2100DF/CD210C; SAM006D; 30-121; 50-160; 1
 Samsung; Samsung SyncMaster 1100p/1109p/CM219C; SAM0051; 30-115; 50-160; 1
 Samsung; Samsung SyncMaster 1200NF/2200NF/CPN22NF; SAM38D2; 30-121; 50-185; 1
 Samsung; Samsung SyncMaster 14GL; sam14gl; 30-62; 50-100; 1
+Samsung; Samsung SyncMaster 14GL; samsungsm14gl; 30-62; 50-100; 1
 Samsung; Samsung SyncMaster 150N/152N/153N; SAM00A4; 30-61; 56-75; 1
 Samsung; Samsung SyncMaster 151MP/155MP/RB1500MP; SAM0004; 31-70; 50-85; 1
 Samsung; Samsung SyncMaster 152MP/156MP/CX510MP/CX500MB; SAM00A8; 30-71; 56-75; 1
 Samsung; Samsung SyncMaster 153T; SAM00CD; 30-61; 56-75; 1
 Samsung; Samsung SyncMaster 153V/153S/153B; SAM00A2; 30-61; 56-75; 1
 Samsung; Samsung SyncMaster 15GL; sam15gl; 30-62; 50-100; 1
+Samsung; Samsung SyncMaster 15GL; samsungsm15gl; 30-62; 50-100; 1
 Samsung; Samsung SyncMaster 15GLe; sam4d50; 30-50; 50-120; 1
 Samsung; Samsung SyncMaster 15GLe; sam6d20; 30-50; 50-120; 1
 Samsung; Samsung SyncMaster 15GLi; sam4d51; 30-65; 50-120; 1
@@ -4540,6 +4618,7 @@ Samsung; Samsung SyncMaster 15Me; sam5450; 30.0-50.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 171MP/175MP/RB1700MP; SAM000A; 31-80; 50-85; 1
 Samsung; Samsung SyncMaster 171N/175N/171Np/171Nm/CX174N/CX171N/MX174N; SAM006B; 30-81; 56-76; 1
 Samsung; Samsung SyncMaster 171S/175S/170S/CX175S-AZ/LX175S; SAM001B; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 171v; samsungsm171v; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 172MP/176MP/CX710MP/CX700MB; SAM00A7; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 172T/176T/CX176T/CX171T (Analog); SAM006E; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 172T/176T/CX176T/CX171T (Digital); SAM006F; 30-81; 56-75; 1
@@ -4551,12 +4630,15 @@ Samsung; Samsung SyncMaster 173T/177T/CX700T/CX710T; SAM00BA; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 173V/172V/173S/173B/174V/175V; SAM00A3; 30-81; 56-76; 1
 Samsung; Samsung SyncMaster 177MP/710MP/CX711MP/CX710MP; SAM00D2; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 17GL; sam17gl; 30-65; 50-100; 1
+Samsung; Samsung SyncMaster 17GL; samsungsm17gl; 30-65; 50-100; 1
 Samsung; Samsung SyncMaster 17GLi; sam4d70; 30-65; 50-120; 1
 Samsung; Samsung SyncMaster 17GLs; sam17gls; 30-82; 50-120; 1
+Samsung; Samsung SyncMaster 17GLs; samsungsm17gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 17GLsi; sam4d71; 30-85; 50-120; 1
+Samsung; Samsung SyncMaster 181T; sam0020; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 190N(M)/192N(M)/193N(M); SAM00A6; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 191+/191Tplus/193T/197T/CX900T; SAM00BB; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 191TFT; sam0014; 30.0-81.0; 56.0-85.0 ; 1
-Samsung; Samsung SyncMaster 191Tplus/193T/197T/CX900T; SAM00BB; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 192MPplus/930MP (Analog); SAM015B; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 192MPplus/930MP (Digital); SAM015C; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 192T/196T/CX910T(M); SAM00B6; 30-81; 56-75; 1
@@ -4564,6 +4646,8 @@ Samsung; Samsung SyncMaster 193P/CX910P (Analog); SAM00EC; 30-81; 56-75
 Samsung; Samsung SyncMaster 193P/CX910P (Digital); SAM00ED; 30-81; 56-75
 Samsung; Samsung SyncMaster 198T/910T/CX901T (Analog); SAM010E; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 198T/910T/CX901T (Digital); SAM010F; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 2032BW(Analog); SAM0301; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 2032BW(Digital); SAM0302; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 2043BW/2043BWX,SyncMaster Magic CX2043BW(Analog); SAM0351; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 2043BW/2043BWX,SyncMaster Magic CX2043BW(Digital); SAM0352; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 204T/204Ts/214T,SyncMaster Magic CX201Ts(Analog); SAM01AD; 30-81; 56-75; 1
@@ -4573,6 +4657,7 @@ Samsung; Samsung SyncMaster 205BW (Digital); SAM021E; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 206BW (Analog); SAM027C; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 206BW (Digital); SAM027D; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 20gls; sam20gls; 30-82; 50-120; 1
+Samsung; Samsung SyncMaster 20gls; samsungsm20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 20GLsi; sam4690; 30.0-82.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 210T/LXA210T (Analog); SAM4251; 30-93; 50-85; 1
 Samsung; Samsung SyncMaster 210T/LXA210T (Digital); SAM4252; 30-81; 50-85; 1
@@ -4585,6 +4670,7 @@ Samsung; Samsung SyncMaster 2243BW/2243BWX,SyncMaster Magic CX2243BW(Analog); SA
 Samsung; Samsung SyncMaster 2243BW/2243BWX,SyncMaster Magic CX2243BW(Digital); SAM0373; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 225BW (Analog); SAM0254; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 225BW (Digital); SAM0255; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 226; SAM0226; 30-81; 56-75
 Samsung; Samsung SyncMaster 226BW (Analog); SAM027E; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 226BW (Digital); SAM027F; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 240T (Analog); SAM4254; 30-93; 50-85; 1
@@ -4594,15 +4680,18 @@ Samsung; Samsung SyncMaster 243T/CX240T (Analog); SAM00D9; 30-80; 55-75; 1
 Samsung; Samsung SyncMaster 243T/CX240T (Digital); SAM00F7; 30-80; 55-75; 1
 Samsung; Samsung SyncMaster 2443BWX; SAM043F; 30-81; 56-60; 1
 Samsung; Samsung SyncMaster 3; sam3; 35.5; 43.5; 1
+Samsung; Samsung SyncMaster 3; samsungsm3; 35.5; 43.5; 1
 Samsung; Samsung SyncMaster 320TFT (LXB310*); sam6053; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 330/331TFT (LXB350*); sam6054; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 3NE; sam3ne; 48.4; 60.0; 1
+Samsung; Samsung SyncMaster 3NE; samsungsm3ne; 48.4; 60.0; 1
 Samsung; Samsung SyncMaster 3Ne; sam0000; 31.5-48.0; 43.5-75.0; 1
 Samsung; Samsung SyncMaster 400b (CKA4217*); sam2c34; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 410b(CHA4217*); sam2033; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 450(N)b; sam1033; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 470S TFT; sam49d4; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 4NE; sam4ne; 30-50; 50-100; 1
+Samsung; Samsung SyncMaster 4NE; samsungsm4ne; 30-50; 50-100; 1
 Samsung; Samsung SyncMaster 4S; sam0100; 31.5-48.4; 43.5-75.0; 1
 Samsung; Samsung SyncMaster 500(M)p (CGC5607*); sam1c73; 30-69; 50-160; 1
 Samsung; Samsung SyncMaster 500(M)s (CGK5507*); sam1d73; 30-54; 50-120; 1
@@ -4642,6 +4731,7 @@ Samsung; Samsung SyncMaster 711N/712N; SAM0124; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 712V/713V/710S/715V; SAM0125; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 730B (Analog); SAM0191; 30-81; 56-75
 Samsung; Samsung SyncMaster 730B (Digital); SAM0192; 30-81; 56-75
+Samsung; Samsung SyncMaster 731B/731BF/731BA/730BA; SAM0215; 30-81; 56-75
 Samsung; Samsung SyncMaster 750(M)b; sam1059; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 750(M)s(T); sam1057; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 750s(T); SAM12B6; 30-70; 50-160; 1
@@ -4650,6 +4740,7 @@ Samsung; Samsung SyncMaster 755DF(X)/705DF(X)/CDP17BDF(U)(UP); SAM1156; 30-85; 5
 Samsung; Samsung SyncMaster 755DFG/740DFG/CTT17DFG; SAM0009; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 757DF(X)/707DF(X)/700IFT/CD177A(P); SAM0029; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 757MB/717MB/CD177D(P); SAM0059; 30-96; 50-160; 1
+Samsung; Samsung SyncMaster 757NF; SAM002a; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 763MB/713MB/CD173D(P); SAM0045; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 765MB/715MB/CD175D(P); SAM0048; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 770 TFT; SAM12D7; 30-81; 56-76; 1
@@ -4666,6 +4757,7 @@ Samsung; Samsung SyncMaster 900NF; sam38d9; 30-110; 50-160; 1
 Samsung; Samsung SyncMaster 900p (CSH9839*); sam4f26; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 900SL (CSM92*); sam4db9; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 905DF(X)/955DF(X)/CD195A; SAM002D; 30-85; 50-160; 1
+Samsung; Samsung SyncMaster 906BW; SAM0273; 30-81; 56-75
 Samsung; Samsung SyncMaster 910MP; SAM0187; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 910N/912N; SAM011F; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 910V/910M/913V; SAM0115; 30-81; 56-75
@@ -4718,6 +4810,7 @@ Siemens Nixdorf; Siemens Nixdorf MCM1402; siemens1; 30-64; 50-100; 1
 Siemens Nixdorf; Siemens Nixdorf MCM1503; siemens2; 30-64; 50-100; 1
 Siemens Nixdorf; Siemens Nixdorf MCM1702; siemens3; 30-82; 50-150; 1
 Siemens Nixdorf; Siemens Nixdorf MCM2102; siemens4; 30-82; 50-160; 1
+Sliding Unika; Sliding S 2201 LCD 16/9 22inch; 0; 31-80; 50-75; 1
 Smile; Smile 85Khz Monitor; sml6738; 30.0-86.0; 50.0-150.0; 1
 Smile; Smile CA6425DL/CB6425DL; sml6425; 30.0-54.0; 50.0-100.0; 1
 Smile; Smile CA6525DL/CB6525DL; sml6525; 30.0-54.0; 50.0-100.0; 1
@@ -4885,12 +4978,14 @@ Sony; Sony SDM-X82 (Digital); SNY0780; 28.0-63.0; 57.0-63.0; 1
 Sony; Sony SDM-X93 (Analog); SNY1290; 28.0-65.0; 57.0-75.0; 1
 Sony; Sony SDM-X93 (Digital); SNY1690; 28.0-65.0; 57.0-63.0; 1
 Sony; Sony VMU-1000; sny07a0; 30.0-86.0; 48.0-150.0; 1
+Sun; Sun 16-inch 574; sun0574; 30.0-70.0; 50.0-90.0; 1
 Sun; Sun 17-inch 447Z; 100; 31.0-72.0; 50.0-120.0
 Sun; Sun 17-inch CHB7727L (Samsung); 0; 30.0-72.0; 50.0-160.0; 1
 Sun; Sun 18-inch Flat Panel Display; sun0004; 64.0-81.0; 60.0-76.0; 1
 Sun; Sun 21-inch N3; 0; 30.0-96.0; 48.0-160.0
 Sun; Sun 24-inch; 0; 30.0-96.0; 50.0-160.0
 Sunshine; Sunshine DM-8 CM-1433H; 0; 31.5-35.1; 55.0-66.0
+Sylvania; Sylvania F74; syl00f4; 30.0-70.0; 55.0-120.0; 1
 Talon; Talon Tuff/CRT; tuffcrt; 15.0-35.0; 47.0-73.0; 1
 Tandberg; Tandberg ErgoScan 21c; 0; 30.0-95.0; 50.0-160.0
 Targa; TARGA TM 1710 D; 0; 30-65; 50-90
@@ -4904,9 +4999,11 @@ Tatung; Intelliscan TM671x series; tat1f67; 31.0-65.0; 50.0-110.0; 1
 Tatung; Tatung C4A; c4a; 31.5-48.4; 50.0-90.0; 1
 Tatung; Tatung C4D; c4d; 31.5-54.0; 50.0-90.0; 1
 Tatung; Tatung C4E; c4e; 31.5-54.0; 50.0-90.0; 1
+Tatung; Tatung C5D; c5d; 31.5-56.5; 50.0-90.0; 1
 Tatung; Tatung C5D; tat3044; 30.0-54.0; 50.0-100.0; 1
 Tatung; Tatung C5E; c5e; 31.5-56.5; 50.0-90.0; 1
 Tatung; Tatung C5V; c5v; 30.0-70.0; 50.0-100.0; 1
+Tatung; Tatung C7BZR; tat3742; 30.0-70.0; 50.0-100.0; 1
 Tatung; Tatung C7G; c7g; 30.0-70.0; 50.0-100.0; 1
 Tatung; Tatung CM-1492V; cm-1492v; 31.5; 50.0-70.0; 1
 Tatung; Tatung CM-1495G; cm-1495g; 15.0-37.0; 40.0-120.0; 1
@@ -5166,6 +5263,7 @@ ViewSonic; ViewSonic G810-4; vsc5151; 30-97; 50-180; 1
 ViewSonic; ViewSonic G810-6; VSCC308; 30-97; 50-180
 ViewSonic; ViewSonic G90f+; VSC3513; 30-110; 50-160
 ViewSonic; ViewSonic G90f-2; VSC8A06; 30-97; 50-180
+ViewSonic; ViewSonic G90fB; 0; 30-97; 50-160; 1
 ViewSonic; ViewSonic G90fb-2; VSC4907; 30-97; 50-180
 ViewSonic; ViewSonic GA655; vsc4145; 30-70; 50-180; 1
 ViewSonic; ViewSonic GA771; vsc514a; 30-70; 50-180; 1
@@ -5362,6 +5460,7 @@ ViewSonic; ViewSonic VPD150; vsc4b47; 48; 60; 1
 ViewSonic; ViewSonic VPD180; vsc4b49; 64; 60; 1
 ViewSonic; ViewSonic VT550; VSCB711; 30-62; 50-75
 ViewSonic; ViewSonic VX2000; VSC4208; 30-82; 50-85
+ViewSonic; ViewSonic VX2025wm; 0; 30-82; 50-75
 ViewSonic; ViewSonic VX500+; VSCF008; 30-62; 50-75
 ViewSonic; ViewSonic VX500-2; VSCCB0F; 30-80; 50-75
 ViewSonic; ViewSonic VX700; VSC6206; 24-82; 56-85
