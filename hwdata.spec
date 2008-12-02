@@ -37,6 +37,20 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue Dec 02 2008 Karsten Hopp <karsten@redhat.com> 0.220-1
+- add new monitor entries from Mandriva hardware database (Thierry Vignaud)
+- make generic entries have properly formated frequencies (Thierry Vignaud)
+- remove duplicate Dell monitor entries (Thierry Vignaud)
+- more vendor name fixes
+- fix extra field in 'Compudyne KD-1500N' definition (Thierry Vignaud)
+- make Dell monitors case consistent (Thierry Vignaud)
+- make all GoldStar monitors have the same vendor name (Thierry Vignaud)
+- add URL of git repository
+- fix spacing (Thierry Vignaud)
+- sort MonitorDB file with LANG=C sort -f -t ";" -k1,2
+- add Samsung SyncMaster 2443BWX (Marc van den Dikkenberg)
+- add some Lenovo monitors (Im Sza)
+
 * Wed Jul 23 2008 Karsten Hopp <karsten@redhat.com> 0.220-1
 - update pci.ids, usb.ids, oui.txt
 - MonitorsDB: add some Samsung monitors (Ronald Warsow)
