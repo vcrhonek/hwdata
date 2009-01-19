@@ -13537,63 +13537,63 @@ L 0060  Kashmiri
 L 0061  Nepali
 	02  India
 
-# HID Descriptor bCountryCode
-# HID Specification 1.11 (2001-06-27) page 23
+# # HID Descriptor bCountryCode
+# # HID Specification 1.11 (2001-06-27) page 23
 #
-# Syntax:
-# HCC country_code keymap_type
-
-HCC 00  Not supported
-HCC 01  Arabic
-HCC 02  Belgian
-HCC 03  Canadian-Bilingual
-HCC 04  Canadian-French
-HCC 05  Czech Republic
-HCC 06  Danish
-HCC 07  Finnish
-HCC 08  French
-HCC 09  German
-HCC 10  Greek
-HCC 11  Hebrew
-HCC 12  Hungary
-HCC 13  International (ISO)
-HCC 14  Italian
-HCC 15  Japan (Katakana)
-HCC 16  Korean
-HCC 17  Latin American
-HCC 18  Netherlands/Dutch
-HCC 19  Norwegian
-HCC 20  Persian (Farsi)
-HCC 21  Poland
-HCC 22  Portuguese
-HCC 23  Russia
-HCC 24  Slovakia
-HCC 25  Spanish
-HCC 26  Swedish
-HCC 27  Swiss/French
-HCC 28  Swiss/German
-HCC 29  Switzerland
-HCC 30  Taiwan
-HCC 31  Turkish-Q
-HCC 32  UK
-HCC 33  US
-HCC 34  Yugoslavia
-HCC 35  Turkish-F
-
-# List of Video Class Terminal Types
-
-# Syntax:
-# VT terminal_type  terminal_type_name
-
-VT 0100  USB Vendor Specific
-VT 0101  USB Streaming
-VT 0200  Input Vendor Specific
-VT 0201  Camera Sensor
-VT 0202  Sequential Media
-VT 0300  Output Vendor Specific
-VT 0301  Generic Display
-VT 0302  Sequential Media
-VT 0400  External Vendor Specific
-VT 0401  Composite Video
-VT 0402  S-Video
-VT 0403  Component Video
+# # Syntax:
+# # HCC country_code keymap_type
+#
+# HCC 00  Not supported
+# HCC 01  Arabic
+# HCC 02  Belgian
+# HCC 03  Canadian-Bilingual
+# HCC 04  Canadian-French
+# HCC 05  Czech Republic
+# HCC 06  Danish
+# HCC 07  Finnish
+# HCC 08  French
+# HCC 09  German
+# HCC 10  Greek
+# HCC 11  Hebrew
+# HCC 12  Hungary
+# HCC 13  International (ISO)
+# HCC 14  Italian
+# HCC 15  Japan (Katakana)
+# HCC 16  Korean
+# HCC 17  Latin American
+# HCC 18  Netherlands/Dutch
+# HCC 19  Norwegian
+# HCC 20  Persian (Farsi)
+# HCC 21  Poland
+# HCC 22  Portuguese
+# HCC 23  Russia
+# HCC 24  Slovakia
+# HCC 25  Spanish
+# HCC 26  Swedish
+# HCC 27  Swiss/French
+# HCC 28  Swiss/German
+# HCC 29  Switzerland
+# HCC 30  Taiwan
+# HCC 31  Turkish-Q
+# HCC 32  UK
+# HCC 33  US
+# HCC 34  Yugoslavia
+# HCC 35  Turkish-F
+# 
+# # List of Video Class Terminal Types
+# 
+# # Syntax:
+# # VT terminal_type  terminal_type_name
+# 
+# VT 0100  USB Vendor Specific
+# VT 0101  USB Streaming
+# VT 0200  Input Vendor Specific
+# VT 0201  Camera Sensor
+# VT 0202  Sequential Media
+# VT 0300  Output Vendor Specific
+# VT 0301  Generic Display
+# VT 0302  Sequential Media
+# VT 0400  External Vendor Specific
+# VT 0401  Composite Video
+# VT 0402  S-Video
+# VT 0403  Component Video
