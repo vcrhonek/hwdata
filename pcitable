@@ -6925,7 +6925,7 @@
 0x8086	0x5024	"unknown"	"Intel Corporation|Tolapai PCI Express Port PEA0"
 0x8086	0x5025	"unknown"	"Intel Corporation|Tolapai PCI Express Port PEA1"
 0x8086	0x5028	"unknown"	"Intel Corporation|Tolapai S-ATA IDE"
-0x8086	0x5029	"unknown"	"Intel Corporation|Tolapai S-ATA AHCI"
+0x8086	0x5029	"ahci"	"Intel Corporation|Tolapai S-ATA AHCI"
 0x8086	0x502a	"ahci"	"Intel Corporation|Tolapai S-ATA RAID0/1"
 0x8086	0x502b	"ahci"	"Intel Corporation|Tolapai S-ATA Reserved"
 0x8086	0x502c	"unknown"	"Intel Corporation|Tolapai System Device"

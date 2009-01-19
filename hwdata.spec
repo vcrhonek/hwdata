@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.146.33.EL
-Release: 8
+Release: 11
 License: GPL/MIT
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.gz
@@ -36,6 +36,15 @@ rm -rf $RPM_BUILD_ROOT
 /usr/X11R6/lib/X11/Cards
 
 %changelog
+* Thu Jul 03 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-11
+- add another SATA pcitable mapping
+
+* Wed Jul 02 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-10
+- fix Proview 926w ID
+
+* Wed Jul 02 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-9
+- update pci.ids usb.ids
+
 * Tue Jul 01 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-8
 - add pcitable mapping for JMicron JMB368 chip
 - drop pcitable mappings for NVidia G84 and G86 cards

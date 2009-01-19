@@ -7,7 +7,7 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# $Id: usb.ids,v 1.361 2008/06/20 12:39:54 gowdy Exp $
+# $Id: usb.ids,v 1.364 2008/07/01 20:02:02 gowdy Exp $
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -48,6 +48,7 @@
 	2022  at90usbkey sample firmware (composite device)
 	2103  JTAG ICE mkII
 	2104  AVR ISP mkII
+	2106  STK600 development board
 	2107  AVR Dragon
 	2ffb  at90usb AVR DFU bootloader
 	2ffd  at89c5130/c5131 DFU bootloader
@@ -151,6 +152,7 @@
 	0a01  ScanJet 2400c
 	0a17  color LaserJet 3700
 	0b01  Scanjet 82x0C
+	0b0c  Wireless Keyboard and Optical Mouse
 	0b17  Laserjet 2300d
 	0c17  LaserJet 1010
 	0c24  Bluetooth Dongle
@@ -1913,6 +1915,7 @@
 	c03e  Premium Optical Wheel Mouse
 	c03f  UltraX Optical Mouse
 	c040  Corded Tilt-Wheel Mouse
+	c041  G5 Laser Mouse
 	c043  MX320 Laser Mouse
 	c044  LX3 Optical Mouse
 	c045  Optical Mouse
@@ -8299,6 +8302,8 @@
 0b87  Plus-One I & T, Inc.
 0b88  Sigma Koki Co., Ltd, Technology Center
 0b89  Advanced Digital Broadcast, Ltd
+0b8c  SMART Technologies Inc.
+	00c3  Sympodium ID350
 0b95  ASIX Electronics Corp.
 	1720  10/100 Ethernet
 	1780  AX88178
@@ -9669,6 +9674,7 @@
 	db01  FusionHDTV DVB-T (MT352+LgZ201) (initialized)
 	db10  FusionHDTV DVB-T (MT352+Thomson7579) (uninitialized)
 	db11  FusionHDTV DVB-T (MT352+Thomson7579) (initialized)
+	db78  FusionHDTV DVB-T Dual Digital 4 (ZL10353+xc2028/xc3028) (initialized)
 0fea  United Computer Accessories
 0feb  CRS Electronic Co., Ltd
 0fec  UMC Electronics Co., Ltd
@@ -10428,6 +10434,8 @@
 	0007  DeathAdder Mouse
 	0102  Tarantula Keyboard
 1546  U-Blox AG
+154a  Celectronic GmbH
+	8180  CARD STAR/medic2
 154b  PNY
 	0010  USB 2.0 Flash Drive
 154d  ConnectCounty Holdings Berhad
@@ -10648,6 +10656,8 @@
 	2001  Beagle USB 12 Protocol Analyzer
 1682  Maxwise Production Enterprise Ltd.
 1684  Godspeed Computer Corp.
+1685  Delock
+	0200  Infrared adapter
 1686  ZOOM Corporation
 	0045  H4 Digital Recorder
 1687  Kingmax Digital Inc.
@@ -10795,6 +10805,8 @@
 18d5  Starline International Group Limited
 18d9  Kaba
 	01xy  LEGIC advant desktop reader
+18dd  Planon System Solutions Inc.
+	1000  DocuPen RC800
 18e3  Fitipower Integrated Technology Inc
 18e8  Qcom
 	6196  RT2573
@@ -10860,6 +10872,8 @@
 1a36  Biwin Technology Ltd.
 1a40  TERMINUS TECHNOLOGY INC.
 1a41  Action Electronics Co., Ltd.
+1a44  VASCO Data Security International
+	0001  Digipass 905 SmartCard Reader
 1a4a  Silicon Image
 1a4b  SafeBoot International B.V.
 1a61  Abbott Diabetes Care

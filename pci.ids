@@ -11,7 +11,7 @@
 #	This file can be distributed under either the GNU General Public License
 #	(version 2 or higher) or the 3-clause BSD License.
 #
-#	Daily snapshot on Tue 2008-06-24 01:05:02
+#	Daily snapshot on Wed 2008-07-02 01:05:01
 #
 
 # Vendors, devices and subsystems. Please keep sorted.
@@ -12469,6 +12469,7 @@
 		8086 1051  EtherExpress PRO/100 Server Adapter
 		8086 1052  EtherExpress PRO/100 Server Adapter
 		8086 10f0  EtherExpress PRO/100+ Dual Port Adapter
+		8086 1229  82557/8/9 [Ethernet Pro 100]
 		8086 2009  EtherExpress PRO/100 S Mobile Adapter
 		8086 200d  EtherExpress PRO/100 Cardbus
 		8086 200e  EtherExpress PRO/100 LAN+V90 Cardbus Modem
@@ -13694,7 +13695,7 @@
 		17aa 2010  ThinkPad T60/R60 series
 		17aa 3802  Lenovo 3000 C200 audio [Realtek ALC861VD]
 		8086 1112  DeskTop Board D945GTP
-		8086 27d8  Lenovo 3000 N100 Audio (Intel HDA)
+		8086 27d8  DeskTop Board D945GTP
 		a102 1458  DeskTop Board Gigabyte GA-8I945PG-RH
 	27da  82801G (ICH7 Family) SMBus Controller
 		1025 006c  9814 WKMI
@@ -13731,6 +13732,7 @@
 	2812  82801HH (ICH8DH) LPC Interface Controller
 	2814  82801HO (ICH8DO) LPC Interface Controller
 	2815  82801HEM (ICH8M) LPC Interface Controller
+		1025 0121  Aspire 5920G
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
 		103c 30d9  Presario C700
@@ -13749,6 +13751,7 @@
 		1028 01f3  Inspiron 1420
 		e4bf cc47  CCG-RUMBA
 	2829  82801HBM/HEM (ICH8M/ICH8M-E) SATA AHCI Controller
+		1025 0121  Aspire 5920G
 		103c 30c0  Compaq 6710b
 		103c 30c1  Compaq 6910p
 		103c 30d9  Presario C700
@@ -13756,6 +13759,7 @@
 		17aa 20a7  ThinkPad T61
 	282a  Mobile 82801 SATA RAID Controller
 	2830  82801H (ICH8 Family) USB UHCI Controller #1
+		1025 0121  Acer Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
@@ -13767,6 +13771,7 @@
 		17aa 20aa  ThinkPad T61
 		e4bf cc47  CCG-RUMBA
 	2831  82801H (ICH8 Family) USB UHCI Controller #2
+		1025 0121  Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
@@ -13779,6 +13784,7 @@
 		17aa 20aa  ThinkPad T61
 		e4bf cc47  CCG-RUMBA
 	2832  82801H (ICH8 Family) USB UHCI Controller #3
+		1025 0121  Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
@@ -13789,6 +13795,7 @@
 		17aa 20aa  ThinkPad T61
 		e4bf cc47  CCG-RUMBA
 	2834  82801H (ICH8 Family) USB UHCI Controller #4
+		1025 0121  Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
@@ -13799,6 +13806,7 @@
 		17aa 20aa  ThinkPad T61
 		e4bf cc47  CCG-RUMBA
 	2835  82801H (ICH8 Family) USB UHCI Controller #5
+		1025 0121  Acer Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
@@ -13808,6 +13816,7 @@
 		17aa 20aa  ThinkPad T60
 		e4bf cc47  CCG-RUMBA
 	2836  82801H (ICH8 Family) USB2 EHCI Controller #1
+		1025 0121  Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
@@ -13819,6 +13828,7 @@
 		17aa 20ab  ThinkPad T61
 		e4bf cc47  CCG-RUMBA
 	283a  82801H (ICH8 Family) USB2 EHCI Controller #2
+		1025 0121  Acer Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
@@ -13828,6 +13838,7 @@
 		17aa 20ab  ThinkPad T61
 		e4bf cc47  CCG-RUMBA
 	283e  82801H (ICH8 Family) SMBus Controller
+		1025 0121  Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		103c 30d9  Presario C700
@@ -13850,6 +13861,7 @@
 	284b  82801H (ICH8 Family) HD Audio Controller
 		0690 107b  Gateway P-6825
 		1025 011f  Realtek ALC268 audio codec
+		1025 0121  Aspire 5920G
 		1028 01da  OptiPlex 745
 		1028 01f3  Inspiron 1420
 		1028 01f9  Dell Latitude D630
@@ -13864,6 +13876,7 @@
 		8384 7616  Dell Vostro 1400
 	284f  82801H (ICH8 Family) Thermal Reporting Device
 	2850  82801HBM/HEM (ICH8M/ICH8M-E) IDE Controller
+		1025 0121  Aspire 5920G
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
 		103c 30c1  Compaq 6910p
@@ -14023,6 +14036,7 @@
 	29f7  3200/3210 Chipset Serial KT Controller
 	29f9  3210 Chipset Host-Secondary PCI Express Bridge
 	2a00  Mobile PM965/GM965/GL960 Memory Controller Hub
+		1025 0121  Acer Aspire 5920G
 		1028 01f3  Inspiron 1420
 		103c 30c0  Compaq 6710b
 		103c 30c1  Compaq 6910p
@@ -14400,9 +14414,11 @@
 		103c 135c  Compaq 6710b
 		103c 30c0  Compaq 6710b
 		8086 1000  PRO/Wireless 3945ABG Network Connection
+		8086 1001  PRO/Wireless 3945ABG Network Connection
 		8086 1005  PRO/Wireless 3945BG Network Connection
 		8086 1034  PRO/Wireless 3945BG Network Connection
 		8086 1044  PRO/Wireless 3945BG Network Connection
+		8086 1c00  PRO/Wireless 3945ABG Network Connection
 	4223  PRO/Wireless 2915ABG Network Connection
 		1000 8086  mPCI 3B Americas/Europe ZZA
 		1001 8086  mPCI 3B Europe ZZE
@@ -14610,6 +14626,7 @@
 	96a1  Integrated RAID
 	a620  6400/6402 Advanced Memory Buffer (AMB)
 	b152  21152 PCI-to-PCI Bridge
+		8086 b152  21152 PCI-to-PCI Bridge
 # observed, and documented in Intel revision note; new mask of 1011:0026
 	b154  21154 PCI-to-PCI Bridge
 	b555  21555 Non transparent PCI-to-PCI Bridge
