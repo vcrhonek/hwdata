@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.146.33.EL
-Release: 8
+Release: 9
 License: GPL/MIT
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.gz
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/X11R6/lib/X11/Cards
 
 %changelog
+* Mon Jan 19 2009 Phil Knirsch <pknirsch@redhat.com> 0.146.33.EL-9
+- update pci.ids, usb.ids
+
 * Tue Jul 01 2008 Karsten Hopp <karsten@redhat.com> 0.146.33.EL-8
 - add pcitable mapping for JMicron JMB368 chip
 - drop pcitable mappings for NVidia G84 and G86 cards
