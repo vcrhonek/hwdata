@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.220
+Version: 0.221
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Jan 21 2009 Karsten Hopp <karsten@redhat.com> 0.221-1
+- update usb.ids pci.ids oui.txt
+
 * Tue Dec 02 2008 Karsten Hopp <karsten@redhat.com> 0.220-1
 - add new monitor entries from Mandriva hardware database (Thierry Vignaud)
 - make generic entries have properly formated frequencies (Thierry Vignaud)
