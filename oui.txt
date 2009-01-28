@@ -32187,10 +32187,11 @@ company_id			Organization
 				Santa Clara CA 95054
 				UNITED STATES
 
-00-13-DE   (hex)		Adapt4
-0013DE     (base 16)		Adapt4
-				609 N John Rodes Blvd.
-				Melbourne FL 32934
+00-13-DE   (hex)		Adapt4, LLC
+0013DE     (base 16)		Adapt4, LLC
+				1050 W Nasa Blvd,
+				Suite 134
+				Melbourne FL 32901
 				UNITED STATES
 
 00-13-DF   (hex)		Ryvor Corp.
@@ -60028,6 +60029,93 @@ company_id			Organization
 				8F-3, No.2, Jian 8th Rd.,
 				Jhonghe Taipei 235
 				TAIWAN, REPUBLIC OF CHINA
+
+00-25-0B   (hex)		CENTROFACTOR  INC
+00250B     (base 16)		CENTROFACTOR  INC
+				Road Town, Tortola, P.O.Box 3161,
+				Tortola  194295
+				VIRGIN ISLANDS, BRITISH
+
+00-25-0C   (hex)		Enertrac
+00250C     (base 16)		Enertrac
+				94 River Rd
+				Suite 100
+				Hudson NH 03051
+				UNITED STATES
+
+00-25-0D   (hex)		GZT Telkom-Telmor sp. z o.o.
+00250D     (base 16)		GZT Telkom-Telmor sp. z o.o.
+				Mickiewicza 5/7
+				Gdansk pomorskie 80-425
+				POLAND
+
+00-25-0E   (hex)		gt german telematics gmbh
+00250E     (base 16)		gt german telematics gmbh
+				Rankestrasse 26
+				Berlin  D-10789
+				GERMANY
+
+00-25-0F   (hex)		On-Ramp Wireless, Inc.
+00250F     (base 16)		On-Ramp Wireless, Inc.
+				16885 West Bernardo Drive
+				Suite 255
+				San Diego CA 92127
+				UNITED STATES
+
+00-25-10   (hex)		Pico-Tesla Magnetic Therapies
+002510     (base 16)		Pico-Tesla Magnetic Therapies
+				7852 South Elati
+				#202
+				Littleton CO 80120
+				UNITED STATES
+
+00-25-11   (hex)		ELITEGROUP COMPUTER SYSTEM CO., LTD.
+002511     (base 16)		ELITEGROUP COMPUTER SYSTEM CO., LTD.
+				NO. 239, Sec. 2, Ti Ding Blvd.
+				Taipei Taiwan 11493
+				TAIWAN, REPUBLIC OF CHINA
+
+00-25-12   (hex)		ZTE Corporation
+002512     (base 16)		ZTE Corporation
+				12F, R&D Building, Zte, Hi-Tech Industrial Park
+				Shenzhen Guangdong 518057
+				CHINA
+
+00-25-13   (hex)		CXP DIGITAL BV
+002513     (base 16)		CXP DIGITAL BV
+				De Reulver 97A
+				Enschede  7544RT
+				NETHERLANDS
+
+00-25-14   (hex)		PC Worth Int'l Co., Ltd.
+002514     (base 16)		PC Worth Int'l Co., Ltd.
+				18F, No.100, Hsin-Tai-Wu Rd., Sec. 1,
+				Hsi-Chih, Taipei 22102
+				TAIWAN, REPUBLIC OF CHINA
+
+00-25-15   (hex)		Neuf Cegetel
+002515     (base 16)		Neuf Cegetel
+				42 Quai du point du jour
+				Boulogne billancourt . 92659
+				FRANCE
+
+00-25-16   (hex)		Integrated Design Tools, Inc.
+002516     (base 16)		Integrated Design Tools, Inc.
+				1202 E Park Avenue
+				Tallahassee FL 32301
+				UNITED STATES
+
+00-25-17   (hex)		Venntis, LLC
+002517     (base 16)		Venntis, LLC
+				11301 James Street
+				Holland MI 49424
+				UNITED STATES
+
+00-25-18   (hex)		Power PLUS Communications AG
+002518     (base 16)		Power PLUS Communications AG
+				Am Exerzierplatz 2
+				Mannheim Baden Wuerttemberg 68167
+				GERMANY
 
 00-26-54   (hex)		3Com Corporation
 002654     (base 16)		3Com Corporation
