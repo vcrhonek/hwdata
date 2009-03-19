@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.222
+Version: 0.223
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -33,10 +33,14 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc LICENSE COPYING
 %dir %{_datadir}/%{name}
-%config(noreplace) %{_sysconfdir}/modprobe.d/blacklist
+%config(noreplace) %{_sysconfdir}/modprobe.d/blacklist.conf
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Mar 19 2009 Karsten Hopp <karsten@redhat.com> 0.223-1
+- update usb.ids pci.ids oui.txt
+- rename /etc/modprobe.d/blacklist to /etc/modprobe.d/blacklist.conf
+
 * Wed Jan 28 2009 Karsten Hopp <karsten@redhat.com> 0.222-1
 - update usb.ids pci.ids oui.txt and build for all current releases
   Fixes p.e. #465440

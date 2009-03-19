@@ -32,7 +32,7 @@ install:
 	done
 	mkdir -p -m 755 $(datadir)/$(NAME)/videoaliases
 	mkdir -p -m 755 $(sysconfdir)/modprobe.d
-	install -m 644 blacklist $(sysconfdir)/modprobe.d
+	install -m 644 blacklist $(sysconfdir)/modprobe.d/blacklist.conf
 
 tag:
 	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
