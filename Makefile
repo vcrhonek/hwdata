@@ -66,8 +66,8 @@ create-archive:
 
 archive: check clean tag create-archive
 
-upload: ${PKGNAME}-$(VERSION).tar.gz
-        @scp ${PKGNAME}-$(VERSION).tar.gz fedorahosted.org:$(PKGNAME)
+upload:
+	@scp ${NAME}-$(VERSION).tar.bz2 fedorahosted.org:$(NAME)
 
 dummy:
 
