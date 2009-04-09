@@ -55,7 +55,7 @@ check:
 create-archive:
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
 	@make changelog
-	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
+	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
 	@mkdir $(NAME)-$(VERSION)
 	@cp ChangeLog $(NAME)-$(VERSION)/
 	@tar --append -f $(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
