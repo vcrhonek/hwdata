@@ -44,7 +44,7 @@ force-tag:
 
 changelog:
 	@rm -f ChangeLog
-	@(GIT_DIR=.git git-log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
+	@(GIT_DIR=.git git log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 
 check:
 	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
@@ -54,7 +54,7 @@ check:
 
 create-archive: changelog
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
-	@git-archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
+	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
 	@mkdir $(NAME)-$(VERSION)
 	@cp ChangeLog $(NAME)-$(VERSION)/
 	@tar --append -f $(NAME)-$(VERSION)-$(RELEASE).tar $(NAME)-$(VERSION)
