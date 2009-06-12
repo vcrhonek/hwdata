@@ -1,6 +1,6 @@
 AAE	Anatek Electronics Inc.
 AAT	Ann Arbor Technologies
-ABA	ABBAHOME   INC.
+ABA	ABBAHOME INC.
 ABC	AboCom System Inc
 ABD	Allen Bradley Company
 ABE	Alcatel Bell
@@ -89,6 +89,7 @@ ALP	Alps Electric Company Ltd
 ALR	Advanced Logic
 ALS	Avance Logic Inc
 ALT	Altra
+ALV	AlphaView LCD
 ALX	ALEXON Co.,Ltd.
 AMA	Asia Microelectronic Development Inc
 AMB	Ambient Technologies, Inc.
@@ -126,7 +127,7 @@ APN	Appian Tech Inc
 APP	Apple Computer Inc
 APR	Aprilia s.p.a.
 APS	Autologic Inc
-APT	Audio Processing Technology  Ltd
+APT	Audio Processing Technology Ltd
 APX	AP Designs Ltd
 ARC	Alta Research Corporation
 ARE	ICET S.p.A.
@@ -167,7 +168,7 @@ ATT	AT&T
 ATV	Office Depot, Inc.
 ATX	Athenix Corporation
 AUI	Alps Electric Inc
-AUO	DO NOT USE - AUO
+AUO	AU Optronics
 AUR	Aureal Semiconductor
 AUT	Autotime Corporation
 AVA	Avaya Communication
@@ -301,6 +302,7 @@ CER	Ceronix
 CET	TEC CORPORATION
 CFG	Atlantis
 CGA	Chunghwa Picture Tubes, LTD
+CGS	Chyron Corp
 CHA	Chase Research PLC
 CHC	Chic Technology Corp.
 CHD	ChangHong Electric Co.,Ltd
@@ -463,6 +465,7 @@ DIM	dPict Imaging, Inc.
 DIN	Daintelecom Co., Ltd
 DIS	Diseda S.A.
 DIT	Dragon Information Technology
+DJE	Capstone Visual Product Development
 DJP	Maygay Machines, Ltd
 DKY	Datakey Inc
 DLC	Diamond Lane Comm. Corporation
@@ -501,11 +504,12 @@ DSD	DS Multimedia Pte Ltd
 DSI	Digitan Systems Inc
 DSM	DSM Digital Services GmbH
 DSP	Domain Technology Inc
+DTA	DELTATEC
 DTC	DTC Tech Corporation
 DTI	Diversified Technology, Inc.
 DTK	Dynax Electronics (HK) Ltd
 DTL	e-Net Inc
-DTN	Datang  Telephone Co
+DTN	Datang Telephone Co
 DTO	Deutsche Thomson OHG
 DTX	Data Translation
 DUA	Dosch & Amand GmbH & Company KG
@@ -527,12 +531,14 @@ EBH	Data Price Informatica
 EBT	HUALONG TECHNOLOGY CO., LTD
 ECA	Electro Cam Corp.
 ECC	ESSential Comm. Corporation
-ECK	Eugene Chukhlomin Sole Proprietorship, d.b.a. 
+ECI	Enciris Technologies
+ECK	Eugene Chukhlomin Sole Proprietorship, d.b.a.
 ECL	Excel Company Ltd
 ECM	E-Cmos Tech Corporation
 ECO	Echo Speech Corporation
 ECP	Elecom Company Ltd
 ECS	Elitegroup Computer Systems Company Ltd
+ECT	Enciris Technologies
 EDC	e.Digital Corporation
 EDG	Electronic-Design GmbH
 EDI	Edimax Tech. Company Ltd
@@ -541,6 +547,7 @@ EEE	ET&T Technology Company Ltd
 EEH	EEH Datalink GmbH
 EEP	E.E.P.D. GmbH
 EES	EE Solutions, Inc.
+EGD	EIZO GmbH Display Technologies
 EGL	Eagle Technology
 EGN	Egenera, Inc.
 EGO	Ergo Electronics
@@ -607,6 +614,7 @@ EXN	RGB Systems, Inc. dba Extron Electronics
 EXP	Data Export Corporation
 EXT	Exatech Computadores & Servicos Ltda
 EXX	Exxact GmbH
+EXY	Exterity Ltd
 EZE	EzE Technologies
 EZP	Storm Technology
 FAR	Farallon Computing
@@ -641,6 +649,7 @@ FML	Fujitsu Microelect Ltd
 FMZ	Formoza-Altair
 FNC	Fanuc LTD
 FNI	Funai Electric Co., Ltd.
+FOA	FOR-A Company Limited
 FOS	Foss Tecator
 FPE	Fujitsu Peripherals Ltd
 FPS	Deltec Corporation
@@ -741,7 +750,7 @@ HEC	Hitachi Engineering Company Ltd
 HEL	Hitachi Micro Systems Europe Ltd
 HER	Ascom Business Systems
 HET	HETEC Datensysteme GmbH
-HHC	HIRAKAWA HEWTECH CORP. 
+HHC	HIRAKAWA HEWTECH CORP.
 HIB	Hibino Corporation
 HIC	Hitachi Information Technology Co., Ltd.
 HIK	Hikom Co., Ltd.
@@ -774,6 +783,7 @@ HTC	Hitachi Ltd
 HTI	Hampshire Company, Inc.
 HTK	Holtek Microelectronics Inc
 HTX	Hitex Systementwicklung GmbH
+HUB	GAI-Tronics, A Hubbell Company
 HUM	IMP Electronics Ltd.
 HWA	Harris Canada Inc
 HWC	DBA Hans Wedemeyer
@@ -785,6 +795,7 @@ HYO	HYC CO., LTD.
 HYP	Hyphen Ltd
 HYR	Hypertec Pty Ltd
 HYT	Heng Yu Technology (HK) Limited
+HYV	Hynix Semiconductor
 IAF	Institut f r angewandte Funksystemtechnik GmbH
 IAI	Integration Associates, Inc.
 IAT	IAT Germany GmbH
@@ -947,7 +958,7 @@ KOB	Kobil Systems GmbH
 KOD	Eastman Kodak Company
 KOE	KOLTER ELECTRONIC
 KOL	Kollmorgen Motion Technologies Group
-KOW	KOWA Company,LTD. 
+KOW	KOWA Company,LTD.
 KPC	King Phoenix Company
 KRL	Krell Industries Inc.
 KRY	Kroy LLC
@@ -1014,7 +1025,7 @@ LOE	Loewe Opta GmbH
 LOG	Logicode Technology Inc
 LPE	El-PUSK Co., Ltd.
 LPI	Design Technology
-LPL	DO NOT USE - LPL
+LPL	LG Philips
 LSC	LifeSize Communications
 LSI	Loughborough Sound Images
 LSJ	LSI Japan Company Ltd
@@ -1031,6 +1042,7 @@ LUC	Lucent Technologies
 LUM	Lumagen, Inc.
 LUX	Luxxell Research Inc
 LWC	Labway Corporation
+LWR	Lightware Visual Engineering
 LWW	Lanier Worldwide
 LXN	Luxeon
 LXS	ELEA CardWare
@@ -1040,6 +1052,7 @@ MAD	Xedia Corporation
 MAE	Maestro Pty Ltd
 MAG	MAG InnoVision
 MAI	Mutoh America Inc
+MAL	Meridian Audio Ltd
 MAN	LGIC
 MAS	Mass Inc.
 MAT	Matsushita Electric Ind. Company Ltd
@@ -1159,6 +1172,7 @@ MSU	motorola
 MSV	Mosgi Corporation
 MSX	Micomsoft Co., Ltd.
 MSY	MicroTouch Systems Inc
+MTB	Media Technologies Ltd.
 MTC	Mars-Tech Corporation
 MTD	MindTech Display Co. Ltd
 MTE	MediaTec GmbH
@@ -1177,6 +1191,7 @@ MUK	mainpine limited
 MVD	Microvitec PLC
 MVI	Media Vision Inc
 MVM	SOBO VISION
+MVS	Microvision
 MVX	COM 1
 MWI	Multiwave Innovation Pte Ltd
 MWR	mware
@@ -1246,6 +1261,7 @@ NST	Network Security Technology Co
 NTC	NeoTech S.R.L
 NTI	New Tech Int'l Company
 NTL	National Transcomm. Ltd
+NTN	Nuvoton Technology Corporation
 NTR	N-trig Innovative Technologies, Inc.
 NTS	Nits Technology Inc.
 NTT	NTT Advanced Technology Corporation
@@ -1365,7 +1381,7 @@ PIX	Pixie Tech Inc
 PJA	Projecta
 PJD	Projectiondesign AS
 PJT	Pan Jit International Inc.
-PKA	Acco UK ltd. 
+PKA	Acco UK ltd.
 PLC	Pro-Log Corporation
 PLM	PROLINK Microsystems Corp.
 PLV	PLUS Vision Corp.
@@ -1385,6 +1401,7 @@ PNS	PanaScope
 PNX	Phoenix Technologies, Ltd.
 POL	PolyComp (PTY) Ltd.
 PON	Perpetual Technologies, LLC
+POR	Portalis LC
 PPC	Phoenixtec Power Company Ltd
 PPD	MEPhI
 PPI	Practical Peripherals
@@ -1434,7 +1451,7 @@ QDS	Quanta Display Inc.
 QFF	Padix Co., Inc.
 QFI	Quickflex, Inc
 QLC	Q-Logic
-QQQ	Chuomusen Co., Ltd. 
+QQQ	Chuomusen Co., Ltd.
 QSI	Quantum Solutions, Inc.
 QTD	Quantum 3D Inc
 QTH	Questech Ltd
@@ -1480,7 +1497,7 @@ RLN	RadioLAN Inc
 RMC	Raritan Computer, Inc
 RMP	Research Machines
 RNB	Rainbow Technologies
-ROB	Robust Electronics GmbH 
+ROB	Robust Electronics GmbH
 ROH	Rohm Co., Ltd.
 ROK	Rockwell International
 ROP	Roper International Ltd
@@ -1594,6 +1611,7 @@ SKY	SKYDATA S.P.A.
 SLA	Systeme Lauer GmbH&Co KG
 SLB	Shlumberger Ltd
 SLC	Syslogic Datentechnik AG
+SLH	Silicon Library Inc.
 SLI	Symbios Logic Inc
 SLK	Silitek Corporation
 SLM	Solomon Technology Corporation
@@ -1668,6 +1686,7 @@ STL	SigmaTel Inc
 STM	SGS Thomson Microelectronics
 STN	Samsung Electronics America
 STO	Stollmann E+V GmbH
+STP	StreamPlay Ltd
 STR	Starlight Networks Inc
 STS	SITECSYSTEM CO., LTD.
 STT	Star Paging Telecom Tech (Shenzhen) Co. Ltd.
@@ -1688,7 +1707,9 @@ SWC	Software Café
 SWI	Sierra Wireless Inc.
 SWL	Sharedware Ltd
 SWS	Static
+SWT	Software Technologies Group,Inc.
 SXB	Syntax-Brillian
+SXD	Silex technology, Inc.
 SXL	SolutionInside
 SYC	Sysmic
 SYK	Stryker Communications
@@ -1779,6 +1800,7 @@ TOU	Touchstone Technology
 TPC	Touch Panel Systems Corporation
 TPE	Technology Power Enterprises Inc
 TPJ	(none)
+TPK	TOPRE CORPORATION
 TPR	Topro Technology Inc
 TPS	Teleprocessing Systeme GmbH
 TPV	Top Victory Electronics ( Fujian ) Company Ltd
@@ -1837,6 +1859,7 @@ UEC	Ultima Electronics Corporation
 UEG	Elitegroup Computer Systems Company Ltd
 UEI	Universal Electronics Inc
 UET	Universal Empowering Technologies
+UFG	UNIGRAF-USA
 UFO	UFO Systems Inc
 UHB	XOCECO
 UIC	Uniform Industrial Corporation
@@ -1848,9 +1871,9 @@ UMM	Universal Multimedia
 UNA	Unisys DSD
 UNB	Unisys Corporation
 UNC	Unisys Corporation
-UND	DO NOT USE - UND
-UNE	DO NOT USE - UNE
-UNF	DO NOT USE - UNF
+UND	Unisys Corporation
+UNE	Unisys Corporation
+UNF	Unisys Corporation
 UNI	Uniform Industry Corp.
 UNI	Unisys Corporation
 UNM	Unisys Corporation
@@ -1873,6 +1896,7 @@ VAR	Varian Australia Pty Ltd
 VBT	Valley Board Ltda
 VCC	Virtual Computer Corporation
 VCI	VistaCom Inc
+VCJ	Victor Company of Japan, Limited
 VCM	Vector Magnetics, LLC
 VCX	VCONEX
 VDA	Victor Data Systems
@@ -1987,6 +2011,7 @@ ZBR	Zebra Technologies International, LLC
 ZCT	ZeitControl cardsystems GmbH
 ZDS	Zenith Data Systems
 ZGT	Zenith Data Systems
+ZIC	ZTEIC DESIGN CO., LTD.
 ZMT	Zalman Tech Co., Ltd.
 ZMZ	Z Microsystems
 ZNI	Zetinet Inc
