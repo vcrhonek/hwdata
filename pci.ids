@@ -5955,26 +5955,16 @@
 	0622  G94 [GeForce 9600 GT]
 		107d 2ac1  WinFast PX9600GT 1024MB
 		1458 3481  GV-NX96T512HP
-<<<<<<< HEAD:pci.ids
-	0623  GeForce 9600 GS
-	0625  GeForce 9600 GSO
-=======
 	0623  G94 [GeForce 9600 GS]
 	0625  G94 [GeForce 9600 GSO 512]
 	0626  G94 [GeForce GT 130]
 	0627  G94 [GeForce GT 140]
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	0628  G94 [GeForce 9800M GTS]
 	062a  G94 [GeForce 9700M GTS]
 	062b  G94 [GeForce 9800M GS]
 	062c  G94 [GeForce 9800M GTS]
 	0638  G94 [Quadro FX 1800]
 	063a  G94M [Quadro FX 2700M]
-<<<<<<< HEAD:pci.ids
-	0640  GeForce 9500 GT
-	0641  G96 [GeForce 9400 GT]
-	0647  GeForce 9600M GT
-=======
 	0640  G96 [GeForce 9500 GT]
 	0641  G96 [GeForce 9400 GT]
 	0643  G96 [GeForce 9500 GT]
@@ -5982,7 +5972,6 @@
 	0645  G96 [GeForce 9500 GS]
 	0646  G96 [GeForce GT 120]
 	0647  G96 [GeForce 9600M GT]
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	0648  G96 [GeForce 9600M GS]
 	0649  G96 [GeForce 9600M GT]
 	064a  G96 [GeForce 9700M GT]
@@ -5992,13 +5981,6 @@
 	0652  G96 [GeForce GT 130M]
 	0658  G96 [Quadro FX 380]
 	0659  G96 [Quadro FX 580]
-<<<<<<< HEAD:pci.ids
-	065c  G96M [Quadro FX 770M]
-	06e2  GeForce 8400 GS
-	06e4  GeForce 8400 GS
-		1458 3475  GV-NX84S256HE [GeForce 8400 GS]
-	06e5  GeForce 9300M GS
-=======
 	065b  G96 [GeForce 9400 GT]
 	065c  G96M [Quadro FX 770M]
 	06e0  G98 [GeForce 9300 GE]
@@ -6010,7 +5992,6 @@
 	06e5  G98 [GeForce 9300M GS]
 	06e6  G98 [GeForce G100]
 	06e7  G98 [GeForce 9300 SE]
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 # G98 [GeForce 9200M GE]
 	06e8  G98 [GeForce 9200M GS]
 	06e9  G98 [GeForce 9300M GS]
@@ -6018,10 +5999,7 @@
 	06ea  G86M [Quadro NVS 150M]
 	06eb  G98M [Quadro NVS 160M]
 	06ec  G98 [G 105M]
-<<<<<<< HEAD:pci.ids
-=======
 	06f8  G98 [Quadro NVS 420]
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	06f9  G98 [Quadro FX 370 LP]
 	06fa  G98 [Quadro NVS 450]
 	0751  MCP78S [GeForce 8200] Memory Controller
@@ -6133,13 +6111,8 @@
 		1afa 7150  JW-IN7150-HD
 	07e1  C73 [GeForce 7100 / nForce 630i]
 	07e2  GeForce 7050 / nForce 630i
-<<<<<<< HEAD:pci.ids
-	07e3  GeForce 7050/nForce 610i
-	07e5  GeForce 7100 / nForce 620i
-=======
 	07e3  C73 [GeForce 7050 / nForce 610i]
 	07e5  C73 [GeForce 7100 / nForce 620i]
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	07f0  MCP73 IDE
 	07f4  GeForce 7100/nForce 630i
 	07f8  MCP73 SATA RAID Controller
@@ -6149,32 +6122,6 @@
 		1afa 7150  JW-IN7150-HD
 	0844  C77 [GeForce 9100M G]
 	0845  C77 [GeForce 8200M G]
-<<<<<<< HEAD:pci.ids
-	0848  GeForce 8300
-	0849  GeForce 8200
-		1462 7508  K9N2GM-FIH
-		1849 0849  K10N78FullHD-hSLI R3.0 GeForce 8200
-	084a  nForce 730a
-	084b  GeForce 8200
-	084c  nForce 780a SLI
-	084d  nForce 750a SLI [mGPU]
-		1043 82e8  M3N72-D mGPU
-	084f  GeForce 8100 / nForce 720a
-	0860  GeForce 9300
-	0861  GeForce 9400
-	0862  GeForce 9400M G
-	0863  C79 [GeForce 9400M]
-	0864  GeForce 9300
-	0865  GeForce 9300
-	0866  C79 [GeForce 9400M G]
-	0867  GeForce 9400
-	086a  GeForce 9400
-	086c  GeForce 9300 / nForce 730i
-	086e  C79 [GeForce 9100M G]
-	086f  C79 [GeForce 9200M G]
-	0870  C79 [GeForce 9400M]
-	087a  Quadro FX 470
-=======
 	0848  C77 [GeForce 8300]
 	0849  C77 [GeForce 8200]
 		1462 7508  K9N2GM-FIH
@@ -6202,7 +6149,6 @@
 	0870  C79 [GeForce 9400M]
 	0871  C79 [GeForce 9200]
 	087a  C79 [Quadro FX 470]
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	0a80  MCP79 Host Bridge
 	0a81  MCP79 Host Bridge
 	0a82  MCP79 Host Bridge
@@ -12914,13 +12860,10 @@
 	0041  MPC8572
 	0050  MPC8536E
 	0051  MPC8536
-<<<<<<< HEAD:pci.ids
-=======
 	0052  MPC8535E
 	0053  MPC8535
 	0060  MPC8569
 	0061  MPC8569E
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	0070  P2020E
 	0071  P2020
 	0080  MPC8349E
@@ -13006,12 +12949,9 @@
 	0201  BladeEngine 10Gb PCIe Network Adapter
 	0211  BladeEngine2 10Gb Gen2 PCIe Network Adapter
 	0212  BladeEngine2 10Gb Gen2 PCIe iSCSI Adapter
-<<<<<<< HEAD:pci.ids
-=======
 	0700  Emulex OneConnect 10Gb NIC
 	0702  Emulex OneConnect 10Gb iSCSI Initiator
 	0704  Emulex OneConnect 10Gb FCoE Initiator
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 19a8  DAQDATA GmbH
 19ac  Kasten Chase Applied Research
 	0001  ACA2400 Crypto Accelerator
@@ -13075,11 +13015,8 @@
 1a78  Virident Systems Inc.
 1a84  Commex Technologies
 	0001  Vulcan SP HT6210 10 Gigabit Ethernet (rev 02)
-<<<<<<< HEAD:pci.ids
-=======
 1a88  MEN Mikro Elektronik
 	4d45  Multifunction IP core
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 1a8c  Verigy Pte. Ltd.
 	1100  E8001-66443 PCI Express CIC
 1a8e  DRS Technologies
@@ -14099,11 +14036,6 @@
 		103c 31ff  NC362i Integrated Dual Port BL-c Gigabit Server Adapter
 	10e8  82576 Gigabit Network Connection
 		8086 a02c  Gigabit ET Quad Port Server Adapter
-<<<<<<< HEAD:pci.ids
-	10ec  82598EB 10-Gigabit AT CX4 Network Connection
-		8086 a01f  10 Gigabit CX4 Dual Port Server Adapter
-		8086 a11f  10 Gigabit CX4 Dual Port Server Adapter
-=======
 	10ea  82577LM Gigabit Network Connection
 	10eb  82577LC Gigabit Network Connection
 	10ec  82598EB 10-Gigabit AT CX4 Network Connection
@@ -14111,7 +14043,6 @@
 		8086 a11f  10 Gigabit CX4 Dual Port Server Adapter
 	10ef  82578DM Gigabit Network Connection
 	10f0  82578DC Gigabit Network Connection
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	10f1  82598EB 10-Gigabit AF Dual Port Network Connection
 		8086 a20f  10-Gigabit AF DA Dual Port Server Adapter
 		8086 a21f  10-Gigabit AF DA Dual Port Server Adapter
@@ -16099,10 +16030,7 @@
 	2c5d  Jasper Forest QPI Generic Non-core Registers
 	2c5e  Jasper Forest QPI Generic Non-core Registers
 	2c5f  Jasper Forest QPI Generic Non-core Registers
-<<<<<<< HEAD:pci.ids
-=======
 	2c70  QuickPath Architecture Generic Non-core Registers
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	2c81  QuickPath Architecture System Address Decoder
 	2c90  QPI Link
 	2c91  QPI Physical 0
@@ -16138,8 +16066,6 @@
 	2cf1  Jasper Forest Integrated Memory Controller Channel 2 Address
 	2cf2  Jasper Forest Integrated Memory Controller Channel 2 Rank
 	2cf3  Jasper Forest Integrated Memory Controller Channel 2 Thermal Control
-<<<<<<< HEAD:pci.ids
-=======
 	2d81  QuickPath Architecture System Address Decoder
 	2d90  QPI Link 0
 	2d91  QPI Physical 0
@@ -16163,7 +16089,6 @@
 	2db1  Integrated Memory Controller Channel 2 Address
 	2db2  Integrated Memory Controller Channel 2 Rank
 	2db3  Integrated Memory Controller Channel 2 Thermal Control
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	2e00  4 Series Chipset DRAM Controller
 	2e01  4 Series Chipset PCI Express Root Port
 	2e02  4 Series Chipset Integrated Graphics Controller
@@ -16236,19 +16161,12 @@
 	3400  5520/5500/X58 I/O Hub to ESI Port
 	3401  5520/5500/X58 I/O Hub to ESI Port
 	3402  5520/5500/X58 I/O Hub to ESI Port
-<<<<<<< HEAD:pci.ids
-	3403  5520/5500/X58 I/O Hub to ESI Port
-		1028 0287  PowerEdge M610 I/O Hub to ESI Port
-	3404  5520/5500/X58 I/O Hub to ESI Port
-	3405  5520/5500/X58 I/O Hub to ESI Port
-=======
 	3403  5500 I/O Hub to ESI Port
 		1028 0287  PowerEdge M610 I/O Hub to ESI Port
 		1028 028c  PowerEdge R410 I/O Hub to ESI Port
 		1028 028d  PowerEdge T410 I/O Hub to ESI Port
 	3404  5520/5500/X58 I/O Hub to ESI Port
 	3405  X58 I/O Hub to ESI Port
->>>>>>> dd4d1533bf8700a6e1fc0615829282854fa1ee83:pci.ids
 	3406  5520/5500/X58 I/O Hub to ESI Port
 	3407  5520/5500/X58 I/O Hub to ESI Port
 	3408  5520/5500/X58 I/O Hub PCI Express Root Port 1
