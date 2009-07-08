@@ -19,7 +19,7 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers oui.txt
+FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers oui.txt pnp.ids
 
 .PHONY: all install tag force-tag check create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
@@ -32,7 +32,7 @@ install:
 	done
 	mkdir -p -m 755 $(datadir)/$(NAME)/videoaliases
 	mkdir -p -m 755 $(sysconfdir)/modprobe.d
-	install -m 644 blacklist $(sysconfdir)/modprobe.d/blacklist.conf
+	install -m 644 blacklist.conf $(sysconfdir)/modprobe.d
 
 tag:
 	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
@@ -65,6 +65,9 @@ create-archive:
 	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
 
 archive: check clean tag create-archive
+
+upload:
+	@scp ${NAME}-$(VERSION).tar.bz2 fedorahosted.org:$(NAME)
 
 dummy:
 

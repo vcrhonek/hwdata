@@ -1346,6 +1346,7 @@ Dell; Dell E156FP; DELA013; 30.0-63.0; 56.0-76.0; 1
 Dell; Dell E157FP; DELA022; 30.0-63.0; 56.0-76.0; 1
 Dell; Dell E157FPT; DEL7400; 30.0-63.0; 56.0-76.0; 1
 Dell; Dell E1609W; DELD021; 30.0-83.0; 56.0-75.0; 1
+Dell; Dell E170S; DELA04A; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell E1709W; DELD022; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E171FP; DEL300F; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell E171FPb; DELA006; 31.0-80.0; 56.0-76.0
@@ -1355,6 +1356,7 @@ Dell; Dell E176FP; DELA014; 31.0-80.0; 56.0-75.0; 1
 Dell; Dell E177FP; DELA023; 31.0-80.0; 56.0-75.0; 1
 Dell; Dell E178FP; DELA027; 31.0-80.0; 56.0-75.0; 1
 Dell; Dell E178WFP; DELD016; 30.0-83.0; 50.0-77.0; 1
+Dell; Dell E190S; DELA04B; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell E1909W(Analog); DELF00D; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E1909W(Digital); DELF00E; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E193FP; DEL700E; 31.0-83.0; 56.0-76.0; 1
@@ -1390,7 +1392,12 @@ Dell; Dell Eizo 9080i; 0; 30.0-64.0; 50.0-90.0; 1
 Dell; Dell ES-17; del635e; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell GPD-16C; 0; 20.0-50.0; 50.0-90.0; 1
 Dell; Dell GPD-19C; 0; 30.0-64.0; 50.0-130.0; 1
+Dell; Dell G2210 (Analog); DELD01E; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell G2410 (Analog); DEL404A; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell G2410 (Digital); DEL404B; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell Hewitt; 0; 30.0-48.1; 50.0-72.0; 1
+Dell; Dell IN1910N(Analog); DELA04C; 30.0-83.0; 56.0-75.0; 1
+Dell; Dell IN2010N(Analog); DELA049; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell Laptop Display Panel 1024x768; QDS005; 31.5-48.5; 59.0-75.0; 1
 Dell; Dell Laptop Display Panel 1280x1024; 0; 31.5-90.0; 59.0-75.0; 1
 Dell; Dell Laptop Display Panel 1280x800; 0; 31.5-50.0; 56.0 - 65.0
@@ -1461,6 +1468,11 @@ Dell; Dell SP2208WFP(HDMI); DEL403A; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell SP2309W(Analog); DELD01B; 30.0-92.0; 56.0-85.0; 1
 Dell; Dell SP2309W(Digital); DELD01C; 30.0-92.0; 56.0-85.0; 1
 Dell; Dell SP2309W(HDMI); DELD01D; 30.0-92.0; 56.0-85.0; 1
+Dell; Dell ST2010; DELF018; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell ST2010; DELF019; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell SX2210(Analog); DELA046; 30.0-83.0; 50.0-76.0; 1
+Dell; Dell SX2210(Digital); DELA047; 30.0-83.0; 50.0-76.0; 1
+Dell; Dell SX2210(HDMI); DELA048; 30.0-83.0; 50.0-76.0; 1
 Dell; Dell Super VGA; 0; 30.0-38.5; 50.0-90.0; 1
 Dell; Dell Super VGA Colour; 0; 29.0-38.0; 47.0-100.0; 1
 Dell; Dell Super VGA DL 1428 I/L; 0; 35.5; 87.0; 1
