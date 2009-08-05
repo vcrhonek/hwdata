@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2009.06.29
-# Date:    2009-06-29 20:34:02
+# Version: 2009.08.01
+# Date:    2009-08-01 20:34:02
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -37,6 +37,11 @@
 	6026  CBM1180 Flash drive controller
 02ad  HUMAX Co., Ltd.
 	138c  PVR Mass Storage
+0324  OCZ Technology Inc
+	bc06  OCZ ATV USB 2.0 Flash Drive
+	bc08  OCZ Rally2/ATV USB 2.0 Flash Drive
+0325  OCZ Technology Inc
+	ac02  ATV Turbo / Rally2 Dual Channel USB 2.0 Flash Drive
 0386  LTS
 	0001  PSX for USB Converter
 03e8  EndPoints, Inc.
@@ -582,6 +587,13 @@
 	bcd9  Stellaris Evaluation Board
 	c630  lcd2usb interface
 	c7d0  RR-CirKits LocoBuffer-USB
+	c8b8  Alpermann+Velte MTD TCU
+	c8b9  Alpermann+Velte MTD TCU 1HE
+	c8ba  Alpermann+Velte Rubidium H1
+	c8bb  Alpermann+Velte Rubidium H3
+	c8bc  Alpermann+Velte Rubidium S1
+	c8bd  Alpermann+Velte Rubidium T1
+	c8be  Alpermann+Velte Rubidium D1
 	cc48  product FTDI TACTRIX_OPENPORT_13M 0xcc48 OpenPort 1.3 Mitsubishi
 	cc49  product FTDI TACTRIX_OPENPORT_13S 0xcc49 OpenPort 1.3 Subaru
 	cc4a  product FTDI TACTRIX_OPENPORT_13U 0xcc4a OpenPort 1.3 Universal
@@ -597,6 +609,7 @@
 	e88b  Precision Clock MSF USB
 	e88c  Expert mouseCLOCK USB II HBG
 	ea90  Eclo 1-Wire Adapter
+	ed72  Hameg HM1508-2 Oscilloscope
 	f1a0  Asix PRESTO Programmer
 	f208  Papenmeier Braille-Display
 	f680  Suunto Sports Instrument
@@ -803,6 +816,7 @@
 	05c3  Digital Camera
 	05c4  Digital Camera
 	05c5  Digital Camera
+	05d3  EasyShare M320 Camera
 	1001  EasyShare SV811 Digital Picture Frame
 	4000  InkJet Color Printer
 	410d  EasyShare G600 Printer Dock
@@ -1606,6 +1620,7 @@
 	00f5  LifeCam VX-3000
 	00f7  LifeCam VX-1000
 	00f8  LifeCam NX-6000
+	00f9  Wireless Desktop Receiver 3.1
 	0202  Xbox Controller
 	0280  XBox Device
 	0284  Xbox DVD Playback Kit
@@ -2008,6 +2023,7 @@
 	c218  Logitech RumblePad 2 USB
 	c219  Cordless RumblePad 2
 	c21a  Precision Gamepad
+	c21c  G13 Advanced Gameboard
 	c221  G15 Keyboard / Keyboard
 	c222  G15 Keyboard / LCD
 	c223  G15 Keyboard / USB Hub
@@ -2067,6 +2083,7 @@
 	c51a  MX Revolution/G7 Cordless Mouse
 	c51b  V220 Cordless Optical Mouse for Notebooks
 	c521  MX620 Laser Cordless Mouse
+	c526  MX Revolution Cordless Mouse
 	c625  3Dconnexion Space Pilot 3D Mouse
 	c626  3DConnexion Space Navigator 3D Mouse
 	c627  3DConnexion Space Explorer 3D Mouse
@@ -4431,6 +4448,7 @@
 	2600  IDE Bridge
 	4000  DSB-650 10Mbps Ethernet [klsi]
 	7000  Hub
+	7820  UC-2322 2xSerial Ports [mos7820]
 0558  Truevision, Inc.
 0559  Cadence Design Systems, Inc.
 055a  Kenwood USA
@@ -4838,6 +4856,7 @@
 	1500  Omni 56K Plus
 	2011  Scorpion-980N keyboard
 	3304  LAN Modem
+	3309  ADSL Modem Prestige 600 series
 	330a  ADSL Modem Interface
 	330e  USB Broadband ADSL Modem Rev 1.10
 	3400  802.11b
@@ -5080,6 +5099,7 @@
 	1290  iPhone
 	1291  iPod Touch 1.Gen
 	1292  iPhone 3G
+	1294  iPhone 3GS
 	1300  iPod Shuffle
 	1301  iPod Shuffle 2.Gen
 	8202  HCF V.90 Data/Fax Modem
@@ -5822,6 +5842,9 @@
 	9000  MP3 Player
 	9001  MP3 Player
 	9002  MP3 Player
+0670  Sequel Imaging
+	0001  Calibrator
+	0005  Enable Cable
 0672  Labtec, Inc.
 	1041  LCS1040 Speaker System
 	5000  SpaceBall 4000 FLX
@@ -7699,6 +7722,7 @@
 090c  Feiya Technology Corp.
 	1000  Flash Drive
 	1132  5-in-1 Card Reader
+	6000  SD/SDHC Card Reader (SG365 / FlexiDrive XC+)
 	b371  Silicon Motion SM371 Camera
 090d  Multiport Computer Vertriebs GmbH
 090e  Shining Technology, Inc.
@@ -7879,6 +7903,7 @@
 	2608  PAC7311 Trust WB-3300p
 	260e  PAC7311 Gigaware VGA PC Camera:Trust WB-3350p:SIGMA cam 2350
 	260f  PAC7311 SnakeCam
+	2621  PAC731x Trust WebCam
 	2624  Webcam
 093b  Plextor Corp.
 	0010  Storage Adapter
@@ -8477,6 +8502,8 @@
 	b700  Broadcom Bluetooth 2.1
 0b0c  Todos Data System AB
 	0009  Todos Argos Mini II Smart Card Reader
+0b0d  ProjectLab
+	0000  CenturyCD
 0b0e  GN Netcom
 0b0f  AVID Technology
 0b10  Pcally
@@ -9259,6 +9286,7 @@
 	1001  PicoScope3204
 0cf1  e-Conn Electronic Co., Ltd
 0cf2  ENE Technology, Inc.
+	6220  SD Card Reader (SG361)
 0cf3  Atheros Communications, Inc.
 	0001  AR5523
 	0002  AR5523 (no firmware)
@@ -9336,6 +9364,7 @@
 	5020  Mobile Hard Disk Drive
 	7000  OneTouch
 	7010  OneTouch
+	7410  Mobile Hard Disk Drive (1TB)
 0d4a  NF Corp.
 0d4b  Grape Systems, Inc.
 0d4c  Tedas AG
@@ -9557,6 +9586,8 @@
 0db4  Chung Fu Chen Yeh Enterprise Corp.
 0db7  ELCON Systemtechnik
 	0002  Goldpfeil P-LAN
+0dbc  A&D Medical
+	0003  AND Serial Cable [AND Smart Cable]
 0dbe  Jiuh Shiuh Precision Industry Co., Ltd
 0dbf  Quik Tech Solutions
 	0002  SmartDongle Security Key
@@ -9673,6 +9704,10 @@
 	0101  LonUSB LonTalk Network Adapter
 0e0f  VMware, Inc.
 	0002  Virtual USB Hub
+	0003  Virtual Mouse
+	0004  Virtual CCID
+	0005  Virtual Mass Storage
+	0006  Virtual Keyboard
 0e16  JMTek, LLC
 0e17  Walex Electronic, Ltd
 0e1b  Crewave
@@ -9739,6 +9774,7 @@
 	6441  C-Media Sound Device
 0e5d  Neltron Industrial Co., Ltd
 0e66  Hawking
+	0013  rt2870 [Hawking Hi-Gain Wireless-N]
 	400b  UF100 10/100 Network Adapter
 	400c  UF100 Ethernet [pegasus2]
 0e67  Fossil, Inc.
@@ -10106,6 +10142,7 @@
 	0006  Infinity Smart
 	0007  Infinity Smart module
 	0008  Infinity CryptoKey
+	0009  RE-BL PlayStation 3 IR-to-Bluetooth converter
 1050  Yubico.com
 	0010  Yubikey
 1053  Immanuel Electronics Co., Ltd
@@ -10288,6 +10325,7 @@
 	1000  MP3 Player
 	1100  MPMan MP-Ki 128 MP3 Player/Recorder
 	1101  D-Wave 2GB MP4 Player / AK1025 MP3/MP4 Player
+	2200  Acer MP-120 MP3 player
 	8888  ADFU Device
 	ff51  ADFU Device
 	ff61  MP4 Player
@@ -10509,6 +10547,8 @@
 12a7  Trendchip Technologies Corp.
 12ab  Honey Bee Electronic International Ltd.
 12ba  Licensed by Sony Computer Entertainment America
+	0100  RedOctane Guitar for PlayStation(R)3
+	0120  RedOctane Drum Kit for PlayStation(R)3
 	0200  Harmonix Guitar for PlayStation(R)3
 	0210  Harmonix Drum Kit for PlayStation(R)3
 12d1  Huawei Technologies Co., Ltd.
@@ -10517,6 +10557,8 @@
 	1009  U120
 12d2  LINE TECH INDUSTRIAL CO., LTD.
 12d7  BETTER WIRE FACTORY CO., LTD.
+12e6  Waldorf Music GmbH
+	0013  Blofeld
 12ef  Tapwave, Inc.
 	0100  Tapwave Handheld [Tapwave Zodiac]
 12f5  Dynamic System Electronics Corp.
@@ -10685,6 +10727,7 @@
 142a  Thales E-Transactions
 	0043  medCompact
 1430  RedOctane
+	4734  Guitar Hero4 hub
 1431  Pertech Resources, Inc.
 1435  Wistron NeWeb
 	0711  UR055G 802.11bg
@@ -10763,6 +10806,7 @@
 14cd  Super Top
 	6600  USB 2.0 IDE DEVICE
 	6700  Card Reader
+	6900  Card Reader
 14d8  JAMER INDUSTRIES CO., LTD.
 14dd  Raritan Computer, Inc.
 14e5  SAIN Information & Communications Co., Ltd.
@@ -10798,7 +10842,9 @@
 	0001  RZ01-020300 Optical Mouse [Diamondback]
 	0003  Krait Mouse
 	0007  DeathAdder Mouse
+	0101  Copperhead Mouse
 	0102  Tarantula Keyboard
+	0109  Lycosa Keyboard
 1546  U-Blox AG
 154a  Celectronic GmbH
 	8180  CARD STAR/medic2
@@ -10832,6 +10878,10 @@
 158d  Oakley Inc.
 1598  Kunshan Guoji Electronics Co., Ltd.
 15a2  Freescale Semiconductor, Inc.
+15a4  Afatech Technologies, Inc.
+	1001  AF9015 DVB-T USB2.0 stick
+	9015  AF9015 DVB-T USB2.0 stick
+	9016  AF9015 DVB-T USB2.0 stick
 15a8  Teams Power Limited
 15aa  Gearway Electronics (Dong Guan) Co., Ltd.
 15ba  Olimex Ltd.
@@ -11002,6 +11052,9 @@
 	0102  uDART In-Circuit Debugger
 	0200  SpYder USBSPYDER08
 164a  ChipX
+164c  Matrix Vision GmbH
+	0101  mvBlueFOX camera (no firmware)
+	0103  mvBlueFOX camera
 1657  Struck Innovative Systeme GmbH
 	3150  SIS3150 USB2.0 to VME interface
 1660  Creatix Polymedia GmbH
@@ -11095,6 +11148,10 @@
 	076b  OpenPCD 13.56MHz RFID Reader
 	076c  OpenPICC 13.56MHz RFID Simulator (native)
 	08ac  OpenBeacon USB stick
+	08ca  Alpermann+Velte Universal Display
+	08cb  Alpermann+Velte Studio Clock
+	08cc  Alpermann+Velte SAM7S MT Boot Loader
+	08cd  Alpermann+Velte SAM7X MT Boot Loader
 16cc  silex technology, Inc.
 16d3  Frontline Test Equipment, Inc.
 16d5  AnyDATA Corporation
@@ -11217,6 +11274,8 @@
 18ea  Matrox Graphics, Inc.
 	0002  DualHead2Go [Analog Edition]
 	0004  TripleHead2Go [Digital Edition]
+18ec  Arkmicro Technologies Inc.
+	3118  USB to IrDA adapter [ARK3116T]
 18fd  FineArch Inc.
 190d  Motorola GSG
 1914  Alco Digital Devices Limited
@@ -11536,6 +11595,8 @@
 	0101  CPX Adapter
 	0401  iL3-TP
 1e41  Cleverscope
+1e54  TypeMatrix
+	2030  2030 USB Keyboard
 1e68  TrekStor GmbH & Co. KG
 	001b  DataStation maxi g.u
 1ebb  NuCORE Technology, Inc.
@@ -11608,6 +11669,9 @@
 	7070  Nova-T Stick 3
 	9300  WinTV NOVA-T USB2 (cold)
 	9301  WinTV NOVA-T USB2 (warm)
+20b1  XMOS Ltd
+	10ad  XUSB Loader
+	f7d1  X2TAG - USB to JTAG interface
 2101  ActionStar
 	0201  SIIG 4-to-2 Printer Switch
 2162  Creative (?)
@@ -11623,6 +11687,8 @@
 	0001  Wally 2.2 chipset
 	0002  Wally 2.4 chipset
 	0005  V.60c/V.60i GSM Phone
+	0830  2386C-HT820
+	0833  2386C-HT820 [Flash Mode]
 	0850  Bluetooth Device
 	1001  Patriot 1.0 (GSM) chipset
 	1002  Patriot 2.0 chipset
