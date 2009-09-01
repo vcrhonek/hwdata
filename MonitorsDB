@@ -1361,6 +1361,7 @@ Dell; Dell E178WFP; DELD016; 30.0-83.0; 50.0-77.0; 1
 Dell; Dell E190S; DELA04B; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell E1909W(Analog); DELF00D; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E1909W(Digital); DELF00E; 30.0-83.0; 56.0-75.0; 1
+Dell; Dell E1909WDD(Disport); DELD020; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell E1910(Analog); DELD034; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E1910(Digital); DELD035; 30.0-83.0; 56.0-75.0; 1
 Dell; DELL E1910H; DELD023; 30.0-83.0; 56.0-75.0; 1
@@ -1454,6 +1455,9 @@ Dell; Dell P2210 (Digital); DEL404E; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell P2210H(Analog); DELD024; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell P2210H(Digital); DELD025; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell P2210H(Display Port); DELD026; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell P2310H(Analog); DELD027; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell P2310H(Digital); DELD028; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell P2310H(Display Port); DELD029; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell P780; del510f; 30.0-85.0; 48.0-120.0; 1
 Dell; Dell P790; del62f5; 30.0-92.0; 50.0-150.0; 1
 Dell; Dell P791; del3000; 30.0-96.0; 50.0-160.0; 1
