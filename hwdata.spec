@@ -38,7 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Tue Dec 15 2009 Karsten Hopp <karsten@redhat.com> 0.213.17-1
 - update pci.ids, usb.ids
-*
+
 * Wed Aug 05 2009 Phil Knirsch <pknirsch@redhat.com> 0.213.16-1
 - update pci.ids, usb.ids 
 
