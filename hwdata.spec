@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.225
-Release: 1%{?dist}
+Release: 4%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}.tar.bz2
@@ -37,6 +37,18 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Fri Jan 15 2010 Karsten Hopp <karsten@redhat.com> 0.225-4
+- update usb.ids pci.ids oui.txt
+
+* Mo Nov 30 2009 Dennis Gregorovic <dgregor@redhat.com> - 0.225-3.1
+- Rebuilt for RHEL 6
+
+* Fr Jul 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.225-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
+* Di Jul 07 2009 Adam Jackson <ajax@redhat.com> 0.225-2
+- pnp-dell.patch: Fix Dell's entry in pnp.ids
+
 * Thu Apr 09 2009 Adam Jackson <ajax@redhat.com> 0.224-1
 - Update pci.ids, usb.ids, and oui.txt
 - Add pnp.ids
