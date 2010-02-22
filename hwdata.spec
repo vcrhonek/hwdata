@@ -1,8 +1,8 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.226
+Version: 0.227
 Release: 1%{?dist}
-License: GPLv2+ and LGPLv2+
+License: GPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
@@ -37,6 +37,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Feb 22 2010 Karsten Hopp <karsten@redhat.com> 0.227-1
+- update usb.ids, pci.ids, oui.txt
+- update license
+
 * Fri Jan 15 2010 Karsten Hopp <karsten@redhat.com> 0.226-1
 - update release number
 
