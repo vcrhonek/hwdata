@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.228
+Version: 0.229
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Mar 29 2010 Karsten Hopp <karsten@redhat.com> 0.229-1
+- update usb.ids, out.txt and pci.ids for F-13 (#571914)
+
 * Wed Mar 17 2010 Phil Knirsch <pknirsch@redhat.com> 0.228-1
 - Blacklist chsc_sch for s390x
 - Resolves: #563228
