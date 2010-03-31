@@ -1220,6 +1220,8 @@ Daytek; Daytek TM-1770D; oec0707; 30.0-70.0; 50.0-120.0; 1
 Daytek; Vista v19; STC032b; 30.0-95.0; 50.0-160.0
 Dell; Alienware AW2210 (Digital); DEL404F; 30.0-83.0; 56.0-76.0; 1
 Dell; Alienware AW2210 (HDMI2); DEL4050; 30.0-83.0; 56.0-76.0; 1
+Dell; Alienware AW2310 (HDMI); DEL4052; 30.0-83.0; 56.0-76.0; 1
+Dell; Alienware AW2310 (Digital); DEL405C; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell 1024i; 0; 35.5; 87.0; 1
 Dell; Dell 1024i-P/1024i-Color; 0; 35.5; 87.0; 1
 Dell; Dell 1024x768 Laptop Display Panel; QDS005; 31.5-48.5; 59.0-75.0; 1
@@ -1410,7 +1412,9 @@ Dell; Dell G2210 (Analog); DELD01E; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell G2410 (Analog); DEL404A; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell G2410 (Digital); DEL404B; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell Hewitt; 0; 30.0-48.1; 50.0-72.0; 1
+Dell; DELL IN1720(Analog); DELD040; 30.0-83.0; 50.0-75.0; 1
 Dell; Dell IN1910N(Analog); DELA04C; 30.0-83.0; 56.0-75.0; 1
+Dell; DELL IN1920(Analog); DELF021; 30.0-83.0; 50.0-75.0; 1
 Dell; Dell IN2010N(Analog); DELA049; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell Laptop Display Panel 1024x768; QDS005; 31.5-48.5; 59.0-75.0; 1
 Dell; Dell Laptop Display Panel 1280x1024; 0; 31.5-90.0; 59.0-75.0; 1
@@ -1506,6 +1510,9 @@ Dell; Dell ST2210(HDMI); DELA05A; 30.0-83.0; 50.0-76.0; 1
 Dell; Dell ST2310; DELF01B; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell ST2310; DELF01C; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell ST2310; DELF01D; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell ST2310WA_Analog; DELF01E; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell ST2310WA_Digital; DELF01F; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell ST2310WA_HDMI; DELF020; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell ST2410(Analog); DELA05B; 30.0-83.0; 50.0-76.0; 1
 Dell; Dell ST2410(Digital); DELA05C; 30.0-83.0; 50.0-76.0; 1
 Dell; Dell ST2410(HDMI); DELA05D; 30.0-83.0; 50.0-76.0; 1
@@ -1520,10 +1527,17 @@ Dell; Dell Super VGA Colour; 0; 29.0-38.0; 47.0-100.0; 1
 Dell; Dell Super VGA DL 1428 I/L; 0; 35.5; 87.0; 1
 Dell; Dell Super VGA Jostens; 0; 30.0-48.1; 50.0-72.0; 1
 Dell; Dell UGA DL 1460 NI; 0; 30.0-58.2; 50.0-72.2; 1
+Dell; Dell U2211H (Analog); DEL405D; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell U2211H (Digital); DEL405E; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell U2211H (DP); DEL405F; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell U2410(Analog); DELF014; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell U2410(Digital); DELF015; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell U2410(HDMI); DELF016; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell U2410(DP); DELF017; 30.0-81.0; 56.0-76.0; 1
+Dell; Dell U2711(Analog); DELA054; 29.0-94.0; 49.0-86.0; 1
+Dell; Dell U2711(Digital); DELA055; 29.0-113.0; 49.0-86.0; 1
+Dell; Dell U2711(HDMI); DELA056; 30.0-81.0; 56.0-76.0; 1
+Dell; Dell U2711(DP); DELA057; 29.0-113.0; 49.0-86.0; 1
 Dell; Dell Ultrascan 14C; 0; 30.0-50.0; 50.0-90.0; 1
 Dell; Dell Ultrascan 14C-E; 0; 30.0-60.0; 50.0-100.0; 1
 Dell; Dell Ultrascan 14C-EN; 0; 30.0-60.0; 50.0-100.0; 1
