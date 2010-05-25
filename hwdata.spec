@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.229
+Version: 0.230
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -37,6 +37,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue May 25 2010 Phil Knirsch <pknirsch@redhat.com> 0.230-1
+- update usb.ids, out.txt and pci.ids
+- Resolves: #584788
+
 * Mon Mar 29 2010 Karsten Hopp <karsten@redhat.com> 0.229-1
 - update usb.ids, out.txt and pci.ids for F-13 (#571914)
 
