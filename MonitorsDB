@@ -2160,6 +2160,7 @@ Hewlett-Packard; HP L2335 Flat Panel Monitor; HWP2615; 30.0-107.0; 48.0-85.0; 1
 Hewlett-Packard; HP L2335 LCD Flat Panel Monitor; hwp2615; 30.0-92.0; 48.0-85.0; 1
 Hewlett-Packard; HP LP2065 Flat Panel Monitor; hwp0a72; 30.0-92.0; 48.0-85.0; 1
 Hewlett-Packard; HP LP2465 Flat Panel Monitor; hwp2676; 30.0-92.0; 48.0-85.0; 1
+Hewlett-Packard; HP LP2475w Widescreen LCD Monitor; HWP26f7; 30-94; 48-85; 1
 Hewlett-Packard; HP LP3065 Wide LCD Monitor; HWP2690; 98.0-100.0; 59-60; 1
 Hewlett-Packard; HP M500 15-inch Display; 0; 30-70; 50-120
 Hewlett-Packard; HP M700 17-inch Display; 0; 30-86; 50-160
@@ -4766,6 +4767,8 @@ Samsung; Samsung SyncMaster 241MP/245MP; SAMOO4B; 30-85; 50-85; 1
 Samsung; Samsung SyncMaster 243T/CX240T (Analog); SAM00D9; 30-80; 55-75; 1
 Samsung; Samsung SyncMaster 243T/CX240T (Digital); SAM00F7; 30-80; 55-75; 1
 Samsung; Samsung SyncMaster 2443BWX; SAM043F; 30-81; 56-60; 1
+Samsung; Samsung SyncMaster 2494HM (Analog); SAM04d3; 30-81; 56-60; 1
+Samsung; Samsung SyncMaster 2494HM (Digital); SAM04d4; 30-81; 56-60; 1
 Samsung; Samsung SyncMaster 3; sam3; 35.5; 43.5; 1
 Samsung; Samsung SyncMaster 3; samsungsm3; 35.5; 43.5; 1
 Samsung; Samsung SyncMaster 320TFT (LXB310*); sam6053; 30-61; 50-75; 1
