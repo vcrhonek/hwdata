@@ -58,12 +58,12 @@ rm -rf $RPM_BUILD_ROOT
 - Blacklist chsc_sch for s390x
 - Resolves: #563228
 
+* Tue Feb 23 2010 Dave Airlie <airlied@redhat.com> 0.227-1
+- add viafb to blacklist
+
 * Mon Feb 22 2010 Karsten Hopp <karsten@redhat.com> 0.227-1
 - update usb.ids, pci.ids, oui.txt
 - update license
-
-* Tue Feb 23 2010 Dave Airlie <airlied@redhat.com> 0.227-1
-- add viafb to blacklist
 
 * Fri Jan 15 2010 Karsten Hopp <karsten@redhat.com> 0.226-1
 - update release number
