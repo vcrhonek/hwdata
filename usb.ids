@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2010.08.03
-# Date:    2010-08-03 20:34:17
+# Version: 2010.08.24
+# Date:    2010-08-24 20:34:18
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -1040,8 +1040,10 @@
 	3060  Sound Blaster Audigy 2 ZS External
 	3061  SoundBlaster Audigy 2 ZS Video Editor
 	3090  Sound Blaster Digital Music SX
+	3f00  E-Mu Xboard 25 MIDI Controller
 	3f02  E-Mu 0202
 	3f04  E-Mu 0404
+	3f07  E-Mu Xmidi 1x1
 	4003  VideoBlaster Webcam Go Plus [W9967CF]
 	4004  Nomad II MG
 	4005  Webcam Blaster Go ES
@@ -1114,6 +1116,7 @@
 	411c  Nomad MuVo USB 2.0
 	411d  Zen
 	411e  Zen Micro
+	4120  Nomad MuVo TX FM
 	4123  Zen Portable Media Center
 	4124  MuVo^2 FM (uHDD)
 	4126  Dell DJ (2nd gen)
@@ -1174,6 +1177,8 @@
 	0157  5800 XpressMusic (Imaging mode)
 	01c7  N900 (Storage Mode)
 	01c8  N900 (PC-Suite Mode)
+	0295  660i Slide Phone (Mass Storage)
+	0297  660i Slide Phone (Still Image)
 	02e1  5230 (Storage mode)
 	02e2  5230 (Multimedia mode)
 	02e3  5230 (PC-Suite mode)
@@ -1562,6 +1567,8 @@
 0454  Vobis Microcomputer AG
 0455  Telematics International, Inc.
 0456  Analog Devices, Inc.
+	f000  FT2232 JTAG ICE [gnICE]
+	f001  FT2232H Hi-Speed JTAG ICE [gnICE+]
 0457  Silicon Integrated Systems Corp.
 	0150  Super Talent 1GB Flash Drive
 	0151  Super Flash 1GB / GXT  64MB Flash Drive
@@ -1918,6 +1925,7 @@
 	076d  LifeCam HD-5000
 	930a  ISOUSB.SYS Intel 82930 Isochronous IO Test Board
 	fff8  Keyboard
+	ffff  Windows CE Mass Storage
 0460  Ace Cad Enterprise Co., Ltd
 	0004  Tablet (5x3.75)
 	0006  LCD Tablet (12x9)
@@ -2174,6 +2182,7 @@
 	c061  RX1500 Laser Mouse
 	c068  G500 Laser Mouse
 	c101  UltraX Media Remote
+	c110  Harmony Remote 885
 	c122  Harmony 700 Remote
 	c201  WingMan Extreme Joystick with Throttle
 	c202  WingMan Formula
@@ -2384,6 +2393,7 @@
 	203f  TSU9200 Remote Control
 	2046  TSU9800 Remote Control
 	205e  TSU9300 Remote Control
+	2088  MCE IR Receiver with ALS- Spinel plus for ASUS
 	262c  SPC230NC Webcam
 	485d  Senselock SenseIV v2.x
 	df55  LPCXpresso LPC-Link
@@ -2923,6 +2933,7 @@
 	173e  MP560
 	1900  CanoScan LiDE 90
 	1901  CanoScan 8800F
+	1904  CanoScan LiDE 100
 	1905  CanoScan LiDE 200
 	2200  CanoScan LiDE 25
 	2201  CanoScan FB320U
@@ -3218,6 +3229,7 @@
 	0206  Coolpix 5200 (ptp)
 	0301  Coolpix 2000 (storage)
 	0302  Coolpix 2000 (ptp)
+	0317  Coolpix L20 (ptp)
 	0402  DSC D100 (ptp)
 	0403  D2H (mass storage mode)
 	0404  D2H SLR (ptp)
@@ -3421,6 +3433,7 @@
 	083e  MFP Composite Device
 	083f  Stylus DX4450
 	0849  Stylus SX205
+	084d  Stylus SX115
 04b9  Rainbow Technologies, Inc.
 	0300  SafeNet USB SuperPro/UltraPro
 	1000  iKey 1000 Token
@@ -3457,6 +3470,7 @@
 	031b  USB2-IDE/ATAPI Bridge Adapter
 	031e  USB-SDRW SD-card
 	0502  Nogatech Live! (BT)
+	0528  GV-USB Video Capture
 	0901  USB ETT
 	0904  ET/TX Ethernet [pegasus]
 	0913  ET/TX-S Ethernet [pegasus2]
@@ -3670,6 +3684,8 @@
 	8000  In-Circuit Debugger
 	8001  ICD2 in-circuit debugger
 	c001  PicoLCD 20x4
+	fbba  DiscFerret Magnetic Disc Analyser (bootloader mode)
+	fbbb  DiscFerret Magnetic Disc Analyser (active mode)
 04d9  Holtek Semiconductor, Inc.
 	0022  Portable Keyboard
 	048e  Optical Mouse
@@ -3882,6 +3898,7 @@
 	3276  ML-3050/ML-3051 Laser Printer
 	328e  CLP-310 Color Laser Printer
 	3296  ML-2580N Mono Laser Printer
+	3297  ML-191x/ML-252x Laser Printer
 	3409  SCX-4216F Scanner
 	340c  SCX-5x15 series
 	340d  SCX-6x20 series
@@ -3939,7 +3956,7 @@
 	5f02  NEXiO Sync
 	5f03  NEXiO Sync
 	5f04  NEXiO Sync
-	6601  Z100 Mobile Phone
+	6601  Mobile Phone
 	6611  MITs Sync
 	6613  MITs Sync
 	6615  MITs Sync
@@ -4048,6 +4065,7 @@
 04f3  Elan Microelectronics Corp.
 	0210  AM-400 Hama Optical Mouse
 	0212  Laser Mouse
+	02f4  2.4G Cordless Mouse
 04f4  Harting Elektronik, Inc.
 04f5  Fujitsu-ICL Systems, Inc.
 04f6  Norand Corp.
@@ -4088,7 +4106,7 @@
 	0028  Printer
 	0029  Printer
 	002a  HL-52x0 series
-	002b  Printer
+	002b  HL-5250DN Printer
 	002c  Printer
 	002d  Printer
 	0100  MFC8600/9650 series
@@ -4700,7 +4718,7 @@
 	0258  IFU-WLM2 USB Wireless LAN Module (Memory Mode)
 	0259  IC RECORDER
 	0267  Tachikoma Device
-	0268  Batoh Device
+	0268  Batoh Device / PlayStation 3 Controller
 	0269  HDD WALKMAN
 	026a  HDD WALKMAN
 	0271  IC Recorder (P)
@@ -4724,6 +4742,7 @@
 	0382  Memory Stick PRO-HG Duo Adaptor (MSAC-UAH1)
 	03bc  Webbie HD - MHS-CM1
 	03d3  DR-BT100CX
+	03fc  WALKMAN [NWZ-E345]
 	03fd  WALKMAN
 	0440  DSC-H55
 	1000  Wireless Buzz! Receiver
@@ -5447,6 +5466,7 @@
 	9720  Keyboard Mouse
 	9722  Keyboard
 	9731  MCK-600W/MCK-800USB Keyboard
+	9783  Wireless Keypad
 05a5  Sampo Technology Corp.
 05a6  Cisco Systems, Inc.
 	0001  CVA124 Cable Voice Adapter (WDM)
@@ -5536,6 +5556,7 @@
 	0306  Optical USB Mouse [Fujitsu]
 	030a  Internal Trackpad
 	030b  Internal Trackpad
+	030e  Wireless Trackpad [Magic Trackpad]
 	1000  Bluetooth HCI MacBookPro (HID mode)
 	1001  Keyboard Hub [ALPS]
 	1002  Extended Keyboard Hub [Mitsumi]
@@ -5632,6 +5653,7 @@
 	0004  AccelePort USB 4
 	0008  AccelePort USB 8
 05c6  Qualcomm, Inc.
+	0114  Select RW-200 CDMA Wireless Modem
 	1000  Mass Storage Device
 	3100  CDMA Wireless Modem/Phone
 	3196  CDMA Wireless Modem
@@ -6003,6 +6025,7 @@
 	0761  Genesys Mass Storage Device
 	0780  USBFS DFU Adapter
 	07a0  Pen Flash
+	0880  Wasp (SL-6612)
 	0927  Card Reader
 	1205  Afilias Optical Mouse H3003
 	a700  Pen Flash
@@ -6152,6 +6175,7 @@
 	0001  Notebook Optical Mouse
 	0102  Wireless Keyboard/Mouse Combo [MK1152WC]
 	0201  Defender Office Keyboard (K7310) S Zodiak KM-9010
+	0252  Emerge Uni-retractable Laser Mouse
 	9003  VoIP Conference Hub (A16GH)
 	9004  USR9602 USB Internet Mini Phone
 062b  Greatlink Electronics Taiwan, Ltd
@@ -6209,7 +6233,8 @@
 	03ec  Inspectrum 256x1024 B VIS Spectrograph
 0648  Inside Out Networks
 0649  Weli Science Co., Ltd
-064b  White Mountain DSP, Inc.
+064b  Analog Devices, Inc. (White Mountain DSP)
+	0165  Blackfin 535 [ADZS HPUSB ICE]
 064c  Ji-Haw Industrial Co., Ltd
 064d  TriTech Microelectronics, Ltd
 064e  Suyin Corp.
@@ -6226,6 +6251,7 @@
 	f102  Lenovo Integrated Webcam [R5U877]
 	f103  Lenovo Integrated Webcam [R5U877]
 064f  WIBU-Systems AG
+	03e9  Propellerhead Record Ignition Key
 	0bd7  BOX/U
 	0bd8  BOX/RU
 0650  Dynapro Systems
@@ -6606,6 +6632,7 @@
 	056f  P2000 Tilt Pad
 	05d2  PC Dash 2
 	075c  X52 Flight Controller
+	0762  Saitek X52 Pro Flight Control System
 	0805  R440 Force Wheel
 	1003  GM2 Action Pad
 	1009  Action Pad
@@ -6628,6 +6655,7 @@
 	80c0  Pro Gamer Command Unit
 	80c1  Cyborg Command Pad Unit
 	a502  Gaming Mouse
+	f518  P3200 Rumble Force Game Pad
 	ff04  R440 Force Wheel
 	ff0c  Cyborg Force Rumble Pad
 	ff0d  P2600 Rumble Force Pad
@@ -7089,6 +7117,7 @@
 	4576  XBox Device
 	4586  XBox Device
 	4588  XBox Device
+	8818  Street Fighter IV Arcade FightStick (PS3)
 073a  Chaplet Systems, Inc.
 073b  Suncom Technologies
 073c  Industrial Electronic Engineers, Inc.
@@ -8464,13 +8493,14 @@
 0919  Tiger Electronics
 	0100  Fast Flicks Digital Camera
 091e  Garmin International
-	0003  GPSmap (various models)
+	0003  GPS (various models)
 	0004  iQue 3600
 	0200  Data Card Programmer (install)
 	1200  Data Card Programmer
 	21a5  etrex Cx (msc)
 	2271  Edge 605/705
 	2295  Colorado 300
+	22b6  eTrex Vista HCx (Mass Storage mode)
 	2353  Nüvi 205T
 0920  Echelon Co.
 	7500  Network Interface
@@ -8642,6 +8672,7 @@
 	010d  nanoKEY MIDI keyboard
 	010e  nanoPAD pad controller
 	010f  nanoKONTROL studio controller
+	0f03  K-Series K61P MIDI studio controller
 0945  Pasco Scientific
 0948  Kronauer music in digital
 	0301  USB Pro (24/48)
@@ -9000,6 +9031,7 @@
 	21b1  HP Bluetooth Module
 	4500  BCM2046B1 USB 2.0 Hub (part of BCM2046 Bluetooth)
 	4502  Keyboard (Boot Interface Subclass)
+	4503  Mouse (Boot Interface Subclass)
 	5800  BCM5880 Secure Applications Processor
 	5801  BCM5880 Secure Applications Processor with fingerprint swipe sensor
 	5802  BCM5880 Secure Applications Processor with fingerprint touch sensor
@@ -9270,7 +9302,7 @@
 	1761  802.11n Network Adapter
 	1774  Gobi Wireless Modem (QDL mode)
 	1776  Gobi Wireless Modem
-	1784  802.11n Network Adapter
+	1784  USB-N13 802.11n Network Adapter [Ralink RT2870]
 	6101  Cable Modem
 	620a  Remote NDIS Device
 	b700  Broadcom Bluetooth 2.1
@@ -9278,6 +9310,7 @@
 	106e  Datamax E-4304
 0b0c  Todos AB
 	0009  Todos Argos Mini II Smart Card Reader
+	001e  e.dentifier2 (ABN AMRO electronic banking card reader NL)
 	002e  C200 smartcard controller (Nordea card reader)
 	003f  Todos C400 smartcard controller (Handelsbanken card reader)
 	0050  Argos Mini II Smart Card Reader (CCID)
@@ -9398,11 +9431,15 @@
 0b7c  ITRAN Communications, Ltd
 0b7d  Astrodesign, Inc.
 0b81  id3 Semiconductors
+	0001  Biothentic II smartcard reader with fingerprint sensor
+	0002  DFU-Enabled Devices (DFU)
+	0012  BioPAD biometric module (DFU + CDC)
 	0102  Certis V1 fingerprint reader
-	0200  CL1356T / CL1356A / CL1356T5 smartcard readers
-	0220  CL1356A FFPJP smartcard reader
-	1003  CERTIS2 fingerprint reader
-	1004  CERTIS2 fingerprint reader
+	0103  Certis V2 fingerprint reader
+	0200  CL1356T / CL1356T5 / CL1356A smartcard readers (CCID)
+	0201  CL1356T / CL1356T5 / CL1356A smartcard readers (DFU + CCID)
+	0220  CL1356A FFPJP smartcard reader (CCID + HID)
+	0221  CL1356A smartcard reader (DFU + CCID + HID)
 0b84  Rextron Technology, Inc.
 0b85  Elkat Electronics, Sdn., Bhd.
 0b86  Exputer Systems, Inc.
@@ -10732,7 +10769,7 @@
 0e8f  GreenAsia Inc.
 	0003  MaxFire Blaze2
 	0012  USB Wireless 2.4GHz Gamepad
-	0016  4 port HUB
+	0016  4 port USB 1.1 hub UH-174
 	0020  USB to PS/2 Adapter
 	0021  Multimedia Keyboard Controller
 	0201  SmartJoy Frag Xpad/PS2 adaptor
@@ -10980,6 +11017,7 @@
 	10af  V640i Phone [PictBridge]
 	10d4  C902 Phone [PictBridge]
 	2105  W715 Phone
+	8004  9000 Phone [Mass Storage]
 	d008  V800-Vodafone 802SE Phone
 	d016  K750i Phone
 	d017  K608i Phone
@@ -10991,6 +11029,7 @@
 	d042  W810i Phone
 	d043  V630i Phone
 	d046  K610i Phone
+	d065  W960i Phone (PC Suite)
 	d089  W580i Phone
 	d0af  V640i Phone
 	d0cf  MD300 Mobile Broadband Modem
@@ -10998,6 +11037,7 @@
 	d0e1  MD400 Mobile Broadband Modem
 	e042  W810i Phone
 	e043  V630i Phone [Mass Storage]
+	e090  W200 Phone (Mass Storage)
 	e0af  V640i Phone [Mass Storage]
 	e0d4  C902 Phone [Mass Storage] 
 	e12e  X10i Phone
@@ -11572,6 +11612,7 @@
 1235  Novation EMS
 	0001  ReMOTE Audio/XStation
 	0002  Speedio
+	0003  ReMOTE ZeRO SL
 	4661  ReMOTE25
 1241  Belkin
 	1111  Mouse
@@ -11655,6 +11696,7 @@
 	1001  E620 USB Modem
 	1003  E220 HSDPA Modem / E230/E270 HSDPA/HSUPA Modem
 	1009  U120
+	1010  ETS2252+ CDMA Fixed Wireless Terminal
 	140b  EC1260 Wireless Data Modem HSD USB Card
 	1446  E1552 (HSPA modem)
 12d2  LINE TECH INDUSTRIAL CO., LTD.
@@ -11748,6 +11790,7 @@
 134e  Digby's Bitpile, Inc. DBA D Bit
 1357  P&E Microcomputer Systems
 	0503  USB-ML-12 HCS08/HCS12 Multilink
+	0504  DEMOJM
 1366  SEGGER
 	0101  J-Link ARM
 136b  STEC
@@ -11857,6 +11900,7 @@
 	3274  DVB-T Dongle [RTL2832U]
 	3282  DVB-T + GPS Minicard [RTL2832U]
 	3284  Wireless LAN USB Mini-Card
+	3306  WLAN [RTL8191S]
 	5111  Integrated Webcam
 	5115  Integrated Webcam
 	5116  Integrated Webcam
@@ -11873,6 +11917,7 @@
 13fd  Initio Corporation
 	0841  Samsung SE-T084M DVD-RW
 	1340  Hi-Speed USB to SATA Bridge
+	160f  RocketFish SATA Bridge [INIC-1611]
 13fe  Kingston Technology Company Inc.
 	1a00  512MB/1GB Flash Drive
 	1a23  512MB Flash Drive
@@ -12293,6 +12338,9 @@
 1628  Stonestreet One, Inc.
 162a  Airgo Networks Inc.
 162f  WiQuest Communications, Inc.
+1630  2Wire, Inc.
+	0005  802.11g Wireless Adapter [Intersil ISL3886]
+	ff81  802.11b Wireless Adapter [Lucent/Agere Hermes I]
 1631  Good Way Technology
 	6200  GWUSB2E
 	c019  RT2573
@@ -12786,7 +12834,7 @@
 	0031  ZTE MF636
 	0064  ZTE MF627 AU
 	0103  ZTE MF112
-	2000  ZTE MF627/MF628/MF628+ HSDPA
+	2000  ZTE MF627/MF628/MF628+/MF636+ HSDPA/HSUPA
 	fff2  Gobi Wireless Modem (QDL mode)
 	fff3  Gobi Wireless Modem
 19e1  WeiDuan Electronic Accessory (S.Z.) Co., Ltd.
@@ -13083,6 +13131,8 @@
 1d0a  Johnson Controls, Inc. The Automotive Business Unit
 1d0b  HAN HUA CABLE & WIRE TECHNOLOGY (J.X.) CO., LTD.
 1d14  ALPHA-SAT TECHNOLOGY LIMITED
+1d17  C-Thru Music Ltd.
+	0001  AXiS-49 Harmonic Table MIDI Keyboard
 1d19  Dexatek Technology Ltd.
 	1101  DK DVB-T Dongle
 	1102  DK mini DVB-T Dongle
@@ -13112,6 +13162,7 @@
 	0101  CPX Adapter
 	0401  iL3-TP
 1e41  Cleverscope
+	0001  CS328A PC Oscilloscope
 1e54  TypeMatrix
 	2030  2030 USB Keyboard
 1e68  TrekStor GmbH & Co. KG
@@ -13136,6 +13187,8 @@
 1f84  Inverness Medical Innovations, Inc.
 1f87  Stantum
 	0002  Multi-touch HID Controller
+1fbd  Delphin Technology AG
+	0001  Expert Key - Data aquisition system
 1fe7  Vertex Wireless Co., Ltd.
 	1000  VW100 series CDMA EV-DO Rev.A modem
 2001  D-Link Corp.
@@ -13247,6 +13300,10 @@
 	c010  Windham
 2047  Texas Instruments
 	0200  MSP430 USB HID Bootstrap Loader
+2087  Cando
+	0a01  Multi Touch Panel
+	0a02  Multi Touch Panel
+	0b03  Multi Touch Panel
 20b1  XMOS Ltd
 	10ad  XUSB Loader
 	f7d1  X2TAG - USB to JTAG interface
@@ -13270,6 +13327,8 @@
 	6323  USB Electronic Scale
 2237  Kobo Inc.
 	4161  eReader White
+22a6  Pie Digital, Inc.
+	ffff  PieKey "beta" 4GB model 4E4F41482E4F5247 (SM3251Q BB)
 22b8  Motorola PCS
 	0001  Wally 2.2 chipset
 	0002  Wally 2.4 chipset
@@ -13592,7 +13651,7 @@
 	5202  Printing Support
 	5203  Printing Support
 	5210  Printing Support
-	5211  Printing Support
+	5211  1110 Laser Printer
 	5220  Laser MFP 1600n
 	5225  Printing Support
 	5226  Printing Support
@@ -13698,6 +13757,8 @@
 	4013  WLAN Adapter
 5173  Sweex
 	1809  ZD1211
+5219  I-Tetra
+	1001  Cetus CDC Device
 5345  Owon
 	1234  PDS6062T Oscilloscope
 544d  Transmeta Corp.
@@ -13764,6 +13825,8 @@
 6253  TwinHan Technology Co., Ltd
 	0100  Ir reciver f. remote control
 636c  CoreLogic, Inc.
+6472  Unknown (Sony?)
+	01c8  PlayStation Portable [Mass Storage]
 6547  Arkmicro Technologies Inc.
 	0232  ARK3116 Serial
 6615  IRTOUCHSYSTEMS Co. Ltd.
@@ -13785,6 +13848,8 @@
 6a75  Shanghai Jujo Electronics Co., Ltd
 7104  CME (Central Music Co.)
 	2202  UF5/UF6/UF7/UF8 MIDI Master Keyboard
+726c  StackFoundry LLC
+	2149  EntropyKing Random Number Generator
 734c  TBS Technologies China
 	5920  Q-Box II DVB-S2 HD
 	5928  Q-Box II DVB-S2 HD
@@ -13836,6 +13901,8 @@
 8087  Intel Corp.
 	0020  Integrated Rate Matching Hub
 	0024  Integrated Rate Matching Hub
+80ee  VirtualBox
+	0021  USB Tablet
 8282  Keio
 	3201  Retro Adapter
 	3301  Retro Adapter Mouse

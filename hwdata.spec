@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.232
+Version: 0.233
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -37,15 +37,14 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Aug 25 2010 Karsten Hopp <karsten@redhat.com> 0.233-1
+- update usb.ids, out.txt and pci.ids
+
 * Thu Aug 05 2010 Karsten Hopp <karsten@redhat.com> 0.232-1
 - update usb.ids, out.txt and pci.ids (#550020, #611860)
 - fix incorrect syntax doc/comment in blacklist.conf (Ville Skyttä, #532802)
 - add Acer B243HL and BenQ G2420HDBL (Ville Skyttä, #590787)
 - add HP LP2475w and Samsung 2494HM (Ville Skyttä, #595059)
-
-
-
-
 
 * Tue May 25 2010 Phil Knirsch <pknirsch@redhat.com> 0.230-1
 - update usb.ids, out.txt and pci.ids

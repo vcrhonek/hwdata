@@ -8839,10 +8839,10 @@ company_id			Organization
 				San Jose CA 95134
 				UNITED STATES
 
-00-05-4B   (hex)		Micro Innovation AG
-00054B     (base 16)		Micro Innovation AG
+00-05-4B   (hex)		Eaton Automation AG
+00054B     (base 16)		Eaton Automation AG
 				Spinnereistrasse 8
-				9008 St.Gallen
+				St.Gallen  9008 
 				SWITZERLAND
 
 00-05-4C   (hex)		RF Innovations Pty Ltd
@@ -10993,11 +10993,10 @@ company_id			Organization
 				HÄGERSTEN SE-126 53
 				SWEDEN
 
-00-06-9D   (hex)		Petards Mobile Intelligence
-00069D     (base 16)		Petards Mobile Intelligence
-				The Old Barn, Appleford Road
-				Long Wittenham, Abingdon
-				Oxford  OX14 4RS
+00-06-9D   (hex)		Petards Ltd
+00069D     (base 16)		Petards Ltd
+				390 Princesway, Team Valley
+				Gateshead Tyne and Wear NE11 OTU
 				UNITED KINGDOM
 
 00-06-9E   (hex)		UNIQA, Inc.
@@ -15167,10 +15166,11 @@ company_id			Organization
 				Niwot Colorado 80503
 				UNITED STATES
 
-00-09-51   (hex)		Apogee Instruments, Inc
-000951     (base 16)		Apogee Instruments, Inc
-				11760 Atwood Road, Suite 4
-				Auburn CA 95603
+00-09-51   (hex)		Apogee Imaging Systems
+000951     (base 16)		Apogee Imaging Systems
+				151 Sunrise Avenue
+				Suite 902
+				Roseville CA 95661
 				UNITED STATES
 
 00-09-52   (hex)		Auerswald GmbH & Co. KG
@@ -20281,8 +20281,8 @@ company_id			Organization
 
 00-0C-7B   (hex)		ALPHA PROJECT Co.,Ltd.
 000C7B     (base 16)		ALPHA PROJECT Co.,Ltd.
-				4-4-24 Kamijima
-				Hamamatsu Shizuoka 433-8122
+				834 Sekishi,Higashi-ku,Hamamatsu-city
+				Shizuoka  431-3114
 				JAPAN
 
 00-0C-7C   (hex)		Internet Information Image Inc.
@@ -24564,8 +24564,8 @@ company_id			Organization
 
 00-0F-25   (hex)		AimValley B.V.
 000F25     (base 16)		AimValley B.V.
-				Anton Philipsweg 1
-				Hilversum NH 1223 KZ
+				Utrechtseweg 38,
+				Hilversum NH 1223 TV
 				NETHERLANDS
 
 00-0F-26   (hex)		WorldAccxx  LLC
@@ -27147,10 +27147,10 @@ company_id			Organization
 				MINATO-KU,   TOKYO 105-0011
 				JAPAN
 
-00-10-BE   (hex)		TELEXIS CORP.
-0010BE     (base 16)		TELEXIS CORP.
-				2427 HOLLY LANE
-				OTTAWA, ONTARIO K1V 7P2  7P2
+00-10-BE   (hex)		MARCH NETWORKS CORPORATION
+0010BE     (base 16)		MARCH NETWORKS CORPORATION
+				303 Terry Fox Drive
+				OTTAWA, ONTARIO   K2K 3J1
 				CANADA
 
 00-10-BF   (hex)		InterAir Wireless
@@ -27363,11 +27363,10 @@ company_id			Organization
 				TAIPEI HSIEN  
 				TAIWAN, REPUBLIC OF CHINA
 
-00-10-E0   (hex)		Sun Microsystems, Inc.
-0010E0     (base 16)		Sun Microsystems, Inc.
-				17Network Circle
-				Building 17, UMPK17-131
-				Menlo Park CA 94025
+00-10-E0   (hex)		Oracle Corporation
+0010E0     (base 16)		Oracle Corporation
+				500 Oracle Parkway
+				Redwood Shores CA 94065
 				UNITED STATES
 
 00-10-E1   (hex)		S.I. TECH, INC.
@@ -27829,8 +27828,8 @@ company_id			Organization
 				Sint-Niklaas O/V 9100
 				BELGIUM
 
-00-11-2B   (hex)		NetModule
-00112B     (base 16)		NetModule
+00-11-2B   (hex)		NetModule AG
+00112B     (base 16)		NetModule AG
 				Meriedweg 11
 				Niederwangen CH 3172
 				SWITZERLAND
@@ -34858,10 +34857,10 @@ company_id			Organization
 				Seongnam-City Kyeonggi-Do 463-775
 				KOREA, REPUBLIC OF
 
-00-15-7E   (hex)		HEYFRA ELECTRONIC gmbH
-00157E     (base 16)		HEYFRA ELECTRONIC gmbH
-				Herner Str. 5
-				Eisleben Sachsen/Anhalt 06295
+00-15-7E   (hex)		Weidmï¿½ller Interface GmbH & Co. KG   
+00157E     (base 16)		Weidmï¿½ller Interface GmbH & Co. KG   
+				Klingenbergstraï¿½e 16
+				Detmold  32758 
 				GERMANY
 
 00-15-7F   (hex)		ChuanG International Holding CO.,LTD.
@@ -45474,10 +45473,11 @@ company_id			Organization
 				Wan Chai  
 				HONG KONG
 
-00-1C-08   (hex)		Anystream, Inc.
-001C08     (base 16)		Anystream, Inc.
-				21335 Signal Hill Plaza
-				Sterling VA 20164
+00-1C-08   (hex)		Echo360, Inc.
+001C08     (base 16)		Echo360, Inc.
+				21000 Atlantic Blvd
+				Suite 600
+				Dulles VA 20166
 				UNITED STATES
 
 00-1C-09   (hex)		SAE Electronic Co.,Ltd.
@@ -53452,10 +53452,10 @@ company_id			Organization
 				INDIA
 				INDIA
 
-00-20-F2   (hex)		SUN MICROSYSTEMS, INC.
-0020F2     (base 16)		SUN MICROSYSTEMS, INC.
-				4200 Network Circle
-				Santa Clara CA 95054
+00-20-F2   (hex)		Oracle Corporation 
+0020F2     (base 16)		Oracle Corporation 
+				500 Oracle Parkway
+				Redwood Shores CA 95065
 				UNITED STATES
 
 00-20-F3   (hex)		RAYNET CORPORATION
@@ -56003,9 +56003,8 @@ company_id			Organization
 
 00-22-88   (hex)		Sagrad, Inc.
 002288     (base 16)		Sagrad, Inc.
-				4325 Woodland Park Drive
-				Suite 101
-				W. Melbourne FL 32904
+				751 North Drive
+				Melbourne FL 32934
 				UNITED STATES
 
 00-22-89   (hex)		Optosecurity Inc.
@@ -59894,7 +59893,7 @@ company_id			Organization
 0024F2     (base 16)		Uniphone Telecommunication Co., Ltd.
 				No. 25, Chu-Kung 3rd Lane, Chu-Hou Tsung, Jen-Wu Hsiang,
 				Kaohsiung Hsien  81448
-				TAIWAN, REPUBLIC OF CHINA
+				TAIWAN, PROVINCE OF CHINA
 
 00-24-F3   (hex)		Nintendo Co., Ltd.
 0024F3     (base 16)		Nintendo Co., Ltd.
@@ -71869,8 +71868,8 @@ company_id			Organization
 
 00-90-2A   (hex)		COMMUNICATION DEVICES, INC.
 00902A     (base 16)		COMMUNICATION DEVICES, INC.
-				ONE FORSTMANN COURT
-				CLIFTON NJ 07011
+				85 Fulton Street
+				Boonton NJ 07005-1912
 				UNITED STATES
 
 00-90-2B   (hex)		CISCO SYSTEMS, INC.
@@ -74927,10 +74926,10 @@ company_id			Organization
 				San Jose CA 95134
 				UNITED STATES
 
-00-B0-52   (hex)		Intellon Corporation
-00B052     (base 16)		Intellon Corporation
-				5100 West Silver Springs Blvd.
-				Ocala FL 34482
+00-B0-52   (hex)		Atheros Communications
+00B052     (base 16)		Atheros Communications
+				5955 T.G. Lee Blvd, Ste. 600
+				Ocala FL 32822
 				UNITED STATES
 
 00-B0-64   (hex)		Cisco Systems, Inc.
@@ -80316,11 +80315,24 @@ company_id			Organization
 				Seoul  138-801
 				KOREA, REPUBLIC OF
 
+04-75-F5   (hex)		CSST
+0475F5     (base 16)		CSST
+				Building 6, CSST industrial park, Tong fuyu Industrial zone
+				Guangmin District
+				Shenzhen Guangdong 518107
+				CHINA
+
 04-76-6E   (hex)		ALPS Co,. Ltd.
 04766E     (base 16)		ALPS Co,. Ltd.
 				6-3-36 Furukawanakazato,
 				Osaki Miyagi-pref 989-6181
 				JAPAN
+
+04-8A-15   (hex)		Avaya, Inc
+048A15     (base 16)		Avaya, Inc
+				211 Mount Airy Road 
+				Basking Ridge NJ 07920-2311
+				UNITED STATES
 
 04-94-A1   (hex)		CATCH THE WIND INC
 0494A1     (base 16)		CATCH THE WIND INC
@@ -81663,6 +81675,12 @@ company_id			Organization
 				TAUBATÉ SÃO PAULO 12032-000
 				BRAZIL
 
+10-A1-3B   (hex)		FUJIKURA RUBBER LTD.
+10A13B     (base 16)		FUJIKURA RUBBER LTD.
+				1-840,Mihashi,Omiya
+				Saitama   330-0856
+				JAPAN
+
 10-B7-F6   (hex)		Plastoform Industries Ltd.
 10B7F6     (base 16)		Plastoform Industries Ltd.
 				Units 1506A - 1512, Mita Centre,
@@ -81818,6 +81836,12 @@ company_id			Organization
 				Copenhagen V  DK-1790
 				DENMARK
 
+18-8E-D5   (hex)		Philips Innovative Application NV 
+188ED5     (base 16)		Philips Innovative Application NV 
+				Pathoekeweg 11
+				Bruges West Flanders 8000
+				BELGIUM
+
 18-A9-05   (hex)		Hewlett Packard
 18A905     (base 16)		Hewlett Packard
 				11445 Compaq Center Drive
@@ -81854,6 +81878,13 @@ company_id			Organization
 				6th Floor, Building B, Dajiahao Square, Yuï¿½ï¿½an 1st Road, Baoï¿½ï¿½an, 
 				Shenzhen Guangdong 518101
 				CHINA
+
+1C-06-56   (hex)		IDY Corporation
+1C0656     (base 16)		IDY Corporation
+				IDEMITSU Korakuen Bld 9F
+				1-2-1 Koishikawa
+				Bunkyo-ku Tokyo 112-0002
+				JAPAN
 
 1C-0F-CF   (hex)		Sypro Optics GmbH
 1C0FCF     (base 16)		Sypro Optics GmbH
@@ -81930,6 +81961,12 @@ company_id			Organization
 				609917
 				SINGAPORE
 
+1C-BD-0E   (hex)		Amplified Engineering Pty Ltd
+1CBD0E     (base 16)		Amplified Engineering Pty Ltd
+				5 Turner Avenue
+				Bentley WA 6102
+				AUSTRALIA
+
 1C-BD-B9   (hex)		D-LINK INTERNATIONAL PTE LIMITED
 1CBDB9     (base 16)		D-LINK INTERNATIONAL PTE LIMITED
 				1 INTERNATIONAL  BUSINESS  PARK, #03-12
@@ -81954,6 +81991,12 @@ company_id			Organization
 				Bahnhofstr. 17
 				Deisenhofen Bavaria 82041
 				GERMANY
+
+20-05-E8   (hex)		OOO "InProMedia"
+2005E8     (base 16)		OOO "InProMedia"
+				pr.4806, d.6
+				Zelenograd Moscow 124466
+				RUSSIAN FEDERATION
 
 20-12-57   (hex)		Most Lucky Trading Ltd
 201257     (base 16)		Most Lucky Trading Ltd
@@ -82030,6 +82073,12 @@ company_id			Organization
 				Desborough
 				Kettering Northamptonshire NN14 2QW
 				UNITED KINGDOM
+
+20-AA-25   (hex)		IP-NET LLC
+20AA25     (base 16)		IP-NET LLC
+				10256 N.W. 47th St.
+				Sunrise FL 33351
+				UNITED STATES
 
 20-B0-F7   (hex)		Enclustra GmbH
 20B0F7     (base 16)		Enclustra GmbH
@@ -82234,6 +82283,12 @@ company_id			Organization
 				Taipei  11167
 				TAIWAN, REPUBLIC OF CHINA
 
+28-ED-58   (hex)		JAG Jakob AG
+28ED58     (base 16)		JAG Jakob AG
+				Industriestrasse 20
+				BRUEGG BE 2555
+				SWITZERLAND
+
 28-EF-01   (hex)		PRIVATE
 28EF01     (base 16)		 
 				 
@@ -82305,6 +82360,12 @@ company_id			Organization
 				kako-gun hyogo 675-1105
 				JAPAN
 
+2C-9E-5F   (hex)		Motorola, Inc.
+2C9E5F     (base 16)		Motorola, Inc.
+				6450 Sequence Drive
+				San Diego CA 92121
+				UNITED STATES
+
 2C-A7-80   (hex)		True Technologies Inc.
 2CA780     (base 16)		True Technologies Inc.
 				R476, AngelCity 1st,
@@ -82335,6 +82396,12 @@ company_id			Organization
 				2800 Woodlawn Drive, #271
 				Honolulu Hawaii 96822
 				UNITED STATES
+
+2C-DD-0C   (hex)		Discovergy GmbH
+2CDD0C     (base 16)		Discovergy GmbH
+				Pascalstr. 15
+				Aachen NRW 52076
+				GERMANY
 
 30-18-CF   (hex)		DEOS control systems GmbH
 3018CF     (base 16)		DEOS control systems GmbH
@@ -82448,6 +82515,12 @@ company_id			Organization
 				Harkortstrasse 15
 				Mï¿½nster NRW 48163
 				GERMANY
+
+34-A1-83   (hex)		AWare, Inc
+34A183     (base 16)		AWare, Inc
+				614 Massachusetts Ave. 
+				Cambridge MA 02139
+				UNITED STATES
 
 34-AA-EE   (hex)		Mikrovisatos Servisas UAB
 34AAEE     (base 16)		Mikrovisatos Servisas UAB
@@ -82683,6 +82756,13 @@ company_id			Organization
 				Guadalajara  19171
 				SPAIN
 
+3C-5F-01   (hex)		Synerchip Co., Ltd.
+3C5F01     (base 16)		Synerchip Co., Ltd.
+				c/o Synerchip USA Corp.
+				880 E. Arques Ave.
+				Sunnyvale CA 94085
+				UNITED STATES
+
 3C-62-78   (hex)		SHENZHEN JETNET TECHNOLOGY CO.,LTD.
 3C6278     (base 16)		SHENZHEN JETNET TECHNOLOGY CO.,LTD.
 				Room 403,4th floor,Qinghua Information Building,Keyuan Road,North District of Tech-Park,Nanshan District
@@ -82862,6 +82942,18 @@ company_id			Organization
 				Newbury Business Park
 				Newbury Berks RG14 2PZ
 				UNITED KINGDOM
+
+40-B2-C8   (hex)		Nortel Networks
+40B2C8     (base 16)		Nortel Networks
+				CARRETERA BASE AEREA # 5850
+				Zapopan Jalisco 44130
+				MEXICO
+
+40-C2-45   (hex)		Shenzhen Hexicom Technology Co., Ltd.
+40C245     (base 16)		Shenzhen Hexicom Technology Co., Ltd.
+				1510 West Building,Nanshan Software Park, Nanshan Dist.
+				Shenzhen Guangdong 518053
+				CHINA
 
 40-C7-C9   (hex)		Naviit Inc.
 40C7C9     (base 16)		Naviit Inc.
@@ -83118,6 +83210,13 @@ company_id			Organization
 				Xindian City Taipei County 231 
 				TAIWAN, PROVINCE OF CHINA
 
+48-6B-91   (hex)		Fleetwood Group Inc.
+486B91     (base 16)		Fleetwood Group Inc.
+				11832 James St
+				PO Box 1259
+				Holland Michigan 49424
+				UNITED STATES
+
 48-6F-D2   (hex)		StorSimple Inc
 486FD2     (base 16)		StorSimple Inc
 				2350 Mission College Blvd
@@ -83130,6 +83229,12 @@ company_id			Organization
 				13F,No.192,Sec.2,Chung Hsin Rd.,Hsin Tien City
 				Taipei   231
 				TAIWAN, REPUBLIC OF CHINA
+
+48-91-F6   (hex)		Shenzhen Reach software technology CO.,LTD
+4891F6     (base 16)		Shenzhen Reach software technology CO.,LTD
+				6/F,Block B, Kingdee Software park,#2,Keji 12th South Road,Hi-tech Industrial Park,Nanshan District
+				Shenzhen Guangdong 518057
+				CHINA
 
 48-AA-5D   (hex)		Store Electronic Systems
 48AA5D     (base 16)		Store Electronic Systems
@@ -83297,6 +83402,13 @@ company_id			Organization
 				NO.1925,Nanle Road ,Songjiang Export Processing Zone 
 				Shanghai   201613
 				CHINA
+
+50-67-F0   (hex)		ZyXEL Communications Corporation
+5067F0     (base 16)		ZyXEL Communications Corporation
+				No.6 Innovation Road II,
+				Science Park,
+				Hsin-Chu,   22099505
+				TAIWAN, PROVINCE OF CHINA
 
 50-6F-9A   (hex)		Wi-Fi Alliance
 506F9A     (base 16)		Wi-Fi Alliance
@@ -83494,6 +83606,13 @@ company_id			Organization
 58-6E-D6   (hex)		PRIVATE
 586ED6     (base 16)		 
 				 
+58-8D-09   (hex)		Cisco Systems
+588D09     (base 16)		Cisco Systems
+				80 West Tasman Dr.
+				SJCM/2
+				San Jose CA 95134
+				UNITED STATES
+
 58-94-6B   (hex)		Intel Corporate
 58946B     (base 16)		Intel Corporate
 				Lot 8, Jalan Hi-Tech 2/3
@@ -83686,6 +83805,12 @@ company_id			Organization
 				Paterna Valencia- CIF ES A 98005978 46980
 				SPAIN
 
+60-15-C7   (hex)		IdaTech
+6015C7     (base 16)		IdaTech
+				63065 NE 18th St.
+				Bend OR 97701
+				UNITED STATES
+
 60-1D-0F   (hex)		Midnite Solar
 601D0F     (base 16)		Midnite Solar
 				17722 67th Ave NE #C
@@ -83823,6 +83948,13 @@ company_id			Organization
 				Chung Ho City, Taipei Hsien  235
 				TAIWAN, PROVINCE OF CHINA
 
+64-34-09   (hex)		BITwave Pte Ltd
+643409     (base 16)		BITwave Pte Ltd
+				2 Serangoon North Ave 5
+				#03-01
+				554911
+				SINGAPORE
+
 64-4B-C3   (hex)		Shanghai WOASiS Telecommunications Ltd., Co.
 644BC3     (base 16)		Shanghai WOASiS Telecommunications Ltd., Co.
 				15F, Software Building,
@@ -83894,6 +84026,13 @@ company_id			Organization
 				60-39 , Kasan -dong , Gumcheon-gu.
 				Seoul   153-801
 				KOREA, REPUBLIC OF
+
+64-9B-24   (hex)		V Technology Co., Ltd.
+649B24     (base 16)		V Technology Co., Ltd.
+				YBP East Tower 5F,
+				134 Godo-cho, Hogogaya-ku,
+				Yokohama city Kanagawa 240-0005
+				JAPAN
 
 64-9C-8E   (hex)		Texas Instruments
 649C8E     (base 16)		Texas Instruments
@@ -84149,6 +84288,13 @@ company_id			Organization
 				Hopferbach Bavaria 87496
 				GERMANY
 
+6C-50-4D   (hex)		Cisco Systems
+6C504D     (base 16)		Cisco Systems
+				80 West Tasman Dr.
+				SJCM/2
+				San Jose CA 95134
+				UNITED STATES
+
 6C-5C-DE   (hex)		SunReports, Inc.
 6C5CDE     (base 16)		SunReports, Inc.
 				1406 Cedarwood Dr.
@@ -84341,12 +84487,26 @@ company_id			Organization
 				Irvine CA 92618
 				UNITED STATES
 
+70-76-F0   (hex)		LevelOne Communications (India) Private Limited
+7076F0     (base 16)		LevelOne Communications (India) Private Limited
+				2F, Lane 1, 45 Bharat Nagar
+				New Friends Colony
+				New Delhi DELHI 110025
+				INDIA
+
 70-82-8E   (hex)		OleumTech Corporation
 70828E     (base 16)		OleumTech Corporation
 				29 Parker
 				Suite 150
 				Irvine CA 92618
 				UNITED STATES
+
+70-8B-78   (hex)		citygrow technology co., ltd
+708B78     (base 16)		citygrow technology co., ltd
+				rm1404, blk A, ,5 - 21 Pak Tin Par Street
+				Hi-Tech Industrial Centre,
+				Tsuen Wan  
+				HONG KONG
 
 70-A1-91   (hex)		Trendsetter Medical, LLC
 70A191     (base 16)		Trendsetter Medical, LLC
@@ -84399,6 +84559,13 @@ company_id			Organization
 				SEC.1, TSAO TUEN
 				NAN-TOU 542
 				TAIWAN, REPUBLIC OF CHINA
+
+74-0A-BC   (hex)		JSJS Designs (Europe) Limited
+740ABC     (base 16)		JSJS Designs (Europe) Limited
+				Ezekiel House
+				Ezekiel Lane
+				Willenhall West Midlands WV12 5QU
+				UNITED KINGDOM
 
 74-15-E2   (hex)		Tri-Sen Systems Corporation
 7415E2     (base 16)		Tri-Sen Systems Corporation
@@ -84464,6 +84631,13 @@ company_id			Organization
 74-BE-08   (hex)		PRIVATE
 74BE08     (base 16)		 
 				 
+74-CD-0C   (hex)		Smith Myers Communications Ltd.
+74CD0C     (base 16)		Smith Myers Communications Ltd.
+				The Omega Centre
+				Stratton Business Park
+				Biggleswade BEDS SG18 8QB
+				UNITED KINGDOM
+
 74-D6-75   (hex)		WYMA Tecnologia
 74D675     (base 16)		WYMA Tecnologia
 				Rua Clï¿½maco Barbosa, 171-179
@@ -84503,6 +84677,12 @@ company_id			Organization
 				Ojeon-dong, 
 				Uiwang-si Gyeonggi-do 437-753
 				KOREA, REPUBLIC OF
+
+74-F6-12   (hex)		Motorola, Inc.
+74F612     (base 16)		Motorola, Inc.
+				6450 Sequence Drive
+				San Diego CA 92121
+				UNITED STATES
 
 74-F7-26   (hex)		Neuron Robotics
 74F726     (base 16)		Neuron Robotics
@@ -85002,6 +85182,13 @@ company_id			Organization
 				Shenzhen  518040
 				CHINA
 
+84-6E-B1   (hex)		Park Assist LLC
+846EB1     (base 16)		Park Assist LLC
+				111 W28th Street
+				Suite 2B
+				New York NY 10001
+				UNITED STATES
+
 84-90-00   (hex)		Arnold &amp; Richter Cine Technik
 849000     (base 16)		Arnold &amp; Richter Cine Technik
 				Tuerkenstrasse 89
@@ -85169,6 +85356,12 @@ company_id			Organization
 				San Diego  CA 92131
 				UNITED STATES
 
+8C-4D-EA   (hex)		Cerio Corporation
+8C4DEA     (base 16)		Cerio Corporation
+				2F., No.105, Mincyuan Rd., Sindian City
+				Taipei County  23141
+				TAIWAN, PROVINCE OF CHINA
+
 8C-53-F7   (hex)		A&D ENGINEERING CO., LTD.
 8C53F7     (base 16)		A&D ENGINEERING CO., LTD.
 				336-6 Dangsandong 6-ga, Yeongdeungpo-gu
@@ -85247,6 +85440,12 @@ company_id			Organization
 				Taipei City   114
 				TAIWAN, REPUBLIC OF CHINA
 
+8C-E7-B3   (hex)		Sonardyne International Ltd
+8CE7B3     (base 16)		Sonardyne International Ltd
+				Blackbushe Business Park
+				Yateley Hampshire GU46 6GD
+				UNITED KINGDOM
+
 90-18-AE   (hex)		Shanghai Meridian Technologies, Co. Ltd.
 9018AE     (base 16)		Shanghai Meridian Technologies, Co. Ltd.
 				Suite 6A Tongsheng Tower
@@ -85308,6 +85507,13 @@ company_id			Organization
 				Skolgången 17
 				Gävle  SE-800 06
 				SWEDEN
+
+90-61-0C   (hex)		Fida International (S) Pte Ltd
+90610C     (base 16)		Fida International (S) Pte Ltd
+				Blk 16, Kallang Place 
+				#06-02, 
+				339156
+				SINGAPORE
 
 90-6D-C8   (hex)		DLG Automação Industrial Ltda
 906DC8     (base 16)		DLG Automação Industrial Ltda
@@ -85509,6 +85715,13 @@ company_id			Organization
 				13-16MITA 3-CHOME,MINATO-KU
 				TOKYO JAPAN 108-0073
 				JAPAN
+
+98-73-C4   (hex)		Sage Electronic Engineering LLC
+9873C4     (base 16)		Sage Electronic Engineering LLC
+				201 Terry St.
+				Suite 1A
+				Longmont CO 80501
+				UNITED STATES
 
 98-89-ED   (hex)		Anadem Information Inc.
 9889ED     (base 16)		Anadem Information Inc.
@@ -85827,6 +86040,12 @@ A0DDE5     (base 16)		SHARP CORPORATION
 				Abeno-KU,
 				Osaka,  545-8522,
 				JAPAN
+
+A0-F2-17   (hex)		GE Medical System(China) Co., Ltd. 
+A0F217     (base 16)		GE Medical System(China) Co., Ltd. 
+				No.19, ChangJiang Road 
+				Wuxi Jiangsu 214028 
+				CHINA
 
 A4-0C-C3   (hex)		Cisco Systems
 A40CC3     (base 16)		Cisco Systems
@@ -86327,6 +86546,12 @@ B0E97E     (base 16)		Advanced Micro Peripherals
 				Witchford Cambridgeshire CB6 2HY
 				UNITED KINGDOM
 
+B4-01-42   (hex)		GCI Science & Technology Co.,LTD
+B40142     (base 16)		GCI Science & Technology Co.,LTD
+				No.381,xingangzhong road ,
+				GuangZhou GuangDong 510310
+				CHINA
+
 B4-07-F9   (hex)		SAMSUNG ELECTRO-MECHANICS
 B407F9     (base 16)		SAMSUNG ELECTRO-MECHANICS
 				Suwon-Si, Gyeonggi_Do, Korea
@@ -86451,6 +86676,13 @@ B8653B     (base 16)		Bolymin, Inc.
 				Taichung  40310
 				TAIWAN, REPUBLIC OF CHINA
 
+B8-79-7E   (hex)		Secure Meters (UK) Limited
+B8797E     (base 16)		Secure Meters (UK) Limited
+				Secure House
+				Moorside Road
+				Winchester Hampshire SO23 7RX
+				UNITED KINGDOM
+
 B8-8E-3A   (hex)		Infinite Technologies JLT
 B88E3A     (base 16)		Infinite Technologies JLT
 				Office 3203, Level 32
@@ -86496,11 +86728,30 @@ B8BA72     (base 16)		Cynove
 				Paris  75009
 				FRANCE
 
+B8-D0-6F   (hex)		GUANGZHOU HKUST FOK YING TUNG RESEARCH INSTITUTE
+B8D06F     (base 16)		GUANGZHOU HKUST FOK YING TUNG RESEARCH INSTITUTE
+				Rm 403, North of Software Building,Nansha IT Park,
+				Nansha District
+				Guangzhou Guangdong Privince 511458
+				CHINA
+
+B8-EE-79   (hex)		YWire Technologies, Inc.
+B8EE79     (base 16)		YWire Technologies, Inc.
+				1372 Overdale
+				Montreal QC H3G 1V3
+				CANADA
+
 B8-F7-32   (hex)		Aryaka Networks Inc
 B8F732     (base 16)		Aryaka Networks Inc
 				691 S. Milpitas Blvd., 
 				Suite 206
 				Milpitas  CA 95035
+				UNITED STATES
+
+B8-FF-61   (hex)		Apple
+B8FF61     (base 16)		Apple
+				1 Infinite Loop
+				Cupertino CA 95014
 				UNITED STATES
 
 BC-05-43   (hex)		AVM GmbH
@@ -86513,6 +86764,12 @@ BC-0D-A5   (hex)		Texas Instruments
 BC0DA5     (base 16)		Texas Instruments
 				12500 TI Boulevard
 				Dallas TX 75243
+				UNITED STATES
+
+BC-30-5B   (hex)		Dell Inc.
+BC305B     (base 16)		Dell Inc.
+				One Dell Way, MS RR5-45
+				Round Rock Texas 78682
 				UNITED STATES
 
 BC-4E-3C   (hex)		CORE STAFF CO., LTD.
@@ -86656,6 +86913,12 @@ C0BAE6     (base 16)		Application Solutions (Safety and Security) Ltd
 				Lewes East Sussex BN8 6JL
 				UNITED KINGDOM
 
+C0-C1-C0   (hex)		Cisco-Linksys, LLC
+C0C1C0     (base 16)		Cisco-Linksys, LLC
+				121 Theory Drive
+				Irvine California 92612
+				UNITED STATES
+
 C0-CB-38   (hex)		Hon Hai Precision Ind. Co.,Ltd. 
 C0CB38     (base 16)		Hon Hai Precision Ind. Co.,Ltd. 
 				NO.1925,Nanle Road ,Songjiang Export Processing Zone 
@@ -86723,6 +86986,12 @@ C44619     (base 16)		Hon Hai Precision Ind. Co.,Ltd.
 				NO.1925,Nanle Road ,Songjiang Export Processing Zone 
 				Shanghai   201613 
 				CHINA
+
+C4-4B-44   (hex)		Omniprint Inc.
+C44B44     (base 16)		Omniprint Inc.
+				1923 East Deere Ave.
+				Santa Ana CA 92705
+				UNITED STATES
 
 C4-59-76   (hex)		Fugoo
 C45976     (base 16)		Fugoo
@@ -86972,6 +87241,12 @@ CC0080     (base 16)		TRUST SYSTEM Co.,
 				Kawasaki-shi Kanagawa 213-0014
 				JAPAN
 
+CC-08-E0   (hex)		Apple
+CC08E0     (base 16)		Apple
+				1 Infinite Loop
+				Cupertino CA 95014
+				UNITED STATES
+
 CC-09-C8   (hex)		IMAQLIQ LTD
 CC09C8     (base 16)		IMAQLIQ LTD
 				Obvodny Canal 93A
@@ -87051,6 +87326,13 @@ CC-CC-4E   (hex)		Sun Fountainhead USA. Corp
 CCCC4E     (base 16)		Sun Fountainhead USA. Corp 
 				801 S. Garfiled AVE # 236 
 				Los Angeles  California  91801
+				UNITED STATES
+
+CC-CE-40   (hex)		Janteq Corp
+CCCE40     (base 16)		Janteq Corp
+				9272 Jeronimo Road
+				Suite 124
+				Irvine CA 92618
 				UNITED STATES
 
 CC-EA-1C   (hex)		DCONWORKS  Co., Ltd
@@ -87424,6 +87706,12 @@ D8C3FB     (base 16)		DETRACOM
 				CASTELNAU D'ESTRETEFONDS  31620
 				FRANCE
 
+D8-C7-C8   (hex)		Aruba Networks
+D8C7C8     (base 16)		Aruba Networks
+				1344 Crossman Ave.
+				Sunnyvale  CA 94089
+				UNITED STATES
+
 D8-D3-85   (hex)		Hewlett Packard
 D8D385     (base 16)		Hewlett Packard
 				11445 Compaq Center Drive
@@ -87454,6 +87742,13 @@ DC1D9F     (base 16)		U & B tech
 				DongAn-Gu,
 				Anyang-Si Gyeonggi-Do 431-061
 				KOREA, REPUBLIC OF
+
+DC-20-08   (hex)		ASD Electronics Ltd 
+DC2008     (base 16)		ASD Electronics Ltd 
+				DEDE INDUSTRIAL PARK,JIAN'AN ROAD,HIGH-TECH
+				INDUSTRIAL PARK,FUYONG TOWN,BAO'AN DISTRICT,
+				Shenzhen  Guang Dong 518103
+				CHINA
 
 DC-2C-26   (hex)		Iton Technology Limited
 DC2C26     (base 16)		Iton Technology Limited
@@ -87663,6 +87958,12 @@ E0CF2D     (base 16)		Gemintek Corporation
 				Taipei  114
 				TAIWAN, PROVINCE OF CHINA
 
+E0-D1-0A   (hex)		Katoudenkikougyousyo co ltd
+E0D10A     (base 16)		Katoudenkikougyousyo co ltd
+				oujihontyou1-4-13
+				kita-ku tokyo-to 114-0022
+				JAPAN
+
 E0-E7-51   (hex)		Nintendo Co., Ltd.
 E0E751     (base 16)		Nintendo Co., Ltd.
 				11-1 HOKOTATE-CHO
@@ -87784,6 +88085,12 @@ E80C38     (base 16)		DAEYOUNG INFORMATION SYSTEM CO., LTD
 				DAEJON  305-510
 				KOREA, REPUBLIC OF
 
+E8-11-32   (hex)		Samsung Electronics Co.,LTD
+E81132     (base 16)		Samsung Electronics Co.,LTD
+				416, Maetang-3Dong, Yeongon-Gu
+				Suwon Gyeonggi-Do 443-742
+				KOREA, REPUBLIC OF
+
 E8-39-DF   (hex)		Askey Computer
 E839DF     (base 16)		Askey Computer
 				10F,NO.119,CHIENKANG RD,CHUNG-HO,
@@ -87820,6 +88127,13 @@ E86CDA     (base 16)		Supercomputers and Neurocomputers Research Center
 				2, Chekhov st
 				Taganrog  Rostov-on-Don region  347922 
 				RUSSIAN FEDERATION
+
+E8-75-7F   (hex)		FIRS Technologies(Shenzhen) Co., Ltd
+E8757F     (base 16)		FIRS Technologies(Shenzhen) Co., Ltd
+				Rm 12A, Area A, Hongsong Business Building, Tairan 9th Rd, Chegongmiao, 
+				Futian District
+				Shenzhen Guangdong 518040
+				CHINA
 
 E8-7A-F3   (hex)		S5 Tech S.r.l.
 E87AF3     (base 16)		S5 Tech S.r.l.
@@ -87859,6 +88173,12 @@ E8DFF2     (base 16)		PRF Co., Ltd.
 				Seongnam-city Gyeonggi-do 463-828
 				KOREA, REPUBLIC OF
 
+E8-E0-B7   (hex)		Toshiba
+E8E0B7     (base 16)		Toshiba
+				2-9,Suehiro-Cho
+				Ome Tokyo 1988710
+				JAPAN
+
 E8-E1-E2   (hex)		Energotest
 E8E1E2     (base 16)		Energotest
 				Chorzowska 44B
@@ -87877,6 +88197,12 @@ E8E776     (base 16)		Shenzhen Kootion Technology Co., Ltd
 				Songbai Road, Nanshan District,
 				Shenzhen Guangdong Province 518108
 				CHINA
+
+EC-14-F6   (hex)		BioControl AS
+EC14F6     (base 16)		BioControl AS
+				Grimstad Gard 
+				Rakkestad   N-1890
+				NORWAY
 
 EC-23-68   (hex)		IntelliVoice Co.,Ltd.
 EC2368     (base 16)		IntelliVoice Co.,Ltd.
@@ -87962,6 +88288,12 @@ ECB106     (base 16)		Acuro Networks, Inc
 				Fremont CA 94538
 				UNITED STATES
 
+EC-BB-AE   (hex)		Digivoice Tecnologia em Eletronica Ltda
+ECBBAE     (base 16)		Digivoice Tecnologia em Eletronica Ltda
+				Alameda Juru, 159 - Torreo
+				Barueri Sao Paulo 06455-010
+				BRAZIL
+
 EC-C3-8A   (hex)		Accuenergy (CANADA) Inc
 ECC38A     (base 16)		Accuenergy (CANADA) Inc
 				2 Lansing Square, Suite 503
@@ -88006,10 +88338,24 @@ ECE9F8     (base 16)		Guang Zhou TRI-SUN Electronics Technology  Co., Ltd
 				Guangzhou Guangdong 510665
 				CHINA
 
+EC-FA-AA   (hex)		The IMS Company
+ECFAAA     (base 16)		The IMS Company
+				2929 E. Imperial Highway
+				Suite 170
+				Brea CA 92821
+				UNITED STATES
+
 EC-FE-7E   (hex)		BlueRadios, Inc.
 ECFE7E     (base 16)		BlueRadios, Inc.
 				7173 S. Havana Street, Suite 600
 				Englewood Colorado 80112
+				UNITED STATES
+
+F0-02-48   (hex)		SmarteBuilding
+F00248     (base 16)		SmarteBuilding
+				3267 Bee Cave Road
+				107-173
+				Austin TX 78746
 				UNITED STATES
 
 F0-24-08   (hex)		Talaris (Sweden) AB
@@ -88091,6 +88437,12 @@ F09CBB     (base 16)		RaonThink Inc.
 				Seoul  153-783
 				KOREA, REPUBLIC OF
 
+F0-A7-64   (hex)		GST Co., Ltd.
+F0A764     (base 16)		GST Co., Ltd.
+				#919, Gosaek-dong, Gwonseon-gu,
+				Suwon-si Gyeonggi-do 441-813
+				KOREA, REPUBLIC OF
+
 F0-AD-4E   (hex)		Globalscale Technologies, Inc.
 F0AD4E     (base 16)		Globalscale Technologies, Inc.
 				5F, No. 2 Building, Minxing Industrial Park
@@ -88161,6 +88513,12 @@ F0ED1E     (base 16)		Bilkon Bilgisayar Kontrollu Cih. Im.Ltd.
 				ANKARA  06370
 				TURKEY
 
+F0-F7-B3   (hex)		Phorm
+F0F7B3     (base 16)		Phorm
+				222 Regent Street
+				London  W1B 5TR
+				UNITED KINGDOM
+
 F0-F8-42   (hex)		KEEBOX, Inc.
 F0F842     (base 16)		KEEBOX, Inc.
 				10 Poppy Trail
@@ -88184,6 +88542,12 @@ F41F0B     (base 16)		YAMABISHI Corporation
 				3-14-12 Kamigou
 				Ebina-city KANAGAWA 243-0434
 				JAPAN
+
+F4-38-14   (hex)		Shanghai Howell Electronic Co.,Ltd
+F43814     (base 16)		Shanghai Howell Electronic Co.,Ltd
+				5-5/F, Bldg.1, No.788 Fengzhen Rd., 
+				Shanghai   200434
+				CHINA
 
 F4-42-27   (hex)		S & S Research Inc.
 F44227     (base 16)		S & S Research Inc.
@@ -88274,6 +88638,12 @@ F4DCDA     (base 16)		Zhuhai Jiahe Communication Technology Co., limited
 				4/F,East Of B5,Sourth Software Park,Tangjia,
 				Zhuhai Guangdong 519085
 				CHINA
+
+F4-E1-42   (hex)		Delta Elektronika BV
+F4E142     (base 16)		Delta Elektronika BV
+				Vissersdijk 4
+				Zierikzee  4301 ND
+				NETHERLANDS
 
 F4-FC-32   (hex)		Texas Instruments
 F4FC32     (base 16)		Texas Instruments
