@@ -21,7 +21,7 @@ CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
 FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers
 
-.PHONY: all install tag force-tag check create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
+.PHONY: all install tag force-tag check commit create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
 all: 
 
@@ -33,6 +33,9 @@ install:
 	mkdir -p -m 755 $(datadir)/$(NAME)/videoaliases
 	mkdir -p -m 755 $(sysconfdir)/modprobe.d
 	install -m 644 blacklist $(sysconfdir)/modprobe.d
+
+commit:
+	@git commit -a
 
 tag:
 	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
@@ -51,6 +54,8 @@ check:
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@: videodrivers is tab-separated
 	@[ `grep -vc '	' videodrivers` -eq 0 ] || { echo "FAILURE: videodrivers not TAB separated"; exit 1; } && echo "OK: videodrivers"
+	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
+	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 
 create-archive: changelog
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
@@ -63,7 +68,7 @@ create-archive: changelog
 	@echo ""
 	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELEASE).tar.gz"
 
-archive: check clean tag create-archive
+archive: check clean commit tag create-archive
 
 dummy:
 

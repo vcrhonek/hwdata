@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213.20
+Version: 0.213.21
 Release: 1%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
@@ -24,6 +24,7 @@ such as the pci.ids database and MonitorsDb databases.
 %install
 rm -rf $RPM_BUILD_ROOT
 make install DESTDIR=$RPM_BUILD_ROOT
+mv -f $RPM_BUILD_ROOT/%{_sysconfdir}/modprobe.d/blacklist $RPM_BUILD_ROOT/%{_sysconfdir}/modprobe.d/blacklist.conf
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -36,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Oct 13 2010 Karsten Hopp <karsten@redhat.com> 0.213.21-1
+- update pci.ids, usb.ids
+
 * Mon Sep 20 2010 Karsten Hopp <karsten@redhat.com> 0.213.20-1
 - update pci.ids, usb.ids, oui.txt
 
