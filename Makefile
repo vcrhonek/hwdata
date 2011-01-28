@@ -1,7 +1,6 @@
 NAME=$(shell awk '/Name:/ { print $$2 }' hwdata.spec)
 VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell awk '/Release:/ { a=$$2; sub("%.*","",a); print a }' hwdata.spec)
-RELVER=$(shell awk '/define relver/ { print $3 }' hwdata.spec)
 SOURCEDIR := $(shell pwd)
 
 prefix=$(DESTDIR)/usr
@@ -57,21 +56,21 @@ check:
 	@[ `grep -vc '	' videodrivers` -eq 0 ] || { echo "FAILURE: videodrivers not TAB separated"; exit 1; } && echo "OK: videodrivers"
 
 create-archive:
-	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION)-$(RELVER).tar*  2>/dev/null
+	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION)-$(RELEASE).tar*  2>/dev/null
 	@make changelog
-	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELVER).tar
+	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
 	@mkdir $(NAME)-$(VERSION)
 	@cp ChangeLog $(NAME)-$(VERSION)/
-	@tar --append -f $(NAME)-$(VERSION)-$(RELVER).tar $(NAME)-$(VERSION)
-	@bzip2 -f $(NAME)-$(VERSION)-$(RELVER).tar
+	@tar --append -f $(NAME)-$(VERSION)-$(RELEASE).tar $(NAME)-$(VERSION)
+	@bzip2 -f $(NAME)-$(VERSION)-$(RELEASE).tar
 	@rm -rf $(NAME)-$(VERSION)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELVER).tar.bz2"
+	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELEASE).tar.bz2"
 
 archive: check clean commit tag create-archive
 
 upload:
-	@scp ${NAME}-$(VERSION)-$(RELVER).tar.bz2 fedorahosted.org:$(NAME)
+	@scp ${NAME}-$(VERSION)-$(RELEASE).tar.bz2 fedorahosted.org:$(NAME)
 
 dummy:
 
