@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.233
-Release: 6%{?dist}
+Release: 7%{?dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.bz2
@@ -37,19 +37,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
-* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-6
+* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-7
 - bump release
-
-* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-5
 - update oui.txt URL
-
-* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-4
 - fix tarball name in spec file
-
-* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-3
-- bump release
-
-* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-2
 - update usb.ids, out.txt and pci.ids
 
 * Wed Aug 25 2010 Karsten Hopp <karsten@redhat.com> 0.233-1
