@@ -94,4 +94,4 @@ new-pci-ids:
 	@curl -O http://pciids.sourceforge.net/pci.ids
 
 new-oui.txt:
-	@curl -O http://standards.ieee.org/regauth/oui/oui.txt
+	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt

@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.233
-%define relver 4
+%define relver 5
 Release: %{relver}%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -38,6 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-5
+- update oui.txt URL
+
 * Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-4
 - fix tarball name in spec file
 
