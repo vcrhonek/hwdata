@@ -21,7 +21,7 @@ CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
 FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers oui.txt pnp.ids
 
-.PHONY: all install tag force-tag check create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
+.PHONY: all install tag force-tag check commit create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
 all: 
 
@@ -33,6 +33,9 @@ install:
 	mkdir -p -m 755 $(datadir)/$(NAME)/videoaliases
 	mkdir -p -m 755 $(sysconfdir)/modprobe.d
 	install -m 644 blacklist.conf $(sysconfdir)/modprobe.d
+
+commit:
+	git commit -a ||:
 
 tag:
 	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
@@ -64,7 +67,7 @@ create-archive:
 	@echo ""
 	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
 
-archive: check clean tag create-archive
+archive: check clean commit tag create-archive
 
 upload:
 	@scp ${NAME}-$(VERSION).tar.bz2 fedorahosted.org:$(NAME)
