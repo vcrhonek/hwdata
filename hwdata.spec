@@ -1,10 +1,11 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.233
-Release: 4%{?dist}
+%define relver 4
+Release: %{relver}%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}-%{release}.tar.bz2
+Source: hwdata-%{version}-%{relver}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
