@@ -1,10 +1,10 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.233
-Release: 3%{?dist}
+Release: 4%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}.tar.bz2
+Source: hwdata-%{version}-%{release}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-4
+- fix tarball name in spec file
+
 * Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-3
 - bump release
 
