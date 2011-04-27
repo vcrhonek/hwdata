@@ -52,6 +52,8 @@ changelog:
 check:
 	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
+	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
+	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 	@: videodrivers is tab-separated
 	@[ `grep -vc '	' videodrivers` -eq 0 ] || { echo "FAILURE: videodrivers not TAB separated"; exit 1; } && echo "OK: videodrivers"
 
