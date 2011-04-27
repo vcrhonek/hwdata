@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.233
-Release: 7%{?dist}
+Release: 7.1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.bz2
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Apr 27 2011 Karsten Hopp <karsten@redhat.com> 0.233-7.1
+- update to latest pci.ids, usb.ids
+
 * Fri Jan 28 2011 Karsten Hopp <karsten@redhat.com> 0.233-7
 - bump release
 - update oui.txt URL
