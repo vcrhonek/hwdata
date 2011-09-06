@@ -7,7 +7,7 @@ Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
-Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
+Conflicts: pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 

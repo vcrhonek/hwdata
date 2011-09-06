@@ -19,7 +19,7 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers oui.txt pnp.ids
+FILES = pci.ids upgradelist usb.ids oui.txt pnp.ids
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
@@ -54,8 +54,6 @@ check:
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
-	@: videodrivers is tab-separated
-	@[ `grep -vc '	' videodrivers` -eq 0 ] || { echo "FAILURE: videodrivers not TAB separated"; exit 1; } && echo "OK: videodrivers"
 
 create-archive:
 	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION)-$(RELEASE).tar*  2>/dev/null
