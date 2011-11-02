@@ -1,6 +1,6 @@
 NAME=$(shell awk '/Name:/ { print $$2 }' hwdata.spec)
 VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
-RELEASE=$(shell rpm -q --specfile --qf "%{release}" hwdata.spec)
+RELEASE=$(shell rpm -q --define "%dist .el6"  --specfile --qf "%{release}" hwdata.spec)
 SOURCEDIR := $(shell pwd)
 
 prefix=$(DESTDIR)/usr
