@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.233
-Release: 7.6%{?dist}
+Release: 7.7%{?dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.bz2
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue Feb 28 2012 Karsten Hopp <karsten@redhat.com> 0.233-7.7
+- add missing Acer 76ie monitor entry (#737467)
+
 * Wed Nov 09 2011 Karsten Hopp <karsten@redhat.com> 0.233-7.6
 - update pci.ids, usb. ids
 
