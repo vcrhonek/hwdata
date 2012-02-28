@@ -39,6 +39,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Tue Feb 28 2012 Karsten Hopp <karsten@redhat.com> 0.233-7.7
 - add missing Acer 76ie monitor entry (#737467)
+- updated pci.ids, usb.ids (#760014)
 
 * Wed Nov 09 2011 Karsten Hopp <karsten@redhat.com> 0.233-7.6
 - update pci.ids, usb. ids
