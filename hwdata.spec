@@ -1,7 +1,8 @@
+%define dist .el7
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.233
-Release: 7.3%{?dist}
+Version: 0.235
+Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.bz2
@@ -37,6 +38,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed May 02 2012 Karsten Hopp <karsten@redhat.com> 0.235-1
+- el7 branch
+- update pci.ids, usb. ids
+
 * Mon Aug 08 2011 Karsten Hopp <karsten@redhat.com> 0.233-7.3
 - update pci.ids, usb. ids
 
