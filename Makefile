@@ -23,7 +23,19 @@ FILES = pci.ids upgradelist usb.ids oui.txt pnp.ids
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
-all: 
+all: help
+
+help:
+	@echo "Make targets:"
+	@echo "install - install on local system without using rpm"
+	@echo "tag     - tag n-v-r"
+	@echo "force-tag"
+	@echo "check   - check for errors, release dates,..."
+	@echo "clean   - remove old src.rpms"
+	@echo "commit  - commit all changes to git"
+	@echo "push    - push commited changes upstream"
+	@echo "create-archive - create tarball of latest commited files"
+	@echo "archive - make check clean commit push tag create-archive"
 
 install:
 	mkdir -p -m 755 $(datadir)/$(NAME)
@@ -36,6 +48,9 @@ install:
 
 commit:
 	git commit -a ||:
+
+push:
+	git push ||:
 
 tag:
 	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
@@ -67,7 +82,7 @@ create-archive:
 	@echo ""
 	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELEASE).tar.bz2"
 
-archive: check clean commit tag create-archive
+archive: check clean commit tag push create-archive
 
 upload:
 	@scp ${NAME}-$(VERSION)-$(RELEASE).tar.bz2 fedorahosted.org:$(NAME)
