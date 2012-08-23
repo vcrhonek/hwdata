@@ -30,7 +30,6 @@ install:
 	for foo in $(FILES) ; do \
 		install -m 644 $$foo $(datadir)/$(NAME) ;\
 	done
-	mkdir -p -m 755 $(datadir)/$(NAME)/videoaliases
 	mkdir -p -m 755 $(sysconfdir)/modprobe.d
 	install -m 644 blacklist.conf $(sysconfdir)/modprobe.d
 
