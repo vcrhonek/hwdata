@@ -55,21 +55,21 @@ check:
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 
 create-archive:
-	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION)-$(RELEASE).tar*  2>/dev/null
+	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
 	@make changelog
-	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
+	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
 	@mkdir $(NAME)-$(VERSION)
 	@cp ChangeLog $(NAME)-$(VERSION)/
-	@tar --append -f $(NAME)-$(VERSION)-$(RELEASE).tar $(NAME)-$(VERSION)
-	@bzip2 -f $(NAME)-$(VERSION)-$(RELEASE).tar
+	@tar --append -f $(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
+	@bzip2 -f $(NAME)-$(VERSION).tar
 	@rm -rf $(NAME)-$(VERSION)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELEASE).tar.bz2"
+	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
 
 archive: check clean commit tag create-archive
 
 upload:
-	@scp ${NAME}-$(VERSION)-$(RELEASE).tar.bz2 fedorahosted.org:$(NAME)
+	@scp ${NAME}-$(VERSION).tar.bz2 fedorahosted.org:$(NAME)
 
 dummy:
 
