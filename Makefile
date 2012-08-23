@@ -19,7 +19,7 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = pci.ids upgradelist usb.ids oui.txt pnp.ids
+FILES = pci.ids usb.ids oui.txt pnp.ids
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
