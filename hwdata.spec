@@ -1,10 +1,10 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.236
+Version: 0.237
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: https://fedorahosted.org/releases/h/w/%{name}-%{version}-%{release}.tar.bz2
+Source: https://fedorahosted.org/releases/h/w/%{name}-%{version}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
 
@@ -33,7 +33,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
-* Thu Aug 23 2012 Adam Jackson <ajax@redhat.com> 0.236-1
+* Thu Aug 23 2012 Adam Jackson <ajax@redhat.com> 0.237-1
 - Fix reference specfile to current Fedora style
 
 * Thu Aug 23 2012 Adam Jackson <ajax@redhat.com> 0.235-1
