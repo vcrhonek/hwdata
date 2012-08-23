@@ -1,22 +1,18 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.233
-Release: 7.3%{?dist}
+Version: 0.235
+Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: hwdata-%{version}-%{release}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
-Conflicts: pcmcia-cs, kudzu < 1.2.0
-Requires: module-init-tools >= 3.2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
 hwdata contains various hardware identification and configuration data,
-such as the pci.ids database and MonitorsDb databases.
+such as the pci.ids and usb.ids databases.
 
 %prep
-
 %setup -q
 
 %build
@@ -37,6 +33,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Aug 23 2012 Adam Jackson <ajax@redhat.com> 0.235-1
+- Update data files
+- Remove upgradelist, not needed since kudzu-ectomy
+
 * Mon Aug 08 2011 Karsten Hopp <karsten@redhat.com> 0.233-7.3
 - update pci.ids, usb. ids
 
