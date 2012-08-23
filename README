@@ -1,4 +1,1 @@
 To update the various IDs files, run 'make download'.
-
-MonitorsDB is woefully inadequate as a format.  You are encouraged not to
-rely on it.
