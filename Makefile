@@ -3,17 +3,7 @@ VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}" hwdata.spec)
 SOURCEDIR := $(shell pwd)
 
-prefix=$(DESTDIR)/usr
-sysconfdir=$(DESTDIR)/etc
-bindir=$(prefix)/bin
-sbindir=$(prefix)/sbin
-datadir=$(prefix)/share
-mandir=$(datadir)/man
-includedir=$(prefix)/include
-libdir=$(prefix)/lib
-
-CC=gcc
-CFLAGS=$(RPM_OPT_FLAGS) -g
+include Makefile.inc
 
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
@@ -26,12 +16,12 @@ FILES = pci.ids usb.ids oui.txt pnp.ids
 all: 
 
 install:
-	mkdir -p -m 755 $(datadir)/$(NAME)
+	mkdir -p -m 755 $(DESTDIR)$(datadir)/$(NAME)
 	for foo in $(FILES) ; do \
-		install -m 644 $$foo $(datadir)/$(NAME) ;\
+		install -m 644 $$foo $(DESTDIR)$(datadir)/$(NAME) ;\
 	done
-	mkdir -p -m 755 $(sysconfdir)/modprobe.d
-	install -m 644 blacklist.conf $(sysconfdir)/modprobe.d
+	mkdir -p -m 755 $(DESTDIR)$(sysconfdir)/modprobe.d
+	install -m 644 blacklist.conf $(DESTDIR)$(sysconfdir)/modprobe.d
 
 commit:
 	git commit -a ||:
