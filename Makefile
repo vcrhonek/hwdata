@@ -1,4 +1,4 @@
-NAME=$(shell awk '/Name:/ { print $$2 }' hwdata.spec)
+NAME=hwdata
 VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}" hwdata.spec)
 SOURCEDIR := $(shell pwd)
