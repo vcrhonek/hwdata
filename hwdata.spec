@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.238
+Version: 0.239
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue Sep 25 2012 Michal Minar <miminar@redhat.com> 0.239-1
+- Update data files
+
 * Thu Aug 23 2012 Adam Jackson <ajax@redhat.com> 0.238-1
 - Fix reference specfile to current Fedora style
 
