@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.239
+Version: 0.240
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -14,6 +14,7 @@ such as the pci.ids and usb.ids databases.
 
 %prep
 %setup -q
+%configure
 
 %build
 # nothing to build
@@ -26,13 +27,15 @@ make install DESTDIR=$RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(-,root,root)
 %doc LICENSE COPYING
 %dir %{_datadir}/%{name}
 %config(noreplace) %{_sysconfdir}/modprobe.d/blacklist.conf
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Sep 26 2012 Michal Minar <miminar@redhat.com> 0.240-1
+- made use of configure script in prep
+
 * Tue Sep 25 2012 Michal Minar <miminar@redhat.com> 0.239-1
 - Update data files
 

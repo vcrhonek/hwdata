@@ -45948,10 +45948,10 @@ company_id			Organization
 				Dahlewitz BBG 15827
 				GERMANY
 
-00-1C-4D   (hex)		Zeetoo, Inc.
-001C4D     (base 16)		Zeetoo, Inc.
-				128 Great Road
-				Bedford MA 01730
+00-1C-4D   (hex)		Zeemote Technology Inc. (part of Aplix).
+001C4D     (base 16)		Zeemote Technology Inc. (part of Aplix).
+				285 Mill Road
+				Chelmsford MA 01824
 				UNITED STATES
 
 00-1C-4E   (hex)		TASA International Limited
@@ -81691,11 +81691,10 @@ company_id			Organization
 				JAMAICA NY 11434
 				UNITED STATES
 
-08-00-64   (hex)		AUTOPHON AG
-080064     (base 16)		AUTOPHON AG
-				ABT. TZM 307
-				ZIEGELMATTSTRASSE 1-15 4503 SOLOTHURN
-				SWITZERLAND
+08-00-64   (hex)		Sitasys AG
+080064     (base 16)		Sitasys AG
+				Freiburgstrasse 251
+				CH-3018 Bern
 				SWITZERLAND
 
 08-00-65   (hex)		GENRAD INC.
@@ -82532,6 +82531,12 @@ company_id			Organization
 				Kulim Hi-Tech Park
 				Kulim Kedah 09000
 				MALAYSIA
+
+0C-8C-DC   (hex)		Suunto Oy
+0C8CDC     (base 16)		Suunto Oy
+				Valimotie 7
+				Vantaa Uusimaa 02710
+				FINLAND
 
 0C-8D-98   (hex)		TOP EIGHT IND CORP
 0C8D98     (base 16)		TOP EIGHT IND CORP
@@ -89770,6 +89775,9 @@ company_id			Organization
 				Kunpo-city Gyeonggi-Do 435-824
 				KOREA, REPUBLIC OF
 
+58-09-43   (hex)		PRIVATE
+580943     (base 16)		 
+				 
 58-12-43   (hex)		AcSiP Technology Corp.
 581243     (base 16)		AcSiP Technology Corp.
 				3F., No.22, Dalin Rd.,
@@ -94859,6 +94867,12 @@ company_id			Organization
 				San Diego CA 92127
 				UNITED STATES
 
+84-9D-C5   (hex)		Centera Photonics Inc.
+849DC5     (base 16)		Centera Photonics Inc.
+				3F, No 6-3 Dusing Rd.
+				Hsinchu Taiwan 30078
+				TAIWAN, PROVINCE OF CHINA
+
 84-A6-C8   (hex)		Intel Corporate
 84A6C8     (base 16)		Intel Corporate
 				Lot 8, Jalan Hi-Tech 2/3
@@ -98357,6 +98371,13 @@ A870A5     (base 16)		UniComm Inc.
 				7F-7, No. 716, Chung-Cheng Road,
 				Chung-Ho City Taipei Hsien 23500
 				TAIWAN, REPUBLIC OF CHINA
+
+A8-75-D6   (hex)		FreeTek International Co., Ltd.
+A875D6     (base 16)		FreeTek International Co., Ltd.
+				Unit D, 15/F, Tai Ping Ind.Ctr., Blk 2
+				55 Ting Kok Rd.
+				HonTai Po  1111
+				HONG KONG
 
 A8-77-6F   (hex)		Zonoff
 A8776F     (base 16)		Zonoff
@@ -103242,7 +103263,7 @@ D8160A     (base 16)		Nippon Electro-Sensory Devices
 D8-18-2B   (hex)		Conti Temic Microelectronic GmbH
 D8182B     (base 16)		Conti Temic Microelectronic GmbH
 				Sieboldstr. 19
-				Nuremberg Bavaria 90403
+				Nuremberg Bavaria 90411
 				GERMANY
 
 D8-1B-FE   (hex)		TWINLINX CORPORATION
@@ -105545,6 +105566,12 @@ ECFAAA     (base 16)		The IMS Company
 				Suite 170
 				Brea CA 92821
 				UNITED STATES
+
+EC-FC-55   (hex)		A. Eberle GmbH &amp; Co. KG
+ECFC55     (base 16)		A. Eberle GmbH &amp; Co. KG
+				Frankenstrasse 160
+				Nuernberg Bavaria 90461
+				GERMANY
 
 EC-FE-7E   (hex)		BlueRadios, Inc.
 ECFE7E     (base 16)		BlueRadios, Inc.

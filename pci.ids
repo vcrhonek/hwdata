@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2012.09.22
-#	Date:    2012-09-22 03:15:01
+#	Version: 2012.09.26
+#	Date:    2012-09-26 03:15:01
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -18584,7 +18584,7 @@
 		8086 4f4d  DeskTop Board D510MO
 	27bd  82801GHM (ICH7-M DH) LPC Interface Bridge
 		1025 006c  9814 WKMI
-	27c0  N10/ICH7 Family SATA Controller [IDE mode]
+	27c0  NM10/ICH7 Family SATA Controller [IDE mode]
 		1028 01ad  OptiPlex GX620
 		1028 01df  PowerEdge SC440
 		1028 01e6  PowerEdge 860
@@ -18594,7 +18594,7 @@
 		1462 7236  945P Neo3-F Rev. 2.2 motherboard
 		1775 11cc  CC11/CL11
 		8086 544e  DeskTop Board D945GTP
-	27c1  N10/ICH7 Family SATA Controller [AHCI mode]
+	27c1  NM10/ICH7 Family SATA Controller [AHCI mode]
 		1028 01df  PowerEdge SC440
 		103c 2a3b  Pavilion A1512X
 		1775 11cc  CC11/CL11
@@ -18612,7 +18612,7 @@
 		103c 30a3  Compaq nw8440
 		17aa 200d  ThinkPad T60/R60 series
 	27c6  82801GHM (ICH7-M DH) SATA Controller [RAID mode]
-	27c8  N10/ICH 7 Family USB UHCI Controller #1
+	27c8  NM10/ICH7 Family USB UHCI Controller #1
 		1025 006c  9814 WKMI
 		1028 01ad  OptiPlex GX620
 		1028 01d7  XPS M1210
@@ -18629,7 +18629,7 @@
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
 		8086 544e  DeskTop Board D945GTP
-	27c9  N10/ICH 7 Family USB UHCI Controller #2
+	27c9  NM10/ICH7 Family USB UHCI Controller #2
 		1025 006c  9814 WKMI
 		1028 01ad  OptiPlex GX620
 		1028 01d7  XPS M1210
@@ -18646,7 +18646,7 @@
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
 		8086 544e  DeskTop Board D945GTP
-	27ca  N10/ICH 7 Family USB UHCI Controller #3
+	27ca  NM10/ICH7 Family USB UHCI Controller #3
 		1025 006c  9814 WKMI
 		1028 01ad  OptiPlex GX620
 		1028 01d7  XPS M1210
@@ -18663,7 +18663,7 @@
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
 		8086 544e  DeskTop Board D945GTP
-	27cb  N10/ICH 7 Family USB UHCI Controller #4
+	27cb  NM10/ICH7 Family USB UHCI Controller #4
 		1025 006c  9814 WKMI
 		1028 01ad  OptiPlex GX620
 		1028 01d7  XPS M1210
@@ -18679,7 +18679,7 @@
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
 		8086 544e  DeskTop Board D945GTP
-	27cc  N10/ICH 7 Family USB2 EHCI Controller
+	27cc  NM10/ICH7 Family USB2 EHCI Controller
 		1025 006c  9814 WKMI
 		1028 01ad  OptiPlex GX620
 		1028 01d7  XPS M1210
@@ -18695,20 +18695,20 @@
 		17aa 200b  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
 		8086 544e  DeskTop Board D945GTP
-	27d0  N10/ICH 7 Family PCI Express Port 1
+	27d0  NM10/ICH7 Family PCI Express Port 1
 		103c 309f  Compaq nx9420 Notebook
 		103c 30a3  Compaq nw8440
 		1775 11cc  CC11/CL11
-	27d2  N10/ICH 7 Family PCI Express Port 2
+	27d2  NM10/ICH7 Family PCI Express Port 2
 		103c 309f  Compaq nx9420 Notebook
 		103c 30a3  Compaq nw8440
 		1775 11cc  CC11/CL11
-	27d4  N10/ICH 7 Family PCI Express Port 3
+	27d4  NM10/ICH7 Family PCI Express Port 3
 		1775 11cc  CC11/CL11
-	27d6  N10/ICH 7 Family PCI Express Port 4
+	27d6  NM10/ICH7 Family PCI Express Port 4
 		103c 30a3  Compaq nw8440
 		1775 11cc  CC11/CL11
-	27d8  N10/ICH 7 Family High Definition Audio Controller
+	27d8  NM10/ICH7 Family High Definition Audio Controller
 		1025 006c  9814 WKMI
 		1028 01d7  XPS M1210
 		103c 2a3b  Pavilion A1512X
@@ -18734,7 +18734,7 @@
 		8086 27d8  DeskTop Board D945GTP
 		8086 d618  DeskTop Board D510MO
 		8384 7680  STAC9221 HD Audio Codec
-	27da  N10/ICH 7 Family SMBus Controller
+	27da  NM10/ICH7 Family SMBus Controller
 		1025 006c  9814 WKMI
 		1028 01ad  OptiPlex GX620
 		1028 01d7  XPS M1210
@@ -18749,7 +18749,7 @@
 		8086 4f4d  DeskTop Board D510MO
 		8086 544e  DeskTop Board D945GTP
 		8086 5842  DeskTop Board D975XBX
-	27dc  N10/ICH 7 Family LAN Controller
+	27dc  NM10/ICH7 Family LAN Controller
 		103c 2a3b  Pavilion A1512X
 		8086 308d  DeskTop Board D945GTP
 	27dd  82801G (ICH7 Family) AC'97 Modem Controller
