@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2012.11.23
-# Date:    2012-11-23 20:34:02
+# Version: 2013.01.16
+# Date:    2013-01-16 20:34:03
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -15515,6 +15515,11 @@
 	1206  MediaTV DVB-T MiniPCIe
 	1207  Sundtek HD Capture
 	1208  Sundtek SkyTV Ultimate III
+	1209  MediaTV Analog/FM/ATSC MiniPCIe
+	1210  MediaTV Pro III (EU)
+	1211  MediaTV Pro III (US)
+	1212  MediaTV Pro III MiniPCIe (EU)
+	1213  MediaTV Pro III MiniPCIe (US)
 2730  Citizen
 	200f  CT-S310 Label printer
 2735  DigitalWay
