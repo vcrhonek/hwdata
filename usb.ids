@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2013.03.10
-# Date:    2013-03-10 20:34:04
+# Version: 2013.03.25
+# Date:    2013-03-25 20:34:03
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -14505,9 +14505,9 @@
 1788  ShenZhen Litkconn Technology Co., Ltd.
 1796  Printrex, Inc.
 1797  JALCO CO., LTD.
-1799  Belkin Components
-	7051  F5D7051 802.11g Adapter v1000 [Broadcom 4320]
-	8051  F5D8051 v2 802.11bgn Wireless Adapter [Marvell 88W8362]
+1799  Thales Norway A/S
+	7051  Belkin F5D7051 802.11g Adapter v1000 [Broadcom 4320]
+	8051  Belkin F5D8051 v2 802.11bgn Wireless Adapter [Marvell 88W8362]
 179d  Ricavision International, Inc.
 	0010  Internal Infrared Transceiver
 17a0  Samson Technologies Corp.
