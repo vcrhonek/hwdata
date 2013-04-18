@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.247
+Version: 0.248
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Apr 18 2013 Michal Minar <miminar@redhat.com> 0.248-1
+- Data files update
+
 * Wed Mar 27 2013 Michal Minar <miminar@redhat.com> 0.247-1
 - Moved blacklist.conf from /etc/modprobe.d to /usr/lib/modprobe.d.
 - Renamed it to dist-blacklist.conf.

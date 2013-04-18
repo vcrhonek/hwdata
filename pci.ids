@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2013.03.27
-#	Date:    2013-03-27 03:15:02
+#	Version: 2013.04.04
+#	Date:    2013-04-04 03:15:01
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1402,19 +1402,19 @@
 	6621  Mars
 	6623  Mars
 	6631  Oland
+	6640  Saturn
+	6641  Saturn
+	6649  Bonaire
+	6650  Bonaire
+	6651  Bonaire
+	6658  Bonaire
 	665c  Bonaire XT [Radeon HD 7790]
 		1787 2329  Radeon HD 7790 TurboDuo
 	6660  Sun [Radeon HD 8600M Series]
-	6700  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
-	6701  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
-	6702  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
-	6703  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
+	6667  Sun
+	666f  Sun
 	6704  Cayman PRO GL [FirePro V7900]
-	6705  Cayman GL PRO [ATI FirePro V (FireGL V) Graphics Adapter]
-	6706  Cayman GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6707  Cayman LE GL [FirePro V5900]
-	6708  Cayman GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6709  Cayman GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6718  Cayman XT [Radeon HD 6970]
 	6719  Cayman PRO [Radeon HD 6950]
 	671c  Antilles [Radeon HD 6990]
@@ -1431,15 +1431,9 @@
 		1558 5104  Radeon HD 6990M
 		1558 7201  Radeon HD 6990M
 		174b e188  Radeon HD 6970M
-	6721  Blackcomb [Radeon HD 6900M Series]
-	6722  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6723  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6724  Blackcomb [Mobility Radeon HD 6000 series]
 	6725  Blackcomb [Radeon HD 6900M Series]
-	6726  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6727  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6728  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6729  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6738  Barts XT [Radeon HD 6870]
 # HD-687A-ZDFC
 		1682 3103  Radeon HD 8670
@@ -1457,8 +1451,6 @@
 		1043 1d82  K53SK Laptop Radeon HD 7610M
 		8086 2111  Radeon HD 6625M
 	6743  Whistler [Radeon E6760]
-	6744  Whistler [Radeon HD 6000M Series]
-	6745  Whistler
 	6746  Turks GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6747  Turks GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6748  Turks GL [ATI FirePro V (FireGL V) Graphics Adapter]
@@ -1515,13 +1507,20 @@
 		1043 041c  HD 7970 DirectCU II
 		1043 0420  HD 7970 DirectCU II TOP
 		1043 0444  HD 7970 DirectCU II TOP
+		1043 0448  HD 7970 DirectCU II TOP
+		1043 044a  Tahiti XT2 [Matrix HD 7970]
+		1043 044c  Tahiti XT2 [Matrix HD 7970 Platinum]
 		1043 9999  ARES II
+		1092 3000  Tahiti XT2 [Radeon HD 7970 GHz Edition]
+		1458 2261  Tahiti XT2 [Radeon HD 7970 GHz Edition OC]
 		1682 3211  Double D HD 7970 Black Edition
 # FX-797A-TNBC
 		1682 3213  HD 7970 Black Edition
+		1682 3214  Double D HD 7970
 		1787 201c  HD 7970 IceQ X²
 # Radeon HD 7970 X2
 		1787 2317  Radeon HD 7990
+		1787 3000  Tahiti XT2 [Radeon HD 7970 GHz Edition]
 	6799  New Zealand [Radeon HD 7900 Series]
 	679a  Tahiti PRO [Radeon HD 7950]
 		1002 0b01  Radeon HD 8950 OEM
@@ -1534,12 +1533,12 @@
 		1002 0124  Radeon HD 7970M
 		8086 2110  Radeon HD 7970M
 		8086 2111  Radeon HD 7970M
-	6801  Pitcairn XT [Radeon HD 8970M]
+	6801  Neptune [Radeon HD 8970M]
 		1002 0124  Radeon HD 8970M
 		8086 2110  Radeon HD 8970M
 		8086 2111  Radeon HD 8970M
 	6802  Wimbledon
-	6806  Pitcairn
+	6806  Neptune
 	6808  Pitcairn XT GL [FirePro W7000]
 		1002 0310  FirePro S7000
 	6809  Pitcairn LE GL [FirePro W5000]
@@ -1556,7 +1555,8 @@
 	6823  Venus PRO [Radeon HD 8800M Series]
 	6824  Chelsea [Radeon HD 7700M Series]
 	6825  Heathrow XT [Radeon HD 7870M]
-	6826  Chelsea [Radeon HD 7700M Series]
+		8086 2111  Chelsea PRO
+	6826  Chelsea LP [Radeon HD 7700M Series]
 	6827  Heathrow PRO [Radeon HD 7850M/8850M]
 	6828  Cape Verde PRO [FirePro W600]
 	6829  Cape Verde
@@ -1807,7 +1807,7 @@
 	7916  RS690 PCI to PCI Bridge (PCI Express Port 2)
 	7917  RS690 PCI to PCI Bridge (PCI Express Port 3)
 		1002 7910  RS690 PCI to PCI Bridge
-	7919  Radeon X1200 Series Audio Controller
+	7919  RS690 HDMI Audio [Radeon Xpress 1200 Series]
 		1179 7919  Satellite P305D-S8995E
 		17f2 5000  KI690-AM2 Motherboard
 	791e  RS690 [Radeon X1200]
@@ -6516,6 +6516,7 @@
 	029b  G71GLM [Quadro FX 1500M]
 	029c  G71GL [Quadro FX 5500]
 	029d  G71GL [Quadro FX 3500]
+		1028 019b  G71GLM [Quadro FX 3500M]
 	029e  G71GL [Quadro FX 1500]
 	029f  G71GL [Quadro FX 4500 X2]
 # Xbox Graphics Processing Unit (Integrated). GeForce3 derivative (NV20 < NV2A < NV25).
@@ -7077,6 +7078,7 @@
 	06c0  GF100 [GeForce GTX 480]
 	06c4  GF100 [GeForce GTX 465]
 	06ca  GF100M [GeForce GTX 480M]
+	06cb  GF100 [GeForce GTX 480]
 	06cd  GF100 [GeForce GTX 470]
 	06d1  GF100GL [Tesla C2050 / C2070]
 		10de 0771  Tesla C2050
@@ -7584,16 +7586,29 @@
 	0fc6  GK107 [GeForce GTX 650]
 		1043 8428  GTX650-DC-1GD5
 	0fd1  GK107M [GeForce GT 650M / GTX 660M LE]
+		1043 1597  GeForce GT 650M
+		1043 15a7  GeForce GT 650M
 		1043 2103  N56VZ
+		1043 2105  GeForce GT 650M
+		1043 2141  GeForce GT 650M
 	0fd2  GK107M [GeForce GT 640M]
 	0fd3  GK107M [GeForce GT 640M LE]
 	0fd4  GK107M [GeForce GTX 660M]
 	0fd5  GK107M [GeForce GT 650M Mac Edition]
 	0fd8  GK107M [GeForce GT 640M Mac Edition]
 	0fd9  GK107M [GeForce GT 645M]
+	0fdf  GK107M [GeForce GT 740M]
+	0fe0  GK107M [GeForce GTX 660M OEM]
 	0fe1  GK107M [GeForce GT 730M]
+	0fe3  GK107M [GeForce GT 745M]
 	0fe4  GK107M [GeForce GT 750M]
+	0fe5  GK107 [GeForce K340 USM]
+	0fe6  GK107 [NVS K1 USM]
+	0fef  GK107GL [GRID K340]
+	0ff1  GK107 [NVS 1000]
 	0ff2  GK107GL [GRID K1]
+	0ff5  GK107GL [Tesla K1 USM]
+	0ff7  GK107GL [Quadro K1 USM]
 	0ff9  GK107GL [Quadro K2000D]
 	0ffa  GK107GL [Quadro K600]
 	0ffb  GK107GLM [Quadro K2000M]
@@ -7601,6 +7616,7 @@
 	0ffd  GK107 [NVS 510]
 	0ffe  GK107GL [Quadro K2000]
 	0fff  GK107GL [Quadro 410]
+	1003  GK110 [GeForce GTX Titan LE]
 	1005  GK110 [GeForce GTX Titan]
 		1043 8451  GTXTITAN-6GD5
 # Reference Model
@@ -7615,6 +7631,8 @@
 		3842 2794  GeForce GTX Titan SC Hydro Copper
 # 06G-P4-2795-KR
 		3842 2795  GeForce GTX Titan SC Hydro Copper Signature
+	101f  GK110GL [Tesla K20]
+	1020  GK110GL [Tesla K20X]
 	1021  GK110GL [Tesla K20Xm]
 	1022  GK110GL [Tesla K20c]
 	1026  GK110GL [Tesla K20s]
@@ -7635,10 +7653,16 @@
 	1052  GF119M [GeForce GT 520M]
 	1054  GF119M [GeForce 410M]
 	1055  GF119M [GeForce 410M]
-	1056  GF119M [Quadro NVS 4200M]
+	1056  GF119M [NVS 4200M]
 	1057  GF119M [Quadro NVS 4200M]
 	1058  GF119M [GeForce 610M]
+		1043 10ac  GeForce GT 610M
+		1043 10bc  GeForce GT 610M
+		1043 1652  GeForce GT 610M
 	105a  GF119M [GeForce 610M]
+		1043 2111  GeForce GT 610M
+		1043 2112  GeForce GT 610M
+	105b  GF119M [GeForce 705M]
 	107c  GF119 [NVS 315]
 	107d  GF119 [NVS 310]
 	1080  GF110 [GeForce GTX 580]
@@ -7656,6 +7680,7 @@
 	1089  GF110 [GeForce GTX 580]
 # taken from nv_disp.inf
 	108b  GF110 [GeForce GTX 580]
+	108e  GF110GL [Tesla C2090]
 	1091  GF110GL [Tesla M2090]
 		10de 088e  Tesla X2090
 		10de 0891  Tesla X2090
@@ -7674,19 +7699,57 @@
 		10de 066d  G98 [GeForce 8400GS]
 	10c5  GT218 [GeForce 405]
 	10d8  GT218 [NVS 300]
-	1140  GF117M [GeForce 610M/710M / GT 620M/625M/630M]
+	1140  GF117M [GeForce 610M/710M / GT 620M/625M/630M/720M]
+		1025 064a  GeForce GT 620M
+		1025 064c  GeForce GT 620M
+		1025 0691  GeForce 710M
+		1025 0719  GeForce GT 620M
+		1025 0725  GeForce GT 620M
+		1025 072b  GeForce GT 620M
+		1025 0773  GeForce 710M
+		1028 054d  GeForce GT 630M
+		1028 054e  GeForce GT 630M
+		1028 0554  GeForce GT 620M
+		1028 0557  GeForce GT 620M
+		1028 0565  GeForce GT 630M
+		1043 10dd  NVS 5200M
+		1043 10ed  NVS 5200M
+		1043 11fd  GeForce GT 720M
+		1043 124d  GeForce GT 720M
+		1043 126d  GeForce GT 720M
+		1043 14c7  GeForce GT 720M
+		1043 1507  GeForce GT 620M
+		1043 2132  GeForce GT 620M
+		1043 2136  NVS 5200M
+		1043 21ba  GeForce GT 720M
+		1043 21fa  GeForce GT 720M
+		1043 220a  GeForce GT 720M
+		144d c0d7  GeForce GT 620M
+		144d c652  GeForce GT 620M
+		17aa 2200  NVS 5200M
+		17aa 3901  GeForce 610M / GT 620M
+		17aa 3904  GeForce GT 620M/625M
+		17aa 3983  GeForce 610M
+		17aa 500d  GeForce GT 620M
 	1180  GK104 [GeForce GTX 680]
 	1183  GK104 [GeForce GTX 660 Ti]
 	1185  GK104 [GeForce GTX 660 OEM]
 	1188  GK104 [GeForce GTX 690]
 	1189  GK104 [GeForce GTX 670]
+	118a  GK104GL [GRID K520]
+	118b  GK104 [GeForce K2 USM]
+	118c  GK104 [NVS K2 USM]
 	118f  GK104GL [Tesla K10]
+	119f  GK104M [GeForce GTX 780M]
 	11a0  GK104M [GeForce GTX 680M]
 	11a1  GK104M [GeForce GTX 670MX]
-	11a2  GK104M [GeForce GTX 675MX]
+	11a2  GK104M [GeForce GTX 675MX Mac Edition]
 	11a3  GK104M [GeForce GTX 680MX]
 	11a7  GK104M [GeForce GTX 675MX]
+	11b0  GK104GL [Quadro K2 USM]
+	11b1  GK104GL [Tesla K2 USM]
 	11ba  GK104GL [Quadro K5000]
+	11bb  GK104GL [Quadro 4100]
 	11bc  GK104GLM [Quadro K5000M]
 	11bd  GK104GLM [Quadro K4000M]
 	11be  GK104GLM [Quadro K3000M]
@@ -7696,11 +7759,16 @@
 	11c0  GK106 [GeForce GTX 660]
 	11c2  GK106 [GeForce GTX 650 Ti Boost]
 	11c3  GK106 [GeForce GTX 650 Ti OEM]
+	11c4  GK106 [GeForce GTX 645 OEM]
 # GK106-220-A1
 	11c6  GK106 [GeForce GTX 650 Ti]
+	11e0  GK106M [GeForce GTX 770M]
+	11e2  GK106M [GeForce GTX 765M]
+	11e3  GK106M [GeForce GTX 760M]
 	11fa  GK106GL [Quadro K4000]
 	1200  GF114 [GeForce GTX 560 Ti]
 	1201  GF114 [GeForce GTX 560]
+	1202  GF114 [GeForce GTX 560 Ti OEM]
 	1203  GF114 [GeForce GTX 460 SE v2]
 	1205  GF114 [GeForce GTX 460 v2]
 # taken from nv_disp.inf
@@ -7720,12 +7788,24 @@
 	1245  GF116 [GeForce GTS 450 Rev. 2]
 	1246  GF116M [GeForce GT 550M]
 	1247  GF116M [GeForce GT 555M/635M]
+		1043 1752  GeForce GT 555M
+		1043 2050  GeForce GT 555M
+		1043 2051  GeForce GT 555M
+		1043 212a  GeForce GT 635M
+		1043 212b  GeForce GT 635M
+		1043 212c  GeForce GT 635M
 	1248  GF116M [GeForce GT 555M]
 	1249  GF116 [GeForce GTS 450 Rev. 3]
 	124b  GF116 [GeForce GT 640 OEM]
 	124d  GF116M [GeForce GT 555M/635M]
 	1251  GF116M [GeForce GT 560M]
 	1280  GK208 [GeForce GT 635]
+	1290  GK208M [GeForce GT 730M]
+	1291  GK208M [GeForce GT 735M]
+	1292  GK208M [GeForce GT 740M]
+	1293  GK208M [GeForce GT 730M]
+	1294  GK208M [GeForce GT 740M]
+	12a0  GK208
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 	0722  OneConnect iSCSI Initiator (Skyhawk)
@@ -12821,7 +12901,7 @@
 1455  Logic Plus Plus Inc
 1456  Advanced Hardware Architectures
 1457  Nuera Communications Inc
-1458  Giga-byte Technology
+1458  Gigabyte Technology Co., Ltd
 1459  DOOIN Electronics
 145a  Escalate Networks Inc
 145b  PRAIM SRL
@@ -13517,7 +13597,7 @@
 		185f 1220  TravelMate 290E WLAN Mini-PCI Card
 	4321  BCM4321 802.11a Wireless Network Controller
 	4322  BCM4322 802.11bgn Wireless Network Controller
-	4324  BCM4306 802.11a/b/g
+	4324  BCM4309 802.11abg Wireless Network Controller
 		1028 0001  Truemobile 1400
 		1028 0002  TrueMobile 1400 Dual Band WLAN PC Card
 		1028 0003  Truemobile 1450 MiniPCI
@@ -15370,6 +15450,7 @@
 	0012  SH7757 PCIe-PCI Bridge [PPB]
 	0013  SH7757 PCIe Switch [PS]
 	0014  uPD720201 USB 3.0 Host Controller
+	0015  uPD720202 USB 3.0 Host Controller
 1919  Soltek Computer Inc.
 1923  Sangoma Technologies Corp.
 	0040  A200/Remora FXO/FXS Analog AFT card
@@ -15832,6 +15913,8 @@
 	1001  Virtio block device
 	1002  Virtio memory balloon
 	1003  Virtio console
+	1004  Virtio SCSI
+	1005  Virtio RNG
 	1009  Virtio filesystem
 1af5  Netezza Corp.
 1afa  J & W Electronics Co., Ltd.
@@ -15924,6 +16007,8 @@
 1c32  Highland Technology, Inc.
 1c3b  Accensus, LLC
 	0200  Telas2
+# http://www.accensusllc.com/accensustelas2.html
+	0300  Telas 2.V
 1c44  Enmotus Inc
 	8000  8000 Storage IO Controller
 1c7f  Elektrobit Austria GmbH
@@ -16513,6 +16598,7 @@
 	1022  4 photo couple 4 relay Card
 	1025  16 photo couple 16 relay Card
 	4000  WatchDog Card
+6688  Zycoo Co., Ltd
 # nee Qumranet
 6900  Red Hat, Inc.
 7063  pcHDTV
@@ -20479,7 +20565,9 @@
 	2f6d  Haswell-E Integrated Memory Controller 1 Channel Target Address Decoder
 	2f6e  Haswell-E DDRIO Channel 2/3 Broadcast
 	2f6f  Haswell-E DDRIO Global Broadcast
+	2f70  Haswell-E Home Agent 0 Debug
 	2f71  Haswell-E Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+	2f78  Haswell-E Home Agent 1 Debug
 	2f79  Haswell-E Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
 	2f7d  Haswell-E Scratchpad & Semaphore Registers
 	2f80  Haswell-E QPI Link 0
@@ -21599,7 +21687,7 @@
 	8d66  Wellsburg sSATA Controller [RAID mode]
 	8d68  Wellsburg sSATA Controller [IDE mode]
 	8d6e  Wellsburg sSATA Controller [RAID mode]
-	8d7c  Wellsburg SPSR
+	8d7c  Wellsburg EPSS
 	8d7d  Wellsburg MS SMBus 0
 	8d7e  Wellsburg MS SMBus 1
 	8d7f  Wellsburg MS SMBus 2
