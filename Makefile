@@ -11,7 +11,8 @@ CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
 FILES = pci.ids usb.ids oui.txt pnp.ids
 
-.PHONY: all install tag force-tag check commit create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
+.PHONY: all install tag force-tag check commit create-archive archive srpm-x \
+    clean clog new-pci-ids new-usb-ids new-pnp-ids
 
 all: 
 
@@ -69,12 +70,12 @@ srpm-x: create-archive
 	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
 
 clean:
-	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm
+	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm new-pnp.xlsx pnp.ids.txt
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui.txt
+download: new-usb-ids new-pci-ids new-oui.txt new-pnp-ids
 
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
@@ -84,3 +85,22 @@ new-pci-ids:
 
 new-oui.txt:
 	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt
+
+new-pnp-ids: pnp.ids
+
+pnp.ids: pnp.ids.txt pnp.ids.patch
+	patch -o $@ <pnp.ids.patch
+
+pnp.ids.txt: new-pnp.xlsx
+	@unoconv --stdout -f csv $? | \
+	    tr ' ' ' ' | \
+	    sed -n \
+		-e 's/^\s*"\s*\(.*\)\s*"/\1/' \
+		-e 's/\s\{2,\}/ /g' \
+		-e 's/\s*(used as 2nd pnpid)\s*//' \
+		-e 's:^\(.*\)\s*,\s*\([a-zA-Z@]\{3\}\)\s*,\s*\([0-9]\+/[0-9]\+/[0-9]\+\):\2\t\1:p' | \
+	    sed 's/\s*$$//' | sort -u >$@
+
+new-pnp.xlsx:
+	@curl -o $@ \
+	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
