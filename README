@@ -1,1 +1,5 @@
 To update the various IDs files, run 'make download'.
+Requisities:
+  unoconf - python script using libreoffice to convert all office
+            documents to anything else
+    * used to update pnp.ids from MS database.

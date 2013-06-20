@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.248
+Version: 0.249
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Jun 20 2013 Michal Minar <miminar@redhat.com> 0.249-1
+- Data files update, pnp.ids included.
+
 * Thu Apr 18 2013 Michal Minar <miminar@redhat.com> 0.248-1
 - Data files update
 
