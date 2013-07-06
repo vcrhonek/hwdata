@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2013.06.20
-#	Date:    2013-06-20 03:15:02
+#	Version: 2013.07.04
+#	Date:    2013-07-04 03:15:01
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -585,7 +585,7 @@
 	1310  Kaveri
 	1311  Kaveri
 	1313  Kaveri
-	1314  Wrestler HDMI Audio [Radeon HD 6250/6310]
+	1314  Wrestler HDMI Audio
 		174b 1001  PURE Fusion Mini
 	1315  Kaveri
 	1316  Kaveri
@@ -1251,7 +1251,7 @@
 		1458 4019  Radeon 9200
 		174b 7c12  Radeon 9200
 		17af 200d  Excalibur Radeon 9200
-		18bc 0050  GeXcube GC-R9200-C3 (Secondary)
+		18bc 0050  GC-R9200-C3 (Secondary)
 	5944  RV280 [Radeon 9200 SE PCI]
 	5950  RS480/RS482/RS485 Host Bridge
 		1025 0080  Aspire 5024WLMMi
@@ -1282,7 +1282,7 @@
 		174b 7c13  Radeon 9200
 		17af 200c  Excalibur Radeon 9200
 		18bc 0050  Radeon 9200 Game Buster
-		18bc 0051  GeXcube GC-R9200-C3
+		18bc 0051  GC-R9200-C3
 		18bc 0053  Radeon 9200 Game Buster VIVO
 	5962  RV280 [Radeon 9200]
 	5964  RV280 [Radeon 9200 SE]
@@ -2796,7 +2796,7 @@
 	94c3  RV610 [Radeon HD 2400 PRO]
 		1028 0302  Radeon HD 2400 Pro
 		174b e400  Radeon HD 2400 PRO
-		18bc 3550  GeCube Radeon HD 2400 PRO
+		18bc 3550  Radeon HD 2400 PRO
 	94c4  RV610 LE [Radeon HD 2400 PRO AGP]
 	94c5  RV610 [Radeon HD 2400 LE]
 	94c7  RV610 [Radeon HD 2350]
@@ -3001,7 +3001,7 @@
 	aa08  RV630 HDMI Audio [Radeon HD 2600 Series]
 	aa10  RV610 HDMI Audio [Radeon HD 2350/2400 Series]
 		174b aa10  Radeon HD 2400 PRO
-		18bc aa10  GeCube Radeon HD 2400 PRO
+		18bc aa10  Radeon HD 2400 PRO
 	aa18  RV670/680 HDMI Audio [Radeon HD 3690/3800 Series]
 	aa20  RV635 HDMI Audio [Radeon HD 3600 Series]
 	aa28  RV620 HDMI Audio [Radeon HD 3400 Series]
@@ -3531,6 +3531,7 @@
 	1419  Family 15h (Models 10h-1fh) I/O Memory Management Unit
 	1439  Family 16h Processor Functions 5:1
 	1510  Family 14h Processor Root Complex
+		174b 1001  PURE Fusion Mini
 	1512  Family 14h Processor Root Port
 	1513  Family 14h Processor Root Port
 	1514  Family 14h Processor Root Port
@@ -4878,7 +4879,7 @@
 		103c 30aa  nc6310
 	8101  TSB43DB42 IEEE-1394a-2000 Controller (PHY/Link)
 	8201  PCI1620 Firmware Loading Function
-	8204  PCI7410,7510,7610 PCI Firmware Loading Function
+	8204  PCI7410/7510/7610 PCI Firmware Loading Function
 		1028 0139  Latitude D400
 		1028 014e  Latitude D800
 	8231  XIO2000(A)/XIO2200A PCI Express-to-PCI Bridge
@@ -4971,7 +4972,7 @@
 		1028 014e  Latitude D800
 	ac48  PCI7610 PC Card Cardbus Controller
 	ac49  PCI7410 PC Card Cardbus Controller
-	ac4a  PCI7510,7610 PC card Cardbus Controller
+	ac4a  PCI7510/7610 CardBus Bridge
 		1028 0139  Latitude D400
 		1028 014e  Latitude D800
 	ac4b  PCI7610 SD/MMC controller
@@ -5009,7 +5010,7 @@
 	ac8d  PCI 7620
 	ac8e  PCI7420 CardBus Controller
 		1028 018d  Inspiron 700m/710m
-	ac8f  PCI7420/7620 Combo CardBus, 1394a-2000 OHCI and SD/MS-Pro Controller
+	ac8f  PCI7420/7620 SD/MS-Pro Controller
 		1028 018d  Inspiron 700m/710m
 	b001  TMS320C6424
 	fe00  FireWire Host Controller
@@ -5498,6 +5499,7 @@
 		103c 12dd  4Gb Fibre Channel [AB429A]
 	2432  ISP2432-based 4Gb Fibre Channel to PCI Express HBA
 	2532  ISP2532-based 8Gb Fibre Channel to PCI Express HBA
+		103c 3262  StorageWorks 81Q
 		1077 0167  QME2572 Dual Port FC8 HBA Mezzanine
 	3022  ISP4022-based Ethernet NIC
 	3032  ISP4032-based Ethernet IPv6 NIC
@@ -8492,6 +8494,7 @@
 		10b0 104a  Gainward GeForce GT 610
 	0e09  GF110 High Definition Audio Controller
 	0e0a  GK104 HDMI Audio Controller
+	0e0b  GK106 HDMI Audio Controller
 	0e0c  GF114 HDMI Audio Controller
 	0e1a  GK110 HDMI Audio
 	0e1b  GK107 HDMI Audio Controller
@@ -8534,11 +8537,14 @@
 	0fe4  GK107M [GeForce GT 750M]
 	0fe5  GK107 [GeForce K340 USM]
 	0fe6  GK107 [NVS K1 USM]
+	0fe7  GRID K1 vGPU
+		10de 101e  GRID K100
 	0fef  GK107GL [GRID K340]
 	0ff1  GK107 [NVS 1000]
 	0ff2  GK107GL [GRID K1]
 	0ff5  GK107GL [Tesla K1 USM]
 	0ff7  GK107GL [Quadro K1 USM]
+		10de 1037  GRID K140Q
 	0ff9  GK107GL [Quadro K2000D]
 	0ffa  GK107GL [Quadro K600]
 	0ffb  GK107GLM [Quadro K2000M]
@@ -8745,6 +8751,8 @@
 	118a  GK104GL [GRID K520]
 	118b  GK104 [GeForce K2 USM]
 	118c  GK104 [NVS K2 USM]
+	118d  GRID K2 vGPU
+		10de 101d  GRID K200
 	118f  GK104GL [Tesla K10]
 	119d  GK104M [GeForce GTX 775M]
 	119f  GK104M [GeForce GTX 780M]
@@ -8755,6 +8763,8 @@
 		106b 010d  iMac 13,2
 	11a7  GK104M [GeForce GTX 675MX]
 	11b0  GK104GL [Quadro K2 USM]
+		10de 101a  GRID K240Q
+		10de 101b  GRID K260Q
 	11b1  GK104GL [Tesla K2 USM]
 	11ba  GK104GL [Quadro K5000]
 	11bb  GK104GL [Quadro 4100]
@@ -9036,7 +9046,7 @@
 		1458 e000  GA-MA69G-S3H Motherboard
 		1462 235c  P965 Neo MS-7235 mainboard
 		1462 236c  945P Neo3-F motherboard
-	8168  RTL8111/8168 PCI Express Gigabit Ethernet controller
+	8168  RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
 		1019 8168  RTL8111/8168 PCI Express Gigabit Ethernet controller
 		1028 04b2  Vostro 3350
 		1028 04da  Vostro 3750
@@ -14001,7 +14011,8 @@
 	21cc  TCP460 CompactPCI 16 Channel Serial Interface RS232/RS422
 	21cd  TCP461 CompactPCI 8 Channel Serial Interface RS232/RS422
 	3064  TPCI100 (2 Slot IndustryPack PCI Carrier)
-	30c8  TPCI200
+	30c8  TPCI200 4 Slot IndustryPack PCI Carrier
+	70c8  TPCE200 4 Slot IndustryPack PCIe Carrier
 1499  EMTEC CO., Ltd
 149a  ANDOR Technology Ltd
 149b  SEIKO Instruments Inc
@@ -14680,6 +14691,7 @@
 		103c 182c  BCM943228HM4L 802.11a/b/g/n 2x2 Wi-Fi Adapter
 	4365  BCM43142 802.11b/g/n
 		1028 0016  Wireless 1704 802.11n + BT 4.0
+	43a0  BCM4360 802.11ac Wireless Network Adapter
 	43b1  BCM4352 802.11ac Wireless Network Adapter
 	4401  BCM4401 100Base-T
 		1025 0035  TravelMate 660
@@ -16352,7 +16364,8 @@
 	db78  FusionHDTV DVB-T Dual Express
 18b8  Ammasso
 	b001  AMSO 1100 iWARP/RDMA Gigabit Ethernet Coprocessor
-18bc  Info-Tek Corp.
+# formally Info-Tek Corp.
+18bc  GeCube Technologies, Inc.
 18c3  Micronas Semiconductor Holding AG
 	0720  nGene PCI-Express Multimedia Controller
 		07ca 032e  Hybrid M779 PCI-E
@@ -16491,9 +16504,9 @@
 # Software UARTs
 	0023  SuperFSCC/4 Serial cPCI Adapter [Fastcom]
 # RS-644 Only, Software UARTs
-	0024  SuperFSCC-LVDS Serial PCI Adapter [Fastcom]
-# RS-644 Only, Software UARTs
 	0025  SuperFSCC/4-LVDS Serial PCI Adapter [Fastcom]
+# RS-644 Only, Software UARTs
+	0026  SuperFSCC-LVDS Serial PCI Adapter [Fastcom]
 18fb  Resilience Corporation
 1904  Hangzhou Silan Microelectronics Co., Ltd.
 	2031  SC92031 PCI Fast Ethernet Adapter
@@ -16875,7 +16888,8 @@
 1a41  Tilera Corp.
 	0001  TILE64 processor
 	0002  TILEPro processor
-	0200  TILE-Gx36 processor
+	0200  TILE-Gx processor
+	2000  TILE-Gx PCI Express Bridge
 1a4a  SLAC National Accelerator Lab PPA-REG
 	1000  MCOR Power Supply Controller
 	1010  AMC EVR - Stockholm Timing Board
@@ -16918,6 +16932,8 @@
 		1a78 0038  FlashMAX PCIe SSD [rev 4]
 		1a78 0039  FlashMAX PCIe SSD [rev 4D]
 	0040  FlashMAX II
+	0041  FlashMAX II
+	0042  FlashMAX II
 1a84  Commex Technologies
 	0001  Vulcan SP HT6210 10-Gigabit Ethernet (rev 02)
 1a88  MEN Mikro Elektronik
@@ -16991,6 +17007,7 @@
 	0612  ASM1062 Serial ATA Controller
 	1042  ASM1042 SuperSpeed USB Host Controller
 	1080  ASM1083/1085 PCIe to PCI Bridge
+1b2c  Opal-RT Technologies Inc.
 1b36  Red Hat, Inc.
 1b37  Signal Processing Devices Sweden AB
 	0014  ADQ412
@@ -19132,6 +19149,10 @@
 		8086 0001  Ethernet Server Bypass Adapter X520-SR2
 	1560  Ethernet Controller X540-AT1
 	157b  I210 Gigabit Network Connection
+	15a0  Ethernet Connection (2) I218-LM
+	15a1  Ethernet Connection (2) I218-V
+	15a2  Ethernet Connection (3) I218-LM
+	15a3  Ethernet Connection (3) I218-V
 	1960  80960RP (i960RP) Microprocessor
 		101e 0431  MegaRAID 431 RAID Controller
 		101e 0438  MegaRAID 438 Ultra2 LVD RAID Controller
@@ -19510,7 +19531,9 @@
 	1f43  Avoton GbE EEPROM-less
 	1f44  Avoton GbE Virtual Function
 	1f45  Avoton GbE 2500base-KX
-	2250  Xeon Phi Coprocessor 5110P
+	2250  Xeon Phi coprocessor 5100 series
+	225c  Xeon Phi coprocessor SE10/7120 series
+	225d  Xeon Phi coprocessor 3120 series 
 	2310  DH89xxCC LPC Controller
 	2323  DH89xxCC 4 Port SATA AHCI Controller
 	2330  DH89xxCC SMBus Controller
@@ -21716,6 +21739,19 @@
 	2f09  Haswell-E PCI Express Root Port 3
 	2f0a  Haswell-E PCI Express Root Port 3
 	2f0b  Haswell-E PCI Express Root Port 3
+	2f10  Haswell-E IIO Debug
+	2f11  Haswell-E IIO Debug
+	2f12  Haswell-E IIO Debug
+	2f13  Haswell-E IIO Debug
+	2f14  Haswell-E IIO Debug
+	2f15  Haswell-E IIO Debug
+	2f16  Haswell-E IIO Debug
+	2f17  Haswell-E IIO Debug
+	2f18  Haswell-E IIO Debug
+	2f19  Haswell-E IIO Debug
+	2f1a  Haswell-E IIO Debug
+	2f1b  Haswell-E IIO Debug
+	2f1c  Haswell-E IIO Debug
 	2f1d  Haswell-E PCIe Ring Interface
 	2f1e  Haswell-E Scratchpad & Semaphore Registers
 	2f1f  Haswell-E Scratchpad & Semaphore Registers
@@ -21746,6 +21782,9 @@
 	2f40  Haswell-E QPI Link 2
 	2f41  Haswell-E R3 QPI Link 2 Monitoring
 	2f43  Haswell-E QPI Link 2
+	2f45  Haswell-E QPI Link 2 Debug
+	2f46  Haswell-E QPI Link 2 Debug
+	2f47  Haswell-E QPI Link 2 Debug
 	2f60  Haswell-E Home Agent 1
 	2f68  Haswell-E Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
 	2f6a  Haswell-E Integrated Memory Controller 1 Channel Target Address Decoder
@@ -21756,14 +21795,27 @@
 	2f6f  Haswell-E DDRIO Global Broadcast
 	2f70  Haswell-E Home Agent 0 Debug
 	2f71  Haswell-E Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+	2f76  Haswell-E E3 QPI Link Debug
 	2f78  Haswell-E Home Agent 1 Debug
 	2f79  Haswell-E Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
 	2f7d  Haswell-E Scratchpad & Semaphore Registers
+	2f7e  Haswell-E E3 QPI Link Debug
 	2f80  Haswell-E QPI Link 0
 	2f81  Haswell-E R3 QPI Link 0 & 1 Monitoring
 	2f83  Haswell-E QPI Link 0
+	2f85  Haswell-E QPI Link 0 Debug
+	2f86  Haswell-E QPI Link 0 Debug
+	2f87  Haswell-E QPI Link 0 Debug
+	2f88  Haswell-E VCU
+	2f8a  Haswell-E VCU
 	2f90  Haswell-E QPI Link 1
 	2f93  Haswell-E QPI Link 1
+	2f95  Haswell-E QPI Link 1 Debug
+	2f96  Haswell-E QPI Link 1 Debug
+	2f98  Haswell-E Power Control Unit
+	2f99  Haswell-E Power Control Unit
+	2f9a  Haswell-E Power Control Unit
+	2f9c  Haswell-E Power Control Unit
 	2fa0  Haswell-E Home Agent 0
 	2fa8  Haswell-E Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
 	2faa  Haswell-E Integrated Memory Controller 0 Channel Target Address Decoder
@@ -21778,6 +21830,8 @@
 	2fb3  Haswell-E Integrated Memory Controller 0 Channel 1 ERROR Registers
 	2fb4  Haswell-E Integrated Memory Controller 0 Channel 2 Thermal Control
 	2fb5  Haswell-E Integrated Memory Controller 0 Channel 3 Thermal Control
+	2fb6  Haswell-E Integrated Memory Controller 0 Channel 2 ERROR Registers
+	2fb7  Haswell-E Integrated Memory Controller 0 Channel 3 ERROR Registers
 	2fb8  Haswell-E DDRIO (VMSE) 2 & 3
 	2fb9  Haswell-E DDRIO (VMSE) 2 & 3
 	2fba  Haswell-E DDRIO (VMSE) 2 & 3
@@ -21788,10 +21842,10 @@
 	2fbf  Haswell-E DDRIO (VMSE) 0 & 1
 	2fc0  Haswell-E Power Control Unit
 	2fc1  Haswell-E Power Control Unit
-	2fc2  Power Control Unit
-	2fc3  Power Control Unit
-	2fc4  Power Control Unit
-	2fc5  Power Control Unit
+	2fc2  Haswell-E Power Control Unit
+	2fc3  Haswell-E Power Control Unit
+	2fc4  Haswell-E Power Control Unit
+	2fc5  Haswell-E Power Control Unit
 	2fd0  Haswell-E Integrated Memory Controller 1 Channel 0 Thermal Control
 	2fd1  Haswell-E Integrated Memory Controller 1 Channel 1 Thermal Control
 	2fd2  Haswell-E Integrated Memory Controller 1 Channel 0 ERROR Registers
@@ -23467,8 +23521,16 @@ b1d9  ATCOM Technology co., LTD.
 # Pinnacle should be 11bd, but they got it wrong several times --mj
 bd11  Pinnacle Systems, Inc. (Wrong ID)
 bdbd  Blackmagic Design
-# HD/SDI input and output card for PCI Express 1x
-	a11b  DeckLink SDI
+	a117  Intensity Pro
+	a11a  DeckLink HD Extreme 2
+	a11b  DeckLink SDI/Duo/Quad
+	a11c  DeckLink HD Extreme 3
+	a11d  DeckLink Studio
+	a11e  DeckLink Optical Fibre
+	a121  DeckLink HD Extreme 3D/3D+
+	a12e  DeckLink 4K Extreme
+	a12f  DeckLink Mini Monitor
+	a130  DeckLink Mini Recorder
 c001  TSI Telsys
 c0a9  Micron/Crucial Technology
 c0de  Motorola
@@ -23528,7 +23590,19 @@ dcba  Dynamic Engineering
 # PMC Format FPGA design with 8 high speed UART channels
 	0048  PMC-Biserial-III-BAE9
 dd01  Digital Devices GmbH
-	0003  Octopus LE DVB adapter
+	0003  Octopus DVB Adapter
+		dd01 0001  Octopus DVB adapter
+		dd01 0002  Octopus LE DVB adapter
+		dd01 0003  Octopus OEM
+		dd01 0004  Octopus V3 DVB adapter
+		dd01 0010  Octopus Mini
+		dd01 0020  Cine S2 V6 DVB adapter
+		dd01 0021  Cine S2 V6.5 DVB adapter
+		dd01 0030  Cine CT V6.1 DVB adapter
+		dd01 db03  Mystique SaTiX-S2 V3 DVB adapter
+	0011  Octopus CI DVB Adapter
+		dd01 0040  Octopus CI
+		dd01 0041  Octopus CI Single
 dead  Indigita Corporation
 deaf  Middle Digital Inc.
 	9050  PC Weasel Virtual VGA
