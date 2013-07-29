@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2013.07.20
-#	Date:    2013-07-20 03:15:02
+#	Version: 2013.07.26
+#	Date:    2013-07-26 03:15:02
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -8530,6 +8530,7 @@
 	0fc2  GK107 [GeForce GT 630 OEM]
 	0fc6  GK107 [GeForce GTX 650]
 		1043 8428  GTX650-DC-1GD5
+	0fcd  GK107M [GeForce GT 755M]
 	0fd1  GK107M [GeForce GT 650M]
 		1043 1597  GeForce GT 650M
 		1043 15a7  GeForce GT 650M
@@ -8553,7 +8554,7 @@
 	0fe4  GK107M [GeForce GT 750M]
 	0fe5  GK107 [GeForce K340 USM]
 	0fe6  GK107 [NVS K1 USM]
-	0fe7  GRID K1 vGPU
+	0fe7  GK107GL [GRID K1]
 		10de 101e  GRID K100
 	0fef  GK107GL [GRID K340]
 	0ff1  GK107 [NVS 1000]
@@ -8561,6 +8562,7 @@
 	0ff5  GK107GL [Tesla K1 USM]
 	0ff7  GK107GL [Quadro K1 USM]
 		10de 1037  GRID K140Q
+	0ff8  GK107GLM [Quadro K500M]
 	0ff9  GK107GL [Quadro K2000D]
 	0ffa  GK107GL [Quadro K600]
 	0ffb  GK107GLM [Quadro K2000M]
@@ -8714,6 +8716,7 @@
 		1043 21fa  GeForce GT 720M
 		1043 220a  GeForce GT 720M
 		1043 221a  GeForce GT 720M
+		1043 8595  GeForce GT 720M
 		1179 fa01  GeForce 710M
 		1179 fa02  GeForce 710M
 		1179 fa03  GeForce 710M
@@ -8738,6 +8741,7 @@
 		1179 fa59  GeForce 710M
 		1179 fa88  GeForce 710M
 		1179 fa89  GeForce 710M
+		144d b092  GeForce GT 620M
 		144d c0d5  GeForce GT 630M
 		144d c0d7  GeForce GT 620M
 		144d c0e2  NVS 5200M
@@ -8748,6 +8752,8 @@
 		144d c711  GeForce 710M
 		1462 10b8  GeForce GT 710M
 		1462 10e9  GeForce GT 720M
+		1462 aa33  GeForce 720M
+		1462 aaa2  GeForce GT 720M
 		152d 0926  GeForce 620M
 		152d 0982  GeForce GT 630M
 		152d 0983  GeForce GT 630M
@@ -8792,7 +8798,7 @@
 	118a  GK104GL [GRID K520]
 	118b  GK104 [GeForce K2 USM]
 	118c  GK104 [NVS K2 USM]
-	118d  GRID K2 vGPU
+	118d  GK104GL [GRID K2]
 		10de 101d  GRID K200
 	118f  GK104GL [Tesla K10]
 	119d  GK104M [GeForce GTX 775M]
@@ -8807,6 +8813,7 @@
 		10de 101a  GRID K240Q
 		10de 101b  GRID K260Q
 	11b1  GK104GL [Tesla K2 USM]
+	11b7  GK104GLM [Quadro K4100M]
 	11ba  GK104GL [Quadro K5000]
 	11bb  GK104GL [Quadro 4100]
 	11bc  GK104GLM [Quadro K5000M]
@@ -8830,6 +8837,7 @@
 	11e2  GK106M [GeForce GTX 765M]
 	11e3  GK106M [GeForce GTX 760M]
 	11fa  GK106GL [Quadro K4000]
+	11fc  GK106GLM [Quadro K2100M]
 	1200  GF114 [GeForce GTX 560 Ti]
 	1201  GF114 [GeForce GTX 560]
 	1202  GF114 [GeForce GTX 560 Ti OEM]
@@ -8871,7 +8879,9 @@
 	1292  GK208M [GeForce GT 740M]
 	1293  GK208M [GeForce GT 730M]
 	1294  GK208M [GeForce GT 740M]
+	1295  GK208M [GeForce 710M]
 	12a0  GK208
+	12ba  GK208GLM [Quadro K510M]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 	0722  OneConnect iSCSI Initiator (Skyhawk)
@@ -9028,7 +9038,7 @@
 		1af4 1100  Qemu virtual machine
 	8129  RTL-8129
 		10ec 8129  RT8129 Fast Ethernet Adapter
-		11ec 8129  RT8129 Fast Ethernet Adapter
+		11ec 8129  RTL8111/8168 PCIe Gigabit Ethernet (misconfigured)
 	8136  RTL8101E/RTL8102E PCI Express Fast Ethernet controller
 		103c 2ab1  Pavillion p6774
 		103c 30cc  Pavilion dv6700
@@ -15615,6 +15625,9 @@
 	3640  FarSync T4E (4-port X.21/V.35/V.24)
 	4620  FarSync T2Ue PCI Express (2-port X.21/V.35/V.24)
 	4640  FarSync T4Ue PCI Express (4-port X.21/V.35/V.24)
+	5621  FarSync T2Ee PCI Express (2 port X.21/V.35/V.24)
+	5641  FarSync T4Ee PCI Express (4 port X.21/V.35/V.24)
+	6620  FarSync T2U-PMC PCI Express (2 port X.21/V.35/V.24)
 161f  Rioworks
 1626  TDK Semiconductor Corp.
 	8410  RTL81xx Fast Ethernet
@@ -15648,6 +15661,8 @@
 		1657 0022  10Gbps CNA - FCOE
 		1657 0023  10Gbps CNA - LL
 		1657 0024  16Gbps FC HBA
+# Mezz card for IBM
+	0023  1869 16Gbps FC HBA
 # Same Device_ID used for 410 (1port) and 420 (2 port) HBAs.
 	0646  400 4Gbps PCIe FC HBA
 165a  Epix Inc
@@ -17729,6 +17744,10 @@
 	1025  16 photo couple 16 relay Card
 	4000  WatchDog Card
 6688  Zycoo Co., Ltd
+	1200  CooVOX TDM Analog Module
+	1400  CooVOX TDM GSM Module
+	1600  CooVOX TDM E1/T1 Module
+	1800  CooVOX TDM BRI Module
 # nee Qumranet
 6900  Red Hat, Inc.
 7063  pcHDTV
@@ -19192,13 +19211,16 @@
 		8086 7b11  10GbE 2P X520 Adapter
 	1557  82599 10 Gigabit Network Connection
 		8086 0001  Ethernet OCP Server Adapter X520-1
+	1558  Ethernet Converged Network Adapter X520-Q1
+		8086 011a  Ethernet Converged Network Adapter X520-Q1
+		8086 011b  Ethernet Converged Network Adapter X520-Q1
 	1559  Ethernet Connection I218-V
 	155a  Ethernet Connection I218-LM
 	155c  Ethernet Server Bypass Adapter
 		8086 0001  Ethernet Server Bypass Adapter X540-T2
 	155d  Ethernet Server Bypass Adapter
 		8086 0001  Ethernet Server Bypass Adapter X520-SR2
-	1560  Ethernet Controller X540-AT1
+	1560  Ethernet Controller X540
 	157b  I210 Gigabit Network Connection
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
