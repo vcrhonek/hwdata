@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2013.07.26
-#	Date:    2013-07-26 03:15:02
+#	Version: 2013.08.20
+#	Date:    2013-08-20 03:15:01
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -636,7 +636,7 @@
 	4154  RV350 GL [FireGL T2]
 	4155  RV350 [Radeon 9600]
 	4157  RV350 GL [FireGL T2]
-	4158  68800AX [Mach32]
+	4158  68800AX [Graphics Ultra Pro PCI]
 	4164  R300 [Radeon 9500 PRO] (Secondary)
 	4165  R300 [Radeon 9700 PRO] (Secondary)
 	4166  R300 [Radeon 9700 PRO] (Secondary)
@@ -931,7 +931,7 @@
 	4753  Rage XC
 		1002 4753  Rage XC
 	4754  3D Rage II/II+ PCI [Mach64 GT]
-	4755  3D Rage II+ PCI [Mach64 GTB]
+	4755  Mach64 GTB [3D Rage II+ DVD]
 	4756  3D Rage IIC PCI [Mach64 GT IIC]
 		1002 4756  Rage IIC
 	4757  3D Rage IIC AGP
@@ -3440,7 +3440,7 @@
 		1014 035d  PCIe3 1.8GB Cache RAID SAS Adapter Quad-port 6GB (57C8)
 		1014 035e  PCIe2 3.6GB Cache 6Gb SAS RAID Adapter Quad-port (57CE)
 		1014 03fb  PCIe3 28GB Cache RAID SAS Enclosure 6Gb x 16 (57D5)
-	04aa  Flash Adapter 900GB Full Height
+	04aa  Flash Adapter 90 (PCIe2 0.9TB)
 	3022  QLA3022 Network Adapter
 	4022  QLA3022 Network Adapter
 	ffff  MPIC-2 interrupt controller
@@ -8328,6 +8328,45 @@
 	0a76  GT218 [ION 2]
 	0a78  GT218GL [Quadro FX 380 LP]
 	0a7a  GT218M [GeForce 315M]
+		104d 907e  GeForce 315M
+		1179 fc50  GeForce 315M
+		1179 fc61  GeForce 315M
+		1179 fc71  GeForce 315M
+		1179 fc90  GeForce 315M
+		1179 fcc0  GeForce 315M
+		1179 fcd0  GeForce 315M
+		1179 fce2  GeForce 315M
+		1179 fcf2  GeForce 315M
+		1179 fd16  GeForce 315M
+		1179 fd40  GeForce 315M
+		1179 fd50  GeForce 315M
+		1179 fd52  GeForce 315M
+		1179 fd61  GeForce 315M
+		1179 fd71  GeForce 315M
+		1179 fd92  GeForce 315M
+		1179 fd96  GeForce 315M
+		1179 fdd0  GeForce 315M
+		1179 fdd2  GeForce 315M
+		1179 fdfe  GeForce 315M
+		144d c0a2  GeForce 315M
+		144d c0b2  GeForce 315M
+		144d c581  GeForce 315M
+		144d c587  GeForce 315M
+		144d c588  GeForce 315M
+		144d c597  GeForce 315M
+		144d c606  GeForce 315M
+		1462 aa51  GeForce 405
+		1462 aa58  GeForce 405
+		1462 ac71  GeForce 405
+		1462 ac81  GeForce 315M
+		1462 ac82  GeForce 405
+		1462 ae33  GeForce 405
+		17aa 3950  GeForce 405M
+		17aa 397d  GeForce 405M
+		1b0a 2091  GeForce 315M
+		1bfd 0003  GeForce 405
+		1bfd 8006  GeForce 405
+		1bfd 8007  GeForce 315M
 	0a7b  GT218 [GeForce 505]
 	0a7c  GT218GLM [Quadro FX 380M]
 	0a80  MCP79 Host Bridge
@@ -8548,7 +8587,7 @@
 	0fd8  GK107M [GeForce GT 640M Mac Edition]
 	0fd9  GK107M [GeForce GT 645M]
 	0fdf  GK107M [GeForce GT 740M]
-	0fe0  GK107M [GeForce GTX 660M OEM]
+	0fe0  GK107M [GeForce GTX 660M Mac Edition]
 	0fe1  GK107M [GeForce GT 730M]
 	0fe3  GK107M [GeForce GT 745M]
 	0fe4  GK107M [GeForce GT 750M]
@@ -8754,6 +8793,7 @@
 		1462 10e9  GeForce GT 720M
 		1462 aa33  GeForce 720M
 		1462 aaa2  GeForce GT 720M
+		1462 ae71  GeForce GT 720M
 		152d 0926  GeForce 620M
 		152d 0982  GeForce GT 630M
 		152d 0983  GeForce GT 630M
@@ -8802,6 +8842,7 @@
 		10de 101d  GRID K200
 	118f  GK104GL [Tesla K10]
 	119d  GK104M [GeForce GTX 775M]
+	119e  GK104M [GeForce GTX 780M]
 	119f  GK104M [GeForce GTX 780M]
 	11a0  GK104M [GeForce GTX 680M]
 	11a1  GK104M [GeForce GTX 670MX]
@@ -8814,6 +8855,7 @@
 		10de 101b  GRID K260Q
 	11b1  GK104GL [Tesla K2 USM]
 	11b7  GK104GLM [Quadro K4100M]
+	11b8  GK104GLM [Quadro K5100M]
 	11ba  GK104GL [Quadro K5000]
 	11bb  GK104GL [Quadro 4100]
 	11bc  GK104GLM [Quadro K5000M]
@@ -8832,6 +8874,7 @@
 		10de 1030  GeForce GTX 650 Ti OEM
 	11c4  GK106 [GeForce GTX 645 OEM]
 	11c6  GK106 [GeForce GTX 650 Ti]
+	11c8  GK106 [GeForce GTX 650 OEM]
 	11e0  GK106M [GeForce GTX 770M]
 	11e1  GK106M [GeForce GTX 765M]
 	11e2  GK106M [GeForce GTX 765M]
@@ -8862,10 +8905,25 @@
 		1043 212a  GeForce GT 635M
 		1043 212b  GeForce GT 635M
 		1043 212c  GeForce GT 635M
-	1248  GF116M [GeForce GT 555M]
+		152d 0930  GeForce GT 635M
+	1248  GF116M [GeForce GT 555M/635M]
+		152d 0930  GeForce GT 635M
+		17c0 10e7  GeForce GT 555M
+		17c0 10e8  GeForce GT 555M
+		17c0 10ea  GeForce GT 555M
+		1854 0890  GeForce GT 555M
+		1854 0891  GeForce GT 555M
+		1854 1795  GeForce GT 555M
+		1854 1796  GeForce GT 555M
+		1854 3005  GeForce GT 555M
 	1249  GF116 [GeForce GTS 450 Rev. 3]
 	124b  GF116 [GeForce GT 640 OEM]
 	124d  GF116M [GeForce GT 555M/635M]
+		1028 0491  GeForce GT 555M
+		1028 0570  GeForce GT 555M
+		1028 0571  GeForce GT 555M
+		1462 108d  GeForce GT 555M
+		1462 10cc  GeForce GT 635M
 	1251  GF116M [GeForce GT 560M]
 	1280  GK208 [GeForce GT 635]
 	1282  GK208 [GeForce GT 640 Rev. 2]
@@ -8881,6 +8939,7 @@
 	1294  GK208M [GeForce GT 740M]
 	1295  GK208M [GeForce 710M]
 	12a0  GK208
+	12b9  GK208GLM [Quadro K610M]
 	12ba  GK208GLM [Quadro K510M]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -9028,6 +9087,7 @@
 	0892  Realtek 892 High Definition Audio
 	5209  RTS5209 PCI Express Card Reader
 	5229  RTS5229 PCI Express Card Reader
+		1025 0813  Aspire R7-571
 	5288  Barossa PCI Express Card Reader
 	8029  RTL-8029(AS)
 		10b8 2011  EZ-Card (SMC1208)
@@ -10506,6 +10566,8 @@
 		1137 0048  VIC M81KR Mezzanine FCoE HBA
 		1137 004f  VIC 1280 Mezzanine FCoE HBA
 	004e  VIC 82 PCIe Upstream Port
+	0084  VIC 1240 MLOM FCoE HBA
+	0085  VIC 1225 PCIe FCOE HBA
 	00cf  VIC Userspace NIC
 1138  Ziatech Corporation
 	8905  8905 [STD 32 Bridge]
@@ -10935,6 +10997,7 @@
 		14ef 0220  PCD-RP-220S
 		17aa 201c  ThinkPad X60s
 		17aa 20c4  ThinkPad T61
+		17aa 20c6  ThinkPad R61
 	0477  RL5c477
 	0478  RL5c478
 		1014 0184  ThinkPad A30p
@@ -10998,6 +11061,7 @@
 		103c 30c1  Compaq 6910p
 		103c 30cc  Pavilion dv6700
 		103c 30cf  Pavilion dv9668eg Laptop
+		17aa 20c7  ThinkPad R61
 	0841  R5C841 CardBus/SD/SDIO/MMC/MS/MSPro/xD/IEEE1394
 	0843  R5C843 MMC Host Controller
 		1025 0121  Aspire 5920G
@@ -12119,6 +12183,7 @@
 	0510  SM501 VoyagerGX Rev. B
 	0710  SM710 LynxEM
 	0712  SM712 LynxEM+
+	0718  SM718 LynxSE+
 	0720  SM720 Lynx3DM
 	0730  SM731 Cougar3DR
 	0810  SM810 LynxE
@@ -15621,6 +15686,7 @@
 	0620  FarSync T2U (2 port X.21/V.35/V.24)
 	0640  FarSync T4U (4 port X.21/V.35/V.24)
 	1610  FarSync TE1 (T1,E1)
+	1612  FarSync TE1 PCI Express (T1,E1)
 	2610  FarSync DSL-S1 (SHDSL)
 	3640  FarSync T4E (4-port X.21/V.35/V.24)
 	4620  FarSync T2Ue PCI Express (2-port X.21/V.35/V.24)
@@ -15657,18 +15723,20 @@
 		103c 1743  HP 81B 8Gbps single port FC HBA
 		1657 0014  415/815 4Gbps/8Gbps single port PCIe FC HBA
 	0021  804 8Gbps FC HBA for HP Bladesystem c-class
-	0022  1867/1860: 16Gbps/10Gbps Fabric Adapter
+# AnyIO Adapter
+	0022  1860 16Gbps/10Gbps Fabric Adapter
 		1657 0022  10Gbps CNA - FCOE
 		1657 0023  10Gbps CNA - LL
 		1657 0024  16Gbps FC HBA
 # Mezz card for IBM
-	0023  1869 16Gbps FC HBA
+	0023  1867/1869 16Gbps FC HBA
 # Same Device_ID used for 410 (1port) and 420 (2 port) HBAs.
 	0646  400 4Gbps PCIe FC HBA
 165a  Epix Inc
 	c100  PIXCI(R) CL1 Camera Link Video Capture Board [custom QL5232]
 	d200  PIXCI(R) D2X Digital Video Capture Board [custom QL5232]
 	d300  PIXCI(R) D3X Digital Video Capture Board [custom QL5232]
+	eb01  PIXCI(R) EB1 PCI Camera Link Video Capture Board
 165d  Hsing Tech. Enterprise Co., Ltd.
 165f  Linux Media Labs, LLC
 	1020  LMLM4 MPEG-4 encoder
@@ -16443,6 +16511,7 @@
 18d8  Dialogue Technology Corp.
 18dd  Artimi Inc
 	4c6f  Artimi RTMI-100 UWB adapter
+18df  LeWiz Communications
 18e6  MPL AG
 	0001  OSCI [Octal Serial Communication Interface]
 18eb  Advance Multimedia Internet Technology, Inc.
@@ -16954,6 +17023,7 @@
 	1000  MCOR Power Supply Controller
 	1010  AMC EVR - Stockholm Timing Board
 	2000  PGPCard - 4 Lane
+	2001  PGPCard - 8 Lane Plus EVR
 	2010  PCI-Express EVR
 1a51  Hectronic AB
 1a55  Rohde & Schwarz DVS GmbH
@@ -17145,6 +17215,7 @@
 	0003  MAX3
 	0004  MAX4
 1bf4  VTI Instruments Corporation
+1bfd  EeeTOP
 1c1c  Symphony
 	0001  82C101
 1c2c  Fiberblaze
@@ -17161,6 +17232,8 @@
 1c8a  TSF5 Corporation
 	0001  Hunter PCI Express
 1cb1  Collion UG & Co.KG
+1cc5  Embedded Intelligence, Inc.
+	0100  CAN-PCIe-02
 1d44  DPT
 	a400  PM2x24/PM3224
 1d5c  Fantasia Trading LLC
@@ -17876,6 +17949,7 @@
 	0153  3rd Gen Core Processor Thermal Subsystem
 		1043 1517  Zenbook Prime UX31A
 	0154  3rd Gen Core processor DRAM Controller
+		1025 0813  Aspire R7-571
 		103c 17f6  ProBook 4540s
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
@@ -18616,6 +18690,7 @@
 		103c 704e  Dual Port 1000Base-T (PCIe) [AD337A]
 		1775 1100  CR11/VR11 Single Board Computer
 		1775 6003  Telum GE-QT
+		18df 1214  2x 1GbE, PCIe x1, dual Intel 82571EB chips
 		8086 005e  PRO/1000 PT Dual Port Server Connection
 		8086 105e  PRO/1000 PT Dual Port Network Connection
 		8086 10d5  82571PT Gigabit PT Quad Port Server ExpressModule
@@ -19599,6 +19674,7 @@
 	1f3e  Avoton RAID SATA3 Controller
 	1f3f  Avoton RAID SATA3 Controller
 	1f40  Ethernet Connection I354 1.0 GbE Backplane
+		1028 10f1  Ethernet Connection I354 1.0 GbE Backplane
 	1f41  Ethernet Connection I354
 	1f42  Avoton GbE
 	1f44  Avoton GbE Virtual Function
@@ -19734,7 +19810,7 @@
 		144d c072  Notebook N150P
 		1458 5000  GA-D525TUD
 		1734 1055  Amilo M1420
-		17aa 20ae  ThinkPad T61
+		17aa 20ae  ThinkPad T61/R61
 		8086 544b  Desktop Board D425KT
 		e4bf cc47  CCG-RUMBA
 	2449  82801BA/BAM/CA/CAM Ethernet Controller
@@ -21020,7 +21096,7 @@
 		1043 81ec  P5B
 	2811  82801HEM (ICH8M-E) LPC Interface Controller
 		103c 30c1  Compaq 6910p
-		17aa 20b6  T61
+		17aa 20b6  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	2812  82801HH (ICH8DH) LPC Interface Controller
 	2814  82801HO (ICH8DO) LPC Interface Controller
@@ -21058,7 +21134,7 @@
 		103c 30d9  Presario C700
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
-		17aa 20a7  ThinkPad T61
+		17aa 20a7  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	282a  82801 Mobile SATA Controller [RAID mode]
 		1028 040b  Latitude E6510
@@ -21075,7 +21151,7 @@
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
 		1462 7235  P965 Neo MS-7235 mainboard
-		17aa 20aa  ThinkPad T61
+		17aa 20aa  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	2831  82801H (ICH8 Family) USB UHCI Controller #2
 		1025 0121  Aspire 5920G
@@ -21089,7 +21165,7 @@
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
 		1462 7235  P965 Neo MS-7235 mainboard
-		17aa 20aa  ThinkPad T61
+		17aa 20aa  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	2832  82801H (ICH8 Family) USB UHCI Controller #3
 		1025 0121  Aspire 5920G
@@ -21102,7 +21178,7 @@
 		1043 81ec  P5B
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
-		17aa 20aa  ThinkPad T61
+		17aa 20aa  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	2833  82801H (ICH8 Family) USB UHCI Controller #4
 		1043 81ec  P5B
@@ -21117,7 +21193,7 @@
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
 		1462 7235  P965 Neo MS-7235 mainboard
-		17aa 20aa  ThinkPad T61
+		17aa 20aa  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	2835  82801H (ICH8 Family) USB UHCI Controller #5
 		1025 0121  Acer Aspire 5920G
@@ -21129,7 +21205,7 @@
 		1043 81ec  P5B
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
-		17aa 20aa  ThinkPad T60
+		17aa 20aa  Thinkpad T61/R61
 		e4bf cc47  CCG-RUMBA
 	2836  82801H (ICH8 Family) USB2 EHCI Controller #1
 		1025 0121  Aspire 5920G
@@ -21143,7 +21219,7 @@
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
 		1462 7235  P965 Neo MS-7235 mainboard
-		17aa 20ab  ThinkPad T61
+		17aa 20ab  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	283a  82801H (ICH8 Family) USB2 EHCI Controller #2
 		1025 0121  Acer Aspire 5920G
@@ -21155,7 +21231,7 @@
 		1043 81ec  P5B
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
-		17aa 20ab  ThinkPad T61
+		17aa 20ab  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	283e  82801H (ICH8 Family) SMBus Controller
 		1025 0121  Aspire 5920G
@@ -21167,26 +21243,26 @@
 		104d 9008  Vaio VGN-SZ79SN_C
 		104d 902d  VAIO VGN-NR120E
 		1462 7235  P965 Neo MS-7235 mainboard
-		17aa 20a9  ThinkPad T61
+		17aa 20a9  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	283f  82801H (ICH8 Family) PCI Express Port 1
 		1028 01da  OptiPlex 745
 		103c 30c1  Compaq 6910p
 		104d 902d  VAIO VGN-NR120E
-		17aa 20ad  ThinkPad T61
+		17aa 20ad  ThinkPad T61/R61
 	2841  82801H (ICH8 Family) PCI Express Port 2
 		103c 30c1  Compaq 6910p
 		104d 902d  VAIO VGN-NR120E
-		17aa 20ad  ThinkPad T61
+		17aa 20ad  ThinkPad T61/R61
 	2843  82801H (ICH8 Family) PCI Express Port 3
 		104d 902d  VAIO VGN-NR120E
-		17aa 20ad  ThinkPad T61
+		17aa 20ad  ThinkPad T61/R61
 	2845  82801H (ICH8 Family) PCI Express Port 4
-		17aa 20ad  ThinkPad T61
+		17aa 20ad  ThinkPad T61/R61
 	2847  82801H (ICH8 Family) PCI Express Port 5
 		1028 01da  OptiPlex 745
 		103c 30c1  Compaq 6910p
-		17aa 20ad  ThinkPad T61
+		17aa 20ad  ThinkPad T61/R61
 	2849  82801H (ICH8 Family) PCI Express Port 6
 	284b  82801H (ICH8 Family) HD Audio Controller
 		1025 011f  Realtek ALC268 audio codec
@@ -21208,7 +21284,7 @@
 		104d 9016  Sony VAIO VGN-AR51M
 		104d 902d  VAIO VGN-NR120E
 		14f1 5051  Presario C700
-		17aa 20ac  ThinkPad T61
+		17aa 20ac  ThinkPad T61/R61
 		8384 7616  Dell Vostro 1400
 		e4bf cc47  CCG-RUMBA
 	284f  82801H (ICH8 Family) Thermal Reporting Device
@@ -21221,7 +21297,7 @@
 		103c 30d9  Presario C700
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
-		17aa 20a6  ThinkPad T61
+		17aa 20a6  ThinkPad T61/R61
 		e4bf cc47  CCG-RUMBA
 	2912  82801IH (ICH9DH) LPC Interface Controller
 	2914  82801IO (ICH9DO) LPC Interface Controller
@@ -22297,7 +22373,7 @@
 		1028 028d  PowerEdge T410 USB EHCI Controller
 		103c 330b  ProLiant G6 series
 		1043 82d4  P5Q Deluxe Motherboard
-		1458 5006  GA-EP45-DS5 Motherboard
+		1458 5006  Motherboard
 	3a3e  82801JI (ICH10 Family) HD Audio Controller
 		1043 8311  P5Q Deluxe Motherboard
 		1458 a002  GA-EP45-UD3R Motherboard
@@ -23002,7 +23078,7 @@
 	8d66  Wellsburg sSATA Controller [RAID mode]
 	8d68  Wellsburg sSATA Controller [IDE mode]
 	8d6e  Wellsburg sSATA Controller [RAID mode]
-	8d7c  Wellsburg EPSS
+	8d7c  Wellsburg SPSR
 	8d7d  Wellsburg MS SMBus 0
 	8d7e  Wellsburg MS SMBus 1
 	8d7f  Wellsburg MS SMBus 2

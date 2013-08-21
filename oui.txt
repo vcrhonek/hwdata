@@ -5007,11 +5007,11 @@
 				Shanghai  
 				CHINA
 
-  00-03-10   (hex)		ITX E-Globaledge Corporation
-  000310     (base 16)		ITX E-Globaledge Corporation
-  				Nakameguro GT tower 7F 2-1-1 kamimeguro
-				Meguro-ku
-				Tokyo  153-0051
+  00-03-10   (hex)		E-Globaledge Corporation
+  000310     (base 16)		E-Globaledge Corporation
+  				7F Nakameguro GT Tower
+				2-1-1 Kamimeguro
+				 Meduro-ku, Tokyo  153-0051
 				JAPAN
 
   00-03-11   (hex)		Micro Technology Co., Ltd.
@@ -6346,10 +6346,10 @@
 				Milpitas CA 95035
 				UNITED STATES
 
-  00-03-E0   (hex)		Motorola, Inc.
-  0003E0     (base 16)		Motorola, Inc.
-  				1301 E. Algonquin Rd.
-				Schaumburg IL 60196
+  00-03-E0   (hex)		ARRIS Group, Inc.
+  0003E0     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-03-E1   (hex)		Winmate Communication, Inc.
@@ -7201,10 +7201,10 @@
 				Lancaster PA 17601-5874
 				UNITED STATES
 
-  00-04-64   (hex)		Fantasma Networks, Inc.
-  000464     (base 16)		Fantasma Networks, Inc.
-  				3250 Ash Street
-				Palo Alto CA 94306
+  00-04-64   (hex)		Pulse-Link Inc
+  000464     (base 16)		Pulse-Link Inc
+  				1934 Kellogg Avenue
+				Carlsbad CA 92008
 				UNITED STATES
 
   00-04-65   (hex)		i.s.t isdn-support technik GmbH
@@ -7771,10 +7771,10 @@
 				TAIWAN 231 TAIWAN 231 R.O.C.
 				TAIWAN, PROVINCE OF CHINA
 
-  00-04-BD   (hex)		Motorola Mobility, Inc.
-  0004BD     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-04-BD   (hex)		ARRIS Group, Inc.
+  0004BD     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-04-BE   (hex)		OptXCon, Inc.
@@ -13217,10 +13217,10 @@
 				Tokyo  198-8710
 				JAPAN
 
-  00-08-0E   (hex)		Motorola Mobility, Inc.
-  00080E     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Dr.
-				San Diego CA 92121
+  00-08-0E   (hex)		ARRIS Group, Inc.
+  00080E     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-08-0F   (hex)		Proximion Fiber Optics AB
@@ -17876,10 +17876,10 @@
 				SCORESBY VIC 3179
 				AUSTRALIA
 
-  00-0B-06   (hex)		Motorola Mobility, Inc.
-  000B06     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-0B-06   (hex)		ARRIS Group, Inc.
+  000B06     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-0B-07   (hex)		Voxpath Networks
@@ -20891,10 +20891,10 @@
 				Clackamas OR 97015
 				UNITED STATES
 
-  00-0C-E5   (hex)		Motorola Mobility, Inc.
-  000CE5     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-0C-E5   (hex)		ARRIS Group, Inc.
+  000CE5     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-0C-E6   (hex)		Meru Networks Inc
@@ -21020,11 +21020,10 @@
 				Brampton Ontario L6T 5P6
 				CANADA
 
-  00-0C-F9   (hex)		ITT Flygt AB
-  000CF9     (base 16)		ITT Flygt AB
-  				PO Box 2058
-				Industrigatan 50
-				Kristianstad  291 02
+  00-0C-F9   (hex)		Xylem Water Solutions
+  000CF9     (base 16)		Xylem Water Solutions
+  				Gesallvagen
+				174 87 Sundbyberg
 				SWEDEN
 
   00-0C-FA   (hex)		Digital Systems Corp
@@ -23242,10 +23241,10 @@
 				Jacksonville FL 32246
 				UNITED STATES
 
-  00-0E-5C   (hex)		Motorola Mobility, Inc.
-  000E5C     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-0E-5C   (hex)		ARRIS Group, Inc.
+  000E5C     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-0E-5D   (hex)		Triple Play Technologies A/S
@@ -23355,10 +23354,10 @@
 				Yasu-gun Shiga 520-2393
 				JAPAN
 
-  00-0E-6E   (hex)		MICRELEC  ELECTRONICS S.A
-  000E6E     (base 16)		MICRELEC  ELECTRONICS S.A
-  				16 ISMINIS STR.
-				ATHENS AEGALEO 12241
+  00-0E-6E   (hex)		MAT S.A. (Mircrelec Advanced Technology)
+  000E6E     (base 16)		MAT S.A. (Mircrelec Advanced Technology)
+  				Mousounitsis 15
+				Peristeri Athens 
 				GREECE
 
   00-0E-6F   (hex)		IRIS Corporation Berhad
@@ -25281,10 +25280,10 @@
 				Oppenweiler Baden-Württemberg 71570
 				GERMANY
 
-  00-0F-9F   (hex)		Motorola Mobility, Inc.
-  000F9F     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-0F-9F   (hex)		ARRIS Group, Inc.
+  000F9F     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-0F-A0   (hex)		CANON KOREA BUSINESS SOLUTIONS INC.
@@ -26626,10 +26625,10 @@
 				TAIPEI, 10428  
 				TAIWAN, PROVINCE OF CHINA
 
-  00-10-75   (hex)		Maxtor Corporation
-  001075     (base 16)		Maxtor Corporation
-  				2452 Clover Basin Dr.
-				Logmont CO 80503
+  00-10-75   (hex)		Segate Technology LLC
+  001075     (base 16)		Segate Technology LLC
+  				10200 S De Anza Blvd
+				Cupertino CA 95014
 				UNITED STATES
 
   00-10-76   (hex)		EUREM GmbH
@@ -27661,10 +27660,10 @@
 				San Gabriel CA 91776
 				UNITED STATES
 
-  00-11-1A   (hex)		Motorola Mobility, Inc.
-  00111A     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-11-1A   (hex)		ARRIS Group, Inc.
+  00111A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-11-1B   (hex)		Targa Systems Div L-3 Communications Canada
@@ -28302,10 +28301,10 @@
 				Shanghai  200030
 				CHINA
 
-  00-11-80   (hex)		Motorola Mobility, Inc.
-  001180     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-11-80   (hex)		ARRIS Group, Inc.
+  001180     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-11-81   (hex)		InterEnergy Co.Ltd,
@@ -28594,10 +28593,10 @@
 				Shanghai  200041
 				CHINA
 
-  00-11-AE   (hex)		Motorola Mobility, Inc.
-  0011AE     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-11-AE   (hex)		ARRIS Group, Inc.
+  0011AE     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-11-AF   (hex)		Medialink-i,Inc
@@ -29350,10 +29349,10 @@
 				Dallas TX 75244
 				UNITED STATES
 
-  00-12-25   (hex)		Motorola Mobility, Inc.
-  001225     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-12-25   (hex)		ARRIS Group, Inc.
+  001225     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-12-26   (hex)		Japan Direx Corporation
@@ -29988,11 +29987,10 @@
 				Irvine California 92618
 				UNITED STATES
 
-  00-12-8A   (hex)		Motorola Mobility, Inc.
-  00128A     (base 16)		Motorola Mobility, Inc.
-  				645 N. US Hwy 45
-				Room no. MW-113
-				Libertyville IL 60048
+  00-12-8A   (hex)		ARRIS Group, Inc.
+  00128A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-12-8B   (hex)		Sensory Networks Inc
@@ -30385,10 +30383,10 @@
 				LUJHU TAOYUAN 338
 				TAIWAN, PROVINCE OF CHINA
 
-  00-12-C9   (hex)		Motorola Mobility, Inc.
-  0012C9     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-12-C9   (hex)		ARRIS Group, Inc.
+  0012C9     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-12-CA   (hex)		Mechatronic Brick Aps
@@ -31449,10 +31447,10 @@
 				Copenhagen V  DK-1790
 				DENMARK
 
-  00-13-71   (hex)		Motorola Mobility, Inc.
-  001371     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-13-71   (hex)		ARRIS Group, Inc.
+  001371     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-13-72   (hex)		Dell ESG PCBA Test
@@ -32392,10 +32390,10 @@
 				Lehi UT 84043
 				UNITED STATES
 
-  00-14-04   (hex)		Motorola Mobility, Inc.
-  001404     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-14-04   (hex)		ARRIS Group, Inc.
+  001404     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-14-05   (hex)		OpenIB, Inc.
@@ -32551,8 +32549,8 @@
 				SAN JOSE CA 95134-1706
 				UNITED STATES
 
-  00-14-1D   (hex)		Lust Antriebstechnik GmbH
-  00141D     (base 16)		Lust Antriebstechnik GmbH
+  00-14-1D   (hex)		LTi DRIVES GmbH
+  00141D     (base 16)		LTi DRIVES GmbH
   				Gewerbestrasse 5-9
 				Lahnau Hessen 35633
 				GERMANY
@@ -33346,11 +33344,10 @@
 				Carlsbad CA 92008
 				UNITED STATES
 
-  00-14-9A   (hex)		Motorola Mobility, Inc.
-  00149A     (base 16)		Motorola Mobility, Inc.
-  				600 N Us Hwy 45
-				Rm MW113
-				Libertyville IL 60048
+  00-14-9A   (hex)		ARRIS Group, Inc.
+  00149A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-14-9B   (hex)		Nokota Communications, LLC
@@ -33846,10 +33843,10 @@
 				Seoul  137-889
 				KOREA, REPUBLIC OF
 
-  00-14-E8   (hex)		Motorola Mobility, Inc.
-  0014E8     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-14-E8   (hex)		ARRIS Group, Inc.
+  0014E8     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-14-E9   (hex)		Nortech International
@@ -34294,10 +34291,10 @@
 				Belmont California 94002
 				UNITED STATES
 
-  00-15-2F   (hex)		Motorola Mobility, Inc.
-  00152F     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-15-2F   (hex)		ARRIS Group, Inc.
+  00152F     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-15-30   (hex)		EMC Corporation
@@ -34374,8 +34371,9 @@
 
   00-15-3B   (hex)		EMH metering GmbH & Co. KG
   00153B     (base 16)		EMH metering GmbH & Co. KG
-  				Suedring 5
-				Wittenburg Mecklenburg-Vorpommern 19243
+  				Neu- Galliner Weg 1
+				19243 Wittenburg
+				Mecklenburg-Vorpommern 
 				GERMANY
 
   00-15-3C   (hex)		Kprotech Co., Ltd.
@@ -34975,10 +34973,10 @@
 				Suwon Gyeonggi 443-742
 				KOREA, REPUBLIC OF
 
-  00-15-9A   (hex)		Motorola Mobility, Inc.
-  00159A     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-15-9A   (hex)		ARRIS Group, Inc.
+  00159A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-15-9B   (hex)		Nortel
@@ -35066,11 +35064,10 @@
 				Muri AG 5630
 				SWITZERLAND
 
-  00-15-A8   (hex)		Motorola Mobility, Inc.
-  0015A8     (base 16)		Motorola Mobility, Inc.
-  				600 N Us Hwy 45
-				Rm MW113
-				Libertyville IL 60048
+  00-15-A8   (hex)		ARRIS Group, Inc.
+  0015A8     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-15-A9   (hex)		KWANG WOO I&C CO.,LTD
@@ -35861,10 +35858,10 @@
 				Seattle WA 98103
 				UNITED STATES
 
-  00-16-26   (hex)		Motorola Mobility, Inc.
-  001626     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-16-26   (hex)		ARRIS Group, Inc.
+  001626     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-16-27   (hex)		embedded-logic DESIGN AND MORE GmbH
@@ -36361,10 +36358,10 @@
 				Lapulapu City Cebu 6015
 				PHILIPPINES
 
-  00-16-75   (hex)		Motorola Mobility, Inc.
-  001675     (base 16)		Motorola Mobility, Inc.
-  				600 N US Hwy 45
-				Libertyville Illinois 60048
+  00-16-75   (hex)		ARRIS Group, Inc.
+  001675     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-16-76   (hex)		Intel Corporate
@@ -36765,10 +36762,10 @@
   00-16-B4   (hex)		PRIVATE
   0016B4     (base 16)		 
 
-  00-16-B5   (hex)		Motorola Mobility, Inc.
-  0016B5     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-16-B5   (hex)		ARRIS Group, Inc.
+  0016B5     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-16-B6   (hex)		Cisco-Linksys
@@ -37234,10 +37231,10 @@
 				Zhonghe City Taipei County 235
 				TAIWAN, PROVINCE OF CHINA
 
-  00-17-00   (hex)		Motorola Mobility, Inc.
-  001700     (base 16)		Motorola Mobility, Inc.
-  				600 N. US Hwy 45
-				Libertyville IL 60048
+  00-17-00   (hex)		ARRIS Group, Inc.
+  001700     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-17-01   (hex)		KDE, Inc.
@@ -37842,10 +37839,8 @@
 				Sagamihara Kanagawa 229-0006
 				JAPAN
 
-  00-17-61   (hex)		ZKSoftware Inc.
-  001761     (base 16)		ZKSoftware Inc.
-  				Xinweizai, Bantian, Longgang district,Shenzhen China 518129
-				CHINA
+  00-17-61   (hex)		PRIVATE
+  001761     (base 16)		 
 
   00-17-62   (hex)		Solar Technology, Inc.
   001762     (base 16)		Solar Technology, Inc.
@@ -38064,10 +38059,10 @@
 				Dallas TX 75243
 				UNITED STATES
 
-  00-17-84   (hex)		Motorola Mobility, Inc.
-  001784     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-17-84   (hex)		ARRIS Group, Inc.
+  001784     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-17-85   (hex)		Sparr Electronics Ltd
@@ -38667,10 +38662,10 @@
 				SEOUL Keumcheon-Gu 153-772
 				KOREA, REPUBLIC OF
 
-  00-17-E2   (hex)		Motorola Mobility, Inc.
-  0017E2     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-17-E2   (hex)		ARRIS Group, Inc.
+  0017E2     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-17-E3   (hex)		Texas Instruments
@@ -38740,10 +38735,10 @@
 				Yangcheon-gu, Seoul 158-839
 				KOREA, REPUBLIC OF
 
-  00-17-EE   (hex)		Motorola Mobility, Inc.
-  0017EE     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92129
+  00-17-EE   (hex)		ARRIS Group, Inc.
+  0017EE     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-17-EF   (hex)		IBM Corp
@@ -39892,10 +39887,10 @@
 				Taipei  231
 				TAIWAN, PROVINCE OF CHINA
 
-  00-18-A4   (hex)		Motorola Mobility, Inc.
-  0018A4     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-18-A4   (hex)		ARRIS Group, Inc.
+  0018A4     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-18-A5   (hex)		ADigit Technologies Corp.
@@ -40068,10 +40063,10 @@
 				Sindian, Taipei County  231
 				TAIWAN, PROVINCE OF CHINA
 
-  00-18-C0   (hex)		Motorola Mobility, Inc.
-  0018C0     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92129
+  00-18-C0   (hex)		ARRIS Group, Inc.
+  0018C0     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-18-C1   (hex)		Almitec Informática e Comércio
@@ -40752,10 +40747,10 @@
 				Solon OH 44139
 				UNITED STATES
 
-  00-19-2C   (hex)		Motorola Mobility, Inc.
-  00192C     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-19-2C   (hex)		ARRIS Group, Inc.
+  00192C     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-19-2D   (hex)		Nokia Corporation
@@ -41064,10 +41059,10 @@
 				ShenZhen GuangDong 518108
 				CHINA
 
-  00-19-5E   (hex)		Motorola Mobility, Inc.
-  00195E     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-19-5E   (hex)		ARRIS Group, Inc.
+  00195E     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-19-5F   (hex)		Valemount Networks Corporation
@@ -41527,10 +41522,10 @@
 				Morrisville NC 27560
 				UNITED STATES
 
-  00-19-A6   (hex)		Motorola Mobility, Inc.
-  0019A6     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-19-A6   (hex)		ARRIS Group, Inc.
+  0019A6     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-19-A7   (hex)		ITU-T
@@ -41695,10 +41690,10 @@
 				Peijing  100006
 				CHINA
 
-  00-19-C0   (hex)		Motorola Mobility, Inc.
-  0019C0     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-19-C0   (hex)		ARRIS Group, Inc.
+  0019C0     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-19-C1   (hex)		Alps Electric Co., Ltd
@@ -42275,10 +42270,10 @@
 				Manchester NH 03103
 				UNITED STATES
 
-  00-1A-1B   (hex)		Motorola Mobility, Inc.
-  001A1B     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-1A-1B   (hex)		ARRIS Group, Inc.
+  001A1B     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1A-1C   (hex)		GT&T Engineering Pte Ltd
@@ -42745,10 +42740,10 @@
 				Aalborg Nord Jylland 9000
 				DENMARK
 
-  00-1A-66   (hex)		Motorola Mobility, Inc.
-  001A66     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1A-66   (hex)		ARRIS Group, Inc.
+  001A66     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1A-67   (hex)		Infinite QL Sdn Bhd
@@ -42856,10 +42851,10 @@
 				Seoul  140-896
 				KOREA, REPUBLIC OF
 
-  00-1A-77   (hex)		Motorola Mobility, Inc.
-  001A77     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-1A-77   (hex)		ARRIS Group, Inc.
+  001A77     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1A-78   (hex)		ubtos
@@ -43198,10 +43193,10 @@
 				Stockholm  11161
 				SWEDEN
 
-  00-1A-AD   (hex)		Motorola Mobility, Inc.
-  001AAD     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1A-AD   (hex)		ARRIS Group, Inc.
+  001AAD     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1A-AE   (hex)		Savant Systems LLC
@@ -43496,10 +43491,10 @@
 				Melbourne FL 32935
 				UNITED STATES
 
-  00-1A-DB   (hex)		Motorola Mobility, Inc.
-  001ADB     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-1A-DB   (hex)		ARRIS Group, Inc.
+  001ADB     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1A-DC   (hex)		Nokia Danmark A/S
@@ -43515,10 +43510,10 @@
 				Cheung Sha Wan Kowloon 
 				HONG KONG
 
-  00-1A-DE   (hex)		Motorola Mobility, Inc.
-  001ADE     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1A-DE   (hex)		ARRIS Group, Inc.
+  001ADE     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1A-DF   (hex)		Interactivetv Pty Limited
@@ -44264,10 +44259,10 @@
 				Tucheng Taipei 236
 				TAIWAN, PROVINCE OF CHINA
 
-  00-1B-52   (hex)		Motorola Mobility, Inc.
-  001B52     (base 16)		Motorola Mobility, Inc.
-  				600 N. Hwy 45
-				Libertyville IL 60048
+  00-1B-52   (hex)		ARRIS Group, Inc.
+  001B52     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1B-53   (hex)		CISCO SYSTEMS, INC.
@@ -45149,10 +45144,10 @@
 				Hsi Chih Taipei 221
 				TAIWAN, PROVINCE OF CHINA
 
-  00-1B-DD   (hex)		Motorola Mobility, Inc.
-  001BDD     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1B-DD   (hex)		ARRIS Group, Inc.
+  001BDD     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1B-DE   (hex)		Renkus-Heinz, Inc.
@@ -45480,16 +45475,16 @@
 				Irvine California 92612
 				UNITED STATES
 
-  00-1C-11   (hex)		Motorola Mobility, Inc.
-  001C11     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1C-11   (hex)		ARRIS Group, Inc.
+  001C11     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
-  00-1C-12   (hex)		Motorola Mobility, Inc.
-  001C12     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville Illinois 60048
+  00-1C-12   (hex)		ARRIS Group, Inc.
+  001C12     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1C-13   (hex)		OPTSYS TECHNOLOGY CO., LTD.
@@ -46591,10 +46586,10 @@
 				Kulim Kedah 09000
 				MALAYSIA
 
-  00-1C-C1   (hex)		Motorola Mobility, Inc.
-  001CC1     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville Illinois 60048
+  00-1C-C1   (hex)		ARRIS Group, Inc.
+  001CC1     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1C-C2   (hex)		Part II Research, Inc.
@@ -46963,10 +46958,10 @@
 				Vienna VA 22182
 				UNITED STATES
 
-  00-1C-FB   (hex)		Motorola Mobility, Inc.
-  001CFB     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1C-FB   (hex)		ARRIS Group, Inc.
+  001CFB     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1C-FC   (hex)		Suminet Communication Technologies (Shanghai) Co., Ltd.
@@ -47672,11 +47667,10 @@
 				Hsinchu  300
 				TAIWAN, PROVINCE OF CHINA
 
-  00-1D-6B   (hex)		Motorola (formerly Netopia, Inc
-  001D6B     (base 16)		Motorola (formerly Netopia, Inc
-  				6001 Shellmound St
-				4th Floor
-				Emeryville CA 94608
+  00-1D-6B   (hex)		ARRIS Group, Inc.
+  001D6B     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1D-6C   (hex)		ClariPhy Communications, Inc.
@@ -48200,10 +48194,10 @@
 				Pearl River NY 10965
 				UNITED STATES
 
-  00-1D-BE   (hex)		Motorola Mobility, Inc.
-  001DBE     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville Illinois 60048
+  00-1D-BE   (hex)		ARRIS Group, Inc.
+  001DBE     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1D-BF   (hex)		Radiient Technologies, Inc.
@@ -49059,10 +49053,10 @@
 				Lund SE 221 88
 				SWEDEN
 
-  00-1E-46   (hex)		Motorola Mobility, Inc.
-  001E46     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1E-46   (hex)		ARRIS Group, Inc.
+  001E46     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1E-47   (hex)		PT. Hariff Daya Tunggal Engineering
@@ -49183,10 +49177,10 @@
 				Highland Heights Ohio 44143
 				UNITED STATES
 
-  00-1E-5A   (hex)		Motorola Mobility, Inc.
-  001E5A     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1E-5A   (hex)		ARRIS Group, Inc.
+  001E5A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1E-5B   (hex)		Unitron Company, Inc.
@@ -49509,10 +49503,10 @@
 				Taipei  112
 				TAIWAN, PROVINCE OF CHINA
 
-  00-1E-8D   (hex)		Motorola Mobility, Inc.
-  001E8D     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville Illinois 60048
+  00-1E-8D   (hex)		ARRIS Group, Inc.
+  001E8D     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1E-8E   (hex)		Hunkeler AG
@@ -51041,10 +51035,10 @@
 				Ulm BW 89077
 				GERMANY
 
-  00-1F-7E   (hex)		Motorola Mobility, Inc.
-  001F7E     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville Illinois 60048
+  00-1F-7E   (hex)		ARRIS Group, Inc.
+  001F7E     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1F-7F   (hex)		Phabrix Limited
@@ -51485,10 +51479,10 @@
 				Jackson MS 39211
 				UNITED STATES
 
-  00-1F-C4   (hex)		Motorola Mobility, Inc.
-  001FC4     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-1F-C4   (hex)		ARRIS Group, Inc.
+  001FC4     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-1F-C5   (hex)		Nintendo Co., Ltd.
@@ -52263,10 +52257,10 @@
 				CHOFU-SHI TOKYO  182
 				JAPAN
 
-  00-20-40   (hex)		Motorola Broadband Communications Sector
-  002040     (base 16)		Motorola Broadband Communications Sector
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-20-40   (hex)		ARRIS Group, Inc.
+  002040     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-20-41   (hex)		DATA NET
@@ -53653,10 +53647,10 @@
 				Borås  S-50451
 				SWEDEN
 
-  00-21-1E   (hex)		Motorola Mobility, Inc.
-  00211E     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-21-1E   (hex)		ARRIS Group, Inc.
+  00211E     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-21-1F   (hex)		SHINSUNG DELTATECH CO.,LTD.
@@ -53806,10 +53800,10 @@
 				Madrid  28045
 				SPAIN
 
-  00-21-36   (hex)		Motorola Mobility, Inc.
-  002136     (base 16)		Motorola Mobility, Inc.
-  				600 N. US Highway 45
-				Libertyville IL 60048
+  00-21-36   (hex)		ARRIS Group, Inc.
+  002136     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-21-37   (hex)		Bay Controls, LLC
@@ -53886,10 +53880,10 @@
   				Bulevar Zorana Djindjica 8a
 				Belgrade Serbia 11070
 
-  00-21-43   (hex)		Motorola Mobility, Inc.
-  002143     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-21-43   (hex)		ARRIS Group, Inc.
+  002143     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-21-44   (hex)		SS Telecoms
@@ -54278,10 +54272,10 @@
 				Singapore  4690005
 				SINGAPORE
 
-  00-21-80   (hex)		Motorola Mobility, Inc.
-  002180     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-21-80   (hex)		ARRIS Group, Inc.
+  002180     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-21-81   (hex)		Si2 Microsystems Limited
@@ -55174,10 +55168,10 @@
 				Englewood CA 94583
 				UNITED STATES
 
-  00-22-10   (hex)		Motorola Mobility, Inc.
-  002210     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-22-10   (hex)		ARRIS Group, Inc.
+  002210     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-22-11   (hex)		Rohati Systems
@@ -55826,8 +55820,9 @@
 
   00-22-78   (hex)		Shenzhen  Tongfang Multimedia  Technology Co.,Ltd.
   002278     (base 16)		Shenzhen  Tongfang Multimedia  Technology Co.,Ltd.
-  				9th Floor,Building #D,Tongfang Information Harbour,High-tech Industrial Park,Langshan RD, NanShan District,
-				Shenzheng GuangDong 518058
+  				2f Sector D of TongFang Information Harbor
+				Langshan Road, Hi-Tech Industrial Park
+				Nanshan District, Shenzhen GuangDong 518058
 				CHINA
 
   00-22-79   (hex)		Nippon Conlux Co., Ltd.
@@ -56203,10 +56198,10 @@
 				Curno Bergamo 24035
 				ITALY
 
-  00-22-B4   (hex)		Motorola Mobility, Inc.
-  0022B4     (base 16)		Motorola Mobility, Inc.
-  				600 N. U.S. Highway 45
-				Libertyville Illinois 60048
+  00-22-B4   (hex)		ARRIS Group, Inc.
+  0022B4     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-22-B5   (hex)		NOVITA
@@ -56753,10 +56748,10 @@
 				Lossburg  D-72290
 				GERMANY
 
-  00-23-0B   (hex)		Motorola Mobility, Inc.
-  00230B     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-0B   (hex)		ARRIS Group, Inc.
+  00230B     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-23-0C   (hex)		CLOVER ELECTRONICS CO.,LTD.
@@ -57418,16 +57413,16 @@
 				Sunnyvale CA 94085
 				UNITED STATES
 
-  00-23-74   (hex)		Motorola Mobility, Inc.
-  002374     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-74   (hex)		ARRIS Group, Inc.
+  002374     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
-  00-23-75   (hex)		Motorola Mobility, Inc.
-  002375     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-75   (hex)		ARRIS Group, Inc.
+  002375     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-23-76   (hex)		HTC Corporation
@@ -57625,10 +57620,10 @@
 				Ulsan City South Korea 689-934
 				KOREA, REPUBLIC OF
 
-  00-23-95   (hex)		Motorola Mobility, Inc.
-  002395     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-95   (hex)		ARRIS Group, Inc.
+  002395     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-23-96   (hex)		ANDES TECHNOLOGY CORPORATION
@@ -57707,16 +57702,16 @@
 				Auranagabad Maharashtra 431210
 				INDIA
 
-  00-23-A2   (hex)		Motorola Mobility, Inc.
-  0023A2     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-A2   (hex)		ARRIS Group, Inc.
+  0023A2     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
-  00-23-A3   (hex)		Motorola Mobility, Inc.
-  0023A3     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-A3   (hex)		ARRIS Group, Inc.
+  0023A3     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-23-A4   (hex)		New Concepts Development Corp.
@@ -57790,10 +57785,10 @@
 				Round Rock Texas 78682
 				UNITED STATES
 
-  00-23-AF   (hex)		Motorola Mobility, Inc.
-  0023AF     (base 16)		Motorola Mobility, Inc.
-  				600 N. U.S. Highway 45
-				Libertyville Illinois 60048
+  00-23-AF   (hex)		ARRIS Group, Inc.
+  0023AF     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-23-B0   (hex)		COMXION Technology Inc.
@@ -58184,16 +58179,16 @@
 				Waldshut-Tiengen BW 79761
 				GERMANY
 
-  00-23-ED   (hex)		Motorola CHS
-  0023ED     (base 16)		Motorola CHS
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-ED   (hex)		ARRIS Group, Inc.
+  0023ED     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
-  00-23-EE   (hex)		Motorola Mobility, Inc.
-  0023EE     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-23-EE   (hex)		ARRIS Group, Inc.
+  0023EE     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-23-EF   (hex)		Zuend Systemtechnik AG
@@ -59209,11 +59204,10 @@
 				Alameda CA 94501
 				UNITED STATES
 
-  00-24-93   (hex)		Motorola, Inc
-  002493     (base 16)		Motorola, Inc
-  				1101 Marina Village Parkway
-				Suite 200
-				Alameda CA 94501
+  00-24-93   (hex)		ARRIS Group, Inc.
+  002493     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-24-94   (hex)		Shenzhen Baoxin Tech CO., Ltd.
@@ -59223,10 +59217,10 @@
 				Shenzhen GuangDong 518028
 				CHINA
 
-  00-24-95   (hex)		Motorola Mobility, Inc.
-  002495     (base 16)		Motorola Mobility, Inc.
-  				600 N. U.S. Highway 45
-				Libertyville Illinois 60048
+  00-24-95   (hex)		ARRIS Group, Inc.
+  002495     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-24-96   (hex)		Ginzinger electronic systems
@@ -59293,16 +59287,16 @@
 				Waterloo Ontario N2L 5R9
 				CANADA
 
-  00-24-A0   (hex)		Motorola Mobility, Inc.
-  0024A0     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-24-A0   (hex)		ARRIS Group, Inc.
+  0024A0     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
-  00-24-A1   (hex)		Motorola Mobility, Inc.
-  0024A1     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-24-A1   (hex)		ARRIS Group, Inc.
+  0024A1     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-24-A2   (hex)		Hong Kong Middleware Technology Limited
@@ -59501,11 +59495,11 @@
 				Sungnam-si Kyunggi-do 462-827
 				KOREA, REPUBLIC OF
 
-  00-24-C1   (hex)		Motorola Mobility, Inc.
-  0024C1     (base 16)		Motorola Mobility, Inc.
-  				2/F, Back Area, Building D, Eastcom City, No. 68 Eastcom Road, Binjiang District,
-				Hangzhou Zhejiang 310053
-				CHINA
+  00-24-C1   (hex)		ARRIS Group, Inc.
+  0024C1     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
+				UNITED STATES
 
   00-24-C2   (hex)		Asumo Co.,Ltd.
   0024C2     (base 16)		Asumo Co.,Ltd.
@@ -61393,16 +61387,16 @@
 				Kowloon Bay Hong Kong 
 				CHINA
 
-  00-25-F1   (hex)		Motorola Mobility, Inc.
-  0025F1     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-25-F1   (hex)		ARRIS Group, Inc.
+  0025F1     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
-  00-25-F2   (hex)		Motorola Mobility, Inc.
-  0025F2     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  00-25-F2   (hex)		ARRIS Group, Inc.
+  0025F2     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-25-F3   (hex)		Nordwestdeutsche Zählerrevision
@@ -61827,10 +61821,10 @@
 				Vienna  1140
 				AUSTRIA
 
-  00-26-36   (hex)		Motorola Mobility, Inc.
-  002636     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville IL 60048
+  00-26-36   (hex)		ARRIS Group, Inc.
+  002636     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-26-37   (hex)		Samsung Electro-Mechanics
@@ -61897,18 +61891,16 @@
 				Beijing  100191
 				CHINA
 
-  00-26-41   (hex)		Motorola, Inc
-  002641     (base 16)		Motorola, Inc
-  				1101 Marina Village Parkway
-				Suite 200
-				Alameda CA 94501
+  00-26-41   (hex)		ARRIS Group, Inc.
+  002641     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
-  00-26-42   (hex)		Motorola, Inc
-  002642     (base 16)		Motorola, Inc
-  				1101 Marina Village Parkway
-				Suite 200
-				Alameda CA 94501
+  00-26-42   (hex)		ARRIS Group, Inc.
+  002642     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-26-43   (hex)		Alps Electric Co., Ltd
@@ -62650,10 +62642,10 @@
 				Round Rock Texas 78682
 				UNITED STATES
 
-  00-26-BA   (hex)		Motorola Mobility, Inc.
-  0026BA     (base 16)		Motorola Mobility, Inc.
-  				600 N, US 45
-				Libertyville IL 60048
+  00-26-BA   (hex)		ARRIS Group, Inc.
+  0026BA     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-26-BB   (hex)		Apple, Inc
@@ -66144,8 +66136,8 @@
 				HOLMDEL NJ 07733
 				UNITED STATES
 
-  00-40-AA   (hex)		VALMET AUTOMATION INC.
-  0040AA     (base 16)		VALMET AUTOMATION INC.
+  00-40-AA   (hex)		Metso Automation
+  0040AA     (base 16)		Metso Automation
   				P.O. BOX 237
 				SF-33101 TAMPERE
 				FINLAND
@@ -68071,10 +68063,10 @@
 				SAN JOSE CA 95134-1706
 				UNITED STATES
 
-  00-50-E3   (hex)		Motorola, Inc.
-  0050E3     (base 16)		Motorola, Inc.
-  				2450 Walsh Ave
-				Santa Clara CA 95051
+  00-50-E3   (hex)		ARRIS Group, Inc.
+  0050E3     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-50-E4   (hex)		APPLE COMPUTER, INC.
@@ -72581,10 +72573,10 @@
 				Gothenburg  417 55
 				SWEDEN
 
-  00-90-9C   (hex)		Motorola, Inc.
-  00909C     (base 16)		Motorola, Inc.
-  				2450 Walsh Ave
-				Santa Clara CA 95051
+  00-90-9C   (hex)		ARRIS Group, Inc.
+  00909C     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-90-9D   (hex)		NovaTech Process Solutions, LLC
@@ -77729,10 +77721,10 @@
 				OAKLAND NJ 07436
 				UNITED STATES
 
-  00-D0-88   (hex)		Motorola, Inc.
-  00D088     (base 16)		Motorola, Inc.
-  				2450 Walsh Ave
-				Santa Clara CA 95051
+  00-D0-88   (hex)		ARRIS Group, Inc.
+  00D088     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-D0-89   (hex)		DYNACOLOR, INC.
@@ -79323,10 +79315,10 @@
 				3868 ROVERETO (TN)  
 				ITALY
 
-  00-E0-6F   (hex)		Motorola, Inc.
-  00E06F     (base 16)		Motorola, Inc.
-  				2450 Walsh Ave
-				Santa Clara CA 95051
+  00-E0-6F   (hex)		ARRIS Group, Inc.
+  00E06F     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   00-E0-70   (hex)		DH TECHNOLOGY
@@ -79901,10 +79893,10 @@
 				SURREY KT15 1HY England 
 				UNITED KINGDOM
 
-  00-E0-CD   (hex)		SENSIS CORPORATION
-  00E0CD     (base 16)		SENSIS CORPORATION
-  				5793 WIDEWATERS PARKWAY
-				DEWITT NY 13214
+  00-E0-CD   (hex)		SAAB SENSIS CORPORATION
+  00E0CD     (base 16)		SAAB SENSIS CORPORATION
+  				85 Collamer Crossings
+				East Syracuse NY 13057
 				UNITED STATES
 
   00-E0-CE   (hex)		ARN
@@ -82206,6 +82198,13 @@
 				Berlin 10559
 				GERMANY
 
+  08-97-58   (hex)		Shenzhen Strong Rising Electronics Co.,Ltd DongGuan Subsidiary
+  089758     (base 16)		Shenzhen Strong Rising Electronics Co.,Ltd DongGuan Subsidiary
+  				QingPing Road 2,Qinghutou village
+				TangXia Town
+				DongGuan GuangDong 523711
+				CHINA
+
   08-9E-01   (hex)		QUANTA COMPUTER INC.
   089E01     (base 16)		QUANTA COMPUTER INC.
   				No.211, Wen Hwa 2nd Rd., Kuei Shan Hsiang,Tao Yuan Shien, Taiwan, R. O. C.
@@ -82851,6 +82850,12 @@
 				Hong Kong  
 				CHINA
 
+  0C-CB-8D   (hex)		ASCO Numatics GmbH
+  0CCB8D     (base 16)		ASCO Numatics GmbH
+  				Otto-Hahn-Str. 7-11
+				Oelbronn-Duerrn  75248
+				GERMANY
+
   0C-CD-D3   (hex)		EASTRIVER TECHNOLOGY CO., LTD.
   0CCDD3     (base 16)		EASTRIVER TECHNOLOGY CO., LTD.
   				30 JINNIU XINCUN
@@ -83441,6 +83446,13 @@
 				Beijing  100085
 				CHINA
 
+  10-B2-6B   (hex)		base Co.,Ltd.
+  10B26B     (base 16)		base Co.,Ltd.
+  				F1 92 building taoyuancun longzhu road
+				Nanshan District
+				Shenzhen Guangdong 518000
+				CHINA
+
   10-B7-F6   (hex)		Plastoform Industries Ltd.
   10B7F6     (base 16)		Plastoform Industries Ltd.
   				Units 1506A - 1512, Mita Centre,
@@ -83816,10 +83828,10 @@
 				Cupertino CA 95014
 				UNITED STATES
 
-  14-5B-D1   (hex)		Motorola Mobility, Inc.
-  145BD1     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  14-5B-D1   (hex)		ARRIS Group, Inc.
+  145BD1     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   14-60-80   (hex)		zte corporation
@@ -84558,6 +84570,13 @@
 				Tucson AZ 85750
 				UNITED STATES
 
+  18-C8-E7   (hex)		Shenzhen Hualistone Technology Co.,Ltd
+  18C8E7     (base 16)		Shenzhen Hualistone Technology Co.,Ltd
+  				1708RM,Huafeng HQ Economic Building,
+				Xixiang Street, Baoan District
+				Shenzhen Guangdong 518102
+				CHINA
+
   18-D0-71   (hex)		DASAN SMC, Inc.
   18D071     (base 16)		DASAN SMC, Inc.
   				309,  Bundang Techno Park, 151, Yatap-dong, Bundang-gu
@@ -84704,10 +84723,10 @@
 				Piscataway NJ 08854
 				UNITED STATES
 
-  1C-14-48   (hex)		Motorola Mobility, Inc.
-  1C1448     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  1C-14-48   (hex)		ARRIS Group, Inc.
+  1C1448     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   1C-17-D3   (hex)		CISCO SYSTEMS, INC.
@@ -85606,6 +85625,13 @@
 				Taipei  112
 				TAIWAN, PROVINCE OF CHINA
 
+  20-D2-1F   (hex)		Wincal Technology Corp.
+  20D21F     (base 16)		Wincal Technology Corp.
+  				1028 South Greenwood Ave.
+				Suite 7
+				Montebello California 90640
+				UNITED STATES
+
   20-D5-AB   (hex)		Korea Infocom Co.,Ltd.
   20D5AB     (base 16)		Korea Infocom Co.,Ltd.
   				5F Wintek B/D 511
@@ -85657,10 +85683,16 @@
 				SAN JOSE CALIFORNIA 95134
 				UNITED STATES
 
-  20-E5-64   (hex)		Motorola Mobility, Inc.
-  20E564     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  20-E5-64   (hex)		ARRIS Group, Inc.
+  20E564     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
+				UNITED STATES
+
+  20-E7-91   (hex)		Siemens Healthcare Diagnostics, Inc
+  20E791     (base 16)		Siemens Healthcare Diagnostics, Inc
+  				2 Edgewater Drive
+				Norwood MA 02062
 				UNITED STATES
 
   20-EE-C6   (hex)		Elefirst Science & Tech Co ., ltd
@@ -85927,6 +85959,12 @@
 				Yokohama city Kanagawa Pref. 224-0003
 				JAPAN
 
+  24-93-CA   (hex)		Voxtronic Technology Computer-Systeme GmbH
+  2493CA     (base 16)		Voxtronic Technology Computer-Systeme GmbH
+  				Jochen-Rindt-Straße 15
+				Vienna  1230
+				AUSTRIA
+
   24-94-42   (hex)		OPEN ROAD SOLUTIONS , INC.
   249442     (base 16)		OPEN ROAD SOLUTIONS , INC.
   				88-13 SHUILI  ROAD
@@ -86117,6 +86155,12 @@
   				1344 Crossman Ave.
 				Sunnyvale CA 94089
 				UNITED STATES
+
+  24-E2-71   (hex)		Qingdao Hisense Communications Co.,Ltd
+  24E271     (base 16)		Qingdao Hisense Communications Co.,Ltd
+  				218,Qianwangang Road, Qingdao Economic&amp;Technological Development Zone
+				Qingdao Shandong 266510
+				CHINA
 
   24-E6-BA   (hex)		JSC Zavod im. Kozitsky
   24E6BA     (base 16)		JSC Zavod im. Kozitsky
@@ -86447,6 +86491,12 @@
   				Finlandsgatan 16
 				Kista  16474
 				SWEDEN
+
+  28-8A-1C   (hex)		Juniper networks
+  288A1C     (base 16)		Juniper networks
+  				1194 N Mathilda Avenue
+				Sunnyvale CA 94089
+				UNITED STATES
 
   28-91-D0   (hex)		Stage Tec Entwicklungsgesellschaft für professionelle Audiotechnik mbH
   2891D0     (base 16)		Stage Tec Entwicklungsgesellschaft für professionelle Audiotechnik mbH
@@ -87085,10 +87135,10 @@
 				Lemmer Friesland 8531 WC
 				NETHERLANDS
 
-  2C-9E-5F   (hex)		Motorola Mobility, Inc.
-  2C9E5F     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  2C-9E-5F   (hex)		ARRIS Group, Inc.
+  2C9E5F     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   2C-9E-FC   (hex)		CANON INC.
@@ -87466,6 +87516,12 @@
   				12-1-1401 Tianlinyuan Fulicheng Gulouxi Road,Nankai District
 				Tianjin  300101
 				CHINA
+
+  30-51-F8   (hex)		BYK-Gardner GmbH
+  3051F8     (base 16)		BYK-Gardner GmbH
+  				Lausitzer Strasse 8
+				Geretsried Bavarian 82538
+				GERMANY
 
   30-52-5A   (hex)		NST Co., LTD
   30525A     (base 16)		NST Co., LTD
@@ -88514,10 +88570,10 @@
 				Taichung Taiwan 42754
 				TAIWAN, PROVINCE OF CHINA
 
-  38-6B-BB   (hex)		Motorola Mobility, Inc.
-  386BBB     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  38-6B-BB   (hex)		ARRIS Group, Inc.
+  386BBB     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   38-6E-21   (hex)		Wasion Group Ltd.
@@ -88669,6 +88725,12 @@
 				Bandar Puteri
 				Puchong Selangor 47100
 				MALAYSIA
+
+  38-DB-BB   (hex)		Sunbow Telecom Co., Ltd.
+  38DBBB     (base 16)		Sunbow Telecom Co., Ltd.
+  				3F, 501-21, Chung Cheng Rd., Hsin Tien Dist.
+				New Taipei City  23148
+				TAIWAN, PROVINCE OF CHINA
 
   38-DE-60   (hex)		Mohlenhoff GmbH
   38DE60     (base 16)		Mohlenhoff GmbH
@@ -88901,10 +88963,10 @@
 				Shenzhen Guangdong 518173
 				CHINA
 
-  3C-43-8E   (hex)		Motorola Mobility, LLC.
-  3C438E     (base 16)		Motorola Mobility, LLC.
-  				600 North US Highway 45
-				Libertyville IL 60048
+  3C-43-8E   (hex)		ARRIS Group, Inc.
+  3C438E     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   3C-4A-92   (hex)		Hewlett-Packard Company
@@ -88980,6 +89042,12 @@
 				Koto-ku TOKYO 135-0053
 				JAPAN
 
+  3C-6E-63   (hex)		Mitron OY
+  3C6E63     (base 16)		Mitron OY
+  				Yrittäjankaari 19
+				FORSSA Kanta-Hame 30420
+				FINLAND
+
   3C-6F-45   (hex)		Fiberpro Inc.
   3C6F45     (base 16)		Fiberpro Inc.
   				59-4 Jang-dong, Yusong-gu
@@ -89004,10 +89072,10 @@
 				Waterloo Ontario N2L 3W8
 				CANADA
 
-  3C-75-4A   (hex)		Motorola Mobility, Inc.
-  3C754A     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  3C-75-4A   (hex)		ARRIS Group, Inc.
+  3C754A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   3C-77-E6   (hex)		Hon Hai Precision Ind. Co.,Ltd.
@@ -89284,6 +89352,13 @@
   				Elektroniikkatie 10
 				Oulu  90570
 				FINLAND
+
+  3C-F7-48   (hex)		Shenzhen Linsn Technology Development Co.,Ltd
+  3CF748     (base 16)		Shenzhen Linsn Technology Development Co.,Ltd
+  				Floor 4,Block 7,Zone 2,Baiwangxin Industrial Park
+				Xili,Nanshan District
+				Shenzhen Guangdong 518055
+				CHINA
 
   3C-FB-96   (hex)		Emcraft Systems LLC
   3CFB96     (base 16)		Emcraft Systems LLC
@@ -89711,10 +89786,10 @@
 				Sunnyvale CA 94089
 				UNITED STATES
 
-  40-B7-F3   (hex)		Motorola Mobility, Inc.
-  40B7F3     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  40-B7-F3   (hex)		ARRIS Group, Inc.
+  40B7F3     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   40-BA-61   (hex)		Arima Communications Corp.
@@ -89871,10 +89946,10 @@
 				Heerbrugg SG 9435
 				SWITZERLAND
 
-  40-FC-89   (hex)		Motorola Mobility, LLC.
-  40FC89     (base 16)		Motorola Mobility, LLC.
-  				600 North US Highway 45
-				Libertyville IL 60048
+  40-FC-89   (hex)		ARRIS Group, Inc.
+  40FC89     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   44-03-A7   (hex)		Cisco
@@ -90139,6 +90214,13 @@
 				Hwaseong-si Gyeonggi-do 445-968
 				KOREA, REPUBLIC OF
 
+  44-7B-C4   (hex)		DualShine Technology(SZ)Co.,Ltd
+  447BC4     (base 16)		DualShine Technology(SZ)Co.,Ltd
+  				No.334-1,LuoTian 3rd Industrial Park,
+				XiangShan Ave.SongGang Town,BaoAn Dist.,
+				Shen Zhen Guang Dong 518000
+				CHINA
+
   44-7C-7F   (hex)		Innolight Technology Corporation
   447C7F     (base 16)		Innolight Technology Corporation
   				3 Results Way
@@ -90175,6 +90257,13 @@
   4487FC     (base 16)		ELITEGROUP COMPUTER SYSTEM CO., LTD.
   				NO. 239, Sec. 2, Ti Ding Blvd.
 				Taipei  11493
+				TAIWAN, PROVINCE OF CHINA
+
+  44-8A-5B   (hex)		Micro-Star INT'L CO., LTD.
+  448A5B     (base 16)		Micro-Star INT'L CO., LTD.
+  				No69, LIde St.
+				Jhonghe City
+				Taipei  235
 				TAIWAN, PROVINCE OF CHINA
 
   44-8C-52   (hex)		KTIS CO., Ltd
@@ -90386,6 +90475,12 @@
 				212-16, Guro-3Dong, Guro-Gu
 				Seoul  152-775
 				KOREA, REPUBLIC OF
+
+  44-EE-30   (hex)		Budelmann Elektronik GmbH
+  44EE30     (base 16)		Budelmann Elektronik GmbH
+  				Von-Renesse-Weg 60
+				Muenster North Rhine-Westphalia 48163
+				GERMANY
 
   44-F4-59   (hex)		Samsung Electronics
   44F459     (base 16)		Samsung Electronics
@@ -91253,6 +91348,12 @@
 				TAIPEI 23585
 				TAIWAN, PROVINCE OF CHINA
 
+  4C-F0-2E   (hex)		Vifa Denmark A/S
+  4CF02E     (base 16)		Vifa Denmark A/S
+  				Mariendalsvej 2A
+				Viborg  DK-8800
+				DENMARK
+
   4C-F7-37   (hex)		SamJi Electronics Co., Ltd
   4CF737     (base 16)		SamJi Electronics Co., Ltd
   				459-21, Gasan-dong, Gumchun-ku
@@ -91368,6 +91469,12 @@
   				Robert-Koch-Straße 39
 				Mainz Rheinland-Pfalz 55129
 				GERMANY
+
+  50-2E-5C   (hex)		HTC Corporation
+  502E5C     (base 16)		HTC Corporation
+  				No. 23, Xinghua Rd, Taoyuan City
+				Taoyuan County Taiwan 330
+				TAIWAN, PROVINCE OF CHINA
 
   50-2E-CE   (hex)		Asahi Electronics Co.,Ltd
   502ECE     (base 16)		Asahi Electronics Co.,Ltd
@@ -91678,6 +91785,12 @@
 				Ballerup  DK-2750
 				DENMARK
 
+  50-C9-A0   (hex)		SKIPPER Electronics AS
+  50C9A0     (base 16)		SKIPPER Electronics AS
+  				Enebakkvn 150
+				Oslo  0612
+				NORWAY
+
   50-CC-F8   (hex)		Samsung Electro Mechanics
   50CCF8     (base 16)		Samsung Electro Mechanics
   				Metan Dong 314, Youngtong Gu
@@ -91865,6 +91978,12 @@
   				140 zone industriel
 				CASABLANCA 18600
 				MOROCCO
+
+  54-2F-89   (hex)		Euclid Laboratories, Inc.
+  542F89     (base 16)		Euclid Laboratories, Inc.
+  				9151 Arvida Ln
+				Coral Gables Florida 33156
+				UNITED STATES
 
   54-31-31   (hex)		Raster Vision Ltd
   543131     (base 16)		Raster Vision Ltd
@@ -92348,10 +92467,10 @@
 				Cupertino CA 95014
 				UNITED STATES
 
-  58-56-E8   (hex)		Motorola Mobility Inc
-  5856E8     (base 16)		Motorola Mobility Inc
-  				6450 Sequence Drive
-				San Diego CA 92121
+  58-56-E8   (hex)		ARRIS Group, Inc.
+  5856E8     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   58-57-0D   (hex)		Danfoss Solar Inverters
@@ -93686,6 +93805,13 @@
 				Seongnam-Si Gyeonggi-Do 462-120
 				KOREA, REPUBLIC OF
 
+  60-DB-2A   (hex)		HNS
+  60DB2A     (base 16)		HNS
+  				345-50, Gasan-dong, Geumcheon-gu, Seoul, Korea[153-707]
+				#1204, IT PREMIERE TOWER
+				Seoul The Seoul Metropolis 82
+				KOREA, REPUBLIC OF
+
   60-DE-44   (hex)		HUAWEI TECHNOLOGIES CO.,LTD
   60DE44     (base 16)		HUAWEI TECHNOLOGIES CO.,LTD
   				D1,Huawei Industrial Base
@@ -93929,6 +94055,13 @@
 				#03-01
 				554911
 				SINGAPORE
+
+  64-3F-5F   (hex)		Exablaze
+  643F5F     (base 16)		Exablaze
+  				Level 6
+				80 Clarence St
+				Sydney NSW 2000
+				AUSTRALIA
 
   64-42-14   (hex)		Swisscom Energy Solutions AG
   644214     (base 16)		Swisscom Energy Solutions AG
@@ -94437,10 +94570,10 @@
 				irmo sc 29063
 				UNITED STATES
 
-  64-ED-57   (hex)		Motorola Mobility, Inc.
-  64ED57     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville IL 60048
+  64-ED-57   (hex)		ARRIS Group, Inc.
+  64ED57     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   64-ED-62   (hex)		WOORI SYSTEMS Co., Ltd
@@ -94491,6 +94624,13 @@
   				1 Infinite Loop
 				Cupertino CA 95014
 				UNITED STATES
+
+  68-0A-D7   (hex)		Yancheng Kecheng Optoelectronic Technology Co., Ltd
+  680AD7     (base 16)		Yancheng Kecheng Optoelectronic Technology Co., Ltd
+  				No.1 East Road, Kaifa Avenue,
+				Economic Development Zone,
+				Yancheng Jiangsu 224007
+				CHINA
 
   68-12-2D   (hex)		Special Instrument Development Co., Ltd.
   68122D     (base 16)		Special Instrument Development Co., Ltd.
@@ -94682,6 +94822,12 @@
 				San Jose California 95134
 				UNITED STATES
 
+  68-76-4F   (hex)		Sony Mobile Communications AB
+  68764F     (base 16)		Sony Mobile Communications AB
+  				Nya Vattentornet
+				Lund SE 22188
+				SWEDEN
+
   68-78-4C   (hex)		Nortel Networks
   68784C     (base 16)		Nortel Networks
   				CARRETERA BASE AEREA # 5850
@@ -94753,6 +94899,12 @@
   				6 Hester Road
 				Battersea London SW11 4AN
 				UNITED KINGDOM
+
+  68-8A-B5   (hex)		EDP Servicos
+  688AB5     (base 16)		EDP Servicos
+  				Rua Castilho, número 165, 5º andar
+				Lisboa  1070-050
+				PORTUGAL
 
   68-92-34   (hex)		Ruckus Wireless
   689234     (base 16)		Ruckus Wireless
@@ -95029,6 +95181,13 @@
 				Kimpo-si Kyunggi-do 410-853
 				KOREA, REPUBLIC OF
 
+  6C-15-F9   (hex)		Nautronix Limited
+  6C15F9     (base 16)		Nautronix Limited
+  				Blackwood House
+				Union Grove Lane
+				Aberdeen  AB10 6XU
+				UNITED KINGDOM
+
   6C-18-11   (hex)		Decatur Electronics
   6C1811     (base 16)		Decatur Electronics
   				715 Bright Street
@@ -95130,6 +95289,12 @@
 				SJCM/2
 				San Jose CA 95134
 				UNITED STATES
+
+  6C-4B-7F   (hex)		Vossloh-Schwabe Deutschland GmbH
+  6C4B7F     (base 16)		Vossloh-Schwabe Deutschland GmbH
+  				Wasenstrasse 25
+				Urbach  73660
+				GERMANY
 
   6C-50-4D   (hex)		CISCO SYSTEMS, INC.
   6C504D     (base 16)		CISCO SYSTEMS, INC.
@@ -95387,10 +95552,10 @@
 				Mountain View CA 94043
 				UNITED STATES
 
-  6C-C1-D2   (hex)		Motorola Mobility, Inc.
-  6CC1D2     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  6C-C1-D2   (hex)		ARRIS Group, Inc.
+  6CC1D2     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   6C-C2-6B   (hex)		Apple, Inc.
@@ -95576,6 +95741,13 @@
 				Yokohama-shi Kanagawa-ken 222-0033
 				JAPAN
 
+  70-1D-7F   (hex)		Comtech Technology Co., Ltd.
+  701D7F     (base 16)		Comtech Technology Co., Ltd.
+  				2F, No. 42, Sec. 3 Chung Yang Rd.
+				Tu Cheng Dist.
+				New Taipei City  23673
+				TAIWAN, PROVINCE OF CHINA
+
   70-23-93   (hex)		fos4X GmbH
   702393     (base 16)		fos4X GmbH
   				Thalkirchner Str. 210, Geb. 6
@@ -95705,6 +95877,12 @@
 				Basking Ridge NJ 07920-2311
 				UNITED STATES
 
+  70-53-3F   (hex)		Alfa Instrumentos Eletronicos Ltda.
+  70533F     (base 16)		Alfa Instrumentos Eletronicos Ltda.
+  				Rua Coronel Mario de Azevedo, 138
+				Sao Paulo SP 02710-020
+				BRAZIL
+
   70-54-D2   (hex)		PEGATRON CORPORATION
   7054D2     (base 16)		PEGATRON CORPORATION
   				No. 76, Ligong St., Beitou
@@ -95753,6 +95931,12 @@
   				PO Box 636
 				Provo UT 84603
 				UNITED STATES
+
+  70-60-DE   (hex)		LaVision GmbH
+  7060DE     (base 16)		LaVision GmbH
+  				Anna-Vandenhoeck-Ring 19
+				Goettingen Niedersachsen 37081
+				GERMANY
 
   70-61-73   (hex)		Calantec GmbH
   706173     (base 16)		Calantec GmbH
@@ -95832,10 +96016,10 @@
 				ShenZhen GuangDong 518129
 				CHINA
 
-  70-7E-43   (hex)		Motorola Mobility, Inc.
-  707E43     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  70-7E-43   (hex)		ARRIS Group, Inc.
+  707E43     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   70-7E-DE   (hex)		NASTEC LTD.
@@ -96117,6 +96301,12 @@
 				Gumi Gyeongbuk 730-350
 				KOREA, REPUBLIC OF
 
+  70-FF-76   (hex)		Texas Instruments
+  70FF76     (base 16)		Texas Instruments
+  				12500 TI Blvd
+				Dallas TX 75243
+				UNITED STATES
+
   74-0A-BC   (hex)		JSJS Designs (Europe) Limited
   740ABC     (base 16)		JSJS Designs (Europe) Limited
   				Ezekiel House
@@ -96258,10 +96448,10 @@
 				999077
 				HONG KONG
 
-  74-56-12   (hex)		Motorola Mobility, Inc.
-  745612     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  74-56-12   (hex)		ARRIS Group, Inc.
+  745612     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   74-57-98   (hex)		TRUMPF Laser GmbH + Co. KG
@@ -96586,10 +96776,10 @@
 				New Taipei City Taipei 23585
 				TAIWAN, PROVINCE OF CHINA
 
-  74-E7-C6   (hex)		Motorola Mobility, Inc.
-  74E7C6     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  74-E7-C6   (hex)		ARRIS Group, Inc.
+  74E7C6     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   74-EA-3A   (hex)		TP-LINK Technologies Co.,Ltd.
@@ -96625,10 +96815,10 @@
 				Beijing China 100089
 				CHINA
 
-  74-F6-12   (hex)		Motorola Mobility, Inc.
-  74F612     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  74-F6-12   (hex)		ARRIS Group, Inc.
+  74F612     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   74-F7-26   (hex)		Neuron Robotics
@@ -97370,11 +97560,11 @@
 				Greenford Middlesex UB6 8UA
 				UNITED KINGDOM
 
-  7C-08-D9   (hex)		Shanghai Engineering Research Center for Broadband Technologies and Applications
-  7C08D9     (base 16)		Shanghai Engineering Research Center for Broadband Technologies and Applications
-  				150 Honggu Road
+  7C-08-D9   (hex)		Shanghai B-Star Technology Co
+  7C08D9     (base 16)		Shanghai B-Star Technology Co
+  				1158 Xiehe Road
 				Changning District
-				Shanghai  200336
+				Shanghai  200335
 				CHINA
 
   7C-09-2B   (hex)		Bekey A/S
@@ -97558,6 +97748,12 @@
 				Taoyuan City
 				Taoyuan County  330
 				TAIWAN, PROVINCE OF CHINA
+
+  7C-66-9D   (hex)		Texas Instruments
+  7C669D     (base 16)		Texas Instruments
+  				12500 TI Blvd
+				Dallas TX 75243
+				UNITED STATES
 
   7C-69-F6   (hex)		Cisco
   7C69F6     (base 16)		Cisco
@@ -97763,10 +97959,16 @@
 				Metzingen Baden-Württemberg 72555
 				GERMANY
 
-  7C-BF-B1   (hex)		Motorola Mobility, Inc.
-  7CBFB1     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  7C-BF-88   (hex)		Mobilicom LTD
+  7CBF88     (base 16)		Mobilicom LTD
+  				Hametzoda 31
+				Azor  5800174
+				ISRAEL
+
+  7C-BF-B1   (hex)		ARRIS Group, Inc.
+  7CBFB1     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   7C-C3-A1   (hex)		Apple, Inc.
@@ -97806,6 +98008,13 @@
   				445 Capricorn St.
 				Brea California 92821
 				UNITED STATES
+
+  7C-CD-3C   (hex)		Guangzhou Juzing Technology Co., Ltd
+  7CCD3C     (base 16)		Guangzhou Juzing Technology Co., Ltd
+  				Building C Rm 1906-1909
+				BaiNaoHui Squre  Rd Tianhe 596
+				Guangzhou Guangdong 510630
+				CHINA
 
   7C-CF-CF   (hex)		Shanghai SEARI Intelligent System Co., Ltd
   7CCFCF     (base 16)		Shanghai SEARI Intelligent System Co., Ltd
@@ -98276,10 +98485,10 @@
 				Hodogaya-ku, Yokohama-shi Kanagawa 240-0022
 				JAPAN
 
-  80-96-B1   (hex)		Motorola Mobility, LLC.
-  8096B1     (base 16)		Motorola Mobility, LLC.
-  				600 North US Highway 45
-				Libertyville IL 60048
+  80-96-B1   (hex)		ARRIS Group, Inc.
+  8096B1     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   80-97-1B   (hex)		Altenergy Power System,Inc.
@@ -100300,6 +100509,13 @@
 				Shenzhen  518026
 				CHINA
 
+  90-8F-93   (hex)		MakerBot Industries
+  908F93     (base 16)		MakerBot Industries
+  				One MetroTech Center
+				21st Floor
+				Brooklyn NY 11201
+				UNITED STATES
+
   90-8F-CF   (hex)		UNO System Co., Ltd
   908FCF     (base 16)		UNO System Co., Ltd
   				#402 Kolon Science Valley °., 187-10, Guro-dong, Guro-gu
@@ -100389,10 +100605,10 @@
 				Round Rock Texas 78682
 				UNITED STATES
 
-  90-B1-34   (hex)		Motorola Mobility, Inc.
-  90B134     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  90-B1-34   (hex)		ARRIS Group, Inc.
+  90B134     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   90-B2-1F   (hex)		Apple
@@ -100674,6 +100890,13 @@
 				Oulu Ou 90230
 				FINLAND
 
+  94-3B-B1   (hex)		KAONMEDIA
+  943BB1     (base 16)		KAONMEDIA
+  				KAONMEDIA Building 513-4
+				Yatop-Dong, Bundang-Gu
+				Sungnam-City Kyonggi-Do 463-839, KOREA
+				KOREA, REPUBLIC OF
+
   94-40-A2   (hex)		Anywave Communication Technologies, Inc.
   9440A2     (base 16)		Anywave Communication Technologies, Inc.
   				300 Knightsbridge Parkway, Suite 150
@@ -100770,6 +100993,12 @@
   				815 Bridge St. W.
 				Waterloo Ontario N2V 2M7
 				CANADA
+
+  94-86-D4   (hex)		Surveillance Pro Corporation
+  9486D4     (base 16)		Surveillance Pro Corporation
+  				12F., No.4, Ln. 609, Sec. 5, Chongxin Rd., Sanchong Dist.
+				New Taipei City  241
+				TAIWAN, PROVINCE OF CHINA
 
   94-88-54   (hex)		Texas Instruments
   948854     (base 16)		Texas Instruments
@@ -100880,6 +101109,18 @@
 				Shibuya-Ku TOKYO 151-0051
 				JAPAN
 
+  94-C1-50   (hex)		2Wire Inc
+  94C150     (base 16)		2Wire Inc
+  				1764 Automation Parkway
+				San Jose CA 95131
+				UNITED STATES
+
+  94-C3-E4   (hex)		SCA Schucker Gmbh & Co KG
+  94C3E4     (base 16)		SCA Schucker Gmbh & Co KG
+  				Gewerbestrasse 52
+				Bretten  75015
+				GERMANY
+
   94-C4-E9   (hex)		PowerLayer Microsystems HongKong Limited
   94C4E9     (base 16)		PowerLayer Microsystems HongKong Limited
   				23 Zhichun Rd,Liangziyinzuo Rm1009
@@ -100912,10 +101153,10 @@
 				Calgary Alberta T2A7X9
 				CANADA
 
-  94-CC-B9   (hex)		Motorola Mobility, Inc.
-  94CCB9     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  94-CC-B9   (hex)		ARRIS Group, Inc.
+  94CCB9     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   94-CD-AC   (hex)		Creowave Oy
@@ -101023,6 +101264,12 @@
   				8 AVROE CRESCENT
 				BLACKPOOL LANCASHIRE FY4 2DP
 				UNITED KINGDOM
+
+  94-EB-2C   (hex)		Google Inc.
+  94EB2C     (base 16)		Google Inc.
+  				1600 Amphitheatre Parkway
+				Mountain View California 94043
+				UNITED STATES
 
   94-EB-CD   (hex)		Research In Motion Limited
   94EBCD     (base 16)		Research In Motion Limited
@@ -101208,10 +101455,10 @@
 				London ON N6E 1R6
 				CANADA
 
-  98-4B-4A   (hex)		Motorola Mobility, LLC.
-  984B4A     (base 16)		Motorola Mobility, LLC.
-  				600 North US Highway 45
-				Libertyville IL 60048
+  98-4B-4A   (hex)		ARRIS Group, Inc.
+  984B4A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   98-4B-E1   (hex)		Hewlett-Packard Company
@@ -101558,6 +101805,13 @@
   				#94-1, Imsoo-Dong
 				Gumi Gyeongbuk 730-350
 				KOREA, REPUBLIC OF
+
+  9C-03-9E   (hex)		Beijing Winchannel Software Technology Co., Ltd
+  9C039E     (base 16)		Beijing Winchannel Software Technology Co., Ltd
+  				8F, Block E, Dazhongsi Zhongkun Plaza No. A
+				 18 West Beisanhuan Road
+				Haidian District BEIJING 100089
+				CHINA
 
   9C-04-73   (hex)		Tecmobile (International) Ltd.
   9C0473     (base 16)		Tecmobile (International) Ltd.
@@ -102227,6 +102481,13 @@
 				Dendermonde  9200
 				BELGIUM
 
+  A0-3B-1B   (hex)		Inspire Tech
+  A03B1B     (base 16)		Inspire Tech
+  				No.588-10,Zhongzheng Rd.,Xinzhuang Dist
+				4F.-5,No.1.Sec. 1,Chongyang Rd., Sanchong Dist
+				New Taipei  24255
+				TAIWAN, PROVINCE OF CHINA
+
   A0-40-25   (hex)		Actioncable, Inc.
   A04025     (base 16)		Actioncable, Inc.
   				998 Westlynn Way
@@ -102713,6 +102974,13 @@
 				Seoul 
 				KOREA, REPUBLIC OF
 
+  A4-05-9E   (hex)		STA Infinity LLP
+  A4059E     (base 16)		STA Infinity LLP
+  				WINNINGTON HOUSE
+				2 WOODBERRY GROVE  NORTH FINCHLEY
+				London  N12 0DR
+				UNITED KINGDOM
+
   A4-0B-ED   (hex)		Carry Technology Co.,Ltd
   A40BED     (base 16)		Carry Technology Co.,Ltd
   				4F, No.119, JianKang Road
@@ -102921,10 +103189,10 @@
 				Daejeon  302-852
 				KOREA, REPUBLIC OF
 
-  A4-7A-A4   (hex)		Motorola Mobility, Inc.
-  A47AA4     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  A4-7A-A4   (hex)		ARRIS Group, Inc.
+  A47AA4     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   A4-7A-CF   (hex)		VIBICOM COMMUNICATIONS INC.
@@ -103236,10 +103504,10 @@
 				Gumi Gyeongbuk 730-350
 				KOREA, REPUBLIC OF
 
-  A4-ED-4E   (hex)		Motorola Mobility, Inc.
-  A4ED4E     (base 16)		Motorola Mobility, Inc.
-  				600 N. US 45
-				Libertyville IL 60048
+  A4-ED-4E   (hex)		ARRIS Group, Inc.
+  A4ED4E     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   A4-EE-57   (hex)		SEIKO EPSON CORPORATION
@@ -104530,10 +104798,10 @@
 				Shenzhen Guangdong 518057
 				CHINA
 
-  B0-77-AC   (hex)		Motorola Mobility, Inc.
-  B077AC     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92131
+  B0-77-AC   (hex)		ARRIS Group, Inc.
+  B077AC     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   B0-79-3C   (hex)		Revolv Inc
@@ -104915,6 +105183,12 @@
   				8 Faneuil Hall SQ
 				Boston MA 02109
 				UNITED STATES
+
+  B4-24-E7   (hex)		Codetek Technology Co.,Ltd
+  B424E7     (base 16)		Codetek Technology Co.,Ltd
+  				4F.-1, No.55, Dongguang Rd., East Dist.,
+				Hsinchu City  300
+				TAIWAN, PROVINCE OF CHINA
 
   B4-28-F1   (hex)		E-Prime Co., Ltd.
   B428F1     (base 16)		E-Prime Co., Ltd.
@@ -105382,10 +105656,10 @@
 				Shenzhen Guangdong 518040
 				CHINA
 
-  B8-16-19   (hex)		Motorola Mobility, Inc.
-  B81619     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  B8-16-19   (hex)		ARRIS Group, Inc.
+  B81619     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   B8-17-C2   (hex)		Apple, Inc.
@@ -106319,6 +106593,12 @@
 				Songjiang Export Processing Zone
 				Shanghai 201613
 				CHINA
+
+  BC-88-93   (hex)		VILLBAU Ltd.
+  BC8893     (base 16)		VILLBAU Ltd.
+  				Üllöi ut 611.
+				Budapest - H-1182
+				HUNGARY
 
   BC-8B-55   (hex)		NPP ELIKS America Inc. DBA T&M Atlantic
   BC8B55     (base 16)		NPP ELIKS America Inc. DBA T&M Atlantic
@@ -107897,10 +108177,10 @@
 				Buchun City Kyung gi-do 421-741
 				KOREA, REPUBLIC OF
 
-  C8-AA-21   (hex)		Motorola Mobility, LLC.
-  C8AA21     (base 16)		Motorola Mobility, LLC.
-  				600 North US Highway 45
-				Libertyville IL 60048
+  C8-AA-21   (hex)		ARRIS Group, Inc.
+  C8AA21     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   C8-AA-CC   (hex)		PRIVATE
@@ -108437,10 +108717,10 @@
 				shenzhen guangdong 518057
 				CHINA
 
-  CC-7D-37   (hex)		Motorola Mobility, Inc.
-  CC7D37     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  CC-7D-37   (hex)		ARRIS Group, Inc.
+  CC7D37     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   CC-7E-E7   (hex)		Panasonic AVC Networks Company
@@ -108808,6 +109088,12 @@
   D0-37-61   (hex)		Texas Instruments
   D03761     (base 16)		Texas Instruments
   				12500 TI Boulevard
+				Dallas TX 75243
+				UNITED STATES
+
+  D0-39-72   (hex)		Texas Instruments
+  D03972     (base 16)		Texas Instruments
+  				12500 TI Blvd
 				Dallas TX 75243
 				UNITED STATES
 
@@ -109787,6 +110073,12 @@
 				Mungyeong-Si Gyeongsangbuk-do 745-853
 				KOREA, REPUBLIC OF
 
+  D4-D9-19   (hex)		GoPro
+  D4D919     (base 16)		GoPro
+  				3000 Clearview Way
+				San Mateo CA 94402
+				UNITED STATES
+
   D4-DF-57   (hex)		Alpinion Medical Systems
   D4DF57     (base 16)		Alpinion Medical Systems
   				1F Verdi Tower 222-22
@@ -110579,10 +110871,10 @@
 				Salo  24101
 				FINLAND
 
-  DC-45-17   (hex)		Motorola Mobility, Inc.
-  DC4517     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego California 92121
+  DC-45-17   (hex)		ARRIS Group, Inc.
+  DC4517     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   DC-49-C9   (hex)		CASCO SIGNAL LTD
@@ -110769,6 +111061,13 @@
   DCCE41     (base 16)		FE GLOBAL HONG KONG LIMITED
   				FLAT 204-205 2/F LAFORD CENTRE838 LAI CHI KOK RD CHEUNG SHA WAN KL
 				SHENZHEN  518057
+				CHINA
+
+  DC-CE-BC   (hex)		Shenzhen JSR Technology Co.,Ltd.
+  DCCEBC     (base 16)		Shenzhen JSR Technology Co.,Ltd.
+  				2-3F,E building,Yu Jianfeng science and industry park
+				,Huafan road,Tongheng community,Dalang,Baoan district,
+				Shenzhen City Guangdong 518109
 				CHINA
 
   DC-CF-94   (hex)		Beijing Rongcheng Hutong Technology Co., Ltd.
@@ -111649,10 +111948,10 @@
 				Fort Wayne Indiana 46803
 				UNITED STATES
 
-  E4-64-49   (hex)		Motorola Mobility, Inc.
-  E46449     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  E4-64-49   (hex)		ARRIS Group, Inc.
+  E46449     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   E4-67-BA   (hex)		Danish Interpretation Systems A/S
@@ -111719,10 +112018,10 @@
 				Shenzhen Guangdong 518083
 				CHINA
 
-  E4-83-99   (hex)		Motorola Mobility, Inc.
-  E48399     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  E4-83-99   (hex)		ARRIS Group, Inc.
+  E48399     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   E4-8A-D5   (hex)		RF WINDOW CO., LTD.
@@ -111820,6 +112119,13 @@
   				2850 Red Hill Ave.
 				Suite 128
 				Santa Ana CA 92705
+				UNITED STATES
+
+  E4-C7-22   (hex)		Cisco
+  E4C722     (base 16)		Cisco
+  				170 West Tasman Drive
+				SJCM/2
+				San Jose CA 95134
 				UNITED STATES
 
   E4-C8-06   (hex)		Ceiec Electric Technology Inc.
@@ -112165,10 +112471,10 @@
 				Taganrog Rostov-on-Don region 347922
 				RUSSIAN FEDERATION
 
-  E8-6D-52   (hex)		Motorola Mobility, Inc.
-  E86D52     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  E8-6D-52   (hex)		ARRIS Group, Inc.
+  E86D52     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   E8-6D-54   (hex)		Digit Mobile Inc
@@ -112338,6 +112644,12 @@
 				Shenzhen Guangdong 518101
 				CHINA
 
+  E8-BB-A8   (hex)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD.
+  E8BBA8     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD.
+  				NO.18 HAIBIN ROAD,WUSHA,CHANG'AN,DONGGUAN,GUANGDONG,CHINA
+				DONGGUAN GUANGDONG 523860
+				CHINA
+
   E8-BE-81   (hex)		SAGEMCOM
   E8BE81     (base 16)		SAGEMCOM
   				250 route de l'Empereur
@@ -112487,6 +112799,12 @@
   				250 ROUTE DE L'EMPEREUR
 				RUEIL MALMAISON CEDEX ILE DE FRANCE 92848
 				FRANCE
+
+  E8-F2-26   (hex)		MILLSON CUSTOM SOLUTIONS INC.
+  E8F226     (base 16)		MILLSON CUSTOM SOLUTIONS INC.
+  				2036 COLUMBIA STREET
+				VANCOUVER BRITISH COLUMBIA V5Y 3E1
+				CANADA
 
   E8-F9-28   (hex)		RFTECH SRL
   E8F928     (base 16)		RFTECH SRL
@@ -114053,10 +114371,10 @@
 				Melbourne FL 32935
 				UNITED STATES
 
-  F8-0B-BE   (hex)		Motorola Mobility, Inc.
-  F80BBE     (base 16)		Motorola Mobility, Inc.
-  				6450 Sequence Drive
-				San Diego CA 92121
+  F8-0B-BE   (hex)		ARRIS Group, Inc.
+  F80BBE     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   F8-0B-D0   (hex)		Datang Telecom communication terminal (Tianjin) Co., Ltd.
@@ -114343,10 +114661,10 @@
 				Taipei County 231 Taipei 
 				TAIWAN, PROVINCE OF CHINA
 
-  F8-7B-7A   (hex)		Motorola Mobility, Inc.
-  F87B7A     (base 16)		Motorola Mobility, Inc.
-  				600 N. US HWY 45
-				Libertyville IL 60048
+  F8-7B-7A   (hex)		ARRIS Group, Inc.
+  F87B7A     (base 16)		ARRIS Group, Inc.
+  				3871 Lakefield Drive
+				Suwanee GA 30024
 				UNITED STATES
 
   F8-7B-8C   (hex)		Amped Wireless
@@ -114400,6 +114718,12 @@
 				GANGNAM-GU
 				SEOUL  135-928
 				KOREA, REPUBLIC OF
+
+  F8-95-50   (hex)		Proton Products Chengdu Ltd
+  F89550     (base 16)		Proton Products Chengdu Ltd
+  				1st Ring
+				Chengdu Sichuan 610051
+				CHINA
 
   F8-97-CF   (hex)		DAESHIN-INFORMATION TECHNOLOGY CO., LTD.
   F897CF     (base 16)		DAESHIN-INFORMATION TECHNOLOGY CO., LTD.
@@ -114739,6 +115063,13 @@
 				AnYang-Si, GyeongGi-Do, 431-836
 				KOREA, REPUBLIC OF
 
+  FC-19-D0   (hex)		Cloud Vision Networks Technology Co.,Ltd.
+  FC19D0     (base 16)		Cloud Vision Networks Technology Co.,Ltd.
+  				F/9,Hechuan Building 2016
+				Yishan Road
+				Shanghai  201103
+				CHINA
+
   FC-1B-FF   (hex)		V-ZUG AG
   FC1BFF     (base 16)		V-ZUG AG
   				Industriestrasse 66
@@ -114751,6 +115082,12 @@
 				BLDG,73-75HOI YUEN Road
 				73-75
 				HONG KONG
+
+  FC-1E-16   (hex)		IPEVO corp
+  FC1E16     (base 16)		IPEVO corp
+  				3F,No.53,Bo-ai Road
+				Taipei 100  
+				TAIWAN, PROVINCE OF CHINA
 
   FC-1F-19   (hex)		SAMSUNG ELECTRO-MECHANICS CO., LTD.
   FC1F19     (base 16)		SAMSUNG ELECTRO-MECHANICS CO., LTD.
@@ -115166,4 +115503,11 @@
 				M/S SJA-2
 				SAN JOSE CA 95134-1706
 				UNITED STATES
+
+  FC-FE-77   (hex)		Hitachi Reftechno, Inc.
+  FCFE77     (base 16)		Hitachi Reftechno, Inc.
+  				709-2 Tomita
+				Ohita-machi
+				Tochigi-shi Tochigi-ken 329-4404
+				JAPAN
 
