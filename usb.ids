@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2013.08.19
-# Date:    2013-08-19 20:34:03
+# Version: 2013.08.21
+# Date:    2013-08-21 20:34:03
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -1659,6 +1659,7 @@
 	4a4d  Flatron 915FT Plus Monitor
 	7001  MF-PD100 Soul Digital MP3 Player
 	7013  MP3 Player
+	70f5  External HDD
 	8484  LPC-U30 Webcam II
 	8585  LPC-UC35 Webcam
 	8888  Electronics VCS Camera II(LPC-U20)
@@ -4743,6 +4744,7 @@
 	b057  integrated USB webcam
 	b059  CKF7037 HP webcam
 	b071  2.0M UVC Webcam / CNF7129
+	b083  CKF7063 Webcam (HP)
 	b091  Webcam
 	b104  CNF7069 Webcam
 	b107  CNF7070 Webcam
@@ -12674,8 +12676,10 @@
 	3138  Xperia X10 mini pro
 	3149  Xperia X8
 	5177  Xperia Ion [Debug Mode]
+	518c  C1605 [Xperia E dual] MTD mode
 	614f  Xperia X12 (debug mode)
 	6166  Xperia Mini Pro
+	618c  C1605 [Xperia E dual] MSC mode
 	715a  Xperia Pro [Tethering]
 	7166  Xperia Mini Pro (Tethering mode)
 	7177  Xperia Ion [Tethering]
@@ -15334,6 +15338,9 @@
 	6101  Neural Network Controller
 	6202  Fingerprint Reader device
 	6203  Fingerprint Scanner device
+	8101  Camera V1
+	8102  Recovery / Camera V2
+	8103  Camera V3
 1b59  K.S. Terminals Inc.
 1b5a  Chao Zhou Kai Yuan Electric Co., Ltd.
 1b65  The Hong Kong Standards and Testing Centre Ltd.
@@ -15385,16 +15392,21 @@
 1bae  Vuzix Corporation
 	0002  VR920 Immersive Eyewear
 1bbb  T & A Mobile Phones
+	011e  Alcatel One Touch L100V / Telekom Speedstick LTE II
+	f017  Alcatel One Touch L100V / Telekom Speedstick LTE II
 1bc4  Ford Motor Co.
 1bc5  AVIXE Technology (China) Ltd.
-1bc7  Telit
+1bc7  Telit Wireless Solutions
 	0020  HE863
 	0021  HE910
+	0023  HE910-D ECM
 	1003  UC864-E
 	1004  UC864-G
 	1005  CC864-DUAL
 	1006  CC864-SINGLE
 	1010  DE910-DUAL
+	1011  CE910-DUAL
+	1200  LE920
 1bce  Contac Cable Industrial Limited
 1bcf  Sunplus Innovation Technology Inc.
 	0007  Optical Mouse
@@ -15404,6 +15416,7 @@
 	0c31  SPIF30x Serial-ATA bridge
 	2885  ASUS Webcam
 	2888  HP Universal Camera
+	2b83  Laptop Integrated Webcam FHD
 1bd0  Hangzhou Riyue Electronic Co., Ltd.
 1bd5  BG Systems, Inc.
 1bde  P-TWO INDUSTRIES, INC.
@@ -15489,6 +15502,7 @@
 1cbe  Luminary Micro Inc.
 	00fd  In-Circuit Debug Interface
 	00ff  Stellaris ROM DFU Bootloader
+	0166  CANAL USB2CAN
 1cbf  FORTAT SKYMARK INDUSTRIAL COMPANY
 1cc0  PlantSense
 1cca  NextWave Broadband Inc.
@@ -15544,6 +15558,8 @@
 	000a  Dream Cheeky Mailbox Friends Alert
 	000d  Dream Cheeky Big Red Button
 	0013  Dream Cheeky LED Message Board
+1d45  Touch
+	1d45  Foxlink Optical touch sensor
 1d4d  PEGATRON CORPORATION
 	0002  Ralink RT2770/2720 802.11b/g/n Wireless LAN Mini-USB Device
 	000c  Ralink RT3070 802.11b/g/n Wireless Lan USB Device
@@ -15574,6 +15590,8 @@
 	0104  Multifunction Composite Gadget
 	0105  FunctionFS Gadget
 	0200  Qemu Audio Device
+1d90  Citizen
+	201e  PPU-700
 1de1  Actions Microelectronics Co.
 	1101  Generic Display Device (Mass storage mode)
 	c101  Generic Display Device
@@ -15617,6 +15635,7 @@
 	2030  2030 USB Keyboard
 1e68  TrekStor GmbH & Co. KG
 	001b  DataStation maxi g.u
+	0050  DataStation maxi light
 1e71  NZXT
 	0001  Avatar Optical Mouse
 1e74  Coby Electronics Corporation
@@ -15645,12 +15664,17 @@
 1ee8  ONDA COMMUNICATION S.p.a.
 	0014  MT833UP
 1ef6  EADS Deutschland GmbH
+	2233  Cassidian NH90 STTE
 	5064  FDR Interface
+	5523  Cassidian SSDC Adapter II
+	5545  Cassidian SSDC Adapter III
 	5648  RIU CSMU/BSD
 	564a  Cassidian RIU CSMU/BSD Simulator
 1f28  Cal-Comp
 	0020  CDMA USB Modem A600
 	0021  CD INSTALLER USB Device
+1f3a  Onda (unverified)
+	efe8  V972 tablet in flashing mode
 1f44  The Neat Company
 	0001  NM-1000 scanner
 1f48  H-TRONIC GmbH
