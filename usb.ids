@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2013.08.21
-# Date:    2013-08-21 20:34:03
+# Version: 2013.10.23
+# Date:    2013-10-23 20:34:04
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -37,6 +37,8 @@
 	0112  Card Reader
 017c  MLK
 	145f  Trust Deskset
+0200  TP-Link
+	0201  MA180 UMTS Modem
 0204  Chipsbank Microelectronics Co., Ltd
 	6025  CBM2080 Flash drive controller
 	6026  CBM1180 Flash drive controller
@@ -191,6 +193,8 @@
 	0412  Printing Support
 	0417  LaserJet 1200 series
 	0423  HS-COMBO Cardreader
+	042a  LaserJet M1132 MFP
+	0441  HP Prime Calculator
 	0504  DeskJet 885c
 	0505  ScanJet 2100c
 	0507  DVD+RW
@@ -338,7 +342,7 @@
 	2311  OfficeJet d series
 	2312  OfficeJet Pro L7700
 	2317  LaserJet 4350
-	231d  4 GB Flash Drive
+	231d  Broadcom 2070 Bluetooth Combo
 	2402  PhotoSmart 7700 series
 	2404  Deskjet F2280 series
 	2405  ScanJet 4070 PhotoSmart
@@ -424,6 +428,7 @@
 	3b11  PSC 1300 series
 	3b17  LaserJet M1005 MFP
 	3c02  PhotoSmart 7350
+	3c05  Scanjet Professional 1000 Mobile Scanner
 	3c11  PSC 1358
 	3c17  EWS UPD
 	3d02  PhotoSmart 7350~
@@ -692,12 +697,15 @@
 	8028  Dev board JTAG (FT232H based)
 	8040  4 Port Hub
 	8070  7 Port Hub
+	8140  Vehicle Explorer Interface
 	8210  MGTimer - MGCC (Vic) Timing System
 	8370  7 Port Hub
 	8371  PS/2 Keyboard And Mouse
 	8372  FT8U100AX Serial Port
 	8a28  Rainforest Automation ZigBee Controller
 	8a98  TIAO Multi-Protocol Adapter
+	9133  CallerID
+	9135  Rotary Pub alarm
 	9e90  Marvell OpenRD Base/Client
 	9f80  Ewert Energy Systems CANdapter
 	a6d0  Texas Instruments XDS100v2 JTAG / BeagleBone A3
@@ -1012,6 +1020,7 @@
 	6004  i60
 	6005  i80
 040b  Weltrend Semiconductor
+	0a68  Func MS-3 gaming mouse [WT6573F MCU]
 	6510  Weltrend Bar Code Reader
 	6520  XBOX Xploder
 	6533  Speed-Link Competition Pro
@@ -1240,6 +1249,7 @@
 	4056  Live! Cam Video IM Pro
 	4057  Live! Cam Optia
 	4058  Live! Cam Optia AF
+	405f  WebCam Vista (VF0330)
 	4061  Live! Cam Notebook Pro [VF0400]
 	4063  Live! Cam Video IM Pro
 	4068  Live! Cam Notebook [VF0470]
@@ -1771,6 +1781,7 @@
 	0151  Super Flash 1GB / GXT  64MB Flash Drive
 	0162  SiS162 usb Wireless LAN Adapter
 	0163  802.11 Wireless LAN Adapter
+	0817  SiS-184-ASUS-4352.17 touch panel
 	5401  Wireless Adapter RO80211GS-USB
 0458  KYE Systems Corp. (Mouse Systems)
 	0001  Mouse
@@ -1863,6 +1874,7 @@
 	705c  Genius iSlim 1300AF
 	7079  FaceCam 2025R
 	707f  TVGo DVB-T03 [RTL2832]
+	7088  WideCam 1050
 0459  Adobe Systems, Inc.
 045a  SONICblue, Inc.
 	07da  Supra Express 56K modem
@@ -2153,6 +2165,7 @@
 	076d  LifeCam HD-5000
 	0772  LifeCam Studio
 	0779  LifeCam HD-3000
+	0797  Optical Mouse 200
 	930a  ISOUSB.SYS Intel 82930 Isochronous IO Test Board
 	ffca  Catalina
 	fff8  Keyboard
@@ -2227,7 +2240,7 @@
 0467  AT&T Paradyne
 0468  Wieson Technologies Co., Ltd
 046a  Cherry GmbH
-	0001  My3000 Keyboard
+	0001  Keyboard
 	0003  My3000 Hub
 	0004  CyBoard Keyboard
 	0005  XX33 SmartCard Reader Keyboard
@@ -2854,6 +2867,7 @@
 	0014  InTouch Module
 	a006  External Disk 1.5TB
 	a007  External Disk USB 3.0
+	d010  External Disk 3TB
 0481  Zenith Data Systems
 0482  Kyocera Corp.
 	000e  FS-1020D Printer
@@ -2885,6 +2899,7 @@
 	5000  ST Micro/Ergenic ERG BT-002 Bluetooth Adapter
 	5001  ST Micro Bluetooth Device
 	5710  Joystick in FS Mode
+	5720  STM microSD Flash Device
 	5721  Hantek DDS-3X25 Arbitrary Waveform Generator
 	5740  STM32F407
 	7270  ST Micro Serial Bridge
@@ -2917,6 +2932,8 @@
 	9006  IT9135 BDA Afatech DVB-T HDTV Dongle
 	9009  Zolid HD DVD Maker
 	9135  Zolid Mini DVB-T Stick
+	9503  ITE it9503 feature-limited DVB-T transmission chip [ccHDtv]
+	9507  ITE it9507 full featured DVB-T transmission chip [ccHDtv]
 048f  Eicon Tech.
 0490  United Microelectronics Corp.
 0491  Capetronic
@@ -3665,7 +3682,11 @@
 	325f  PowerShot SX280 HS
 	3260  PowerShot SX270 HS
 	3264  PowerShot A1400
+	3265  Powershot ELPH 130 IS / IXUS 140
 	3268  PowerShot ELPH 330 HS / IXUS 255 HS
+	3271  PowerShot A2500
+	3276  PowerShot SX170 IS
+	327d  Powershot ELPH 115 IS / IXUS 132
 04aa  DaeWoo Telecom, Ltd
 04ab  Chromatic Research
 04ac  Micro Audiometrics Corp.
@@ -3740,6 +3761,7 @@
 	0424  D3000
 	0425  D300S
 	0428  D7000
+	0429  D5100
 	042a  D800 (ptp)
 	0f03  PD-10 Wireless Printer Adapter
 	4000  Coolscan LS 40 ED
@@ -4288,11 +4310,13 @@
 	1400  PS/2 keyboard + mouse controller
 	1503  Shortboard Lefty
 	1603  Keyboard
+	1702  Keyboard LKS02
 	2013  Keyboard [Das Keyboard]
 	2221  Keyboard
 	2323  Keyboard
 	2519  Shenzhen LogoTech 2.4GHz receiver
 	2832  1channel Telephone line recorder
+	2834  HT82A834R Audio MCU
 	a055  Keyboard
 04da  Panasonic (Matsushita)
 	0901  LS-120 Camera
@@ -4770,6 +4794,7 @@
 	b330  Asus 720p CMOS webcam
 	b354  UVC 1.00 device HD UVC WebCam
 04f3  Elan Microelectronics Corp.
+	000a  Touchscreen
 	0103  ActiveJet K-2024 Multimedia Keyboard
 	01a4  Wireless Keyboard
 	0210  Optical Mouse
@@ -5120,6 +5145,8 @@
 	1004  F9L1004 802.11n Surf N300 XR Wireless Adapter [Realtek RTL8192CU]
 	1102  F7D1102 N150/Surf Micro Wireless Adapter v1000 [Realtek RTL8188CUS]
 	1103  F9L1103 N750 DB 802.11abgn 2x3:3 [Ralink RT3573]
+	1106  F9L1106v1 802.11a/b/g/n/ac Wireless Adapter [Broadcom BCM43526]
+	1109  F9L1109v1 802.11a/b/g/n/ac Wireless Adapter [Realtek RTL8812AU]
 	11f2  ISY Wireless Micro Adapter IWL 2000 [RTL8188CUS]
 	1202  F5U120-PC Parallel Printer Port
 	1203  F5U120-PC Serial Port
@@ -5524,6 +5551,7 @@
 	0440  DSC-H55
 	0485  MHS-PM5 HD camcorder
 	04cb  WALKMAN NWZ-E354
+	06bb  WALKMAN NWZ-F805
 	1000  Wireless Buzz! Receiver
 054d  Try Corp.
 054e  Proside Corp.
@@ -15899,6 +15927,11 @@
 	4050  AirStick joystick
 2227  SAMWOO Enterprise
 	3105  SKYDATA SKD-U100
+2232  Silicon Motion
+	1005  WebCam SCB-0385N
+	1028  WebCam SC-03FFL11939N
+	1029  WebCam SC-13HDL11939N
+	1037  WebCam SC-03FFM12339N
 2233  RadioShack Corporation
 	6323  USB Electronic Scale
 2237  Kobo Inc.
