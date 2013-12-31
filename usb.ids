@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2013.10.23
-# Date:    2013-10-23 20:34:04
+# Version: 2013.12.22
+# Date:    2013-12-22 20:34:02
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -15372,6 +15372,8 @@
 1b59  K.S. Terminals Inc.
 1b5a  Chao Zhou Kai Yuan Electric Co., Ltd.
 1b65  The Hong Kong Standards and Testing Centre Ltd.
+1b71  Fushicai
+	3002  USBTV007 Video Grabber [EasyCAP]
 1b72  ATERGI TECHNOLOGY CO., LTD.
 1b73  Fresco Logic
 	1000  xHC1 Controller
@@ -15909,6 +15911,9 @@
 	648b  TEW-648UBM 802.11n 150Mbps Micro Wireless N Adapter [Realtek RTL8188CUS]
 2101  ActionStar
 	0201  SIIG 4-to-2 Printer Switch
+2149  Advanced Silicon S.A.
+	211b  Touchscreen Controller
+	2703  TS58xxA/TC56xxA [CoolTouch]
 2162  Creative (?)
 	2031  Network Blaster Wireless Adapter
 	500c  DE5771 Modem Blaster
