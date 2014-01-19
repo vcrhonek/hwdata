@@ -28,7 +28,7 @@ commit:
 	git commit -a ||:
 
 tag:
-	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
+	@git tag -s -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
 	@echo "Tagged as $(NAME)-$(VERSION)-$(RELEASE)"
 
 force-tag:
