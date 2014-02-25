@@ -1,6 +1,12 @@
 NAME=hwdata
 VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}" hwdata.spec)
+ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^-]\+\).*/\1/p'), rhel)
+    # add revision to tag name for rhel branches
+    TAGNAME := $(NAME)-$(VERSION)-$(REVISION)
+else
+    TAGNAME := $(NAME)-$(VERSION)
+endif
 SOURCEDIR := $(shell pwd)
 
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
@@ -33,12 +39,12 @@ commit:
 	git commit -a ||:
 
 tag:
-	@git tag -s -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
-	@echo "Tagged as $(NAME)-$(VERSION)-$(RELEASE)"
+	@git tag -s -m "Tag as $(TAGNAME)" $(TAGNAME)
+	@echo "Tagged as $(TAGNAME)"
 
 force-tag:
-	@git tag -f $(NAME)-$(VERSION)-$(RELEASE)
-	@echo "Tag forced as $(NAME)-$(VERSION)-$(RELEASE)"
+	@git tag -s -f $(TAGNAME)
+	@echo "Tag forced as $(TAGNAME)"
 
 changelog:
 	@rm -f ChangeLog
