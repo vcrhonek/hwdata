@@ -3,8 +3,6 @@ VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}" hwdata.spec)
 SOURCEDIR := $(shell pwd)
 
-include Makefile.inc
-
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
@@ -14,15 +12,22 @@ FILES = pci.ids usb.ids oui.txt pnp.ids
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
     clean clog new-pci-ids new-usb-ids new-pnp-ids
 
-all: 
+include Makefile.inc
 
-install:
+all:
+
+Makefile.inc: configure
+	./configure
+	@echo "$@ generated. Run the make again."
+	@exit 1
+
+install: Makefile.inc
 	mkdir -p -m 755 $(DESTDIR)$(datadir)/$(NAME)
 	for foo in $(FILES) ; do \
 		install -m 644 $$foo $(DESTDIR)$(datadir)/$(NAME) ;\
 	done
-	mkdir -p -m 755 $(DESTDIR)$(prefix)/lib/modprobe.d
-	install -m 644 -T blacklist.conf $(DESTDIR)$(prefix)/lib/modprobe.d/dist-blacklist.conf
+	mkdir -p -m 755 $(DESTDIR)$(libdir)/modprobe.d
+	install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf
 
 commit:
 	git commit -a ||:

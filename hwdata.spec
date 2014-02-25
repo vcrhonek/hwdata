@@ -21,7 +21,7 @@ such as the pci.ids and usb.ids databases.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 
 %clean
 rm -rf $RPM_BUILD_ROOT

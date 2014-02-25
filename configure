@@ -5,6 +5,7 @@
 # Licensed under the new-BSD license (http://www.opensource.org/licenses/bsd-license.php)
 
 prefix=/usr
+datarootdir=${datarootdir:-${prefix}/share}
 
 # Little helper function for reading args from the commandline.
 # it automatically handles -a b and -a=b variants, and returns 1 if
@@ -53,7 +54,7 @@ prefix ?= ${prefix}
 bindir ?= ${bindir:-${prefix}/bin}
 sbindir ?= ${sbindir:-${prefix}/sbin}
 libexecdir ?= ${libexecdir:-${prefix}/libexec}
-datarootdir ?= ${datarootdir:-${prefix}/share}
+datarootdir ?= ${datarootdir}
 datadir ?= ${datadir:-${datarootdir}}
 sysconfdir ?= ${sysconfdir:-${prefix}/etc}
 libdir ?= ${libdir:-${prefix}/lib}
