@@ -1,10 +1,13 @@
+%global     uprelease   7.1
+%global     hwdbnumber  22
+
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.252
-Release: 7.1%{?dist}
+Release: %{uprelease}%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{release}.tar.bz2
+Source0: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{uprelease}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
 
@@ -13,7 +16,7 @@ hwdata contains various hardware identification and configuration data,
 such as the pci.ids and usb.ids databases.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}-%{uprelease}
 %configure
 
 %build
@@ -21,7 +24,7 @@ such as the pci.ids and usb.ids databases.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -35,6 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Thu Mar 20 2014 Michal Minar <miminar@redhat.com> 0.252-7.1
 - Bumped release to reflect rhel version.
+- Fixed bogus dates in changelog.
 
 * Mon Aug 5 2013 Michal Minar <miminar@redhat.com> 0.252-2
 - Changelog fix.
