@@ -1,13 +1,14 @@
 NAME=hwdata
 VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}" hwdata.spec)
-ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^-]\+\).*/\1/p'), rhel)
+ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^0-9-]\+\).*/\L\1/p'), rhel)
     # add revision to tag name for rhel branches
-    TAGNAME := $(NAME)-$(VERSION)-$(REVISION)
+    TAGNAME := $(NAME)-$(VERSION)-$(RELEASE)
 else
     TAGNAME := $(NAME)-$(VERSION)
 endif
 SOURCEDIR := $(shell pwd)
+ARCHIVE := $(TAGNAME).tar.bz2
 
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
@@ -57,21 +58,21 @@ check:
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 
 create-archive:
-	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
+	@rm -rf $(TAGNAME) $(TAGNAME).tar*  2>/dev/null
 	@make changelog
-	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
-	@mkdir $(NAME)-$(VERSION)
-	@cp ChangeLog $(NAME)-$(VERSION)/
-	@tar --append -f $(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
-	@bzip2 -f $(NAME)-$(VERSION).tar
-	@rm -rf $(NAME)-$(VERSION)
+	@git archive --format=tar --prefix=$(TAGNAME)/ HEAD > $(TAGNAME).tar
+	@mkdir $(TAGNAME)
+	@cp ChangeLog $(TAGNAME)/
+	@tar --append -f $(TAGNAME).tar $(TAGNAME)
+	@bzip2 -f $(TAGNAME).tar
+	@rm -rf $(TAGNAME)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
+	@echo "The final archive is in $(ARCHIVE)"
 
 archive: check clean commit tag create-archive
 
 upload:
-	@scp ${NAME}-$(VERSION).tar.bz2 fedorahosted.org:$(NAME)
+	@scp $(ARCHIVE) fedorahosted.org:$(NAME)
 
 dummy:
 
