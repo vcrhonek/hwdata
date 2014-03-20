@@ -1,4 +1,5 @@
 To update the various IDs files, run 'make download'.
-
-MonitorsDB is woefully inadequate as a format.  You are encouraged not to
-rely on it.
+Requisities:
+  unoconf - python script using libreoffice to convert all office
+            documents to anything else
+    * used to update pnp.ids from MS database.

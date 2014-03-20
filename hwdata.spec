@@ -1,24 +1,20 @@
-%define dist .el7
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.235
+Version: 0.252
 Release: 2%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}-%{release}.tar.bz2
+Source: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
-Conflicts: pcmcia-cs, kudzu < 1.2.0
-Requires: module-init-tools >= 3.2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
 hwdata contains various hardware identification and configuration data,
-such as the pci.ids database and MonitorsDb databases.
+such as the pci.ids and usb.ids databases.
 
 %prep
-
 %setup -q
+%configure
 
 %build
 # nothing to build
@@ -31,19 +27,59 @@ make install DESTDIR=$RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(-,root,root)
 %doc LICENSE COPYING
 %dir %{_datadir}/%{name}
-%config(noreplace) %{_sysconfdir}/modprobe.d/blacklist.conf
+%{_prefix}/lib/modprobe.d/dist-blacklist.conf
 %{_datadir}/%{name}/*
 
 %changelog
-* Fri May 04 2012 Karsten Hopp <karsten@redhat.com> 0.235-2
-- update pci.ids, usb. ids
+* Mon Aug 5 2013 Michal Minar <miminar@redhat.com> 0.252-2
+- Changelog fix.
 
-* Wed May 02 2012 Karsten Hopp <karsten@redhat.com> 0.235-1
-- el7 branch
-- update pci.ids, usb. ids
+* Sun Jul 21 2013 Michal Minar <miminar@redhat.com> 0.252-1
+- Data files update.
+
+* Sat Jul 06 2013 Michal Minar <miminar@redhat.com> 0.250-1
+- Data files update.
+
+* Thu Jun 20 2013 Michal Minar <miminar@redhat.com> 0.249-1
+- Data files update, pnp.ids included.
+
+* Thu Apr 18 2013 Michal Minar <miminar@redhat.com> 0.248-1
+- Data files update
+
+* Wed Mar 27 2013 Michal Minar <miminar@redhat.com> 0.247-1
+- Moved blacklist.conf from /etc/modprobe.d to /usr/lib/modprobe.d.
+- Renamed it to dist-blacklist.conf.
+- Data files update
+
+* Mon Mar 18 2013 Michal Minar <miminar@redhat.com> 0.245-1
+- Data files update
+
+* Mon Feb 18 2013 Michal Minar <miminar@redhat.com> 0.244-1
+- Data files updated
+
+* Fri Jan 18 2013 Michal Minar <miminar@redhat.com> 0.243-1
+- Data files updated
+
+* Fri Dec 07 2012 Michal Minar <miminar@redhat.com> 0.242-1
+- Update data files
+
+* Wed Nov 07 2012 Michal Minar <miminar@redhat.com> 0.241-1
+- Update data files
+
+* Wed Sep 26 2012 Michal Minar <miminar@redhat.com> 0.240-1
+- made use of configure script in prep
+
+* Tue Sep 25 2012 Michal Minar <miminar@redhat.com> 0.239-1
+- Update data files
+
+* Thu Aug 23 2012 Adam Jackson <ajax@redhat.com> 0.238-1
+- Fix reference specfile to current Fedora style
+
+* Thu Aug 23 2012 Adam Jackson <ajax@redhat.com> 0.235-1
+- Update data files
+- Remove upgradelist, not needed since kudzu-ectomy
 
 * Mon Aug 08 2011 Karsten Hopp <karsten@redhat.com> 0.233-7.3
 - update pci.ids, usb. ids

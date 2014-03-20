@@ -1,0 +1,53 @@
+Index: hwdata/pnp.ids.txt
+===================================================================
+--- hwdata.orig/pnp.ids.txt
++++ hwdata/pnp.ids.txt
+@@ -176,7 +176,7 @@ ATT	AT&T
+ ATV	Office Depot, Inc.
+ ATX	Athenix Corporation
+ AUI	Alps Electric Inc
+-AUO	DO NOT USE - AUO
++AUO	AU Optronics
+ AUR	Aureal Semiconductor
+ AUT	Autotime Corporation
+ AVA	Avaya Communication
+@@ -502,7 +502,7 @@ DIM	dPict Imaging, Inc.
+ DIN	Daintelecom Co., Ltd
+ DIS	Diseda S.A.
+ DIT	Dragon Information Technology
+-DJE	Capstone Visua lProduct Development
++DJE	Capstone Visual Product Development
+ DJP	Maygay Machines, Ltd
+ DKY	Datakey Inc
+ DLB	Dolby Laboratories Inc.
+@@ -1141,7 +1141,7 @@ LOG	Logicode Technology Inc
+ LOL	Litelogic Operations Ltd
+ LPE	El-PUSK Co., Ltd.
+ LPI	Design Technology
+-LPL	DO NOT USE - LPL
++LPL	LG Philips
+ LSC	LifeSize Communications
+ LSD	Intersil Corporation
+ LSI	Loughborough Sound Images
+@@ -2066,9 +2066,9 @@ UMM	Universal Multimedia
+ UNA	Unisys DSD
+ UNB	Unisys Corporation
+ UNC	Unisys Corporation
+-UND	DO NOT USE - UND
+-UNE	DO NOT USE - UNE
+-UNF	DO NOT USE - UNF
++UND	Unisys Corporation
++UNE	Unisys Corporation
++UNF	Unisys Corporation
+ UNI	Uniform Industry Corp.
+ UNI	Unisys Corporation
+ UNM	Unisys Corporation
+@@ -2189,7 +2189,7 @@ WVM	Wave Systems Corporation
+ WVV	WolfVision GmbH
+ WWV	World Wide Video, Inc.
+ WXT	Woxter Technology Co. Ltd
+-WYS	Myse Technology
++WYS	Wyse Technology
+ WYT	Wooyoung Image & Information Co.,Ltd.
+ XAC	XAC Automation Corp
+ XAD	Alpha Data
