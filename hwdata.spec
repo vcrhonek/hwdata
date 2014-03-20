@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.262
+Version: 0.263
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Mar 20 2014 Michal Minar <miminar@redhat.com> 0.263-1
+- Added Individual Address Blocks file (iab.txt).
+
 * Tue Mar 18 2014 Michal Minar <miminar@redhat.com> 0.262-1
 - Update of pci and vendor ids.
 

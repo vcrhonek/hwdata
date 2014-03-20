@@ -13,10 +13,10 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = pci.ids usb.ids oui.txt pnp.ids
+FILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
-    clean clog new-pci-ids new-usb-ids new-pnp-ids
+    clean clog new-pci-ids new-usb-ids new-oui new-iab new-pnp-ids
 
 include Makefile.inc
 
@@ -86,7 +86,7 @@ clean:
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui.txt new-pnp-ids
+download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids
 
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
@@ -94,8 +94,11 @@ new-usb-ids:
 new-pci-ids:
 	@curl -O http://pciids.sourceforge.net/pci.ids
 
-new-oui.txt:
+new-oui:
 	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt
+
+new-iab:
+	@curl -O http://standards.ieee.org/develop/regauth/iab/iab.txt
 
 new-pnp-ids: pnp.ids
 
