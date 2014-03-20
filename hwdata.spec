@@ -1,10 +1,10 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.252
-Release: 2%{?dist}
+Release: 7.1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}.tar.bz2
+Source: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{release}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
 
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Mar 20 2014 Michal Minar <miminar@redhat.com> 0.252-7.1
+- Bumped release to reflect rhel version.
+
 * Mon Aug 5 2013 Michal Minar <miminar@redhat.com> 0.252-2
 - Changelog fix.
 

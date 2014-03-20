@@ -1,39 +1,51 @@
 NAME=hwdata
 VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}" hwdata.spec)
+ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^0-9-]\+\).*/\L\1/p'), rhel)
+    # add revision to tag name for rhel branches
+    TAGNAME := $(NAME)-$(VERSION)-$(RELEASE)
+else
+    TAGNAME := $(NAME)-$(VERSION)
+endif
 SOURCEDIR := $(shell pwd)
-
-include Makefile.inc
+ARCHIVE := $(TAGNAME).tar.bz2
 
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = pci.ids usb.ids oui.txt pnp.ids
+FILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
-    clean clog new-pci-ids new-usb-ids new-pnp-ids
+    clean clog new-pci-ids new-usb-ids new-oui new-iab new-pnp-ids
 
-all: 
+include Makefile.inc
 
-install:
+all:
+
+Makefile.inc: configure
+	./configure
+	@echo "$@ generated. Run the make again."
+	@exit 1
+
+install: Makefile.inc
 	mkdir -p -m 755 $(DESTDIR)$(datadir)/$(NAME)
 	for foo in $(FILES) ; do \
 		install -m 644 $$foo $(DESTDIR)$(datadir)/$(NAME) ;\
 	done
-	mkdir -p -m 755 $(DESTDIR)$(prefix)/lib/modprobe.d
-	install -m 644 -T blacklist.conf $(DESTDIR)$(prefix)/lib/modprobe.d/dist-blacklist.conf
+	mkdir -p -m 755 $(DESTDIR)$(libdir)/modprobe.d
+	install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf
 
 commit:
 	git commit -a ||:
 
 tag:
-	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
-	@echo "Tagged as $(NAME)-$(VERSION)-$(RELEASE)"
+	@git tag -s -m "Tag as $(TAGNAME)" $(TAGNAME)
+	@echo "Tagged as $(TAGNAME)"
 
 force-tag:
-	@git tag -f $(NAME)-$(VERSION)-$(RELEASE)
-	@echo "Tag forced as $(NAME)-$(VERSION)-$(RELEASE)"
+	@git tag -s -f $(TAGNAME)
+	@echo "Tag forced as $(TAGNAME)"
 
 changelog:
 	@rm -f ChangeLog
@@ -46,21 +58,21 @@ check:
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 
 create-archive:
-	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION).tar*  2>/dev/null
+	@rm -rf $(TAGNAME) $(TAGNAME).tar*  2>/dev/null
 	@make changelog
-	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION).tar
-	@mkdir $(NAME)-$(VERSION)
-	@cp ChangeLog $(NAME)-$(VERSION)/
-	@tar --append -f $(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
-	@bzip2 -f $(NAME)-$(VERSION).tar
-	@rm -rf $(NAME)-$(VERSION)
+	@git archive --format=tar --prefix=$(TAGNAME)/ HEAD > $(TAGNAME).tar
+	@mkdir $(TAGNAME)
+	@cp ChangeLog $(TAGNAME)/
+	@tar --append -f $(TAGNAME).tar $(TAGNAME)
+	@bzip2 -f $(TAGNAME).tar
+	@rm -rf $(TAGNAME)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION).tar.bz2"
+	@echo "The final archive is in $(TAGNAME).tar.bz2"
 
 archive: check clean commit tag create-archive
 
 upload:
-	@scp ${NAME}-$(VERSION).tar.bz2 fedorahosted.org:$(NAME)
+	@scp $(TAGNAME).tar.bz2 fedorahosted.org:$(NAME)
 
 dummy:
 
@@ -75,7 +87,7 @@ clean:
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui.txt new-pnp-ids
+download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids
 
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
@@ -83,8 +95,11 @@ new-usb-ids:
 new-pci-ids:
 	@curl -O http://pciids.sourceforge.net/pci.ids
 
-new-oui.txt:
+new-oui:
 	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt
+
+new-iab:
+	@curl -O http://standards.ieee.org/develop/regauth/iab/iab.txt
 
 new-pnp-ids: pnp.ids
 
