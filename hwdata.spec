@@ -192,7 +192,7 @@ rm -rf $RPM_BUILD_ROOT
 - fix many monitor entries (Stanislav Ievlev, #430276)
 
 
-* Wed Mar 03 2008 Karsten Hopp <karsten@redhat.com> 0.216-1
+* Mon Mar 03 2008 Karsten Hopp <karsten@redhat.com> 0.216-1
 - update pci.ids, usb.ids (#431658)
 
 * Tue Jan 29 2008 Phil Knirsch <pknirsch@redhat.com> 0.215-1
@@ -394,7 +394,7 @@ rm -rf $RPM_BUILD_ROOT
 * Wed Jul 13 2005 Bill Nottingham <notting@redhat.com> - 0.162-1
 - remove /etc/pcmcia/config, conflict with pcmcia-cs
 
-* Fri Jul  7 2005 Bill Nottingham <notting@redhat.com> - 0.160-1
+* Thu Jul  7 2005 Bill Nottingham <notting@redhat.com> - 0.160-1
 - move blacklist to /etc/modprobe.d, require new module-init-tools
 - add LG monitors (#162466, #161734)
 - add orinoco card (#161696)
@@ -770,7 +770,7 @@ rm -rf $RPM_BUILD_ROOT
 * Tue Jul 30 2002 Bill Nottingham <notting@redhat.com> 0.36-1
 - tweaks for Dell Remote Assisstant cards (#60376)
 
-* Thu Jul 26 2002 Mike A. Harris <mharris@redhat.com> 0.35-1
+* Fri Jul 26 2002 Mike A. Harris <mharris@redhat.com> 0.35-1
 - Updated Cards db for CT69000
 - Various ATI cleanups and additions to Cards and pcitable
 - Updated S3 Trio3D to default to "vesa" driver (#59956)
@@ -794,7 +794,7 @@ rm -rf $RPM_BUILD_ROOT
   supported natively by 4.x will be changed to use the vesa or vga
   driver, or completely removed as unsupported.
 
-* Tue Apr 17 2002 Michael Fulbright <msf@redhat.com> 0.14-1
+* Wed Apr 17 2002 Michael Fulbright <msf@redhat.com> 0.14-1
 - another megaraid variant
 
 * Mon Apr 15 2002 Michael Fulbright <msf@redhat.com> 0.13-1
