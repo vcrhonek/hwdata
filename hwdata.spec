@@ -1,5 +1,4 @@
-%global     uprelease   7.1
-%global     hwdbnumber  22
+%global     uprelease   7.2
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -11,6 +10,12 @@ Source0: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{upre
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
 
+BuildRequires   : perl
+
+Requires        : systemd
+Requires(post)  : systemd
+Requires(postun): systemd
+
 %description
 hwdata contains various hardware identification and configuration data,
 such as the pci.ids and usb.ids databases.
@@ -20,7 +25,6 @@ such as the pci.ids and usb.ids databases.
 %configure
 
 %build
-# nothing to build
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -29,16 +33,31 @@ make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%post
+udevadm hwdb --update >/dev/null 2>&1 || :
+
+%postun
+udevadm hwdb --update >/dev/null 2>&1 || :
+
 %files
 %doc LICENSE COPYING
 %dir %{_datadir}/%{name}
 %{_prefix}/lib/modprobe.d/dist-blacklist.conf
+%{_prefix}/lib/udev/hwdb.d/[0-9][0-9]-*.hwdb
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Mar 27 2014 Michal Minar <miminar@redhat.com> 0.252-7.2
+- Added few more hwdb files.
+- Updated vendor, pci and usb ids.
+
 * Thu Mar 20 2014 Michal Minar <miminar@redhat.com> 0.252-7.1
 - Bumped release to reflect rhel version.
 - Fixed bogus dates in changelog.
+- Generate and install hwdb.d/* files.
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.252-3
+- Mass rebuild 2013-12-27
 
 * Mon Aug 5 2013 Michal Minar <miminar@redhat.com> 0.252-2
 - Changelog fix.

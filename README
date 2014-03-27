@@ -3,3 +3,8 @@ Requisities:
   unoconf - python script using libreoffice to convert all office
             documents to anything else
     * used to update pnp.ids from MS database.
+  perl - to run ids-update.pl
+
+ids-update.pl is a script downloaded from systemd's upstream with:
+    $ curl -o ids-update.pl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/ids-update.pl?id=1d09582ab9d8bc619de3a01f01d614eab44d31c0
+It generates various hwdb files.

@@ -9,12 +9,17 @@ else
 endif
 SOURCEDIR := $(shell pwd)
 ARCHIVE := $(TAGNAME).tar.bz2
+HWDBNUMINCR := 2
 
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
+FILES := pci.ids usb.ids oui.txt iab.txt pnp.ids
+HWDBGENERATED := 20-OUI.hwdb 20-pci-classes.hwdb 20-pci-vendor-model.hwdb \
+    20-usb-classes.hwdb 20-usb-vendor-model.hwdb
+HWDBUPSTREAM := 20-bluetooth-vendor-product.hwdb 60-keyboard.hwdb # 20-acpi-vendor.hwdb
+HWDBFILES := $(HWDBGENERATED) $(HWDBUPSTREAM)
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
     clean clog new-pci-ids new-usb-ids new-oui new-iab new-pnp-ids
@@ -32,6 +37,13 @@ install: Makefile.inc
 	mkdir -p -m 755 $(DESTDIR)$(datadir)/$(NAME)
 	for foo in $(FILES) ; do \
 		install -m 644 $$foo $(DESTDIR)$(datadir)/$(NAME) ;\
+	done
+	mkdir -p -m 755 $(DESTDIR)$(libdir)/udev/hwdb.d/
+	perl ./ids-update.pl
+	for foo in $(HWDBFILES) ; do \
+		num=`echo $$foo | sed 's,^\(.*/\|\)\([0-9]\+\)-[^/]\+,\2,'`; \
+		destname=`printf "%02d" $$((num + $(HWDBNUMINCR)))`-`basename $$foo | sed "s/^[0-9]\+-//"`; \
+		install -m 644 $$foo $(DESTDIR)$(libdir)/udev/hwdb.d/$$destname; \
 	done
 	mkdir -p -m 755 $(DESTDIR)$(libdir)/modprobe.d
 	install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf
@@ -87,7 +99,7 @@ clean:
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids
+download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids new-hwdb-files
 
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
@@ -119,3 +131,8 @@ pnp.ids.txt: new-pnp.xlsx
 new-pnp.xlsx:
 	@curl -o $@ \
 	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
+
+new-hwdb-files:
+	for file in $(HWDBUPSTREAM); do \
+	    curl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/$$file.hwdb; \
+	done
