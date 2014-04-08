@@ -1,10 +1,11 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213.22
-Release: 1%{?dist}
+Version: 0.213.28
+%define realRelease 1
+Release: %{realRelease}%{?dist}
 License: GPLv2+ and LGPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}-1.tar.gz
+Source: hwdata-%{version}-%{realRelease}.tar.gz
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
 Requires: module-init-tools >= 3.2
@@ -37,7 +38,32 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
-* Wed May 15 2013 Karsten Hopp <karsten@redhat.com> 0.213.22-1
+* Mon Oct 22 2012 Michal Minar <miminar@redhat.com> 0.213.28-1
+- update pci.ids and usb.ids
+
+* Mon Aug 06 2012 Karsten Hopp <karsten@redhat.com> 0.213.27-2
+- bump release
+
+* Mon Aug 06 2012 Karsten Hopp <karsten@redhat.com> 0.213.27-1
+- update pci.ids and usb.ids
+
+* Thu Jan 26 2012 Karsten Hopp <karsten@redhat.com> 0.213.26-1
+- update pci.ids and usb.ids
+
+* Fri Oct 21 2011 Karsten Hopp <karsten@redhat.com> 0.213.25-1
+- update pci.ids and usb.ids
+- added missing Acer Monitor (#711121)
+- added sub device id for HB112AGN 802.11abgn 3x3 Wi-Fi Adapter (#713068)
+- added sub device ids for iLO4 (#714098)
+- added device ids for Sandy Bridge QPI (#720938)
+
+* Wed Jun 29 2011 Phil Knirsch <pknirsch@redhat.com> 0.213.24-1
+- update pci.ids, usb.ids
+
+* Fri Apr 01 2011 Karsten Hopp <karsten@redhat.com> 0.213.23-1
+- update pci.ids, usb.ids
+
+* Wed Dec 15 2010 Karsten Hopp <karsten@redhat.com> 0.213.22-1
 - update pci.ids, usb.ids
 
 * Wed Oct 13 2010 Karsten Hopp <karsten@redhat.com> 0.213.21-1
