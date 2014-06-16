@@ -1,7 +1,14 @@
 NAME=$(shell awk '/Name:/ { print $$2 }' hwdata.spec)
 VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
-RELEASE=$(shell rpm -q --define "%dist .el6"  --specfile --qf "%{release}" hwdata.spec)
+RELEASE=$(shell rpm -q --define 'dist .el6' --specfile --qf "%{release}" hwdata.spec)
+ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^0-9-]\+\).*/\L\1/p'), rhel)
+    # add revision to tag name for rhel branches
+    TAGNAME := $(NAME)-$(VERSION)-$(RELEASE)
+else
+    TAGNAME := $(NAME)-$(VERSION)
+endif
 SOURCEDIR := $(shell pwd)
+ARCHIVE := $(TAGNAME).tar.bz2
 
 prefix=$(DESTDIR)/usr
 sysconfdir=$(DESTDIR)/etc
@@ -38,12 +45,12 @@ commit:
 	git commit -a ||:
 
 tag:
-	@git tag -a -m "Tag as $(NAME)-$(VERSION)-$(RELEASE)" $(NAME)-$(VERSION)-$(RELEASE)
-	@echo "Tagged as $(NAME)-$(VERSION)-$(RELEASE)"
+	@git tag -s -m "Tag as $(TAGNAME)" $(TAGNAME)
+	@echo "Tagged as $(TAGNAME)"
 
 force-tag:
-	@git tag -f $(NAME)-$(VERSION)-$(RELEASE)
-	@echo "Tag forced as $(NAME)-$(VERSION)-$(RELEASE)"
+	@git tag -s -f $(TAGNAME)
+	@echo "Tag forced as $(TAGNAME)"
 
 changelog:
 	@rm -f ChangeLog
@@ -58,21 +65,21 @@ check:
 	@[ `grep -vc '	' videodrivers` -eq 0 ] || { echo "FAILURE: videodrivers not TAB separated"; exit 1; } && echo "OK: videodrivers"
 
 create-archive:
-	@rm -rf $(NAME)-$(VERSION) $(NAME)-$(VERSION)-$(RELEASE).tar*  2>/dev/null
+	@rm -rf $(TAGNAME) $(TAGNAME).tar*  2>/dev/null
 	@make changelog
-	@git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD > $(NAME)-$(VERSION)-$(RELEASE).tar
-	@mkdir $(NAME)-$(VERSION)
-	@cp ChangeLog $(NAME)-$(VERSION)/
-	@tar --append -f $(NAME)-$(VERSION)-$(RELEASE).tar $(NAME)-$(VERSION)
-	@bzip2 -f $(NAME)-$(VERSION)-$(RELEASE).tar
-	@rm -rf $(NAME)-$(VERSION)
+	@git archive --format=tar --prefix=$(TAGNAME)/ HEAD > $(TAGNAME).tar
+	@mkdir $(TAGNAME)
+	@cp ChangeLog $(TAGNAME)/
+	@tar --append -f $(TAGNAME).tar $(TAGNAME)
+	@bzip2 -f $(TAGNAME).tar
+	@rm -rf $(TAGNAME)
 	@echo ""
-	@echo "The final archive is in $(NAME)-$(VERSION)-$(RELEASE).tar.bz2"
+	@echo "The final archive is in $(ARCHIVE)"
 
 archive: check clean commit tag create-archive
 
 upload:
-	@scp ${NAME}-$(VERSION)-$(RELEASE).tar.bz2 fedorahosted.org:$(NAME)
+	@scp $(ARCHIVE) fedorahosted.org:$(NAME)
 
 dummy:
 
@@ -82,7 +89,7 @@ srpm-x: create-archive
 	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
 
 clean:
-	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm
+	@rm -f $(NAME)-*.bz2 $(NAME)-*.src.rpm
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@

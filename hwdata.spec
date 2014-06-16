@@ -1,10 +1,10 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.233
-Release: 7.7%{?dist}
+Release: 10.1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: hwdata-%{version}-%{release}.tar.bz2
+Source: %{name}-%{version}-%{release}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
 BuildArch: noarch
 Conflicts: Xconfigurator, system-config-display < 1.0.31, pcmcia-cs, kudzu < 1.2.0
@@ -17,7 +17,7 @@ such as the pci.ids database and MonitorsDb databases.
 
 %prep
 
-%setup -q
+%setup -q -n %{name}-%{version}-%{release}
 
 %build
 # nothing to build
@@ -37,6 +37,27 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Jun 16 2014 Michal Minar <miminar@redhat.com> 0.233-10.1
+- updated pci, usb and vendor ids
+
+* Tue Oct 29 2013 Michal Minar <miminar@redhat.com> 0.233-9.1
+- updated pci, usb and vendor ids
+
+* Wed Aug 07 2013 Michal Minar <miminar@redhat.com> 0.233-8.1
+- updated pci.ids and vendor ids
+
+* Sun Jul 21 2013 Michal Minar <miminar@redhat.com> 0.233-8.0
+- updated pci.ids, usb.ids, oui.txt and pnp.ids
+- Resolves: #739838, #948121, #982659
+
+* Tue Sep 25 2012 Michal Minar <miminar@redhat.com> 0.233-7.9
+- updated pci.ids, usb.ids, oui.txt
+- Resolves: #739816, #739819, #739821, #739824
+- Resolves: #739825, #760031, #830253, #839221, #841423
+
+* Wed May 30 2012 Karsten Hopp <karsten@redhat.com> 0.233-7.8
+- update pci.ids, usb.ids
+
 * Tue Feb 28 2012 Karsten Hopp <karsten@redhat.com> 0.233-7.7
 - add missing Acer 76ie monitor entry (#737467)
 - updated pci.ids, usb.ids (#760014)
@@ -158,7 +179,7 @@ rm -rf $RPM_BUILD_ROOT
 - fix many monitor entries (Stanislav Ievlev, #430276)
 
 
-* Wed Mar 03 2008 Karsten Hopp <karsten@redhat.com> 0.216-1
+* Mon Mar 03 2008 Karsten Hopp <karsten@redhat.com> 0.216-1
 - update pci.ids, usb.ids (#431658)
 
 * Tue Jan 29 2008 Phil Knirsch <pknirsch@redhat.com> 0.215-1
@@ -360,7 +381,7 @@ rm -rf $RPM_BUILD_ROOT
 * Wed Jul 13 2005 Bill Nottingham <notting@redhat.com> - 0.162-1
 - remove /etc/pcmcia/config, conflict with pcmcia-cs
 
-* Fri Jul  7 2005 Bill Nottingham <notting@redhat.com> - 0.160-1
+* Thu Jul  7 2005 Bill Nottingham <notting@redhat.com> - 0.160-1
 - move blacklist to /etc/modprobe.d, require new module-init-tools
 - add LG monitors (#162466, #161734)
 - add orinoco card (#161696)
@@ -736,7 +757,7 @@ rm -rf $RPM_BUILD_ROOT
 * Tue Jul 30 2002 Bill Nottingham <notting@redhat.com> 0.36-1
 - tweaks for Dell Remote Assisstant cards (#60376)
 
-* Thu Jul 26 2002 Mike A. Harris <mharris@redhat.com> 0.35-1
+* Fri Jul 26 2002 Mike A. Harris <mharris@redhat.com> 0.35-1
 - Updated Cards db for CT69000
 - Various ATI cleanups and additions to Cards and pcitable
 - Updated S3 Trio3D to default to "vesa" driver (#59956)
@@ -760,7 +781,7 @@ rm -rf $RPM_BUILD_ROOT
   supported natively by 4.x will be changed to use the vesa or vga
   driver, or completely removed as unsupported.
 
-* Tue Apr 17 2002 Michael Fulbright <msf@redhat.com> 0.14-1
+* Wed Apr 17 2002 Michael Fulbright <msf@redhat.com> 0.14-1
 - another megaraid variant
 
 * Mon Apr 15 2002 Michael Fulbright <msf@redhat.com> 0.13-1
