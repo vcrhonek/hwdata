@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.213.29
+Version: 0.213.30
 %define realRelease 1
 Release: %{realRelease}%{?dist}
 License: GPLv2+ and LGPLv2+
@@ -38,6 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Aug 13 2014 Michal Minar <miminar@redhat.com> 0.213.30-1
+- update pci and usb ids
+
 * Tue Apr 08 2014 Michal Minar <miminar@redhat.com> 0.213.29-1
 - update pci and usb ids
 
