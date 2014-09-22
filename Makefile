@@ -22,7 +22,7 @@ HWDBUPSTREAM := 20-bluetooth-vendor-product.hwdb 60-keyboard.hwdb # 20-acpi-vend
 HWDBFILES := $(HWDBGENERATED) $(HWDBUPSTREAM)
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
-    clean clog new-pci-ids new-usb-ids new-oui new-iab new-pnp-ids
+    clean clog new-pci-ids new-usb-ids new-oui new-iab new-pnp-ids new-hwdb-files pnp.ids
 
 include Makefile.inc
 
@@ -102,15 +102,19 @@ clog: hwdata.spec
 download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids new-hwdb-files
 
 new-usb-ids:
+	@echo $@
 	@curl -O http://www.linux-usb.org/usb.ids
 
 new-pci-ids:
+	@echo $@
 	@curl -O http://pciids.sourceforge.net/pci.ids
 
 new-oui:
+	@echo $@
 	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt
 
 new-iab:
+	@echo $@
 	@curl -O http://standards.ieee.org/develop/regauth/iab/iab.txt
 
 new-pnp-ids: pnp.ids
@@ -129,10 +133,12 @@ pnp.ids.txt: new-pnp.xlsx
 	    sed 's/\s*$$//' | sort -u >$@
 
 new-pnp.xlsx:
-	@curl -o $@ \
+	@echo $@
+	@curl -O $@ \
 	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
 
 new-hwdb-files:
-	for file in $(HWDBUPSTREAM); do \
-	    curl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/$$file.hwdb; \
+	@for file in $(HWDBUPSTREAM); do \
+	    echo $$file; \
+	    curl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/$$; \
 	done
