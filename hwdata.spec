@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.270
-Release: 2%{?dist}
+Version: 0.271
+Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}.tar.bz2
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Sun Oct 26 2014 Michal Minar <miminar@redhat.com> 0.271-1
+- Updateed pci and vendor ids.
+
 * Wed Sep 17 2014 Michal Minar <miminar@redhat.com> 0.270-2
 - Recreated pnp.ids.
 

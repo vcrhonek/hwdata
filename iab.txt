@@ -1,4 +1,4 @@
-  Generated: Wed, 17 Sep 2014 05:00:02 -0400
+  Generated: Sun, 26 Oct 2014 05:00:04 -0400
 
   OUI     			Organization
   IAB Range    			Organization
@@ -5415,8 +5415,8 @@
 				BRESCIA  25020
 				ITALY
 
-  00-50-C2	(hex)		Vishay Nobel AB
-  365000-365FFF	(base 16)	Vishay Nobel AB
+  00-50-C2	(hex)		VPG
+  365000-365FFF	(base 16)	VPG
   				Box 423
 				Karlskoga  SE-691 27
 				SWEDEN
@@ -8750,11 +8750,10 @@
 				San Jose CA 95131
 				UNITED STATES
 
-  00-50-C2	(hex)		CYBERSYS
-  57C000-57CFFF	(base 16)	CYBERSYS
-  				35 chemin du vieux chene
-				ZIRST
-				MEYLAN ISERE 38240
+  00-50-C2	(hex)		éolane
+  57C000-57CFFF	(base 16)	éolane
+  				667 rue Aristide Berges
+				38330 Montbonnot St Martin  
 				FRANCE
 
   00-50-C2	(hex)		Sierra Video Systems
@@ -26913,8 +26912,8 @@
 				Coventry West Midlands CV4 7EZ
 				UNITED KINGDOM
 
-  40-D8-55	(hex)		Vishay Nobel AB
-  0DE000-0DEFFF	(base 16)	Vishay Nobel AB
+  40-D8-55	(hex)		VPG
+  0DE000-0DEFFF	(base 16)	VPG
   				Box 423
 				Karlskoga  SE-691 27
 				SWEDEN
