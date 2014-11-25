@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.271
+Version: 0.272
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue Nov 25 2014 Michal Minar <miminar@redhat.com> 0.272-1
+- Updated pci and vendor ids.
+
 * Sun Oct 26 2014 Michal Minar <miminar@redhat.com> 0.271-1
 - Updateed pci and vendor ids.
 

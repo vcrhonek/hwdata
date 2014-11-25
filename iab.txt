@@ -1,4 +1,4 @@
-  Generated: Sun, 26 Oct 2014 05:00:04 -0400
+  Generated: Tue, 25 Nov 2014 06:00:02 -0500
 
   OUI     			Organization
   IAB Range    			Organization
@@ -3206,8 +3206,12 @@
 				Klaukkala Uusimaa 01800
 				FINLAND
 
-  00-50-C2	(hex)		PRIVATE
-  203000-203FFF	(base 16)		 
+  00-50-C2	(hex)		Vocality International Ltd
+  203000-203FFF	(base 16)	Vocality International Ltd
+  				Lydling Barn
+				Puttenham Lane
+				Shackleford Surrey GU8 6AP
+				UNITED KINGDOM
 
   00-50-C2	(hex)		Algodue Elettronica srl
   204000-204FFF	(base 16)	Algodue Elettronica srl
@@ -10228,8 +10232,12 @@
 				Te Awamutu North Island 3800
 				NEW ZEALAND
 
-  00-50-C2	(hex)		PRIVATE
-  667000-667FFF	(base 16)		 
+  00-50-C2	(hex)		Vocality International Ltd
+  667000-667FFF	(base 16)	Vocality International Ltd
+  				Lydling Barn
+				Puttenham Lane
+				Shackleford Surrey GU8 6AP
+				UNITED KINGDOM
 
   00-50-C2	(hex)		Keith & Koep GmbH
   668000-668FFF	(base 16)	Keith & Koep GmbH
@@ -17555,8 +17563,12 @@
 				Calgary Alberta T2E 6T6
 				CANADA
 
-  00-50-C2	(hex)		PRIVATE
-  AFB000-AFBFFF	(base 16)		 
+  00-50-C2	(hex)		Vocality International Ltd
+  AFB000-AFBFFF	(base 16)	Vocality International Ltd
+  				Lydling Barn
+				Puttenham Lane
+				Shackleford Surrey GU8 6AP
+				UNITED KINGDOM
 
   00-50-C2	(hex)		Odus Technologies SA
   AFC000-AFCFFF	(base 16)	Odus Technologies SA
@@ -20333,7 +20345,7 @@
 
   00-50-C2	(hex)		CODE BLUE CORPORATION
   CBE000-CBEFFF	(base 16)	CODE BLUE CORPORATION
-  				92 EAST 64TH STREET
+  				259 Hedcor St
 				HOLLAND MI 49423
 				UNITED STATES
 
@@ -21718,8 +21730,12 @@
 				BANGALORE KARNATAKA 560071
 				INDIA
 
-  00-50-C2	(hex)		PRIVATE
-  D9E000-D9EFFF	(base 16)		 
+  00-50-C2	(hex)		Vocality International
+  D9E000-D9EFFF	(base 16)	Vocality International
+  				Lydling Barn
+				Puttenham Lane
+				Guildford Surrey GU86AP
+				UNITED KINGDOM
 
   00-50-C2	(hex)		BitWise Controls
   D9F000-D9FFFF	(base 16)	BitWise Controls
@@ -22431,10 +22447,10 @@
 				Jubei Hsinchu County 30271
 				TAIWAN, PROVINCE OF CHINA
 
-  00-50-C2	(hex)		RF Neulink
-  E11000-E11FFF	(base 16)	RF Neulink
-  				7610 Miramar Road
-				San Diego CA 92126
+  00-50-C2	(hex)		RadioMobile Inc
+  E11000-E11FFF	(base 16)	RadioMobile Inc
+  				8801 Kenamar Drive
+				San Diego CA 92121
 				UNITED STATES
 
   00-50-C2	(hex)		Kago Electronics BV
@@ -22686,8 +22702,12 @@
 				MAHWAH NJ 074303198
 				UNITED STATES
 
-  00-50-C2	(hex)		PRIVATE
-  E3A000-E3AFFF	(base 16)		 
+  00-50-C2	(hex)		Vocality International
+  E3A000-E3AFFF	(base 16)	Vocality International
+  				Lydling Barn
+				Puttenham lane
+				Shackleford Surrey gu86ap
+				UNITED KINGDOM
 
   00-50-C2	(hex)		Nanosolution Inc.
   E3B000-E3BFFF	(base 16)	Nanosolution Inc.
@@ -27588,8 +27608,12 @@
 				SCOTTSDALE AZ 85257
 				UNITED STATES
 
-  40-D8-55	(hex)		PRIVATE
-  14B000-14BFFF	(base 16)		 
+  40-D8-55	(hex)		Vocality International
+  14B000-14BFFF	(base 16)	Vocality International
+  				Lydling Barn
+				Puttenham lane
+				Guildford Surrey GU86AP
+				UNITED KINGDOM
 
   40-D8-55	(hex)		PLT
   14C000-14CFFF	(base 16)	PLT

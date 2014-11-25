@@ -96,7 +96,7 @@ new-pci-ids:
 	@curl -O http://pciids.sourceforge.net/pci.ids
 
 new-oui:
-	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt
+	@curl -O http://www.ieee.org/netstorage/standards/oui.txt
 
 new-iab:
 	@curl -O http://standards.ieee.org/develop/regauth/iab/iab.txt
