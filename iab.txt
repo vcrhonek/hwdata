@@ -1,4 +1,4 @@
-  Generated: Tue, 25 Nov 2014 06:00:02 -0500
+  Generated: Thu, 18 Dec 2014 06:00:02 -0500
 
   OUI     			Organization
   IAB Range    			Organization
@@ -9708,11 +9708,10 @@
 				CAPRIANO DEL COLLE BRESCIA 25020
 				ITALY
 
-  00-50-C2	(hex)		SICOM AS
-  614000-614FFF	(base 16)	SICOM AS
-  				Vestre Rosten 81
-				Trekanten - 7th floor
-				Tiller TRONDHEIM N-7075
+  00-50-C2	(hex)		Proserv
+  614000-614FFF	(base 16)	Proserv
+  				Strandveien 43
+				N-7042 Trondheim
 				NORWAY
 
   00-50-C2	(hex)		Axis Electronics
