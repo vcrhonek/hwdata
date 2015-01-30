@@ -1,4 +1,4 @@
-%global     uprelease   7.4
+%global     uprelease   7.5
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -47,6 +47,9 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
+* Fri Jan 30 2015 Michal Minar <miminar@redhat.com> 0.252-7.5
+- Updated vendor, usb and pci ids.
+
 * Mon Sep 22 2014 Michal Minar <miminar@redhat.com> 0.252-7.4
 - Updated vendor, usb and pci ids.
 
