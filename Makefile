@@ -111,7 +111,7 @@ new-pci-ids:
 
 new-oui:
 	@echo $@
-	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt
+	@curl -O http://standards-oui.ieee.org/oui.txt
 
 new-iab:
 	@echo $@
