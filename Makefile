@@ -59,6 +59,18 @@ changelog:
 check:
 	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
+	@if [[ -e /run/docker.sock ]]; then \
+	    tmpdir=`mktemp -d`; \
+	    echo "Listing usb devices:"; \
+	    docker run -t --privileged --rm=true \
+		-v `pwd`/usb.ids:/usr/share/hwdata/usb.ids:r \
+		-v "$$tmpdir:/mnt/out" \
+		miminar/hwdata-check /bin/bash -c 'lsusb 2>/mnt/out/err.out'; \
+	    if [[ `cat $$tmpdir/err.out | wc -l` -gt 0 ]]; then \
+		echo "ERRORS:"; nl $$tmpdir/err.out; rm -rf $$tmpdir; exit 1; \
+	    fi; \
+	    rm -rf $$tmpdir; \
+	fi
 	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 	@: videodrivers is tab-separated
