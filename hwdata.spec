@@ -1,4 +1,4 @@
-%global     uprelease   7.5
+%global     uprelease   7.6
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -47,6 +47,10 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
+* Fri Apr 10 2015 Michal Minar <miminar@redhat.com> 0.252-7.6
+- Blacklisted experimental module sha1-mb.
+- Resolves: rhbz#1208120
+
 * Fri Jan 30 2015 Michal Minar <miminar@redhat.com> 0.252-7.5
 - Updated vendor, usb and pci ids.
 
