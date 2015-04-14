@@ -1,13 +1,16 @@
-%global     uprelease   7.7
+# This package is arch-specific just because of bundling different files for
+# different architectures. No -debuginfo package is needed.
+%global     debug_package %{nil}
+%global     uprelease   7.8
 
-Name: hwdata
-Summary: Hardware identification and configuration data
-Version: 0.252
-Release: %{uprelease}%{?dist}
-License: GPLv2+
-Group: System Environment/Base
-Source0: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{uprelease}.tar.bz2
-URL:    http://git.fedorahosted.org/git/hwdata.git
+Name:       hwdata
+Summary:    Hardware identification and configuration data
+Version:    0.252
+Release:    %{uprelease}%{?dist}
+License:    GPLv2+
+Group:      System Environment/Base
+Source0:    https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{uprelease}.tar.bz2
+URL:        http://git.fedorahosted.org/git/hwdata.git
 
 BuildRequires   : perl
 
@@ -49,9 +52,10 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
-* Tue Apr 14 2015 Michal Minar <miminar@redhat.com> 0.252-7.7
+* Tue Apr 14 2015 Michal Minar <miminar@redhat.com> 0.252-7.8
 - Blacklisted module nx_crypto on PowerPCs.
 - Resolves: rhbz#1211389
+- Disable debuginfo build.
 
 * Fri Apr 10 2015 Michal Minar <miminar@redhat.com> 0.252-7.6
 - Blacklisted experimental module sha1-mb.
