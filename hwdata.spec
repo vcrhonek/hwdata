@@ -1,4 +1,4 @@
-%global     uprelease   7.6
+%global     uprelease   7.7
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -8,7 +8,6 @@ License: GPLv2+
 Group: System Environment/Base
 Source0: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{uprelease}.tar.bz2
 URL:    http://git.fedorahosted.org/git/hwdata.git
-BuildArch: noarch
 
 BuildRequires   : perl
 
@@ -22,6 +21,9 @@ such as the pci.ids and usb.ids databases.
 
 %prep
 %setup -q -n %{name}-%{version}-%{uprelease}
+%ifarch ppc ppc64
+patch -b -B nx_crypto -p1 < blacklist-nx_crypto.patch
+%endif
 %configure
 
 %build
@@ -47,6 +49,10 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue Apr 14 2015 Michal Minar <miminar@redhat.com> 0.252-7.7
+- Blacklisted module nx_crypto on PowerPCs.
+- Resolves: rhbz#1211389
+
 * Fri Apr 10 2015 Michal Minar <miminar@redhat.com> 0.252-7.6
 - Blacklisted experimental module sha1-mb.
 - Resolves: rhbz#1208120
