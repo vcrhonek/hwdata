@@ -1,4 +1,4 @@
-  Generated: Tue, 24 Mar 2015 05:00:02 -0400
+  Generated: Wed, 29 Apr 2015 05:00:03 -0400
 
   OUI     			Organization
   IAB Range    			Organization
@@ -6591,8 +6591,8 @@
 				Saint-Dié des Vosges Vosges 88100
 				FRANCE
 
-  00-50-C2	(hex)		Gekeler Martina
-  422000-422FFF	(base 16)	Gekeler Martina
+  00-50-C2	(hex)		ads-tec GmbH
+  422000-422FFF	(base 16)	ads-tec GmbH
   				Raiffeisenstraße 14
 				Leinfelden-Echterdingen Baden-Württemberg 70771
 				GERMANY
@@ -11816,8 +11816,8 @@
 				Dallas Texas 75251
 				UNITED STATES
 
-  00-50-C2	(hex)		Argus-Spectrum
-  764000-764FFF	(base 16)	Argus-Spectrum
+  00-50-C2	(hex)		ARGUS-SPECTRUM
+  764000-764FFF	(base 16)	ARGUS-SPECTRUM
   				65, Serdobolskaya str.
 				St-Peterburg  197342
 				RUSSIAN FEDERATION
@@ -17896,8 +17896,8 @@
 				San Jose CA 95138
 				UNITED STATES
 
-  00-50-C2	(hex)		Applied Micro Electronics &quot;AME&quot; BV
-  B30000-B30FFF	(base 16)	Applied Micro Electronics &quot;AME&quot; BV
+  00-50-C2	(hex)		Applied Micro Electronics "AME" BV
+  B30000-B30FFF	(base 16)	Applied Micro Electronics "AME" BV
   				ESP 100
 				Eindhoven NoordBrabant 5633 AA
 				NETHERLANDS
@@ -18119,8 +18119,8 @@
 				Montreal Quebec H1H 1Y3
 				CANADA
 
-  00-50-C2	(hex)		APG Cash Drawer, LLC
-  B54000-B54FFF	(base 16)	APG Cash Drawer, LLC
+  00-50-C2	(hex)		APG CASH DRAWER
+  B54000-B54FFF	(base 16)	APG CASH DRAWER
   				5250 Industrial Blvd NE
 				Minneapolis MN 55421
 				UNITED STATES
@@ -20483,7 +20483,7 @@
 
   00-50-C2	(hex)		Arcos Technologies Ltd.
   CD5000-CD5FFF	(base 16)	Arcos Technologies Ltd.
-  				26 Hasivim st.
+  				26 Hasivim  St.
 				Petach-Tikva  49517
 				ISRAEL
 
@@ -22866,7 +22866,7 @@
 
   00-50-C2	(hex)		Arcos Technologies LTD
   E54000-E54FFF	(base 16)	Arcos Technologies LTD
-  				26 Hasivim
+  				26 Hasivim  St.
 				Petach-Tikva Israel 49517
 				ISRAEL
 
@@ -26352,8 +26352,8 @@
 				Isola Vicentina Vicenza 36033
 				ITALY
 
-  40-D8-55	(hex)		ard sa
-  082000-082FFF	(base 16)	ard sa
+  40-D8-55	(hex)		ARD SA
+  082000-082FFF	(base 16)	ARD SA
   				Micropolis Bat Clematis
 				Gap France 05000
 				FRANCE
