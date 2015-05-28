@@ -49,7 +49,7 @@ tag:
 	@echo "Tagged as $(TAGNAME)"
 
 force-tag:
-	@git tag -s -f $(TAGNAME)
+	@git tag -s -m "Tag as $(TAGNAME)" -f $(TAGNAME)
 	@echo "Tag forced as $(TAGNAME)"
 
 changelog:
@@ -63,7 +63,7 @@ check:
 	    tmpdir=`mktemp -d`; \
 	    echo "Listing usb devices:"; \
 	    docker run -t --privileged --rm=true \
-		-v `pwd`/usb.ids:/usr/share/hwdata/usb.ids:r \
+		-v `pwd`/usb.ids:/usr/share/hwdata/usb.ids:ro \
 		-v "$$tmpdir:/mnt/out" \
 		miminar/hwdata-check /bin/bash -c 'lsusb 2>/mnt/out/err.out'; \
 	    if [[ `cat $$tmpdir/err.out | wc -l` -gt 0 ]]; then \
