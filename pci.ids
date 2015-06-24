@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.05.26
-#	Date:    2015-05-26 03:15:02
+#	Version: 2015.06.21
+#	Date:    2015-06-21 03:15:01
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1453,23 +1453,24 @@
 		1028 0684  FirePro W4170M
 	6607  Mars LE [Radeon HD 8530M / R5 M240]
 	6608  Oland GL [FirePro W2100]
-	6610  Oland XT [Radeon HD 8670 / R5 340X / R7 250/350X]
+	6610  Oland XT [Radeon HD 8670 / R7 250/350]
 		1019 0030  Radeon HD 8670
-		1028 0081  Radeon R7 350X
-		1028 0083  Radeon R5 340X
 		1028 2120  Radeon R7 250
 		1028 2322  Radeon R7 250
 		1462 2910  Radeon HD 8670
 		1462 2911  Radeon HD 8670
+		148c 7350  Radeon R7 350
 		1642 3c81  Radeon HD 8670
 		1642 3c91  Radeon HD 8670
+		1642 3f09  Radeon R7 350
 	6611  Oland [Radeon HD 8570 / R7 240/340 OEM]
 		1028 210b  Radeon R5 240 OEM
 		174b 4248  Radeon R7 240 OEM
 		174b a240  Radeon R7 240 OEM
 		174b d340  Radeon R7 340 OEM
 		1b0a 90d3  Radeon R7 240 OEM
-	6613  Oland PRO [Radeon R7 240]
+	6613  Oland PRO [Radeon R7 240/340]
+		148c 7340  Radeon R7 340
 		1682 7240  R7 240 2048 MB
 	6620  Mars
 	6621  Mars PRO
@@ -1482,21 +1483,32 @@
 	6649  Bonaire [FirePro W5100]
 	6650  Bonaire
 	6651  Bonaire
-	6658  Bonaire XTX [Radeon R7 260X]
-	665c  Bonaire XT [Radeon HD 7790/8770 / R9 260 OEM]
+	6658  Bonaire XTX [Radeon R7 260X/360]
+		148c 0907  Radeon R7 360
+		1682 0907  Radeon R7 360
+		1682 7360  Radeon R7 360
+	665c  Bonaire XT [Radeon HD 7790/8770 / R7 360 / R9 260/360 OEM]
 		1043 0452  Radeon HD 7790 DirectCU II OC
 # R7790-1GD5/OC
 		1462 2930  Radeon HD 7790 OC
 		1462 2932  Radeon HD 8770
 		1462 2934  Radeon R9 260 OEM
+		1462 2938  Radeon R9 360 OEM
+		148c 0907  Radeon R7 360
 		148c 9260  Radeon R9 260 OEM
+		148c 9360  Radeon R9 360 OEM
+		1682 0907  Radeon R7 360
 # FX-779A-CDB4 / FX-779A-CDBC
 		1682 3310  Radeon HD 7790 Black Edition 2 GB
 # 100356OCL / 11210-01-20G
 		174b e253  Radeon HD 7790 Dual-X OC
 		1787 2329  Radeon HD 7790 TurboDuo
 	665d  Bonaire [Radeon R7 200 Series]
-	665f  Tobago PRO [Radeon R9 360]
+	665f  Tobago PRO [Radeon R7 360 / R9 360 OEM]
+		1028 0b04  Radeon R9 360 OEM
+		1462 2938  Radeon R9 360 OEM
+		1462 3271  Radeon R9 360 OEM
+		1682 7360  Radeon R7 360
 	6660  Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330]
 		17aa 3809  Radeon R5 M330
 		17aa 390c  Radeon R5 M330
@@ -2086,24 +2098,38 @@
 		1002 0310  FirePro S7000
 		1002 0420  Radeon Sky 500
 	6809  Pitcairn LE GL [FirePro W5000]
-	6810  Curacao XT [Radeon R9 270X]
-	6811  Curacao PRO [Radeon R9 270/370]
-		1028 0b00  Trinidad PRO [Radeon R9 370]
+	6810  Curacao XT [Radeon R7 370 / R9 270X/370 OEM]
+		148c 0908  Radeon R9 370 OEM
+		1682 7370  Radeon R7 370
+	6811  Curacao PRO [Radeon R7 370 / R9 270/370 OEM]
+		1028 0b00  Trinidad PRO [Radeon R9 370 OEM]
+		1043 2016  Trinidad PRO [Radeon R9 370 OEM]
+		1458 2016  Trinidad PRO [Radeon R9 370 OEM]
+		1462 2016  Trinidad PRO [Radeon R9 370 OEM]
+		148c 2016  Trinidad PRO [Radeon R9 370 OEM]
+		1682 2015  Trinidad PRO [Radeon R7 370]
+		174b 2016  Trinidad PRO [Radeon R9 370 OEM]
+		1787 2016  Trinidad PRO [Radeon R9 370 OEM]
 	6816  Pitcairn
 	6817  Pitcairn
 	6818  Pitcairn XT [Radeon HD 7870 GHz Edition]
 		1002 0b05  Radeon HD 8870 OEM
 		174b 8b04  Radeon HD 8860
-	6819  Pitcairn PRO [Radeon HD 7850]
+	6819  Pitcairn PRO [Radeon HD 7850 / R7 265 / R9 270 1024SP]
+		1682 7269  Radeon R9 270 1024SP
+		1682 9278  Radeon R9 270 1024SP
+		174b a008  Radeon R9 270 1024SP
 		174b e221  Radeon HD 7850 2GB GDDR5 DVI-I/DVI-D/HDMI/DP
 	6820  Venus XTX [Radeon HD 8890M / R9 M275X/M375X]
 		103c 1851  Radeon HD 7750M
 		17aa 3643  Radeon R9 A375
 		17aa 3801  Radeon R9 M275
+		17aa 3824  Radeon R9 M375
 	6821  Venus XT [Radeon HD 8870M / R9 M270X/M370X]
 		1002 031e  FirePro SX4000
 		1028 05cc  FirePro M5100
 		1028 15cc  FirePro M5100
+		106b 0149  Radeon R9 M370X Mac Edition
 	6822  Venus PRO [Radeon E8860]
 	6823  Venus PRO [Radeon HD 8850M / R9 M265X]
 	6825  Heathrow XT [Radeon HD 7870M]
@@ -2724,7 +2750,8 @@
 	692b  Tonga PRO GL [FirePro W7100]
 	692f  Tonga XT GL [FirePro W8100]
 	6938  Amethyst XT [Radeon R9 M295X Mac Edition]
-	6939  Tonga PRO [Radeon R9 285]
+	6939  Tonga PRO [Radeon R9 285/380]
+		148c 9380  Radeon R9 380
 	700f  RS100 AGP Bridge
 	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
@@ -2845,6 +2872,7 @@
 	72a8  RV570 [Radeon X1950 GT] (Secondary)
 	72b1  RV560 [Radeon X1650 XT] (Secondary)
 	72b3  RV560 [Radeon X1650 GT] (Secondary)
+	7300  Fiji XT [Radeon R9 FURY X]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -4096,6 +4124,7 @@
 		102b 2100  MGA-2164W Millennium II
 	051e  MGA 1064SG [Mystique] AGP
 	051f  MGA 2164W [Millennium II] AGP
+		102b 2100  MGA-2164WA [Millennium II A]
 	0520  MGA G200
 		102b dbc2  G200 Multi-Monitor
 		102b dbc8  G200 Multi-Monitor
@@ -4136,7 +4165,7 @@
 		102b f806  Mystique G200 Video AGP
 		102b ff00  MGA-G200 AGP
 		102b ff02  Mystique G200 AGP
-		102b ff03  Millennium G200 AGP
+		102b ff03  Millennium G200A AGP
 		102b ff04  Marvel G200 AGP
 		110a 0032  MGA-G200 AGP
 	0522  MGA G200e [Pilot] ServerEngines (SEP1)
@@ -9756,6 +9785,7 @@
 		1025 0856  GeForce 820M
 		1025 0857  GeForce 820M
 		1025 0858  GeForce 820M
+		1025 0863  GeForce 820M
 		1025 0868  GeForce 820M
 		1025 0869  GeForce 810M
 		1025 0873  GeForce 820M
@@ -9769,6 +9799,7 @@
 		1025 0921  GeForce 820M
 		1025 092e  GeForce 810M
 		1025 092f  GeForce 820M
+		1025 0932  GeForce 820M
 		1025 093a  GeForce 820M
 		1025 093c  GeForce 820M
 		1025 093f  GeForce 820M
@@ -10081,6 +10112,7 @@
 	11c6  GK106 [GeForce GTX 650 Ti]
 	11c7  GK106 [GeForce GTX 750 Ti]
 	11c8  GK106 [GeForce GTX 650 OEM]
+	11cb  GK106 [GeForce GT 740]
 	11e0  GK106M [GeForce GTX 770M]
 	11e1  GK106M [GeForce GTX 765M]
 	11e2  GK106M [GeForce GTX 765M]
@@ -10178,6 +10210,7 @@
 	1346  GM108M [GeForce 930M]
 	1347  GM108M [GeForce 940M]
 	137a  GM108GLM [Quadro K620M]
+	137d  GM108M [GeForce 940A]
 	1380  GM107 [GeForce GTX 750 Ti]
 	1381  GM107 [GeForce GTX 750]
 	1382  GM107 [GeForce GTX 745]
@@ -10192,7 +10225,9 @@
 	139a  GM107M [GeForce GTX 950M]
 	139b  GM107M [GeForce GTX 960M]
 	139c  GM107M [GeForce 940M]
-	13b0  GM107GLM [N16P-Q3]
+	13b0  GM107GLM [Quadro M2000M]
+	13b1  GM107GLM [Quadro M1000M]
+	13b2  GM107GLM [Quadro M600M]
 	13b3  GM107GLM [Quadro K2200M]
 	13ba  GM107GL [Quadro K2200]
 	13bb  GM107GL [Quadro K620]
@@ -10407,6 +10442,7 @@
 		10ec 8139  RTL-8100/8101L/8139 PCI Fast Ethernet Adapter
 		10f7 8338  Panasonic CF-Y5 laptop
 		1113 ec01  LevelOne FNC-0107TX/FNC-0109TX
+		1186 1104  DFE-520TX Fast Ethernet PCI Adapter (rev. D1)
 		1186 1300  DFE-538TX
 		1186 1320  SN5200
 		1186 8139  DRN-32TX
@@ -10680,8 +10716,11 @@
 	0620  RocketRAID 620 2 Port SATA-III Controller
 	0622  RocketRAID 622 2 Port SATA-III Controller
 	0640  RocketRAID 640 4 Port SATA-III Controller
+	0641  RocketRAID 640L 4 Port SATA-III Controller
+	0642  RocketRAID 642L SATA-III Controller (2 eSATA ports + 2 internal SATA ports)
 	0644  RocketRAID 644 4 Port SATA-III Controller (eSATA)
 	0645  RocketRAID 644L 4 Port SATA-III Controller (eSATA)
+	0646  RocketRAID 644LS SATA-III Controller (4 eSATA devices connected by 1 SAS cable)
 	1720  RocketRAID 1720 (2x SATA II RAID Controller)
 	1740  RocketRAID 1740
 	1742  RocketRAID 1742
@@ -10879,7 +10918,7 @@
 	287d  VT8251 PCIE Root Port
 	287e  VT8237/8251 Ultra VLINK Controller
 	3022  CLE266
-	3038  VT82xxxxx UHCI USB 1.1 Controller
+	3038  VT82xx/62xx UHCI USB 1.1 Controller
 		0925 1234  onboard UHCI USB 1.1 Controller
 		1019 0985  P6VXA Motherboard
 		1019 0a81  L7VTA v1.0 Motherboard (KT400-8235)
@@ -10904,7 +10943,7 @@
 	3043  VT86C100A [Rhine]
 		10bd 0000  VT86C100A Fast Ethernet Adapter
 		1106 0100  VT86C100A Fast Ethernet Adapter
-		1186 1400  DFE-530TX rev A
+		1186 1400  DFE-530TX PCI Fast Ethernet Adapter (rev. A)
 	3044  VT6306/7/8 [Fire II(M)] IEEE 1394 OHCI Controller
 		0010 0001  IEEE 1394 4port DCST 1394-3+1B
 		1025 005a  TravelMate 290
@@ -10921,6 +10960,7 @@
 	3050  VT82C596 Power Management
 	3051  VT82C596 Power Management
 	3053  VT6105M [Rhine-III]
+		1186 1404  DFE-530TX PCI Fast Ethernet Adapter (rev. D)
 	3057  VT82C686 [Apollo Super ACPI]
 		1019 0985  P6VXA Motherboard
 		1019 0987  K7VZA Motherboard
@@ -10943,9 +10983,11 @@
 		1462 3091  MS-6309 Onboard Audio
 		1462 3092  MS-6309 v2.x Mainboard (VIA VT1611A codec)
 		1462 3300  MS-6330 Onboard Audio
+		1462 3400  MS-6340 (VT8363) motherboard
 		15dd 7609  Onboard Audio
 	3059  VT8233/A/8235/8237 AC97 Audio Controller
 		1019 0a81  L7VTA v1.0 Motherboard (KT400-8235)
+		1019 1841  M811 (VT8367/VT8235/VT6103) [KT333] motherboard
 		1019 1877  K8M800-M2 (V2.0) onboard audio
 		1043 8095  A7V8X Motherboard (Realtek ALC650 codec)
 		1043 80a1  A7V8X-X Motherboard
@@ -10965,7 +11007,7 @@
 		1462 5901  KT6 Delta-FIS2R (MS-6590)
 		1462 7181  K8MM3-V mainboard
 		147b 1407  KV8-MAX3 motherboard
-		1695 300c  EP-8KRA2+ Mainboard
+		1695 300c  Realtek ALC655 audio on EP-8KRA series mainboard
 		1849 0850  ASRock 775Dual-880 Pro onboard audio (Realtek ALC850)
 		1849 9739  P4VT8 Mainboard (C-Media CMI9739A codec)
 # probably all K7VT2/4*/6
@@ -10973,18 +11015,18 @@
 		4005 4710  MSI K7T266 Pro2-RU (MSI-6380 v2) onboard audio (Realtek/ALC 200/200P)
 		a0a0 01b6  AK77-8XN onboard audio
 		a0a0 0342  AK86-L motherboard
-	3065  VT6102 [Rhine-II]
+	3065  VT6102/VT6103 [Rhine-II]
 		1043 80a1  A7V8X-X Motherboard
 		1043 80ed  A7V600-X Motherboard
-		1106 0102  VT6102 [Rhine II] Embeded Ethernet Controller on VT8235
-		1186 1400  DFE-530TX rev A
-		1186 1401  DFE-530TX rev B
+		1106 0102  VT6102/6103 [Rhine II] Ethernet Controller
+		1186 1400  DFE-530TX PCI Fast Ethernet Adapter (rev. A)
+		1186 1401  DFE-530TX PCI Fast Ethernet Adapter (rev. B)
+		1186 1402  DFE-530TX PCI Fast Ethernet Adapter (rev. B)
 		13b9 1421  LD-10/100AL PCI Fast Ethernet Adapter (rev.B)
 		1462 7061  MS-7061
 		1462 7181  K8MM3-V mainboard
 		147b 1c09  NV7 Motherboard
 		1695 3005  VT6103
-		1695 300c  Realtek ALC655 sound chip
 # probably all K7VT2/4*/6
 		1849 3065  K7VT series Motherboards
 # This hosts more than just the Intel 537 codec, it also hosts PCtel (SIL33) and SmartLink (SIL34) codecs
@@ -10994,6 +11036,7 @@
 		1043 8052  VT8233A
 	3091  VT8633 [Apollo Pro266]
 	3099  VT8366/A/7 [Apollo KT266/A/333]
+		1019 1841  M811 (VT8367/VT8235/VT6103) [KT333] motherboard
 		1043 8064  A7V266-E Mainboard
 		1043 807f  A7V333 Mainboard
 		1849 3099  K7VT2 motherboard
@@ -11021,7 +11064,7 @@
 		19da a179  ZBOX nano VD01
 	3106  VT6105/VT6106S [Rhine-III]
 		1106 0105  VT6106S [Rhine-III]
-		1186 1403  DFE-530TX rev C
+		1186 1403  DFE-530TX PCI Fast Ethernet Adapter (rev. C)
 		1186 1405  DFE-520TX Fast Ethernet PCI Adapter
 		1186 1406  DFE-530TX+ rev F2
 		1186 1407  DFE-538TX
@@ -11061,6 +11104,7 @@
 		1849 3168  P4VT8 Mainboard
 	3177  VT8235 ISA Bridge
 		1019 0a81  L7VTA v1.0 Motherboard (KT400-8235)
+		1019 1841  M811 (VT8367/VT8235/VT6103) [KT333] motherboard
 		1043 808c  A7V8X motherboard
 		1043 80a1  A7V8X-X motherboard
 		1106 0000  KT4AV motherboard
@@ -12544,7 +12588,10 @@
 	3a11  AirXpert DWL-AG520 Wireless PCI Adapter(rev.B)
 	4000  DL2000-based Gigabit Ethernet
 	4001  DGE-550SX PCI-X Gigabit Ethernet Adapter
+	4200  DFE-520TX Fast Ethernet PCI Adapter
+		1186 1103  DFE-520TX Fast Ethernet PCI Adapter (rev. C1)
 	4300  DGE-528T Gigabit Ethernet Adapter
+		1186 4300  DGE-528T PCI Gigabit Ethernet Adapter
 # rev. B1; RealTek RTL8168E.
 		1186 4b10  DGE-560T PCI Express (x1) Gigabit Ethernet Adapter
 	4302  DGE-530T Gigabit Ethernet Adapter (rev.C1) [Realtek RTL8169]
@@ -15387,6 +15434,8 @@
 	5088  T570-5088 Unified Wire Ethernet Controller
 	5089  T520-5089 Unified Wire Ethernet Controller
 	5090  T540-5090 Unified Wire Ethernet Controller
+	5091  T522-5091 Unified Wire Ethernet Controller
+	5092  T520-5092 Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -15419,6 +15468,8 @@
 	5488  T570-5088 Unified Wire Ethernet Controller
 	5489  T520-5089 Unified Wire Ethernet Controller
 	5490  T540-5090 Unified Wire Ethernet Controller
+	5491  T522-5091 Unified Wire Ethernet Controller
+	5492  T520-5092 Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -15451,6 +15502,8 @@
 	5588  T570-5088 Unified Wire Storage Controller
 	5589  T520-5089 Unified Wire Storage Controller
 	5590  T540-5090 Unified Wire Storage Controller
+	5591  T522-5091 Unified Wire Storage Controller
+	5592  T520-5092 Unified Wire Storage Controller
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -15483,6 +15536,8 @@
 	5688  T570-5088 Unified Wire Storage Controller
 	5689  T520-5089 Unified Wire Storage Controller
 	5690  T540-5090 Unified Wire Storage Controller
+	5691  T522-5091 Unified Wire Storage Controller
+	5692  T520-5092 Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -15515,6 +15570,8 @@
 	5788  T570-5088 Unified Wire Ethernet Controller
 	5789  T520-5089 Unified Wire Ethernet Controller
 	5790  T540-5090 Unified Wire Ethernet Controller
+	5791  T522-5091 Unified Wire Ethernet Controller
+	5792  T520-5092 Unified Wire Ethernet Controller
 	5801  T520-CR Unified Wire Ethernet Controller [VF]
 	5802  T522-CR Unified Wire Ethernet Controller [VF]
 	5803  T540-CR Unified Wire Ethernet Controller [VF]
@@ -15547,6 +15604,8 @@
 	5888  T570-5088 Unified Wire Ethernet Controller [VF]
 	5889  T520-5089 Unified Wire Ethernet Controller [VF]
 	5890  T540-5090 Unified Wire Ethernet Controller [VF]
+	5891  T522-5091 Unified Wire Ethernet Controller [VF]
+	5892  T520-5092 Unified Wire Ethernet Controller [VF]
 	a000  PE10K Unified Wire Ethernet Controller
 1426  Storage Technology Corp.
 1427  Better On-Line Solutions
@@ -15620,6 +15679,12 @@
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
 		1028 1f97  Express Flash NVMe XS1715 SSD 1600GB
+		1028 1fa4  Express Flash NVMe SM1715 3.2TB SFF
+		1028 1fa6  Express Flash NVMe SM1715 3.2TB AIC
+		1028 1fba  Express Flash NVMe SM1715 800GB SFF
+		1028 1fbb  Express Flash NVMe SM1715 1.6TB SFF
+		1028 1fbc  Express Flash NVMe SM1715 1.6TB AIC
+	a821  NVMe SSD Controller 172X
 144e  OLITEC
 144f  Askey Computer Corp.
 1450  Octave Communications Ind.
@@ -15699,7 +15764,6 @@
 	1003  HCF 56k Data/Fax Modem
 148e  OSI Plus Corporation
 148f  Plant Equipment, Inc.
-	5370  Dexlink AUWL15I1
 1490  Stone Microsystems PTY Ltd.
 1491  ZEAL Corporation
 1492  Time Logic Corporation
@@ -19039,6 +19103,7 @@
 1afa  J & W Electronics Co., Ltd.
 1b03  Magnum Semiconductor, Inc,
 	6100  DXT/DXTPro Multiformat Broadcast HD/SD Encoder/Decoder/Transcoder
+	7000  D7 Multiformat Broadcast HD/SD Encoder/Decoder/Transcoder
 1b08  MSC Vertriebs GmbH
 1b0a  Pegatron
 1b13  Jaton Corp
@@ -19069,7 +19134,20 @@
 	0100  QXL paravirtual graphic card
 		1af4 1100  QEMU Virtual Machine
 1b37  Signal Processing Devices Sweden AB
+	0001  ADQ214
+	0003  ADQ114
+	0005  ADQ112
+	000e  ADQ108
+	000f  ADQDSP
 	0014  ADQ412
+	0015  ADQ212
+	001b  SDR14
+	001c  ADQ1600
+	001e  ADQ208
+	001f  DSU
+	0020  ADQ14
+	2014  TX320
+	2019  S6000
 # now owned by HGST (a Western Digital subsidiary)
 1b39  sTec, Inc.
 	0001  S1120 PCIe Accelerator SSD
@@ -19162,6 +19240,14 @@
 1bbf  Maxeler Technologies Ltd.
 	0003  MAX3
 	0004  MAX4
+1bd0  Astronics Corporation
+	1001  Mx5 PMC/XMC Databus Interface Card
+	1002  PM1553-5 (PC/104+ MIL-STD-1553 Interface Card)
+	1004  AB3000 Series Rugged Computer
+	1005  PE1000 (Multi-Protocol PCIe/104 Interface Card)
+	1101  OmniBus II PCIe Multi-Protocol Interface Card
+	1102  OmniBusBox II Multi-Protocol Interface Core
+	1103  OmniBus II cPCIe/PXIe Multi-Protocol Interface Card
 1bee  IXXAT Automation GmbH
 	0003  CAN-IB200/PCIe
 1bf4  VTI Instruments Corporation
@@ -19221,8 +19307,20 @@
 1d44  DPT
 	a400  PM2x24/PM3224
 1d5c  Fantasia Trading LLC
+1d61  Technobox, Inc.
+1d65  Imagine Communications Corp.
+	04de  Taurus/McKinley
+1d6c  Atomic Rules LLC
+	1001  A5PL-E1
+	1002  A5PL-E7
+	1003  S5PEDS-AB
+	1004  KC705-K325
+	1005  ZC706-Z045
+	1006  KCU105-KU040
+	1007  XUSP3S-VU095 [Jasper]
+	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1de1  Tekram Technology Co.,Ltd.
-	0391  TRM-S1040
+	0391  TRM-S1040 [DC-315 / DC-395 series]
 	2020  DC-390
 	690c  690c
 	dc29  DC290
@@ -20486,10 +20584,10 @@
 	0c48  Atom Processor S1200 PCI Express Root Port 3
 	0c49  Atom Processor S1200 PCI Express Root Port 4
 	0c4e  Atom Processor S1200 NTB Primary
-	0c50  Xeon Processor D Family QuickData Technology Device
-	0c51  Xeon Processor D Family QuickData Technology Device
-	0c52  Xeon Processor D Family QuickData Technology Device
-	0c53  Xeon Processor D Family QuickData Technology Device
+	0c50  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QuickData Technology Device
+	0c51  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QuickData Technology Device
+	0c52  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QuickData Technology Device
+	0c53  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QuickData Technology Device
 	0c54  Atom Processor S1200 Internal
 	0c55  Atom Processor S1200 DFX 1
 	0c56  Atom Processor S1200 DFX 2
@@ -21549,8 +21647,9 @@
 		103c 22fd  HP Ethernet 10Gb 2-port 562SFP+ Adapter
 		1137 0000  Ethernet Converged NIC X710-4
 		1137 013b  Ethernet Converged NIC X710-4
-		17aa 0000  ThinkServer XL710 AnyFabric
-		17aa 4001  ThinkServer XL710-4 AnyFabric
+		17aa 0000  ThinkServer X710 AnyFabric for 10GbE SFP+
+		17aa 4001  ThinkServer X710-4 AnyFabric for 10GbE SFP+
+		17aa 4002  ThinkServer X710-2 AnyFabric for 10GbE SFP+
 		8086 0000  Ethernet Converged Network Adapter X710
 		8086 0001  Ethernet Converged Network Adapter X710-4
 		8086 0002  Ethernet Converged Network Adapter X710-4
@@ -21701,6 +21800,7 @@
 	1a24  82840 840 [Carmel] Chipset PCI Bridge (Hub B)
 	1a30  82845 845 [Brookdale] Chipset Host Bridge
 		1028 010e  Optiplex GX240
+		147b 0505  BL7 motherboard
 		15d9 3280  Supermicro P4SBE Mainboard
 	1a31  82845 845 [Brookdale] Chipset AGP Bridge
 	1a38  5000 Series Chipset DMA Engine
@@ -22176,7 +22276,7 @@
 	2428  82801AB PCI Bridge
 	2440  82801BA ISA Bridge (LPC)
 		8086 5744  S845WD1-E
-	2442  82801BA/BAM USB Controller #1
+	2442  82801BA/BAM UHCI USB 1.1 Controller #1
 		1014 01c6  Netvista A40/A40p
 		1025 1016  Travelmate 612 TX
 		1028 00c7  Dimension 8100
@@ -22185,6 +22285,7 @@
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		8086 4532  D815EEA2 mainboard
 		8086 4557  D815EGEW Mainboard
@@ -22198,12 +22299,13 @@
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		15d9 3280  Supermicro P4SBE Mainboard
 		8086 4532  D815EEA2 mainboard
 		8086 4557  D815EGEW Mainboard
 		8086 5744  S845WD1-E mainboard
-	2444  82801BA/BAM USB Controller #1
+	2444  82801BA/BAM UHCI USB 1.1 Controller #2
 		1025 1016  Travelmate 612 TX
 		1028 00c7  Dimension 8100
 		1028 00d8  Precision 530
@@ -22211,6 +22313,7 @@
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		8086 4532  D815EEA2 mainboard
 		8086 5744  S845WD1-E mainboard
@@ -22223,6 +22326,7 @@
 		103c 126f  e-pc 40
 		104d 80df  Vaio PCG-FX403
 		1462 3370  STAC9721 AC
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		8086 4557  D815EGEW Mainboard
 	2446  82801BA/BAM AC'97 Modem Controller
@@ -22290,6 +22394,7 @@
 		1028 010e  Optiplex GX240
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		15d9 3280  Supermicro P4SBE Mainboard
 		8086 4532  D815EEA2 mainboard
@@ -24426,165 +24531,165 @@
 	2e94  4 Series Chipset HECI Controller
 	2e95  4 Series Chipset HECI Controller
 	2e96  4 Series Chipset PT IDER Controller
-	2f00  Xeon E5 v3/Core i7 DMI2
-	2f01  Xeon E5 v3/Core i7 PCI Express Root Port 0
-	2f02  Xeon E5 v3/Core i7 PCI Express Root Port 1
-	2f03  Xeon E5 v3/Core i7 PCI Express Root Port 1
-	2f04  Xeon E5 v3/Core i7 PCI Express Root Port 2
-	2f05  Xeon E5 v3/Core i7 PCI Express Root Port 2
-	2f06  Xeon E5 v3/Core i7 PCI Express Root Port 2
-	2f07  Xeon E5 v3/Core i7 PCI Express Root Port 2
-	2f08  Xeon E5 v3/Core i7 PCI Express Root Port 3
-	2f09  Xeon E5 v3/Core i7 PCI Express Root Port 3
-	2f0a  Xeon E5 v3/Core i7 PCI Express Root Port 3
-	2f0b  Xeon E5 v3/Core i7 PCI Express Root Port 3
-	2f10  Xeon E5 v3/Core i7 IIO Debug
-	2f11  Xeon E5 v3/Core i7 IIO Debug
-	2f12  Xeon E5 v3/Core i7 IIO Debug
-	2f13  Xeon E5 v3/Core i7 IIO Debug
-	2f14  Xeon E5 v3/Core i7 IIO Debug
-	2f15  Xeon E5 v3/Core i7 IIO Debug
-	2f16  Xeon E5 v3/Core i7 IIO Debug
-	2f17  Xeon E5 v3/Core i7 IIO Debug
-	2f18  Xeon E5 v3/Core i7 IIO Debug
-	2f19  Xeon E5 v3/Core i7 IIO Debug
-	2f1a  Xeon E5 v3/Core i7 IIO Debug
-	2f1b  Xeon E5 v3/Core i7 IIO Debug
-	2f1c  Xeon E5 v3/Core i7 IIO Debug
-	2f1d  Xeon E5 v3/Core i7 PCIe Ring Interface
-	2f1e  Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
-	2f1f  Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
-	2f20  Xeon E5 v3/Core i7 DMA Channel 0
-	2f21  Xeon E5 v3/Core i7 DMA Channel 1
-	2f22  Xeon E5 v3/Core i7 DMA Channel 2
-	2f23  Xeon E5 v3/Core i7 DMA Channel 3
-	2f24  Xeon E5 v3/Core i7 DMA Channel 4
-	2f25  Xeon E5 v3/Core i7 DMA Channel 5
-	2f26  Xeon E5 v3/Core i7 DMA Channel 6
-	2f27  Xeon E5 v3/Core i7 DMA Channel 7
-	2f28  Xeon E5 v3/Core i7 Address Map, VTd_Misc, System Management
-	2f29  Xeon E5 v3/Core i7 Hot Plug
-	2f2a  Xeon E5 v3/Core i7 RAS, Control Status and Global Errors
-	2f2c  Xeon E5 v3/Core i7 I/O APIC
-	2f2e  Xeon E5 v3/Core i7 RAID 5/6
-	2f2f  Xeon E5 v3/Core i7 RAID 5/6
-	2f30  Xeon E5 v3/Core i7 Home Agent 0
-	2f32  Xeon E5 v3/Core i7 QPI Link 0
-	2f33  Xeon E5 v3/Core i7 QPI Link 1
-	2f34  Xeon E5 v3/Core i7 PCIe Ring Interface
-	2f36  Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
-	2f37  Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
-	2f38  Xeon E5 v3/Core i7 Home Agent 1
-	2f39  Xeon E5 v3/Core i7 I/O Performance Monitoring
-	2f3a  Xeon E5 v3/Core i7 QPI Link 2
-	2f3e  Xeon E5 v3/Core i7 R3 QPI Link 2 Monitoring
-	2f3f  Xeon E5 v3/Core i7 R3 QPI Link 2 Monitoring
-	2f40  Xeon E5 v3/Core i7 QPI Link 2
-	2f41  Xeon E5 v3/Core i7 R3 QPI Link 2 Monitoring
-	2f43  Xeon E5 v3/Core i7 QPI Link 2
-	2f45  Xeon E5 v3/Core i7 QPI Link 2 Debug
-	2f46  Xeon E5 v3/Core i7 QPI Link 2 Debug
-	2f47  Xeon E5 v3/Core i7 QPI Link 2 Debug
-	2f60  Xeon E5 v3/Core i7 Home Agent 1
-	2f68  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
-	2f6a  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
-	2f6b  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
-	2f6c  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
-	2f6d  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
-	2f6e  Xeon E5 v3/Core i7 DDRIO Channel 2/3 Broadcast
-	2f6f  Xeon E5 v3/Core i7 DDRIO Global Broadcast
-	2f70  Xeon E5 v3/Core i7 Home Agent 0 Debug
-	2f71  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
-	2f76  Xeon E5 v3/Core i7 E3 QPI Link Debug
-	2f78  Xeon E5 v3/Core i7 Home Agent 1 Debug
-	2f79  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
-	2f7d  Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
-	2f7e  Xeon E5 v3/Core i7 E3 QPI Link Debug
-	2f80  Xeon E5 v3/Core i7 QPI Link 0
-	2f81  Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
-	2f83  Xeon E5 v3/Core i7 QPI Link 0
-	2f85  Xeon E5 v3/Core i7 QPI Link 0 Debug
-	2f86  Xeon E5 v3/Core i7 QPI Link 0 Debug
-	2f87  Xeon E5 v3/Core i7 QPI Link 0 Debug
-	2f88  Xeon E5 v3/Core i7 VCU
-	2f8a  Xeon E5 v3/Core i7 VCU
-	2f90  Xeon E5 v3/Core i7 QPI Link 1
-	2f93  Xeon E5 v3/Core i7 QPI Link 1
-	2f95  Xeon E5 v3/Core i7 QPI Link 1 Debug
-	2f96  Xeon E5 v3/Core i7 QPI Link 1 Debug
-	2f98  Xeon E5 v3/Core i7 Power Control Unit
-	2f99  Xeon E5 v3/Core i7 Power Control Unit
-	2f9a  Xeon E5 v3/Core i7 Power Control Unit
-	2f9c  Xeon E5 v3/Core i7 Power Control Unit
-	2fa0  Xeon E5 v3/Core i7 Home Agent 0
-	2fa8  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
-	2faa  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
-	2fab  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
-	2fac  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
-	2fad  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
-	2fae  Xeon E5 v3/Core i7 DDRIO Channel 0/1 Broadcast
-	2faf  Xeon E5 v3/Core i7 DDRIO Global Broadcast
-	2fb0  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 Thermal Control
-	2fb1  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 Thermal Control
-	2fb2  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 ERROR Registers
-	2fb3  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 ERROR Registers
-	2fb4  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 Thermal Control
-	2fb5  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 Thermal Control
-	2fb6  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 ERROR Registers
-	2fb7  Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 ERROR Registers
-	2fb8  Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
-	2fb9  Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
-	2fba  Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
-	2fbb  Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
-	2fbc  Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
-	2fbd  Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
-	2fbe  Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
-	2fbf  Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
-	2fc0  Xeon E5 v3/Core i7 Power Control Unit
-	2fc1  Xeon E5 v3/Core i7 Power Control Unit
-	2fc2  Xeon E5 v3/Core i7 Power Control Unit
-	2fc3  Xeon E5 v3/Core i7 Power Control Unit
-	2fc4  Xeon E5 v3/Core i7 Power Control Unit
-	2fc5  Xeon E5 v3/Core i7 Power Control Unit
-	2fd0  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 0 Thermal Control
-	2fd1  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 1 Thermal Control
-	2fd2  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 0 ERROR Registers
-	2fd3  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 1 ERROR Registers
-	2fd4  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 2 Thermal Control
-	2fd5  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 3 Thermal Control
-	2fd6  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 2 ERROR Registers
-	2fd7  Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 3 ERROR Registers
-	2fe0  Xeon E5 v3/Core i7 Unicast Registers
-	2fe1  Xeon E5 v3/Core i7 Unicast Registers
-	2fe2  Xeon E5 v3/Core i7 Unicast Registers
-	2fe3  Xeon E5 v3/Core i7 Unicast Registers
-	2fe4  Xeon E5 v3/Core i7 Unicast Registers
-	2fe5  Xeon E5 v3/Core i7 Unicast Registers
-	2fe6  Xeon E5 v3/Core i7 Unicast Registers
-	2fe7  Xeon E5 v3/Core i7 Unicast Registers
-	2fe8  Xeon E5 v3/Core i7 Unicast Registers
-	2fe9  Xeon E5 v3/Core i7 Unicast Registers
-	2fea  Xeon E5 v3/Core i7 Unicast Registers
-	2feb  Xeon E5 v3/Core i7 Unicast Registers
-	2fec  Xeon E5 v3/Core i7 Unicast Registers
-	2fed  Xeon E5 v3/Core i7 Unicast Registers
-	2fee  Xeon E5 v3/Core i7 Unicast Registers
-	2fef  Xeon E5 v3/Core i7 Unicast Registers
-	2ff0  Xeon E5 v3/Core i7 Unicast Registers
-	2ff1  Xeon E5 v3/Core i7 Unicast Registers
-	2ff2  Xeon E5 v3/Core i7 Unicast Registers
-	2ff3  Xeon E5 v3/Core i7 Unicast Registers
-	2ff4  Xeon E5 v3/Core i7 Unicast Registers
-	2ff5  Xeon E5 v3/Core i7 Unicast Registers
-	2ff6  Xeon E5 v3/Core i7 Unicast Registers
-	2ff7  Xeon E5 v3/Core i7 Unicast Registers
-	2ff8  Xeon E5 v3/Core i7 Buffered Ring Agent
-	2ff9  Xeon E5 v3/Core i7 Buffered Ring Agent
-	2ffa  Xeon E5 v3/Core i7 Buffered Ring Agent
-	2ffb  Xeon E5 v3/Core i7 Buffered Ring Agent
-	2ffc  Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
-	2ffd  Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
-	2ffe  Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+	2f00  Xeon E7 v3/Xeon E5 v3/Core i7 DMI2
+	2f01  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 0
+	2f02  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 1
+	2f03  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 1
+	2f04  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 2
+	2f05  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 2
+	2f06  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 2
+	2f07  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 2
+	2f08  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 3
+	2f09  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 3
+	2f0a  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 3
+	2f0b  Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 3
+	2f10  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f11  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f12  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f13  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f14  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f15  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f16  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f17  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f18  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f19  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f1a  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f1b  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f1c  Xeon E7 v3/Xeon E5 v3/Core i7 IIO Debug
+	2f1d  Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface
+	2f1e  Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+	2f1f  Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+	2f20  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 0
+	2f21  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 1
+	2f22  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 2
+	2f23  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 3
+	2f24  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 4
+	2f25  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 5
+	2f26  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 6
+	2f27  Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 7
+	2f28  Xeon E7 v3/Xeon E5 v3/Core i7 Address Map, VTd_Misc, System Management
+	2f29  Xeon E7 v3/Xeon E5 v3/Core i7 Hot Plug
+	2f2a  Xeon E7 v3/Xeon E5 v3/Core i7 RAS, Control Status and Global Errors
+	2f2c  Xeon E7 v3/Xeon E5 v3/Core i7 I/O APIC
+	2f2e  Xeon E7 v3/Xeon E5 v3/Core i7 RAID 5/6
+	2f2f  Xeon E7 v3/Xeon E5 v3/Core i7 RAID 5/6
+	2f30  Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0
+	2f32  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+	2f33  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 1
+	2f34  Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface
+	2f36  Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+	2f37  Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+	2f38  Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 1
+	2f39  Xeon E7 v3/Xeon E5 v3/Core i7 I/O Performance Monitoring
+	2f3a  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 2
+	2f3e  Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 2 Monitoring
+	2f3f  Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 2 Monitoring
+	2f40  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 2
+	2f41  Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 2 Monitoring
+	2f43  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 2
+	2f45  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 2 Debug
+	2f46  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 2 Debug
+	2f47  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 2 Debug
+	2f60  Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 1
+	2f68  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
+	2f6a  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
+	2f6b  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
+	2f6c  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
+	2f6d  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder
+	2f6e  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Channel 2/3 Broadcast
+	2f6f  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Global Broadcast
+	2f70  Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0 Debug
+	2f71  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+	2f76  Xeon E7 v3/Xeon E5 v3/Core i7 E3 QPI Link Debug
+	2f78  Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 1 Debug
+	2f79  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
+	2f7d  Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+	2f7e  Xeon E7 v3/Xeon E5 v3/Core i7 E3 QPI Link Debug
+	2f80  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+	2f81  Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+	2f83  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+	2f85  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0 Debug
+	2f86  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0 Debug
+	2f87  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0 Debug
+	2f88  Xeon E7 v3/Xeon E5 v3/Core i7 VCU
+	2f8a  Xeon E7 v3/Xeon E5 v3/Core i7 VCU
+	2f90  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 1
+	2f93  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 1
+	2f95  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 1 Debug
+	2f96  Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 1 Debug
+	2f98  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2f99  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2f9a  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2f9c  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2fa0  Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0
+	2fa8  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+	2faa  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+	2fab  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+	2fac  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+	2fad  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+	2fae  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Channel 0/1 Broadcast
+	2faf  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Global Broadcast
+	2fb0  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 Thermal Control
+	2fb1  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 Thermal Control
+	2fb2  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 ERROR Registers
+	2fb3  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 ERROR Registers
+	2fb4  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 Thermal Control
+	2fb5  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 Thermal Control
+	2fb6  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 ERROR Registers
+	2fb7  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 ERROR Registers
+	2fb8  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+	2fb9  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+	2fba  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+	2fbb  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+	2fbc  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+	2fbd  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+	2fbe  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+	2fbf  Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+	2fc0  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2fc1  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2fc2  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2fc3  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2fc4  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2fc5  Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+	2fd0  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 0 Thermal Control
+	2fd1  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 1 Thermal Control
+	2fd2  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 0 ERROR Registers
+	2fd3  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 1 ERROR Registers
+	2fd4  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 2 Thermal Control
+	2fd5  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 3 Thermal Control
+	2fd6  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 2 ERROR Registers
+	2fd7  Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 3 ERROR Registers
+	2fe0  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe1  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe2  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe3  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe4  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe5  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe6  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe7  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe8  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fe9  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fea  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2feb  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fec  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fed  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fee  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2fef  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff0  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff1  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff2  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff3  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff4  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff5  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff6  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff7  Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+	2ff8  Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+	2ff9  Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+	2ffa  Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+	2ffb  Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+	2ffc  Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+	2ffd  Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+	2ffe  Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
 	3165  Wireless 3165
 # Stone Peak 1x1
 		8086 4010  Dual Band Wireless AC 3165
@@ -25398,167 +25503,167 @@
 	65f9  5100 Chipset PCI Express x8 Port 6-7
 	65fa  5100 Chipset PCI Express x16 Port 4-7
 	65ff  5100 Chipset DMA Engine
-	6f00  Xeon Processor D Family DMI2
-	6f01  Xeon Processor D Family PCI Express Root Port 0
-	6f02  Xeon Processor D Family PCI Express Root Port 1
-	6f03  Xeon Processor D Family PCI Express Root Port 1
-	6f04  Xeon Processor D Family PCI Express Root Port 2
-	6f05  Xeon Processor D Family PCI Express Root Port 2
-	6f06  Xeon Processor D Family PCI Express Root Port 2
-	6f07  Xeon Processor D Family PCI Express Root Port 2
-	6f08  Xeon Processor D Family PCI Express Root Port 3
-	6f09  Xeon Processor D Family PCI Express Root Port 3
-	6f0a  Xeon Processor D Family PCI Express Root Port 3
-	6f0b  Xeon Processor D Family PCI Express Root Port 3
-	6f10  Xeon Processor D Family IIO Debug
-	6f11  Xeon Processor D Family IIO Debug
-	6f12  Xeon Processor D Family IIO Debug
-	6f13  Xeon Processor D Family IIO Debug
-	6f14  Xeon Processor D Family IIO Debug
-	6f15  Xeon Processor D Family IIO Debug
-	6f16  Xeon Processor D Family IIO Debug
-	6f17  Xeon Processor D Family IIO Debug
-	6f18  Xeon Processor D Family IIO Debug
-	6f19  Xeon Processor D Family IIO Debug
-	6f1a  Xeon Processor D Family IIO Debug
-	6f1b  Xeon Processor D Family IIO Debug
-	6f1c  Xeon Processor D Family IIO Debug
-	6f1d  Xeon Processor D Family R2PCIe Agent
-	6f1e  Xeon Processor D Family Ubox
-	6f1f  Xeon Processor D Family Ubox
-	6f20  Xeon Processor D Family Crystal Beach DMA Channel 0
-	6f21  Xeon Processor D Family Crystal Beach DMA Channel 1
-	6f22  Xeon Processor D Family Crystal Beach DMA Channel 2
-	6f23  Xeon Processor D Family Crystal Beach DMA Channel 3
-	6f24  Xeon Processor D Family Crystal Beach DMA Channel 4
-	6f25  Xeon Processor D Family Crystal Beach DMA Channel 5
-	6f26  Xeon Processor D Family Crystal Beach DMA Channel 6
-	6f27  Xeon Processor D Family Crystal Beach DMA Channel 7
-	6f28  Xeon Processor D Family Map/VTd_Misc/System Management
-	6f29  Xeon Processor D Family IIO Hot Plug
-	6f2a  Xeon Processor D Family IIO RAS/Control Status/Global Errors
-	6f2c  Xeon Processor D Family I/O APIC
-	6f30  Xeon Processor D Family Home Agent 0
-	6f32  Xeon Processor D Family QPI Link 0
-	6f33  Xeon Processor D Family QPI Link 1
-	6f34  Xeon Processor D Family R2PCIe Agent
-	6f36  Xeon Processor D Family R3 QPI Link 0/1
-	6f37  Xeon Processor D Family R3 QPI Link 0/1
-	6f38  Xeon Processor D Family Home Agent 1
-	6f39  Xeon Processor D Family IO Performance Monitoring
-	6f3a  Xeon Processor D Family QPI Link 2
-	6f3e  Xeon Processor D Family R3 QPI Link 2
-	6f3f  Xeon Processor D Family R3 QPI Link 2
-	6f40  Xeon Processor D Family QPI Link 2
-	6f41  Xeon Processor D Family R3 QPI Link 2
-	6f43  Xeon Processor D Family QPI Link 2
-	6f45  Xeon Processor D Family QPI Link 2 Debug
-	6f46  Xeon Processor D Family QPI Link 2 Debug
-	6f47  Xeon Processor D Family QPI Link 2 Debug
-	6f60  Xeon Processor D Family Home Agent 1
-	6f68  Xeon Processor D Family Target Address/Thermal/RAS
-	6f6a  Xeon Processor D Family Channel Target Address Decoder
-	6f6b  Xeon Processor D Family Channel Target Address Decoder
-	6f6c  Xeon Processor D Family Channel Target Address Decoder
-	6f6d  Xeon Processor D Family Channel Target Address Decoder
-	6f6e  Xeon Processor D Family DDRIO Channel 2/3 Broadcast
-	6f6f  Xeon Processor D Family DDRIO Global Broadcast
-	6f70  Xeon Processor D Family Home Agent 0 Debug
-	6f71  Xeon Processor D Family Memory Controller 0 - Target Address/Thermal/RAS
-	6f76  Xeon Processor D Family R3 QPI Link Debug
-	6f78  Xeon Processor D Family Home Agent 1 Debug
-	6f79  Xeon Processor D Family Target Address/Thermal/RAS
-	6f7d  Xeon Processor D Family Ubox
-	6f7e  Xeon Processor D Family R3 QPI Link Debug
-	6f80  Xeon Processor D Family QPI Link 0
-	6f81  Xeon Processor D Family R3 QPI Link 0/1
-	6f83  Xeon Processor D Family QPI Link 0
-	6f85  Xeon Processor D Family QPI Link 0 Debug
-	6f86  Xeon Processor D Family QPI Link 0 Debug
-	6f87  Xeon Processor D Family QPI Link 0 Debug
-	6f88  Xeon Processor D Family Power Control Unit
-	6f8a  Xeon Processor D Family Power Control Unit
-	6f90  Xeon Processor D Family QPI Link 1
-	6f93  Xeon Processor D Family QPI Link 1
-	6f95  Xeon Processor D Family QPI Link 1 Debug
-	6f96  Xeon Processor D Family QPI Link 1 Debug
-	6f98  Xeon Processor D Family Power Control Unit
-	6f99  Xeon Processor D Family Power Control Unit
-	6f9a  Xeon Processor D Family Power Control Unit
-	6f9c  Xeon Processor D Family Power Control Unit
-	6fa0  Xeon Processor D Family Home Agent 0
-	6fa8  Xeon Processor D Family Memory Controller 0 - Target Address/Thermal/RAS
-	6faa  Xeon Processor D Family Memory Controller 0 - Channel Target Address Decoder
-	6fab  Xeon Processor D Family Memory Controller 0 - Channel Target Address Decoder
-	6fac  Xeon Processor D Family Memory Controller 0 - Channel Target Address Decoder
-	6fad  Xeon Processor D Family Memory Controller 0 - Channel Target Address Decoder
-	6fae  Xeon Processor D Family DDRIO Channel 0/1 Broadcast
-	6faf  Xeon Processor D Family DDRIO Global Broadcast
-	6fb0  Xeon Processor D Family Memory Controller 0 - Channel 0 Thermal Control
-	6fb1  Xeon Processor D Family Memory Controller 0 - Channel 1 Thermal Control
-	6fb2  Xeon Processor D Family Memory Controller 0 - Channel 0 Error
-	6fb3  Xeon Processor D Family Memory Controller 0 - Channel 1 Error
-	6fb4  Xeon Processor D Family Memory Controller 0 - Channel 2 Thermal Control
-	6fb5  Xeon Processor D Family Memory Controller 0 - Channel 3 Thermal Control
-	6fb6  Xeon Processor D Family Memory Controller 0 - Channel 2 Error
-	6fb7  Xeon Processor D Family Memory Controller 0 - Channel 3 Error
-	6fb8  Xeon Processor D Family DDRIO Channel 2/3 Interface
-	6fb9  Xeon Processor D Family DDRIO Channel 2/3 Interface
-	6fba  Xeon Processor D Family DDRIO Channel 2/3 Interface
-	6fbb  Xeon Processor D Family DDRIO Channel 2/3 Interface
-	6fbc  Xeon Processor D Family DDRIO Channel 0/1 Interface
-	6fbd  Xeon Processor D Family DDRIO Channel 0/1 Interface
-	6fbe  Xeon Processor D Family DDRIO Channel 0/1 Interface
-	6fbf  Xeon Processor D Family DDRIO Channel 0/1 Interface
-	6fc0  Xeon Processor D Family Power Control Unit
-	6fc1  Xeon Processor D Family Power Control Unit
-	6fc2  Xeon Processor D Family Power Control Unit
-	6fc3  Xeon Processor D Family Power Control Unit
-	6fc4  Xeon Processor D Family Power Control Unit
-	6fc5  Xeon Processor D Family Power Control Unit
-	6fc6  Xeon Processor D Family Power Control Unit
-	6fc7  Xeon Processor D Family Power Control Unit
-	6fc8  Xeon Processor D Family Power Control Unit
-	6fc9  Xeon Processor D Family Power Control Unit
-	6fca  Xeon Processor D Family Power Control Unit
-	6fcb  Xeon Processor D Family Power Control Unit
-	6fcc  Xeon Processor D Family Power Control Unit
-	6fcd  Xeon Processor D Family Power Control Unit
-	6fce  Xeon Processor D Family Power Control Unit
-	6fcf  Xeon Processor D Family Power Control Unit
-	6fd0  Xeon Processor D Family Memory Controller 1 - Channel 0 Thermal Control
-	6fd1  Xeon Processor D Family Memory Controller 1 - Channel 1 Thermal Control
-	6fd2  Xeon Processor D Family Memory Controller 1 - Channel 0 Error
-	6fd3  Xeon Processor D Family Memory Controller 1 - Channel 1 Error
-	6fd4  Xeon Processor D Family Memory Controller 1 - Channel 2 Thermal Control
-	6fd5  Xeon Processor D Family Memory Controller 1 - Channel 3 Thermal Control
-	6fd6  Xeon Processor D Family Memory Controller 1 - Channel 2 Error
-	6fd7  Xeon Processor D Family Memory Controller 1 - Channel 3 Error
-	6fe0  Xeon Processor D Family Caching Agent
-	6fe1  Xeon Processor D Family Caching Agent
-	6fe2  Xeon Processor D Family Caching Agent
-	6fe3  Xeon Processor D Family Caching Agent
-	6fe4  Xeon Processor D Family Caching Agent
-	6fe5  Xeon Processor D Family Caching Agent
-	6fe6  Xeon Processor D Family Caching Agent
-	6fe7  Xeon Processor D Family Caching Agent
-	6fe8  Xeon Processor D Family Caching Agent
-	6fe9  Xeon Processor D Family Caching Agent
-	6fea  Xeon Processor D Family Caching Agent
-	6feb  Xeon Processor D Family Caching Agent
-	6fec  Xeon Processor D Family Caching Agent
-	6fed  Xeon Processor D Family Caching Agent
-	6fee  Xeon Processor D Family Caching Agent
-	6fef  Xeon Processor D Family Caching Agent
-	6ff0  Xeon Processor D Family Caching Agent
-	6ff1  Xeon Processor D Family Caching Agent
-	6ff8  Xeon Processor D Family Caching Agent
-	6ff9  Xeon Processor D Family Caching Agent
-	6ffa  Xeon Processor D Family Caching Agent
-	6ffb  Xeon Processor D Family Caching Agent
-	6ffc  Xeon Processor D Family Caching Agent
-	6ffd  Xeon Processor D Family Caching Agent
-	6ffe  Xeon Processor D Family Caching Agent
+	6f00  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2
+	6f01  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0
+	6f02  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1
+	6f03  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1
+	6f04  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+	6f05  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+	6f06  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+	6f07  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+	6f08  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+	6f09  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+	6f0a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+	6f0b  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+	6f10  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f11  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f12  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f13  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f14  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f15  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f16  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f17  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f18  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f19  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f1a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f1b  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f1c  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Debug
+	6f1d  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+	6f1e  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+	6f1f  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+	6f20  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0
+	6f21  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1
+	6f22  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2
+	6f23  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3
+	6f24  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4
+	6f25  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5
+	6f26  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6
+	6f27  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7
+	6f28  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management
+	6f29  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug
+	6f2a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors
+	6f2c  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC
+	6f30  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+	6f32  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+	6f33  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+	6f34  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+	6f36  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+	6f37  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+	6f38  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
+	6f39  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IO Performance Monitoring
+	6f3a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2
+	6f3e  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 2
+	6f3f  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 2
+	6f40  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2
+	6f41  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 2
+	6f43  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2
+	6f45  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2 Debug
+	6f46  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2 Debug
+	6f47  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2 Debug
+	6f60  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
+	6f68  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+	6f6a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+	6f6b  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+	6f6c  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+	6f6d  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+	6f6e  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast
+	6f6f  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+	6f70  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0 Debug
+	6f71  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+	6f76  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug
+	6f78  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1 Debug
+	6f79  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+	6f7d  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+	6f7e  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug
+	6f80  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+	6f81  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+	6f83  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+	6f85  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 Debug
+	6f86  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 Debug
+	6f87  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0 Debug
+	6f88  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6f8a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6f90  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+	6f93  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+	6f95  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 Debug
+	6f96  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1 Debug
+	6f98  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6f99  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6f9a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6f9c  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fa0  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+	6fa8  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+	6faa  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+	6fab  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+	6fac  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+	6fad  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+	6fae  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast
+	6faf  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+	6fb0  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control
+	6fb1  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control
+	6fb2  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error
+	6fb3  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error
+	6fb4  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Thermal Control
+	6fb5  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Thermal Control
+	6fb6  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 2 Error
+	6fb7  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 3 Error
+	6fb8  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+	6fb9  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+	6fba  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+	6fbb  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+	6fbc  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+	6fbd  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+	6fbe  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+	6fbf  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+	6fc0  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc1  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc2  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc3  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc4  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc5  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc6  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc7  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc8  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fc9  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fca  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fcb  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fcc  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fcd  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fce  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fcf  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+	6fd0  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control
+	6fd1  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control
+	6fd2  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error
+	6fd3  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error
+	6fd4  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 2 Thermal Control
+	6fd5  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 3 Thermal Control
+	6fd6  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 2 Error
+	6fd7  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 3 Error
+	6fe0  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe1  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe2  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe3  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe4  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe5  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe6  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe7  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe8  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fe9  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fea  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6feb  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fec  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fed  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fee  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6fef  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ff0  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ff1  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ff8  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ff9  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ffa  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ffb  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ffc  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ffd  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+	6ffe  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
 	7000  82371SB PIIX3 ISA [Natoma/Triton II]
 		1af4 1100  Qemu virtual machine
 	7010  82371SB PIIX3 IDE [Natoma/Triton II]
@@ -26218,8 +26323,8 @@
 	3860  AHA-2930CU
 	3b78  AHA-4844W/4844UW
 	5075  AIC-755x
-	5078  AIC-7850
-		9004 7850  AHA-2904/Integrated AIC-7850
+	5078  AIC-7850T/7856T [AVA-2902/4/6 / AHA-2910]
+		9004 7850  AIC-7850T/7856T [AVA-290x / AHA-2910]
 	5175  AIC-755x
 	5178  AIC-7851
 	5275  AIC-755x
@@ -26268,7 +26373,7 @@
 		9004 8020  ANA62022 2-port 64 bit 10/100
 		9004 8028  ANA69011A/TX 64 bit 10/100
 	7078  AHA-294x / AIC-7870
-	7178  AHA-2940/2940W / AIC-7871
+	7178  AIC-7870P/7871 [AHA-2940/W/S76]
 	7278  AHA-3940/3940W / AIC-7872
 	7378  AHA-3985 / AIC-7873
 	7478  AHA-2944/2944W / AIC-7874
@@ -26307,7 +26412,7 @@
 	7897  AIC-789x
 	8078  AIC-7880U
 		9004 7880  AIC-7880P Ultra/Ultra Wide SCSI Chipset
-	8178  AHA-2940U/UW/D / AIC-7881U
+	8178  AIC-7870P/7881U [AHA-2940U/UW/D/S76]
 		9004 7881  AHA-2940UW SCSI Host Adapter
 	8278  AHA-3940U/UW/UWD / AIC-7882U
 	8378  AHA-3940U/UW / AIC-7883U
@@ -26326,7 +26431,7 @@
 		9005 2180  AHA-2940U2 SCSI Controller
 		9005 8100  AHA-2940U2B SCSI Controller
 		9005 a100  AHA-2940U2B SCSI Controller
-		9005 a180  AHA-2940U2W SCSI Controller
+		9005 a180  AIC-3860Q [AHA-2940U2W/GE] SCSI Controller
 		9005 e100  AHA-2950U2B SCSI Controller
 	0011  AHA-2930U2
 	0013  78902
@@ -27140,4 +27245,3 @@ C 12  Processing accelerators
 	00  Processing accelerators
 C 13  Non-Essential Instrumentation
 C ff  Unassigned class
-
