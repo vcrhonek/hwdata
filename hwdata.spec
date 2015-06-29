@@ -1,7 +1,7 @@
 # This package is arch-specific just because of bundling different files for
 # different architectures. No -debuginfo package is needed.
 %global     debug_package %{nil}
-%global     uprelease   7.8
+%global     uprelease   7.9
 
 Name:       hwdata
 Summary:    Hardware identification and configuration data
@@ -52,6 +52,9 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Jun 29 2015 Michal Minar <miminar@redhat.com> 0.252-7.9
+- Updated pci, usb and vendor ids.
+
 * Tue Apr 14 2015 Michal Minar <miminar@redhat.com> 0.252-7.8
 - Blacklisted module nx_crypto on PowerPCs.
 - Resolves: rhbz#1211389
