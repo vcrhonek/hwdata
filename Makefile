@@ -102,10 +102,10 @@ clog: hwdata.spec
 download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids
 
 new-usb-ids:
-	@curl -O http://www.linux-usb.org/usb.ids
+	@curl --insecure -O https://usb-ids.gowdy.us/usb.ids
 
 new-pci-ids:
-	@curl -O http://pciids.sourceforge.net/pci.ids
+	@curl -O http://pci-ids.ucw.cz/v2.2/pci.ids
 
 new-oui:
 	@curl -O http://standards-oui.ieee.org/oui.txt
