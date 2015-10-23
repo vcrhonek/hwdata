@@ -2,18 +2,31 @@
 
 use strict;
 use warnings;
+use Date::Format;
 
 sub usb_vendor {
         my $vendor;
+        my $source_date;
 
         open(IN, "<", "usb.ids");
         open(OUT, ">", "20-usb-vendor-model.hwdb");
         print(OUT "# This file is part of systemd.\n" .
                   "#\n" .
+                  "# Generated:     " . time2str("%Y-%m-%d\n", time) .
+                  "#\n" .
                   "# Data imported from: http://www.linux-usb.org/usb.ids\n");
 
         while (my $line = <IN>) {
                 $line =~ s/\s+$//;
+                if (not defined $source_date) {
+                    $line =~ m/^#\s*Date:\s*(.+)$/;
+                    if (defined $1) {
+                            $source_date = $1;
+                            print(OUT "#\n# Source date: $1\n");
+                            next;
+                    }
+                }
+
                 $line =~ m/^([0-9a-f]{4})\s*(.+)$/;
                 if (defined $1) {
                         $vendor = uc $1;
@@ -42,15 +55,27 @@ sub usb_classes {
         my $class;
         my $subclass;
         my $protocol;
+        my $source_date;
 
         open(IN, "<", "usb.ids");
         open(OUT, ">", "20-usb-classes.hwdb");
         print(OUT "# This file is part of systemd.\n" .
                   "#\n" .
+                  "# Generated:     " . time2str("%Y-%m-%d\n", time) .
+                  "#\n" .
                   "# Data imported from: http://www.linux-usb.org/usb.ids\n");
 
         while (my $line = <IN>) {
                 $line =~ s/\s+$//;
+
+                if (not defined $source_date) {
+                    $line =~ m/^#\s*Date:\s*(.+)$/;
+                    if (defined $1) {
+                            $source_date = $1;
+                            print(OUT "#\n# Source date: $1\n");
+                            next;
+                    }
+                }
 
                 $line =~ m/^C\ ([0-9a-f]{2})\s*(.+)$/;
                 if (defined $1) {
@@ -108,17 +133,29 @@ sub pci_vendor {
         my $vendor;
         my $device;
         my $device_text;
+        my $source_date;
 
         open(IN, "<", "pci.ids");
         open(OUT, ">", "20-pci-vendor-model.hwdb");
         print(OUT "# This file is part of systemd.\n" .
                   "#\n" .
+                  "# Generated:     " . time2str("%Y-%m-%d\n", time) .
+                  "#\n" .
                   "# Data imported from: http://pci-ids.ucw.cz/v2.2/pci.ids\n");
 
         while (my $line = <IN>) {
                 $line =~ s/\s+$//;
-                $line =~ m/^([0-9a-f]{4})\s*(.+)$/;
 
+                if (not defined $source_date) {
+                    $line =~ m/^#\s*Date:\s*(.+)$/;
+                    if (defined $1) {
+                            $source_date = $1;
+                            print(OUT "#\n# Source date: $1\n");
+                            next;
+                    }
+                }
+
+                $line =~ m/^([0-9a-f]{4})\s*(.+)$/;
                 if (defined $1) {
                         $vendor = uc $1;
                         my $text = $2;
@@ -159,15 +196,27 @@ sub pci_classes {
         my $class;
         my $subclass;
         my $interface;
+        my $source_date;
 
         open(IN, "<", "pci.ids");
         open(OUT, ">", "20-pci-classes.hwdb");
         print(OUT "# This file is part of systemd.\n" .
                   "#\n" .
+                  "# Generated:     " . time2str("%Y-%m-%d\n", time) .
+                  "#\n" .
                   "# Data imported from: http://pci-ids.ucw.cz/v2.2/pci.ids\n");
 
         while (my $line = <IN>) {
                 $line =~ s/\s+$//;
+
+                if (not defined $source_date) {
+                    $line =~ m/^#\s*Date:\s*(.+)$/;
+                    if (defined $1) {
+                            $source_date = $1;
+                            print(OUT "#\n# Source date: $1\n");
+                            next;
+                    }
+                }
 
                 $line =~ m/^C\ ([0-9a-f]{2})\s*(.+)$/;
                 if (defined $1) {
@@ -217,12 +266,14 @@ sub sdio_vendor {
         open(OUT, ">", "20-sdio-vendor-model.hwdb");
         print(OUT "# This file is part of systemd.\n" .
                   "#\n" .
+                  "# Generated:     " . time2str("%Y-%m-%d\n", time) .
+                  "#\n" .
                   "# Data imported from: hwdb/sdio.ids\n");
 
         while (my $line = <IN>) {
                 $line =~ s/\s+$//;
-                $line =~ m/^([0-9a-f]{4})\s*(.+)$/;
 
+                $line =~ m/^([0-9a-f]{4})\s*(.+)$/;
                 if (defined $1) {
                         $vendor = uc $1;
                         my $text = $2;
@@ -256,6 +307,8 @@ sub sdio_classes {
         open(OUT, ">", "20-sdio-classes.hwdb");
         print(OUT "# This file is part of systemd.\n" .
                   "#\n" .
+                  "# Generated:     " . time2str("%Y-%m-%d\n", time) .
+                  "#\n" .
                   "# Data imported from: hwdb/sdio.ids\n");
 
         while (my $line = <IN>) {
@@ -279,9 +332,12 @@ sub sdio_classes {
 sub oui {
         my $iab_prefix;
         my %iab_prefixes = ();
+        my $source_date;
 
         open(OUT, ">", "20-OUI.hwdb");
         print(OUT "# This file is part of systemd.\n" .
+                  "#\n" .
+                  "# Generated:     " . time2str("%Y-%m-%d\n", time) .
                   "#\n" .
                   "# Data imported from:\n" .
                   "#   http://standards.ieee.org/develop/regauth/oui/oui.txt\n" .
@@ -290,6 +346,16 @@ sub oui {
         open(IN, "<", "iab.txt");
         while (my $line = <IN>) {
                 $line =~ s/^ +//;
+
+                if (not defined $source_date) {
+                    $line =~ m/^\s*Generated:\s+(.+)$/;
+                    if (defined $1) {
+                            $source_date = $1;
+                            print(OUT "#\n# Source date: $1\n");
+                            next;
+                    }
+                }
+
                 $line =~ s/\s+$//;
                 $line =~ m/^([0-9A-F]{2})-([0-9A-F]{2})-([0-9A-F]{2})\s*\(hex\)\s*.+$/;
                 if (defined $1) {
