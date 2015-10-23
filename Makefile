@@ -15,14 +15,35 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES := pci.ids usb.ids oui.txt iab.txt pnp.ids
-HWDBGENERATED := 20-OUI.hwdb 20-pci-classes.hwdb 20-pci-vendor-model.hwdb \
-    20-usb-classes.hwdb 20-usb-vendor-model.hwdb
-HWDBUPSTREAM := 20-bluetooth-vendor-product.hwdb 60-keyboard.hwdb # 20-acpi-vendor.hwdb
+FILES := pci.ids usb.ids oui.txt iab.txt pnp.ids sdio.ids
+HWDBGENERATED := \
+    20-OUI.hwdb \
+    20-pci-classes.hwdb \
+    20-pci-vendor-model.hwdb \
+    20-sdio-classes.hwdb \
+    20-sdio-vendor-model.hwdb \
+    20-usb-classes.hwdb \
+    20-usb-vendor-model.hwdb
+HWDBUPSTREAM := \
+    20-acpi-vendor.hwdb \
+    20-bluetooth-vendor-product.hwdb \
+    20-net-ifname.hwdb \
+    60-evdev.hwdb \
+    60-keyboard.hwdb \
+    70-mouse.hwdb \
+    70-pointingstick.hwdb
 HWDBFILES := $(HWDBGENERATED) $(HWDBUPSTREAM)
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
-    clean clog new-pci-ids new-usb-ids new-oui new-iab new-pnp-ids new-hwdb-files pnp.ids
+    clean clog \
+    new-pci-ids \
+    new-usb-ids \
+    new-oui \
+    new-iab \
+    new-pnp-ids \
+    new-hwdb-files \
+    new-sdio-ds \
+    pnp.ids
 
 include Makefile.inc
 
@@ -56,7 +77,7 @@ tag:
 	@echo "Tagged as $(TAGNAME)"
 
 force-tag:
-	@git tag -s -f $(TAGNAME)
+	@git tag -s -f -m "Tag as $(TAGNAME)" $(TAGNAME)
 	@echo "Tag forced as $(TAGNAME)"
 
 changelog:
@@ -111,7 +132,7 @@ clean:
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids new-hwdb-files
+download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids new-sdio-ids new-hwdb-files
 
 new-usb-ids:
 	@echo $@
@@ -128,6 +149,10 @@ new-oui:
 new-iab:
 	@echo $@
 	@curl -O http://standards.ieee.org/develop/regauth/iab/iab.txt
+
+new-sdio-ids:
+	@echo $@
+	@curl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/sdio.ids
 
 new-pnp-ids: pnp.ids
 
@@ -152,5 +177,5 @@ new-pnp.xlsx:
 new-hwdb-files:
 	@for file in $(HWDBUPSTREAM); do \
 	    echo $$file; \
-	    curl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/$$; \
+	    curl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/$$file; \
 	done
