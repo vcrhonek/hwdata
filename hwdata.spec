@@ -1,7 +1,7 @@
 # This package is arch-specific just because of bundling different files for
 # different architectures. No -debuginfo package is needed.
 %global     debug_package %{nil}
-%global     uprelease   8.0
+%global     uprelease   8.1
 
 Name:       hwdata
 Summary:    Hardware identification and configuration data
@@ -13,6 +13,7 @@ Source0:    https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{u
 URL:        http://git.fedorahosted.org/git/hwdata.git
 
 BuildRequires   : perl
+BuildRequires   : perl(Date::Format)
 
 Requires        : systemd
 Requires(post)  : systemd
@@ -52,7 +53,7 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
-* Fri Oct 23 2015 Michal Minar <miminar@redhat.com> 0.252-8.0
+* Fri Oct 23 2015 Michal Minar <miminar@redhat.com> 0.252-8.1
 - Updated pci, usb and vendor ids.
 - Resolves: rhbz#1236458
 - Resolves: rhbz#1256004
