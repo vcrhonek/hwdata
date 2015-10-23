@@ -107,6 +107,7 @@ sub usb_classes {
 sub pci_vendor {
         my $vendor;
         my $device;
+        my $device_text;
 
         open(IN, "<", "pci.ids");
         open(OUT, ">", "20-pci-vendor-model.hwdb");
@@ -130,10 +131,10 @@ sub pci_vendor {
                 $line =~ m/^\t([0-9a-f]{4})\s*(.+)$/;
                 if (defined $1) {
                         $device = uc $1;
-                        my $text = $2;
+                        $device_text = $2;
                         print(OUT "\n");
                         print(OUT "pci:v0000" . $vendor . "d0000" . $device . "*\n");
-                        print(OUT " ID_MODEL_FROM_DATABASE=" . $text . "\n");
+                        print(OUT " ID_MODEL_FROM_DATABASE=" . $device_text . "\n");
                         next;
                 }
 
@@ -141,10 +142,12 @@ sub pci_vendor {
                 if (defined $1) {
                         my $sub_vendor = uc $1;
                         my $sub_device = uc $2;
-                        my $text = $3;
+                        my $sub_text = $3;
+                        $sub_text =~ s/^\Q$device_text\E\s*//;
+                        $sub_text =~ s/(.+)/\ ($1)/;
                         print(OUT "\n");
                         print(OUT "pci:v0000" . $vendor . "d0000" . $device . "sv0000" . $sub_vendor . "sd0000" . $sub_device . "*\n");
-                        print(OUT " ID_MODEL_FROM_DATABASE=" . $text . "\n");
+                        print(OUT " ID_MODEL_FROM_DATABASE=" . $device_text . $sub_text . "\n");
                 }
         }
 
@@ -199,6 +202,73 @@ sub pci_classes {
                         print(OUT "\n");
                         print(OUT "pci:v*d*sv*sd*bc" .  $class . "sc" . $subclass . "i" . $interface . "*\n");
                         print(OUT " ID_PCI_INTERFACE_FROM_DATABASE=" . $text . "\n");
+                }
+        }
+
+        close(IN);
+        close(OUT);
+}
+
+sub sdio_vendor {
+        my $vendor;
+        my $device;
+
+        open(IN, "<", "sdio.ids");
+        open(OUT, ">", "20-sdio-vendor-model.hwdb");
+        print(OUT "# This file is part of systemd.\n" .
+                  "#\n" .
+                  "# Data imported from: hwdb/sdio.ids\n");
+
+        while (my $line = <IN>) {
+                $line =~ s/\s+$//;
+                $line =~ m/^([0-9a-f]{4})\s*(.+)$/;
+
+                if (defined $1) {
+                        $vendor = uc $1;
+                        my $text = $2;
+                        print(OUT "\n");
+                        print(OUT "sdio:c*v" . $vendor . "*\n");
+                        print(OUT " ID_VENDOR_FROM_DATABASE=" . $text . "\n");
+                        next;
+                }
+
+                $line =~ m/^\t([0-9a-f]{4})\s*(.+)$/;
+                if (defined $1) {
+                        $device = uc $1;
+                        my $text = $2;
+                        print(OUT "\n");
+                        print(OUT "sdio:c*v" . $vendor . "d" . $device . "*\n");
+                        print(OUT " ID_MODEL_FROM_DATABASE=" . $text . "\n");
+                        next;
+                }
+        }
+
+        close(IN);
+        close(OUT);
+}
+
+sub sdio_classes {
+        my $class;
+        my $subclass;
+        my $interface;
+
+        open(IN, "<", "sdio.ids");
+        open(OUT, ">", "20-sdio-classes.hwdb");
+        print(OUT "# This file is part of systemd.\n" .
+                  "#\n" .
+                  "# Data imported from: hwdb/sdio.ids\n");
+
+        while (my $line = <IN>) {
+                $line =~ s/\s+$//;
+
+                $line =~ m/^C\ ([0-9a-f]{2})\s*(.+)$/;
+                if (defined $1) {
+                        $class = uc $1;
+                        my $text = $2;
+                        print(OUT "\n");
+                        print(OUT "sdio:c" . $class . "v*d*\n");
+                        print(OUT " ID_SDIO_CLASS_FROM_DATABASE=" . $text . "\n");
+                        next;
                 }
         }
 
@@ -266,5 +336,8 @@ usb_classes();
 
 pci_vendor();
 pci_classes();
+
+sdio_vendor();
+sdio_classes();
 
 oui();
