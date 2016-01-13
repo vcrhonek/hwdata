@@ -26,7 +26,9 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-FILES = MonitorsDB pci.ids upgradelist usb.ids videodrivers oui.txt pnp.ids
+IDFILES := pci.ids usb.ids oui.txt pnp.ids
+
+FILES = MonitorsDB upgradelist videodrivers $(IDFILES)
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x clean clog new-pci-ids new-usb-ids
 
@@ -59,18 +61,16 @@ changelog:
 check:
 	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
-	@if [[ -e /run/docker.sock ]]; then \
-	    tmpdir=`mktemp -d`; \
-	    echo "Listing usb devices:"; \
-	    docker run -t --privileged --rm=true \
-		-v `pwd`/usb.ids:/usr/share/hwdata/usb.ids:ro \
-		-v "$$tmpdir:/mnt/out" \
-		miminar/hwdata-check /bin/bash -c 'lsusb 2>/mnt/out/err.out'; \
-	    if [[ `cat $$tmpdir/err.out | wc -l` -gt 0 ]]; then \
-		echo "ERRORS:"; nl $$tmpdir/err.out; rm -rf $$tmpdir; exit 1; \
+	@./check-usb-ids.sh
+	@for file in $(IDFILES); do \
+	    text=`LANG=C file $$file`; \
+	    expected="$$file: UTF-8 Unicode text"; \
+	    if [[ "$$text" != "$$expected" ]]; then \
+		printf "Expected: %s\n Got instead: %s\n" "$$expected" "$$text" >&2; \
+		exit 1; \
 	    fi; \
-	    rm -rf $$tmpdir; \
-	fi
+	    echo "OK: $$text"; \
+	done
 	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 	@: videodrivers is tab-separated
@@ -116,3 +116,4 @@ new-pci-ids:
 
 new-oui.txt:
 	@curl -O http://standards-oui.ieee.org/oui.txt
+	@dos2unix oui.txt
