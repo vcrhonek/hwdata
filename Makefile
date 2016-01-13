@@ -112,7 +112,7 @@ new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
 
 new-pci-ids:
-	@curl -O http://pciids.sourceforge.net/pci.ids
+	@curl -O https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
 
 new-oui.txt:
 	@curl -O http://standards-oui.ieee.org/oui.txt
