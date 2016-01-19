@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.285
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}.tar.bz2
@@ -33,7 +33,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
-* Tue Jan 19 2016 Michal Minar <miminar@redhat.com> 0.285-1
+* Tue Jan 19 2016 Michal Minar <miminar@redhat.com> 0.285-2
 - Updated pci, usb and vendor ids.
 
 * Wed Nov 18 2015 Michal Minar <miminar@redhat.com> 0.284-1

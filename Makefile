@@ -30,7 +30,7 @@ Makefile.inc: configure
 
 install: Makefile.inc
 	mkdir -p -m 755 $(DESTDIR)$(datadir)/$(NAME)
-	for foo in $(FILES) ; do \
+	for foo in $(IDFILES) ; do \
 		install -m 644 $$foo $(DESTDIR)$(datadir)/$(NAME) ;\
 	done
 	mkdir -p -m 755 $(DESTDIR)$(libdir)/modprobe.d
