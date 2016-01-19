@@ -103,14 +103,14 @@ new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
 
 new-pci-ids:
-	@curl -O http://pci-ids.ucw.cz/v2.2/pci.ids
+	@curl -O https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
 
 new-oui:
 	@curl -O http://standards-oui.ieee.org/oui.txt
 	@dos2unix oui.txt
 
 new-iab:
-	@curl -O http://standards.ieee.org/develop/regauth/iab/iab.txt
+	@curl -O http://standards-oui.ieee.org/iab/iab.txt
 	@dos2unix iab.txt
 
 new-pnp-ids: pnp.ids
