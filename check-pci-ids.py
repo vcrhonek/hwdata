@@ -18,7 +18,7 @@ for line in file:
     m = re.match(hexnum + '\s+' + desc, line)
     if m:
         new_id = int('0x' + m.group (1), 16)
-        if new_id <= vendor_id:
+        if vendor_id is not None and new_id <= vendor_id:
             print ("%d: Vendor ID (0x%04x) is less that previous ID (0x%04x)" %
                    (lineno, new_id, vendor_id))
             sys.exit (-1)

@@ -44,7 +44,7 @@ install:
 	install -m 644 blacklist.conf $(sysconfdir)/modprobe.d
 
 commit:
-	git commit -a ||:
+	git commit -vas ||:
 
 tag:
 	@git tag -s -m "Tag as $(TAGNAME)" $(TAGNAME)
@@ -106,7 +106,7 @@ clean:
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui.txt
+download: new-usb-ids new-pci-ids new-oui
 
 new-usb-ids:
 	@curl -O http://www.linux-usb.org/usb.ids
@@ -114,6 +114,6 @@ new-usb-ids:
 new-pci-ids:
 	@curl -O https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
 
-new-oui.txt:
+new-oui:
 	@curl -O http://standards-oui.ieee.org/oui.txt
 	@dos2unix oui.txt
