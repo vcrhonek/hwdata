@@ -17,7 +17,7 @@ CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 IDFILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
-    clean clog new-pci-ids new-usb-ids new-oui new-iab new-pnp-ids
+    clean clog download
 
 include Makefile.inc
 
@@ -90,33 +90,43 @@ srpm-x: create-archive
 	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
 
 clean:
-	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm new-pnp.xlsx pnp.ids.txt
+	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
+	    *.downloaded *.utf8 *.orig
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids
+download: $(IDFILES)
 
-new-usb-ids:
-	@curl -O http://www.linux-usb.org/usb.ids
+usb.ids.downloaded:
+	@curl -o $@ http://www.linux-usb.org/usb.ids
 
-new-pci-ids:
-	@curl -O https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
+pci.ids.downloaded:
+	@curl -o $@ https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
 
-new-oui:
-	@curl -O http://standards-oui.ieee.org/oui.txt
-	@dos2unix oui.txt
+oui.txt.downloaded:
+	@curl -o $@ -O http://standards-oui.ieee.org/oui.txt
 
-new-iab:
-	@curl -O http://standards-oui.ieee.org/iab/iab.txt
-	@dos2unix iab.txt
+iab.txt.downloaded:
+	@curl -o $@ -O http://standards-oui.ieee.org/iab/iab.txt
 
-new-pnp-ids: pnp.ids
+pnp.ids.xlsx:
+	@curl -o $@ \
+	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
 
-pnp.ids: pnp.ids.txt pnp.ids.patch
-	patch -o $@ <pnp.ids.patch
+usb.ids: usb.ids.utf8
+	dos2unix -n $? $@
 
-pnp.ids.txt: new-pnp.xlsx
+pci.ids: pci.ids.utf8
+	dos2unix -n $? $@
+
+oui.txt: oui.txt.utf8
+	dos2unix -n $? $@
+
+iab.txt: iab.txt.utf8
+	dos2unix -n $? $@
+
+pnp.ids.orig: pnp.ids.xlsx
 	@unoconv --stdout -f csv $? | \
 	    tr ' ' ' ' | \
 	    sed -n \
@@ -126,6 +136,15 @@ pnp.ids.txt: new-pnp.xlsx
 		-e 's:^\(.*\)\s*,\s*\([a-zA-Z@]\{3\}\)\s*,\s*\([0-9]\+/[0-9]\+/[0-9]\+\):\2\t\1:p' | \
 	    sed 's/\s*$$//' | sort -u >$@
 
-new-pnp.xlsx:
-	@curl -o $@ \
-	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
+pnp.ids: pnp.ids.orig pnp.ids.patch
+	patch -o $@ <pnp.ids.patch
+
+%.utf8: %.downloaded
+	@text=`LANG=C file $?`
+	@encoding=`echo "$$text" | sed -n 's/.*\(iso-8859\S\*\|cp1[12]\d\+\).*/\1/Ip'`
+	if [[ -n "$$encoding" ]]; then \
+	    iconv -f "$$encoding" -t UTF-8 $?; \
+	else \
+	    cat $?; \
+	fi | sed 's/\s\+$$//' >$@
+

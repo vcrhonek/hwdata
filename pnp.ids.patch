@@ -1,7 +1,7 @@
 Index: hwdata/pnp.ids.txt
 ===================================================================
---- hwdata.orig/pnp.ids.txt
-+++ hwdata/pnp.ids.txt
+--- hwdata.orig/pnp.ids.orig
++++ hwdata/pnp.ids.orig
 @@ -176,7 +176,7 @@ ATT	AT&T
  ATV	Office Depot, Inc.
  ATX	Athenix Corporation
