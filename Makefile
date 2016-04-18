@@ -37,7 +37,7 @@ install: Makefile.inc
 	install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf
 
 commit:
-	git commit -a ||:
+	git commit -vas ||:
 
 tag:
 	@git tag -s -m "Tag as $(TAGNAME)" $(TAGNAME)
@@ -83,8 +83,6 @@ archive: check clean commit tag create-archive
 
 upload:
 	@scp $(ARCHIVE) fedorahosted.org:$(NAME)
-
-dummy:
 
 srpm-x: create-archive
 	@echo Creating $(NAME) src.rpm
