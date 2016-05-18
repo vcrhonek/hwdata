@@ -142,7 +142,7 @@ pnp.ids: pnp.ids.orig pnp.ids.patch
 %.utf8: %.downloaded
 	@text=`LANG=C file $?`
 	@encoding=`echo "$$text" | sed -n 's/.*\(iso-8859\S\*\|cp1[12]\d\+\).*/\1/Ip'`
-	if [[ -n "$$encoding" ]]; then \
+	@if [[ -n "$$encoding" ]]; then \
 	    iconv -f "$$encoding" -t UTF-8 $?; \
 	else \
 	    cat $?; \
