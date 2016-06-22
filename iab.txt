@@ -737,12 +737,6 @@ F37000-F37FFF                 (base 16)                     Rosslare Enterprises
                                                             Kowloon Bay  Kowloon
                                                             HK
 
-00-50-C2                      (hex)                         Robert Bosch Healthcare Systems, Inc.
-F2D000-F2DFFF                 (base 16)                     Robert Bosch Healthcare Systems, Inc.
-                                                            2400 Geng Road
-                                                            Palo Alto  CA  94303
-                                                            US
-
 00-50-C2                      (hex)                         Honeywell International Inc.
 F55000-F55FFF                 (base 16)                     Honeywell International Inc.
                                                             13350 US Hwy 19 N
@@ -820,12 +814,6 @@ F40000-F40FFF                 (base 16)                     iBWorld co.,ltd.
                                                             5-2-15
                                                             Tokorozawa  Saitama  359-0021
                                                             JP
-
-00-50-C2                      (hex)                         Vtron Pty Ltd
-F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
-                                                            6/59 Township Drive
-                                                            West Burleigh  QLD  4219
-                                                            AU
 
 00-50-C2                      (hex)                         DENSEI COMMUNICATION Inc.
 F3F000-F3FFFF                 (base 16)                     DENSEI COMMUNICATION Inc.
@@ -4627,6 +4615,18 @@ DE1000-DE1FFF                 (base 16)                     ABB Transmission and
                                                             Lydling Barn
                                                             Guildford  Surrey  GU86AP
                                                             GB
+
+00-50-C2                      (hex)                         Robert Bosch Healthcare Systems, Inc.
+F2D000-F2DFFF                 (base 16)                     Robert Bosch Healthcare Systems, Inc.
+                                                            2400 Geng Road
+                                                            Palo Alto  CA  94303
+                                                            US
+
+00-50-C2                      (hex)                         Vtron Pty Ltd
+F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
+                                                            6/59 Township Drive
+                                                            West Burleigh  QLD  4219
+                                                            AU
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -20474,12 +20474,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             London  UK  E14 5JJ
                                                             GB
 
-00-50-C2                      (hex)                         LECO Corporation
-2F0000-2F0FFF                 (base 16)                     LECO Corporation
-                                                            3000 Lakeview Ave., CC1
-                                                            St. Joseph  MI  49085
-                                                            US
-
 00-50-C2                      (hex)                         Geometrics, Inc.
 2F1000-2F1FFF                 (base 16)                     Geometrics, Inc.
                                                             2190 Fortune Drive
@@ -21809,6 +21803,12 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             Piscataway  NJ  08554
                                                             US
 
+00-50-C2                      (hex)                         LECO Corporation
+2F0000-2F0FFF                 (base 16)                     LECO Corporation
+                                                            3000 Lakeview Ave., CC1
+                                                            St. Joseph  MI  49085
+                                                            US
+
 00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
 66A000-66AFFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
                                                             ABB Industrial Park
@@ -22751,12 +22751,6 @@ EA4000-EA4FFF                 (base 16)                     head
                                                             Osaka-shi  Osaka  5300041
                                                             JP
 
-00-50-C2                      (hex)                         Robert Bosch Healthcare, Inc.
-EA0000-EA0FFF                 (base 16)                     Robert Bosch Healthcare, Inc.
-                                                            2400 Geng Road
-                                                            Palo Alto  CA  94303
-                                                            US
-
 00-50-C2                      (hex)                         Multisuns Corporation
 E86000-E86FFF                 (base 16)                     Multisuns Corporation
                                                             12F, No. 19-3, San Chung Road,
@@ -23164,12 +23158,6 @@ D48000-D48FFF                 (base 16)                     Watermark Estate Man
                                                             10230 NE Points Dr.
                                                             Kirkland  WA  98033
                                                             US
-
-00-50-C2                      (hex)                         DSP4YOU Ltd
-D43000-D43FFF                 (base 16)                     DSP4YOU Ltd
-                                                            17 Hung To Road
-                                                            Kwun Tong
-                                                            HK
 
 00-50-C2                      (hex)                         Gamber Johnson LLC
 D9C000-D9CFFF                 (base 16)                     Gamber Johnson LLC
@@ -27350,6 +27338,12 @@ F8D000-F8DFFF                 (base 16)                     Guangdong East Power
                                                             DongGuan  GuangDong  P.R.China 523808
                                                             CN
 
+00-50-C2                      (hex)                         DSP4YOU LTd
+D43000-D43FFF                 (base 16)                     DSP4YOU LTd
+                                                            Unit 1204, 106 How Ming Street
+                                                            Hong Kong    0000
+                                                            HK
+
 00-50-C2                      (hex)                         Pumatronix Equipamentos Eletronicos Ltda.
 8C8000-8C8FFF                 (base 16)                     Pumatronix Equipamentos Eletronicos Ltda.
                                                             Rua Algacyr Munhoz Mader, 3775
@@ -27379,3 +27373,9 @@ E3A000-E3AFFF                 (base 16)                     Vocality Internation
                                                             7965 Heritage Road
                                                             Brampton  Ontario  L6Y 5X5
                                                             CA
+
+00-50-C2                      (hex)                         Robert Bosch Healthcare Systems, Inc.
+EA0000-EA0FFF                 (base 16)                     Robert Bosch Healthcare Systems, Inc.
+                                                            2400 Geng Road
+                                                            Palo Alto  CA  94303
+                                                            US

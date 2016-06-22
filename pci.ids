@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.05.17
-#	Date:    2016-05-17 03:15:01
+#	Version: 2016.06.21
+#	Date:    2016-06-21 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1525,6 +1525,7 @@
 	6649  Bonaire [FirePro W5100]
 		1002 0b0c  FirePro W4300
 		103c 0b0c  Bonaire [FirePro W4300]
+		103c 230c  FirePro W5100
 	6650  Bonaire
 	6651  Bonaire
 	6658  Bonaire XTX [Radeon R7 260X/360]
@@ -2098,6 +2099,7 @@
 		1462 8036  Radeon HD 8990 OEM
 		148c 8990  Radeon HD 8990 OEM
 	679e  Tahiti LE [Radeon HD 7870 XT]
+		1787 2328  Radeon HD 7870 Black Edition 2 GB GDDR5 [2GBD5-2DHV3E]
 	679f  Tahiti
 	67a0  Hawaii XT GL [FirePro W9100]
 		1002 0335  FirePro S9150
@@ -2151,7 +2153,7 @@
 	67b9  Vesuvius [Radeon R9 295X2]
 	67be  Hawaii LE
 	67c0  Ellesmere [Polaris10]
-	67df  Ellesmere [Polaris10]
+	67df  Ellesmere [Radeon RX 480]
 	67e0  Baffin [Polaris11]
 	67e1  Baffin [Polaris11]
 	67e8  Baffin [Polaris11]
@@ -3749,6 +3751,7 @@
 	04da  PCI-E IPR SAS+ Adapter (ASIC)
 		1014 04fb  PCIe3 x16 20GB Cache 12Gb Quad SAS RAID+ Adapter(580B)
 		1014 04fc  PCIe3 x8 12Gb Quad SAS RAID+ Adapter(580A)
+	04ed  Internal Shared Memory (ISM) virtual PCI device
 	3022  QLA3022 Network Adapter
 	4022  QLA3022 Network Adapter
 	ffff  MPIC-2 interrupt controller
@@ -5945,8 +5948,14 @@
 		1077 029a  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
 		1077 029b  QLE2690 Single Port 16Gb Fibre Channel to PCIe Adapter
 		1077 029c  QLE2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a7  QLE2690 Single Port 16Gb FC to PCIe Gen3 x8 Adapter
+		1077 02a8  QLE2692 Dual Port 16Gb FC to PCIe Gen3 x8 Adapter
+		1077 02ab  QLE2740 Single Port 32Gb FC to PCIe Gen3 x8 Adapter
+		1077 02ac  QLE2742 Dual Port 32Gb FC to PCIe Gen3 x8 Adapter
 		1590 00f9  HPE StoreFabric SN1100Q 16Gb Single Port Fibre Channel Host Bus Adapter
 		1590 00fa  HPE StoreFabric SN1100Q 16Gb Dual Port Fibre Channel Host Bus Adapter
+		1590 0203  HPE StoreFabric SN1600Q 32Gb Single Port Fibre Channel Host Bus Adapter
+		1590 0204  HPE StoreFabric SN1600Q 32Gb Dual Port Fibre Channel Host Bus Adapter
 	2300  QLA2300 64-bit Fibre Channel Adapter
 	2312  ISP2312-based 2Gb Fibre Channel to PCI-X HBA
 		103c 0131  2Gb Fibre Channel - Single port [A7538A]
@@ -10541,17 +10550,47 @@
 	1427  GM206M [GeForce GTX 965M]
 	1430  GM206GL [Quadro M2000]
 	1431  GM206GL [Tesla M4]
+	15f0  GP100GL
+	15f1  GP100GL
+	15f8  GP100GL
+	15f9  GP100GL
 	1617  GM204M [GeForce GTX 980M]
 	1618  GM204M [GeForce GTX 970M]
 	1619  GM204M [GeForce GTX 965M]
 	161a  GM204M [GeForce GTX 980]
 	1667  GM204M [GeForce GTX 965M]
+	1725  GP100
+	172e  GP100
+	172f  GP100
 	17c2  GM200 [GeForce GTX TITAN X]
 	17c8  GM200 [GeForce GTX 980 Ti]
 	17f0  GM200GL [Quadro M6000]
 	17f1  GM200GL [Quadro M6000 24GB]
 	17fd  GM200GL [Tesla M40]
+	1b00  GP102
+	1b01  GP102
+	1b70  GP102GL
+	1b78  GP102GL
 	1b80  GP104 [GeForce GTX 1080]
+	1b81  GP104 [GeForce GTX 1070]
+	1b82  GP104
+	1b83  GP104
+	1bb0  GP104GL
+	1bb1  GP104GL
+	1bb4  GP104GL
+	1c00  GP106
+	1c01  GP106
+	1c02  GP106
+	1c03  GP106
+	1c30  GP106GL
+	1c70  GP106GL
+	1c80  GP107
+	1c81  GP107
+	1c82  GP107
+	1ca7  GP107GL
+	1ca8  GP107GL
+	1caa  GP107GL
+	1d01  GP108
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -10802,6 +10841,7 @@
 		1028 0283  Vostro 220
 		1028 04b2  Vostro 3350
 		1028 04da  Vostro 3750
+		1028 06f3  Latitude 3570
 		103c 1611  Pavilion DM1Z-3000
 		103c 1950  ProBook 450/455
 		103c 2a6f  Asus IPIBL-LB Motherboard
@@ -10928,46 +10968,88 @@
 	9500  INI-950 SCSI Adapter
 	9502  INI-950P Ultra Wide SCSI Adapter
 1102  Creative Labs
-	0002  SB Live! EMU10k1
+	0002  EMU10k1 [Sound Blaster Live! Series]
 		100a 1102  SB Live! 5.1 Digital OEM SB0220 EMU10K1-JFF
 		1102 0020  CT4850 SBLive! Value
 		1102 0021  CT4620 SBLive!
-		1102 002f  SBLive! mainboard implementation
+		1102 002f  M002/M003 Integrated SBLive!
 		1102 100a  SB Live! 5.1 Digital OEM [SB0220]
 		1102 4001  E-mu APS
 		1102 8022  CT4780 SBLive! Value
 		1102 8023  CT4790 SoundBlaster PCI512
 		1102 8024  CT4760 SBLive!
-		1102 8025  SBLive! Mainboard Implementation
+		1102 8025  CT1140/SB0040 Integrated SBLive!
 		1102 8026  CT4830 SBLive! Value
 		1102 8027  CT4832 SBLive! Value
 		1102 8028  CT4760 SBLive! OEM version
+		1102 8029  CT4872 SBLive! Value
+		1102 802a  CT4890 SoundBlaster PCI256
+		1102 802b  CT4891 SoundBlaster PCI256
 		1102 8031  CT4831 SBLive! Value
+		1102 8032  CT4871 SBLive! Value
+		1102 8033  CT4893 SoundBlaster PCI256
+		1102 8035  CT0060 SBLive!
 		1102 8040  CT4760 SBLive!
+		1102 8050  CT4750 SoundBlaster PCI512
 		1102 8051  CT4850 SBLive! Value
-		1102 8061  SBLive! Player 5.1
+		1102 8061  SB060 SBLive! Player 5.1
+		1102 8062  SB0100 SBLive! 5.1
+		1102 8063  DXW Integrated SBLive! 5.1
 		1102 8064  SBLive! 5.1 Model SB0100
 		1102 8065  SBLive! 5.1 Digital Model SB0220
-		1102 8066  Live! 5.1 Digital [SB0228]
+		1102 8066  SB0228 SBLive! 5.1 Digital
 		1102 8067  SBLive! 5.1 eMicro 28028
-	0004  SB Audigy
-		1102 0051  SB0090 Audigy Player
-		1102 0053  SB0090 Audigy Player/OEM
+		1102 8068  CT0061 SBLive!
+		1102 8069  SB0101 SBLive! 5.1 Value
+		1102 806a  SB0103 SBLive! 5.1
+		1102 806b  SB0105 SBLive! 5.1
+		1102 806c  SB0221 SBLive! 5.1
+		1102 8071  SB0150 SoundBlaster PCI512
+# EMU8008 PCI version of emu8000 chip
+	0003  SB AWE64(D)
+	0004  EMU10k2/CA0100/CA0102/CA10200 [Sound Blaster Audigy Series]
+		1102 0040  SB0090 Audigy Player
+# Probably an early engineering sample
+		1102 0041  CT4820 SBLive!2
+		1102 0042  CT0070 Audigy
+		1102 0043  CT0072 Audigy
+		1102 0051  SB0090 Audigy Player/Platinum (EX)
+		1102 0052  SB0162 Audigy ES
+		1102 0053  CT0090/SB0092 Audigy Player/OEM
+		1102 0054  SB0161 Audigy ES
+		1102 0055  SB0192 Audigy
+		1102 0056  SB0191 Audigy
+		1102 0057  SB0091 Audigy
 		1102 0058  SB0090 Audigy Player/OEM
-		1102 1002  SB Audigy2 Platinum
+		1102 0059  SB0230 Audigy
+		1102 005a  SB0231 Audigy
+		1102 005b  SB0232 Audigy
+		1102 005c  SB0238 Audigy
+		1102 1002  SB0240 Audigy 2 Platinum 6.1
 		1102 1003  SB0350 Audigy 2
+		1102 1004  SB0242 Audigy 2
+		1102 1005  SB0280 Audigy 2 Platinum Ex
+		1102 1006  SB0245 Audigy 2 OEM
 		1102 1007  SB0240 Audigy 2 Platinum 6.1
+		1102 1008  SB0320 Audigy 2
 		1102 1009  SB Audigy2 OEM HP
-		1102 2001  SB Audigy 2 ZS Platinum Pro
-		1102 2002  SB Audigy 2 ZS (SB0350)
-		1102 4001  E-MU 1010
+		1102 100a  SB0246 Audigy 2
+		1102 2001  SB0360 Audigy 2 ZS Platinum Pro
+		1102 2002  SB0350 Audigy 2 ZS
+		1102 2003  SB0352 Audigy 2 ZS
+		1102 2004  SB0355 Audigy 2 ZS
+		1102 2005  SB0359 Audigy 2 ZS
+		1102 2006  SB035x Audigy 2 OEM
+		1102 2007  SB0380 Audigy 4 Pro
+		1102 4001  E-MU 1010 [MAEM8810]
 		1102 4002  E-MU 0404
-	0005  SB X-Fi
+		1102 4003  E-MU 1010
+	0005  EMU20k1 [Sound Blaster X-Fi Series]
 		1102 0021  X-Fi Platinum
 		1102 002c  X-Fi XtremeGamer FATAL1TY PRO
 		1102 1003  X-Fi XtremeMusic
-	0006  [SB Live! Value] EMU10k1X
-	0007  CA0106 Soundblaster
+	0006  EMU10k1X [SB Live! Value/OEM Series]
+	0007  CA0106/CA0111 [SB Live!/Audigy/X-Fi Series]
 		1102 0007  SBLive! 24bit
 		1102 1001  SB0310 Audigy LS
 		1102 1002  SB0312 Audigy LS
@@ -10976,15 +11058,29 @@
 		1102 1012  SB0790 X-Fi XA
 		1102 1013  Soundblaster X-Fi Xtreme Audio
 		1462 1009  K8N Diamond
-	0008  SB0400 Audigy2 Value
+	0008  CA0108/CA10300 [Sound Blaster Audigy Series]
 		1102 0008  EMU0404 Digital Audio System
+		1102 1001  SB0400 Audigy 2 Value
+		1102 1021  SB0610 Audigy 4 Value
+		1102 1022  SBxxx Audigy 2/4 Value
+		1102 1023  SB0612 Audigy 2 LS
+		1102 1024  SB1550 Audigy 5/Rx
+		1102 1101  SBxxxx Audigy 2 SA
+		1102 2001  SB0530 Audigy 2 ZS Notebook
+		1102 2021  SBxxxx Audigy 4 Notebook
+		1102 4002  E-MU 0404
+		1102 4003  E-MU 1010
 		1102 4004  EMU1010 Digital Audio System [MAEM8960]
-	0009  [SB X-Fi Xtreme Audio] CA0110-IBG
-		1102 0010  [SB X-Fi Xtreme Audio] CA0110-IBG
-		1102 0018  SB1040
-	000b  EMU20k2 [X-Fi Titanium Series]
+		1102 4005  E-MU 0404 [MAEM8984]
+		1102 4007  E-MU 1010 [MAEM8982]
+		1102 4201  E-MU 0202 [MAEM8950]
+	0009  CA0110 [Sound Blaster X-Fi Xtreme Audio]
+		1102 0010  MB0820 Integrated
+		1102 0018  SB1040 PCI Express
+	000b  EMU20k2 [Sound Blaster X-Fi Titanium Series]
 		1102 0041  SB0880 [SoundBlaster X-Fi Titanium PCI-e]
-	0012  SB Recon3D
+	0012  Sound Core3D [Sound Blaster Recon3D / Z-Series]
+		1102 0010  SB1570 SB Audigy Fx
 	4001  SB Audigy FireWire Port
 		1102 0010  SB Audigy FireWire Port
 	7002  SB Live! Game Port
@@ -13683,6 +13779,7 @@
 		1028 04a3  Precision M4600
 	8331  O2 Flash Memory Card
 	8520  SD/MMC Card Reader Controller
+	8621  SD/MMC Card Reader Controller
 1218  Hybricon Corp.
 1219  First Virtual Corporation
 121a  3Dfx Interactive, Inc.
@@ -15756,6 +15853,7 @@
 	5015  T502-BT Unified Wire Ethernet Controller
 	5016  T580-OCP-SO Unified Wire Ethernet Controller
 	5017  T520-OCP-SO Unified Wire Ethernet Controller
+	5018  T540-BT Unified Wire Ethernet Controller
 	5080  T540-5080 Unified Wire Ethernet Controller
 	5081  T540-5081 Unified Wire Ethernet Controller
 	5082  T504-5082 Unified Wire Ethernet Controller
@@ -15802,6 +15900,7 @@
 	5415  T502-BT Unified Wire Ethernet Controller
 	5416  T580-OCP-SO Unified Wire Ethernet Controller
 	5417  T520-OCP-SO Unified Wire Ethernet Controller
+	5418  T540-BT Unified Wire Ethernet Controller
 	5480  T540-5080 Unified Wire Ethernet Controller
 	5481  T540-5081 Unified Wire Ethernet Controller
 	5482  T504-5082 Unified Wire Ethernet Controller
@@ -15848,6 +15947,7 @@
 	5515  T502-BT Unified Wire Storage Controller
 	5516  T580-OCP-SO Unified Wire Storage Controller
 	5517  T520-OCP-SO Unified Wire Storage Controller
+	5518  T540-BT Unified Wire Storage Controller
 	5580  T540-5080 Unified Wire Storage Controller
 	5581  T540-5081 Unified Wire Storage Controller
 	5582  T504-5082 Unified Wire Storage Controller
@@ -15894,6 +15994,7 @@
 	5615  T502-BT Unified Wire Storage Controller
 	5616  T580-OCP-SO Unified Wire Storage Controller
 	5617  T520-OCP-SO Unified Wire Storage Controller
+	5618  T540-BT Unified Wire Storage Controller
 	5680  T540-5080 Unified Wire Storage Controller
 	5681  T540-5081 Unified Wire Storage Controller
 	5682  T504-5082 Unified Wire Storage Controller
@@ -15979,6 +16080,7 @@
 	5815  T502-BT Unified Wire Ethernet Controller [VF]
 	5816  T580-OCP-SO Unified Wire Ethernet Controller [VF]
 	5817  T520-OCP-SO Unified Wire Ethernet Controller [VF]
+	5818  T540-BT Unified Wire Ethernet Controller [VF]
 	5880  T540-5080 Unified Wire Ethernet Controller [VF]
 	5881  T540-5081 Unified Wire Ethernet Controller [VF]
 	5882  T504-5082 Unified Wire Ethernet Controller [VF]
@@ -16727,11 +16829,21 @@
 	16c9  BCM57302 NetXtreme-C Dual-port 10Gb/25Gb Ethernet
 	16ca  BCM57304 NetXtreme-C Dual-port 10Gb/25Gb/40Gb/50Gb Ethernet
 	16cb  BCM57304 NetXtreme-C Ethernet Virtual Function
+	16ce  BCM57311 NetXtreme-C Single-port 10Gb RDMA Ethernet
+	16cf  BCM57312 NetXtreme-C Dual-port 10Gb/25Gb RDMA Ethernet
 	16d0  BCM57402 NetXtreme-E Dual-port 10Gb Ethernet
 	16d1  BCM57404 NetXtreme-E Dual-port 10Gb/25Gb Ethernet
 	16d2  BCM57406 NetXtreme-E Dual-port 10GBase-T Ethernet
 	16d3  BCM57404 NetXtreme-E Ethernet Virtual Function
+	16d6  BCM57412 NetXtreme-E Dual-port 10Gb RDMA Ethernet
+	16d7  BCM57414 NetXtreme-E Dual-port 10Gb/25Gb RDMA Ethernet
+	16d8  BCM57416 NetXtreme-E Dual-port 10GBase-T RDMA Ethernet
+	16d9  BCM57417 NetXtreme-E Dual-port 10GBase-T RDMA Ethernet
+	16dc  BCM57414 NetXtreme-E Ethernet Virtual Function
 	16dd  NetLink BCM5781 Gigabit Ethernet PCI Express
+	16df  BCM57314 NetXtreme-C Dual-port 10Gb/25Gb/40Gb/50Gb RDMA Ethernet
+	16e1  BCM57314 NetXtreme-C Ethernet Virtual Function
+	16e2  BCM57417 NetXtreme-E Dual-port 10Gb/25Gb RDMA Ethernet
 	16f3  NetXtreme BCM5727 Gigabit Ethernet PCIe
 	16f7  NetXtreme BCM5753 Gigabit Ethernet PCI Express
 	16fd  NetXtreme BCM5753M Gigabit Ethernet PCI Express
@@ -18262,6 +18374,7 @@
 		1a3b 1186  AW-NE186H
 	0033  AR9580 Wireless Network Adapter
 	0034  AR9462 Wireless Network Adapter
+		1028 0300  Wireless 1802 802.11abgn Adapter
 		1a56 2003  Killer Wireless-N 1202 Half-size Mini PCIe Card
 	0036  QCA9565 / AR9565 Wireless Network Adapter
 	0037  AR9485 Wireless Network Adapter
@@ -18391,6 +18504,11 @@
 	7005  XMC-7K410CC: User-Configurable Kintex-7 FPGA, 410k logic cells, conduction-cooled
 	7006  XMC-7A200: User-Configurable Artix-7 FPGA, 200k logic cells with Plug-In I/O
 	7007  XMC-7A200CC: User-Configurable Conduction-Cooled Artix-7 FPGA, with 200k logic cells
+	7011  AP440-1: 32-Channel Isolated Digital Input Module
+	7012  AP440-2: 32-Channel Isolated Digital Input Module
+	7013  AP440-3: 32-Channel Isolated Digital Input Module
+	7014  AP445: 32-Channel Isolated Digital Output Module
+	7018  AP408: 32-Channel Digital I/O Module
 16da  Advantech Co., Ltd.
 	0011  INES GPIB-PCI
 16df  PIKA Technologies Inc.
@@ -18489,9 +18607,10 @@
 		177d 0004  CN2350 [LiquidIO II] 2-port 25GbE Intelligent adapter
 	9703  CN23XX [LiquidIO II] NVMe Controller
 	9712  CN23XX [LiquidIO II] SRIOV Virtual Function
+		177d 0003  CN2350 [LiquidIO II] 2-port 10GbE SRIOV Virtual Function
 	9713  CN23XX [LiquidIO II] NVMe SRIOV Virtual Function
 	9800  Octeon Fusion CNF75XX Processor
-	a001  THUNDERX MRML Bridge
+	a001  ThunderX MRML(Master RML Bridge to RSL devices)
 	a002  THUNDERX PCC Bridge
 		177d a102  CN88XX PCC Bridge
 	a008  THUNDERX SMMU
@@ -18529,15 +18648,24 @@
 	a026  THUNDERX BGX (Common Ethernet Interface)
 	a027  THUNDERX IOBN
 	a029  THUNDERX NCSI (Network Controller Sideband Interface)
-	a02a  THUNDERX SGP
+	a02a  ThunderX SGPIO (Serial GPIO controller for SATA disk lights)
 	a02b  THUNDERX SMI / MDIO Controller
 	a02c  THUNDERX DAP (Debug Access Port)
 	a02d  THUNDERX PCIERC (PCIe Root Complex)
-	a02e  THUNDERX L2C-TAD
+	a02e  ThunderX L2C-TAD (Level 2 cache tag and data)
 	a02f  THUNDERX L2C-CBC
 	a030  THUNDERX L2C-MCI
 	a031  THUNDERX MIO-FUS (Fuse Access Controller)
 	a032  THUNDERX FUSF (Fuse Controller)
+	a033  THUNDERX Random Number Generator virtual function
+	a034  THUNDERX Network Interface Controller virtual function
+	a035  THUNDERX Parallel Bus
+	a036  ThunderX RAD (RAID acceleration engine) virtual function
+	a037  THUNDERX ZIP virtual function
+	a040  THUNDERX CPT Cryptographic Accelerator
+	a100  THUNDERX CN88XX 48 core SoC
+	a200  OCTEON TX CN81XX/CN80XX
+	a300  OCTEON TX CN83XX
 1787  Hightech Information System Ltd.
 1789  Ennyah Technologies Corp.
 # also used by Struck Innovative Systeme for joint developments
@@ -18689,6 +18817,28 @@
 17db  Cray Inc
 	0101  XT Series [Seastar] 3D Toroidal Router
 17de  KWorld Computer Co. Ltd.
+17df  Dini Group
+	1864  Virtex4 PCI Board w/ QL5064 Bridge [DN7000K10PCI/DN8000K10PCI/DN8000K10PSX/NOTUS]
+	1865  Virtex4 ASIC Emulator [DN8000K10PCIe]
+	1866  Virtex4 ASIC Emulator Cable Connection [DN8000K10PCI]
+	1867  Virtex4 ASIC Emulator Cable Connection [DN8000K10PCIe]
+	1868  Virtex4 ASIC Emulator [DN8000K10PCIe-8]
+	1900  Virtex5 PCIe ASIC Emulator [DN9000K10PCIe8T/DN9002K10PCIe8T/DN9200K10PCIe8T/DN7006K10PCIe8T/DN7406K10PCIe8T]
+	1901  Virtex5 PCIe ASIC Emulator Large BARs [DN9000K10PCIe8T/DN9002K10PCIe8T/DN9200K10PCIe8T/DN7006K10PCIe8T/DN7406K10PCIe8T]
+	1902  Virtex5 PCIe ASIC Emulator Low Power [Interceptor]
+	1903  Spartan6 PCIe FPGA Accelerator Board [DNBFCS12PCIe]
+	1904  Virtex6 PCIe ASIC Emulation Board [DNDUALV6_PCIe4]
+	1905  Virtex6 PCIe ASIC Emulation Board [DNV6F6PCIe]
+	1906  Virtex6 PCIe ASIC Emulation Board [DN2076K10]
+	1907  Virtex6 PCIe ASIC Emulation Board [DNV6F2PCIe]
+	1908  Virtex6 PCIe ASIC Emulation Board Large BARs[DNV6F2PCIe]
+	1909  Kintex7 PCIe FPGA Accelerator Board [DNK7F5PCIe]
+	190a  Virtex7 PCIe ASIC Emulation Board [DNV7F1A]
+	190b  Stratix5 PCIe ASIC Emulation Board [DNS5GXF2]
+	190c  Virtex7 PCIe ASIC Emulation Board [DNV7F2A]
+	190d  Virtex7 PCIe ASIC Emulation Board [DNV7F4A]
+	190e  Virtex7 PCIe ASIC Emulation Board [DNV7F2B]
+	190f  KintexUS PCIe MainRef Design [DNPCIE_40G_KU_LL]
 17e4  Sectra AB
 	0001  KK671 Cardbus encryption board
 	0002  KK672 Cardbus encryption board
@@ -19152,13 +19302,20 @@
 		1924 800c  SFN7x22F-R3 Flareon Ultra 7000 Series 10G Adapter
 		1924 800d  SFN7x02F-R3 Flareon 7000 Series 10G Adapter
 		1924 8010  SFA7942Q-R1 QSFP+ AOE Adapter
+		1924 8015  SFA7942Q-A5-0-R1 QSFP+ AOE Adapter
 	0923  SFC9140
 		1924 800b  SFN7x42Q-R1 Flareon Ultra 7000 Series 10/40G Adapter
 		1924 800e  SFN7x42Q-R2 Flareon Ultra 7000 Series 10/40G Adapter
 		1924 800f  SFN7xx4F-R1 Flareon Ultra 7000 Series 10G Adapter
 	0a03  SFC9220
+		1924 8011  SFN 8022-R1 Solarflare Flareon 8000 Series 10G Adapter
 		1924 8012  SFN8522-R1 Flareon Ultra 8000 Series 10G Adapter
+		1924 8013  SFN8042-R1 Solarflare Flareon 8000 Series 10/40G Adapter
 		1924 8014  SFN8542-R1 Flareon Ultra 8000 Series 10/40G Adapter
+		1924 8016  SFN8022-R2 Flareon 8000 Series 10G Adapter
+		1924 8017  SFN8522-R2 Flareon Ultra 8000 Series 10G Adapter
+		1924 8018  SFN8042-R2 Flareon 8000 Series 10/40G Adapter
+		1924 8019  SFN8542-R2 Flareon Ultra 8000 Series 10/40G Adapter
 	1803  SFC9020 Virtual Function [Solarstorm]
 	1813  SFL9021 Virtual Function [Solarstorm]
 	1903  SFC9120 Virtual Function
@@ -19674,6 +19831,9 @@
 		1af4 1100  QEMU Virtual Machine
 	0005  QEMU PCI Test Device
 		1af4 1100  QEMU Virtual Machine
+	0006  PCI Rocker Ethernet switch device
+	0007  PCI SD Card Host Controller Interface
+	000a  PCI-PCI bridge (multiseat)
 	0100  QXL paravirtual graphic card
 		1af4 1100  QEMU Virtual Machine
 1b37  Signal Processing Devices Sweden AB
@@ -19729,6 +19889,7 @@
 	9485  88SE9485 SAS/SATA 6Gb/s controller
 1b55  NetUP Inc.
 	18f6  Dual DVB Universal CI card
+	18f7  Dual DVB Universal CI card rev 1.4
 	2a2c  Dual DVB-S2-CI card
 	e2e4  Dual DVB-T/C-CI RF card
 # 2xHDMI and 2xHD-SDI inputs
@@ -19856,6 +20017,9 @@
 1cb1  Collion UG & Co.KG
 1cc5  Embedded Intelligence, Inc.
 	0100  CAN-PCIe-02
+1cc7  Radian Memory Systems Inc.
+	0200  RMS-200
+	0250  RMS-250
 1cd2  SesKion GmbH
 	0301  Simulyzer-RT CompactPCI Serial DIO-1 card
 	0302  Simulyzer-RT CompactPCI Serial PSI5-ECU-1 card
@@ -19877,6 +20041,8 @@
 1d21  Allo
 1d26  Kalray Inc.
 	0040  Turbocard2 Accelerator
+	0080  Open Network Interface Card 80G
+	00c0  Turbocard3 Accelerator
 	e004  AB01/EMB01 Development Board
 1d40  Techman Electronics (Changshu) Co., Ltd.
 1d44  DPT
@@ -22337,6 +22503,7 @@
 		8086 0001  Ethernet Converged Network Adapter X550-T2
 		8086 001a  Ethernet Converged Network Adapter X550-T2
 		8086 0022  Ethernet Converged Network Adapter X550-T2
+	1565  X550 Virtual Function
 	1566  DSL4410 Thunderbolt NHI [Redwood Ridge 2C 2013]
 	1567  DSL4410 Thunderbolt Bridge [Redwood Ridge 2C 2013]
 	1568  DSL4510 Thunderbolt NHI [Redwood Ridge 4C 2013]
@@ -22494,6 +22661,7 @@
 	1902  HD Graphics 510
 	1903  Skylake Processor Thermal Subsystem
 	1904  Skylake Host Bridge/DRAM Registers
+		1028 06f3  Latitude 3570
 	1905  Skylake PCIe Controller (x8)
 	1906  HD Graphics 510
 	1908  Skylake Host Bridge/DRAM Registers
@@ -22504,6 +22672,7 @@
 	1911  Skylake Gaussian Mixture Model
 	1912  HD Graphics 530
 	1916  HD Graphics 520
+		1028 06f3  Latitude 3570
 	1918  Skylake Host Bridge/DRAM Registers
 	1919  Skylake Imaging Unit
 	191b  HD Graphics 530
@@ -22976,37 +23145,37 @@
 	225c  Xeon Phi coprocessor SE10/7120 series
 	225d  Xeon Phi coprocessor 3120 series
 	225e  Xeon Phi coprocessor 31S1
-	2280  Braswell SoC Transaction Router
-	2284  Braswell HD Audio Controller
-	2286  Braswell Serial I/O DMA
-	228a  Braswell Serial I/O HSUART Port 1
-	228c  Braswell Serial I/O HSUART Port 2
-	2292  Braswell Platform Controller Unit SMBus
-	2294  Braswell Storage Cluster Control MMC Port
-	2295  Braswell Storage Cluster Control SDIO Port
-	2296  Braswell Storage Cluster Control SD Port
-	2298  Braswell Trusted Execution Engine Interface
-	229c  Braswell Platform Controller Unit LPC
-	22a3  Braswell SATA Controller
-	22a4  Braswell SATA AHCI Controller
-	22a8  Braswell Low Power Engine Audio
-	22b0  Braswell PCI Configuration Registers
-	22b1  Braswell Integrated Graphics Controller
-	22b5  Braswell USB xHCI Host Controller
-	22b8  Braswell ISP Camera
-	22c0  Braswell Serial I/O DMA
-	22c1  Braswell Serial I/O I2C Port 1
-	22c2  Braswell Serial I/O I2C Port 2
-	22c3  Braswell Serial I/O I2C Port 3
-	22c4  Braswell Serial I/O I2C Port 4
-	22c5  Braswell Serial I/O I2C Port 5
-	22c6  Braswell Serial I/O I2C Port 6
-	22c7  Braswell Serial I/O I2C Port 7
-	22c8  Braswell PCIe Port 1
-	22ca  Braswell PCIe Port 2
-	22cc  Braswell PCIe Port 3
-	22ce  Braswell PCIe Port 4
-	22dc  Braswell P-Unit Power Management
+	2280  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SoC Transaction Register
+	2284  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series High Definition Audio Controller
+	2286  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO1 DMA Controller
+	228a  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO1 HSUART Controller #1
+	228c  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO1 HSUART Controller #2
+	2292  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx SMBus Controller
+	2294  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series MMC Controller
+	2295  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SDIO Controller
+	2296  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SD Controller
+	2298  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Trusted Execution Engine
+	229c  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCU
+	22a3  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SATA Controller
+	22a4  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SATA AHCI Controller
+	22a8  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Low Power Engine Audio
+	22b0  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCI Configuration Registers
+	22b1  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Integrated Graphics Controller
+	22b5  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series USB xHCI Controller
+	22b8  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Imaging Unit
+	22c0  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 DMA Controller
+	22c1  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 I2C Controller #1
+	22c2  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 I2C Controller #2
+	22c3  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 I2C Controller #3
+	22c4  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 I2C Controller #4
+	22c5  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 I2C Controller #5
+	22c6  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 I2C Controller #6
+	22c7  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO2 I2C Controller #7
+	22c8  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCI Express Port #1
+	22ca  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCI Express Port #2
+	22cc  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCI Express Port #3
+	22ce  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series PCI Express Port #4
+	22dc  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series Power Management Controller
 	2310  DH89xxCC LPC Controller
 	2323  DH89xxCC 4 Port SATA AHCI Controller
 	2330  DH89xxCC SMBus Controller
@@ -25798,6 +25967,7 @@
 	37d2  Ethernet Connection X722 for 10GBASE-T
 	37d3  Ethernet Connection X722 for 10GbE SFP+
 	37d4  Ethernet Connection X722 for 10GbE QSFP+
+	37d9  X722 Hyper-V Virtual Function
 	3a00  82801JD/DO (ICH10 Family) 4-port SATA IDE Controller
 	3a02  82801JD/DO (ICH10 Family) SATA AHCI Controller
 	3a05  82801JD/DO (ICH10 Family) SATA RAID Controller
@@ -26331,7 +26501,36 @@
 	530d  80310 (IOP) IO Processor
 	5845  QEMU NVM Express Controller
 		1af4 1100  QEMU Virtual Machine
-	5ad4  Broxton SMBus Controller
+	5a84  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Integrated Graphics Controller
+	5a88  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Imaging Unit
+	5a9a  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Trusted Execution Engine
+	5aa2  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Integrated Sensor Hub
+	5aa8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series USB xHCI
+	5aac  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #1
+	5aae  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #2
+	5ab0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #3
+	5ab2  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #4
+	5ab4  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #5
+	5ab6  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #6
+	5ab8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #7
+	5aba  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series I2C Controller #8
+	5abc  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series HSUART Controller #1
+	5abe  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series HSUART Controller #2
+	5ac0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series HSUART Controller #3
+	5ac2  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SPI Controller #1
+	5ac4  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SPI Controller #2
+	5ac6  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SPI Controller #3
+	5ac8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PWM Pin Controller
+	5aca  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SDXC/MMC Host Controller
+	5acc  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series eMMC Controller
+	5ad0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SDIO Controller
+	5ad4  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SMBus Controller
+	5ad8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
+	5ad9  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
+	5ada  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
+	5ae8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Low Pin Count Interface
+	5aee  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series HSUART Controller #4
+	5af0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Host Bridge
 	65c0  5100 Chipset Memory Controller Hub
 	65e2  5100 Chipset PCI Express x4 Port 2
 	65e3  5100 Chipset PCI Express x4 Port 3
@@ -26971,20 +27170,28 @@
 	9ce5  Wildcat Point-LP Serial IO GSPI Controller #0
 	9ce6  Wildcat Point-LP Serial IO GSPI Controller #1
 	9d03  Sunrise Point-LP SATA Controller [AHCI mode]
+		1028 06f3  Latitude 3570
 	9d14  Sunrise Point-LP PCI Express Root Port #5
 	9d15  Sunrise Point-LP PCI Express Root Port #6
 	9d21  Sunrise Point-LP PMC
+		1028 06f3  Latitude 3570
 	9d23  Sunrise Point-LP SMBus
+		1028 06f3  Latitude 3570
 	9d27  Sunrise Point-LP Serial IO UART Controller #0
 	9d28  Sunrise Point-LP Serial IO UART Controller #1
 	9d29  Sunrise Point-LP Serial IO SPI Controller #0
 	9d2a  Sunrise Point-LP Serial IO SPI Controller #1
 	9d2d  Sunrise Point-LP Secure Digital IO Controller
 	9d2f  Sunrise Point-LP USB 3.0 xHCI Controller
+		1028 06f3  Latitude 3570
 	9d31  Sunrise Point-LP Thermal subsystem
+		1028 06f3  Latitude 3570
 	9d3a  Sunrise Point-LP CSME HECI #1
+		1028 06f3  Latitude 3570
 	9d48  Sunrise Point-LP LPC Controller
+		1028 06f3  Latitude 3570
 	9d60  Sunrise Point-LP Serial IO I2C Controller #0
+		1028 06f3  Latitude 3570
 		8086 9d60  100 Series PCH/Sunrise Point PCH I2C0 [Skylake/Kaby Lake LPSS I2C]
 	9d61  Sunrise Point-LP Serial IO I2C Controller #1
 	9d62  Sunrise Point-LP Serial IO I2C Controller #2
@@ -26993,6 +27200,7 @@
 	9d65  Sunrise Point-LP Serial IO I2C Controller #5
 	9d66  Sunrise Point-LP Serial IO UART Controller #2
 	9d70  Sunrise Point-LP HD Audio
+		1028 06f3  Latitude 3570
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
 		1458 5000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
