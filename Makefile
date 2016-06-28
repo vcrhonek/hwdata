@@ -70,7 +70,7 @@ install: Makefile.inc
 	install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf
 
 commit:
-	git commit -a ||:
+	git commit -vas ||:
 
 tag:
 	@git tag -s -m "Tag as $(TAGNAME)" $(TAGNAME)
@@ -87,18 +87,16 @@ changelog:
 check:
 	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
-	@if [[ -e /run/docker.sock ]]; then \
-	    tmpdir=`mktemp -d`; \
-	    echo "Listing usb devices:"; \
-	    docker run -t --privileged --rm=true \
-		-v `pwd`/usb.ids:/usr/share/hwdata/usb.ids:ro \
-		-v "$$tmpdir:/mnt/out" \
-		miminar/hwdata-check /bin/bash -c 'lsusb 2>/mnt/out/err.out'; \
-	    if [[ `cat $$tmpdir/err.out | wc -l` -gt 0 ]]; then \
-		echo "ERRORS:"; nl $$tmpdir/err.out; rm -rf $$tmpdir; exit 1; \
+	@./check-usb-ids.sh
+	@for file in $(IDFILES); do \
+	    text=`LANG=C file $$file`; \
+	    expected="$$file: UTF-8 Unicode text"; \
+	    if [[ "$$text" != "$$expected" ]]; then \
+		printf "Expected: %s\n Got instead: %s\n" "$$expected" "$$text" >&2; \
+		exit 1; \
 	    fi; \
-	    rm -rf $$tmpdir; \
-	fi
+	    echo "OK: $$text"; \
+	done
 	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
 
@@ -127,39 +125,49 @@ srpm-x: create-archive
 	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
 
 clean:
-	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm new-pnp.xlsx pnp.ids.txt
+	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
+	    *.downloaded *.utf8 *.orig
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
 
-download: new-usb-ids new-pci-ids new-oui new-iab new-pnp-ids new-sdio-ids new-hwdb-files
+download: $(FILES) new-hwdb-files
 
-new-usb-ids:
-	@echo $@
-	@curl -O http://www.linux-usb.org/usb.ids
+usb.ids.downloaded:
+	@curl -o $@ http://www.linux-usb.org/usb.ids
 
-new-pci-ids:
-	@echo $@
-	@curl -O http://pciids.sourceforge.net/pci.ids
+pci.ids.downloaded:
+	@curl -o $@ https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
 
-new-oui:
-	@echo $@
-	@curl -O http://standards-oui.ieee.org/oui.txt
+oui.txt.downloaded:
+	@curl -o $@ -O http://standards-oui.ieee.org/oui.txt
 
-new-iab:
-	@echo $@
-	@curl -O http://standards.ieee.org/develop/regauth/iab/iab.txt
+iab.txt.downloaded:
+	@curl -o $@ -O http://standards-oui.ieee.org/iab/iab.txt
 
-new-sdio-ids:
-	@echo $@
-	@curl -O http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/sdio.ids
+pnp.ids.xlsx:
+	@curl -o $@ \
+	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
 
-new-pnp-ids: pnp.ids
+sdio.ids.downloaded:
+	@curl -o $@ http://cgit.freedesktop.org/systemd/systemd/plain/hwdb/sdio.ids
 
-pnp.ids: pnp.ids.txt pnp.ids.patch
-	patch -o $@ <pnp.ids.patch
+usb.ids: usb.ids.utf8
+	dos2unix -n $? $@
 
-pnp.ids.txt: new-pnp.xlsx
+pci.ids: pci.ids.utf8
+	dos2unix -n $? $@
+
+oui.txt: oui.txt.utf8
+	dos2unix -n $? $@
+
+iab.txt: iab.txt.utf8
+	dos2unix -n $? $@
+
+sdio.ids: sdio.ids.utf8
+	dos2unix -n $? $@
+
+pnp.ids.orig: pnp.ids.xlsx
 	@unoconv --stdout -f csv $? | \
 	    tr ' ' ' ' | \
 	    sed -n \
@@ -169,10 +177,17 @@ pnp.ids.txt: new-pnp.xlsx
 		-e 's:^\(.*\)\s*,\s*\([a-zA-Z@]\{3\}\)\s*,\s*\([0-9]\+/[0-9]\+/[0-9]\+\):\2\t\1:p' | \
 	    sed 's/\s*$$//' | sort -u >$@
 
-new-pnp.xlsx:
-	@echo $@
-	@curl -O $@ \
-	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
+pnp.ids: pnp.ids.orig pnp.ids.patch
+	patch -o $@ <pnp.ids.patch
+
+%.utf8: %.downloaded
+	@text=`LANG=C file $?`
+	@encoding=`echo "$$text" | sed -n 's/.*\(iso-8859\S\*\|cp1[12]\d\+\).*/\1/Ip'`
+	@if [[ -n "$$encoding" ]]; then \
+	    iconv -f "$$encoding" -t UTF-8 $?; \
+	else \
+	    cat $?; \
+	fi | sed 's/\s\+$$//' >$@
 
 new-hwdb-files:
 	@for file in $(HWDBUPSTREAM); do \
