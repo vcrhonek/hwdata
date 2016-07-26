@@ -3746,12 +3746,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Erie  PA  16510
                                                             US
 
-00-50-C2                      (hex)                         DAVE S.r.L.
-1EA000-1EAFFF                 (base 16)                     DAVE S.r.L.
-                                                            via Talponedo 29/A
-                                                            Porcia  PN  33170
-                                                            IT
-
 00-50-C2                      (hex)                         COSMO co.,ltd.
 1EC000-1ECFFF                 (base 16)                     COSMO co.,ltd.
                                                             TAKARAMACHI 1-BANCHI
@@ -4627,6 +4621,12 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
                                                             6/59 Township Drive
                                                             West Burleigh  QLD  4219
                                                             AU
+
+00-50-C2                      (hex)                         DAVE SRL
+1EA000-1EAFFF                 (base 16)                     DAVE SRL
+                                                            via Talponedo 29/A
+                                                            Porcia  PN  33170
+                                                            IT
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -10199,12 +10199,6 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             Kuala Lumpur  Kuala Lumpur  50450
                                                             MY
 
-40-D8-55                      (hex)                         Dave Srl
-098000-098FFF                 (base 16)                     Dave Srl
-                                                            Via Talponedo 29a
-                                                            Porcia  Pordenone  33080
-                                                            IT
-
 40-D8-55                      (hex)                         TeraTron GmbH
 066000-066FFF                 (base 16)                     TeraTron GmbH
                                                             Bunsenstr. 10
@@ -15608,6 +15602,12 @@ FF4000-FF4FFF                 (base 16)                     Burk Technology
                                                             Littleton  MA  01460
                                                             US
 
+40-D8-55                      (hex)                         DAVE SRL
+098000-098FFF                 (base 16)                     DAVE SRL
+                                                            Via Talponedo 29a
+                                                            Porcia  Pordenone  33080
+                                                            IT
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -17551,12 +17551,6 @@ BA3000-BA3FFF                 (base 16)                     DSP DESIGN LTD
                                                             TAPTON PARK INNOVATION CENTRE
                                                             CHESTERFIELD  DERBYSHIRE  S41 0TZ
                                                             GB
-
-00-50-C2                      (hex)                         Dave srl
-B9C000-B9CFFF                 (base 16)                     Dave srl
-                                                            Via  Talponedo 29
-                                                            Porcia  PN  A-33080
-                                                            IT
 
 00-50-C2                      (hex)                         Telventy Energia S.A.
 B9B000-B9BFFF                 (base 16)                     Telventy Energia S.A.
@@ -21755,12 +21749,6 @@ D8B000-D8BFFF                 (base 16)                     Sicon srl
                                                             N-7047  Trondheim
                                                             NO
 
-00-50-C2                      (hex)                         Ubiquiti Networks
-B04000-B04FFF                 (base 16)                     Ubiquiti Networks
-                                                            91 E Tasman Dr
-                                                            San Jose  CA  95134
-                                                            US
-
 40-D8-55                      (hex)                         Aplex Technology Inc.
 18A000-18AFFF                 (base 16)                     Aplex Technology Inc.
                                                             2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
@@ -21808,6 +21796,18 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             3000 Lakeview Ave., CC1
                                                             St. Joseph  MI  49085
                                                             US
+
+00-50-C2                      (hex)                         Ubiquiti Networks Inc.
+B04000-B04FFF                 (base 16)                     Ubiquiti Networks Inc.
+                                                            91 E Tasman Dr
+                                                            San Jose  CA  95134
+                                                            US
+
+00-50-C2                      (hex)                         DAVE SRL
+B9C000-B9CFFF                 (base 16)                     DAVE SRL
+                                                            Via  Talponedo 29
+                                                            Porcia  PN  A-33080
+                                                            IT
 
 00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
 66A000-66AFFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.

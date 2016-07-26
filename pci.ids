@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.06.21
-#	Date:    2016-06-21 03:15:01
+#	Version: 2016.07.23
+#	Date:    2016-07-23 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1387,23 +1387,23 @@
 	5a11  RD890 Northbridge only single slot PCI-e GFX Hydra part
 	5a12  RD890 Northbridge only dual slot (2x8) PCI-e GFX Hydra part
 		15d9 a811  H8DGU
-	5a13  RD890 PCI to PCI bridge (external gfx0 port A)
-	5a14  RD890 PCI to PCI bridge (external gfx0 port B)
+	5a13  RD890S/SR5650 Host Bridge
+	5a14  RD9x0/RX980 Host Bridge
 	5a15  RD890 PCI to PCI bridge (PCI express gpp port A)
-	5a16  RD890 PCI to PCI bridge (PCI express gpp port B)
-	5a17  RD890 PCI to PCI bridge (PCI express gpp port C)
-	5a18  RD890 PCI to PCI bridge (PCI express gpp port D)
+	5a16  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GFX port 0)
+	5a17  RD890/RD9x0 PCI to PCI bridge (PCI Express GFX port 1)
+	5a18  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GPP Port 0)
 		15d9 a811  H8DGU
-	5a19  RD890 PCI to PCI bridge (PCI express gpp port E)
-	5a1a  RD890 PCI to PCI bridge (PCI express gpp port F)
-	5a1b  RD890 PCI to PCI bridge (PCI express gpp port G)
-	5a1c  RD890 PCI to PCI bridge (PCI express gpp port H)
-	5a1d  RD890 PCI to PCI bridge (external gfx1 port A)
-	5a1e  RD890 PCI to PCI bridge (external gfx1 port B)
-	5a1f  RD890 PCI to PCI bridge (NB-SB link)
+	5a19  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GPP Port 1)
+	5a1a  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GPP Port 2)
+	5a1b  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GPP Port 3)
+	5a1c  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GPP Port 4)
+	5a1d  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GPP Port 5)
+	5a1e  RD890/RD9x0/RX980 PCI to PCI bridge (PCI Express GPP2 Port 0)
+	5a1f  RD890/RD990 PCI to PCI bridge (PCI Express GFX2 port 0)
 		15d9 a811  H8DGU
-	5a20  RD890S PCI Express bridge for GPP2 port 1
-	5a23  RD990 I/O Memory Management Unit (IOMMU)
+	5a20  RD890/RD990 PCI to PCI bridge (PCI Express GFX2 port 1)
+	5a23  RD890S/RD990 I/O Memory Management Unit (IOMMU)
 	5a31  RC410 Host Bridge
 	5a33  RS400 Host Bridge
 	5a34  RS4xx PCI Express Port [ext gfx]
@@ -2150,6 +2150,7 @@
 	67b1  Hawaii PRO [Radeon R9 290/390]
 		1043 04dd  STRIX R9 390
 		148c 2358  Radeon R9 390
+		174b e324  Sapphire Nitro R9 390
 	67b9  Vesuvius [Radeon R9 295X2]
 	67be  Hawaii LE
 	67c0  Ellesmere [Polaris10]
@@ -9999,6 +10000,7 @@
 	10c3  GT218 [GeForce 8400 GS Rev. 3]
 	10c5  GT218 [GeForce 405]
 	10d8  GT218 [NVS 300]
+	10f0  GP104 High Definition Audio Controller
 	1140  GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]
 		1019 0799  GeForce 820M
 		1019 999f  GeForce GT 720M
@@ -10525,7 +10527,9 @@
 	13ba  GM107GL [Quadro K2200]
 	13bb  GM107GL [Quadro K620]
 	13bc  GM107GL [Quadro K1200]
-	13bd  GM107GL [GRID M40]
+	13bd  GM107GL [Tesla M10]
+		10de 110a  GRID M40
+		10de 1160  Tesla M10
 	13c0  GM204 [GeForce GTX 980]
 		1043 8504  GTX980-4GD5
 	13c1  GM204
@@ -10575,13 +10579,16 @@
 	1b81  GP104 [GeForce GTX 1070]
 	1b82  GP104
 	1b83  GP104
+	1ba1  GP104M [GeForce GTX 1070]
 	1bb0  GP104GL
 	1bb1  GP104GL
 	1bb4  GP104GL
+	1be0  GP104M [GeForce GTX 1080]
+	1be1  GP104M [GeForce GTX 1070]
 	1c00  GP106
 	1c01  GP106
 	1c02  GP106
-	1c03  GP106
+	1c03  GP106 [GeForce GTX 1060]
 	1c30  GP106GL
 	1c70  GP106GL
 	1c80  GP107
@@ -10853,7 +10860,7 @@
 		1043 8505  P8 series motherboard
 		105b 0d7c  D270S/D250S Motherboard
 		10ec 8168  RTL8111/8168 PCI Express Gigabit Ethernet controller
-		1458 e000  Motherboard
+		1458 e000  Onboard Ethernet
 		1462 238c  Onboard RTL8111b on MSI P965 Platinum Mainboard
 		1462 368c  K9AG Neo2
 		1462 4180  Wind PC MS-7418
@@ -10887,6 +10894,7 @@
 	8177  RTL8191CE PCIe Wireless Network Adapter
 	8178  RTL8192CE PCIe Wireless Network Adapter
 	8179  RTL8188EE Wireless Network Adapter
+		103c 197d  RTL8188EE mini-PCIe card
 	8180  RTL8180L 802.11b MAC
 		1385 4700  MA521 802.11b Wireless PC Card
 		1737 0019  WPC11v4 802.11b Wireless-B Notebook Adapter
@@ -10970,10 +10978,10 @@
 1102  Creative Labs
 	0002  EMU10k1 [Sound Blaster Live! Series]
 		100a 1102  SB Live! 5.1 Digital OEM SB0220 EMU10K1-JFF
-		1102 0020  CT4850 SBLive! Value
+		1102 0020  CT4670/4850 SBLive! Value
 		1102 0021  CT4620 SBLive!
 		1102 002f  M002/M003 Integrated SBLive!
-		1102 100a  SB Live! 5.1 Digital OEM [SB0220]
+		1102 100a  SB0220/0229 SBLive! 5.1 Digital OEM
 		1102 4001  E-mu APS
 		1102 8022  CT4780 SBLive! Value
 		1102 8023  CT4790 SoundBlaster PCI512
@@ -10981,7 +10989,7 @@
 		1102 8025  CT1140/SB0040 Integrated SBLive!
 		1102 8026  CT4830 SBLive! Value
 		1102 8027  CT4832 SBLive! Value
-		1102 8028  CT4760 SBLive! OEM version
+		1102 8028  CT4870 SBLive! Value
 		1102 8029  CT4872 SBLive! Value
 		1102 802a  CT4890 SoundBlaster PCI256
 		1102 802b  CT4891 SoundBlaster PCI256
@@ -10995,10 +11003,10 @@
 		1102 8061  SB060 SBLive! Player 5.1
 		1102 8062  SB0100 SBLive! 5.1
 		1102 8063  DXW Integrated SBLive! 5.1
-		1102 8064  SBLive! 5.1 Model SB0100
-		1102 8065  SBLive! 5.1 Digital Model SB0220
+		1102 8064  SB0100/SB0102 SBLive! 5.1
+		1102 8065  SB0220/0222 SBLive! 5.1 Digital
 		1102 8066  SB0228 SBLive! 5.1 Digital
-		1102 8067  SBLive! 5.1 eMicro 28028
+		1102 8067  SB0220 SBLive! 5.1
 		1102 8068  CT0061 SBLive!
 		1102 8069  SB0101 SBLive! 5.1 Value
 		1102 806a  SB0103 SBLive! 5.1
@@ -11020,19 +11028,19 @@
 		1102 0055  SB0192 Audigy
 		1102 0056  SB0191 Audigy
 		1102 0057  SB0091 Audigy
-		1102 0058  SB0090 Audigy Player/OEM
+		1102 0058  SB0095 Audigy Player/OEM
 		1102 0059  SB0230 Audigy
 		1102 005a  SB0231 Audigy
 		1102 005b  SB0232 Audigy
 		1102 005c  SB0238 Audigy
 		1102 1002  SB0240 Audigy 2 Platinum 6.1
-		1102 1003  SB0350 Audigy 2
+		1102 1003  SB0350 Audigy 2 / SB0243 Audigy 2 OEM
 		1102 1004  SB0242 Audigy 2
 		1102 1005  SB0280 Audigy 2 Platinum Ex
 		1102 1006  SB0245 Audigy 2 OEM
-		1102 1007  SB0240 Audigy 2 Platinum 6.1
+		1102 1007  SB0240/SB0244 Audigy 2 Platinum
 		1102 1008  SB0320 Audigy 2
-		1102 1009  SB Audigy2 OEM HP
+		1102 1009  SB0249 Audigy 2 OEM
 		1102 100a  SB0246 Audigy 2
 		1102 2001  SB0360 Audigy 2 ZS Platinum Pro
 		1102 2002  SB0350 Audigy 2 ZS
@@ -11079,6 +11087,7 @@
 		1102 0018  SB1040 PCI Express
 	000b  EMU20k2 [Sound Blaster X-Fi Titanium Series]
 		1102 0041  SB0880 [SoundBlaster X-Fi Titanium PCI-e]
+		1102 0062  SB1270 [SoundBlaster X-Fi Titanium HD]
 	0012  Sound Core3D [Sound Blaster Recon3D / Z-Series]
 		1102 0010  SB1570 SB Audigy Fx
 	4001  SB Audigy FireWire Port
@@ -12914,7 +12923,7 @@
 		103c 30b5  Presario V3242AU
 		103c 30b7  Presario V6133CL
 		103c 30cc  Pavilion dv6700
-		103c 30cf  Pavilion dv9500/9600/9700 series
+		103c 30cf  Pavilion dv95xx/96xx/97xx/98xx series
 		1043 1237  A6J-Q008
 		1043 1967  V6800V
 		144d c018  X20 IV
@@ -13689,6 +13698,7 @@
 		1202 9844  SK-9843 SX dual link
 1203  Bayer Corporation, Agfa Division
 1204  Lattice Semiconductor Corporation
+	1965  SB6501 802.11ad Wireless Network Adapter
 1205  Array Corporation
 1206  Amdahl Corporation
 1208  Parsytec GmbH
@@ -14001,6 +14011,7 @@
 	1969  ES1938/ES1946/ES1969 Solo-1 Audiodrive
 		1014 0166  ES1969 SOLO-1 AudioDrive on IBM Aptiva Mainboard
 		125d 8888  Solo-1 Audio Adapter
+		125d 8898  ES1938S TTSOLO1-SL [TerraTec 128i PCI]
 		153b 111b  Terratec 128i PCI
 	1978  ES1978 Maestro 2E
 		0e11 b112  Armada M700/E500
@@ -14125,13 +14136,13 @@
 	0002  DirecPC
 1274  Ensoniq
 	1171  ES1373 / Creative Labs CT5803 [AudioPCI]
-	1371  ES1371 / Creative Labs CT2518/ES1373
+	1371  ES1371/ES1373 / Creative Labs CT2518
 		0e11 0024  AudioPCI on Motherboard Compaq Deskpro
 		0e11 b1a7  ES1371, ES1373 AudioPCI
 		1033 80ac  ES1371, ES1373 AudioPCI
 		1042 1854  Tazer
 		107b 8054  Tabor2
-		1274 1371  AudioPCI 64V/128 / Creative CT4810/CT5803/CT5806 [Sound Blaster PCI]
+		1274 1371  Audio PCI 64V/128/5200 / Creative CT4810/CT5803/CT5806 [Sound Blaster PCI]
 		1274 8001  CT4751 board
 		1462 6470  ES1371, ES1373 AudioPCI On Motherboard MS-6147 1.1A
 		1462 6560  ES1371, ES1373 AudioPCI On Motherboard MS-6156 1.10
@@ -14414,7 +14425,7 @@
 12a8  News Datacom
 12a9  Xiotech Corporation
 12aa  SDL Communications, Inc.
-12ab  Yuan Yuan Enterprise Co., Ltd.
+12ab  YUAN High-Tech Development Co., Ltd.
 	0000  MPG160/Kuroutoshikou ITVC15-STVLP
 	0002  AU8830 [Vortex2] Based Sound Card With A3D Support
 	0003  T507 (DVB-T) TV tuner/capture device
@@ -16835,12 +16846,14 @@
 	16d1  BCM57404 NetXtreme-E Dual-port 10Gb/25Gb Ethernet
 	16d2  BCM57406 NetXtreme-E Dual-port 10GBase-T Ethernet
 	16d3  BCM57404 NetXtreme-E Ethernet Virtual Function
+	16d4  BCM57404 NetXtreme-E Ethernet Partition
 	16d6  BCM57412 NetXtreme-E Dual-port 10Gb RDMA Ethernet
 	16d7  BCM57414 NetXtreme-E Dual-port 10Gb/25Gb RDMA Ethernet
 	16d8  BCM57416 NetXtreme-E Dual-port 10GBase-T RDMA Ethernet
 	16d9  BCM57417 NetXtreme-E Dual-port 10GBase-T RDMA Ethernet
 	16dc  BCM57414 NetXtreme-E Ethernet Virtual Function
 	16dd  NetLink BCM5781 Gigabit Ethernet PCI Express
+	16de  BCM57414 NetXtreme-E Ethernet Partition
 	16df  BCM57314 NetXtreme-C Dual-port 10Gb/25Gb/40Gb/50Gb RDMA Ethernet
 	16e1  BCM57314 NetXtreme-C Ethernet Virtual Function
 	16e2  BCM57417 NetXtreme-E Dual-port 10Gb/25Gb RDMA Ethernet
@@ -17392,6 +17405,7 @@
 		0070 8010  WinTV HVR-1400 ExpressCard
 		0070 f038  WinTV HVR-5525
 		107d 6f22  WinFast PxTV1200
+		12ab d585  PE988J Hybrid ATSC/QAM PCI-E AVS Video Capture (SoftEncoder)
 		13c2 3013  TT-budget CT2-4500 CI
 		1461 c039  AVerTV Hybrid Express (A577)
 		153b 117e  Cinergy T PCIe Dual
@@ -17854,6 +17868,8 @@
 	caf1  ConnectX-4 CAPI Function
 # Spectrum, 100GbE Switch
 	cb84  MT52100
+	cf08  MT53236
+	d2f0  Switch-IB 3 HDR (200Gbps) switch
 15b4  CCI/TRIAD
 15b5  Cimetrics Inc
 15b6  Texas Memory Systems Inc
@@ -18372,7 +18388,8 @@
 		103c 1838  AR9485/HB125 802.11bgn 1×1 Wi-Fi Adapter
 		105b e044  Unex DHXA-225
 		1a3b 1186  AW-NE186H
-	0033  AR9580 Wireless Network Adapter
+	0033  AR958x 802.11abgn Wireless Network Adapter
+		168c a120  AR9582 802.11a/n WLAN Mini-PCIe Adapter
 	0034  AR9462 Wireless Network Adapter
 		1028 0300  Wireless 1802 802.11abgn Adapter
 		1a56 2003  Killer Wireless-N 1202 Half-size Mini PCIe Card
@@ -18725,6 +18742,7 @@
 	8083  GL880 USB 1.1 UHCI controller
 	8084  GL880 USB 2.0 EHCI controller
 17aa  Lenovo
+	402b  Intel 82599ES 10Gb 2-port Server Adapter X520-2
 17ab  Phillips Components
 17af  Hightech Information System Ltd.
 17b3  Hawking Technologies
@@ -18839,6 +18857,22 @@
 	190d  Virtex7 PCIe ASIC Emulation Board [DNV7F4A]
 	190e  Virtex7 PCIe ASIC Emulation Board [DNV7F2B]
 	190f  KintexUS PCIe MainRef Design [DNPCIE_40G_KU_LL]
+	1910  VirtexUS ASIC Emulation Board [DNVUF4A]
+	1911  VirtexUS PCIe ASIC Emulation Board [DNVU_F2PCIe]
+	1912  KintexUS PCIe MainRef Design [DNPCIe_40G_KU_LL_QSFP]
+	1913  VirtexUS ASIC Emulation Board [DNVUF1A]
+	1914  VirtexUS ASIC Emulation Board [DNVUF2A]
+	1915  Arria10 PCIe MainRef Design [DNPCIe_80G_A10_LL]
+	1916  VirtexUS PCIe Accelerator Board [DNVUF2_HPC_PCIe]
+	1a00  Virtex6 PCIe DMA Netlist Design
+	1a01  Virtex6 PCIe Darklite Design [DNPCIe_HXT_10G_LL]
+	1a02  Virtex7 PCIe DMA Netlist Design
+	1a03  Kintex7 PCIe Darklite Design [DNPCIe_K7_10G_LL]
+	1a05  Stratix5 PCIe Darklite Design [DNS5GX_F2]
+	1a06  VirtexUS PCIe DMA Netlist Design
+	1a07  KintexUS PCIe Darklite Design [DNPCIe_40G_KU_LL]
+	1a08  KintexUS PCIe Darklite Design [DNPCIe_40G_KU_LL_QSFP]
+	1a09  Arria10 PCIe Darklite Design [DNPCIe_80G_A10_LL]
 17e4  Sectra AB
 	0001  KK671 Cardbus encryption board
 	0002  KK672 Cardbus encryption board
@@ -19883,6 +19917,7 @@
 	91a4  88SE912x IDE Controller
 	9220  88SE9220 PCIe 2.0 x2 2-port SATA 6 Gb/s RAID Controller
 	9230  88SE9230 PCIe SATA 6Gb/s Controller
+		1d49 0300  ThinkSystem M.2 with Mirroring Enablement Kit
 	9235  88SE9235 PCIe 2.0 x2 4-port SATA 6 Gb/s Controller
 	9445  88SE9445 PCIe 2.0 x4 4-Port SAS/SATA 6 Gbps RAID Controller
 	9480  88SE9480 SAS/SATA 6Gb/s RAID controller
@@ -19941,6 +19976,10 @@
 		1bb1 6522  Nytro XP6500-8A2048
 # 4TB Nytro PCIe controller
 		1bb1 6523  Nytro XP6500-8A4096
+	0100  Nytro Flash Storage
+		1bb1 0101  Nytro XF1440
+		1bb1 0121  Nytro XM1440
+		1bb1 01a1  Nytro XP7102
 1bb3  Bluecherry
 	4304  BC-04120A MPEG4 4 port video encoder / decoder
 	4309  BC-08240A MPEG4 4 port video encoder / decoder
@@ -20015,6 +20054,7 @@
 1c8a  TSF5 Corporation
 	0001  Hunter PCI Express
 1cb1  Collion UG & Co.KG
+1cb8  Dawning Information Industry Co., Ltd.
 1cc5  Embedded Intelligence, Inc.
 	0100  CAN-PCIe-02
 1cc7  Radian Memory Systems Inc.
@@ -20025,6 +20065,7 @@
 	0302  Simulyzer-RT CompactPCI Serial PSI5-ECU-1 card
 	0303  Simulyzer-RT CompactPCI Serial PSI5-SIM-1 card
 	0304  Simulyzer-RT CompactPCI Serial PWR-ANA-1 card
+	0305  Simulyzer-RT CompactPCI Serial CAN-1 card
 1cdd  secunet Security Networks AG
 1ce4  Exablaze
 	0001  ExaNIC X4
@@ -20066,6 +20107,8 @@
 	100a  A10PL4-A10GX115
 	100b  K35-2SFP
 	100c  K35-4SFP
+	100d  AR-ARKA-FX0 [Arkville 32B DPDK Data Mover]
+	100e  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1de1  Tekram Technology Co.,Ltd.
 	0391  TRM-S1040 [DC-315 / DC-395 series]
@@ -20168,6 +20211,7 @@
 		4c53 4000  PMCCARR1 carrier board
 	0022  HiNT HB4 PCI-PCI Bridge (PCI6150)
 	0026  HB2 PCI-PCI Bridge
+	1014  AudioTrak Maya
 	1018  Audiotrak INCA88
 	1019  Miditrak 2120
 	101a  E.Band [AudioTrak Inca88]
@@ -20373,6 +20417,8 @@
 	adc1  ADC200ME High speed ADC
 	de01  DL200ME High resolution delay line PCI based card
 	de02  DL200ME Middle resolution delay line PCI based card
+# Can't find any information on this company
+4651  TXIC
 4680  Umax Computer Corp
 4843  Hercules Computer Technology Inc
 4916  RedCreek Communications Inc
@@ -20721,6 +20767,7 @@
 	0003  TURBOstor HFP-832 [HiPPI NIC]
 5646  Vector Fabrics BV
 5654  VoiceTronix Pty Ltd
+5678  Dawicontrol Computersysteme GmbH
 5700  Netpower
 584d  AuzenTech Co., Ltd.
 5851  Exacq Technologies
@@ -22112,6 +22159,7 @@
 		1734 11a9  10 Gigabit Dual Port Network Connection
 		17aa 1071  ThinkServer X520-2 AnyFabric
 		17aa 4007  82599ES 10-Gigabit SFI/SFP+ Network Connection
+		17aa 402b  82599ES 10Gb 2-port Server Adapter X520-DA2
 		8086 0002  Ethernet Server Adapter X520-DA2
 		8086 0003  Ethernet Server Adapter X520-2
 		8086 0006  Ethernet Server Adapter X520-1
@@ -22537,17 +22585,19 @@
 		8086 0008  Ethernet Converged Network Adapter X710-2
 		8086 0009  Ethernet Controller X710 for 10GbE SFP+
 		8086 000a  Ethernet Controller X710 for 10GbE SFP+
+		8086 000b  Ethernet Server Adapter X710-DA2 for OCP
 		8086 000d  Ethernet Controller X710 for 10GbE SFP+
+		8086 0010  Ethernet Converged Network Adapter X710
 		8086 4005  Ethernet Controller XL710 for 10 Gigabit SFP+
 		8086 4006  Ethernet Controller X710 for 10GbE SFP+
-	1575  DSL5110 Thunderbolt NHI [Falcon Ridge LP 2014]
-	1576  DSL5110 Thunderbolt Bridge [Falcon Ridge LP 2014]
+	1575  DSL6340 Thunderbolt 3 NHI [Alpine Ridge 2C 2015]
+	1576  DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]
 	1577  DSL6540 Thunderbolt 3 NHI [Alpine Ridge 4C 2015]
 	1578  DSL6540 Thunderbolt 3 Bridge [Alpine Ridge 4C 2015]
 	157b  I210 Gigabit Network Connection
 	157c  I210 Gigabit Backplane Connection
-	157d  DSL6340 Thunderbolt 3 NHI [Alpine Ridge 2C 2015]
-	157e  DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]
+	157d  DSL5110 Thunderbolt 2 NHI (Low Power) [Win Ridge 2C 2014]
+	157e  DSL5110 Thunderbolt 2 Bridge (Low Power) [Win Ridge 2C 2014]
 	1580  Ethernet Controller XL710 for 40GbE backplane
 	1581  Ethernet Controller X710 for 10GbE backplane
 		1028 0000  Ethernet 10G X710-k bNDC
@@ -22591,6 +22641,7 @@
 		8086 0000  Ethernet Converged Network Adapter X710-T
 		8086 0001  Ethernet Converged Network Adapter X710-T4
 		8086 0002  Ethernet Converged Network Adapter X710-T4
+		8086 1003  Ethernet Converged Network Adapter X710-T
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
 	15a2  Ethernet Connection (3) I218-LM
@@ -22604,19 +22655,27 @@
 	15ac  Ethernet Connection X552 10 GbE SFP+
 	15ad  Ethernet Connection X552/X557-AT 10GBASE-T
 	15ae  Ethernet Connection X552 1000BASE-T
+	15b5  DSL6340 USB 3.1 Controller [Alpine Ridge]
 	15b6  DSL6540 USB 3.1 Controller [Alpine Ridge]
 	15b7  Ethernet Connection (2) I219-LM
 	15b8  Ethernet Connection (2) I219-V
 	15b9  Ethernet Connection (3) I219-LM
+	15bf  JHL6240 Thunderbolt 3 NHI (Low Power) [Alpine Ridge LP 2016]
+	15c0  JHL6240 Thunderbolt 3 Bridge (Low Power) [Alpine Ridge LP 2016]
 	15d0  Ethernet SDI Adapter FM10420-100GbE-QDA2
 	15d1  Ethernet Controller 10G X550T
 		8086 0002  Ethernet Converged Network Adapter X550-T1
 		8086 0021  Ethernet Converged Network Adapter X550-T1
 		8086 00a2  Ethernet Converged Network Adapter X550-T1
+	15d2  JHL6540 Thunderbolt 3 NHI (C step) [Alpine Ridge 4C 2016]
+	15d3  JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
 	15d5  Ethernet SDI Adapter FM10420-25GbE-DA2
+		8086 0001  Intel(R) Ethernet SDI Adapter FM10420-25GbE-DA2
 	15d6  Ethernet Connection (5) I219-V
 	15d7  Ethernet Connection (4) I219-LM
 	15d8  Ethernet Connection (4) I219-V
+	15d9  JHL6340 Thunderbolt 3 NHI (C step) [Alpine Ridge 2C 2016]
+	15da  JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
 	15e3  Ethernet Connection (5) I219-LM
 	1600  Broadwell-U Host Bridge -OPI
 	1601  Broadwell-U PCI Express x16 Controller
@@ -23848,6 +23907,8 @@
 		10a9 8030  Omni-path HFI 100 Series, 1-port B-board
 		10a9 8031  Omni-path HFI 100 Series, 2-port B-board
 		15d9 0934  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x16, SIOM Module
+		1cb8 0001  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x16, TC4600 QSFP28
+		1cb8 0002  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x16, TC6600 Fixed Port
 		8086 2628  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x16
 		8086 2629  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x8
 		8086 262a  Omni-Path HFI Adapter 100 Series, 2 Ports, Split PCIe x16
@@ -25961,6 +26022,8 @@
 	373f  Xeon C5500/C3500 IOxAPIC
 	37cd  X722 Virtual Function
 	37ce  Ethernet Connection X722 for 10GbE backplane
+		1590 0200  Ethernet 10Gb 2-port 568i Adapter
+		8086 0215  Ethernet 10Gb 2-port 568i Adapter
 	37cf  Ethernet Connection X722 for 10GbE QSFP+
 	37d0  Ethernet Connection X722 for 10GbE SFP+
 	37d1  Ethernet Connection X722 for 1GbE
@@ -26503,6 +26566,7 @@
 		1af4 1100  QEMU Virtual Machine
 	5a84  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Integrated Graphics Controller
 	5a88  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Imaging Unit
+	5a98  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Audio Cluster
 	5a9a  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Trusted Execution Engine
 	5aa2  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Integrated Sensor Hub
 	5aa8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series USB xHCI
@@ -26525,9 +26589,13 @@
 	5acc  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series eMMC Controller
 	5ad0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SDIO Controller
 	5ad4  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SMBus Controller
-	5ad8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
-	5ad9  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
-	5ada  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
+	5ad6  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port B #1
+	5ad7  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port B #2
+	5ad8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #1
+	5ad9  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #2
+	5ada  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #3
+	5adb  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #4
+	5ae3  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SATA AHCI Controller
 	5ae8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Low Pin Count Interface
 	5aee  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series HSUART Controller #4
 	5af0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Host Bridge
