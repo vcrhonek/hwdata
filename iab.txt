@@ -1676,12 +1676,6 @@ AC4000-AC4FFF                 (base 16)                     Orion Technologies, 
                                                             Vienna    1190
                                                             AT
 
-00-50-C2                      (hex)                         CODEC Co., Ltd.
-9DF000-9DFFFF                 (base 16)                     CODEC Co., Ltd.
-                                                            1021-1 Kuriki Asao-ward
-                                                            Kawasaki  Kanagawa  215-0033
-                                                            JP
-
 00-50-C2                      (hex)                         NEUTRONIK e.K.
 9DA000-9DAFFF                 (base 16)                     NEUTRONIK e.K.
                                                             Taitinger Str. 14
@@ -2641,12 +2635,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Yokohama Creation Square,
                                                             Yokohama  Kanagawa  221-0052
                                                             JP
-
-00-50-C2                      (hex)                         DCN
-6FA000-6FAFFF                 (base 16)                     DCN
-                                                            DCN Services Brest
-                                                            BREST    29228
-                                                            FR
 
 00-50-C2                      (hex)                         Dain
 741000-741FFF                 (base 16)                     Dain
@@ -4628,6 +4616,18 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
                                                             Porcia  PN  33170
                                                             IT
 
+00-50-C2                      (hex)                         DCNS
+6FA000-6FAFFF                 (base 16)                     DCNS
+                                                            DCN Services Brest
+                                                            BREST    29228
+                                                            FR
+
+00-50-C2                      (hex)                         CODEC Co., Ltd.
+9DF000-9DFFFF                 (base 16)                     CODEC Co., Ltd.
+                                                            1021-1 Kuriki Asao-ward
+                                                            Kawasaki  Kanagawa  215-0033
+                                                            JP
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -6019,12 +6019,6 @@ C66000-C66FFF                 (base 16)                     KS Beschallungstechn
                                                             Westendstr.1
                                                             Hettenleidelheim  Rhineland-Palatinate  67310
                                                             DE
-
-00-50-C2                      (hex)                         Potter Electric Signal Company
-C63000-C63FFF                 (base 16)                     Potter Electric Signal Company
-                                                            11790 Troy Lane North
-                                                            Maple Grove  MN  55369
-                                                            US
 
 00-50-C2                      (hex)                         Integration Technologies Limited
 C60000-C60FFF                 (base 16)                     Integration Technologies Limited
@@ -9188,12 +9182,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Hermosa Beach  CA  90254-0870
                                                             US
 
-00-50-C2                      (hex)                         Helmut Mauell GmbH
-0B9000-0B9FFF                 (base 16)                     Helmut Mauell GmbH
-                                                            Am Rosenhugel 1-7
-                                                            42553 Velbert
-                                                            DE
-
 00-50-C2                      (hex)                         Infolink Software AG
 0BC000-0BCFFF                 (base 16)                     Infolink Software AG
                                                             Bernstrasse 49
@@ -9710,6 +9698,12 @@ FBD000-FBDFFF                 (base 16)                     EATON FHF Funke + Hu
                                                             Mülheim an der Ruhr  NRW  D-45478
                                                             DE
 
+00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
+C63000-C63FFF                 (base 16)                     Potter Electric Signal Co. LLC
+                                                            11790 Troy Lane North
+                                                            Maple Grove  MN  55369
+                                                            US
+
 00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
 7A3000-7A3FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
                                                             ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
@@ -9745,6 +9739,12 @@ C0A000-C0AFFF                 (base 16)                     ABB Transmission and
                                                             Trekanten 17
                                                             Vojens    D-6500
                                                             DK
+
+00-50-C2                      (hex)                         Helmut Mauell GmbH Werk Weida
+0B9000-0B9FFF                 (base 16)                     Helmut Mauell GmbH Werk Weida
+                                                            Am Rosenhugel 1-7
+                                                            42553 Velbert
+                                                            DE
 
 00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
 EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Speed
@@ -10853,12 +10853,6 @@ E01000-E01FFF                 (base 16)                     Tyco Traffic & Trans
                                                             Guildford   NSW  2161
                                                             AU
 
-00-50-C2                      (hex)                         Potter Electric Signal
-DF4000-DF4FFF                 (base 16)                     Potter Electric Signal
-                                                            1609 Park 370 Place
-                                                            Hazelwood  Missouri  63042
-                                                            US
-
 00-50-C2                      (hex)                         Koncar Electrical Engineering Institute
 DF0000-DF0FFF                 (base 16)                     Koncar Electrical Engineering Institute
                                                             Fallerovo setaliste 22
@@ -11933,12 +11927,6 @@ B3B000-B3BFFF                 (base 16)                     Sportvision Inc.
                                                             Mountain View  CA  94043
                                                             US
 
-00-50-C2                      (hex)                         IAdea Corporation
-B37000-B37FFF                 (base 16)                     IAdea Corporation
-                                                            3F, NO.33, Lane 77, Xing-ai Road,
-                                                            Taipei    114
-                                                            TW
-
 00-50-C2                      (hex)                         Meisol co.,ltd
 B34000-B34FFF                 (base 16)                     Meisol co.,ltd
                                                             NAKA-KU YAMASHITA-CHO 74-1
@@ -12628,12 +12616,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             203 E. Daugherty
                                                             Webb City  MO  64870
                                                             US
-
-00-50-C2                      (hex)                         IADEA CORPORATION
-888000-888FFF                 (base 16)                     IADEA CORPORATION
-                                                            3F, NO.33, LANE 77, XING-AI ROAD
-                                                            TAIPEI    114
-                                                            TW
 
 00-50-C2                      (hex)                         Inventis Technology Pty Limited
 887000-887FFF                 (base 16)                     Inventis Technology Pty Limited
@@ -15607,6 +15589,24 @@ FF4000-FF4FFF                 (base 16)                     Burk Technology
                                                             Via Talponedo 29a
                                                             Porcia  Pordenone  33080
                                                             IT
+
+00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
+DF4000-DF4FFF                 (base 16)                     Potter Electric Signal Co. LLC
+                                                            1609 Park 370 Place
+                                                            Hazelwood  Missouri  63042
+                                                            US
+
+00-50-C2                      (hex)                         IAdea Corporation
+B37000-B37FFF                 (base 16)                     IAdea Corporation
+                                                            3F, NO.33, Lane 77, Xing-ai Road,
+                                                            Taipei    114
+                                                            TW
+
+00-50-C2                      (hex)                         IAdea Corporation
+888000-888FFF                 (base 16)                     IAdea Corporation
+                                                            3F, NO.33, LANE 77, XING-AI ROAD
+                                                            TAIPEI    114
+                                                            TW
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
@@ -19556,12 +19556,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Inver Grove Heights  MN  55077
                                                             US
 
-00-50-C2                      (hex)                         Owasys Advanced Wireless Devices
-681000-681FFF                 (base 16)                     Owasys Advanced Wireless Devices
-                                                            Parque Tecnologico, 207-B
-                                                            Zamudio  Vizcaya  E-48170
-                                                            ES
-
 00-50-C2                      (hex)                         SAIA Burgess Controls AG
 67E000-67EFFF                 (base 16)                     SAIA Burgess Controls AG
                                                             Bahnhofstrasse 18
@@ -21803,11 +21797,11 @@ B04000-B04FFF                 (base 16)                     Ubiquiti Networks In
                                                             San Jose  CA  95134
                                                             US
 
-00-50-C2                      (hex)                         DAVE SRL
-B9C000-B9CFFF                 (base 16)                     DAVE SRL
-                                                            Via  Talponedo 29
-                                                            Porcia  PN  A-33080
-                                                            IT
+00-50-C2                      (hex)                         Owasys Advanced Wireless Devices
+681000-681FFF                 (base 16)                     Owasys Advanced Wireless Devices
+                                                            Parque Tecnologico, 207-B
+                                                            Zamudio  Vizcaya  E-48170
+                                                            ES
 
 00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
 66A000-66AFFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
@@ -21832,6 +21826,12 @@ BC2000-BC2FFF                 (base 16)                     Xslent Energy Techno
                                                             7428 Redwood Blvd Suite 102
                                                             Novato  CA  94945
                                                             US
+
+00-50-C2                      (hex)                         DAVE SRL
+B9C000-B9CFFF                 (base 16)                     DAVE SRL
+                                                            Via  Talponedo 29
+                                                            Porcia  PN  A-33080
+                                                            IT
 
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
@@ -26120,12 +26120,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Montpellier  HR  34090
                                                             FR
 
-00-50-C2                      (hex)                         Owasys Advanced Wireless Devices
-374000-374FFF                 (base 16)                     Owasys Advanced Wireless Devices
-                                                            Parque Tecnologico, 207-B
-                                                            Zamudio  Vizcaya  E-48170
-                                                            ES
-
 00-50-C2                      (hex)                         Minicom Advanced Systems Ltd
 36E000-36EFFF                 (base 16)                     Minicom Advanced Systems Ltd
                                                             16 Hartom str
@@ -27343,6 +27337,12 @@ D43000-D43FFF                 (base 16)                     DSP4YOU LTd
                                                             Unit 1204, 106 How Ming Street
                                                             Hong Kong    0000
                                                             HK
+
+00-50-C2                      (hex)                         Owasys Advanced Wireless Devices
+374000-374FFF                 (base 16)                     Owasys Advanced Wireless Devices
+                                                            Parque Tecnologico, 207-B
+                                                            Zamudio  Vizcaya  E-48170
+                                                            ES
 
 00-50-C2                      (hex)                         Pumatronix Equipamentos Eletronicos Ltda.
 8C8000-8C8FFF                 (base 16)                     Pumatronix Equipamentos Eletronicos Ltda.
