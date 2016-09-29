@@ -1,0 +1,11 @@
+diff -up hwdata/usb.ids.orig hwdata/usb.ids
+--- hwdata/usb.ids.orig	2016-09-29 11:02:44.000000000 +0200
++++ hwdata/usb.ids	2016-09-29 11:02:54.633089550 +0200
+@@ -13602,7 +13602,6 @@
+ 0e8c  Well Force Electronic Co., Ltd
+ 0e8d  MediaTek Inc.
+ 	0003  MT6227 phone
+-		0e8d 0003  M26 - BT Smart Watch for Android Phones
+ 	0004  MT6227 phone
+ 	0023  S103
+ 	00a5  GSM modem [Medion Surfstick Model:S4222]
