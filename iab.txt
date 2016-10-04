@@ -875,12 +875,6 @@ EA2000-EA2FFF                 (base 16)                     ThinkRF Corp
                                                             Ottawa  Ontario  K2K 0G7
                                                             CA
 
-00-50-C2                      (hex)                         i3 International Inc.
-E98000-E98FFF                 (base 16)                     i3 International Inc.
-                                                            780 Birchmount Road
-                                                            Toronto  Ontario  M1K5H4
-                                                            CA
-
 00-50-C2                      (hex)                         Monsoon Solutions, Inc.
 EB6000-EB6FFF                 (base 16)                     Monsoon Solutions, Inc.
                                                             2405 140th Ave NE
@@ -3410,12 +3404,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Wells  Somerset  BA5 3DG
                                                             GB
 
-00-50-C2                      (hex)                         EDA Industries Srl
-3C0000-3C0FFF                 (base 16)                     EDA Industries Srl
-                                                            Via dell'elettronica
-                                                            Cittaducale  Rieti  02015
-                                                            IT
-
 00-50-C2                      (hex)                         Fluke Biomedical, Radiation Management Services
 3D5000-3D5FFF                 (base 16)                     Fluke Biomedical, Radiation Management Services
                                                             6045 Cochran Rd.
@@ -4622,10 +4610,16 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
                                                             BREST    29228
                                                             FR
 
+00-50-C2                      (hex)                         EDA Industries Pte. Ltd
+3C0000-3C0FFF                 (base 16)                     EDA Industries Pte. Ltd
+                                                            Via dell'elettronica
+                                                            Cittaducale  Rieti  02015
+                                                            IT
+
 00-50-C2                      (hex)                         CODEC Co., Ltd.
 9DF000-9DFFFF                 (base 16)                     CODEC Co., Ltd.
-                                                            1021-1 Kuriki Asao-ward
-                                                            Kawasaki  Kanagawa  215-0033
+                                                            1-29-18 Tamagawa
+                                                            Choufu-shi  Tokyo  182-0025
                                                             JP
 
 00-50-C2                      (hex)                         EMAC, Inc.
@@ -9698,11 +9692,11 @@ FBD000-FBDFFF                 (base 16)                     EATON FHF Funke + Hu
                                                             Mülheim an der Ruhr  NRW  D-45478
                                                             DE
 
-00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
-C63000-C63FFF                 (base 16)                     Potter Electric Signal Co. LLC
-                                                            11790 Troy Lane North
-                                                            Maple Grove  MN  55369
-                                                            US
+00-50-C2                      (hex)                         Helmut Mauell GmbH Werk Weida
+0B9000-0B9FFF                 (base 16)                     Helmut Mauell GmbH Werk Weida
+                                                            Am Rosenhugel 1-7
+                                                            42553 Velbert
+                                                            DE
 
 00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
 7A3000-7A3FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
@@ -9740,11 +9734,11 @@ C0A000-C0AFFF                 (base 16)                     ABB Transmission and
                                                             Vojens    D-6500
                                                             DK
 
-00-50-C2                      (hex)                         Helmut Mauell GmbH Werk Weida
-0B9000-0B9FFF                 (base 16)                     Helmut Mauell GmbH Werk Weida
-                                                            Am Rosenhugel 1-7
-                                                            42553 Velbert
-                                                            DE
+00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
+C63000-C63FFF                 (base 16)                     Potter Electric Signal Co. LLC
+                                                            11790 Troy Lane North
+                                                            Maple Grove  MN  55369
+                                                            US
 
 00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
 EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Speed
@@ -12071,12 +12065,6 @@ A7C000-A7CFFF                 (base 16)                     Pneu-Logic Corporati
                                                             Portland  OR  97224
                                                             US
 
-00-50-C2                      (hex)                         Apantac LLC
-A78000-A78FFF                 (base 16)                     Apantac LLC
-                                                            13500 SW Pacific HWY
-                                                            Portland  OR  97223
-                                                            US
-
 00-50-C2                      (hex)                         Soft & Control Technology s.r.o.
 ACA000-ACAFFF                 (base 16)                     Soft & Control Technology s.r.o.
                                                             Magnezitarska 10
@@ -12436,12 +12424,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             2201 N. Central Expressway
                                                             Richardson  TX  75080
                                                             US
-
-00-50-C2                      (hex)                         Elisra Electronic Systems
-909000-909FFF                 (base 16)                     Elisra Electronic Systems
-                                                            48, Mivtza Kadesh
-                                                            Bene Beraq    51203
-                                                            IL
 
 00-50-C2                      (hex)                         Codex Digital Ltd
 908000-908FFF                 (base 16)                     Codex Digital Ltd
@@ -15607,6 +15589,18 @@ B37000-B37FFF                 (base 16)                     IAdea Corporation
                                                             3F, NO.33, LANE 77, XING-AI ROAD
                                                             TAIPEI    114
                                                             TW
+
+00-50-C2                      (hex)                         Elisra
+909000-909FFF                 (base 16)                     Elisra
+                                                            48, Mivtza Kadesh
+                                                            Bene Beraq    51203
+                                                            IL
+
+00-50-C2                      (hex)                         Apantac LLC
+A78000-A78FFF                 (base 16)                     Apantac LLC
+                                                            13500 SW Pacific HWY
+                                                            Portland  OR  97223
+                                                            US
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
@@ -21731,6 +21725,36 @@ D8B000-D8BFFF                 (base 16)                     Sicon srl
                                                             Scottsdale  AZ  85257
                                                             US
 
+00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+66A000-66AFFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+                                                            ABB Industrial Park
+                                                            Xiamen  Fujian  361005
+                                                            CN
+
+00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+B92000-B92FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
+                                                            Xiamen   Fujian  361006
+                                                            CN
+
+00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+E18000-E18FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
+                                                            Xiamen   Fujian  361006
+                                                            CN
+
+00-50-C2                      (hex)                         Xslent Energy Technologies. LLC
+BC2000-BC2FFF                 (base 16)                     Xslent Energy Technologies. LLC
+                                                            7428 Redwood Blvd Suite 102
+                                                            Novato  CA  94945
+                                                            US
+
+00-50-C2                      (hex)                         DAVE SRL
+B9C000-B9CFFF                 (base 16)                     DAVE SRL
+                                                            Via  Talponedo 29
+                                                            Porcia  PN  A-33080
+                                                            IT
+
 00-50-C2                      (hex)                         Wireless Cables Inc.
 8E2000-8E2FFF                 (base 16)                     Wireless Cables Inc.
                                                             1414 Soquel Ave, Ste 212
@@ -21802,36 +21826,6 @@ B04000-B04FFF                 (base 16)                     Ubiquiti Networks In
                                                             Parque Tecnologico, 207-B
                                                             Zamudio  Vizcaya  E-48170
                                                             ES
-
-00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-66A000-66AFFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-                                                            ABB Industrial Park
-                                                            Xiamen  Fujian  361005
-                                                            CN
-
-00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-B92000-B92FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
-                                                            Xiamen   Fujian  361006
-                                                            CN
-
-00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-E18000-E18FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
-                                                            Xiamen   Fujian  361006
-                                                            CN
-
-00-50-C2                      (hex)                         Xslent Energy Technologies. LLC
-BC2000-BC2FFF                 (base 16)                     Xslent Energy Technologies. LLC
-                                                            7428 Redwood Blvd Suite 102
-                                                            Novato  CA  94945
-                                                            US
-
-00-50-C2                      (hex)                         DAVE SRL
-B9C000-B9CFFF                 (base 16)                     DAVE SRL
-                                                            Via  Talponedo 29
-                                                            Porcia  PN  A-33080
-                                                            IT
 
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
@@ -22216,12 +22210,6 @@ AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             45,Suzukawa
                                                             Isehara  Kanagawa  259-1146
                                                             JP
-
-40-D8-55                      (hex)                         WUHAN XINGTUXINKE ELECTRONIC CO.,LTD
-089000-089FFF                 (base 16)                     WUHAN XINGTUXINKE ELECTRONIC CO.,LTD
-                                                            NO.C3-8F,SOFTWARE PARK
-                                                            Wuhan  Hubei  430074
-                                                            CN
 
 40-D8-55                      (hex)                         Peek Traffic Corporation
 085000-085FFF                 (base 16)                     Peek Traffic Corporation
@@ -27254,6 +27242,48 @@ ADD000-ADDFFF                 (base 16)                      GD Mission Systems
                                                             Scottsdale  Arizona  85157-3812
                                                             US
 
+00-50-C2                      (hex)                         Pumatronix Equipamentos Eletronicos Ltda.
+8C8000-8C8FFF                 (base 16)                     Pumatronix Equipamentos Eletronicos Ltda.
+                                                            Rua Algacyr Munhoz Mader, 3775
+                                                            Curitiba  Paraná  81350-010
+                                                            BR
+
+00-50-C2                      (hex)                         NOVACOMM LTDA
+5FE000-5FEFFF                 (base 16)                     NOVACOMM LTDA
+                                                            R. Benjui , 79
+                                                            São Paulo  SP  04689-000
+                                                            BR
+
+00-50-C2                      (hex)                         Vocality International Ltd
+667000-667FFF                 (base 16)                     Vocality International Ltd
+                                                            Lydling Barn
+                                                            Shackleford  Surrey  GU8 6AP
+                                                            GB
+
+00-50-C2                      (hex)                         Vocality International Ltd
+E3A000-E3AFFF                 (base 16)                     Vocality International Ltd
+                                                            Lydling Barn
+                                                            Guildford  Surrey  GU86AP
+                                                            GB
+
+00-50-C2                      (hex)                         Survalent Technology Corporation
+199000-199FFF                 (base 16)                     Survalent Technology Corporation
+                                                            7965 Heritage Road
+                                                            Brampton  Ontario  L6Y 5X5
+                                                            CA
+
+00-50-C2                      (hex)                         Robert Bosch Healthcare Systems, Inc.
+EA0000-EA0FFF                 (base 16)                     Robert Bosch Healthcare Systems, Inc.
+                                                            2400 Geng Road
+                                                            Palo Alto  CA  94303
+                                                            US
+
+40-D8-55                      (hex)                         Wuhan Xingtuxinke ELectronic Co.,Ltd
+089000-089FFF                 (base 16)                     Wuhan Xingtuxinke ELectronic Co.,Ltd
+                                                            NO.C3-8F,SOFTWARE PARK
+                                                            Wuhan  Hubei  430074
+                                                            CN
+
 40-D8-55                      (hex)                         Aplex Technology Inc.
 1DC000-1DCFFF                 (base 16)                     Aplex Technology Inc.
                                                             2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
@@ -27343,39 +27373,3 @@ D43000-D43FFF                 (base 16)                     DSP4YOU LTd
                                                             Parque Tecnologico, 207-B
                                                             Zamudio  Vizcaya  E-48170
                                                             ES
-
-00-50-C2                      (hex)                         Pumatronix Equipamentos Eletronicos Ltda.
-8C8000-8C8FFF                 (base 16)                     Pumatronix Equipamentos Eletronicos Ltda.
-                                                            Rua Algacyr Munhoz Mader, 3775
-                                                            Curitiba  Paraná  81350-010
-                                                            BR
-
-00-50-C2                      (hex)                         NOVACOMM LTDA
-5FE000-5FEFFF                 (base 16)                     NOVACOMM LTDA
-                                                            R. Benjui , 79
-                                                            São Paulo  SP  04689-000
-                                                            BR
-
-00-50-C2                      (hex)                         Vocality International Ltd
-667000-667FFF                 (base 16)                     Vocality International Ltd
-                                                            Lydling Barn
-                                                            Shackleford  Surrey  GU8 6AP
-                                                            GB
-
-00-50-C2                      (hex)                         Vocality International Ltd
-E3A000-E3AFFF                 (base 16)                     Vocality International Ltd
-                                                            Lydling Barn
-                                                            Guildford  Surrey  GU86AP
-                                                            GB
-
-00-50-C2                      (hex)                         Survalent Technology Corporation
-199000-199FFF                 (base 16)                     Survalent Technology Corporation
-                                                            7965 Heritage Road
-                                                            Brampton  Ontario  L6Y 5X5
-                                                            CA
-
-00-50-C2                      (hex)                         Robert Bosch Healthcare Systems, Inc.
-EA0000-EA0FFF                 (base 16)                     Robert Bosch Healthcare Systems, Inc.
-                                                            2400 Geng Road
-                                                            Palo Alto  CA  94303
-                                                            US
