@@ -16,6 +16,9 @@ CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
 IDFILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
 
+# usb.ids is not in UTF-8
+UTF_IDFILES = pci.ids oui.txt iab.txt pnp.ids
+
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
     clean clog download
 
@@ -55,7 +58,7 @@ check:
 	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@./check-usb-ids.sh
-	@for file in $(IDFILES); do \
+	@for file in $(UTF_IDFILES); do \
 	    text=`LANG=C file $$file`; \
 	    expected="$$file: UTF-8 Unicode text"; \
 	    if [[ "$$text" != "$$expected" ]]; then \
