@@ -18,8 +18,8 @@ echo "Listing usb devices:"
 sudo docker run -t --privileged --rm=true \
     -v `pwd`/usb.ids:/usr/share/hwdata/usb.ids:ro \
     -v "$tmpdir:/mnt/out" \
-    miminar/hwdata-check \
-    /bin/bash -c 'lsusb 2>/mnt/out/err.out' || :
+    vcrhonek/hwdata-check \
+    /bin/bash -c 'lsusb 2>/mnt/out/err.out; python /usr/share/doc/python-hwdata/example.py 2>>/mnt/out/err.out' || :
 if [[ `cat $tmpdir/err.out | wc -l` -gt 0 ]]; then
     echo "ERRORS:"
     nl $tmpdir/err.out
