@@ -1574,12 +1574,6 @@ AA6000-AA6FFF                 (base 16)                     Bassett Electronic S
                                                             Wootton Bassett  Wiltshire  SN4 7DB
                                                             GB
 
-00-50-C2                      (hex)                         Eberspächer Electronics GmbH & Co. KG
-A9C000-A9CFFF                 (base 16)                     Eberspächer Electronics GmbH & Co. KG
-                                                            Robert-Bosch-Straße 6
-                                                            Göppingen  BW  73037
-                                                            DE
-
 00-50-C2                      (hex)                         Power Medical Interventions
 AE2000-AE2FFF                 (base 16)                     Power Medical Interventions
                                                             2021 Cabot Blvd. West
@@ -4621,6 +4615,12 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
                                                             1-29-18 Tamagawa
                                                             Choufu-shi  Tokyo  182-0025
                                                             JP
+
+00-50-C2                      (hex)                         Star Electronics GmbH & Co. KG
+A9C000-A9CFFF                 (base 16)                     Star Electronics GmbH & Co. KG
+                                                            Jahnstraße 86
+                                                            Göppingen  BW  73037
+                                                            DE
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -9602,6 +9602,48 @@ E0A000-E0AFFF                 (base 16)                     Sicon srl
                                                             Scottsdale  AZ  85257
                                                             US
 
+00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+7A3000-7A3FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
+                                                            Xiamen   Fujian  361006
+                                                            CN
+
+00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+9F9000-9F9FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
+                                                            Xiamen   Fujian  361006
+                                                            CN
+
+00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+C0A000-C0AFFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
+                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
+                                                            Xiamen   Fujian  361006
+                                                            CN
+
+00-50-C2                      (hex)                         PYRAMID Computer GmbH
+5E2000-5E2FFF                 (base 16)                     PYRAMID Computer GmbH
+                                                            Boetzinger Strasse 60
+                                                            Freiburg  BW  79111
+                                                            DE
+
+00-50-C2                      (hex)                         dresden-elektronik
+188000-188FFF                 (base 16)                     dresden-elektronik
+                                                            Glasewaldtstraße 22
+                                                            Dresden    D-01277
+                                                            DE
+
+00-50-C2                      (hex)                         Partner Voxstream A/S
+178000-178FFF                 (base 16)                     Partner Voxstream A/S
+                                                            Trekanten 17
+                                                            Vojens    D-6500
+                                                            DK
+
+00-50-C2                      (hex)                         Helmut Mauell GmbH Werk Weida
+0B9000-0B9FFF                 (base 16)                     Helmut Mauell GmbH Werk Weida
+                                                            Am Rosenhugel 1-7
+                                                            42553 Velbert
+                                                            DE
+
 00-50-C2                      (hex)                         Pixel Velocity, Inc
 594000-594FFF                 (base 16)                     Pixel Velocity, Inc
                                                             3917 Research Park Drive
@@ -9691,48 +9733,6 @@ FBD000-FBDFFF                 (base 16)                     EATON FHF Funke + Hu
                                                             Gewerbeallee 15-19
                                                             Mülheim an der Ruhr  NRW  D-45478
                                                             DE
-
-00-50-C2                      (hex)                         Helmut Mauell GmbH Werk Weida
-0B9000-0B9FFF                 (base 16)                     Helmut Mauell GmbH Werk Weida
-                                                            Am Rosenhugel 1-7
-                                                            42553 Velbert
-                                                            DE
-
-00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-7A3000-7A3FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
-                                                            Xiamen   Fujian  361006
-                                                            CN
-
-00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-9F9000-9F9FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
-                                                            Xiamen   Fujian  361006
-                                                            CN
-
-00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-C0A000-C0AFFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
-                                                            ABB Industrial Park, Torch Hi-Tech Industrial Development Zone
-                                                            Xiamen   Fujian  361006
-                                                            CN
-
-00-50-C2                      (hex)                         PYRAMID Computer GmbH
-5E2000-5E2FFF                 (base 16)                     PYRAMID Computer GmbH
-                                                            Boetzinger Strasse 60
-                                                            Freiburg  BW  79111
-                                                            DE
-
-00-50-C2                      (hex)                         dresden-elektronik
-188000-188FFF                 (base 16)                     dresden-elektronik
-                                                            Glasewaldtstraße 22
-                                                            Dresden    D-01277
-                                                            DE
-
-00-50-C2                      (hex)                         Partner Voxstream A/S
-178000-178FFF                 (base 16)                     Partner Voxstream A/S
-                                                            Trekanten 17
-                                                            Vojens    D-6500
-                                                            DK
 
 00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
 C63000-C63FFF                 (base 16)                     Potter Electric Signal Co. LLC
