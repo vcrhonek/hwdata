@@ -959,12 +959,6 @@ E6E000-E6EFFF                 (base 16)                     Power-One Italia S.p
                                                             Terranuova Bracciolini  Arezzo  52028
                                                             IT
 
-00-50-C2                      (hex)                         Edgeware AB
-E64000-E64FFF                 (base 16)                     Edgeware AB
-                                                            Master Samuelsgatan 56
-                                                            Stockholm    11121
-                                                            SE
-
 00-50-C2                      (hex)                         Teplovodokhran
 E28000-E28FFF                 (base 16)                     Teplovodokhran
                                                             Novaya, 51v
@@ -4621,6 +4615,12 @@ A9C000-A9CFFF                 (base 16)                     Star Electronics Gmb
                                                             Jahnstraße 86
                                                             Göppingen  BW  73037
                                                             DE
+
+00-50-C2                      (hex)                         Edgeware AB
+E64000-E64FFF                 (base 16)                     Edgeware AB
+                                                            Master Samuelsgatan 42
+                                                            Stockholm    11157
+                                                            SE
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -19388,12 +19388,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Shatin  NT  HK
                                                             HK
 
-00-50-C2                      (hex)                         Edgeware AB
-6B2000-6B2FFF                 (base 16)                     Edgeware AB
-                                                            Drottninggatan 61
-                                                            Stockholm    111 21
-                                                            SE
-
 00-50-C2                      (hex)                         Armida Technologies Corporation
 6A9000-6A9FFF                 (base 16)                     Armida Technologies Corporation
                                                             2313 Lockhill Selma Rd #242
@@ -21122,12 +21116,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Fountain Valley  CA  92708
                                                             US
 
-00-50-C2                      (hex)                         ExtremeSpeed Inc.
-168000-168FFF                 (base 16)                     ExtremeSpeed Inc.
-                                                            PO Box 600
-                                                            Mannville  Alberta  T0B 2W0
-                                                            CA
-
 00-50-C2                      (hex)                         APCON, Inc.
 146000-146FFF                 (base 16)                     APCON, Inc.
                                                             17938 SW Upper Bones Ferry Road
@@ -21433,12 +21421,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             4603 Kinsway, Suite 402
                                                             Burnby  British Columbia  V5H 4M4
                                                             CA
-
-00-50-C2                      (hex)                         Extreme Copper, Inc.
-0B5000-0B5FFF                 (base 16)                     Extreme Copper, Inc.
-                                                            4342 Avenida Gregory
-                                                            Spring Valley  CA  91977
-                                                            US
 
 00-50-C2                      (hex)                         Beeline Networks, Inc.
 0B1000-0B1FFF                 (base 16)                     Beeline Networks, Inc.
@@ -21827,6 +21809,24 @@ B04000-B04FFF                 (base 16)                     Ubiquiti Networks In
                                                             Zamudio  Vizcaya  E-48170
                                                             ES
 
+00-50-C2                      (hex)                         ExtremeSpeed Inc.
+168000-168FFF                 (base 16)                     ExtremeSpeed Inc.
+                                                            PO Box 600
+                                                            Mannville  Alberta  T0B 2W0
+                                                            CA
+
+00-50-C2                      (hex)                         EXTREME COPPER,  INC.
+0B5000-0B5FFF                 (base 16)                     EXTREME COPPER,  INC.
+                                                            4342 Avenida Gregory
+                                                            Spring Valley  CA  91977
+                                                            US
+
+00-50-C2                      (hex)                         Edgeware AB
+6B2000-6B2FFF                 (base 16)                     Edgeware AB
+                                                            Master Samuelsgatan 42
+                                                            Stockholm    11157
+                                                            SE
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -22168,12 +22168,6 @@ AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             Augustenborg Landevej 19
                                                             Soenderborg  DK  6400
                                                             DK
-
-40-D8-55                      (hex)                         Nanjing TIANSU Automation Control System Co., Ltd.
-0B1000-0B1FFF                 (base 16)                     Nanjing TIANSU Automation Control System Co., Ltd.
-                                                            Building 5, New Town Science & Technology Park
-                                                            Nanjing  China  210019
-                                                            US
 
 40-D8-55                      (hex)                         Whiptail
 0BB000-0BBFFF                 (base 16)                     Whiptail
@@ -27373,3 +27367,9 @@ D43000-D43FFF                 (base 16)                     DSP4YOU LTd
                                                             Parque Tecnologico, 207-B
                                                             Zamudio  Vizcaya  E-48170
                                                             ES
+
+40-D8-55                      (hex)                         Nanjing TIANSU Automation Control System Co., Ltd.
+0B1000-0B1FFF                 (base 16)                     Nanjing TIANSU Automation Control System Co., Ltd.
+                                                            Building 5, New Town Science & Technology Park
+                                                            Nanjing    210019
+                                                            US
