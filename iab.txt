@@ -4622,6 +4622,12 @@ E64000-E64FFF                 (base 16)                     Edgeware AB
                                                             Stockholm    11157
                                                             SE
 
+00-50-C2                      (hex)                         i3 International Inc.
+E98000-E98FFF                 (base 16)                     i3 International Inc.
+                                                            780 Birchmount Road
+                                                            Toronto  Ontario  M1K5H4
+                                                            CA
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -10033,12 +10039,6 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             100 - 321 McDermot Ave
                                                             Winnipeg  Manitoba  R3A 0A3
                                                             CA
-
-40-D8-55                      (hex)                         OOO Group of Industrial Technologies
-119000-119FFF                 (base 16)                     OOO Group of Industrial Technologies
-                                                            Profsoyuznaya st. 124A
-                                                            Moscow  Moscow  117321
-                                                            RU
 
 40-D8-55                      (hex)                         CAVALRY STORAGE INC
 10F000-10FFFF                 (base 16)                     CAVALRY STORAGE INC
@@ -15601,6 +15601,12 @@ A78000-A78FFF                 (base 16)                     Apantac LLC
                                                             13500 SW Pacific HWY
                                                             Portland  OR  97223
                                                             US
+
+40-D8-55                      (hex)                         OOO Group of Industrial Technologies
+119000-119FFF                 (base 16)                     OOO Group of Industrial Technologies
+                                                            Profsoyuznaya st. 124A
+                                                            Moscow  Moscow  117321
+                                                            RU
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
