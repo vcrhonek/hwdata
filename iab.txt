@@ -779,12 +779,6 @@ F91000-F91FFF                 (base 16)                     RE2 Inc
                                                             Pittsburgh  Pennsylvania  15201
                                                             US
 
-00-50-C2                      (hex)                         Computerwise, Inc.
-F8F000-F8FFFF                 (base 16)                     Computerwise, Inc.
-                                                            302 N. Winchester Ln.
-                                                            Olathe  KS  66062
-                                                            US
-
 00-50-C2                      (hex)                         BORYEU TECHNOLOGY CO.,LTD
 F5F000-F5FFFF                 (base 16)                     BORYEU TECHNOLOGY CO.,LTD
                                                             2F.,No756,Zhongzheng Road
@@ -1405,12 +1399,6 @@ C6B000-C6BFFF                 (base 16)                     SiGarden Sp z o.o.
                                                             ul. Trzy Lipy 3
                                                             Gdańsk  woj. Pomorskie  80-034
                                                             PL
-
-00-50-C2                      (hex)                         DORLET S.A.
-C6C000-C6CFFF                 (base 16)                     DORLET S.A.
-                                                            Albert Einstein 34
-                                                            Miñano  Mayor  Alava  01510
-                                                            ES
 
 00-50-C2                      (hex)                         MSB Elektronik und Geraetebau GmbH
 C6F000-C6FFFF                 (base 16)                     MSB Elektronik und Geraetebau GmbH
@@ -3122,12 +3110,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Sun Valley  CA  91352
                                                             US
 
-00-50-C2                      (hex)                         Computerwise, Inc.
-505000-505FFF                 (base 16)                     Computerwise, Inc.
-                                                            302 N. Winchester
-                                                            Olathe  Ks  66062
-                                                            US
-
 00-50-C2                      (hex)                         MedAvant Healthcare
 4F0000-4F0FFF                 (base 16)                     MedAvant Healthcare
                                                             2533 Centennial Blvd
@@ -3962,12 +3944,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Torrance  CA  90502
                                                             US
 
-00-50-C2                      (hex)                         Computerwise, Inc.
-163000-163FFF                 (base 16)                     Computerwise, Inc.
-                                                            302 N. Winchester Ln.
-                                                            Olathe  KS  66062
-                                                            US
-
 00-50-C2                      (hex)                         Taishodo Seiko Co., Ltd.
 170000-170FFF                 (base 16)                     Taishodo Seiko Co., Ltd.
                                                             1-34, Kawahana-Chou, Toyokawa-shi,
@@ -4627,6 +4603,30 @@ E98000-E98FFF                 (base 16)                     i3 International Inc
                                                             780 Birchmount Road
                                                             Toronto  Ontario  M1K5H4
                                                             CA
+
+00-50-C2                      (hex)                         Computerwise, Inc.
+505000-505FFF                 (base 16)                     Computerwise, Inc.
+                                                            302 N. Winchester
+                                                            Olathe  KS  66062
+                                                            US
+
+00-50-C2                      (hex)                         Computerwise, Inc.
+163000-163FFF                 (base 16)                     Computerwise, Inc.
+                                                            302 N. Winchester
+                                                            Olathe  KS  66062
+                                                            US
+
+00-50-C2                      (hex)                         Computerwise, Inc.
+F8F000-F8FFFF                 (base 16)                     Computerwise, Inc.
+                                                            302 N. Winchester
+                                                            Olathe  KS  66062
+                                                            US
+
+00-50-C2                      (hex)                         DORLET SAU
+C6C000-C6CFFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Miñano  Mayor  Alava  01510
+                                                            ES
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -6889,12 +6889,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             21 Lindisfarne Drive
                                                             Kenilworth  Warwickshire  CV8 2PQ
                                                             GB
-
-00-50-C2                      (hex)                         Computerwise, Inc.
-9A3000-9A3FFF                 (base 16)                     Computerwise, Inc.
-                                                            302 N. Winchester
-                                                            Olathe  Ks  66062
-                                                            US
 
 00-50-C2                      (hex)                         Cambustion Ltd
 999000-999FFF                 (base 16)                     Cambustion Ltd
@@ -9746,6 +9740,12 @@ C63000-C63FFF                 (base 16)                     Potter Electric Sign
                                                             Maple Grove  MN  55369
                                                             US
 
+00-50-C2                      (hex)                         Computerwise, Inc.
+9A3000-9A3FFF                 (base 16)                     Computerwise, Inc.
+                                                            302 N. Winchester
+                                                            Olathe  KS  66062
+                                                            US
+
 00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
 EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Speed
                                                             5 Barr Rd
@@ -9950,12 +9950,6 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             Setagayaku  Tokyo  158-0093
                                                             JP
 
-40-D8-55                      (hex)                         DORLET S.A.U
-15A000-15AFFF                 (base 16)                     DORLET S.A.U
-                                                            Albert Einstein 34
-                                                            Miñano Mayor  Alava  01510
-                                                            ES
-
 40-D8-55                      (hex)                         Home Automation Europe
 152000-152FFF                 (base 16)                     Home Automation Europe
                                                             Joan Muyskenweg 22
@@ -10021,12 +10015,6 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             Brendelweg 98
                                                             Delmenhorst  Niedersachsen  27755
                                                             DE
-
-40-D8-55                      (hex)                         Keocko International
-0E2000-0E2FFF                 (base 16)                     Keocko International
-                                                            Paulay Ede utca 6.
-                                                              Budapest  1061
-                                                            HU
 
 40-D8-55                      (hex)                         Richter
 0E0000-0E0FFF                 (base 16)                     Richter
@@ -10174,12 +10162,6 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             Augustenborglandevej 7
                                                             Sønderborg  Denmark  6400
                                                             DK
-
-40-D8-55                      (hex)                         DORLET SA
-06F000-06FFFF                 (base 16)                     DORLET SA
-                                                            Albert Eistein 34
-                                                            Miñano Mayor  Alava  01510
-                                                            ES
 
 40-D8-55                      (hex)                         Tokyo Denki Gijutsu Kogyo
 09B000-09BFFF                 (base 16)                     Tokyo Denki Gijutsu Kogyo
@@ -12292,12 +12274,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Berliner Allee 42
                                                             Langenhagen  Niedersachsen  30855
                                                             DE
-
-00-50-C2                      (hex)                         DORLET S.A.
-9E7000-9E7FFF                 (base 16)                     DORLET S.A.
-                                                            Albert Einstein 34
-                                                            Miñanoo Mayor  ALAVA  01510
-                                                            ES
 
 00-50-C2                      (hex)                         DSCI
 986000-986FFF                 (base 16)                     DSCI
@@ -15608,6 +15584,30 @@ A78000-A78FFF                 (base 16)                     Apantac LLC
                                                             Moscow  Moscow  117321
                                                             RU
 
+40-D8-55                      (hex)                         Keocko Holding Kft.
+0E2000-0E2FFF                 (base 16)                     Keocko Holding Kft.
+                                                            6000 Kecskemét
+                                                             Petőfi Sándor utca    11. 9. em. 11.
+                                                            HU
+
+40-D8-55                      (hex)                         DORLET SAU
+15A000-15AFFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Miñano Mayor  Alava  01510
+                                                            ES
+
+40-D8-55                      (hex)                         DORLET SAU
+06F000-06FFFF                 (base 16)                     DORLET SAU
+                                                            Albert Eistein 34
+                                                            Miñano Mayor  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+9E7000-9E7FFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Miñanoo Mayor  ALAVA  01510
+                                                            ES
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -16557,12 +16557,6 @@ F31000-F31FFF                 (base 16)                     Ruetz Technologies G
 F32000-F32FFF                 (base 16)                     Net4Things
                                                             Paseo de la Florida, nº 2
                                                             Madrid    28008
-                                                            ES
-
-00-50-C2                      (hex)                         DORLET S.A.
-E70000-E70FFF                 (base 16)                     DORLET S.A.
-                                                            Albert Einstein 34
-                                                            Vitoria  Alava  01510
                                                             ES
 
 00-50-C2                      (hex)                         Netmaker
@@ -21008,12 +21002,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             San jose  CA  95131
                                                             US
 
-00-50-C2                      (hex)                         DORLET S.A.
-1E5000-1E5FFF                 (base 16)                     DORLET S.A.
-                                                            Albert Einstein 34
-                                                            Miñanoo Mayor  ALAVA  01510
-                                                            ES
-
 00-50-C2                      (hex)                         Ross Video Limited
 226000-226FFF                 (base 16)                     Ross Video Limited
                                                             8 John St.
@@ -21833,6 +21821,18 @@ B04000-B04FFF                 (base 16)                     Ubiquiti Networks In
                                                             Stockholm    11157
                                                             SE
 
+00-50-C2                      (hex)                         DORLET SAU
+E70000-E70FFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+1E5000-1E5FFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Miñanoo Mayor  ALAVA  01510
+                                                            ES
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -22523,12 +22523,6 @@ EFD000-EFDFFF                 (base 16)                     Sanmina
                                                             Ornskoldsvik    89123
                                                             SE
 
-00-50-C2                      (hex)                         HORIBA ABX
-EF9000-EF9FFF                 (base 16)                     HORIBA ABX
-                                                            rue du caducee
-                                                            Montpellier    34000
-                                                            FR
-
 00-50-C2                      (hex)                         DSP DESIGN LTD
 F5C000-F5CFFF                 (base 16)                     DSP DESIGN LTD
                                                             TAPTON PARK INNOVATION CENTRE
@@ -23056,12 +23050,6 @@ DE8000-DE8FFF                 (base 16)                     Visual Productions
                                                             Rollandstraat 55ZW
                                                             Haarlem    2013SM
                                                             NL
-
-00-50-C2                      (hex)                         DRS ITS
-DDE000-DDEFFF                 (base 16)                     DRS ITS
-                                                            100 N. Babcock St.
-                                                            Melbourne  Florida  32935
-                                                            US
 
 00-50-C2                      (hex)                         SYSTECH
 DD4000-DD4FFF                 (base 16)                     SYSTECH
@@ -24854,12 +24842,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Budapest  Pest  1037
                                                             HU
 
-00-50-C2                      (hex)                         DORLET S.A.
-796000-796FFF                 (base 16)                     DORLET S.A.
-                                                            Albert Einstein 34
-                                                            Vitoria-gasteiz  Alava  01510
-                                                            ES
-
 00-50-C2                      (hex)                         M Squared Lasers Limited
 791000-791FFF                 (base 16)                     M Squared Lasers Limited
                                                             1 Technology Terrace
@@ -25369,12 +25351,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             434-140 Oryu-Dong
                                                             Incheon    404-300
                                                             KR
-
-00-50-C2                      (hex)                         DORLET S.A.
-5AF000-5AFFFF                 (base 16)                     DORLET S.A.
-                                                            Albert Einstein 34
-                                                            Vitoria  Alava  01510
-                                                            ES
 
 00-50-C2                      (hex)                         INCOTEC GmbH
 5B0000-5B0FFF                 (base 16)                     INCOTEC GmbH
@@ -27379,3 +27355,27 @@ D43000-D43FFF                 (base 16)                     DSP4YOU LTd
                                                             Building 5, New Town Science & Technology Park
                                                             Nanjing    210019
                                                             US
+
+00-50-C2                      (hex)                         HORIBA ABX
+EF9000-EF9FFF                 (base 16)                     HORIBA ABX
+                                                            rue du caducee
+                                                            Montpellier    34000
+                                                            FR
+
+00-50-C2                      (hex)                         DRS Imaging and Targeting Solutions
+DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targeting Solutions
+                                                            100 N. Babcock St.
+                                                            Melbourne  Florida  32935
+                                                            US
+
+00-50-C2                      (hex)                         DORLET SAU
+796000-796FFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria-gasteiz  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+5AF000-5AFFFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria  Alava  01510
+                                                            ES
