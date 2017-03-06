@@ -2456,12 +2456,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Carlsbad  CA  92011
                                                             US
 
-00-50-C2                      (hex)                         Aircell
-7CE000-7CEFFF                 (base 16)                     Aircell
-                                                            303 S. Technology Dr.
-                                                            Broomfield  CO  80021
-                                                            US
-
 00-50-C2                      (hex)                         Lyngdorf Audio Aps
 7C6000-7C6FFF                 (base 16)                     Lyngdorf Audio Aps
                                                             Ulvevej 28
@@ -3336,12 +3330,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
 454000-454FFF                 (base 16)                     Brivo Systems, LLC
                                                             4330 East-West Highway
                                                             Bethesda  MD  20814
-                                                            US
-
-00-50-C2                      (hex)                         Aircell
-455000-455FFF                 (base 16)                     Aircell
-                                                            1172 Century Drive
-                                                            Louisville  Colorado  80027
                                                             US
 
 00-50-C2                      (hex)                         Advanced Micro Controls Inc.
@@ -4627,6 +4615,18 @@ C6C000-C6CFFF                 (base 16)                     DORLET SAU
                                                             Albert Einstein 34
                                                             Miñano  Mayor  Alava  01510
                                                             ES
+
+00-50-C2                      (hex)                         Gogo BA
+455000-455FFF                 (base 16)                     Gogo BA
+                                                            1172 Century Drive
+                                                            Louisville  Colorado  80027
+                                                            US
+
+00-50-C2                      (hex)                         Gogo BA
+7CE000-7CEFFF                 (base 16)                     Gogo BA
+                                                            303 S. Technology Dr.
+                                                            Broomfield  CO  80021
+                                                            US
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -10715,12 +10715,6 @@ EB3000-EB3FFF                 (base 16)                     AR RF/Microwave Inst
                                                             Souderton  PA  18964
                                                             US
 
-00-50-C2                      (hex)                         Aircell
-EAF000-EAFFFF                 (base 16)                     Aircell
-                                                            303 S. Technology Ct.
-                                                            Broomfield  Co  80021
-                                                            US
-
 00-50-C2                      (hex)                         Hentschel System GmbH
 E9B000-E9BFFF                 (base 16)                     Hentschel System GmbH
                                                             Carl-Buderus-Str. 5
@@ -13364,12 +13358,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Olching    D-82140
                                                             DE
 
-00-50-C2                      (hex)                         Aircell
-67C000-67CFFF                 (base 16)                     Aircell
-                                                            1172 Century Drive
-                                                            Louisville  Colorado  80027
-                                                            US
-
 00-50-C2                      (hex)                         Shenzhen Huazhong Technology Inc
 606000-606FFF                 (base 16)                     Shenzhen Huazhong Technology Inc
                                                             Room 1710,17/F,Tower B,phase 1,
@@ -13867,12 +13855,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Via Falzarego 9/11
                                                             Bollate  Milano  20021
                                                             IT
-
-00-50-C2                      (hex)                         Armorlink CO .Ltd
-49E000-49EFFF                 (base 16)                     Armorlink CO .Ltd
-                                                            No. 515 of xinzhuang industry park shenfu road
-                                                            Shanghai province  SHANGHAI  201108
-                                                            CN
 
 00-50-C2                      (hex)                         TelASIC Communications, Inc.
 49A000-49AFFF                 (base 16)                     TelASIC Communications, Inc.
@@ -15608,6 +15590,24 @@ A78000-A78FFF                 (base 16)                     Apantac LLC
                                                             Miñanoo Mayor  ALAVA  01510
                                                             ES
 
+00-50-C2                      (hex)                         Gogo BA
+67C000-67CFFF                 (base 16)                     Gogo BA
+                                                            1172 Century Drive
+                                                            Louisville  Colorado  80027
+                                                            US
+
+00-50-C2                      (hex)                         Gogo BA
+EAF000-EAFFFF                 (base 16)                     Gogo BA
+                                                            303 S. Technology Ct.
+                                                            Broomfield  Co  80021
+                                                            US
+
+00-50-C2                      (hex)                         Armorlink Co .Ltd
+49E000-49EFFF                 (base 16)                     Armorlink Co .Ltd
+                                                            No. 515 of Xinzhuang Industry Park Shenfu Road
+                                                            Shanghai Province  Shanghai  201108
+                                                            CN
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -17062,12 +17062,6 @@ CFE000-CFEFFF                 (base 16)                     Techleader
                                                             HYEON BLDG 4TH FL 157-1 CHUNUI-DONG
                                                             BUCHEON-SHI  KYONGGI-DO  420-859
                                                             KR
-
-00-50-C2                      (hex)                         Aircell
-CF5000-CF5FFF                 (base 16)                     Aircell
-                                                            303 S. Technology Dr.
-                                                            Broomfield  CO  80021
-                                                            US
 
 00-50-C2                      (hex)                         Baudisch Electronic GmbH
 CF4000-CF4FFF                 (base 16)                     Baudisch Electronic GmbH
@@ -21833,6 +21827,12 @@ E70000-E70FFF                 (base 16)                     DORLET SAU
                                                             Miñanoo Mayor  ALAVA  01510
                                                             ES
 
+00-50-C2                      (hex)                         Gogo BA
+CF5000-CF5FFF                 (base 16)                     Gogo BA
+                                                            303 S. Technology Dr.
+                                                            Broomfield  CO  80021
+                                                            US
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -22377,12 +22377,6 @@ AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi-Sp
 012000-012FFF                 (base 16)                     Sencon Inc.
                                                             6385 W. 74th Street
                                                             Bedford Park  IL  60638
-                                                            US
-
-40-D8-55                      (hex)                         Aircell
-00B000-00BFFF                 (base 16)                     Aircell
-                                                            303 S Technology Ct
-                                                            Broomfield  CO  80021
                                                             US
 
 40-D8-55                      (hex)                         Digital Audio SA
@@ -27369,13 +27363,19 @@ DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targ
                                                             US
 
 00-50-C2                      (hex)                         DORLET SAU
+5AF000-5AFFFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
 796000-796FFF                 (base 16)                     DORLET SAU
                                                             Albert Einstein 34
                                                             Vitoria-gasteiz  Alava  01510
                                                             ES
 
-00-50-C2                      (hex)                         DORLET SAU
-5AF000-5AFFFF                 (base 16)                     DORLET SAU
-                                                            Albert Einstein 34
-                                                            Vitoria  Alava  01510
-                                                            ES
+40-D8-55                      (hex)                         Gogo BA
+00B000-00BFFF                 (base 16)                     Gogo BA
+                                                            303 S Technology Ct
+                                                            Broomfield  CO  80021
+                                                            US
