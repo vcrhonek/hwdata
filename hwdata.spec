@@ -4,8 +4,8 @@ Version: 0.298
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-Source: https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}.tar.bz2
-URL:    http://git.fedorahosted.org/git/hwdata.git
+Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
+URL:    https://github.com/vcrhonek/hwdata
 BuildArch: noarch
 
 %description

@@ -5,7 +5,7 @@ ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^0-9-]\+\).*/\L\1/
     # add revision to tag name for rhel branches
     TAGNAME := $(NAME)-$(VERSION)-$(RELEASE)
 else
-    TAGNAME := $(NAME)-$(VERSION)
+    TAGNAME := v$(VERSION)
 endif
 SOURCEDIR := $(shell pwd)
 ARCHIVE := $(TAGNAME).tar.bz2
@@ -82,7 +82,7 @@ create-archive:
 	@echo ""
 	@echo "The final archive is in $(ARCHIVE)"
 
-archive: check clean commit tag create-archive
+archive: check clean commit tag
 
 upload:
 	@scp $(ARCHIVE) fedorahosted.org:$(NAME)
