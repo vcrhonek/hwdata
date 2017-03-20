@@ -1,7 +1,7 @@
 # This package is arch-specific just because of bundling different files for
 # different architectures. No -debuginfo package is needed.
 %global     debug_package %{nil}
-%global     uprelease   8.4
+%global     uprelease   8.5
 
 Name:       hwdata
 Summary:    Hardware identification and configuration data
@@ -9,8 +9,8 @@ Version:    0.252
 Release:    %{uprelease}%{?dist}
 License:    GPLv2+
 Group:      System Environment/Base
-Source0:    https://fedorahosted.org/releases/h/w/%{name}/%{name}-%{version}-%{uprelease}.tar.bz2
-URL:        http://git.fedorahosted.org/git/hwdata.git
+Source:     https://github.com/vcrhonek/hwdata/archive/v%{version}-%{?uprelease}.tar.gz
+URL:        https://github.com/vcrhonek/hwdata
 
 BuildRequires   : perl
 BuildRequires   : perl(Date::Format)
@@ -25,10 +25,6 @@ such as the pci.ids and usb.ids databases.
 
 %prep
 %setup -q -n %{name}-%{version}-%{uprelease}
-%ifarch ppc ppc64
-patch -b -B nx_crypto -p1 < blacklist-nx_crypto.patch
-%endif
-patch < remove-wrong-usb-id.patch
 %configure
 
 %build
@@ -54,6 +50,12 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Mar 20 2017 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.252-8.5
+- Updated pci, usb and vendor ids
+  Resolves: #1386133 #1424763
+- Removed module nx_crypto from blacklist on PowerPCs
+  Resolves: #1264326
+
 * Thu Sep 29 2016 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.252-8.4
 - Remove wrong entry from usb ids.
   Resolves: #1380159

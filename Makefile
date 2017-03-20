@@ -3,7 +3,7 @@ VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}\n" hwdata.spec | head -n 1)
 ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^0-9-]\+\).*/\L\1/p'), rhel)
     # add revision to tag name for rhel branches
-    TAGNAME := $(NAME)-$(VERSION)-$(RELEASE)
+    TAGNAME := v$(VERSION)-$(RELEASE)
 else
     TAGNAME := $(NAME)-$(VERSION)
 endif
@@ -112,7 +112,7 @@ create-archive:
 	@echo ""
 	@echo "The final archive is in $(TAGNAME).tar.bz2"
 
-archive: check clean commit tag create-archive
+archive: check clean commit tag
 
 upload:
 	@scp $(TAGNAME).tar.bz2 fedorahosted.org:$(NAME)

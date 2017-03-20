@@ -1,9 +1,0 @@
-Index: hwdata/blacklist.conf
-===================================================================
---- hwdata.orig/blacklist.conf
-+++ hwdata/blacklist.conf
-@@ -43,3 +43,4 @@ blacklist chsc_sch
- 
- # crypto algorithms
- blacklist sha1-mb
-+blacklist nx_crypto
