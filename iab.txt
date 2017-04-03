@@ -428,12 +428,6 @@ EE6000-EE6FFF                 (base 16)                     Narinet, Inc.
                                                             Beaverton  Oregon  97006
                                                             US
 
-40-D8-55                      (hex)                         Circuitlink Pty Ltd
-046000-046FFF                 (base 16)                     Circuitlink Pty Ltd
-                                                            7a / 30 Foundry Rd
-                                                            Seven Hills  NSW  2147
-                                                            AU
-
 40-D8-55                      (hex)                         Mango Communicaitons Inc.
 042000-042FFF                 (base 16)                     Mango Communicaitons Inc.
                                                             4606 Morningside Dr.
@@ -4628,6 +4622,12 @@ C6C000-C6CFFF                 (base 16)                     DORLET SAU
                                                             Broomfield  CO  80021
                                                             US
 
+40-D8-55                      (hex)                         Circuitlink Pty Ltd
+046000-046FFF                 (base 16)                     Circuitlink Pty Ltd
+                                                            4 / 87 Station Road
+                                                            Seven Hills  NSW  2147
+                                                            AU
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -8012,12 +8012,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             MURRYSVILLE  PENNSYLVANIA  15668
                                                             US
 
-00-50-C2                      (hex)                         HORIBA MEDICAL
-589000-589FFF                 (base 16)                     HORIBA MEDICAL
-                                                            rue du caducee
-                                                            Montpellier  Herault  34000
-                                                            FR
-
 00-50-C2                      (hex)                         Dixell S.p.a.
 58A000-58AFFF                 (base 16)                     Dixell S.p.a.
                                                             Via Dell'Industria 27
@@ -9746,6 +9740,12 @@ C63000-C63FFF                 (base 16)                     Potter Electric Sign
                                                             Olathe  KS  66062
                                                             US
 
+00-50-C2                      (hex)                         HORIBA ABX SAS
+589000-589FFF                 (base 16)                     HORIBA ABX SAS
+                                                            rue du caducee
+                                                            Montpellier  Herault  34000
+                                                            FR
+
 00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
 EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Speed
                                                             5 Barr Rd
@@ -10499,12 +10499,6 @@ EEA000-EEAFFF                 (base 16)                     Positioneering Limit
                                                             Aberdeen  Aberdeenshire  AB12 3BR
                                                             GB
 
-00-50-C2                      (hex)                         Applied Micro Electronics AME BV
-F33000-F33FFF                 (base 16)                     Applied Micro Electronics AME BV
-                                                            Esp 100
-                                                            Eindhoven  Noord Brabant  5633AA
-                                                            NL
-
 00-50-C2                      (hex)                         Miris AB
 F30000-F30FFF                 (base 16)                     Miris AB
                                                             Kungsgatan 115
@@ -10660,12 +10654,6 @@ E7E000-E7EFFF                 (base 16)                     Swareflex GmbH
                                                             Josef-Heiss-Straße 1
                                                             Vomp  Tyrol  6134
                                                             AT
-
-00-50-C2                      (hex)                         Applied Micro Electronics AME BV
-E4C000-E4CFFF                 (base 16)                     Applied Micro Electronics AME BV
-                                                            Esp 100
-                                                            Eindhoven  Noord Brabant  5633 AA
-                                                            NL
 
 00-50-C2                      (hex)                         PCSC
 E4D000-E4DFFF                 (base 16)                     PCSC
@@ -15608,6 +15596,18 @@ EAF000-EAFFFF                 (base 16)                     Gogo BA
                                                             Shanghai Province  Shanghai  201108
                                                             CN
 
+00-50-C2                      (hex)                         Applied Micro Electronics AME bv
+F33000-F33FFF                 (base 16)                     Applied Micro Electronics AME bv
+                                                            Esp 100
+                                                            Eindhoven  Noord Brabant  5633AA
+                                                            NL
+
+00-50-C2                      (hex)                         Applied Micro Electronics AME bv
+E4C000-E4CFFF                 (base 16)                     Applied Micro Electronics AME bv
+                                                            Esp 100
+                                                            Eindhoven  Noord Brabant  5633 AA
+                                                            NL
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -17857,12 +17857,6 @@ B36000-B36FFF                 (base 16)                     CRDE
                                                             ZI DES GRANDS CAMPS
                                                             MERCUES  LOT  46090
                                                             FR
-
-00-50-C2                      (hex)                         Applied Micro Electronics AME BV
-B30000-B30FFF                 (base 16)                     Applied Micro Electronics AME BV
-                                                            ESP 100
-                                                            Eindhoven  NoordBrabant  5633 AA
-                                                            NL
 
 00-50-C2                      (hex)                         Concepteers, LLC
 B2C000-B2CFFF                 (base 16)                     Concepteers, LLC
@@ -20930,12 +20924,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Chung Ho City  Taipei  235
                                                             TW
 
-00-50-C2                      (hex)                         Fracarro Radioindustrie SPA
-21C000-21CFFF                 (base 16)                     Fracarro Radioindustrie SPA
-                                                            Via Cazzaro 3
-                                                            Castelfranco Veneto  Treviso  31033
-                                                            IT
-
 00-50-C2                      (hex)                         Level Control Systems
 216000-216FFF                 (base 16)                     Level Control Systems
                                                             #42 - 100 Kal Lake Rd.
@@ -21833,6 +21821,18 @@ CF5000-CF5FFF                 (base 16)                     Gogo BA
                                                             Broomfield  CO  80021
                                                             US
 
+00-50-C2                      (hex)                         Fracarro srl
+21C000-21CFFF                 (base 16)                     Fracarro srl
+                                                            Via Cazzaro 3
+                                                            Castelfranco Veneto  Treviso  31033
+                                                            IT
+
+00-50-C2                      (hex)                         Applied Micro Electronics AME bv
+B30000-B30FFF                 (base 16)                     Applied Micro Electronics AME bv
+                                                            ESP 100
+                                                            Eindhoven  NoordBrabant  5633 AA
+                                                            NL
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -21958,12 +21958,6 @@ AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi-Sp
                                                             3476 Dayton Street
                                                             Denver  CO  80238
                                                             US
-
-40-D8-55                      (hex)                         HORIBA ABX
-1BD000-1BDFFF                 (base 16)                     HORIBA ABX
-                                                            rue du caducee
-                                                            Montpellier    34000
-                                                            FR
 
 40-D8-55                      (hex)                         Beking Industrieele automatisering
 1B9000-1B9FFF                 (base 16)                     Beking Industrieele automatisering
@@ -27350,12 +27344,6 @@ D43000-D43FFF                 (base 16)                     DSP4YOU LTd
                                                             Nanjing    210019
                                                             US
 
-00-50-C2                      (hex)                         HORIBA ABX
-EF9000-EF9FFF                 (base 16)                     HORIBA ABX
-                                                            rue du caducee
-                                                            Montpellier    34000
-                                                            FR
-
 00-50-C2                      (hex)                         DRS Imaging and Targeting Solutions
 DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targeting Solutions
                                                             100 N. Babcock St.
@@ -27363,15 +27351,15 @@ DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targ
                                                             US
 
 00-50-C2                      (hex)                         DORLET SAU
-5AF000-5AFFFF                 (base 16)                     DORLET SAU
-                                                            Albert Einstein 34
-                                                            Vitoria  Alava  01510
-                                                            ES
-
-00-50-C2                      (hex)                         DORLET SAU
 796000-796FFF                 (base 16)                     DORLET SAU
                                                             Albert Einstein 34
                                                             Vitoria-gasteiz  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+5AF000-5AFFFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria  Alava  01510
                                                             ES
 
 40-D8-55                      (hex)                         Gogo BA
@@ -27379,3 +27367,15 @@ DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targ
                                                             303 S Technology Ct
                                                             Broomfield  CO  80021
                                                             US
+
+00-50-C2                      (hex)                         HORIBA ABX SAS
+EF9000-EF9FFF                 (base 16)                     HORIBA ABX SAS
+                                                            rue du caducee
+                                                            Montpellier  Herault  34000
+                                                            FR
+
+40-D8-55                      (hex)                         HORIBA ABX SAS
+1BD000-1BDFFF                 (base 16)                     HORIBA ABX SAS
+                                                            rue du caducee
+                                                            Montpellier  Herault  34000
+                                                            FR
