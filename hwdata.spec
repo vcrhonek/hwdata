@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.299
+Version: 0.300
 Release: 1%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -33,6 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Tue May 09 2017 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.300-1
+- Updated pci, usb and vendor ids.
+
 * Mon Apr 03 2017 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.299-1
 - Updated pci, usb and vendor ids.
 
