@@ -3788,12 +3788,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Suwanne  GA  30024
                                                             US
 
-00-50-C2                      (hex)                         WOLF Industrial Systems Inc.
-17A000-17AFFF                 (base 16)                     WOLF Industrial Systems Inc.
-                                                            5 Foxfire Chase
-                                                            Uxbridge  Ontario  L9P 1R4
-                                                            CA
-
 00-50-C2                      (hex)                         N&P Technologies
 174000-174FFF                 (base 16)                     N&P Technologies
                                                             Samsung Jangchung Branch
@@ -4627,6 +4621,12 @@ AC4000-AC4FFF                 (base 16)                     Orion Technologies,L
                                                             Robert-Koch-Strasse 39
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
+
+00-50-C2                      (hex)                         WOLF Advanced Technology.
+17A000-17AFFF                 (base 16)                     WOLF Advanced Technology.
+                                                            2 Campbell Drive, Suite 200
+                                                            Uxbridge  Ontario  L9P 1H6
+                                                            CA
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -8450,12 +8450,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Vern Sur Seiche    35770
                                                             FR
 
-00-50-C2                      (hex)                         North Pole Engineering, Inc.
-34F000-34FFFF                 (base 16)                     North Pole Engineering, Inc.
-                                                            212 3rd Ave N
-                                                            Minneapolis  Minnesota  55401
-                                                            US
-
 00-50-C2                      (hex)                         Ecutel Systems, Inc.
 34B000-34BFFF                 (base 16)                     Ecutel Systems, Inc.
                                                             2300 Corporate Park Drive
@@ -9723,12 +9717,6 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
                                                             PR
 
 00-50-C2                      (hex)                         Phytec Messtechnik GmbH
-459000-459FFF                 (base 16)                     Phytec Messtechnik GmbH
-                                                            Robert-Koch-Strasse 39
-                                                            Mainz  Rheinland-Pfalz  55129
-                                                            DE
-
-00-50-C2                      (hex)                         Phytec Messtechnik GmbH
 144000-144FFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Strasse 39
                                                             Mainz    D-55129
@@ -9745,6 +9733,18 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
                                                             Robert-Koch-Straße  39
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
+
+00-50-C2                      (hex)                         Phytec Messtechnik GmbH
+459000-459FFF                 (base 16)                     Phytec Messtechnik GmbH
+                                                            Robert-Koch-Strasse 39
+                                                            Mainz  Rheinland-Pfalz  55129
+                                                            DE
+
+00-50-C2                      (hex)                         North Pole Engineering, Inc.
+34F000-34FFFF                 (base 16)                     North Pole Engineering, Inc.
+                                                            221 N. 1st. St., Suite 310
+                                                            Minneapolis  MN  55401
+                                                            US
 
 00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
 EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Speed
@@ -13274,12 +13274,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
 
-00-50-C2                      (hex)                         Speech Technology Center, Ltd.
-63F000-63FFFF                 (base 16)                     Speech Technology Center, Ltd.
-                                                            4 Krasutskogo st.
-                                                            St.Petersburg    196084
-                                                            RU
-
 00-50-C2                      (hex)                         Powis Corporation
 63B000-63BFFF                 (base 16)                     Powis Corporation
                                                             2301 NW. Jefferson
@@ -15607,6 +15601,12 @@ E4C000-E4CFFF                 (base 16)                     Applied Micro Electr
                                                             Robert-Koch-Strasse 39
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
+
+00-50-C2                      (hex)                         SPEECH TECHNOLOGY CENTER LIMITED
+63F000-63FFFF                 (base 16)                     SPEECH TECHNOLOGY CENTER LIMITED
+                                                            4 Krasutskogo st.
+                                                            St.Petersburg    196084
+                                                            RU
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
@@ -21791,18 +21791,6 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Orlando  FL  32826
                                                             US
 
-00-50-C2                      (hex)                         Delphi Display Systems, Inc.
-301000-301FFF                 (base 16)                     Delphi Display Systems, Inc.
-                                                            3160 Pullman Street
-                                                            Costa Mesa  CA  92626
-                                                            US
-
-00-50-C2                      (hex)                         Delphi Display Systems, Inc.
-578000-578FFF                 (base 16)                     Delphi Display Systems, Inc.
-                                                            3160 Pullman Street
-                                                            Costa Mesa  CA  92626
-                                                            US
-
 00-50-C2                      (hex)                         MedAvant Healthcare
 3E9000-3E9FFF                 (base 16)                     MedAvant Healthcare
                                                             2533 Centennial Blvd
@@ -21820,6 +21808,18 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             15F, No. 88, Chung Hsiao E. Rd., Sec. 2,
                                                             Taipei    100
                                                             TW
+
+00-50-C2                      (hex)                         Delphi Display Systems, Inc.
+301000-301FFF                 (base 16)                     Delphi Display Systems, Inc.
+                                                            3160 Pullman Street
+                                                            Costa Mesa  CA  92626
+                                                            US
+
+00-50-C2                      (hex)                         Delphi Display Systems, Inc.
+578000-578FFF                 (base 16)                     Delphi Display Systems, Inc.
+                                                            3160 Pullman Street
+                                                            Costa Mesa  CA  92626
+                                                            US
 
 00-50-C2                      (hex)                         Phytec Messtechnik GmbH
 32A000-32AFFF                 (base 16)                     Phytec Messtechnik GmbH
@@ -26312,12 +26312,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             SAS NAGAR  PUNJAB  160059
                                                             IN
 
-00-50-C2                      (hex)                         Handtmann Maschinenfabrik GmbH&Co.KG
-25F000-25FFFF                 (base 16)                     Handtmann Maschinenfabrik GmbH&Co.KG
-                                                            Hubertus Liebrecht Str. 10-12
-                                                            Biberach  D-BW  88483
-                                                            DE
-
 00-50-C2                      (hex)                         Omicron Ceti AB
 259000-259FFF                 (base 16)                     Omicron Ceti AB
                                                             Borgarfjordsgatan 7
@@ -27327,15 +27321,15 @@ DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targ
                                                             US
 
 00-50-C2                      (hex)                         DORLET SAU
-796000-796FFF                 (base 16)                     DORLET SAU
-                                                            Albert Einstein 34
-                                                            Vitoria-gasteiz  Alava  01510
-                                                            ES
-
-00-50-C2                      (hex)                         DORLET SAU
 5AF000-5AFFFF                 (base 16)                     DORLET SAU
                                                             Albert Einstein 34
                                                             Vitoria  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+796000-796FFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria-gasteiz  Alava  01510
                                                             ES
 
 40-D8-55                      (hex)                         Gogo BA
@@ -27378,4 +27372,10 @@ EF9000-EF9FFF                 (base 16)                     HORIBA ABX SAS
 485000-485FFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Straße  39
                                                             Mainz  Rheinland-Pfalz  55129
+                                                            DE
+
+00-50-C2                      (hex)                         Albert Handtmann Maschinenfabrik GmbH&Co.KG
+25F000-25FFFF                 (base 16)                     Albert Handtmann Maschinenfabrik GmbH&Co.KG
+                                                            Hubertus Liebrecht Str. 10-12
+                                                            Biberach  D-BW  88483
                                                             DE
