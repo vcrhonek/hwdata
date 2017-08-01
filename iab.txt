@@ -6704,12 +6704,6 @@ A3E000-A3EFFF                 (base 16)                     DUEVI SNC DI MORA E 
                                                             Piossasco  Torino  10045
                                                             IT
 
-00-50-C2                      (hex)                         Telecor Inc.
-A3A000-A3AFFF                 (base 16)                     Telecor Inc.
-                                                            1114 Westport Crescent
-                                                            Mississauga  Ontario  L5T 1G1
-                                                            CA
-
 00-50-C2                      (hex)                         SAMH Engineering Services
 A1D000-A1DFFF                 (base 16)                     SAMH Engineering Services
                                                             1 Leopardstown Drive
@@ -7597,12 +7591,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Kievskaja 14B
                                                             Vinnitsa    21009
                                                             UA
-
-00-50-C2                      (hex)                         Axis Network Technology
-6E7000-6E7FFF                 (base 16)                     Axis Network Technology
-                                                            Unit7, Midshires Business Park
-                                                            Aylesbury  Bucks  HP19 8HL
-                                                            GB
 
 00-50-C2                      (hex)                         Version-T
 621000-621FFF                 (base 16)                     Version-T
@@ -9717,6 +9705,12 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
                                                             PR
 
 00-50-C2                      (hex)                         Phytec Messtechnik GmbH
+459000-459FFF                 (base 16)                     Phytec Messtechnik GmbH
+                                                            Robert-Koch-Strasse 39
+                                                            Mainz  Rheinland-Pfalz  55129
+                                                            DE
+
+00-50-C2                      (hex)                         Phytec Messtechnik GmbH
 144000-144FFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Strasse 39
                                                             Mainz    D-55129
@@ -9734,17 +9728,23 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
 
-00-50-C2                      (hex)                         Phytec Messtechnik GmbH
-459000-459FFF                 (base 16)                     Phytec Messtechnik GmbH
-                                                            Robert-Koch-Strasse 39
-                                                            Mainz  Rheinland-Pfalz  55129
-                                                            DE
-
 00-50-C2                      (hex)                         North Pole Engineering, Inc.
 34F000-34FFFF                 (base 16)                     North Pole Engineering, Inc.
                                                             221 N. 1st. St., Suite 310
                                                             Minneapolis  MN  55401
                                                             US
+
+00-50-C2                      (hex)                         Telecor Inc.
+A3A000-A3AFFF                 (base 16)                     Telecor Inc.
+                                                            6205 Kestrel Road
+                                                            Mississauga  Ontario  L5T 2A1
+                                                            CA
+
+00-50-C2                      (hex)                         Ace Axis Limited
+6E7000-6E7FFF                 (base 16)                     Ace Axis Limited
+                                                            602 Delta Business Park, Welton Road
+                                                            Swindon    SN5 7XP
+                                                            GB
 
 00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
 EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Speed
@@ -19160,12 +19160,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Aachen  NRW  52064
                                                             DE
 
-00-50-C2                      (hex)                         Schnick-Schnack-Systems GmbH
-6D1000-6D1FFF                 (base 16)                     Schnick-Schnack-Systems GmbH
-                                                            Heinrich Pesch Str. 14
-                                                            Koeln (Cologne)  NRW  50739
-                                                            DE
-
 00-50-C2                      (hex)                         Widmer Time Recorder Co., Inc.
 6CC000-6CCFFF                 (base 16)                     Widmer Time Recorder Co., Inc.
                                                             p.o. box 588
@@ -21791,6 +21785,18 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Orlando  FL  32826
                                                             US
 
+00-50-C2                      (hex)                         Delphi Display Systems, Inc.
+301000-301FFF                 (base 16)                     Delphi Display Systems, Inc.
+                                                            3160 Pullman Street
+                                                            Costa Mesa  CA  92626
+                                                            US
+
+00-50-C2                      (hex)                         Delphi Display Systems, Inc.
+578000-578FFF                 (base 16)                     Delphi Display Systems, Inc.
+                                                            3160 Pullman Street
+                                                            Costa Mesa  CA  92626
+                                                            US
+
 00-50-C2                      (hex)                         MedAvant Healthcare
 3E9000-3E9FFF                 (base 16)                     MedAvant Healthcare
                                                             2533 Centennial Blvd
@@ -21809,18 +21815,6 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Taipei    100
                                                             TW
 
-00-50-C2                      (hex)                         Delphi Display Systems, Inc.
-301000-301FFF                 (base 16)                     Delphi Display Systems, Inc.
-                                                            3160 Pullman Street
-                                                            Costa Mesa  CA  92626
-                                                            US
-
-00-50-C2                      (hex)                         Delphi Display Systems, Inc.
-578000-578FFF                 (base 16)                     Delphi Display Systems, Inc.
-                                                            3160 Pullman Street
-                                                            Costa Mesa  CA  92626
-                                                            US
-
 00-50-C2                      (hex)                         Phytec Messtechnik GmbH
 32A000-32AFFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Straße  39
@@ -21831,6 +21825,12 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
 782000-782FFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Straße 39
                                                             Mainz  Rheinland-Pfalz  55129
+                                                            DE
+
+00-50-C2                      (hex)                         Schnick-Schnack-Systems GmbH
+6D1000-6D1FFF                 (base 16)                     Schnick-Schnack-Systems GmbH
+                                                            Mathias-Brüggen Str. 79
+                                                            Koeln    50829
                                                             DE
 
 00-50-C2                      (hex)                         Baxter International Inc
@@ -27321,15 +27321,15 @@ DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targ
                                                             US
 
 00-50-C2                      (hex)                         DORLET SAU
-5AF000-5AFFFF                 (base 16)                     DORLET SAU
-                                                            Albert Einstein 34
-                                                            Vitoria  Alava  01510
-                                                            ES
-
-00-50-C2                      (hex)                         DORLET SAU
 796000-796FFF                 (base 16)                     DORLET SAU
                                                             Albert Einstein 34
                                                             Vitoria-gasteiz  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+5AF000-5AFFFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria  Alava  01510
                                                             ES
 
 40-D8-55                      (hex)                         Gogo BA
