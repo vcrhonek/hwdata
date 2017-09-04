@@ -4880,12 +4880,6 @@ E85BF0     (base 16)		Imaging Diagnostics
 				Taipei  Taiwan  10680
 				TW
 
-78-46-C4   (hex)		DAEHAP HYPER-TECH
-7846C4     (base 16)		DAEHAP HYPER-TECH
-				#A-805, Woolim Lions Vally 5-cha, #144-3 Sangdaewon-dong, Jungwon-Gu
-				Seongnam  Gyeonggi-Do  462-726
-				US
-
 0C-D9-C1   (hex)		Visteon Corporation
 0CD9C1     (base 16)		Visteon Corporation
 				One Village Center Drive
@@ -7315,12 +7309,6 @@ EC2368     (base 16)		IntelliVoice Co.,Ltd.
 				3-6 Kioicho
 				Chiyoda  Tokyo  102-0094
 				JP
-
-B4-52-53   (hex)		Seagate Technology
-B45253     (base 16)		Seagate Technology
-				1280 Disc Drive
-				Shakopee  MN  55379
-				US
 
 04-DD-4C   (hex)		Velocytech
 04DD4C     (base 16)		Velocytech
@@ -11676,12 +11664,6 @@ A8CE90     (base 16)		CVC
 00185B     (base 16)		Network Chemistry, Inc
 				1700 Seaport Blvd
 				Redwood City  CA  94063
-				US
-
-00-18-62   (hex)		Seagate Technology
-001862     (base 16)		Seagate Technology
-				1280 Disc Drive
-				Shakopee  MN  55379
 				US
 
 00-18-4F   (hex)		8 Ways Technology Corp.
@@ -23504,12 +23486,6 @@ AC44F2     (base 16)		YAMAHA CORPORATION
 				Beijing    100053
 				CN
 
-AC-0D-1B   (hex)		LG Electronics (Mobile Communications)
-AC0D1B     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 A0-04-3E   (hex)		Parker Hannifin Manufacturing Germany GmbH & Co. KG
 A0043E     (base 16)		Parker Hannifin Manufacturing Germany GmbH & Co. KG
 				Gutenbergstrasse 38
@@ -23996,30 +23972,6 @@ F40A4A     (base 16)		INDUSNET Communication Technology Co.,LTD
 				chengdu  sichuan  610041
 				CN
 
-E8-37-7A   (hex)		ZyXEL Communications Corporation
-E8377A     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-04-BF-6D   (hex)		ZyXEL Communications Corporation
-04BF6D     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-00-A0-C5   (hex)		ZyXEL Communications Corporation
-00A0C5     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-10-7B-EF   (hex)		ZyXEL Communications Corporation
-107BEF     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 C0-C9-76   (hex)		Shenzhen TINNO Mobile Technology Corp.
 C0C976     (base 16)		Shenzhen TINNO Mobile Technology Corp.
 				4/F, H-3 Building, Qiao Cheng Eastern Industrial Park, Overseas Chinese Town, Shenzhen
@@ -24242,12 +24194,6 @@ E02A82     (base 16)		Universal Global Scientific Industrial Co., Ltd.
 				Gangneung-si  Gangwon-do  25570
 				KR
 
-60-E3-AC   (hex)		LG Electronics (Mobile Communications)
-60E3AC     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 00-13-15   (hex)		Sony Interactive Entertainment Inc.
 001315     (base 16)		Sony Interactive Entertainment Inc.
 				1-7-1 Konan
@@ -24384,84 +24330,6 @@ A0BB3E     (base 16)		IEEE Registration Authority
 3CBDD8     (base 16)		LG ELECTRONICS INC
 				19-1, CHEONGHO-RI, JINWI-MYEON
 				PYEONGTAEK  GYEONGGI-DO  451-713
-				KR
-
-0C-48-85   (hex)		LG Electronics (Mobile Communications)
-0C4885     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Kasan-dong, Kumchon-gu
-				  Seoul  153-801
-				KR
-
-88-C9-D0   (hex)		LG Electronics (Mobile Communications)
-88C9D0     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-70-05-14   (hex)		LG Electronics (Mobile Communications)
-700514     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
-E8-92-A4   (hex)		LG Electronics (Mobile Communications)
-E892A4     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
-A8-16-B2   (hex)		LG Electronics (Mobile Communications)
-A816B2     (base 16)		LG Electronics (Mobile Communications)
-				60-39 , Kasan-dong, Gumcheon-gu
-				  Seoul  153-801
-				KR
-
-C4-43-8F   (hex)		LG Electronics (Mobile Communications)
-C4438F     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
-20-21-A5   (hex)		LG Electronics (Mobile Communications)
-2021A5     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Gasan-dong,Gumcheon-gu
-				Seoul    153-023
-				KR
-
-6C-D6-8A   (hex)		LG Electronics (Mobile Communications)
-6CD68A     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Gasan-dong,Gumcheon-gu
-				Seoul    153-023
-				KR
-
-00-1E-75   (hex)		LG Electronics (Mobile Communications)
-001E75     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Kasan-dong,Kumchon-ku
-				Seoul    153-801
-				KR
-
-00-26-E2   (hex)		LG Electronics (Mobile Communications)
-0026E2     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Gasan-dong,Gumcheon-gu
-				Seoul    153-023
-				KR
-
-00-1F-E3   (hex)		LG Electronics (Mobile Communications)
-001FE3     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Kasan-dong,Kumchon-ku,
-				Seoul    153-801
-				KR
-
-2C-54-CF   (hex)		LG Electronics (Mobile Communications)
-2C54CF     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-F8-95-C7   (hex)		LG Electronics (Mobile Communications)
-F895C7     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul
 				KR
 
 48-88-CA   (hex)		Motorola (Wuhan) Mobility Technologies Communication Co., Ltd.
@@ -25730,12 +25598,6 @@ C025E9     (base 16)		TP-LINK TECHNOLOGIES CO.,LTD.
 				Kanata  Ontario  K2K 2E6
 				CA
 
-DC-0B-34   (hex)		LG Electronics (Mobile Communications)
-DC0B34     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 A4-D9-A4   (hex)		neXus ID Solutions AB
 A4D9A4     (base 16)		neXus ID Solutions AB
 				Telefonvägen 26
@@ -25867,12 +25729,6 @@ AC233F     (base 16)		Shenzhen Minew Technologies Co., Ltd.
 				223 E. De La Guerra St.
 				Santa Barbara  CA  93101
 				US
-
-2C-59-8A   (hex)		LG Electronics (Mobile Communications)
-2C598A     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
 
 E0-50-8B   (hex)		Zhejiang Dahua Technology Co., Ltd.
 E0508B     (base 16)		Zhejiang Dahua Technology Co., Ltd.
@@ -27386,12 +27242,6 @@ E0D848     (base 16)		Dell Inc.
 				Round Rock  TX  78682
 				US
 
-14-5B-E1   (hex)		nyantec UG (haftungsbeschränkt)
-145BE1     (base 16)		nyantec UG (haftungsbeschränkt)
-				Marienstraße 14
-				Berlin    10117
-				DE
-
 00-18-7D   (hex)		Armorlink Co .Ltd
 00187D     (base 16)		Armorlink Co .Ltd
 				No. 515 of Xinzhuang Industry Park Shenfu Road
@@ -28349,12 +28199,6 @@ F449EF     (base 16)		EMSTONE
 				Guro-Gu  Seoul  08381
 				KR
 
-3C-18-A0   (hex)		Luxshare Precision Industry Company Limited
-3C18A0     (base 16)		Luxshare Precision Industry Company Limited
-				Floor 2, Block A, Sanyo New Industrial Area
-				West Haoyi Community, Shajing Subdistrict Office  Bao'an District, Shenzhen, Guangdong  523000
-				CN
-
 28-56-C1   (hex)		Harman International
 2856C1     (base 16)		Harman International
 				15th Fl, 400 Atlantic Street
@@ -28474,6 +28318,306 @@ ECFABC     (base 16)		Espressif Inc.
 				Room 204, Building 2, 690 Bibo Road, Pudong New Area
 				Shanghai  Shanghai  201203
 				CN
+
+B0-FC-36   (hex)		CyberTAN Technology Inc.
+B0FC36     (base 16)		CyberTAN Technology Inc.
+				99 Park Ave III, Hsinchu Science Park
+				Hsinchu    308
+				TW
+
+78-46-C4   (hex)		DAEHAP HYPER-TECH
+7846C4     (base 16)		DAEHAP HYPER-TECH
+				#A-805, Woolim Lions Vally 5-cha, #144-3 Sangdaewon-dong, Jungwon-Gu
+				Seongnam  Gyeonggi-Do  462-726
+				US
+
+58-C9-35   (hex)		Chiun Mai Communication Systems, Inc
+58C935     (base 16)		Chiun Mai Communication Systems, Inc
+				No.4, Minsheng St., Tucheng District
+				New Taipei City    23678
+				TW
+
+28-C1-3C   (hex)		Hon Hai Precision Ind. Co., Ltd.
+28C13C     (base 16)		Hon Hai Precision Ind. Co., Ltd.
+				GuangDongShenZhen
+				ShenZhen  GuangDong  518109
+				CN
+
+0C-52-03   (hex)		AGM GROUP LIMITED
+0C5203     (base 16)		AGM GROUP LIMITED
+				4F,Building B,HuaFeng Ind park,Gushu,Xixiang,BaoAn,ShenZhen,China
+				ShenZhen  GuangDong  518100
+				CN
+
+3C-18-A0   (hex)		Luxshare Precision Industry Company Limited
+3C18A0     (base 16)		Luxshare Precision Industry Company Limited
+				Floor 2, Block A, Sanyo New Industrial Area
+				West Haoyi Community, Shajing Subdistrict Office  Bao'an District, Shenzhen, Guangdong  523000
+				CN
+
+BC-F2-92   (hex)		PLANTRONICS, INC.
+BCF292     (base 16)		PLANTRONICS, INC.
+				345 ENCINAL STREET
+				SANTA CRUZ  CA  95060
+				US
+
+F8-95-C7   (hex)		LG Electronics (Mobile Communications)
+F895C7     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+C4-43-8F   (hex)		LG Electronics (Mobile Communications)
+C4438F     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+A8-16-B2   (hex)		LG Electronics (Mobile Communications)
+A816B2     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+E8-92-A4   (hex)		LG Electronics (Mobile Communications)
+E892A4     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+70-05-14   (hex)		LG Electronics (Mobile Communications)
+700514     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+6C-D6-8A   (hex)		LG Electronics (Mobile Communications)
+6CD68A     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+20-21-A5   (hex)		LG Electronics (Mobile Communications)
+2021A5     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+0C-48-85   (hex)		LG Electronics (Mobile Communications)
+0C4885     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+DC-0B-34   (hex)		LG Electronics (Mobile Communications)
+DC0B34     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+2C-59-8A   (hex)		LG Electronics (Mobile Communications)
+2C598A     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+88-C9-D0   (hex)		LG Electronics (Mobile Communications)
+88C9D0     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+2C-54-CF   (hex)		LG Electronics (Mobile Communications)
+2C54CF     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-1F-E3   (hex)		LG Electronics (Mobile Communications)
+001FE3     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-26-E2   (hex)		LG Electronics (Mobile Communications)
+0026E2     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-1E-75   (hex)		LG Electronics (Mobile Communications)
+001E75     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+AC-0D-1B   (hex)		LG Electronics (Mobile Communications)
+AC0D1B     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+60-E3-AC   (hex)		LG Electronics (Mobile Communications)
+60E3AC     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+54-7D-CD   (hex)		Texas Instruments
+547DCD     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+1C-DF-52   (hex)		Texas Instruments
+1CDF52     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+18-F0-E4   (hex)		Xiaomi Communications Co Ltd
+18F0E4     (base 16)		Xiaomi Communications Co Ltd
+				The Rainbow City of China Resources , No.68 Qinghe Middle Street , Haidian District
+				Beijing  Beijing  100089
+				CN
+
+80-3B-F6   (hex)		LOOK EASY INTERNATIONAL LIMITED
+803BF6     (base 16)		LOOK EASY INTERNATIONAL LIMITED
+				4th Floor, No. 551, Guang-Fu South Road
+				Taipei  Xinyi District  11074
+				TW
+
+F4-17-B8   (hex)		AirTies Wireless Networks
+F417B8     (base 16)		AirTies Wireless Networks
+				Mithat Uluünlü Sokak No:23, Esentepe / Sisli
+				Istanbul  Marmara  34394
+				TR
+
+5C-AD-76   (hex)		Shenzhen TCL New Technology Co., Ltd
+5CAD76     (base 16)		Shenzhen TCL New Technology Co., Ltd
+				B area,10 Floor, TCL Multimedia Building, TCL International E city, #1001 Zhongshan Park Road, Nanshan District
+				Shenzhen  Guangdong  518052
+				CN
+
+4C-52-62   (hex)		Fujitsu Technology Solutions GmbH
+4C5262     (base 16)		Fujitsu Technology Solutions GmbH
+				Buergermeister-Ulrich-Strasse 100
+				Augsburg  Bayern  86199
+				DE
+
+EC-70-97   (hex)		ARRIS Group, Inc.
+EC7097     (base 16)		ARRIS Group, Inc.
+				6450 Sequence Drive
+				San Diego  CA  92121
+				US
+
+C0-A0-0D   (hex)		ARRIS Group, Inc.
+C0A00D     (base 16)		ARRIS Group, Inc.
+				6450 Sequence Drive
+				San Diego  CA  92121
+				US
+
+EC-83-50   (hex)		Microsoft Corporation
+EC8350     (base 16)		Microsoft Corporation
+				One Microsoft Way
+				REDMOND  WA  98052
+				US
+
+38-73-EA   (hex)		IEEE Registration Authority
+3873EA     (base 16)		IEEE Registration Authority
+				445 Hoes Lane
+				Piscataway  NJ  08554
+				US
+
+0C-CE-F6   (hex)		Guizhou Fortuneship Technology Co., Ltd
+0CCEF6     (base 16)		Guizhou Fortuneship Technology Co., Ltd
+				2nd Floor, Factory Building 4, Hi-Tech Industrial Park, Xinpu Economic Development Zone, Xinpu New District
+				Zunyi City  Guizhou Province  56300
+				CN
+
+54-9A-4C   (hex)		GUANGDONG HOMECARE TECHNOLOGY CO.,LTD.
+549A4C     (base 16)		GUANGDONG HOMECARE TECHNOLOGY CO.,LTD.
+				8F,12#, Taihua Industrial Park, Hangkong Rd., Gushu， Baoan District
+				Shenzhen  Guangdong  518128
+				CN
+
+00-A0-C5   (hex)		Zyxel Communications Corporation
+00A0C5     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+04-BF-6D   (hex)		Zyxel Communications Corporation
+04BF6D     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+E8-37-7A   (hex)		Zyxel Communications Corporation
+E8377A     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+10-7B-EF   (hex)		Zyxel Communications Corporation
+107BEF     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+D0-7F-C4   (hex)		Ou Wei Technology Co.，Ltd. of Shenzhen City
+D07FC4     (base 16)		Ou Wei Technology Co.，Ltd. of Shenzhen City
+				Registered Address: Room 201, Block D, Huahan Innovation Park, Langshan Road, Xili Street, Nanshan District,
+				Shenzhen  Guangdong  518057
+				CN
+
+6C-B2-AE   (hex)		Cisco Systems, Inc
+6CB2AE     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+6C-4E-86   (hex)		Third Millennium Systems Ltd.
+6C4E86     (base 16)		Third Millennium Systems Ltd.
+				18/19 Torfaen Business Centre, Panteg Way
+				New Inn, Pontypool  Torfaen  NP4 0LS
+				GB
+
+30-C5-07   (hex)		ECI Telecom Ltd.
+30C507     (base 16)		ECI Telecom Ltd.
+				30 Hasivim St.
+				Petah Tikva    49133
+				IL
+
+14-5B-E1   (hex)		nyantec GmbH
+145BE1     (base 16)		nyantec GmbH
+				Europaplatz 2
+				Berlin    10557
+				DE
+
+B8-CA-04   (hex)		Holtek Semiconductor Inc.
+B8CA04     (base 16)		Holtek Semiconductor Inc.
+				No.3, Creation Rd. II, Science Park
+				Hsinchu    300
+				TW
+
+B8-C8-EB   (hex)		ITEL MOBILE LIMITED
+B8C8EB     (base 16)		ITEL MOBILE LIMITED
+				RM B3 & B4 BLOCK B, KO FAI INDUSTRIAL BUILDING  NO.7 KO FAI ROAD, YAU TONG, KLN, H.K
+				Hong Kong  KOWLOON  999077
+				HK
+
+00-18-62   (hex)		Seagate Technology
+001862     (base 16)		Seagate Technology
+				1280 Disc Drive
+				Shakopee  MN  55379
+				US
+
+B4-52-53   (hex)		Seagate Technology
+B45253     (base 16)		Seagate Technology
+				1280 Disc Drive
+				Shakopee  MN  55379
+				US
 
 0C-6F-9C   (hex)		Shaw Communications Inc.
 0C6F9C     (base 16)		Shaw Communications Inc.
@@ -36863,9 +37007,6 @@ C4FCE4     (base 16)		DishTV NZ Ltd
 				Heerbrugg  SG  9435
 				CH
 
-C0-22-50   (hex)		Private
-C02250     (base 16)		Private
-
 64-BC-11   (hex)		CombiQ AB
 64BC11     (base 16)		CombiQ AB
 				Science Park
@@ -39221,12 +39362,6 @@ D0D286     (base 16)		Beckman Coulter K.K.
 				Yamato-shi    242-0017
 				JP
 
-00-1D-F4   (hex)		Magellan Technology Pty Limited
-001DF4     (base 16)		Magellan Technology Pty Limited
-				65 Johnston Street
-				Annandale  NSW  2000
-				AU
-
 00-1D-EF   (hex)		TRIMM, INC.
 001DEF     (base 16)		TRIMM, INC.
 				407 RAILROAD STREET
@@ -41233,12 +41368,6 @@ D0D286     (base 16)		Beckman Coulter K.K.
 				Venus House
 				Aldermaston  Berkshire  RG7 8DA
 				GB
-
-00-14-C3   (hex)		Seagate Technology
-0014C3     (base 16)		Seagate Technology
-				M/S NW1F01
-				Longmont  CO  80503
-				US
 
 00-14-BC   (hex)		SYNECTIC TELECOM EXPORTS PVT. LTD.
 0014BC     (base 16)		SYNECTIC TELECOM EXPORTS PVT. LTD.
@@ -45584,12 +45713,6 @@ D0D286     (base 16)		Beckman Coulter K.K.
 				Nishi-ku,  Yokohama,  220-6121
 				JP
 
-00-04-CF   (hex)		Seagate Technology
-0004CF     (base 16)		Seagate Technology
-				M/S NW1F01
-				Longmont  CO  80503
-				US
-
 00-04-C9   (hex)		Micro Electron Co., Ltd.
 0004C9     (base 16)		Micro Electron Co., Ltd.
 				13-1-205 Aobaokakita
@@ -47444,12 +47567,6 @@ D0D286     (base 16)		Beckman Coulter K.K.
 				HERZLIYA 46120
 				IL
 
-00-50-CC   (hex)		XYRATEX
-0050CC     (base 16)		XYRATEX
-				MAIL POINT: 26/13; DEPT:  STORAGE SYSTEM
-				Havant PO9 1SA
-				GB
-
 00-50-D5   (hex)		AD SYSTEMS CORP.
 0050D5     (base 16)		AD SYSTEMS CORP.
 				1-4-1, NAKACHO, MUSASHINO CITY
@@ -48937,12 +49054,6 @@ D0D286     (base 16)		Beckman Coulter K.K.
 
 
 				AU
-
-00-20-37   (hex)		SEAGATE TECHNOLOGY
-002037     (base 16)		SEAGATE TECHNOLOGY
-				8001 E. BLOOMINGTON FWY
-				BLOOMINGTON  MN  55420
-				US
 
 00-20-A0   (hex)		OA LABORATORY CO., LTD.
 0020A0     (base 16)		OA LABORATORY CO., LTD.
@@ -50596,12 +50707,6 @@ C05627     (base 16)		Belkin International Inc.
 				12045 E. Waterfront Drive
 				Playa Vista  CA  90094
 				US
-
-88-07-4B   (hex)		LG Electronics (Mobile Communications)
-88074B     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
 
 40-65-A3   (hex)		Sagemcom Broadband SAS
 4065A3     (base 16)		Sagemcom Broadband SAS
@@ -52568,30 +52673,6 @@ AC3743     (base 16)		HTC Corporation
 				Taoyuan County  Taiwan  330
 				TW
 
-60-31-97   (hex)		ZyXEL Communications Corporation
-603197     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-00-19-CB   (hex)		ZyXEL Communications Corporation
-0019CB     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-FC-F5-28   (hex)		ZyXEL Communications Corporation
-FCF528     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-58-8B-F3   (hex)		ZyXEL Communications Corporation
-588BF3     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 D8-B0-2E   (hex)		Guangzhou Zonerich Business Machine Co., LTD.
 D8B02E     (base 16)		Guangzhou Zonerich Business Machine Co., LTD.
 				North Gate, No.17 Yunjun Road, Luogang District
@@ -53483,12 +53564,6 @@ ACC662     (base 16)		MitraStar Technology Corp.
 				Hsinchu    300
 				TW
 
-B8-EC-A3   (hex)		ZyXEL Communications Corporation
-B8ECA3     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 F0-1D-BC   (hex)		Microsoft Corporation
 F01DBC     (base 16)		Microsoft Corporation
 				One Microsoft Way
@@ -53705,24 +53780,6 @@ EC26FB     (base 16)		TECC CO.,LTD.
 				Daegu    720-849
 				KR
 
-10-68-3F   (hex)		LG Electronics (Mobile Communications)
-10683F     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
-A0-39-F7   (hex)		LG Electronics (Mobile Communications)
-A039F7     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul
-				KR
-
-64-BC-0C   (hex)		LG Electronics (Mobile Communications)
-64BC0C     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 00-90-CC   (hex)		PLANEX COMMUNICATIONS INC.
 0090CC     (base 16)		PLANEX COMMUNICATIONS INC.
 				2F FENISSAY Ebisu Bldg
@@ -53734,30 +53791,6 @@ E09DB8     (base 16)		PLANEX COMMUNICATIONS INC.
 				Planex Volta Bldg., 2-11-9 Ebisu-Nishi,Shibuya-ku,
 				  Tokyo  1500021
 				US
-
-64-89-9A   (hex)		LG Electronics (Mobile Communications)
-64899A     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-58-A2-B5   (hex)		LG Electronics (Mobile Communications)
-58A2B5     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Kasan-dong, Kumchon-gu
-				Seoul    153-801
-				KR
-
-74-A7-22   (hex)		LG Electronics (Mobile Communications)
-74A722     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
-00-1F-6B   (hex)		LG Electronics (Mobile Communications)
-001F6B     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Kasan-dong,Kumchon-ku
-				Seoul    153-801
-				KR
 
 90-3A-E6   (hex)		PARROT SA
 903AE6     (base 16)		PARROT SA
@@ -54755,12 +54788,6 @@ C0D9F7     (base 16)		ShanDong Domor Intelligent S&T CO.,Ltd
 				Seoul    08377
 				KR
 
-EC-43-F6   (hex)		ZyXEL Communications Corporation
-EC43F6     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 D4-B1-69   (hex)		Le Shi Zhi Xin Electronic Technology (Tianjin) Limited
 D4B169     (base 16)		Le Shi Zhi Xin Electronic Technology (Tianjin) Limited
 				,Le Shi Building, No.105 Yaojiayuan Road,Chaoyang District,Beijing,China
@@ -55360,12 +55387,6 @@ D428D5     (base 16)		TCT mobile ltd
 				One Dell Way
 				Round Rock  TX  78682
 				US
-
-04-1B-6D   (hex)		LG Electronics (Mobile Communications)
-041B6D     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
 
 00-D0-37   (hex)		ARRIS Group, Inc.
 00D037     (base 16)		ARRIS Group, Inc.
@@ -56951,6 +56972,276 @@ A89FEC     (base 16)		ARRIS Group, Inc.
 				Montrouge     92120
 				FR
 
+6C-05-D5   (hex)		Ethertronics Inc
+6C05D5     (base 16)		Ethertronics Inc
+				5501 Oberlin Drive, Suite 100
+				SAN DIEGO  CA  92121
+				US
+
+00-1D-F4   (hex)		Magellan Technology Pty Limited
+001DF4     (base 16)		Magellan Technology Pty Limited
+				65 Johnston Street
+				Annandale  NSW  2000
+				AU
+
+C0-22-50   (hex)		Private
+C02250     (base 16)		Private
+
+00-94-A1   (hex)		F5 Networks, Inc.
+0094A1     (base 16)		F5 Networks, Inc.
+				401 Elliott Ave. W.
+				Seattle  WA  98119
+				US
+
+18-90-D8   (hex)		Sagemcom Broadband SAS
+1890D8     (base 16)		Sagemcom Broadband SAS
+				250, route de l'Empereur
+				Rueil Malmaison Cedex  hauts de seine  92848
+				FR
+
+88-83-5D   (hex)		FN-LINK TECHNOLOGY LIMITED
+88835D     (base 16)		FN-LINK TECHNOLOGY LIMITED
+				No.8, Litong Road, Liuyang Economic & Technical Development Zone
+				ChangSha  Hu Nan  410300
+				CN
+
+10-68-3F   (hex)		LG Electronics (Mobile Communications)
+10683F     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+74-A7-22   (hex)		LG Electronics (Mobile Communications)
+74A722     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+58-A2-B5   (hex)		LG Electronics (Mobile Communications)
+58A2B5     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+64-89-9A   (hex)		LG Electronics (Mobile Communications)
+64899A     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+88-07-4B   (hex)		LG Electronics (Mobile Communications)
+88074B     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+64-BC-0C   (hex)		LG Electronics (Mobile Communications)
+64BC0C     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+A0-39-F7   (hex)		LG Electronics (Mobile Communications)
+A039F7     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+04-1B-6D   (hex)		LG Electronics (Mobile Communications)
+041B6D     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-1F-6B   (hex)		LG Electronics (Mobile Communications)
+001F6B     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+D0-07-CA   (hex)		Juniper Networks
+D007CA     (base 16)		Juniper Networks
+				1133 Innovation Way
+				Sunnyvale  CA  94089
+				US
+
+F8-6C-E1   (hex)		Taicang T&W Electronics
+F86CE1     (base 16)		Taicang T&W Electronics
+				89# Jiang Nan RD
+				Suzhou  Jiangsu  215412
+				CN
+
+1C-73-28   (hex)		Connected Home
+1C7328     (base 16)		Connected Home
+				19-22, Rathbone Place
+				London    W1T 1HY
+				GB
+
+40-A9-3F   (hex)		Private
+40A93F     (base 16)		Private
+
+5C-77-76   (hex)		TCT mobile ltd
+5C7776     (base 16)		TCT mobile ltd
+				No.86 hechang 7th road, zhongkai, Hi-Tech District
+				Hui Zhou  Guang Dong  516006
+				CN
+
+EC-1D-8B   (hex)		Cisco Systems, Inc
+EC1D8B     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+0C-EA-C9   (hex)		ARRIS Group, Inc.
+0CEAC9     (base 16)		ARRIS Group, Inc.
+				6450 Sequence Drive
+				San Diego  CA  92121
+				US
+
+38-F7-3D   (hex)		Amazon Technologies Inc.
+38F73D     (base 16)		Amazon Technologies Inc.
+				P.O Box 8102
+				Reno  NV  89507
+				US
+
+30-B4-B8   (hex)		LG Electronics
+30B4B8     (base 16)		LG Electronics
+				222 LG-ro, JINWI-MYEON
+				Pyeongtaek-si  Gyeonggi-do  451-713
+				KR
+
+2C-FD-AB   (hex)		Motorola (Wuhan) Mobility Technologies Communication Co., Ltd.
+2CFDAB     (base 16)		Motorola (Wuhan) Mobility Technologies Communication Co., Ltd.
+				No.19, Gaoxin 4th Road, Wuhan East Lake High-tech Zone, Wuhan
+				Wuhan  Hubei  430000
+				CN
+
+F4-1E-5E   (hex)		RtBrick Inc.
+F41E5E     (base 16)		RtBrick Inc.
+				26 Kingston Terrace
+				Princeton  NJ  08540
+				US
+
+18-06-FF   (hex)		Acer Computer(Shanghai) Limited.
+1806FF     (base 16)		Acer Computer(Shanghai) Limited.
+				Room1806-20, No.769, Jiujiang Road, Huangpu District
+				Shanghai    200000
+				CN
+
+B8-EC-A3   (hex)		Zyxel Communications Corporation
+B8ECA3     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+EC-43-F6   (hex)		Zyxel Communications Corporation
+EC43F6     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+58-8B-F3   (hex)		Zyxel Communications Corporation
+588BF3     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+FC-F5-28   (hex)		Zyxel Communications Corporation
+FCF528     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+00-19-CB   (hex)		Zyxel Communications Corporation
+0019CB     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+60-31-97   (hex)		Zyxel Communications Corporation
+603197     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+34-FA-9F   (hex)		Ruckus Wireless
+34FA9F     (base 16)		Ruckus Wireless
+				350 West Java Drive
+				Sunnyvale  CA  94089
+				US
+
+50-6F-98   (hex)		Sehaj Synergy Technologies Private Limited
+506F98     (base 16)		Sehaj Synergy Technologies Private Limited
+				E-112A, Kataria Colony, Ramanagar Extension, New Sanganer Road, Sodala, Jaipur-302019
+				Jaipur  Rajasthan  302019
+				IN
+
+04-F1-28   (hex)		HMD Global Oy
+04F128     (base 16)		HMD Global Oy
+				Karaportti 2
+				Espoo    02610
+				FI
+
+F0-65-C2   (hex)		Yanfeng Visteon Electronics Technology (Shanghai) Co.,Ltd.
+F065C2     (base 16)		Yanfeng Visteon Electronics Technology (Shanghai) Co.,Ltd.
+				1001 North Qin Zhou Road
+				Shang Hai    200233
+				CN
+
+70-B7-E2   (hex)		Jiangsu Miter Technology Co.,Ltd.
+70B7E2     (base 16)		Jiangsu Miter Technology Co.,Ltd.
+				No.86 fuyuan community,the town of houbei
+				Jurong  Jiangsu  212400
+				CN
+
+50-3C-EA   (hex)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+503CEA     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+				NO.18 HAIBIN ROAD,
+				DONG GUAN  GUANG DONG  523860
+				CN
+
+00-04-CF   (hex)		Seagate Technology
+0004CF     (base 16)		Seagate Technology
+				M/S NW1F01
+				Longmont  CO  80503
+				US
+
+00-14-C3   (hex)		Seagate Technology
+0014C3     (base 16)		Seagate Technology
+				M/S NW1F01
+				Longmont  CO  80503
+				US
+
+00-20-37   (hex)		Seagate Technology
+002037     (base 16)		Seagate Technology
+				8001 E. BLOOMINGTON FWY
+				BLOOMINGTON  MN  55420
+				US
+
+00-50-CC   (hex)		Seagate Cloud Systems Inc
+0050CC     (base 16)		Seagate Cloud Systems Inc
+				1351 S Sunset Street
+				Longmont  CO  80501
+				US
+
+1C-27-DD   (hex)		Datang Gohighsec(zhejiang)Information Technology Co.,Ltd.
+1C27DD     (base 16)		Datang Gohighsec(zhejiang)Information Technology Co.,Ltd.
+				Beiwu Innovation park, #23 Beiwu Villiage Road
+				Beijing  Beijing  100000
+				CN
+
+00-72-63   (hex)		Netcore Technology Inc.
+007263     (base 16)		Netcore Technology Inc.
+				ORIENTAL CYBERPORT,HIGHTECH 6 ROAD
+				Shenzhen    518057
+				CN
+
+48-55-5C   (hex)		Wu Qi Technologies,Inc.
+48555C     (base 16)		Wu Qi Technologies,Inc.
+				Xiantao street data on the 19th East Road
+				Chongqing City   Yubei District  401120
+				CN
+
 58-46-E1   (hex)		Baxter International Inc
 5846E1     (base 16)		Baxter International Inc
 				One Baxter Parkway
@@ -57244,12 +57535,6 @@ E899C4     (base 16)		HTC Corporation
 				Mid-Fourth Flr.,Building 28,Cui Xi Fourth Road,Ke Yuan West,Nanshan
 				Shenzhen  Guangdong  518057
 				CN
-
-78-F8-82   (hex)		LG Electronics (Mobile Communications)
-78F882     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
 
 88-51-FB   (hex)		Hewlett Packard
 8851FB     (base 16)		Hewlett Packard
@@ -64772,12 +65057,6 @@ B40832     (base 16)		TC Communications
 				BUSAN    612-822
 				KR
 
-00-26-A8   (hex)		DAEHAP HYPER-TECH
-0026A8     (base 16)		DAEHAP HYPER-TECH
-				Mega center #1108, SK Techno-Park, #190-1, Sangdaewon-Dong, Jungwon-Gu
-				Seongnam  Gyeonggi-Do  462-807
-				KR
-
 00-26-A7   (hex)		CONNECT SRL
 0026A7     (base 16)		CONNECT SRL
 				Via Cernaia, 11
@@ -66937,12 +67216,6 @@ A893E6     (base 16)		JIANGXI JINGGANGSHAN CKING COMMUNICATION TECHNOLOGY CO.,LT
 				6th floor, HUIJIE Plaza, 268 Zhongshan Rd.
 				nanjing  jiangsu  210008
 				CN
-
-00-1D-38   (hex)		Seagate Technology
-001D38     (base 16)		Seagate Technology
-				M/S NW1F01
-				Longmont  CO  80503
-				US
 
 00-1D-32   (hex)		Longkay Communication & Technology (Shanghai) Co. Ltd
 001D32     (base 16)		Longkay Communication & Technology (Shanghai) Co. Ltd
@@ -73952,12 +74225,6 @@ A06A00     (base 16)		Verilink Corporation
 				People's Republic  of
 				CN
 
-00-02-61   (hex)		Tilgin AB
-000261     (base 16)		Tilgin AB
-				Finlandsgatan 40
-
-				SE
-
 00-02-59   (hex)		Tsann Kuen China (Shanghai)Enterprise Co., Ltd. IT Group
 000259     (base 16)		Tsann Kuen China (Shanghai)Enterprise Co., Ltd. IT Group
 				8F, #99, Huaihai Rd, East,
@@ -77402,12 +77669,6 @@ A06A00     (base 16)		Verilink Corporation
 
 				DE
 
-00-80-6C   (hex)		CEGELEC PROJECTS LTD
-00806C     (base 16)		CEGELEC PROJECTS LTD
-				DEPT. MDD,
-				    ENGLAND
-				GB
-
 00-40-4A   (hex)		WEST AUSTRALIAN DEPARTMENT
 00404A     (base 16)		WEST AUSTRALIAN DEPARTMENT
 				OF EMPLOYMENT (DEVET)
@@ -80540,36 +80801,6 @@ A0B437     (base 16)		 GD Mission Systems
 				Qingdao  Shandong  266510
 				CN
 
-1C-74-0D   (hex)		ZyXEL Communications Corporation
-1C740D     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-00-13-49   (hex)		ZyXEL Communications Corporation
-001349     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-40-4A-03   (hex)		ZyXEL Communications Corporation
-404A03     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-CC-5D-4E   (hex)		ZyXEL Communications Corporation
-CC5D4E     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-A0-E4-CB   (hex)		ZyXEL Communications Corporation
-A0E4CB     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 90-CF-7D   (hex)		Qingdao Hisense Communications Co.,Ltd.
 90CF7D     (base 16)		Qingdao Hisense Communications Co.,Ltd.
 				Qianwangang Road 218
@@ -81020,30 +81251,6 @@ C041F6     (base 16)		LG ELECTRONICS INC
 				Lynge  Alleroed  DK3540
 				DK
 
-00-21-FB   (hex)		LG Electronics (Mobile Communications)
-0021FB     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Kasan-dong,Kumchon-ku,
-				Seoul    153-801
-				KR
-
-8C-3A-E3   (hex)		LG Electronics (Mobile Communications)
-8C3AE3     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-30-76-6F   (hex)		LG Electronics (Mobile Communications)
-30766F     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Kasan-dong, Kumchon-gu
-				Seoul    153-801
-				KR
-
-F8-0C-F3   (hex)		LG Electronics (Mobile Communications)
-F80CF3     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
 00-22-CF   (hex)		PLANEX COMMUNICATIONS INC.
 0022CF     (base 16)		PLANEX COMMUNICATIONS INC.
 				2F F ・ NISSAY Ebisu Bldg3-16-3
@@ -81445,12 +81652,6 @@ F85C4D     (base 16)		NOKIA
 				1 Robbins Road
 				Westford    01886-4113
 				US
-
-D0-13-FD   (hex)		LG Electronics (Mobile Communications)
-D013FD     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
 
 D8-E7-2B   (hex)		NetScout Systems, Inc.
 D8E72B     (base 16)		NetScout Systems, Inc.
@@ -82373,12 +82574,6 @@ F0219D     (base 16)		Cal-Comp Electronics & Communications Company Ltd.
 				San Jose  CA  94568
 				US
 
-CC-81-DA   (hex)		SHANGHAI PHICOMM COMMUNICATION CO.,LTD
-CC81DA     (base 16)		SHANGHAI PHICOMM COMMUNICATION CO.,LTD
-				3666 SiXian Rd.,Songjiang District,Shanghai
-				Shanghai  Shanghai  201616
-				CN
-
 20-D2-5F   (hex)		SmartCap Technologies
 20D25F     (base 16)		SmartCap Technologies
 				L1 18 Finchley Street
@@ -83275,18 +83470,6 @@ CC2D83     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
 				RR Tower 4, 7th Floor, TVK IND Estate, Guindy
 				Chennai  Other  600032
 				IN
-
-5C-6A-80   (hex)		ZyXEL Communications Corporation
-5C6A80     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-A8-B8-6E   (hex)		LG Electronics (Mobile Communications)
-A8B86E     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
 
 0C-B9-12   (hex)		JM-DATA GmbH
 0CB912     (base 16)		JM-DATA GmbH
@@ -84956,12 +85139,6 @@ B0CA68     (base 16)		Apple, Inc.
 				Hsinchu    300
 				TW
 
-5C-E2-8C   (hex)		ZyXEL Communications Corporation
-5CE28C     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 E4-BD-4B   (hex)		zte corporation
 E4BD4B     (base 16)		zte corporation
 				12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China
@@ -84991,6 +85168,312 @@ E4BD4B     (base 16)		zte corporation
 				#283,BBK Road
 				Wusha,Chang'An  DongGuan City,Guangdong,  523860
 				CN
+
+78-5C-28   (hex)		Prime Motion Inc.
+785C28     (base 16)		Prime Motion Inc.
+				Akaho 1134-12
+				Komagane  Nagano  399-4117
+				JP
+
+F8-20-55   (hex)		Green Information System
+F82055     (base 16)		Green Information System
+				#202(Shopping center), Woldong-ro 28, Buk-gu
+				Gwangju    61153
+				KR
+
+F4-EA-B5   (hex)		Aerohive Networks Inc.
+F4EAB5     (base 16)		Aerohive Networks Inc.
+				1011 McCarthy Blvd
+				Milpitas  CA  95035
+				US
+
+00-26-A8   (hex)		DAEHAP HYPER-TECH
+0026A8     (base 16)		DAEHAP HYPER-TECH
+				Mega center #1108, SK Techno-Park, #190-1, Sangdaewon-Dong, Jungwon-Gu
+				Seongnam  Gyeonggi-Do  462-807
+				KR
+
+F8-7B-20   (hex)		Cisco Systems, Inc
+F87B20     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+30-FB-94   (hex)		Shanghai Fangzhiwei Information Technology CO.,Ltd.
+30FB94     (base 16)		Shanghai Fangzhiwei Information Technology CO.,Ltd.
+				The 17th  Building A Unit,No. 1688 Lianhang Road,Minhang District,Shanghai City
+				Shanghai    201100
+				CN
+
+F8-1D-0F   (hex)		Hitron Technologies. Inc
+F81D0F     (base 16)		Hitron Technologies. Inc
+				No. 1-8, Lising 1st Rd. Hsinchu Science Park, Hsinchu, 300, Taiwan, R.O.C
+				Hsin-chu  Taiwan  300
+				TW
+
+08-BA-22   (hex)		Swaive Corporation
+08BA22     (base 16)		Swaive Corporation
+				3565 Kettmann Road
+				San Jose  CA  95121
+				US
+
+B8-F7-4A   (hex)		RCNTEC
+B8F74A     (base 16)		RCNTEC
+				Polkovaya street 3
+				Moscow    127018
+				RU
+
+0C-61-11   (hex)		Anda Technologies SAC
+0C6111     (base 16)		Anda Technologies SAC
+				Av. Santa Cruz 888, Miraflores
+				Lima  Peru  Lima18
+				PE
+
+94-2A-3F   (hex)		Diversey Inc
+942A3F     (base 16)		Diversey Inc
+				2415 Cascade Pointe Blvd
+				Charlotte  NC  28208
+				US
+
+78-F8-82   (hex)		LG Electronics (Mobile Communications)
+78F882     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+30-76-6F   (hex)		LG Electronics (Mobile Communications)
+30766F     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+8C-3A-E3   (hex)		LG Electronics (Mobile Communications)
+8C3AE3     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-21-FB   (hex)		LG Electronics (Mobile Communications)
+0021FB     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+D0-13-FD   (hex)		LG Electronics (Mobile Communications)
+D013FD     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+A8-B8-6E   (hex)		LG Electronics (Mobile Communications)
+A8B86E     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+F8-0C-F3   (hex)		LG Electronics (Mobile Communications)
+F80CF3     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+C8-D1-2A   (hex)		Comtrend Corporation
+C8D12A     (base 16)		Comtrend Corporation
+				3F-1, No. 10, Lane 609, Chung Hsin Road, Sec 5, San Chung Dist.
+				New Taipei City  Taiwan  24159
+				TW
+
+B4-F1-DA   (hex)		LG Electronics (Mobile Communications)
+B4F1DA     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+DC-4F-22   (hex)		Espressif Inc.
+DC4F22     (base 16)		Espressif Inc.
+				Room 204, Building 2, 690 Bibo Road, Pudong New Area
+				Shanghai  Shanghai  201203
+				CN
+
+C8-DE-C9   (hex)		Coriant
+C8DEC9     (base 16)		Coriant
+				1415 W. Diehl Rd
+				Naperville  IL  60563
+				US
+
+34-2A-F1   (hex)		Texas Instruments
+342AF1     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+70-E5-6E   (hex)		Texas Instruments
+70E56E     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+F0-85-C1   (hex)		SHENZHEN RF-LINK TECHNOLOGY CO.,LTD.
+F085C1     (base 16)		SHENZHEN RF-LINK TECHNOLOGY CO.,LTD.
+				Bldg56A,6/F,Baotian Rd3,Xixiang Town,Baoan District,
+				Shenzhen  Guangdong  518000
+				CN
+
+58-19-F8   (hex)		ARRIS Group, Inc.
+5819F8     (base 16)		ARRIS Group, Inc.
+				6450 Sequence Drive
+				San Diego  CA  92121
+				US
+
+FC-9D-D8   (hex)		Beijing TongTongYiLian Science and Technology Ltd.
+FC9DD8     (base 16)		Beijing TongTongYiLian Science and Technology Ltd.
+				 Room 301,Zone 3,Building 9,No.8 Dongbeiwang West Road,Haidian District,Beijing
+				BEIJING  BEIJING  100193
+				CN
+
+38-0E-4D   (hex)		Cisco Systems, Inc
+380E4D     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+04-B1-67   (hex)		Xiaomi Communications Co Ltd
+04B167     (base 16)		Xiaomi Communications Co Ltd
+				The Rainbow City of China Resources
+				NO.68, Qinghe Middle Street  Haidian District, Beijing  100085
+				CN
+
+38-AD-BE   (hex)		New H3C Technologies Co., Ltd
+38ADBE     (base 16)		New H3C Technologies Co., Ltd
+				466 Changhe Road, Binjiang District
+				Hangzhou  Zhejiang  310052
+				CN
+
+AC-64-17   (hex)		Siemens AG - Industrial Automation - EWA
+AC6417     (base 16)		Siemens AG - Industrial Automation - EWA
+				Werner-von-Siemens Strasse 50
+				Amberg    92224
+				DE
+
+20-78-52   (hex)		Nokia
+207852     (base 16)		Nokia
+				Karaportti 3
+				Espoo  Finland  02610
+				FI
+
+A0-E4-CB   (hex)		Zyxel Communications Corporation
+A0E4CB     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+CC-5D-4E   (hex)		Zyxel Communications Corporation
+CC5D4E     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+40-4A-03   (hex)		Zyxel Communications Corporation
+404A03     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+00-13-49   (hex)		Zyxel Communications Corporation
+001349     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+1C-74-0D   (hex)		Zyxel Communications Corporation
+1C740D     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+5C-6A-80   (hex)		Zyxel Communications Corporation
+5C6A80     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+5C-E2-8C   (hex)		Zyxel Communications Corporation
+5CE28C     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+A0-9D-C1   (hex)		China Dragon Technology Limited
+A09DC1     (base 16)		China Dragon Technology Limited
+				B4 Bldg.Haoshan 1st Industry Park,
+				Shenzhen  Guangdong  518104
+				CN
+
+38-43-7D   (hex)		Compal Broadband Networks, Inc.
+38437D     (base 16)		Compal Broadband Networks, Inc.
+				13F., No.1, Taiyuan 1st St.
+				Zhubei City  Hsinchu County  30265
+				TW
+
+A8-EE-C6   (hex)		Muuselabs NV/SA
+A8EEC6     (base 16)		Muuselabs NV/SA
+				Rue du Tocsin 12
+				Brussels    1000
+				BE
+
+5C-86-C1   (hex)		DONGGUAN SOLUM ELECTRONICS CO.,LTD
+5C86C1     (base 16)		DONGGUAN SOLUM ELECTRONICS CO.,LTD
+				NO.157,13 Coastal Way TPFTZ
+				TIANJIN    300461
+				CN
+
+6C-DD-30   (hex)		Cisco Systems, Inc
+6CDD30     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+00-02-61   (hex)		Tilgin AB
+000261     (base 16)		Tilgin AB
+				Finlandsgatan 40
+
+				SE
+
+AC-E2-D3   (hex)		Hewlett Packard
+ACE2D3     (base 16)		Hewlett Packard
+				11445 Compaq Center Drive
+				Houston  TX  77070
+				US
+
+CC-81-DA   (hex)		Phicomm (Shanghai) Co., Ltd.
+CC81DA     (base 16)		Phicomm (Shanghai) Co., Ltd.
+				3666 SiXian Rd.,Songjiang District,Shanghai
+				Shanghai  Shanghai  201616
+				CN
+
+28-2F-C2   (hex)		Automotive Data Solutions
+282FC2     (base 16)		Automotive Data Solutions
+				8400 rue Bougainville
+				Montreal  Quebec  H4P2G1
+				CA
+
+00-80-6C   (hex)		Secure Systems & Services
+00806C     (base 16)		Secure Systems & Services
+				24, Chemin de la Pouranque
+				F-13752  LES PENNES MIRABEAU  CS30084
+				FR
+
+00-1D-38   (hex)		Seagate Technology
+001D38     (base 16)		Seagate Technology
+				M/S NW1F01
+				Longmont  CO  80503
+				US
+
+68-3E-02   (hex)		SIEMENS AG, Digital Factory, Motion Control System
+683E02     (base 16)		SIEMENS AG, Digital Factory, Motion Control System
+				Varey Road
+				Congleton  Cheshire  CW12 1PH
+				GB
 
 D8-6C-E9   (hex)		Sagemcom Broadband SAS
 D86CE9     (base 16)		Sagemcom Broadband SAS
@@ -98633,12 +99116,6 @@ EC3091     (base 16)		Cisco Systems, Inc
 				Billerica  MA  02460
 				US
 
-00-11-C6   (hex)		Seagate Technology
-0011C6     (base 16)		Seagate Technology
-				M/S NW1F01
-				Longmont  CO  80503
-				US
-
 00-11-B4   (hex)		Westermo Teleindustri AB
 0011B4     (base 16)		Westermo Teleindustri AB
 				Stora Sundby
@@ -99904,12 +100381,6 @@ EC3091     (base 16)		Cisco Systems, Inc
 				14F-11,No.79,Sec. 1 ,Hsin Tai Wu Rd.,
 				Taipei    221
 				TW
-
-00-0C-50   (hex)		Seagate Technology
-000C50     (base 16)		Seagate Technology
-				M/S NW1F01
-				Longmont  CO  80503
-				US
 
 00-0C-55   (hex)		Microlink Communications Inc.
 000C55     (base 16)		Microlink Communications Inc.
@@ -108347,12 +108818,6 @@ D49524     (base 16)		Clover Network, Inc.
 				Sunnyvale  CA  94085
 				US
 
-00-34-DA   (hex)		LG Electronics (Mobile Communications)
-0034DA     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 90-46-A2   (hex)		Tedipay UK Ltd
 9046A2     (base 16)		Tedipay UK Ltd
 				Level 39, One Canada Square
@@ -109079,18 +109544,6 @@ F85A00     (base 16)		Sanford LP
 				Atlanta  GA  30228
 				US
 
-50-67-F0   (hex)		ZyXEL Communications Corporation
-5067F0     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-C8-6C-87   (hex)		ZyXEL Communications Corporation
-C86C87     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 D8-E0-B8   (hex)		BULAT LLC
 D8E0B8     (base 16)		BULAT LLC
 				Zagorievsiy proezd 1, room 7
@@ -109793,12 +110246,6 @@ F81D78     (base 16)		IEEE Registration Authority
 				Taipei City  Taiwan  112
 				TW
 
-E4-18-6B   (hex)		ZyXEL Communications Corporation
-E4186B     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
 6C-71-BD   (hex)		EZELINK TELECOM
 6C71BD     (base 16)		EZELINK TELECOM
 				Bay Square Building 06 - Office No 105
@@ -110429,41 +110876,11 @@ B01F81     (base 16)		IEEE Registration Authority
 				PYEONGTAEK  GYEONGGI-DO  451-713
 				KR
 
-58-3F-54   (hex)		LG Electronics (Mobile Communications)
-583F54     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
-00-1C-62   (hex)		LG Electronics (Mobile Communications)
-001C62     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-Dong
-				Seoul    153-023
-				KR
-
-00-24-83   (hex)		LG Electronics (Mobile Communications)
-002483     (base 16)		LG Electronics (Mobile Communications)
-				60-39,Kasan-dong,Kumchon-ku,
-				Seoul    153-801
-				KR
-
 E4-17-D8   (hex)		8BITDO TECHNOLOGY HK LIMITED
 E417D8     (base 16)		8BITDO TECHNOLOGY HK LIMITED
 				Rooms 1318-19, 13/F, Hollywood Plaza, 610 Nathan Road, Mongkok, Kowloon, Hong Kong
 				Hong Kong  Hong Kong  000000
 				CN
-
-40-B0-FA   (hex)		LG Electronics (Mobile Communications)
-40B0FA     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
-A0-91-69   (hex)		LG Electronics (Mobile Communications)
-A09169     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
 
 28-6C-07   (hex)		XIAOMI Electronics,CO.,LTD
 286C07     (base 16)		XIAOMI Electronics,CO.,LTD
@@ -110476,36 +110893,6 @@ A09169     (base 16)		LG Electronics (Mobile Communications)
 				466 Changhe Road, Binjiang District
 				Hangzhou  Zhejiang, P.R.China  310052
 				CN
-
-34-FC-EF   (hex)		LG Electronics (Mobile Communications)
-34FCEF     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-48-59-29   (hex)		LG Electronics (Mobile Communications)
-485929     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-50-55-27   (hex)		LG Electronics (Mobile Communications)
-505527     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-98-D6-F7   (hex)		LG Electronics (Mobile Communications)
-98D6F7     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-A8-92-2C   (hex)		LG Electronics (Mobile Communications)
-A8922C     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
 
 44-DC-91   (hex)		PLANEX COMMUNICATIONS INC.
 44DC91     (base 16)		PLANEX COMMUNICATIONS INC.
@@ -111454,9 +111841,6 @@ D8325A     (base 16)		Shenzhen YOUHUA Technology Co., Ltd
 				80 West Tasman Drive
 				San Jose  CA  94568
 				US
-
-10-AE-60   (hex)		Private
-10AE60     (base 16)		Private
 
 80-26-89   (hex)		D-Link International
 802689     (base 16)		D-Link International
@@ -112598,12 +112982,6 @@ A82BB5     (base 16)		Edgecore Networks Corporation
 				Hsinchu    30077
 				TW
 
-88-36-5F   (hex)		LG Electronics (Mobile Communications)
-88365F     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 00-15-FF   (hex)		Novatel Wireless Solutions, Inc.
 0015FF     (base 16)		Novatel Wireless Solutions, Inc.
 				9605 Scranton Road Suite 200
@@ -113396,6 +113774,12 @@ E8825B     (base 16)		ARRIS Group, Inc.
 				San Diego  CA  92121
 				US
 
+5C-86-5C   (hex)		Samsung Electronics Co.,Ltd
+5C865C     (base 16)		Samsung Electronics Co.,Ltd
+				129, Samsung-ro, Youngtongl-Gu
+				Suwon  Gyeonggi-Do  16677
+				KR
+
 00-BE-9E   (hex)		Fiberhome Telecommunication Technologies Co.,LTD
 00BE9E     (base 16)		Fiberhome Telecommunication Technologies Co.,LTD
 				No.5 DongXin Road
@@ -113413,6 +113797,243 @@ E8825B     (base 16)		ARRIS Group, Inc.
 				#283,BBK Road
 				Wusha,Chang'An  DongGuan City,Guangdong,  523860
 				CN
+
+34-85-84   (hex)		Aerohive Networks Inc.
+348584     (base 16)		Aerohive Networks Inc.
+				1011 McCarthy Blvd
+				Milpitas  CA  95035
+				US
+
+F8-B7-E2   (hex)		Cisco Systems, Inc
+F8B7E2     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+EC-9F-0D   (hex)		IEEE Registration Authority
+EC9F0D     (base 16)		IEEE Registration Authority
+				445 Hoes Lane
+				Piscataway  NJ  08554
+				US
+
+A4-B5-2E   (hex)		Integrated Device Technology (Malaysia) Sdn. Bhd.
+A4B52E     (base 16)		Integrated Device Technology (Malaysia) Sdn. Bhd.
+				Phase 3, Bayan Lepas FIZ
+				Bayan Lepas  Penang  11900
+				MY
+
+C4-CD-82   (hex)		Hangzhou Lowan Information Technology Co., Ltd.
+C4CD82     (base 16)		Hangzhou Lowan Information Technology Co., Ltd.
+				502 Building B, United Mansion, No.2 Zijinghua Road
+				Hangzhou  Zhejiang  310023
+				CN
+
+E0-AA-DB   (hex)		Nanjing PANENG Technology Development Co.,Ltd
+E0AADB     (base 16)		Nanjing PANENG Technology Development Co.,Ltd
+				NO.6 Paneng Road,Nanjing High-tech Zone,Jiang Su,China
+				Nanjing     210061
+				CN
+
+E8-20-E2   (hex)		HUMAX Co., Ltd.
+E820E2     (base 16)		HUMAX Co., Ltd.
+				HUMAX Village, 216, Hwangsaeul-ro, Bu
+				Seongnam-si  Gyeonggi-do  463-875
+				KR
+
+64-CB-A3   (hex)		Pointmobile
+64CBA3     (base 16)		Pointmobile
+				B-9F kabul Great Valley, 32, Digital-ro 9-gil, Geumcheon-gu
+				Seoul  Seoul  08512
+				KR
+
+EC-F4-51   (hex)		Arcadyan Corporation
+ECF451     (base 16)		Arcadyan Corporation
+				No.8, Sec.2, Guangfu Rd.
+				Hsinchu City  Hsinchu  30071
+				TW
+
+48-59-29   (hex)		LG Electronics (Mobile Communications)
+485929     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+34-FC-EF   (hex)		LG Electronics (Mobile Communications)
+34FCEF     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-24-83   (hex)		LG Electronics (Mobile Communications)
+002483     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-1C-62   (hex)		LG Electronics (Mobile Communications)
+001C62     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+58-3F-54   (hex)		LG Electronics (Mobile Communications)
+583F54     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+40-B0-FA   (hex)		LG Electronics (Mobile Communications)
+40B0FA     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+A8-92-2C   (hex)		LG Electronics (Mobile Communications)
+A8922C     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+98-D6-F7   (hex)		LG Electronics (Mobile Communications)
+98D6F7     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+50-55-27   (hex)		LG Electronics (Mobile Communications)
+505527     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-34-DA   (hex)		LG Electronics (Mobile Communications)
+0034DA     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+A0-91-69   (hex)		LG Electronics (Mobile Communications)
+A09169     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+C8-63-F1   (hex)		Sony Interactive Entertainment Inc.
+C863F1     (base 16)		Sony Interactive Entertainment Inc.
+				1-7-1 Konan
+				Minato-ku  Tokyo  108-0075
+				JP
+
+88-36-5F   (hex)		LG Electronics (Mobile Communications)
+88365F     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+38-17-C3   (hex)		Hewlett Packard Enterprise
+3817C3     (base 16)		Hewlett Packard Enterprise
+				8000 Foothills Blvd.
+				Roseville  CA  95747
+				US
+
+9C-8C-6E   (hex)		Samsung Electronics Co.,Ltd
+9C8C6E     (base 16)		Samsung Electronics Co.,Ltd
+				129, Samsung-ro, Youngtongl-Gu
+				Suwon  Gyeonggi-Do  16677
+				KR
+
+58-8A-5A   (hex)		Dell Inc.
+588A5A     (base 16)		Dell Inc.
+				One Dell Way
+				Round Rock  TX  78682
+				US
+
+84-50-9A   (hex)		Easy Soft TV Co., Ltd
+84509A     (base 16)		Easy Soft TV Co., Ltd
+				#1613, Heungduk U-Tower, Heungduk Jung ang-ro 120
+				Yongin-si  Gyeounggi-do  16950
+				KR
+
+10-AE-60   (hex)		Private
+10AE60     (base 16)		Private
+
+DC-28-34   (hex)		HAKKO Corporation
+DC2834     (base 16)		HAKKO Corporation
+				4-5, Shiokusa 2-chome, Naniwaku
+				Osaka  Osaka  556-0024
+				JP
+
+D8-E0-04   (hex)		Vodia Networks Inc
+D8E004     (base 16)		Vodia Networks Inc
+				33 Broad St
+				Boston  MA  02109
+				US
+
+C8-6C-87   (hex)		Zyxel Communications Corporation
+C86C87     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+50-67-F0   (hex)		Zyxel Communications Corporation
+5067F0     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+E4-18-6B   (hex)		Zyxel Communications Corporation
+E4186B     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+14-28-82   (hex)		MIDICOM ELECTRONICS CO.LTD
+142882     (base 16)		MIDICOM ELECTRONICS CO.LTD
+				702,27.Dunchon-daero 457 beon-gil,Jungwon-gu
+				Seongnam si  Gyeonggi-do  13219
+				KR
+
+E4-F0-42   (hex)		Google, Inc.
+E4F042     (base 16)		Google, Inc.
+				1600 Amphitheatre Parkway
+				Mountain View  CA  94043
+				US
+
+B0-98-2B   (hex)		Sagemcom Broadband SAS
+B0982B     (base 16)		Sagemcom Broadband SAS
+				250, route de l'Empereur
+				Rueil Malmaison Cedex  hauts de seine  92848
+				FR
+
+40-48-FD   (hex)		IEEE Registration Authority
+4048FD     (base 16)		IEEE Registration Authority
+				445 Hoes Lane
+				Piscataway  NJ  08554
+				US
+
+00-0C-50   (hex)		Seagate Technology
+000C50     (base 16)		Seagate Technology
+				M/S NW1F01
+				Longmont  CO  80503
+				US
+
+00-11-C6   (hex)		Seagate Technology
+0011C6     (base 16)		Seagate Technology
+				M/S NW1F01
+				Longmont  CO  80503
+				US
+
+C4-C5-63   (hex)		TECNO MOBILE LIMITED
+C4C563     (base 16)		TECNO MOBILE LIMITED
+				ROOMS 05-15, 13A/F., SOUTH TOWER, WORLD FINANCE CENTRE, HARBOUR CITY, 17 CANTON ROAD, TSIM SHA TSUI, KOWLOON, HONG KONG
+				Hong Kong  Hong Kong  999077
+				HK
+
+BC-91-B5   (hex)		Infinix mobility limited
+BC91B5     (base 16)		Infinix mobility limited
+				RMS 05-15, 13A/F SOUTH TOWER WORLD FINANCE CTR HARBOUR CITY 17 CANTON RD TST KLN HONG KONG
+				HongKong  HongKong  999077
+				HK
 
 2C-39-96   (hex)		Sagemcom Broadband SAS
 2C3996     (base 16)		Sagemcom Broadband SAS
@@ -116572,12 +117193,6 @@ FC6DC0     (base 16)		BME CORPORATION
 				99 Park Ave III, Hsinchu Science Park
 				Hsinchu    308
 				TW
-
-D8-96-E0   (hex)		Alibaba Cloud Computing Ltd.
-D896E0     (base 16)		Alibaba Cloud Computing Ltd.
-				Yuhang District of Hangzhou Wenyi Road, Building 1, No. 969 Xixi Park, Zhejiang Province
-				Hangzhou  Zhejiang  310000
-				CN
 
 30-0D-2A   (hex)		Zhejiang Wellcom Technology Co.,Ltd.
 300D2A     (base 16)		Zhejiang Wellcom Technology Co.,Ltd.
@@ -129842,12 +130457,6 @@ DC3350     (base 16)		TechSAT GmbH
 				Washington  DC  20006
 				US
 
-00-09-66   (hex)		Thales Navigation
-000966     (base 16)		Thales Navigation
-				471 El Camino Real
-				Santa Clara  CA  95050
-				US
-
 00-09-6D   (hex)		Powernet Technologies Corp.
 00096D     (base 16)		Powernet Technologies Corp.
 				371-51, Gasan-Dong Kumchon-Gu,
@@ -130249,12 +130858,6 @@ DC3350     (base 16)		TechSAT GmbH
 				80 West Tasman Drive
 				San Jose  CA  94568
 				US
-
-00-05-A7   (hex)		Hyperchip, Inc.
-0005A7     (base 16)		Hyperchip, Inc.
-				180 Peel Street - Ste. #333
-				    H3C 2G7
-				CA
 
 00-05-B5   (hex)		Broadcom Technologies
 0005B5     (base 16)		Broadcom Technologies
@@ -132908,12 +133511,6 @@ DC3350     (base 16)		TechSAT GmbH
 				Singapore 388371
 				SG
 
-00-50-13   (hex)		Chaparral Network Storage
-005013     (base 16)		Chaparral Network Storage
-				7420 E. Dry Creek Parkway
-				Longmont  CO  80503
-				US
-
 00-50-22   (hex)		ZONET TECHNOLOGY, INC.
 005022     (base 16)		ZONET TECHNOLOGY, INC.
 				830 ROOM, BLDG. 53, 195, SEC.4
@@ -133006,12 +133603,6 @@ DC3350     (base 16)		TechSAT GmbH
 				3-13-6 YOSHIKAWA BLD.
 				TOKYO
 				JP
-
-00-90-F1   (hex)		DOT HILL SYSTEMS CORPORATION
-0090F1     (base 16)		DOT HILL SYSTEMS CORPORATION
-				6305 El Camino Real
-				Carlsbad  CA  92009
-				US
 
 00-90-E2   (hex)		DISTRIBUTED PROCESSING TECHNOLOGY
 0090E2     (base 16)		DISTRIBUTED PROCESSING TECHNOLOGY
@@ -134763,12 +135354,6 @@ DC3350     (base 16)		TechSAT GmbH
 00C018     (base 16)		LANART CORPORATION
 				145 ROSEMARY STREET
 				NEEDHAM  MA  02194
-				US
-
-00-C0-FF   (hex)		DOT HILL SYSTEMS CORPORATION
-00C0FF     (base 16)		DOT HILL SYSTEMS CORPORATION
-				6305 El Camino Real
-				Carlsbad  CA  92009
 				US
 
 00-40-0D   (hex)		LANNET DATA COMMUNICATIONS,LTD
@@ -137570,12 +138155,6 @@ F4CC55     (base 16)		Juniper Networks
 				Sunnyvale  CA  94089
 				US
 
-5C-70-A3   (hex)		LG Electronics (Mobile Communications)
-5C70A3     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 34-97-F6   (hex)		ASUSTek COMPUTER INC.
 3497F6     (base 16)		ASUSTek COMPUTER INC.
 				15,Li-Te Rd., Peitou, Taipei 112, Taiwan
@@ -137839,42 +138418,6 @@ ECD68A     (base 16)		Shenzhen JMicron Intelligent Technology Developmen
 				Qianwangang Road 218
 				Qingdao  Shandong  266510
 				CN
-
-28-28-5D   (hex)		ZyXEL Communications Corporation
-28285D     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-5C-F4-AB   (hex)		ZyXEL Communications Corporation
-5CF4AB     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-4C-9E-FF   (hex)		ZyXEL Communications Corporation
-4C9EFF     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-00-23-F8   (hex)		ZyXEL Communications Corporation
-0023F8     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-B0-B2-DC   (hex)		ZyXEL Communications Corporation
-B0B2DC     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
-
-90-EF-68   (hex)		ZyXEL Communications Corporation
-90EF68     (base 16)		ZyXEL Communications Corporation
-				No. 6 Innovation Road II, Science Park
-				Hsichu  Taiwan  300
-				TW
 
 A8-AD-3D   (hex)		Alcatel-Lucent Shanghai Bell Co., Ltd
 A8AD3D     (base 16)		Alcatel-Lucent Shanghai Bell Co., Ltd
@@ -139106,70 +139649,10 @@ C44BD1     (base 16)		Wallys Communications  Teachnologies Co.,Ltd.
 				Hangzhou  ZheJiang  310052
 				CN
 
-F8-A9-D0   (hex)		LG Electronics (Mobile Communications)
-F8A9D0     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-CC-FA-00   (hex)		LG Electronics (Mobile Communications)
-CCFA00     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-BC-F5-AC   (hex)		LG Electronics (Mobile Communications)
-BCF5AC     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul    153-801
-				KR
-
-00-AA-70   (hex)		LG Electronics (Mobile Communications)
-00AA70     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
-F0-1C-13   (hex)		LG Electronics (Mobile Communications)
-F01C13     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
-				KR
-
 CC-2D-8C   (hex)		LG ELECTRONICS INC
 CC2D8C     (base 16)		LG ELECTRONICS INC
 				19-1,Cheongho-Ri,Jinwi-Myeon
 				Pyeongtaek  Gyeonggi-Do  451-713
-				KR
-
-34-4D-F7   (hex)		LG Electronics (Mobile Communications)
-344DF7     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
-C4-9A-02   (hex)		LG Electronics (Mobile Communications)
-C49A02     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Kasan-dong, Kumchon-gu
-				Seoul  Seoul  153-801
-				KR
-
-00-22-A9   (hex)		LG Electronics (Mobile Communications)
-0022A9     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-Dong
-				Seoul    153-023
-				KR
-
-00-25-E5   (hex)		LG Electronics (Mobile Communications)
-0025E5     (base 16)		LG Electronics (Mobile Communications)
-				60-39 ,Gasan-Dong
-				Seoul    153-023
-				KR
-
-10-F9-6F   (hex)		LG Electronics (Mobile Communications)
-10F96F     (base 16)		LG Electronics (Mobile Communications)
-				603-39 , Kasan-dong, Gumcheon-gu
-				Seoul    153-801
 				KR
 
 00-11-6E   (hex)		Peplink International Ltd.
@@ -139856,12 +140339,6 @@ DCD255     (base 16)		Kinpo Electronics, Inc.
 				Shenkeng Dist.  New Taipei City  222
 				TW
 
-80-5A-04   (hex)		LG Electronics (Mobile Communications)
-805A04     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 B0-EE-7B   (hex)		Roku, Inc
 B0EE7B     (base 16)		Roku, Inc
 				150 Winchester Circle
@@ -139988,12 +140465,6 @@ C0E54E     (base 16)		ARIES Embedded GmbH
 				San Maurizio d'Opaglio  (Novara)  28017
 				IT
 
-5C-AF-06   (hex)		LG Electronics (Mobile Communications)
-5CAF06     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
-				KR
-
 78-C1-A7   (hex)		zte corporation
 78C1A7     (base 16)		zte corporation
 				12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China
@@ -140040,12 +140511,6 @@ C0E54E     (base 16)		ARIES Embedded GmbH
 602103     (base 16)		I4VINE, INC
 				TLI Building 6th floor, 195
 				Seongnam-si  Gyeonggi-do  462-100
-				KR
-
-B8-1D-AA   (hex)		LG Electronics (Mobile Communications)
-B81DAA     (base 16)		LG Electronics (Mobile Communications)
-				60-39, Gasan-dong, Geumcheon-gu
-				Seoul  Seoul  153-801
 				KR
 
 40-7D-0F   (hex)		HUAWEI TECHNOLOGIES CO.,LTD
@@ -140905,12 +141370,6 @@ C8DE51     (base 16)		 IntegraOptics
 				1 Internal Business Park, #03-12,The Synergy, Singapore
 				Singapore  Singapore  609917
 				SG
-
-4C-91-0C   (hex)		Corporativo Lanix S.A. de C.V.
-4C910C     (base 16)		Corporativo Lanix S.A. de C.V.
-				Carretera Nogales Km8.5
-				Hermosillo  Sonora  83160
-				MX
 
 BC-D7-13   (hex)		Owl Labs
 BCD713     (base 16)		Owl Labs
@@ -142126,3 +142585,279 @@ E82A44     (base 16)		Liteon Technology Corporation
 				4F, 90, Chien 1 Road
 				New Taipei City  Taiwan  23585
 				TW
+
+00-05-A7   (hex)		HYPERCHIP Inc.
+0005A7     (base 16)		HYPERCHIP Inc.
+				180 Peel Street - Ste. #333
+				    H3C 2G7
+				CA
+
+78-DD-D9   (hex)		Guangzhou Shiyuan Electronics Co., Ltd.
+78DDD9     (base 16)		Guangzhou Shiyuan Electronics Co., Ltd.
+				No.6, 4th Yunpu Road, Yunpu Industry District
+				Guangzhou  Guangdong  510530
+				CN
+
+00-09-66   (hex)		TRIMBLE EUROPE BV
+000966     (base 16)		TRIMBLE EUROPE BV
+				Meerheide 45
+				Eersel  DZ  5521
+				NL
+
+EC-B0-E1   (hex)		Ciena Corporation
+ECB0E1     (base 16)		Ciena Corporation
+				7035 Ridge Road
+				Hanover  MD  21076
+				US
+
+58-C1-7A   (hex)		Cambium Networks Limited
+58C17A     (base 16)		Cambium Networks Limited
+				Unit B2, Linhay Business Park,
+				Ashburton  Devon  TQ13 7UP
+				GB
+
+2C-54-91   (hex)		Microsoft Corporation
+2C5491     (base 16)		Microsoft Corporation
+				One Microsoft Way
+				REDMOND  WA  98052
+				US
+
+04-50-DA   (hex)		Qiku Internet Network Scientific (Shenzhen) Co., Ltd
+0450DA     (base 16)		Qiku Internet Network Scientific (Shenzhen) Co., Ltd
+				Building A2, Chi Yuen Technology Park  1001 College Avenue, Nanshan District Shenzhen, Guangdong
+				 Shenzhen  Guangdong   518000
+				CN
+
+08-BC-20   (hex)		Hangzhou Royal Cloud Technology Co., Ltd
+08BC20     (base 16)		Hangzhou Royal Cloud Technology Co., Ltd
+				Hangzhou Xixi Road 957, 24, Unit 2, 302
+				Hangzhou    310030
+				CN
+
+5C-70-A3   (hex)		LG Electronics (Mobile Communications)
+5C70A3     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+10-F9-6F   (hex)		LG Electronics (Mobile Communications)
+10F96F     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+F0-1C-13   (hex)		LG Electronics (Mobile Communications)
+F01C13     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-AA-70   (hex)		LG Electronics (Mobile Communications)
+00AA70     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+BC-F5-AC   (hex)		LG Electronics (Mobile Communications)
+BCF5AC     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+CC-FA-00   (hex)		LG Electronics (Mobile Communications)
+CCFA00     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+F8-A9-D0   (hex)		LG Electronics (Mobile Communications)
+F8A9D0     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+80-5A-04   (hex)		LG Electronics (Mobile Communications)
+805A04     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+5C-AF-06   (hex)		LG Electronics (Mobile Communications)
+5CAF06     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+B8-1D-AA   (hex)		LG Electronics (Mobile Communications)
+B81DAA     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+10-F1-F2   (hex)		LG Electronics (Mobile Communications)
+10F1F2     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-25-E5   (hex)		LG Electronics (Mobile Communications)
+0025E5     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+00-22-A9   (hex)		LG Electronics (Mobile Communications)
+0022A9     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+C4-9A-02   (hex)		LG Electronics (Mobile Communications)
+C49A02     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+34-4D-F7   (hex)		LG Electronics (Mobile Communications)
+344DF7     (base 16)		LG Electronics (Mobile Communications)
+				60-39, Gasan-dong, Geumcheon-gu
+				Seoul    153-801
+				KR
+
+44-91-60   (hex)		Murata Manufacturing Co., Ltd.
+449160     (base 16)		Murata Manufacturing Co., Ltd.
+				1-10-1, Higashikotari
+				Nagaokakyo-shi  Kyoto  617-8555
+				JP
+
+44-D5-A5   (hex)		AddOn Computer
+44D5A5     (base 16)		AddOn Computer
+				15775 Gateway cir
+				tustin  CA  92780
+				US
+
+00-AE-CD   (hex)		Pensando Systems
+00AECD     (base 16)		Pensando Systems
+				1730 Technology Drive, Suite 202
+				San Jose  CA  95110
+				US
+
+44-AD-19   (hex)		XINGFEI （H.K）LIMITED
+44AD19     (base 16)		XINGFEI （H.K）LIMITED
+				6/F North Tower Wandelai Building  No.29 Kejinan 6th Road, Nanshan District,Shenzhen,China
+				Shenzhen     518057
+				CN
+
+D8-96-E0   (hex)		Alibaba Cloud Computing Ltd.
+D896E0     (base 16)		Alibaba Cloud Computing Ltd.
+				Yuhang District of Hangzhou Wenyi Road, Building 1, No. 969 Xixi Park, Zhejiang Province
+				Hangzhou  Zhejiang  310000
+				CN
+
+30-EB-1F   (hex)		Skylab M&C Technology Co.,Ltd
+30EB1F     (base 16)		Skylab M&C Technology Co.,Ltd
+				6 Floor,No.9 Building,Lijincheng Scientific&Technical park,Gongye East Road,Longhua District
+				Shenzhen  Guangdong  518109
+				CN
+
+B0-B2-DC   (hex)		Zyxel Communications Corporation
+B0B2DC     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+00-23-F8   (hex)		Zyxel Communications Corporation
+0023F8     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+4C-9E-FF   (hex)		Zyxel Communications Corporation
+4C9EFF     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+5C-F4-AB   (hex)		Zyxel Communications Corporation
+5CF4AB     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+14-79-F3   (hex)		China Mobile Group Device Co.,Ltd.
+1479F3     (base 16)		China Mobile Group Device Co.,Ltd.
+				32 Xuanwumen West Street,Xicheng District
+				Beijing    100053
+				CN
+
+90-EF-68   (hex)		Zyxel Communications Corporation
+90EF68     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+28-28-5D   (hex)		Zyxel Communications Corporation
+28285D     (base 16)		Zyxel Communications Corporation
+				No. 6 Innovation Road II, Science Park
+				Hsichu  Taiwan  300
+				TW
+
+4C-AE-1C   (hex)		SaiNXT Technologies LLP
+4CAE1C     (base 16)		SaiNXT Technologies LLP
+				Shop No. 7, Sonawala Building, 1st Floor, Proctor Road, Grant Road (E)
+				Mumbai  Maharashtra  400007
+				IN
+
+4C-91-0C   (hex)		 Lanix Internacional, S.A. de C.V.
+4C910C     (base 16)		 Lanix Internacional, S.A. de C.V.
+				Carretera Nogales Km8.5
+				Hermosillo  Sonora  83160
+				MX
+
+2C-42-05   (hex)		Lytx
+2C4205     (base 16)		Lytx
+				9785 Towne Centre Drive
+				San Diego  CA  92121
+				US
+
+00-90-F1   (hex)		Seagate Cloud Systems Inc
+0090F1     (base 16)		Seagate Cloud Systems Inc
+				6305 El Camino Real
+				Carlsbad  CA  92009
+				US
+
+D4-5D-DF   (hex)		PEGATRON CORPORATION
+D45DDF     (base 16)		PEGATRON CORPORATION
+				5F No. 76, Ligong St., Beitou District
+				Taipei City  Taiwan  112
+				TW
+
+D4-1A-3F   (hex)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+D41A3F     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+				NO.18 HAIBIN ROAD,
+				DONG GUAN  GUANG DONG  523860
+				CN
+
+00-50-13   (hex)		Seagate Cloud Systems Inc
+005013     (base 16)		Seagate Cloud Systems Inc
+				7420 E. Dry Creek Parkway
+				Longmont  CO  80503
+				US
+
+00-C0-FF   (hex)		Seagate Cloud Systems Inc
+00C0FF     (base 16)		Seagate Cloud Systems Inc
+				6305 El Camino Real
+				Carlsbad  CA  92009
+				US
+
+EC-81-93   (hex)		Logitech, Inc
+EC8193     (base 16)		Logitech, Inc
+				4700 NW Camas Meadows Drive
+				Camas  WA  98607
+				US
+
+D0-96-FB   (hex)		DASAN Network Solutions
+D096FB     (base 16)		DASAN Network Solutions
+				DASAN Tower 8F, 49 Daewangpangyo-ro644beon-gil Bundang-gu
+				Seongnam-si  Gyeonggi-do  13493
+				KR

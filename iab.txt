@@ -1748,12 +1748,6 @@ A15000-A15FFF                 (base 16)                     Industrial Computing
                                                             Gillingham  Dorset  SP8 4NG
                                                             GB
 
-00-50-C2                      (hex)                         I.D.S. Ingegneria Dei Sistemi  S.p.A.
-A0B000-A0BFFF                 (base 16)                     I.D.S. Ingegneria Dei Sistemi  S.p.A.
-                                                            via Enrica Calabresi, 24
-                                                            PISA  PI  56121
-                                                            IT
-
 00-50-C2                      (hex)                         Dynon Instruments
 A07000-A07FFF                 (base 16)                     Dynon Instruments
                                                             19825 141st PL NE
@@ -4628,6 +4622,12 @@ AC4000-AC4FFF                 (base 16)                     Orion Technologies,L
                                                             Uxbridge  Ontario  L9P 1H6
                                                             CA
 
+00-50-C2                      (hex)                          IDS GeoRadar s.r.l.
+A0B000-A0BFFF                 (base 16)                      IDS GeoRadar s.r.l.
+                                                            Via E. Calabresi, 24
+                                                            PISA  PI  56121
+                                                            IT
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -4638,12 +4638,6 @@ AC4000-AC4FFF                 (base 16)                     Orion Technologies,L
 19D000-19DFFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
                                                             Carbondale  IL  62901
-                                                            US
-
-40-D8-55                      (hex)                         Mettler Toledo Hi-Speed
-0C8000-0C8FFF                 (base 16)                     Mettler Toledo Hi-Speed
-                                                            5 Barr Rd
-                                                            Ithaca  NY  14850
                                                             US
 
 40-D8-55                      (hex)                         Peter Huber
@@ -6691,12 +6685,6 @@ A44000-A44FFF                 (base 16)                     TORC Technologies
                                                             2200 Kraft Dr, Ste 1325
                                                             Blacksburg  VA  24060
                                                             US
-
-00-50-C2                      (hex)                         Thales Optronics Limited
-A48000-A48FFF                 (base 16)                     Thales Optronics Limited
-                                                            1 Linthouse Road
-                                                            Glasgow    G51 4BZ
-                                                            GB
 
 00-50-C2                      (hex)                         DUEVI SNC DI MORA E SANTESE
 A3E000-A3EFFF                 (base 16)                     DUEVI SNC DI MORA E SANTESE
@@ -9746,14 +9734,14 @@ A3A000-A3AFFF                 (base 16)                     Telecor Inc.
                                                             Swindon    SN5 7XP
                                                             GB
 
-00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
-EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi-Speed
-                                                            5 Barr Rd
-                                                            Ithaca  NY  14850
-                                                            US
+00-50-C2                      (hex)                         Thales UK Limited
+A48000-A48FFF                 (base 16)                     Thales UK Limited
+                                                            1 Linthouse Road
+                                                            Glasgow    G51 4BZ
+                                                            GB
 
-00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
-24D000-24DFFF                 (base 16)                     Mettler Toledo Hi-Speed
+40-D8-55                      (hex)                         Mettler Toledo Hi Speed
+0C8000-0C8FFF                 (base 16)                     Mettler Toledo Hi Speed
                                                             5 Barr Rd
                                                             Ithaca  NY  14850
                                                             US
@@ -14222,12 +14210,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Seoul  Seoul  135-508
                                                             KR
 
-00-50-C2                      (hex)                         Magellan Technology Pty Ltd
-2C0000-2C0FFF                 (base 16)                     Magellan Technology Pty Ltd
-                                                            65 Johnston Street
-                                                            Annandale  NSW  2038
-                                                            AU
-
 00-50-C2                      (hex)                         TA Instruments Ltd
 2BB000-2BBFFF                 (base 16)                     TA Instruments Ltd
                                                             159 Lukens Drive
@@ -15607,6 +15589,24 @@ E4C000-E4CFFF                 (base 16)                     Applied Micro Electr
                                                             4 Krasutskogo st.
                                                             St.Petersburg    196084
                                                             RU
+
+00-50-C2                      (hex)                         Magellan Technology Pty Limited
+2C0000-2C0FFF                 (base 16)                     Magellan Technology Pty Limited
+                                                            65 Johnston Street
+                                                            Annandale  NSW  2038
+                                                            AU
+
+00-50-C2                      (hex)                         Mettler Toledo Hi Speed
+24D000-24DFFF                 (base 16)                     Mettler Toledo Hi Speed
+                                                            5 Barr Rd
+                                                            Ithaca  NY  14850
+                                                            US
+
+00-50-C2                      (hex)                         Mettler Toledo Hi Speed
+EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi Speed
+                                                            5 Barr Rd
+                                                            Ithaca  NY  14850
+                                                            US
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
@@ -18506,12 +18506,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Santa Clara  CA  95050
                                                             US
 
-00-50-C2                      (hex)                         Thales Communications, Inc
-8AD000-8ADFFF                 (base 16)                     Thales Communications, Inc
-                                                            22605 Gateway Center Drive
-                                                            Clarksburg  MD  20871
-                                                            US
-
 00-50-C2                      (hex)                         Telsa s.r.l
 8AC000-8ACFFF                 (base 16)                     Telsa s.r.l
                                                             Via C.Colombo 29\31
@@ -20534,12 +20528,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Herlev    2730
                                                             DK
 
-00-50-C2                      (hex)                         CEGELEC SUD EST
-339000-339FFF                 (base 16)                     CEGELEC SUD EST
-                                                            ROUTE DE SALON
-                                                            LES PENNES MIRABEAU    13755
-                                                            FR
-
 00-50-C2                      (hex)                         Picture Elements, Inc.
 334000-334FFF                 (base 16)                     Picture Elements, Inc.
                                                             777 Panoramic Way
@@ -21833,6 +21821,18 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Koeln    50829
                                                             DE
 
+00-50-C2                      (hex)                         Thales Communications Inc
+8AD000-8ADFFF                 (base 16)                     Thales Communications Inc
+                                                            22605 Gateway Center Drive
+                                                            Clarksburg  MD  20871
+                                                            US
+
+00-50-C2                      (hex)                         Secure Systems & Services
+339000-339FFF                 (base 16)                     Secure Systems & Services
+                                                            24, Chemin de la Pouranque
+                                                            F-13752  LES PENNES MIRABEAU  CS30084
+                                                            FR
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -21868,12 +21868,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
                                                             Grammetstrasse 14
                                                             Liestal  BL  4410
                                                             CH
-
-00-50-C2                      (hex)                         Mettler Toledo Hi-Speed
-AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi-Speed
-                                                            5 Barr Rd
-                                                            Ithaca  NY  14850
-                                                            US
 
 40-D8-55                      (hex)                         InventLab s.c.
 1D2000-1D2FFF                 (base 16)                     InventLab s.c.
@@ -25310,12 +25304,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
 
-00-50-C2                      (hex)                         CEGELEC SUD EST
-5DB000-5DBFFF                 (base 16)                     CEGELEC SUD EST
-                                                            ROUTE DE SALON
-                                                            LES PENNES MIRABEAU    13755
-                                                            FR
-
 00-50-C2                      (hex)                         Synrad, Inc.
 5D7000-5D7FFF                 (base 16)                     Synrad, Inc.
                                                             4600 Campus Place
@@ -27321,15 +27309,15 @@ DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targ
                                                             US
 
 00-50-C2                      (hex)                         DORLET SAU
-796000-796FFF                 (base 16)                     DORLET SAU
-                                                            Albert Einstein 34
-                                                            Vitoria-gasteiz  Alava  01510
-                                                            ES
-
-00-50-C2                      (hex)                         DORLET SAU
 5AF000-5AFFFF                 (base 16)                     DORLET SAU
                                                             Albert Einstein 34
                                                             Vitoria  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+796000-796FFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria-gasteiz  Alava  01510
                                                             ES
 
 40-D8-55                      (hex)                         Gogo BA
@@ -27379,3 +27367,15 @@ EF9000-EF9FFF                 (base 16)                     HORIBA ABX SAS
                                                             Hubertus Liebrecht Str. 10-12
                                                             Biberach  D-BW  88483
                                                             DE
+
+00-50-C2                      (hex)                         Mettler Toledo Hi Speed
+AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi Speed
+                                                            5 Barr Rd
+                                                            Ithaca  NY  14850
+                                                            US
+
+00-50-C2                      (hex)                         Secure Systems & Services
+5DB000-5DBFFF                 (base 16)                     Secure Systems & Services
+                                                            24, Chemin de la Pouranque
+                                                            F-13752  LES PENNES MIRABEAU  CS30084
+                                                            FR
