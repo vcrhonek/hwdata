@@ -689,12 +689,6 @@ FC5000-FC5FFF                 (base 16)                     Sakura Seiki Co.,Ltd
                                                             Chikuma-city  Nagano Prefecture  387-0015
                                                             JP
 
-00-50-C2                      (hex)                         Critical Link
-FC6000-FC6FFF                 (base 16)                     Critical Link
-                                                            6712 Brooklawn  Parkway
-                                                            Syracuse  New York  13211
-                                                            US
-
 00-50-C2                      (hex)                         Netlink Bilisim Sistemleri San. ve Tic. Ltd. Sti.
 F19000-F19FFF                 (base 16)                     Netlink Bilisim Sistemleri San. ve Tic. Ltd. Sti.
                                                             Caferaða mah. Sakiz sk. no:8/10 Kadikoy
@@ -4049,12 +4043,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             00330 Helsinki
                                                             FI
 
-00-50-C2                      (hex)                         InterEpoch Technology, Inc.
-0C4000-0C4FFF                 (base 16)                     InterEpoch Technology, Inc.
-                                                            &f, No. 3, Alley 6, Lane 235
-                                                            Taipei Hsien
-                                                            TW
-
 00-50-C2                      (hex)                         SAIA Burgess Controls AG
 0C5000-0C5FFF                 (base 16)                     SAIA Burgess Controls AG
                                                             Bahnhofstrasse 18
@@ -4627,6 +4615,18 @@ A0B000-A0BFFF                 (base 16)                      IDS GeoRadar s.r.l.
                                                             Via E. Calabresi, 24
                                                             PISA  PI  56121
                                                             IT
+
+00-50-C2                      (hex)                         Critical Link LLC
+FC6000-FC6FFF                 (base 16)                     Critical Link LLC
+                                                            6712 Brooklawn  Parkway
+                                                            Syracuse  New York  13211
+                                                            US
+
+00-50-C2                      (hex)                         InterEpoch Technology,INC.
+0C4000-0C4FFF                 (base 16)                     InterEpoch Technology,INC.
+                                                            &f, No. 3, Alley 6, Lane 235
+                                                            Taipei Hsien
+                                                            TW
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -9693,12 +9693,6 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
                                                             PR
 
 00-50-C2                      (hex)                         Phytec Messtechnik GmbH
-459000-459FFF                 (base 16)                     Phytec Messtechnik GmbH
-                                                            Robert-Koch-Strasse 39
-                                                            Mainz  Rheinland-Pfalz  55129
-                                                            DE
-
-00-50-C2                      (hex)                         Phytec Messtechnik GmbH
 144000-144FFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Strasse 39
                                                             Mainz    D-55129
@@ -9713,6 +9707,12 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
 00-50-C2                      (hex)                         Phytec Messtechnik GmbH
 5A7000-5A7FFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Straße  39
+                                                            Mainz  Rheinland-Pfalz  55129
+                                                            DE
+
+00-50-C2                      (hex)                         Phytec Messtechnik GmbH
+459000-459FFF                 (base 16)                     Phytec Messtechnik GmbH
+                                                            Robert-Koch-Strasse 39
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
 
@@ -10732,12 +10732,6 @@ E53000-E53FFF                 (base 16)                     NEXT video systems H
                                                             Oderstr. 47
                                                             Neumuenster  SH  24539
                                                             DE
-
-00-50-C2                      (hex)                         Critical Link, LLC
-E67000-E67FFF                 (base 16)                     Critical Link, LLC
-                                                            251 Salina Meadows Pkwy
-                                                            Syracuse  New York  13212
-                                                            US
 
 00-50-C2                      (hex)                         TAIYO SEIKI CO.,LTD.
 E60000-E60FFF                 (base 16)                     TAIYO SEIKI CO.,LTD.
@@ -12267,12 +12261,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
 8F9000-8F9FFF                 (base 16)                     Honeywell International
                                                             13350 US Hwy 19 N
                                                             Clearwater  Fl  33764-7290
-                                                            US
-
-00-50-C2                      (hex)                         Critical Link
-8F4000-8F4FFF                 (base 16)                     Critical Link
-                                                            6712 Brooklawn Parkway
-                                                            Syracuse  NY  13211
                                                             US
 
 00-50-C2                      (hex)                         Detection Technologies Ltd.
@@ -15608,6 +15596,18 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo Hi Sp
                                                             Ithaca  NY  14850
                                                             US
 
+00-50-C2                      (hex)                         Critical Link LLC
+8F4000-8F4FFF                 (base 16)                     Critical Link LLC
+                                                            6712 Brooklawn Parkway
+                                                            Syracuse  NY  13211
+                                                            US
+
+00-50-C2                      (hex)                         Critical Link LLC
+E67000-E67FFF                 (base 16)                     Critical Link LLC
+                                                            251 Salina Meadows Pkwy
+                                                            Syracuse  New York  13212
+                                                            US
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -15753,12 +15753,6 @@ B51000-B51FFF                 (base 16)                     Aeroflex GmbH
 17D000-17DFFF                 (base 16)                     Kiwigrid GmbH
                                                             Kleiststrasse 10c
                                                             Dresden  Sachsen  01129
-                                                            US
-
-40-D8-55                      (hex)                         Critical Link
-17C000-17CFFF                 (base 16)                     Critical Link
-                                                            6712 Brooklawn Parkway
-                                                            Syracuse  NY  13211
                                                             US
 
 40-D8-55                      (hex)                         LUCEO
@@ -19958,12 +19952,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Concord  Ontario  L4K 4V3
                                                             CA
 
-00-50-C2                      (hex)                         Critical Link
-49D000-49DFFF                 (base 16)                     Critical Link
-                                                            6712 Brooklawn Parkway
-                                                            Syracuse  NY  13211
-                                                            US
-
 00-50-C2                      (hex)                         Acutelogic Corporation
 496000-496FFF                 (base 16)                     Acutelogic Corporation
                                                             3-7-1
@@ -21773,18 +21761,6 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Orlando  FL  32826
                                                             US
 
-00-50-C2                      (hex)                         Delphi Display Systems, Inc.
-301000-301FFF                 (base 16)                     Delphi Display Systems, Inc.
-                                                            3160 Pullman Street
-                                                            Costa Mesa  CA  92626
-                                                            US
-
-00-50-C2                      (hex)                         Delphi Display Systems, Inc.
-578000-578FFF                 (base 16)                     Delphi Display Systems, Inc.
-                                                            3160 Pullman Street
-                                                            Costa Mesa  CA  92626
-                                                            US
-
 00-50-C2                      (hex)                         MedAvant Healthcare
 3E9000-3E9FFF                 (base 16)                     MedAvant Healthcare
                                                             2533 Centennial Blvd
@@ -21803,6 +21779,18 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Taipei    100
                                                             TW
 
+00-50-C2                      (hex)                         Delphi Display Systems, Inc.
+301000-301FFF                 (base 16)                     Delphi Display Systems, Inc.
+                                                            3160 Pullman Street
+                                                            Costa Mesa  CA  92626
+                                                            US
+
+00-50-C2                      (hex)                         Delphi Display Systems, Inc.
+578000-578FFF                 (base 16)                     Delphi Display Systems, Inc.
+                                                            3160 Pullman Street
+                                                            Costa Mesa  CA  92626
+                                                            US
+
 00-50-C2                      (hex)                         Phytec Messtechnik GmbH
 32A000-32AFFF                 (base 16)                     Phytec Messtechnik GmbH
                                                             Robert-Koch-Straße  39
@@ -21820,6 +21808,18 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Mathias-Brüggen Str. 79
                                                             Koeln    50829
                                                             DE
+
+00-50-C2                      (hex)                         Critical Link LLC
+49D000-49DFFF                 (base 16)                     Critical Link LLC
+                                                            6712 Brooklawn Parkway
+                                                            Syracuse  NY  13211
+                                                            US
+
+40-D8-55                      (hex)                         Critical Link LLC
+17C000-17CFFF                 (base 16)                     Critical Link LLC
+                                                            6712 Brooklawn Parkway
+                                                            Syracuse  NY  13211
+                                                            US
 
 00-50-C2                      (hex)                         Thales Communications Inc
 8AD000-8ADFFF                 (base 16)                     Thales Communications Inc
@@ -27309,15 +27309,15 @@ DDE000-DDEFFF                 (base 16)                     DRS Imaging and Targ
                                                             US
 
 00-50-C2                      (hex)                         DORLET SAU
-5AF000-5AFFFF                 (base 16)                     DORLET SAU
-                                                            Albert Einstein 34
-                                                            Vitoria  Alava  01510
-                                                            ES
-
-00-50-C2                      (hex)                         DORLET SAU
 796000-796FFF                 (base 16)                     DORLET SAU
                                                             Albert Einstein 34
                                                             Vitoria-gasteiz  Alava  01510
+                                                            ES
+
+00-50-C2                      (hex)                         DORLET SAU
+5AF000-5AFFFF                 (base 16)                     DORLET SAU
+                                                            Albert Einstein 34
+                                                            Vitoria  Alava  01510
                                                             ES
 
 40-D8-55                      (hex)                         Gogo BA
