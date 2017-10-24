@@ -150,7 +150,7 @@ pnp.ids.xlsx:
 	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
 
 sdio.ids.downloaded:
-	@curl -o $@ https://cgit.freedesktop.org/systemd/systemd/plain/hwdb/sdio.ids
+	@curl -o $@ https://raw.githubusercontent.com/systemd/systemd/master/hwdb/sdio.ids
 
 usb.ids: usb.ids.utf8
 	dos2unix -n $? $@
@@ -192,5 +192,5 @@ pnp.ids: pnp.ids.orig pnp.ids.patch
 new-hwdb-files:
 	@for file in $(HWDBUPSTREAM); do \
 	    echo $$file; \
-	    curl -O https://cgit.freedesktop.org/systemd/systemd/plain/hwdb/$$file; \
+	    curl -O https://raw.githubusercontent.com/systemd/systemd/master/hwdb/$$file; \
 	done
