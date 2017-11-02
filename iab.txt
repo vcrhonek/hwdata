@@ -4487,12 +4487,6 @@ F2D000-F2DFFF                 (base 16)                     Robert Bosch Healthc
                                                             Palo Alto  CA  94303
                                                             US
 
-00-50-C2                      (hex)                         Vtron Pty Ltd
-F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
-                                                            6/59 Township Drive
-                                                            West Burleigh  QLD  4219
-                                                            AU
-
 00-50-C2                      (hex)                         DAVE SRL
 1EA000-1EAFFF                 (base 16)                     DAVE SRL
                                                             via Talponedo 29/A
@@ -4627,6 +4621,12 @@ FC6000-FC6FFF                 (base 16)                     Critical Link LLC
                                                             &f, No. 3, Alley 6, Lane 235
                                                             Taipei Hsien
                                                             TW
+
+00-50-C2                      (hex)                         Vtron Pty Ltd
+F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
+                                                            Unit 2, 62 Township Drive West
+                                                            West Burleigh  Queensland  4219
+                                                            AU
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -22487,12 +22487,6 @@ F4C000-F4CFFF                 (base 16)                     Enistic Limited
                                                             Oxford  Oxfordshire  OX4 2RD
                                                             GB
 
-00-50-C2                      (hex)                         Midas Technology DBA Phoenix Audio Technologies
-F48000-F48FFF                 (base 16)                     Midas Technology DBA Phoenix Audio Technologies
-                                                            2934 N. Naomi Street
-                                                            Burbank  CA  91504
-                                                            US
-
 00-50-C2                      (hex)                         Sanmina
 EFD000-EFDFFF                 (base 16)                     Sanmina
                                                             PO 106
@@ -27379,3 +27373,9 @@ AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi Sp
                                                             24, Chemin de la Pouranque
                                                             F-13752  LES PENNES MIRABEAU  CS30084
                                                             FR
+
+00-50-C2                      (hex)                         Midas Technology DBA Phoenix Audio Technologies
+F48000-F48FFF                 (base 16)                     Midas Technology DBA Phoenix Audio Technologies
+                                                            2934 N. Naomi Street
+                                                            Burbank  CA  91504
+                                                            US
