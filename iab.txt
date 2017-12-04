@@ -5699,12 +5699,6 @@ DB0000-DB0FFF                 (base 16)                     IMAGO Technologies G
                                                             Friedberg  Hessen  D-61169
                                                             DE
 
-00-50-C2                      (hex)                         Selex Systems Integration Inc
-DD8000-DD8FFF                 (base 16)                     Selex Systems Integration Inc
-                                                            11300 W 89th St
-                                                            Overland Park  Kansas  66214
-                                                            US
-
 00-50-C2                      (hex)                         Friend Spring Industrial Co., Ltd.
 DD5000-DD5FFF                 (base 16)                     Friend Spring Industrial Co., Ltd.
                                                             4F., No. 8, Lane 50, Sec. 3
@@ -6367,12 +6361,6 @@ C34000-C34FFF                 (base 16)                     Kyuhen
                                                             hanamigahama2-1-1
                                                             fukutsu  fukuoka  811-3216
                                                             JP
-
-00-50-C2                      (hex)                         Insitu, Inc.
-C35000-C35FFF                 (base 16)                     Insitu, Inc.
-                                                            118 E Columbia River Way
-                                                            Bingen  WA  98605
-                                                            US
 
 00-50-C2                      (hex)                         DISMUNTEL SAL
 C2E000-C2EFFF                 (base 16)                     DISMUNTEL SAL
@@ -8294,12 +8282,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Helsinki    00510
                                                             FI
 
-00-50-C2                      (hex)                         Hytec Geraetebau GmbH
-3F3000-3F3FFF                 (base 16)                     Hytec Geraetebau GmbH
-                                                            Cochemer Straße 12 - 14
-                                                            Mannheim    68309
-                                                            DE
-
 00-50-C2                      (hex)                         dAFTdATA Limited
 3F6000-3F6FFF                 (base 16)                     dAFTdATA Limited
                                                             dAFT HQ
@@ -9744,6 +9726,24 @@ A48000-A48FFF                 (base 16)                     Thales UK Limited
 0C8000-0C8FFF                 (base 16)                     Mettler Toledo Hi Speed
                                                             5 Barr Rd
                                                             Ithaca  NY  14850
+                                                            US
+
+00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
+DD8000-DD8FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
+                                                            11300 W 89th St
+                                                            Overland Park  Kansas  66214
+                                                            US
+
+00-50-C2                      (hex)                         ABB AG - Power Grids - Grid Automation
+3F3000-3F3FFF                 (base 16)                     ABB AG - Power Grids - Grid Automation
+                                                            Kallstadter Strasse 1
+                                                            Mannheim    68309
+                                                            DE
+
+00-50-C2                      (hex)                         Insitu, Inc
+C35000-C35FFF                 (base 16)                     Insitu, Inc
+                                                            118 E Columbia River Way
+                                                            Bingen  WA  98605
                                                             US
 
 40-D8-55                      (hex)                         Patria Aviation Oy
@@ -16349,12 +16349,6 @@ F8B000-F8BFFF                 (base 16)                     comlet Verteilte Sys
                                                             Zweibruecken  Rheinland-Pfalz  66482
                                                             DE
 
-00-50-C2                      (hex)                         Insitu, Inc.
-FD4000-FD4FFF                 (base 16)                     Insitu, Inc.
-                                                            118 East Columbia River Way
-                                                            Bingen  WA  98605
-                                                            US
-
 00-50-C2                      (hex)                         Propagation Systems Limited
 FCB000-FCBFFF                 (base 16)                     Propagation Systems Limited
                                                             Unit219A, 2/F, Enterprise Place, No.5 Science Park Science Park,
@@ -18247,12 +18241,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Andechser Str. 5
                                                             Utting am Ammersee  Bayern  86919
                                                             DE
-
-00-50-C2                      (hex)                         Selex Ex Ltd
-913000-913FFF                 (base 16)                     Selex Ex Ltd
-                                                            A Finmeccanica Company
-                                                            Basildon  Essex  SS14 3EL
-                                                            GB
 
 00-50-C2                      (hex)                         AS Solar GmbH
 95B000-95BFFF                 (base 16)                     AS Solar GmbH
@@ -21821,6 +21809,12 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Syracuse  NY  13211
                                                             US
 
+00-50-C2                      (hex)                         Insitu, Inc
+FD4000-FD4FFF                 (base 16)                     Insitu, Inc
+                                                            118 E Columbia River Way
+                                                            Bingen  WA  98605
+                                                            US
+
 00-50-C2                      (hex)                         Thales Communications Inc
 8AD000-8ADFFF                 (base 16)                     Thales Communications Inc
                                                             22605 Gateway Center Drive
@@ -21832,6 +21826,12 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             24, Chemin de la Pouranque
                                                             F-13752  LES PENNES MIRABEAU  CS30084
                                                             FR
+
+00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
+913000-913FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
+                                                            A Finmeccanica Company
+                                                            Basildon  Essex  SS14 3EL
+                                                            GB
 
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
@@ -25940,12 +25940,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Plainview  NY  11803
                                                             US
 
-00-50-C2                      (hex)                         ABB Power Technologies S.p.A. Unità  Operativa SACE (PTMV)
-3DE000-3DEFFF                 (base 16)                     ABB Power Technologies S.p.A. Unità  Operativa SACE (PTMV)
-                                                            via Friuli 4
-                                                            Dalmine  Bergamo  24044
-                                                            IT
-
 00-50-C2                      (hex)                         Braintronics BV
 3D1000-3D1FFF                 (base 16)                     Braintronics BV
                                                             Gildemark 130
@@ -27379,3 +27373,9 @@ F48000-F48FFF                 (base 16)                     Midas Technology DBA
                                                             2934 N. Naomi Street
                                                             Burbank  CA  91504
                                                             US
+
+00-50-C2                      (hex)                         ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
+3DE000-3DEFFF                 (base 16)                     ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
+                                                            via Friuli 4
+                                                            Dalmine  Bergamo  24044
+                                                            IT
