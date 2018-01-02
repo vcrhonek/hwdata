@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2017.11.27
-# Date:    2017-11-27 20:34:05
+# Version: 2017.12.28
+# Date:    2017-12-28 12:38:46
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -18673,6 +18673,19 @@
 24e1  Paratronic
 	3001  Adp-usb
 	3005  Radius
+2516  Cooler Master Co., Ltd.
+	0003  Storm Xornet
+	0004  Storm QuickFire Rapid Mechanical Keyboard
+	0006  Storm Recon
+	0007  Storm Sentinel Advance II
+	0009  Storm Quick Fire PRO
+	0011  Storm Quick Fire TK
+	0017  CM Storm Quick Fire Stealth
+	0020  QuickFire Rapid-i Keyboard
+	0027  CM Storm Coolermaster Novatouch TKL
+	002d  Alcor mouse
+	0047  MasterKeys Pro L
+	9494  Sirus Headset
 2632  TwinMOS
 	3209  7-in-1 Card Reader
 2639  Xsens
