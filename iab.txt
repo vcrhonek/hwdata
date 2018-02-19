@@ -320,12 +320,6 @@ EE6000-EE6FFF                 (base 16)                     Narinet, Inc.
                                                             Bievres    91570
                                                             FR
 
-40-D8-55                      (hex)                         QUANTAFLOW
-0C9000-0C9FFF                 (base 16)                     QUANTAFLOW
-                                                            AVENUE DUPONT GRAVE
-                                                            HONFLEUR    14600
-                                                            FR
-
 40-D8-55                      (hex)                         STV Electronic GmbH
 0E1000-0E1FFF                 (base 16)                     STV Electronic GmbH
                                                             Hellweg 203-205
@@ -1933,12 +1927,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Max-Volmer-Strasse 27
                                                             Hilden  NRW  40721
                                                             DE
-
-00-50-C2                      (hex)                         TempSys
-9B2000-9B2FFF                 (base 16)                     TempSys
-                                                            160 Arlingtoin Ave
-                                                            Kensington  CA  94707
-                                                            US
 
 00-50-C2                      (hex)                         Kahler Automation
 9B3000-9B3FFF                 (base 16)                     Kahler Automation
@@ -4349,30 +4337,6 @@ FA5000-FA5FFF                 (base 16)                     Intuitive Surgical, 
                                                             Rockville  MD  20850
                                                             US
 
-40-D8-55                      (hex)                         Sicon srl
-11A000-11AFFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-330000-330FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-C3A000-C3AFFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-A92000-A92FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
 00-50-C2                      (hex)                         Miromico AG
 99A000-99AFFF                 (base 16)                     Miromico AG
                                                             Gallusstrasse 4
@@ -4577,9 +4541,6 @@ AC4000-AC4FFF                 (base 16)                     Orion Technologies,L
                                                             Orlando  FL  32826
                                                             US
 
-00-50-C2                      (hex)                         Private
-0BF000-0BFFFF                 (base 16)                     Private
-
 00-50-C2                      (hex)                         MedAvant Healthcare
 4F0000-4F0FFF                 (base 16)                     MedAvant Healthcare
                                                             2533 Centennial Blvd
@@ -4622,11 +4583,50 @@ FC6000-FC6FFF                 (base 16)                     Critical Link LLC
                                                             Taipei Hsien
                                                             TW
 
+00-50-C2                      (hex)                         Sicon srl
+A92000-A92FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+00-50-C2                      (hex)                         Sicon srl
+C3A000-C3AFFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+00-50-C2                      (hex)                         Sicon srl
+330000-330FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+40-D8-55                      (hex)                         Sicon srl
+11A000-11AFFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
 00-50-C2                      (hex)                         Vtron Pty Ltd
 F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
                                                             Unit 2, 62 Township Drive West
                                                             West Burleigh  Queensland  4219
                                                             AU
+
+40-D8-55                      (hex)                         QUANTAFLOW
+0C9000-0C9FFF                 (base 16)                     QUANTAFLOW
+                                                            AVENUE DUPONT GRAVE
+                                                            HONFLEUR    14600
+                                                            FR
+
+00-50-C2                      (hex)                         Mesa Labs, Inc.
+9B2000-9B2FFF                 (base 16)                     Mesa Labs, Inc.
+                                                            12100 West 6th Ave
+                                                            Lakewood  CO  80228
+                                                            US
+
+00-50-C2                      (hex)                         Private
+0BF000-0BFFFF                 (base 16)                     Private
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -5198,12 +5198,6 @@ FE5000-FE5FFF                 (base 16)                     Scandinova Systems A
                                                               Hong Kong  000008
                                                             HK
 
-00-50-C2                      (hex)                         Enyx SA
-FD1000-FD1FFF                 (base 16)                     Enyx SA
-                                                            21, rue le Peletier
-                                                            Paris  Ile de France  75009
-                                                            FR
-
 00-50-C2                      (hex)                         KOYO ELECTRIC
 FCE000-FCEFFF                 (base 16)                     KOYO ELECTRIC
                                                             2-11-7 Hacchobori
@@ -5698,12 +5692,6 @@ DB0000-DB0FFF                 (base 16)                     IMAGO Technologies G
                                                             Strassheimer Strasse 45
                                                             Friedberg  Hessen  D-61169
                                                             DE
-
-00-50-C2                      (hex)                         Selex Systems Integration Inc
-DD8000-DD8FFF                 (base 16)                     Selex Systems Integration Inc
-                                                            11300 W 89th St
-                                                            Overland Park  Kansas  66214
-                                                            US
 
 00-50-C2                      (hex)                         Friend Spring Industrial Co., Ltd.
 DD5000-DD5FFF                 (base 16)                     Friend Spring Industrial Co., Ltd.
@@ -6368,12 +6356,6 @@ C34000-C34FFF                 (base 16)                     Kyuhen
                                                             fukutsu  fukuoka  811-3216
                                                             JP
 
-00-50-C2                      (hex)                         Insitu, Inc.
-C35000-C35FFF                 (base 16)                     Insitu, Inc.
-                                                            118 E Columbia River Way
-                                                            Bingen  WA  98605
-                                                            US
-
 00-50-C2                      (hex)                         DISMUNTEL SAL
 C2E000-C2EFFF                 (base 16)                     DISMUNTEL SAL
                                                             Pol ind cotes
@@ -6445,12 +6427,6 @@ A83000-A83FFF                 (base 16)                     Techno Sobi Co. Ltd.
                                                             Tsurunoso 6-11
                                                             Takarazuka-shi  Hyogo-ken  6650833
                                                             JP
-
-00-50-C2                      (hex)                         ARD SA
-A80000-A80FFF                 (base 16)                     ARD SA
-                                                            Micropolis BP 169
-                                                            GAP    05005
-                                                            FR
 
 00-50-C2                      (hex)                         Saintronic
 A79000-A79FFF                 (base 16)                     Saintronic
@@ -6961,12 +6937,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Level 4
                                                             Auckland  ---  1141
                                                             NZ
-
-00-50-C2                      (hex)                         Ex-i Flow Measurement Ltd.
-945000-945FFF                 (base 16)                     Ex-i Flow Measurement Ltd.
-                                                            Hawthorn Road
-                                                            Littlehampton  West Sussex  BN17 7LT
-                                                            GB
 
 00-50-C2                      (hex)                         Keith & Koep GmbH
 942000-942FFF                 (base 16)                     Keith & Koep GmbH
@@ -8294,12 +8264,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Helsinki    00510
                                                             FI
 
-00-50-C2                      (hex)                         Hytec Geraetebau GmbH
-3F3000-3F3FFF                 (base 16)                     Hytec Geraetebau GmbH
-                                                            Cochemer Straße 12 - 14
-                                                            Mannheim    68309
-                                                            DE
-
 00-50-C2                      (hex)                         dAFTdATA Limited
 3F6000-3F6FFF                 (base 16)                     dAFTdATA Limited
                                                             dAFT HQ
@@ -9494,18 +9458,6 @@ FBA000-FBAFFF                 (base 16)                     Elbit Systems of Ame
                                                             Jerusalem    95463
                                                             IL
 
-00-50-C2                      (hex)                         Sicon srl
-E0A000-E0AFFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-60D000-60DFFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
 40-D8-55                      (hex)                          GD Mission Systems
 16D000-16DFFF                 (base 16)                      GD Mission Systems
                                                             8220 E. Roosevelt St.
@@ -9656,6 +9608,60 @@ C63000-C63FFF                 (base 16)                     Potter Electric Sign
                                                             Maple Grove  MN  55369
                                                             US
 
+00-50-C2                      (hex)                         Telecor Inc.
+A3A000-A3AFFF                 (base 16)                     Telecor Inc.
+                                                            6205 Kestrel Road
+                                                            Mississauga  Ontario  L5T 2A1
+                                                            CA
+
+00-50-C2                      (hex)                         Ace Axis Limited
+6E7000-6E7FFF                 (base 16)                     Ace Axis Limited
+                                                            602 Delta Business Park, Welton Road
+                                                            Swindon    SN5 7XP
+                                                            GB
+
+00-50-C2                      (hex)                         Thales UK Limited
+A48000-A48FFF                 (base 16)                     Thales UK Limited
+                                                            1 Linthouse Road
+                                                            Glasgow    G51 4BZ
+                                                            GB
+
+40-D8-55                      (hex)                         Mettler Toledo Hi Speed
+0C8000-0C8FFF                 (base 16)                     Mettler Toledo Hi Speed
+                                                            5 Barr Rd
+                                                            Ithaca  NY  14850
+                                                            US
+
+00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
+DD8000-DD8FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
+                                                            11300 W 89th St
+                                                            Overland Park  Kansas  66214
+                                                            US
+
+00-50-C2                      (hex)                         Insitu, Inc
+C35000-C35FFF                 (base 16)                     Insitu, Inc
+                                                            118 E Columbia River Way
+                                                            Bingen  WA  98605
+                                                            US
+
+00-50-C2                      (hex)                         ABB AG - Power Grids - Grid Automation
+3F3000-3F3FFF                 (base 16)                     ABB AG - Power Grids - Grid Automation
+                                                            Kallstadter Strasse 1
+                                                            Mannheim    68309
+                                                            DE
+
+00-50-C2                      (hex)                         Sicon srl
+60D000-60DFFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+00-50-C2                      (hex)                         Sicon srl
+E0A000-E0AFFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
 00-50-C2                      (hex)                         Computerwise, Inc.
 9A3000-9A3FFF                 (base 16)                     Computerwise, Inc.
                                                             302 N. Winchester
@@ -9722,29 +9728,23 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
                                                             Minneapolis  MN  55401
                                                             US
 
-00-50-C2                      (hex)                         Telecor Inc.
-A3A000-A3AFFF                 (base 16)                     Telecor Inc.
-                                                            6205 Kestrel Road
-                                                            Mississauga  Ontario  L5T 2A1
-                                                            CA
-
-00-50-C2                      (hex)                         Ace Axis Limited
-6E7000-6E7FFF                 (base 16)                     Ace Axis Limited
-                                                            602 Delta Business Park, Welton Road
-                                                            Swindon    SN5 7XP
+00-50-C2                      (hex)                         Exi Flow Measurement Ltd
+945000-945FFF                 (base 16)                     Exi Flow Measurement Ltd
+                                                            Hawthorn Road
+                                                            Littlehampton  West Sussex  BN17 7LT
                                                             GB
 
-00-50-C2                      (hex)                         Thales UK Limited
-A48000-A48FFF                 (base 16)                     Thales UK Limited
-                                                            1 Linthouse Road
-                                                            Glasgow    G51 4BZ
-                                                            GB
+00-50-C2                      (hex)                         ard sa
+A80000-A80FFF                 (base 16)                     ard sa
+                                                            Micropolis Bat Clematis
+                                                            Gap  France  05000
+                                                            FR
 
-40-D8-55                      (hex)                         Mettler Toledo Hi Speed
-0C8000-0C8FFF                 (base 16)                     Mettler Toledo Hi Speed
-                                                            5 Barr Rd
-                                                            Ithaca  NY  14850
-                                                            US
+00-50-C2                      (hex)                         Enyx SA
+FD1000-FD1FFF                 (base 16)                     Enyx SA
+                                                            8 rue greneta
+                                                            Paris    75003
+                                                            FR
 
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
@@ -10918,12 +10918,6 @@ DDD000-DDDFFF                 (base 16)                     A&A GENERAL SRL
                                                             Calea Victoriei 85, bl.1, ap.30
                                                             Bucuresti    010066
                                                             RO
-
-00-50-C2                      (hex)                         metraTec GmbH
-DA2000-DA2FFF                 (base 16)                     metraTec GmbH
-                                                            Werner-Heisenberg-Str. 1
-                                                            Magdeburg  Sachsen-Anh.  39106
-                                                            DE
 
 00-50-C2                      (hex)                         MangoDSP
 DA1000-DA1FFF                 (base 16)                     MangoDSP
@@ -15254,12 +15248,6 @@ B76000-B76FFF                 (base 16)                     ITF Fröschl GmbH
                                                             Delta  British Columbia  V3M 6V5
                                                             CA
 
-00-50-C2                      (hex)                         Sicon srl
-7E9000-7E9FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
 00-50-C2                      (hex)                          GD Mission Systems
 21B000-21BFFF                 (base 16)                      GD Mission Systems
                                                             8220 E. Roosevelt Street
@@ -15607,6 +15595,18 @@ E67000-E67FFF                 (base 16)                     Critical Link LLC
                                                             251 Salina Meadows Pkwy
                                                             Syracuse  New York  13212
                                                             US
+
+00-50-C2                      (hex)                         Sicon srl
+7E9000-7E9FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+00-50-C2                      (hex)                         metraTec GmbH
+DA2000-DA2FFF                 (base 16)                     metraTec GmbH
+                                                            Niels-Bohr-Str. 5
+                                                            Magdeburg  Sachsen-Anh.  39106
+                                                            DE
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
@@ -16025,12 +16025,6 @@ B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Bangalore  Karnataka  560062
                                                             IN
 
-40-D8-55                      (hex)                         ard sa
-082000-082FFF                 (base 16)                     ard sa
-                                                            Micropolis Bat Clematis
-                                                            Gap  France  05000
-                                                            FR
-
 40-D8-55                      (hex)                         Sphere Medical Ltd
 074000-074FFF                 (base 16)                     Sphere Medical Ltd
                                                             Harston Mill
@@ -16349,12 +16343,6 @@ F8B000-F8BFFF                 (base 16)                     comlet Verteilte Sys
                                                             Zweibruecken  Rheinland-Pfalz  66482
                                                             DE
 
-00-50-C2                      (hex)                         Insitu, Inc.
-FD4000-FD4FFF                 (base 16)                     Insitu, Inc.
-                                                            118 East Columbia River Way
-                                                            Bingen  WA  98605
-                                                            US
-
 00-50-C2                      (hex)                         Propagation Systems Limited
 FCB000-FCBFFF                 (base 16)                     Propagation Systems Limited
                                                             Unit219A, 2/F, Enterprise Place, No.5 Science Park Science Park,
@@ -16462,12 +16450,6 @@ F44000-F44FFF                 (base 16)                     Steinbichler Optotec
                                                             Georg-Wiesboeck-Ring 12
                                                             Neubeuern  Bavaria  83115
                                                             DE
-
-00-50-C2                      (hex)                         Triax A/S
-F63000-F63FFF                 (base 16)                     Triax A/S
-                                                            Bjørnkærvej 3
-                                                            Hornsyld    8783
-                                                            US
 
 00-50-C2                      (hex)                         EMAC, Inc.
 F62000-F62FFF                 (base 16)                     EMAC, Inc.
@@ -17882,12 +17864,6 @@ B26000-B26FFF                 (base 16)                     Elko Systems
                                                             Pretoria  Gauteng  0081
                                                             ZA
 
-00-50-C2                      (hex)                         Triax A/S
-B25000-B25FFF                 (base 16)                     Triax A/S
-                                                            Bjørnkærvej 3
-                                                            Hornsyld    DK-8783
-                                                            DK
-
 00-50-C2                      (hex)                         Spider Tecnologia Ind. e Com. Ltda.
 B03000-B03FFF                 (base 16)                     Spider Tecnologia Ind. e Com. Ltda.
                                                             Rua Alencar Araripe, 1440
@@ -18247,12 +18223,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Andechser Str. 5
                                                             Utting am Ammersee  Bayern  86919
                                                             DE
-
-00-50-C2                      (hex)                         Selex Ex Ltd
-913000-913FFF                 (base 16)                     Selex Ex Ltd
-                                                            A Finmeccanica Company
-                                                            Basildon  Essex  SS14 3EL
-                                                            GB
 
 00-50-C2                      (hex)                         AS Solar GmbH
 95B000-95BFFF                 (base 16)                     AS Solar GmbH
@@ -21380,12 +21350,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             71634 Ludwigsburg
                                                             DE
 
-00-50-C2                      (hex)                         ARD SA
-083000-083FFF                 (base 16)                     ARD SA
-                                                            Micropolis BP 169
-                                                            C5 005 GAP cedex
-                                                            FR
-
 00-50-C2                      (hex)                         Innocor LTD
 02D000-02DFFF                 (base 16)                     Innocor LTD
                                                             210 - 362 Terry Fox Drive
@@ -21532,36 +21496,6 @@ F80000-F80FFF                 (base 16)                     SYS TEC electronic G
                                                             Am Windrad 2
                                                             Heinsdorfergrund     D-08468
                                                             DE
-
-40-D8-55                      (hex)                         Sicon srl
-171000-171FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-D8B000-D8BFFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-956000-956FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-52B000-52BFFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-40-D8-55                      (hex)                         Sicon srl
-081000-081FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
 
 00-50-C2                      (hex)                         Linn Products Ltd
 217000-217FFF                 (base 16)                     Linn Products Ltd
@@ -21821,6 +21755,54 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             Syracuse  NY  13211
                                                             US
 
+00-50-C2                      (hex)                         Insitu, Inc
+FD4000-FD4FFF                 (base 16)                     Insitu, Inc
+                                                            118 E Columbia River Way
+                                                            Bingen  WA  98605
+                                                            US
+
+00-50-C2                      (hex)                         Sicon srl
+52B000-52BFFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+00-50-C2                      (hex)                         Sicon srl
+956000-956FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+00-50-C2                      (hex)                         Sicon srl
+D8B000-D8BFFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+40-D8-55                      (hex)                         Sicon srl
+171000-171FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+40-D8-55                      (hex)                         Sicon srl
+081000-081FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+40-D8-55                      (hex)                         ard sa
+082000-082FFF                 (base 16)                     ard sa
+                                                            Micropolis Bat Clematis
+                                                            Gap  France  05000
+                                                            FR
+
+00-50-C2                      (hex)                         ard sa
+083000-083FFF                 (base 16)                     ard sa
+                                                            Micropolis Bat Clematis
+                                                            Gap  France  05000
+                                                            FR
+
 00-50-C2                      (hex)                         Thales Communications Inc
 8AD000-8ADFFF                 (base 16)                     Thales Communications Inc
                                                             22605 Gateway Center Drive
@@ -21832,6 +21814,24 @@ B30000-B30FFF                 (base 16)                     Applied Micro Electr
                                                             24, Chemin de la Pouranque
                                                             F-13752  LES PENNES MIRABEAU  CS30084
                                                             FR
+
+00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
+913000-913FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
+                                                            A Finmeccanica Company
+                                                            Basildon  Essex  SS14 3EL
+                                                            GB
+
+00-50-C2                      (hex)                         Triax A/S
+F63000-F63FFF                 (base 16)                     Triax A/S
+                                                            Bjornkaervej 3
+                                                            Hornsyld  Denmark  8783
+                                                            DK
+
+00-50-C2                      (hex)                         Triax A/S
+B25000-B25FFF                 (base 16)                     Triax A/S
+                                                            Bjornkaervej 3
+                                                            Hornsyld  Denmark  8783
+                                                            DK
 
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
@@ -23218,12 +23218,6 @@ D8F000-D8FFFF                 (base 16)                     Syes srl
                                                             Via Zanella 21
                                                             Lissone  MB  20035
                                                             IT
-
-00-50-C2                      (hex)                         T+A elektroakustik GmbH & Co KG
-D88000-D88FFF                 (base 16)                     T+A elektroakustik GmbH & Co KG
-                                                            Planckstraße 9-11
-                                                            Herford  NRW  32052
-                                                            DE
 
 00-50-C2                      (hex)                         AeroMechanical Services Ltd, FLYHT
 CED000-CEDFFF                 (base 16)                     AeroMechanical Services Ltd, FLYHT
@@ -25940,12 +25934,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Plainview  NY  11803
                                                             US
 
-00-50-C2                      (hex)                         ABB Power Technologies S.p.A. Unità  Operativa SACE (PTMV)
-3DE000-3DEFFF                 (base 16)                     ABB Power Technologies S.p.A. Unità  Operativa SACE (PTMV)
-                                                            via Friuli 4
-                                                            Dalmine  Bergamo  24044
-                                                            IT
-
 00-50-C2                      (hex)                         Braintronics BV
 3D1000-3D1FFF                 (base 16)                     Braintronics BV
                                                             Gildemark 130
@@ -27104,18 +27092,6 @@ A0E000-A0EFFF                 (base 16)                     ENGICAM s.r.l.
                                                             Biel    CH-2502
                                                             CH
 
-00-50-C2                      (hex)                         Sicon srl
-F97000-F97FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
-00-50-C2                      (hex)                         Sicon srl
-CE2000-CE2FFF                 (base 16)                     Sicon srl
-                                                            Via Sila 1/3
-                                                            Isola Vicentina  Vicenza  36033
-                                                            IT
-
 00-50-C2                      (hex)                         9Solutions Oy
 C78000-C78FFF                 (base 16)                     9Solutions Oy
                                                             Teknologiantie 2
@@ -27290,6 +27266,42 @@ D43000-D43FFF                 (base 16)                     DSP4YOU LTd
                                                             Zamudio  Vizcaya  E-48170
                                                             ES
 
+00-50-C2                      (hex)                         Mettler Toledo Hi Speed
+AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi Speed
+                                                            5 Barr Rd
+                                                            Ithaca  NY  14850
+                                                            US
+
+00-50-C2                      (hex)                         Secure Systems & Services
+5DB000-5DBFFF                 (base 16)                     Secure Systems & Services
+                                                            24, Chemin de la Pouranque
+                                                            F-13752  LES PENNES MIRABEAU  CS30084
+                                                            FR
+
+00-50-C2                      (hex)                         Midas Technology DBA Phoenix Audio Technologies
+F48000-F48FFF                 (base 16)                     Midas Technology DBA Phoenix Audio Technologies
+                                                            2934 N. Naomi Street
+                                                            Burbank  CA  91504
+                                                            US
+
+00-50-C2                      (hex)                         ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
+3DE000-3DEFFF                 (base 16)                     ABB Power Technologies S.p.A.  Unità  Operativa SACE (PTMV)
+                                                            via Friuli 4
+                                                            Dalmine  Bergamo  24044
+                                                            IT
+
+00-50-C2                      (hex)                         Sicon srl
+CE2000-CE2FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
+00-50-C2                      (hex)                         Sicon srl
+F97000-F97FFF                 (base 16)                     Sicon srl
+                                                            Via Sila 1/3
+                                                            Isola Vicentina  Vicenza  36033
+                                                            IT
+
 40-D8-55                      (hex)                         Nanjing TIANSU Automation Control System Co., Ltd.
 0B1000-0B1FFF                 (base 16)                     Nanjing TIANSU Automation Control System Co., Ltd.
                                                             Building 5, New Town Science & Technology Park
@@ -27362,20 +27374,8 @@ EF9000-EF9FFF                 (base 16)                     HORIBA ABX SAS
                                                             Biberach  D-BW  88483
                                                             DE
 
-00-50-C2                      (hex)                         Mettler Toledo Hi Speed
-AB5000-AB5FFF                 (base 16)                     Mettler Toledo Hi Speed
-                                                            5 Barr Rd
-                                                            Ithaca  NY  14850
-                                                            US
-
-00-50-C2                      (hex)                         Secure Systems & Services
-5DB000-5DBFFF                 (base 16)                     Secure Systems & Services
-                                                            24, Chemin de la Pouranque
-                                                            F-13752  LES PENNES MIRABEAU  CS30084
-                                                            FR
-
-00-50-C2                      (hex)                         Midas Technology DBA Phoenix Audio Technologies
-F48000-F48FFF                 (base 16)                     Midas Technology DBA Phoenix Audio Technologies
-                                                            2934 N. Naomi Street
-                                                            Burbank  CA  91504
-                                                            US
+00-50-C2                      (hex)                         T+A elektroakustik GmbH & Co.KG
+D88000-D88FFF                 (base 16)                     T+A elektroakustik GmbH & Co.KG
+                                                            Planckstraße 9-11
+                                                            Herford  NRW  32052
+                                                            DE
