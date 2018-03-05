@@ -1,9 +1,8 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.310
+Version: 0.311
 Release: 1%{?dist}
 License: GPLv2+
-Group: System Environment/Base
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
 BuildArch: noarch
@@ -23,9 +22,6 @@ such as the pci.ids and usb.ids databases.
 rm -rf $RPM_BUILD_ROOT
 make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %files
 %doc LICENSE COPYING
 %dir %{_datadir}/%{name}
@@ -33,6 +29,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Mar 05 2018 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.311-1
+- Remove %%clean section
+- Remove Group tag
+
 * Mon Mar 05 2018 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.310-1
 - Updated pci, usb and vendor ids.
 
