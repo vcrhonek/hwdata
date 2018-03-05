@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2018.01.04
-# Date:    2018-01-04 20:34:07
+# Version: 2018.02.24
+# Date:    2018-02-24 20:34:06
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -18686,6 +18686,18 @@
 	0044  Mega ADK R3 (CDC ACM)
 	0045  Serial R3 (CDC ACM)
 	8036  Leonardo (CDC ACM, HID)
+2357  TP-Link
+	0100  TL-WN8200ND [Realtek RTL8192CU]
+	0101  RTL8812AU Archer T4U 802.11ac
+	0103  Archer T4UH wireless Realtek 8812AU
+	0105  Archer T1U 802.11a/n/ac Wireless Adapter [MediaTek MT7610U]
+	0107  TL-WN821N Version 5 RTL8192EU
+	0108  TL-WN822N Version 4 RTL8192EU
+	0109  TL WN823N RTL8192EU
+	010c  TL-WN722N v2
+	010e  TL-WN722N v2
+	0200  MA 180 Zero CD
+	0201  HSUPA Modem MA180
 2373  Pumatronix Ltda
 	0001  5 MegaPixel Digital Still Camera [DSC5M]
 2375  Digit@lway, Inc.

@@ -128,12 +128,6 @@ EE6000-EE6FFF                 (base 16)                     Narinet, Inc.
                                                               Dublin  2
                                                             IE
 
-40-D8-55                      (hex)                         TECHBOARD SRL
-165000-165FFF                 (base 16)                     TECHBOARD SRL
-                                                            VIA DELLA SCIENZA 50
-                                                            MODENA  Modena  41122
-                                                            IT
-
 40-D8-55                      (hex)                         TRI Engineering co.,ltd.
 177000-177FFF                 (base 16)                     TRI Engineering co.,ltd.
                                                             23-30 Goban-cho
@@ -3686,12 +3680,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Fareham  Hampshire  PO15 7FT
                                                             GB
 
-00-50-C2                      (hex)                         Imarda New Zealand Limited
-1DC000-1DCFFF                 (base 16)                     Imarda New Zealand Limited
-                                                            Suite G16, National Innovation Centre,
-                                                            Eveleigh NSW     2015
-                                                            NZ
-
 00-50-C2                      (hex)                         Peiker acustic GmbH & Co. KG
 1DD000-1DDFFF                 (base 16)                     Peiker acustic GmbH & Co. KG
                                                             Max-Planck-Strasse 32
@@ -4628,6 +4616,18 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
 00-50-C2                      (hex)                         Private
 0BF000-0BFFFF                 (base 16)                     Private
 
+00-50-C2                      (hex)                         Imarda New Zealand Limited
+1DC000-1DCFFF                 (base 16)                     Imarda New Zealand Limited
+                                                            Suite G16, National Innovation Centre,
+                                                            Eveleigh NSW     2015
+                                                            NZ
+
+40-D8-55                      (hex)                         TECHBOARD SRL
+165000-165FFF                 (base 16)                     TECHBOARD SRL
+                                                            VIA DELLA SCIENZA 50
+                                                            MODENA  Modena  41122
+                                                            IT
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -5197,12 +5197,6 @@ FE5000-FE5FFF                 (base 16)                     Scandinova Systems A
                                                             Room 31, Cambridge Plaza, Tower B
                                                               Hong Kong  000008
                                                             HK
-
-00-50-C2                      (hex)                         Enyx SA
-FD1000-FD1FFF                 (base 16)                     Enyx SA
-                                                            21, rue le Peletier
-                                                            Paris  Ile de France  75009
-                                                            FR
 
 00-50-C2                      (hex)                         KOYO ELECTRIC
 FCE000-FCEFFF                 (base 16)                     KOYO ELECTRIC
@@ -6433,12 +6427,6 @@ A83000-A83FFF                 (base 16)                     Techno Sobi Co. Ltd.
                                                             Tsurunoso 6-11
                                                             Takarazuka-shi  Hyogo-ken  6650833
                                                             JP
-
-00-50-C2                      (hex)                         ARD SA
-A80000-A80FFF                 (base 16)                     ARD SA
-                                                            Micropolis BP 169
-                                                            GAP    05005
-                                                            FR
 
 00-50-C2                      (hex)                         Saintronic
 A79000-A79FFF                 (base 16)                     Saintronic
@@ -8228,12 +8216,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Val-Belair  Québec  G3J 1X5
                                                             CA
 
-00-50-C2                      (hex)                         Erhardt + Leimer GmbH
-453000-453FFF                 (base 16)                     Erhardt + Leimer GmbH
-                                                            Albert-Leimer-Platz 1
-                                                            Stadtbergen  Bavaria  86391
-                                                            DE
-
 00-50-C2                      (hex)                         SCAME SISTEMI s.r.l.
 452000-452FFF                 (base 16)                     SCAME SISTEMI s.r.l.
                                                             Via Lombardia N°5
@@ -8719,12 +8701,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             359 Terry Fox Drive, Suite 230
                                                             Kanata  ON  K2K 2E7
                                                             CA
-
-00-50-C2                      (hex)                         Guardian Controls International
-1D8000-1D8FFF                 (base 16)                     Guardian Controls International
-                                                            56, Crewe Road,
-                                                            Sandbach  Cheshire  CW11 4NN
-                                                            GB
 
 00-50-C2                      (hex)                         Phase IV Engineering Inc.
 1D4000-1D4FFF                 (base 16)                     Phase IV Engineering Inc.
@@ -9746,6 +9722,30 @@ A47000-A47FFF                 (base 16)                     PRIMETECH ENGINEERIN
                                                             Littlehampton  West Sussex  BN17 7LT
                                                             GB
 
+00-50-C2                      (hex)                         ard sa
+A80000-A80FFF                 (base 16)                     ard sa
+                                                            Micropolis Bat Clematis
+                                                            Gap  France  05000
+                                                            FR
+
+00-50-C2                      (hex)                         Enyx SA
+FD1000-FD1FFF                 (base 16)                     Enyx SA
+                                                            8 rue greneta
+                                                            Paris    75003
+                                                            FR
+
+00-50-C2                      (hex)                         Guardian Controls International Ltd
+1D8000-1D8FFF                 (base 16)                     Guardian Controls International Ltd
+                                                            56, Crewe Road,
+                                                            Sandbach  Cheshire  CW11 4NN
+                                                            GB
+
+00-50-C2                      (hex)                         Erhardt+Leimer GmbH
+453000-453FFF                 (base 16)                     Erhardt+Leimer GmbH
+                                                            Albert-Leimer-Platz 1
+                                                            Stadtbergen  Bavaria  86391
+                                                            DE
+
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
                                                             Naulakatu 3
@@ -10181,23 +10181,11 @@ FF5000-FF5FFF                 (base 16)                     Flexkom Internet Paz
                                                             Konya    42090
                                                             TR
 
-00-50-C2                      (hex)                         DiTEST FAHRZEUGDIAGNOSE GMBH
-FF1000-FF1FFF                 (base 16)                     DiTEST FAHRZEUGDIAGNOSE GMBH
-                                                            ALTE POSTSTRASSE 152
-                                                            GRAZ  STEIERMARK  8020
-                                                            AT
-
 00-50-C2                      (hex)                         Axible Technologies
 FEB000-FEBFFF                 (base 16)                     Axible Technologies
                                                             425 Rue Jean Rostand
                                                             Labège    31670
                                                             FR
-
-00-50-C2                      (hex)                         Erhardt+Leimer GmbH
-FE7000-FE7FFF                 (base 16)                     Erhardt+Leimer GmbH
-                                                            Albert-Leimer-Platz 1
-                                                            Stadtbergen    86391
-                                                            DE
 
 40-D8-55                      (hex)                         Depro Electronique
 029000-029FFF                 (base 16)                     Depro Electronique
@@ -10985,12 +10973,6 @@ CF6000-CF6FFF                 (base 16)                     Epec Oy
                                                             Seinäjoki    60101
                                                             FI
 
-00-50-C2                      (hex)                         Erhardt+Leimer GmbH
-CEC000-CECFFF                 (base 16)                     Erhardt+Leimer GmbH
-                                                            Albert-Leimer-Platz 1
-                                                            Stadtbergen  Bavaria  86391
-                                                            DE
-
 00-50-C2                      (hex)                         CoreEL TEchnologies (I) Pvt Ltd
 CDF000-CDFFFF                 (base 16)                     CoreEL TEchnologies (I) Pvt Ltd
                                                             No.21,7th Main
@@ -11104,12 +11086,6 @@ D0D000-D0DFFF                 (base 16)                     DECA Card Engineerin
                                                             Bahnstrasse 29-31
                                                             Ratingen  NW  40878
                                                             DE
-
-00-50-C2                      (hex)                         Guardtec, Inc.
-D09000-D09FFF                 (base 16)                     Guardtec, Inc.
-                                                            #1203, Hansin IT Tower, 235,
-                                                            Seoul    152-768
-                                                            KR
 
 00-50-C2                      (hex)                         Airpoint Co., Ltd.
 D0A000-D0AFFF                 (base 16)                     Airpoint Co., Ltd.
@@ -12293,12 +12269,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Portishead  Bristol  BS20 7FS
                                                             GB
 
-00-50-C2                      (hex)                         DITEST FAHRZEUGDIAGNOSE GMBH
-926000-926FFF                 (base 16)                     DITEST FAHRZEUGDIAGNOSE GMBH
-                                                            ALTE POSTSTRASSE 152
-                                                            A-8020  GRAZ  STEIERMARK
-                                                            AT
-
 00-50-C2                      (hex)                         MangoDSP
 91C000-91CFFF                 (base 16)                     MangoDSP
                                                             Hartom 8
@@ -13207,12 +13177,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             4F Naewae Bldg.382-5
                                                             Sungnam  Gyeonggi  463-827
                                                             KR
-
-00-50-C2                      (hex)                         Comtest Networks
-624000-624FFF                 (base 16)                     Comtest Networks
-                                                            1 Raymond Street
-                                                            Ottawa  Ontario  K1R 1A2
-                                                            CA
 
 00-50-C2                      (hex)                         Physik Instrumente (PI) GmbH&Co.KG
 655000-655FFF                 (base 16)                     Physik Instrumente (PI) GmbH&Co.KG
@@ -15608,6 +15572,42 @@ DA2000-DA2FFF                 (base 16)                     metraTec GmbH
                                                             Magdeburg  Sachsen-Anh.  39106
                                                             DE
 
+00-50-C2                      (hex)                         Erhardt+Leimer GmbH
+FE7000-FE7FFF                 (base 16)                     Erhardt+Leimer GmbH
+                                                            Albert-Leimer-Platz 1
+                                                            Stadtbergen    86391
+                                                            DE
+
+00-50-C2                      (hex)                         Erhardt+Leimer GmbH
+CEC000-CECFFF                 (base 16)                     Erhardt+Leimer GmbH
+                                                            Albert-Leimer-Platz 1
+                                                            Stadtbergen  Bavaria  86391
+                                                            DE
+
+00-50-C2                      (hex)                         DiTEST Fahrzeugdiagnose GmbH
+FF1000-FF1FFF                 (base 16)                     DiTEST Fahrzeugdiagnose GmbH
+                                                            ALTE POSTSTRASSE 152
+                                                            GRAZ  STEIERMARK  8020
+                                                            AT
+
+00-50-C2                      (hex)                         DiTEST Fahrzeugdiagnose GmbH
+926000-926FFF                 (base 16)                     DiTEST Fahrzeugdiagnose GmbH
+                                                            ALTE POSTSTRASSE 152
+                                                            A-8020  GRAZ  STEIERMARK
+                                                            AT
+
+00-50-C2                      (hex)                         Comtest Networks
+624000-624FFF                 (base 16)                     Comtest Networks
+                                                            1 Raymond Street
+                                                            Ottawa  Ontario  K1R 1A2
+                                                            CA
+
+00-50-C2                      (hex)                         Guardtec,Inc
+D09000-D09FFF                 (base 16)                     Guardtec,Inc
+                                                            #1203, Hansin IT Tower, 235,
+                                                            Seoul    152-768
+                                                            KR
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -16024,12 +16024,6 @@ B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             #3&4, 1st Cross, 7th Main
                                                             Bangalore  Karnataka  560062
                                                             IN
-
-40-D8-55                      (hex)                         ard sa
-082000-082FFF                 (base 16)                     ard sa
-                                                            Micropolis Bat Clematis
-                                                            Gap  France  05000
-                                                            FR
 
 40-D8-55                      (hex)                         Sphere Medical Ltd
 074000-074FFF                 (base 16)                     Sphere Medical Ltd
@@ -16738,12 +16732,6 @@ E23000-E23FFF                 (base 16)                     VITEC
                                                             99, rue Pierre Semard
                                                             CHATILLON    92320
                                                             FR
-
-00-50-C2                      (hex)                         DiTEST Fahrzeugdiagnose GmbH
-E24000-E24FFF                 (base 16)                     DiTEST Fahrzeugdiagnose GmbH
-                                                            Alte Poststrasse 152
-                                                            Graz  Steiermark  8020
-                                                            AT
 
 00-50-C2                      (hex)                         Michael Riedel Transformatorenbau GmbH
 E22000-E22FFF                 (base 16)                     Michael Riedel Transformatorenbau GmbH
@@ -20186,12 +20174,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Santa Clara  CA  95050
                                                             US
 
-00-50-C2                      (hex)                         Ballard Technology, Inc.
-2E2000-2E2FFF                 (base 16)                     Ballard Technology, Inc.
-                                                            11400 Airport Road
-                                                            Everett  WA  98204
-                                                            US
-
 00-50-C2                      (hex)                         MG Industrieelektronik GmbH
 2E3000-2E3FFF                 (base 16)                     MG Industrieelektronik GmbH
                                                             Nobelstraße 7
@@ -21356,12 +21338,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             71634 Ludwigsburg
                                                             DE
 
-00-50-C2                      (hex)                         ARD SA
-083000-083FFF                 (base 16)                     ARD SA
-                                                            Micropolis BP 169
-                                                            C5 005 GAP cedex
-                                                            FR
-
 00-50-C2                      (hex)                         Innocor LTD
 02D000-02DFFF                 (base 16)                     Innocor LTD
                                                             210 - 362 Terry Fox Drive
@@ -21803,6 +21779,18 @@ D8B000-D8BFFF                 (base 16)                     Sicon srl
                                                             Isola Vicentina  Vicenza  36033
                                                             IT
 
+40-D8-55                      (hex)                         ard sa
+082000-082FFF                 (base 16)                     ard sa
+                                                            Micropolis Bat Clematis
+                                                            Gap  France  05000
+                                                            FR
+
+00-50-C2                      (hex)                         ard sa
+083000-083FFF                 (base 16)                     ard sa
+                                                            Micropolis Bat Clematis
+                                                            Gap  France  05000
+                                                            FR
+
 00-50-C2                      (hex)                         Thales Communications Inc
 8AD000-8ADFFF                 (base 16)                     Thales Communications Inc
                                                             22605 Gateway Center Drive
@@ -21832,6 +21820,18 @@ B25000-B25FFF                 (base 16)                     Triax A/S
                                                             Bjornkaervej 3
                                                             Hornsyld  Denmark  8783
                                                             DK
+
+00-50-C2                      (hex)                         DiTEST Fahrzeugdiagnose GmbH
+E24000-E24FFF                 (base 16)                     DiTEST Fahrzeugdiagnose GmbH
+                                                            Alte Poststrasse 152
+                                                            Graz  Steiermark  8020
+                                                            AT
+
+00-50-C2                      (hex)                         Ballard Technology, Inc,
+2E2000-2E2FFF                 (base 16)                     Ballard Technology, Inc,
+                                                            11400 Airport Road
+                                                            Everett  WA  98204
+                                                            US
 
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
@@ -26174,12 +26174,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Ryde  Isle of WIght  PO33 1BQ
                                                             GB
 
-00-50-C2                      (hex)                         Imarda New Zealand Limited
-31D000-31DFFF                 (base 16)                     Imarda New Zealand Limited
-                                                            Suite G16, National Innovation Centre,
-                                                            Eveleigh NSW     2015
-                                                            NZ
-
 00-50-C2                      (hex)                         ifak system GmbH
 315000-315FFF                 (base 16)                     ifak system GmbH
                                                             Schleinufer 11
@@ -27379,3 +27373,9 @@ D88000-D88FFF                 (base 16)                     T+A elektroakustik G
                                                             Planckstraße 9-11
                                                             Herford  NRW  32052
                                                             DE
+
+00-50-C2                      (hex)                         Imarda New Zealand Limited
+31D000-31DFFF                 (base 16)                     Imarda New Zealand Limited
+                                                            Suite G16, National Innovation Centre,
+                                                            Eveleigh NSW     2015
+                                                            NZ
