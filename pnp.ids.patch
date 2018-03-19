@@ -20,6 +20,15 @@ Index: hwdata/pnp.ids.txt
  DJP	Maygay Machines, Ltd
  DKY	Datakey Inc
  DLB	Dolby Laboratories Inc.
+@@ -792,7 +792,7 @@ GRV	Advanced Gravis
+ GRY	Robert Gray Company
+ GSB	NIPPONDENCHI CO,.LTD
+ GSC	General Standards Corporation
+-GSM	Goldstar Company Ltd
++GSM	LG Electronics
+ GST	Graphic SystemTechnology
+ GSY	Grossenbacher Systeme AG
+ GTC	Graphtec Corporation
 @@ -1141,7 +1141,7 @@ LOG	Logicode Technology Inc
  LOL	Litelogic Operations Ltd
  LPE	El-PUSK Co., Ltd.
