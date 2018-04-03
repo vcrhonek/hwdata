@@ -4616,17 +4616,17 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
 00-50-C2                      (hex)                         Private
 0BF000-0BFFFF                 (base 16)                     Private
 
-00-50-C2                      (hex)                         Imarda New Zealand Limited
-1DC000-1DCFFF                 (base 16)                     Imarda New Zealand Limited
-                                                            Suite G16, National Innovation Centre,
-                                                            Eveleigh NSW     2015
-                                                            NZ
-
 40-D8-55                      (hex)                         TECHBOARD SRL
 165000-165FFF                 (base 16)                     TECHBOARD SRL
                                                             VIA DELLA SCIENZA 50
                                                             MODENA  Modena  41122
                                                             IT
+
+00-50-C2                      (hex)                         Imarda New Zealand Limited
+1DC000-1DCFFF                 (base 16)                     Imarda New Zealand Limited
+                                                            Suite G16, National Innovation Centre,
+                                                            Eveleigh NSW     2015
+                                                            NZ
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -15572,6 +15572,12 @@ DA2000-DA2FFF                 (base 16)                     metraTec GmbH
                                                             Magdeburg  Sachsen-Anh.  39106
                                                             DE
 
+00-50-C2                      (hex)                         Guardtec,Inc
+D09000-D09FFF                 (base 16)                     Guardtec,Inc
+                                                            #1203, Hansin IT Tower, 235,
+                                                            Seoul    152-768
+                                                            KR
+
 00-50-C2                      (hex)                         Erhardt+Leimer GmbH
 FE7000-FE7FFF                 (base 16)                     Erhardt+Leimer GmbH
                                                             Albert-Leimer-Platz 1
@@ -15601,12 +15607,6 @@ FF1000-FF1FFF                 (base 16)                     DiTEST Fahrzeugdiagn
                                                             1 Raymond Street
                                                             Ottawa  Ontario  K1R 1A2
                                                             CA
-
-00-50-C2                      (hex)                         Guardtec,Inc
-D09000-D09FFF                 (base 16)                     Guardtec,Inc
-                                                            #1203, Hansin IT Tower, 235,
-                                                            Seoul    152-768
-                                                            KR
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
@@ -21791,6 +21791,18 @@ D8B000-D8BFFF                 (base 16)                     Sicon srl
                                                             Gap  France  05000
                                                             FR
 
+00-50-C2                      (hex)                         DiTEST Fahrzeugdiagnose GmbH
+E24000-E24FFF                 (base 16)                     DiTEST Fahrzeugdiagnose GmbH
+                                                            Alte Poststrasse 152
+                                                            Graz  Steiermark  8020
+                                                            AT
+
+00-50-C2                      (hex)                         Ballard Technology, Inc,
+2E2000-2E2FFF                 (base 16)                     Ballard Technology, Inc,
+                                                            11400 Airport Road
+                                                            Everett  WA  98204
+                                                            US
+
 00-50-C2                      (hex)                         Thales Communications Inc
 8AD000-8ADFFF                 (base 16)                     Thales Communications Inc
                                                             22605 Gateway Center Drive
@@ -21820,18 +21832,6 @@ B25000-B25FFF                 (base 16)                     Triax A/S
                                                             Bjornkaervej 3
                                                             Hornsyld  Denmark  8783
                                                             DK
-
-00-50-C2                      (hex)                         DiTEST Fahrzeugdiagnose GmbH
-E24000-E24FFF                 (base 16)                     DiTEST Fahrzeugdiagnose GmbH
-                                                            Alte Poststrasse 152
-                                                            Graz  Steiermark  8020
-                                                            AT
-
-00-50-C2                      (hex)                         Ballard Technology, Inc,
-2E2000-2E2FFF                 (base 16)                     Ballard Technology, Inc,
-                                                            11400 Airport Road
-                                                            Everett  WA  98204
-                                                            US
 
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc

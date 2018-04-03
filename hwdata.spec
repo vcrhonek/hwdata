@@ -32,6 +32,7 @@ make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 * Mon Mar 05 2018 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.311-1
 - Remove %%clean section
 - Remove Group tag
+- Updated pci, usb and vendor ids.
 
 * Mon Mar 05 2018 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.310-1
 - Updated pci, usb and vendor ids.
