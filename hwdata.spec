@@ -1,7 +1,7 @@
 # This package is arch-specific just because of bundling different files for
 # different architectures. No -debuginfo package is needed.
 %global     debug_package %{nil}
-%global     uprelease   8.8
+%global     uprelease   8.9
 
 Name:       hwdata
 Summary:    Hardware identification and configuration data
@@ -50,6 +50,12 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
+* Thu Jun 14 2018 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.252-8.9
+- Updated pci, usb, vendor ids and hwdb files
+  Resolves: #1560493
+- Blacklisted sha{256,512}-mb modules
+  Resolves: #1562114
+
 * Mon Feb 19 2018 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.252-8.8
 - Updated pci, usb, vendor ids and hwdb files
   Resolves: #1489281 #1539202
