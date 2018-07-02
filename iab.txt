@@ -713,12 +713,6 @@ F37000-F37FFF                 (base 16)                     Rosslare Enterprises
                                                             Kowloon Bay  Kowloon
                                                             HK
 
-00-50-C2                      (hex)                         Honeywell International Inc.
-F55000-F55FFF                 (base 16)                     Honeywell International Inc.
-                                                            13350 US Hwy 19 N
-                                                            Clearwater  Fl   33764
-                                                            US
-
 00-50-C2                      (hex)                         Hella Gutmann Solutions GmbH
 F54000-F54FFF                 (base 16)                     Hella Gutmann Solutions GmbH
                                                             Am Krebsbach 2
@@ -2780,12 +2774,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Bedford  Bedfordshire  MK41 7NY
                                                             GB
 
-00-50-C2                      (hex)                         Honeywell
-616000-616FFF                 (base 16)                     Honeywell
-                                                            13350 U.S. Hwy 19 North
-                                                            Clearwater  FL  33764-7290
-                                                            US
-
 00-50-C2                      (hex)                         R&D Technology Solutionz Limited
 647000-647FFF                 (base 16)                     R&D Technology Solutionz Limited
                                                             1st Floor
@@ -3109,12 +3097,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             30 Loughborough Road
                                                             Mountsorrel  Leics  LE12 7AT
                                                             GB
-
-00-50-C2                      (hex)                         Pigeon Point Systems LLC
-4A1000-4A1FFF                 (base 16)                     Pigeon Point Systems LLC
-                                                            2191 S. El Camino Real
-                                                            Oceanside  CA  95054
-                                                            US
 
 00-50-C2                      (hex)                         Telecom Protection Technologies Limited
 438000-438FFF                 (base 16)                     Telecom Protection Technologies Limited
@@ -3444,12 +3426,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
 3FF000-3FFFFF                 (base 16)                     Cast Iron Systems
                                                             2593 Coast Ave Suite 200
                                                             Mountain View  CA  94043
-                                                            US
-
-00-50-C2                      (hex)                         Pigeon Point Systems LLC
-3FB000-3FBFFF                 (base 16)                     Pigeon Point Systems LLC
-                                                            2191 S. El Camino Real
-                                                            Oceanside  CA  95054
                                                             US
 
 00-50-C2                      (hex)                         Weinberger Deutschland GmbH
@@ -4628,6 +4604,30 @@ A2E000-A2EFFF                 (base 16)                     YUYAMA MFG Co.,Ltd
                                                             TOYONAKASHI  OSAKA  561-0841
                                                             JP
 
+00-50-C2                      (hex)                         Honeywell
+F55000-F55FFF                 (base 16)                     Honeywell
+                                                            13350 US Hwy 19 N
+                                                            Clearwater  Fl   33764
+                                                            US
+
+00-50-C2                      (hex)                         Honeywell
+616000-616FFF                 (base 16)                     Honeywell
+                                                            13350 U.S. Hwy 19 North
+                                                            Clearwater  FL  33764-7290
+                                                            US
+
+00-50-C2                      (hex)                         nVent, Schroff GmbH
+3FB000-3FBFFF                 (base 16)                     nVent, Schroff GmbH
+                                                            Langenalber Strasse 96-100
+                                                            Straubenhardt    75334
+                                                            DE
+
+00-50-C2                      (hex)                         nVent, Schroff GmbH
+4A1000-4A1FFF                 (base 16)                     nVent, Schroff GmbH
+                                                            Langenalber Strasse 96-100
+                                                            Straubenhardt    75334
+                                                            DE
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -4802,12 +4802,6 @@ A2E000-A2EFFF                 (base 16)                     YUYAMA MFG Co.,Ltd
                                                             Fairfield  NJ  07004
                                                             US
 
-40-D8-55                      (hex)                         ARGUS-SPECTRUM
-17A000-17AFFF                 (base 16)                     ARGUS-SPECTRUM
-                                                            Serdobolskaya str.,65A
-                                                            Saint-Petersburg    197342
-                                                            RU
-
 40-D8-55                      (hex)                         Servo-Robot Inc.
 179000-179FFF                 (base 16)                     Servo-Robot Inc.
                                                             1370 Hocquart
@@ -4969,12 +4963,6 @@ A2E000-A2EFFF                 (base 16)                     YUYAMA MFG Co.,Ltd
                                                             Bruchweg 10
                                                             Ketsch  Baden-Wuerttemberg  68775
                                                             DE
-
-40-D8-55                      (hex)                         Honeywell
-080000-080FFF                 (base 16)                     Honeywell
-                                                            13350 US Highway 19 N
-                                                            Clearwater  FL  33764
-                                                            US
 
 40-D8-55                      (hex)                         ADVALY SYSTEM Inc.
 0A1000-0A1FFF                 (base 16)                     ADVALY SYSTEM Inc.
@@ -9746,6 +9734,18 @@ FD1000-FD1FFF                 (base 16)                     Enyx SA
                                                             ARLUNO  MI  20010
                                                             IT
 
+40-D8-55                      (hex)                         Honeywell
+080000-080FFF                 (base 16)                     Honeywell
+                                                            13350 US Highway 19 N
+                                                            Clearwater  FL  33764
+                                                            US
+
+40-D8-55                      (hex)                         ARGUS-SPECTRUM
+17A000-17AFFF                 (base 16)                     ARGUS-SPECTRUM
+                                                            Serdobolskaya str.,65A
+                                                            Saint-Petersburg    197342
+                                                            RU
+
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
                                                             Naulakatu 3
@@ -10534,12 +10534,6 @@ F12000-F12FFF                 (base 16)                     General Industrial C
                                                             T107, M.I.D.C.
                                                             Pune  Maharashtra  411026
                                                             IN
-
-00-50-C2                      (hex)                         Treehaven Technologies, Inc.
-F0B000-F0BFFF                 (base 16)                     Treehaven Technologies, Inc.
-                                                            24 Village Pointe Drive
-                                                            Powell  OH  43065
-                                                            US
 
 00-50-C2                      (hex)                         SKYCHANNEL LTD
 F0C000-F0CFFF                 (base 16)                     SKYCHANNEL LTD
@@ -12225,12 +12219,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
 9C4000-9C4FFF                 (base 16)                     Vitel Net
                                                             8201 Greensboro Dr.
                                                             McLean  VA  22102
-                                                            US
-
-00-50-C2                      (hex)                         Honeywell International
-8F9000-8F9FFF                 (base 16)                     Honeywell International
-                                                            13350 US Hwy 19 N
-                                                            Clearwater  Fl  33764-7290
                                                             US
 
 00-50-C2                      (hex)                         Detection Technologies Ltd.
@@ -14432,12 +14420,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Southampton  Hampshire  SO18 2RX
                                                             GB
 
-00-50-C2                      (hex)                         Pigeon Point Systems LLC
-225000-225FFF                 (base 16)                     Pigeon Point Systems LLC
-                                                            2191 S. El Camino Real
-                                                            Oceanside  CA  95054
-                                                            US
-
 00-50-C2                      (hex)                         eko systems inc.
 229000-229FFF                 (base 16)                     eko systems inc.
                                                             2750 Prosperity Ave
@@ -15608,6 +15590,24 @@ DA2000-DA2FFF                 (base 16)                     metraTec GmbH
                                                             Dinkelsbuehl  bavaria  91550
                                                             DE
 
+00-50-C2                      (hex)                         Honeywell
+8F9000-8F9FFF                 (base 16)                     Honeywell
+                                                            13350 US Hwy 19 N
+                                                            Clearwater  Fl  33764-7290
+                                                            US
+
+00-50-C2                      (hex)                         Treehaven Technologies, Inc.
+F0B000-F0BFFF                 (base 16)                     Treehaven Technologies, Inc.
+                                                            3960 Presidential Pkwy Suite B
+                                                            Powell  OH  43065-9033
+                                                            US
+
+00-50-C2                      (hex)                         nVent, Schroff GmbH
+225000-225FFF                 (base 16)                     nVent, Schroff GmbH
+                                                            Langenalber Strasse 96-100
+                                                            Straubenhardt    75334
+                                                            DE
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -16313,12 +16313,6 @@ FB8000-FB8FFF                 (base 16)                     TECHNO CO.,LTD.
                                                             Iruma City  Saitama Pref.  358-0011
                                                             JP
 
-00-50-C2                      (hex)                         ARGUS-SPECTRUM
-FB6000-FB6FFF                 (base 16)                     ARGUS-SPECTRUM
-                                                            Serdobolskaya street 65A
-                                                            St.Petersburg    197342
-                                                            RU
-
 00-50-C2                      (hex)                         Digital Barriers
 F94000-F94FFF                 (base 16)                     Digital Barriers
                                                             Photon House
@@ -16846,12 +16840,6 @@ E54000-E54FFF                 (base 16)                     Arcos Technologies L
                                                             26 Hasivim  St.
                                                             Petach-Tikva  Israel  49517
                                                             IL
-
-00-50-C2                      (hex)                         Honeywell
-D95000-D95FFF                 (base 16)                     Honeywell
-                                                            13350 US Highway 19 N
-                                                            Clearwater  Fl  33764
-                                                            US
 
 00-50-C2                      (hex)                         CONTEC GmbH
 D96000-D96FFF                 (base 16)                     CONTEC GmbH
@@ -18392,12 +18380,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Schweitenkirchen  Bayern  85301
                                                             DE
 
-00-50-C2                      (hex)                         Oliotalo Oy
-872000-872FFF                 (base 16)                     Oliotalo Oy
-                                                            Sinikalliontie 18 B
-                                                            02630 Espoo
-                                                            FI
-
 00-50-C2                      (hex)                         OMB Sistemas Electronicos S.A.
 86B000-86BFFF                 (base 16)                     OMB Sistemas Electronicos S.A.
                                                             Avd San Antonio
@@ -18914,12 +18896,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Mainz  Rheinland-Pfalz  55129
                                                             DE
 
-00-50-C2                      (hex)                         Argus-Spectrum
-764000-764FFF                 (base 16)                     Argus-Spectrum
-                                                            65, Serdobolskaya str.
-                                                            St-Peterburg    197342
-                                                            RU
-
 00-50-C2                      (hex)                         Gaisler Research AB
 75A000-75AFFF                 (base 16)                     Gaisler Research AB
                                                             Forsta Langgatan 19
@@ -19340,12 +19316,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             FORSSA  HÄME  FIN-30101
                                                             FI
 
-00-50-C2                      (hex)                         HoseoTelnet Inc...
-6C2000-6C2FFF                 (base 16)                     HoseoTelnet Inc...
-                                                            Hoseo B/D 4F 608 Deungchon-3dong
-                                                            Seoul    157-731
-                                                            KR
-
 00-50-C2                      (hex)                         iTRACS Corporation
 6C3000-6C3FFF                 (base 16)                     iTRACS Corporation
                                                             1501 W. Fountainhead Parkway
@@ -19646,12 +19616,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Ft. Lauderdale  Florida  33309
                                                             US
 
-00-50-C2                      (hex)                         Jünger Audio-Studiotechnik GmbH
-583000-583FFF                 (base 16)                     Jünger Audio-Studiotechnik GmbH
-                                                            Justus-von-Liebig-Straße 7
-                                                            Berlin    12489
-                                                            DE
-
 00-50-C2                      (hex)                         éolane
 57C000-57CFFF                 (base 16)                     éolane
                                                             667 rue Aristide Berges
@@ -19687,12 +19651,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             1411, Kranz Techno, 5442-1,
                                                             Seongnam-si  Gyeonggi-do  462729
                                                             KR
-
-00-50-C2                      (hex)                         Honeywell GNO
-53E000-53EFFF                 (base 16)                     Honeywell GNO
-                                                            13350 us hwy 19 n
-                                                            clearwater  florida  33764
-                                                            US
 
 00-50-C2                      (hex)                         Teleks Co. Ltd.
 53B000-53BFFF                 (base 16)                     Teleks Co. Ltd.
@@ -20125,12 +20083,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             357-1, Jangdae-Dong, Yusung-Gu
                                                             Daejeon    305-308
                                                             KR
-
-00-50-C2                      (hex)                         RDC Specstroy-Svyaz Ltd
-3B1000-3B1FFF                 (base 16)                     RDC Specstroy-Svyaz Ltd
-                                                            Office 208, Shevchenko street, 2
-                                                            Taganrog  Rostov region  347922
-                                                            RU
 
 00-50-C2                      (hex)                         Engim, Inc.
 3A8000-3A8FFF                 (base 16)                     Engim, Inc.
@@ -20845,12 +20797,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             1900 Minnesota Court
                                                             Mississauga  Ontario  L5N 3C9
                                                             CA
-
-00-50-C2                      (hex)                         Riegl Laser Measurement Systems GmbH
-22B000-22BFFF                 (base 16)                     Riegl Laser Measurement Systems GmbH
-                                                            Riedenburgstraße 48
-                                                            Horn  Niederösterreich  A-3580
-                                                            AT
 
 00-50-C2                      (hex)                         nNovia, Inc.
 208000-208FFF                 (base 16)                     nNovia, Inc.
@@ -21833,6 +21779,60 @@ EEC000-EECFFF                 (base 16)                     YUYAMA MFG Co.,Ltd
                                                             TOYONAKASHI  OSAKA  561-0841
                                                             JP
 
+00-50-C2                      (hex)                         Oliotalo Oy
+872000-872FFF                 (base 16)                     Oliotalo Oy
+                                                            Sinikalliontie 18 B
+                                                            02630 Espoo
+                                                            FI
+
+00-50-C2                      (hex)                         Junger Audio-Studiotechnik GmbH
+583000-583FFF                 (base 16)                     Junger Audio-Studiotechnik GmbH
+                                                            Justus-von-Liebig-Straße 7
+                                                            Berlin    12489
+                                                            DE
+
+00-50-C2                      (hex)                         Honeywell
+53E000-53EFFF                 (base 16)                     Honeywell
+                                                            13350 us hwy 19 n
+                                                            clearwater  florida  33764
+                                                            US
+
+00-50-C2                      (hex)                         Honeywell
+D95000-D95FFF                 (base 16)                     Honeywell
+                                                            13350 US Highway 19 N
+                                                            Clearwater  Fl  33764
+                                                            US
+
+00-50-C2                      (hex)                         Riegl Laser Measurement Systems GmbH
+22B000-22BFFF                 (base 16)                     Riegl Laser Measurement Systems GmbH
+                                                            Riedenburgstraße 48
+                                                            Horn  Niederösterreich  A-3580
+                                                            AT
+
+00-50-C2                      (hex)                         ARGUS-SPECTRUM
+764000-764FFF                 (base 16)                     ARGUS-SPECTRUM
+                                                            65, Serdobolskaya str.
+                                                            St-Peterburg    197342
+                                                            RU
+
+00-50-C2                      (hex)                         ARGUS-SPECTRUM
+FB6000-FB6FFF                 (base 16)                     ARGUS-SPECTRUM
+                                                            Serdobolskaya street 65A
+                                                            St.Petersburg    197342
+                                                            RU
+
+00-50-C2                      (hex)                         Specstroy-Svyaz Ltd
+3B1000-3B1FFF                 (base 16)                     Specstroy-Svyaz Ltd
+                                                            Bolshaya Bulvarnaya Street 13-26
+                                                            Taganrog    347913
+                                                            RU
+
+00-50-C2                      (hex)                         HoseoTelnet Inc...
+6C2000-6C2FFF                 (base 16)                     HoseoTelnet Inc...
+                                                            Hoseo Plaza B/D 7F, 416
+                                                            Gangseo-ro, Gangseo-gu  Seoul   07583
+                                                            KR
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -22269,12 +22269,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
 032000-032FFF                 (base 16)                     BETTINI SRL
                                                             VIA GRIEG 23
                                                             SARONNO  VARESE  21047
-                                                            US
-
-40-D8-55                      (hex)                         Honeywell Aerospace/Intelligent Automation Corp.
-04E000-04EFFF                 (base 16)                     Honeywell Aerospace/Intelligent Automation Corp.
-                                                            13125 Danielson Street
-                                                            Poway  California  92064
                                                             US
 
 40-D8-55                      (hex)                         Gateway Technologies SA de CV
@@ -23429,12 +23423,6 @@ C80000-C80FFF                 (base 16)                     Reko-vek
                                                               Nizhni Novgorod Region  603062
                                                             RU
 
-00-50-C2                      (hex)                         Honeywell
-C7B000-C7BFFF                 (base 16)                     Honeywell
-                                                            13350 US Hwy 19 North
-                                                            Clearwater  FL  33764-7290
-                                                            US
-
 00-50-C2                      (hex)                         Industry Controls, Inc.
 C73000-C73FFF                 (base 16)                     Industry Controls, Inc.
                                                             16124 Rosecrans Ave. Suite E5
@@ -23824,12 +23812,6 @@ B29000-B29FFF                 (base 16)                     Integra LifeSciences
                                                             Sragh Industrial Estate
                                                             Tullamore  Co Offaly  IRELAND
                                                             IE
-
-00-50-C2                      (hex)                         Honeywell
-B0B000-B0BFFF                 (base 16)                     Honeywell
-                                                            13350 US Hwy 19 North
-                                                            Clearwater  FL  33764-7290
-                                                            US
 
 00-50-C2                      (hex)                         Peek Traffic Corporation
 AD3000-AD3FFF                 (base 16)                     Peek Traffic Corporation
@@ -25489,12 +25471,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             14 Avenue de Raspail
                                                             GENTILLY Cedex  Val de Marne  94257
                                                             FR
-
-00-50-C2                      (hex)                         Pigeon Point Systems LLC
-57A000-57AFFF                 (base 16)                     Pigeon Point Systems LLC
-                                                            2191 S. El Camino Real
-                                                            Oceanside  CA  95054
-                                                            US
 
 00-50-C2                      (hex)                         Oberon Service srl
 571000-571FFF                 (base 16)                     Oberon Service srl
@@ -27379,3 +27355,27 @@ B1F000-B1FFFF                 (base 16)                     Atlas Copco IAS GmbH
                                                             3-3-1
                                                             TOYONAKASHI  OSAKA  561-0841
                                                             JP
+
+40-D8-55                      (hex)                         Honeywell International
+04E000-04EFFF                 (base 16)                     Honeywell International
+                                                            13125 Danielson Street
+                                                            Poway  California  92064
+                                                            US
+
+00-50-C2                      (hex)                         Honeywell
+B0B000-B0BFFF                 (base 16)                     Honeywell
+                                                            13350 US Hwy 19 North
+                                                            Clearwater  FL  33764-7290
+                                                            US
+
+00-50-C2                      (hex)                         Honeywell
+C7B000-C7BFFF                 (base 16)                     Honeywell
+                                                            13350 US Hwy 19 North
+                                                            Clearwater  FL  33764-7290
+                                                            US
+
+00-50-C2                      (hex)                         nVent, Schroff GmbH
+57A000-57AFFF                 (base 16)                     nVent, Schroff GmbH
+                                                            Langenalber Strasse 96-100
+                                                            Straubenhardt    75334
+                                                            DE
