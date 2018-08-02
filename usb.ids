@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2018.05.04
-# Date:    2018-05-04 20:34:07
+# Version: 2018.07.03
+# Date:    2018-07-03 20:34:06
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -18256,6 +18256,8 @@
 	ad02  SE340D PC Remote Control
 	af01  AUVIO Universal Remote Receiver for PlayStation 3
 1d5b  Smartronix, Inc.
+1d5c  Fresco Logic
+	2000  FL2000/FL2000DX VGA/DVI/HDMI Adapter
 1d6b  Linux Foundation
 	0001  1.1 root hub
 	0002  2.0 root hub
@@ -18623,6 +18625,25 @@
 	0001  EPOC Consumer Headset Wireless Dongle
 21d6  Agecodagis SARL
 	0002  Seismic recorder [Tellus]
+2207  Fuzhou Rockchip Electronics Company
+	0010  GoClever Tab R83
+	0011  SmartTab
+	281a  RK2818 in Mask ROM mode
+	290a  RK2918 in Mask ROM mode
+	292a  RK2928 in Mask ROM mode
+	292c  RK3026 in Mask ROM mode
+	300a  RK3066 in Mask ROM mode
+	300b  RK3168 in Mask ROM mode
+	301a  RK3036 in Mask ROM mode
+	310a  RK3066B in Mask ROM mode
+	310b  RK3188 in Mask ROM mode
+	310c  RK3126/RK3128 in Mask ROM mode
+	310d  RK3126 in Mask ROM mode
+	320a  RK3288 in Mask ROM mode
+	320b  RK3228/RK3229 in Mask ROM mode
+	320c  RK3328 in Mask ROM mode
+	330a  RK3368 in Mask ROM mode
+	330c  RK3399 in Mask ROM mode
 2222  MacAlly
 	0004  iWebKey Keyboard
 	2520  Mini Tablet
@@ -18841,6 +18862,9 @@
 	002d  Alcor mouse
 	0047  MasterKeys Pro L
 	9494  Sirus Headset
+2548  Pulse-Eight
+	1001  CEC Adapter
+	1002  CEC Adapter
 2632  TwinMOS
 	3209  7-in-1 Card Reader
 2639  Xsens
