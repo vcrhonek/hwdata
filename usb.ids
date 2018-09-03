@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2018.07.03
-# Date:    2018-07-03 20:34:06
+# Version: 2018.08.15
+# Date:    2018-08-15 20:34:06
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -6843,6 +6843,7 @@
 	0072  M-LS6UL Mouse
 	0073  M-LS7UL Mouse
 	0074  M-FW1UL Mouse
+	0075  M-FW2DL Mouse
 	200c  LD-USB/TX
 	4002  Laneed 100Mbps Ethernet LD-USB/TX [pegasus]
 	4005  LD-USBL/TX
@@ -18388,6 +18389,7 @@
 1fc9  NXP Semiconductors
 	0003  LPC1343
 	010b  PR533
+	012b  i.MX 8M Dual/8M QuadLite/8M Quad Serial Downloader
 1fde  ILX Lightwave Corporation
 	0001  UART Bridge
 1fe7  Vertex Wireless Co., Ltd.
@@ -19039,6 +19041,8 @@
 2dcf  Dialog Semiconductor
 	c952  Audio Class 2.0 Devices
 2fb2  Fujitsu, Ltd
+3016  Boundary Devices, LLC
+	0001  Nitrogen Bootloader
 3125  Eagletron
 	0001  TrackerPod Camera Stand
 3136  Navini Networks
