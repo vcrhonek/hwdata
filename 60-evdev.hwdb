@@ -243,12 +243,26 @@ evdev:name:Atmel maXTouch Touch*:dmi:bvn*:bvr*:bd*:svnGOOGLE:pnSamus*
 # HP
 #########################################
 
+# HP Chromebook 14 (Falco)
+evdev:name:Cypress APA Trackpad ?cyapa?:dmi:*:svnHewlett-Packard*:pnFalco*:
+ EVDEV_ABS_00=:::8
+ EVDEV_ABS_01=:::8
+ EVDEV_ABS_35=:::8
+ EVDEV_ABS_36=:::8
+
 # HP Pavilion dm4
 evdev:name:SynPS/2 Synaptics TouchPad*:dmi:*svnHewlett-Packard:pnHPPaviliondm4*
  EVDEV_ABS_00=1360:5563:47
  EVDEV_ABS_01=1269:4618:61
  EVDEV_ABS_35=1360:5563:47
  EVDEV_ABS_36=1269:4618:61
+
+# HP Pavilion g6 
+evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnHewlett-Packard:pnHPPaviliong6*
+ EVDEV_ABS_00=1284:5696:88
+ EVDEV_ABS_01=1287:4838:39
+ EVDEV_ABS_35=1284:5696:88
+ EVDEV_ABS_36=1287:4838:39
 
 # HP Pavilion dv7
 evdev:name:SynPS/2 Synaptics TouchPad*:dmi:*svnHewlett-Packard:pnHPPaviliondv7*
@@ -265,7 +279,7 @@ evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnHP:pnHPLaptop15-bs0xx:*
  EVDEV_ABS_36=1029:4916:78
 
 # HP Spectre
-evdev:name:SynPS/2 Synaptics TouchPad:dmi:i*svnHP:pnHPSpectreNotebook*
+evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnHP:pnHPSpectreNotebook*
  EVDEV_ABS_00=1205:5691:47
  EVDEV_ABS_01=1083:4808:65
  EVDEV_ABS_35=1205:5691:47
@@ -310,6 +324,13 @@ evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnLENOVO*:pvrThinkPad??40?:*
  EVDEV_ABS_01=::37
  EVDEV_ABS_35=::41
  EVDEV_ABS_36=::37
+
+# Lenovo ThinkPad X140e
+evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnLENOVO*:pvrThinkPadX140e*
+ EVDEV_ABS_00=1176:5767:62
+ EVDEV_ABS_01=416:5534:160
+ EVDEV_ABS_35=1176:5767:62
+ EVDEV_ABS_36=416:5534:160
 
 # Lenovo ThinkPad T430
 evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnLENOVO*:pvrThinkPadT430*
@@ -417,7 +438,7 @@ evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnLENOVO*:pn*02173BG*:*pvrThinkPadEd
 #########################################
 
 # Razer Blade Stealth
-evdev:name:1A586753:00 06CB:8323 Touchpad:dmi:*svnRazer:pnBladeStealth:*
+evdev:name:1A58675*:00 06CB:8323 Touchpad:dmi:*svnRazer:pnBladeStealth:*
  EVDEV_ABS_00=::12:8
  EVDEV_ABS_01=::11:8
  EVDEV_ABS_35=::12:8
@@ -476,6 +497,15 @@ evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnTOSHIBA:pnSATELLITER830*
  EVDEV_ABS_36=1045:4826:76
 
 #########################################
+# UGTablet
+#########################################
+
+# Trust Flex Graphics Tablet
+evdev:input:b0003v2179p0004*
+ EVDEV_ABS_00=::234
+ EVDEV_ABS_01=::328
+
+#########################################
 # Waltop
 #########################################
 
@@ -483,3 +513,8 @@ evdev:name:SynPS/2 Synaptics TouchPad:dmi:*svnTOSHIBA:pnSATELLITER830*
 evdev:input:b0003v172Fp0031*
  EVDEV_ABS_00=0:10000:400
  EVDEV_ABS_01=0:6250:400
+
+#WALTOP International Corp. Graphics Tablet
+evdev:input:b0003v172Fp0047*
+ EVDEV_ABS_00=0:20000:80
+ EVDEV_ABS_01=0:12500:80
