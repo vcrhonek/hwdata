@@ -3650,12 +3650,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Fareham  Hampshire  PO15 7FT
                                                             GB
 
-00-50-C2                      (hex)                         Peiker acustic GmbH & Co. KG
-1DD000-1DDFFF                 (base 16)                     Peiker acustic GmbH & Co. KG
-                                                            Max-Planck-Strasse 32
-                                                            Friedrichsdorf    61381
-                                                            DE
-
 00-50-C2                      (hex)                         Shenyang Internet Technology Inc
 1D2000-1D2FFF                 (base 16)                     Shenyang Internet Technology Inc
                                                             2413 Frosted Green Ln
@@ -4626,6 +4620,12 @@ F55000-F55FFF                 (base 16)                     Honeywell
 4A1000-4A1FFF                 (base 16)                     nVent, Schroff GmbH
                                                             Langenalber Strasse 96-100
                                                             Straubenhardt    75334
+                                                            DE
+
+00-50-C2                      (hex)                         Peiker acustic GmbH & Co. KG
+1DD000-1DDFFF                 (base 16)                     Peiker acustic GmbH & Co. KG
+                                                            Max-Planck-Strasse 32
+                                                            Friedrichsdorf    61381
                                                             DE
 
 00-50-C2                      (hex)                         EMAC, Inc.
@@ -12662,12 +12662,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Richardson  TX  75081-1873
                                                             US
 
-00-50-C2                      (hex)                         Open System Solutions Limited
-811000-811FFF                 (base 16)                     Open System Solutions Limited
-                                                            Saltmakers House
-                                                            Southampton  Hampshire  SO31 4NB
-                                                            GB
-
 00-50-C2                      (hex)                         Acube Systems s.r.l.
 80D000-80DFFF                 (base 16)                     Acube Systems s.r.l.
                                                             via Tabacco, 58
@@ -15607,6 +15601,12 @@ D3F000-D3FFFF                 (base 16)                     Communication System
                                                             6030 S 58th St, STE C
                                                             Lincoln  NE  68516
                                                             US
+
+00-50-C2                      (hex)                         Open System Solutions Limited
+811000-811FFF                 (base 16)                     Open System Solutions Limited
+                                                            Saltmakers House
+                                                            Southampton  Hampshire  SO31 4NB
+                                                            GB
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH

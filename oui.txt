@@ -746,18 +746,6 @@ E448C7     (base 16)		Cisco SPVTG
 				Lawrenceville  GA  30044
 				US
 
-00-02-C7   (hex)		ALPS ELECTRIC CO.,LTD.
-0002C7     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi, Sama-City,
-				Sama    00000
-				JP
-
-04-76-6E   (hex)		ALPS ELECTRIC CO.,LTD.
-04766E     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-3-36 Furukawanakazato,
-				Osaki  Miyagi-pref  989-6181
-				JP
-
 00-6B-8E   (hex)		Shanghai Feixun Communication Co.,Ltd.
 006B8E     (base 16)		Shanghai Feixun Communication Co.,Ltd.
 				Building 90,No,4855,Guangfulin Road
@@ -2135,12 +2123,6 @@ D48F33     (base 16)		Microsoft Corporation
 				Dongguan City  Guangdong  86
 				CN
 
-34-02-9B   (hex)		CloudBerry Technologies Private Limited
-34029B     (base 16)		CloudBerry Technologies Private Limited
-				209, S.C.O. - 11, SECTOR 7
-				CHANDIGARH  Punjab  160019
-				IN
-
 70-AF-25   (hex)		Nishiyama Industry Co.,LTD.
 70AF25     (base 16)		Nishiyama Industry Co.,LTD.
 				177-2
@@ -2876,12 +2858,6 @@ BC2D98     (base 16)		ThinGlobal LLC
 				Winter Park  FL  32789
 				US
 
-18-1B-EB   (hex)		Actiontec Electronics, Inc
-181BEB     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 CC-74-98   (hex)		Filmetrics Inc.
 CC7498     (base 16)		Filmetrics Inc.
 				3560 Dunhill Street, #100
@@ -2965,12 +2941,6 @@ B424E7     (base 16)		Codetek Technology Co.,Ltd
 				3F, 501-21, Chung Cheng Rd., Hsin Tien Dist.
 				New Taipei City    23148
 				TW
-
-24-93-CA   (hex)		Voxtronic Technology Computer-Systeme GmbH
-2493CA     (base 16)		Voxtronic Technology Computer-Systeme GmbH
-				Jochen-Rindt-Straße 15
-				Vienna    1230
-				AT
 
 68-8A-B5   (hex)		EDP Servicos
 688AB5     (base 16)		EDP Servicos
@@ -3794,12 +3764,6 @@ DC1DD4     (base 16)		Microstep-MIS spol. s r.o.
 				Bratislava    84104
 				SK
 
-E0-18-77   (hex)		FUJITSU LIMITED
-E01877     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
-
 14-94-48   (hex)		BLU CASTLE S.A.
 149448     (base 16)		BLU CASTLE S.A.
 				5 RUE BONNEVOIE
@@ -4381,12 +4345,6 @@ F49466     (base 16)		CountMax,  ltd
 				6F.,No.866,Zhongzheng Rd.,Zhonghe Dist.,
 				New Taipei City  Taiwan  23586
 				TW
-
-F8-E4-FB   (hex)		Actiontec Electronics, Inc
-F8E4FB     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
 
 58-87-E2   (hex)		Shenzhen Coship Electronics Co., Ltd.
 5887E2     (base 16)		Shenzhen Coship Electronics Co., Ltd.
@@ -5447,12 +5405,6 @@ E4AFA1     (base 16)		HES-SO
 				Hertfordshire    WD6 3AW
 				GB
 
-20-76-00   (hex)		Actiontec Electronics, Inc
-207600     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 84-D3-2A   (hex)		IEEE 1905.1
 84D32A     (base 16)		IEEE 1905.1
 				445 Hoes Lane
@@ -5584,12 +5536,6 @@ E0ED1A     (base 16)		vastriver Technology Co., Ltd
 				7340 Westmore Road
 				Rockville  MD  20850
 				US
-
-48-61-A3   (hex)		Concern Axion JSC
-4861A3     (base 16)		Concern Axion JSC
-				90, M. Gorkogo St.
-				Izhevsk  Udmurt Republic  426000
-				RU
 
 08-A1-2B   (hex)		ShenZhen EZL Technology Co., Ltd
 08A12B     (base 16)		ShenZhen EZL Technology Co., Ltd
@@ -6667,12 +6613,6 @@ A0DDE5     (base 16)		SHARP Corporation
 				Elektroniikkatie 10
 				Oulu    90570
 				FI
-
-84-DB-2F   (hex)		Sierra Wireless Inc
-84DB2F     (base 16)		Sierra Wireless Inc
-				1381 Wireless Way
-				Richmond  BC  V6V 3A4
-				CA
 
 C8-93-83   (hex)		Embedded Automation, Inc.
 C89383     (base 16)		Embedded Automation, Inc.
@@ -9116,12 +9056,6 @@ A8CE90     (base 16)		CVC
 				SEOUL    KSXX 0022
 				KR
 
-00-1F-90   (hex)		Actiontec Electronics, Inc
-001F90     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 00-1F-8F   (hex)		Shanghai Bellmann Digital Source Co.,Ltd.
 001F8F     (base 16)		Shanghai Bellmann Digital Source Co.,Ltd.
 				404-408 Main Bd, FDUSP, No.11 Guotai Rd.
@@ -9625,12 +9559,6 @@ A8CE90     (base 16)		CVC
 				39 Royal Road
 				Flemington  NJ  08822
 				US
-
-00-1E-70   (hex)		Cobham Defence Communications Ltd
-001E70     (base 16)		Cobham Defence Communications Ltd
-				Haslingden Road
-				Blackburn  Lancashire  BB1 2EE
-				GB
 
 00-1E-69   (hex)		Thomson Inc.
 001E69     (base 16)		Thomson Inc.
@@ -25754,12 +25682,6 @@ FC06ED     (base 16)		M2Motive Technology Inc.
 				SHENZHEN  GUANGDONG  518100
 				CN
 
-30-C3-D9   (hex)		ALPS ELECTRIC CO.,LTD.
-30C3D9     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				Kakuda  Miyagi-Pref  981-1595
-				JP
-
 FC-4D-8C   (hex)		SHENZHEN PANTE ELECTRONICS TECHNOLOGY CO., LTD
 FC4D8C     (base 16)		SHENZHEN PANTE ELECTRONICS TECHNOLOGY CO., LTD
 				Building 5,Hui Mingsheng industrial park,Tongfu Rd,Fu Yong street
@@ -25987,12 +25909,6 @@ E86D65     (base 16)		AUDIO MOBIL Elektronik GmbH
 				Audio-Mobil-Straße 5 - 7
 				Braunau am Inn - Ranshofen    5282
 				AT
-
-E8-6F-F2   (hex)		Actiontec Electronics, Inc
-E86FF2     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
 
 00-01-6D   (hex)		CarrierComm Inc.
 00016D     (base 16)		CarrierComm Inc.
@@ -27455,12 +27371,6 @@ A438CC     (base 16)		Nintendo Co.,Ltd
 				San Jose  CA  94568
 				US
 
-A0-66-10   (hex)		FUJITSU LIMITED
-A06610     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
-
 68-D4-82   (hex)		SHENZHEN GONGJIN ELECTRONICS CO.,LT
 68D482     (base 16)		SHENZHEN GONGJIN ELECTRONICS CO.,LT
 				SONGGANG
@@ -27478,12 +27388,6 @@ A06610     (base 16)		FUJITSU LIMITED
 				Phase 3, Bayan Lepas FIZ
 				Bayan Lepas  Penang  11900
 				MY
-
-00-A0-D5   (hex)		Sierra Wireless Inc
-00A0D5     (base 16)		Sierra Wireless Inc
-				13811 Wireless Way
-				  RICHMOND B.C.  V6V 3A4
-				CA
 
 6C-38-38   (hex)		Marking System Technology Co., Ltd.
 6C3838     (base 16)		Marking System Technology Co., Ltd.
@@ -30470,6 +30374,204 @@ A8B456     (base 16)		Cisco Systems, Inc
 				San Jose  CA  94568
 				US
 
+F4-C7-C8   (hex)		Kelvin Inc.
+F4C7C8     (base 16)		Kelvin Inc.
+				400 Centennial Parkway, Suite 190
+				Louisville  CO  80027
+				US
+
+68-45-F1   (hex)		TOSHIBA CLIENT SOLUTIONS CO., LTD.
+6845F1     (base 16)		TOSHIBA CLIENT SOLUTIONS CO., LTD.
+				Tachihi Building No.2, 6-1-3, Sakae-Cho
+				Tachikawa-shi  Tokyo  190-0003
+				JP
+
+84-DB-2F   (hex)		Sierra Wireless
+84DB2F     (base 16)		Sierra Wireless
+				1381 Wireless Way
+				Richmond  BC  V6V 3A4
+				CA
+
+00-A0-D5   (hex)		Sierra Wireless
+00A0D5     (base 16)		Sierra Wireless
+				13811 Wireless Way
+				Richmond  RICHMOND B.C.  V6V 3A4
+				CA
+
+28-EC-9A   (hex)		Texas Instruments
+28EC9A     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+70-B3-17   (hex)		Cisco Systems, Inc
+70B317     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+94-E0-D6   (hex)		China Dragon Technology Limited
+94E0D6     (base 16)		China Dragon Technology Limited
+				B4 Bldg.Haoshan 1st Industry Park,
+				Shenzhen  Guangdong  518104
+				CN
+
+CC-35-5A   (hex)		SecuGen Corporation
+CC355A     (base 16)		SecuGen Corporation
+				2065 Martin Ave, Suite 108
+				Santa Clara  CA  95050
+				US
+
+B0-D5-68   (hex)		Shenzhen Cultraview Digital Technology Co., Ltd
+B0D568     (base 16)		Shenzhen Cultraview Digital Technology Co., Ltd
+				F6,M6,Maqueling, High-tech park, Nanshan district
+				Shenzhen  Guangdong  518057
+				CN
+
+DC-EB-69   (hex)		Technicolor CH USA Inc.
+DCEB69     (base 16)		Technicolor CH USA Inc.
+				5030 Sugarloaf Parkway Bldg 6
+				Lawrenceville  GA  30044
+				US
+
+94-A4-0C   (hex)		Diehl Metering GmbH
+94A40C     (base 16)		Diehl Metering GmbH
+				Industriestrasse 13
+				Ansbach    91522
+				DE
+
+8C-AE-DB   (hex)		NAG LLC
+8CAEDB     (base 16)		NAG LLC
+				Predelnaya st 57/2
+				Ekaterinburg  Sverdlovskaya oblast   620161
+				RU
+
+D0-51-57   (hex)		LEAX Arkivator Telecom
+D05157     (base 16)		LEAX Arkivator Telecom
+				NanShan District YueHaiMen Street
+				ShenZhen  GuangDong  518061
+				CN
+
+24-93-CA   (hex)		Voxtronic Austria
+2493CA     (base 16)		Voxtronic Austria
+				Modecenterstrasse 17  Objekt 1
+				Vienna    1110
+				AT
+
+90-7E-30   (hex)		LARS
+907E30     (base 16)		LARS
+				Swierkowa 14
+				Niepruszewo    64-320
+				PL
+
+44-1A-FA   (hex)		New H3C Technologies Co., Ltd
+441AFA     (base 16)		New H3C Technologies Co., Ltd
+				466 Changhe Road, Binjiang District
+				Hangzhou  Zhejiang  310052
+				CN
+
+00-4E-35   (hex)		Hewlett Packard Enterprise
+004E35     (base 16)		Hewlett Packard Enterprise
+				8000 Foothills Blvd.
+				Roseville  CA  95747
+				US
+
+00-1F-90   (hex)		Actiontec Electronics, Inc
+001F90     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+20-76-00   (hex)		Actiontec Electronics, Inc
+207600     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+F8-E4-FB   (hex)		Actiontec Electronics, Inc
+F8E4FB     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+18-1B-EB   (hex)		Actiontec Electronics, Inc
+181BEB     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+E8-6F-F2   (hex)		Actiontec Electronics, Inc
+E86FF2     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+FC-2B-B2   (hex)		Actiontec Electronics, Inc
+FC2BB2     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+50-00-84   (hex)		Siemens Canada
+500084     (base 16)		Siemens Canada
+				300 Applewood Crescent
+				Concord  Ontario  L4K 5C7
+				CA
+
+34-02-9B   (hex)		Plexonics Technologies LImited
+34029B     (base 16)		Plexonics Technologies LImited
+				1st Floor, 181/23 Industrial Area Phase 1
+				Chandigarh  Punjab  160002
+				IN
+
+48-61-A3   (hex)		Concern Axion JSC
+4861A3     (base 16)		Concern Axion JSC
+				90, M. Gorkogo St.
+				Izhevsk  Udmurt Republic  426000
+				RU
+
+64-60-38   (hex)		Hirschmann Automation and Control GmbH
+646038     (base 16)		Hirschmann Automation and Control GmbH
+				Stuttgarter Straße 45-51
+				Neckartenzlingen    D-72654
+				DE
+
+00-02-C7   (hex)		ALPS ELECTRIC CO., LTD.
+0002C7     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi, Sama-City,
+				Sama    00000
+				JP
+
+30-C3-D9   (hex)		ALPS ELECTRIC CO., LTD.
+30C3D9     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				Kakuda  Miyagi-Pref  981-1595
+				JP
+
+04-76-6E   (hex)		ALPS ELECTRIC CO., LTD.
+04766E     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-3-36 Furukawanakazato,
+				Osaki  Miyagi-pref  989-6181
+				JP
+
+E0-18-77   (hex)		FUJITSU LIMITED
+E01877     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+A0-66-10   (hex)		FUJITSU LIMITED
+A06610     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+00-1E-70   (hex)		Cobham Antenna Systems
+001E70     (base 16)		Cobham Antenna Systems
+				Cobham Centre, Fourth Avenue
+				Marlow  Buckinghamshire  SL7 1TF
+				GB
+
 0C-6F-9C   (hex)		Shaw Communications Inc.
 0C6F9C     (base 16)		Shaw Communications Inc.
 				Suite 900, 630 3rd Avenue S.W.
@@ -31016,12 +31118,6 @@ F49FF3     (base 16)		HUAWEI TECHNOLOGIES CO.,LTD
 				Nagaokakyo-shi  Kyoto  617-8555
 				JP
 
-28-A1-83   (hex)		ALPS ELECTRIC CO.,LTD.
-28A183     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				Kakuda  Miyagi-Pref  981-1595
-				JP
-
 5C-F8-A1   (hex)		Murata Manufacturing Co., Ltd.
 5CF8A1     (base 16)		Murata Manufacturing Co., Ltd.
 				1-10-1 Higashikotari
@@ -31472,18 +31568,6 @@ F84F57     (base 16)		Cisco Systems, Inc
 				San Jose  CA  95134
 				US
 
-AC-7A-4D   (hex)		ALPS ELECTRIC CO.,LTD.
-AC7A4D     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				KAKUDA-CITY  MIYAGI-PREF  981-1595
-				JP
-
-FC-62-B9   (hex)		ALPS ELECTRIC CO.,LTD.
-FC62B9     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				kakuda-city  Miyagi-Pref  981-1595
-				JP
-
 00-10-A6   (hex)		Cisco Systems, Inc
 0010A6     (base 16)		Cisco Systems, Inc
 				170 WEST TASMAN DRIVE
@@ -31543,24 +31627,6 @@ F45FD4     (base 16)		Cisco SPVTG
 				5030 Sugarloaf Pkwy
 				Lawrenceville  GA  30044
 				US
-
-00-23-06   (hex)		ALPS ELECTRIC CO.,LTD.
-002306     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
-
-00-1E-3D   (hex)		ALPS ELECTRIC CO.,LTD.
-001E3D     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
-
-00-19-C1   (hex)		ALPS ELECTRIC CO.,LTD.
-0019C1     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
 
 84-7D-50   (hex)		Holley Metering Limited
 847D50     (base 16)		Holley Metering Limited
@@ -37004,12 +37070,6 @@ D8E3AE     (base 16)		CIRTEC MEDICAL SYSTEMS
 				Los Gatos  CA  95032
 				US
 
-A8-39-44   (hex)		Actiontec Electronics, Inc
-A83944     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 FC-1F-C0   (hex)		EURECAM
 FC1FC0     (base 16)		EURECAM
 				BAT 9 - Miniparc
@@ -41164,12 +41224,6 @@ D0D286     (base 16)		Beckman Coulter K.K.
 				E-1,E-2,&E-3
 				AURANGABAD  MAHARASTRA  431136
 				IN
-
-00-19-3B   (hex)		Wilibox Deliberant Group LLC
-00193B     (base 16)		Wilibox Deliberant Group LLC
-				1440 Dutch Valley Place
-				Atlanta  GA  30324
-				US
 
 00-19-2F   (hex)		Cisco Systems, Inc
 00192F     (base 16)		Cisco Systems, Inc
@@ -52199,12 +52253,6 @@ E874E6     (base 16)		ADB Broadband Italia
 				MILANO    20126
 				IT
 
-00-24-7B   (hex)		Actiontec Electronics, Inc
-00247B     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 68-9C-5E   (hex)		AcSiP Technology Corp.
 689C5E     (base 16)		AcSiP Technology Corp.
 				3F., No.22, Dalin Rd.
@@ -52636,12 +52684,6 @@ E0B9E5     (base 16)		Technicolor
 				2280 boul Alfred-Nobel
 				St. Laurent  Quebec  H4S 2A4
 				CA
-
-00-0B-5D   (hex)		FUJITSU LIMITED
-000B5D     (base 16)		FUJITSU LIMITED
-				Musashi-kosugi Tower Place Bldg.,
-				KAWASAKI 211  Kanagawa
-				JP
 
 F4-CA-E5   (hex)		FREEBOX SAS
 F4CAE5     (base 16)		FREEBOX SAS
@@ -56298,12 +56340,6 @@ A013CB     (base 16)		Fiberhome Telecommunication Technologies Co.,LTD
 040973     (base 16)		Hewlett Packard Enterprise
 				8000 Foothills Blvd.
 				Roseville  CA  95747
-				US
-
-70-F2-20   (hex)		Actiontec Electronics, Inc
-70F220     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
 				US
 
 4C-C2-06   (hex)		Somfy
@@ -61085,6 +61121,168 @@ A89CA4     (base 16)		Furrion Limited
 				NEW TAIPEI  TAIWAN  23585
 				TW
 
+6C-DF-FB   (hex)		IEEE Registration Authority
+6CDFFB     (base 16)		IEEE Registration Authority
+				445 Hoes Lane
+				Piscataway  NJ  08554
+				US
+
+DC-21-B9   (hex)		Sentec Co.Ltd
+DC21B9     (base 16)		Sentec Co.Ltd
+				10, Baekseokgongdan 1-ro, Seobuk-gu
+				 Cheonan-si  Chungcheongnam-do  31094
+				KR
+
+E4-D3-AA   (hex)		FUJITSU CONNECTED TECHNOLOGIES LIMITED
+E4D3AA     (base 16)		FUJITSU CONNECTED TECHNOLOGIES LIMITED
+				4-1-1, Kamikodanaka, Nakahara-ku
+				Kawasaki  Kanagawa  2118588
+				JP
+
+B0-02-47   (hex)		AMPAK Technology, Inc.
+B00247     (base 16)		AMPAK Technology, Inc.
+				3F.,No.15-1 Zhonghua Road,Hsinchu Industrial Park, Hukou,Hsinchu
+				Hsinchu  Taiwan ROC.  30352
+				TW
+
+BC-E7-96   (hex)		Wireless CCTV Ltd
+BCE796     (base 16)		Wireless CCTV Ltd
+				charles Babbage house
+				Rochdale  Greater Manchester  ol164nw
+				GB
+
+70-5E-55   (hex)		Realme Chongqing MobileTelecommunications Corp Ltd
+705E55     (base 16)		Realme Chongqing MobileTelecommunications Corp Ltd
+				No.24 Nichang Boulevard, Huixing Block, Yubei District, Chongqing.
+				Chongqing  China  401120
+				CN
+
+D4-67-D3   (hex)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+D467D3     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+				NO.18 HAIBIN ROAD,
+				DONG GUAN  GUANG DONG  523860
+				CN
+
+48-E3-C3   (hex)		JENOPTIK Advanced Systems GmbH
+48E3C3     (base 16)		JENOPTIK Advanced Systems GmbH
+				Feldstrasse 155
+				Wedel  Schleswig-Holstein  22880
+				DE
+
+84-EB-3E   (hex)		Vivint Smart Home
+84EB3E     (base 16)		Vivint Smart Home
+				4931 N. 300 W.
+				Provo  UT  84604
+				US
+
+CC-70-ED   (hex)		Cisco Systems, Inc
+CC70ED     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+A8-39-44   (hex)		Actiontec Electronics, Inc
+A83944     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+00-24-7B   (hex)		Actiontec Electronics, Inc
+00247B     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+70-F2-20   (hex)		Actiontec Electronics, Inc
+70F220     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+AC-57-75   (hex)		HMD Global Oy
+AC5775     (base 16)		HMD Global Oy
+				Karaportti 2
+				Espoo    02610
+				FI
+
+D4-3D-39   (hex)		FCI. Inc
+D43D39     (base 16)		FCI. Inc
+				B-7F, SiliconPark, 35, Pangyo-ro 255beon-gil, Bundang-gu
+				Seongnam-si  Gyeonggi-do  13486
+				KR
+
+4C-96-2D   (hex)		Fresh AB
+4C962D     (base 16)		Fresh AB
+				Gransholmsvägen 136
+				Gemla    35599
+				SE
+
+AC-7A-4D   (hex)		ALPS ELECTRIC CO., LTD.
+AC7A4D     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				KAKUDA-CITY  MIYAGI-PREF  981-1595
+				JP
+
+58-C6-F0   (hex)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+58C6F0     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+				NO.18 HAIBIN ROAD,
+				DONG GUAN  GUANG DONG  523860
+				CN
+
+64-9D-99   (hex)		FS COM INC
+649D99     (base 16)		FS COM INC
+				380 Centerpoint Blvd New Castle
+				New Castle  DE  19720
+				US
+
+00-19-3B   (hex)		LigoWave
+00193B     (base 16)		LigoWave
+				138 Mountain Brook Drive
+				Canton  GA  30115
+				US
+
+FC-62-B9   (hex)		ALPS ELECTRIC CO., LTD.
+FC62B9     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				kakuda-city  Miyagi-Pref  981-1595
+				JP
+
+00-19-C1   (hex)		ALPS ELECTRIC CO., LTD.
+0019C1     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+00-1E-3D   (hex)		ALPS ELECTRIC CO., LTD.
+001E3D     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+00-23-06   (hex)		ALPS ELECTRIC CO., LTD.
+002306     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+28-A1-83   (hex)		ALPS ELECTRIC CO., LTD.
+28A183     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				Kakuda  Miyagi-Pref  981-1595
+				JP
+
+88-4A-18   (hex)		Opulinks
+884A18     (base 16)		Opulinks
+				F 28, No.328, Huashan Rd
+				Shanghai    200040
+				CN
+
+00-0B-5D   (hex)		FUJITSU LIMITED
+000B5D     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
 58-46-E1   (hex)		Baxter International Inc
 5846E1     (base 16)		Baxter International Inc
 				One Baxter Parkway
@@ -61901,30 +62099,6 @@ F83DFF     (base 16)		HUAWEI TECHNOLOGIES CO.,LTD
 				Shenzhen  Guangdong  518129
 				CN
 
-00-16-FE   (hex)		ALPS ELECTRIC CO.,LTD.
-0016FE     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
-
-04-98-F3   (hex)		ALPS ELECTRIC CO.,LTD.
-0498F3     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1 NISHIDA
-				KAKUDA  MIYAGI PREF  9876-8501
-				JP
-
-38-C0-96   (hex)		ALPS ELECTRIC CO.,LTD.
-38C096     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				KAKUDA-CITY  MIYAGI-PREF  981-1595
-				JP
-
-E0-75-0A   (hex)		ALPS ELECTRIC CO.,LTD.
-E0750A     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				kakuda-City    981-1595
-				US
-
 B0-59-47   (hex)		Shenzhen Qihu Intelligent Technology Company Limited
 B05947     (base 16)		Shenzhen Qihu Intelligent Technology Company Limited
 				Room 201, Block A, No.1, Qianwan Road 1,Qianhai Shenzhen HongKong Modern Service Industry Cooperation Zone
@@ -62008,12 +62182,6 @@ A4A24A     (base 16)		Cisco SPVTG
 				5030 Sugarloaf Pkwy
 				Lawrenceville  GA  30044
 				US
-
-00-1B-FB   (hex)		ALPS ELECTRIC CO.,LTD.
-001BFB     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
 
 00-E0-8F   (hex)		Cisco Systems, Inc
 00E08F     (base 16)		Cisco Systems, Inc
@@ -62554,12 +62722,6 @@ DCDB70     (base 16)		Tonfunk Systementwicklung und Service GmbH
 				Anger20
 				Falkenstein / Harz OT Ermsleben  Sachsen-Anhalt  06463
 				DE
-
-C4-7D-46   (hex)		FUJITSU LIMITED
-C47D46     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
 
 68-ED-A4   (hex)		Shenzhen Seavo Technology Co.,Ltd
 68EDA4     (base 16)		Shenzhen Seavo Technology Co.,Ltd
@@ -63220,12 +63382,6 @@ F82441     (base 16)		Yeelink
 				33B-9L #613-9, Namchon-dong
 				Namdong-gu  Incheon  405-846
 				KR
-
-70-F1-96   (hex)		Actiontec Electronics, Inc
-70F196     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
 
 6C-6E-FE   (hex)		Core Logic Inc.
 6C6EFE     (base 16)		Core Logic Inc.
@@ -64754,12 +64910,6 @@ C47DCC     (base 16)		Zebra Technologies Inc
 				St. Marienkirchen  Upper Austria  4774
 				US
 
-10-5F-06   (hex)		Actiontec Electronics, Inc
-105F06     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 84-17-15   (hex)		GP Electronics (HK) Ltd.
 841715     (base 16)		GP Electronics (HK) Ltd.
 				Gold Peak Industrial Building, 6F
@@ -65540,12 +65690,6 @@ D41E35     (base 16)		TOHO Electronics INC.
 				  Shangahi  200120
 				CN
 
-2C-D4-44   (hex)		FUJITSU LIMITED
-2CD444     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
-
 EC-1A-59   (hex)		Belkin International Inc.
 EC1A59     (base 16)		Belkin International Inc.
 				12045 East Waterfront Drive
@@ -66247,12 +66391,6 @@ A898C6     (base 16)		Shinbo Co., Ltd.
 				ROOM 1607-1608,XINGJI MANSION
 				SHENZHEN  GUANGDONG  518104
 				CN
-
-50-26-90   (hex)		FUJITSU LIMITED
-502690     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
 
 B4-21-1D   (hex)		Beijing GuangXin Technology Co., Ltd
 B4211D     (base 16)		Beijing GuangXin Technology Co., Ltd
@@ -68059,12 +68197,6 @@ B09074     (base 16)		Fulan Electronics Limited
 				#102-1112, Chunui-Technopark, 200-1,
 				Bucheon-city  Kyunggi-do  420-857
 				KR
-
-8C-73-6E   (hex)		FUJITSU LIMITED
-8C736E     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
 
 30-EF-D1   (hex)		Alstom Strongwish (Shenzhen) Co., Ltd.
 30EFD1     (base 16)		Alstom Strongwish (Shenzhen) Co., Ltd.
@@ -70314,12 +70446,6 @@ A893E6     (base 16)		JIANGXI JINGGANGSHAN CKING COMMUNICATION TECHNOLOGY CO.,LT
 001EA2     (base 16)		Symx Systems, Inc.
 				6320 NW 84th Avenue
 				Miami  Florida  33166
-				US
-
-00-1E-A7   (hex)		Actiontec Electronics, Inc
-001EA7     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
 				US
 
 00-1E-A1   (hex)		Brunata a/s
@@ -82160,12 +82286,6 @@ A4526F     (base 16)		ADB Broadband Italia
 				Taoyuan  Taoyuan County  33067
 				TW
 
-00-26-B8   (hex)		Actiontec Electronics, Inc
-0026B8     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 00-30-F1   (hex)		Accton Technology Corp
 0030F1     (base 16)		Accton Technology Corp
 				No. 1, Creation Rd. IV
@@ -82705,24 +82825,6 @@ F40E22     (base 16)		Samsung Electronics Co.,Ltd
 				1200 East 151st Street
 				Olathe   KS  66062
 				US
-
-00-E0-00   (hex)		FUJITSU LIMITED
-00E000     (base 16)		FUJITSU LIMITED
-				Musashi-kosugi Tower Place Bldg.,
-				KAWASAKI 211  Kanagawa
-				JP
-
-00-00-0E   (hex)		FUJITSU LIMITED
-00000E     (base 16)		FUJITSU LIMITED
-				Musashi-kosugi Tower Place Bldg.,
-				KAWASAKI 211  Kanagawa
-				JP
-
-00-23-26   (hex)		FUJITSU LIMITED
-002326     (base 16)		FUJITSU LIMITED
-				Musashi-kosugi Tower Place Bldg.,
-				KAWASAKI 211  Kanagawa
-				JP
 
 00-07-CB   (hex)		FREEBOX SAS
 0007CB     (base 16)		FREEBOX SAS
@@ -85564,12 +85666,6 @@ D071C4     (base 16)		zte corporation
 				12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China
 				shenzhen  guangdong  518057
 				CN
-
-48-F0-7B   (hex)		ALPS ELECTRIC CO.,LTD.
-48F07B     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				Kakuda  Miyagi-Pref  981-1595
-				JP
 
 3C-80-AA   (hex)		Ransnet Singapore Pte Ltd
 3C80AA     (base 16)		Ransnet Singapore Pte Ltd
@@ -89303,12 +89399,6 @@ DCBFE9     (base 16)		Motorola Mobility LLC, a Lenovo Company
 				Qingdao  Shandong  266101
 				CN
 
-74-95-EC   (hex)		ALPS ELECTRIC CO.,LTD.
-7495EC     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				Kakuda  Miyagi-Pref  981-1595
-				JP
-
 18-52-82   (hex)		Fiberhome Telecommunication Technologies Co.,LTD
 185282     (base 16)		Fiberhome Telecommunication Technologies Co.,LTD
 				No.5 DongXin Road
@@ -90836,12 +90926,6 @@ A8F5DD     (base 16)		ARRIS Group, Inc.
 				Shenzhen   guangdong  518053
 				CN
 
-4C-E5-AE   (hex)		BEEBOXES TECHNOLOGY LIMITED
-4CE5AE     (base 16)		BEEBOXES TECHNOLOGY LIMITED
-				23A,JingYuan Arts Center, No.3 GuangQu Road,ChaoYang District,
-				Beijing    100124
-				CN
-
 FC-BE-7B   (hex)		vivo Mobile Communication Co., Ltd.
 FCBE7B     (base 16)		vivo Mobile Communication Co., Ltd.
 				#283,BBK Road
@@ -90887,6 +90971,12 @@ F81308     (base 16)		Nokia
 				Kanata  Ontario  K2K 2E6
 				CA
 
+08-F1-EA   (hex)		Hewlett Packard Enterprise
+08F1EA     (base 16)		Hewlett Packard Enterprise
+				8000 Foothills Blvd.
+				Roseville  CA  95747
+				US
+
 FC-94-CE   (hex)		zte corporation
 FC94CE     (base 16)		zte corporation
 				12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China
@@ -90897,6 +90987,300 @@ EC-F0-FE   (hex)		zte corporation
 ECF0FE     (base 16)		zte corporation
 				12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China
 				shenzhen  guangdong  518057
+				CN
+
+88-50-F6   (hex)		Shenzhen Jingxun Software Telecommunication Technology Co.,Ltd
+8850F6     (base 16)		Shenzhen Jingxun Software Telecommunication Technology Co.,Ltd
+				3/F,A5 Building Zhiyuan Community No.1001,Xueyuan Road Nanshan Distric
+				Shenzhen  Guangdong  518055
+				CN
+
+D8-A6-FD   (hex)		Ghost Locomotion
+D8A6FD     (base 16)		Ghost Locomotion
+				800 California St.  Suite 200
+				Mountain View  CA  94041
+				US
+
+94-58-CB   (hex)		Nintendo Co.,Ltd
+9458CB     (base 16)		Nintendo Co.,Ltd
+				11-1 HOKOTATE-CHO KAMITOBA,MINAMI-KU
+				KYOTO  KYOTO  601-8501
+				JP
+
+90-E2-02   (hex)		Texas Instruments
+90E202     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+24-7D-4D   (hex)		Texas Instruments
+247D4D     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+4C-E5-AE   (hex)		Tianjin Beebox Intelligent Technology Co.,Ltd.
+4CE5AE     (base 16)		Tianjin Beebox Intelligent Technology Co.,Ltd.
+				Room 103，NO.1 of the 2nd Street
+				Tianjin Pilot Free Trade Zone Airport EconomicArea  Airport International Logistics Zone, Tianjin  300300
+				CN
+
+28-75-D8   (hex)		FUJIAN STAR-NET COMMUNICATION CO.,LTD
+2875D8     (base 16)		FUJIAN STAR-NET COMMUNICATION CO.,LTD
+				19-22# Building, Star-net Science Plaza, Juyuanzhou,
+				FUZHOU  FUJIAN  350002
+				CN
+
+70-35-09   (hex)		Cisco Systems, Inc
+703509     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+0C-EC-84   (hex)		Shenzhen TINNO Mobile Technology Corp.
+0CEC84     (base 16)		Shenzhen TINNO Mobile Technology Corp.
+				4/F, H-3 Building, Qiao Cheng Eastern Industrial Park, Overseas Chinese Town, Shenzhen
+				Shenzhen   guangdong  518053
+				CN
+
+9C-DB-07   (hex)		Thum+Mahr GmbH
+9CDB07     (base 16)		Thum+Mahr GmbH
+				Heinrich-Hertz-Strasse 1-3
+				Monheim am Rhein  NRW  40789
+				DE
+
+38-D9-A5   (hex)		Mikotek Information Inc.
+38D9A5     (base 16)		Mikotek Information Inc.
+				3F, No. 20, Aly. 18, Ln. 478, Ruiguang Rd.
+				Taipei    114
+				TW
+
+E0-9F-2A   (hex)		Iton Technology Corp.
+E09F2A     (base 16)		Iton Technology Corp.
+				Room 1302, Block A, Building 4，Huangge Road, Longgang District
+				Shenzhen   Guangdong   518116
+				CN
+
+48-FD-A3   (hex)		Xiaomi Communications Co Ltd
+48FDA3     (base 16)		Xiaomi Communications Co Ltd
+				The Rainbow City of China Resources
+				NO.68, Qinghe Middle Street  Haidian District, Beijing  100085
+				CN
+
+7C-03-5E   (hex)		Xiaomi Communications Co Ltd
+7C035E     (base 16)		Xiaomi Communications Co Ltd
+				The Rainbow City of China Resources
+				NO.68, Qinghe Middle Street  Haidian District, Beijing  100085
+				CN
+
+00-32-17   (hex)		Cisco Systems, Inc
+003217     (base 16)		Cisco Systems, Inc
+				80 West Tasman Drive
+				San Jose  CA  94568
+				US
+
+04-07-2E   (hex)		VTech Electronics Ltd.
+04072E     (base 16)		VTech Electronics Ltd.
+				23rd Floor, Block 1, Tai Ping Industrial Centre, 57 Ting Kok Road
+				Tai Po, N.T.    NA
+				HK
+
+68-4F-64   (hex)		Dell Inc.
+684F64     (base 16)		Dell Inc.
+				One Dell Way
+				Round Rock  TX  78682
+				US
+
+48-4A-30   (hex)		George Robotics Limited
+484A30     (base 16)		George Robotics Limited
+				Salisbury House, Station Road
+				Cambridge    CB1 2LA
+				GB
+
+50-AD-92   (hex)		NX Technologies
+50AD92     (base 16)		NX Technologies
+				5F(OS Building), 57, Daeril-2gil, Beomseo-eup
+				Ulsan    44922
+				KR
+
+00-1E-A7   (hex)		Actiontec Electronics, Inc
+001EA7     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+10-5F-06   (hex)		Actiontec Electronics, Inc
+105F06     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+70-F1-96   (hex)		Actiontec Electronics, Inc
+70F196     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+00-26-B8   (hex)		Actiontec Electronics, Inc
+0026B8     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+64-25-5E   (hex)		Observint Technologies, Inc.
+64255E     (base 16)		Observint Technologies, Inc.
+				11000 N Mopac Expressway Suite 300
+				Austin  TX  78759
+				US
+
+70-BC-10   (hex)		Microsoft Corporation
+70BC10     (base 16)		Microsoft Corporation
+				One Microsoft Way
+				REDMOND  WA  98052
+				US
+
+94-67-7E   (hex)		Belden India Private Limited
+94677E     (base 16)		Belden India Private Limited
+				Plot No. D-228, Chakan MIDC Phase 2,
+				Village Bhamboli, Taluka:Khed  Pune, Maharashtra  410 507
+				IN
+
+80-D3-36   (hex)		CERN
+80D336     (base 16)		CERN
+				CH-1211
+				GENEVE  SUISSE/SWITZ  023
+				CH
+
+48-F0-7B   (hex)		ALPS ELECTRIC CO., LTD.
+48F07B     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				Kakuda  Miyagi-Pref  981-1595
+				JP
+
+74-95-EC   (hex)		ALPS ELECTRIC CO., LTD.
+7495EC     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				Kakuda  Miyagi-Pref  981-1595
+				JP
+
+AC-5A-EE   (hex)		China Mobile Group Device Co.,Ltd.
+AC5AEE     (base 16)		China Mobile Group Device Co.,Ltd.
+				32 Xuanwumen West Street,Xicheng District
+				Beijing    100053
+				CN
+
+F0-51-EA   (hex)		Fitbit, Inc.
+F051EA     (base 16)		Fitbit, Inc.
+				199 Fremont Street, 14th Fl
+				San Francisco  CA  94105
+				US
+
+04-98-F3   (hex)		ALPS ELECTRIC CO., LTD.
+0498F3     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1 NISHIDA
+				KAKUDA  MIYAGI PREF  9876-8501
+				JP
+
+38-C0-96   (hex)		ALPS ELECTRIC CO., LTD.
+38C096     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				KAKUDA-CITY  MIYAGI-PREF  981-1595
+				JP
+
+E0-75-0A   (hex)		ALPS ELECTRIC CO., LTD.
+E0750A     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				kakuda-City    981-1595
+				US
+
+00-16-FE   (hex)		ALPS ELECTRIC CO., LTD.
+0016FE     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+00-1B-FB   (hex)		ALPS ELECTRIC CO., LTD.
+001BFB     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+BC-75-36   (hex)		ALPS ELECTRIC CO., LTD.
+BC7536     (base 16)		ALPS ELECTRIC CO., LTD.
+				nishida  6-1
+				Kakuda-City  Miyagi-Pref  981-1595
+				JP
+
+C0-B5-D7   (hex)		CHONGQING FUGUI ELECTRONICS CO.,LTD.
+C0B5D7     (base 16)		CHONGQING FUGUI ELECTRONICS CO.,LTD.
+				Building D21,No.1, East Zone 1st Road,Xiyong Town,Shapingba District
+				Chongqing  Chongqing  401332
+				CN
+
+2C-5D-34   (hex)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+2C5D34     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+				NO.18 HAIBIN ROAD,
+				DONG GUAN  GUANG DONG  523860
+				CN
+
+9C-14-63   (hex)		Zhejiang Dahua Technology Co., Ltd.
+9C1463     (base 16)		Zhejiang Dahua Technology Co., Ltd.
+				No.1199,Waterfront Road
+				Hangzhou  Zhejiang  310053
+				CN
+
+10-8E-BA   (hex)		Molekule
+108EBA     (base 16)		Molekule
+				1184 Harrison Street
+				San Francisco    94103
+				US
+
+C4-7D-46   (hex)		FUJITSU LIMITED
+C47D46     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+00-23-26   (hex)		FUJITSU LIMITED
+002326     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+00-00-0E   (hex)		FUJITSU LIMITED
+00000E     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+00-E0-00   (hex)		FUJITSU LIMITED
+00E000     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+8C-73-6E   (hex)		FUJITSU LIMITED
+8C736E     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+50-26-90   (hex)		FUJITSU LIMITED
+502690     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+2C-D4-44   (hex)		FUJITSU LIMITED
+2CD444     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+A8-E2-C3   (hex)		Shenzhen YOUHUA Technology Co., Ltd
+A8E2C3     (base 16)		Shenzhen YOUHUA Technology Co., Ltd
+				Room 407 Shenzhen University-town Business Park,Lishan Road,Taoyuan Street,Nanshan District
+				Shenzhen  Guangdong  518055
 				CN
 
 D8-6C-E9   (hex)		Sagemcom Broadband SAS
@@ -91661,40 +92045,10 @@ BCC810     (base 16)		Cisco SPVTG
 				Lawrenceville  GA  30044
 				US
 
-00-21-4F   (hex)		ALPS ELECTRIC CO.,LTD.
-00214F     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
-
 00-E0-36   (hex)		PIONEER CORPORATION
 00E036     (base 16)		PIONEER CORPORATION
 				2610 Hanazono 4-Chome
 				Saitama Prefecture, 359-8    34567
-				JP
-
-E0-AE-5E   (hex)		ALPS ELECTRIC CO.,LTD.
-E0AE5E     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-3-36 Furukawanakazato,
-				Osaki  Miyagi-pref  989-6181
-				JP
-
-34-C7-31   (hex)		ALPS ELECTRIC CO.,LTD.
-34C731     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-3-36 Furukawanakazato,
-				Osaki  Miyagi-pref  989-6181
-				JP
-
-60-38-0E   (hex)		ALPS ELECTRIC CO.,LTD.
-60380E     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi
-				Soma-city  Fukushima  976-8501
-				JP
-
-64-D4-BD   (hex)		ALPS ELECTRIC CO.,LTD.
-64D4BD     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				KAKUDA-CITY  MIYAGI-PREF  981-1595
 				JP
 
 00-00-0C   (hex)		Cisco Systems, Inc
@@ -93305,12 +93659,6 @@ B875C0     (base 16)		PayPal, Inc.
 				San Jose  California  95131
 				US
 
-E4-7F-B2   (hex)		FUJITSU LIMITED
-E47FB2     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
-
 38-26-2B   (hex)		UTran Technology
 38262B     (base 16)		UTran Technology
 				No.130, Guoji Rd., Tucheng Dist.,
@@ -94042,12 +94390,6 @@ B8DF6B     (base 16)		SpotCam Co., Ltd.
 				12F.-1, No.125, Jianguo Rd.
 				New Taipei City    239
 				TW
-
-74-2B-62   (hex)		FUJITSU LIMITED
-742B62     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
 
 58-BD-F9   (hex)		Sigrand
 58BDF9     (base 16)		Sigrand
@@ -95250,12 +95592,6 @@ C8C791     (base 16)		Zero1.tv GmbH
 7CFE28     (base 16)		Salutron Inc.
 				40979 Encyclopedia Circle
 				Fremont  CA  94538
-				US
-
-10-9F-A9   (hex)		Actiontec Electronics, Inc
-109FA9     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
 				US
 
 C0-A3-64   (hex)		3D Systems Massachusetts
@@ -97042,12 +97378,6 @@ A4134E     (base 16)		Luxul
 				14203 Minuteman Drive
 				Draper  UT  84020
 				US
-
-B0-99-28   (hex)		FUJITSU LIMITED
-B09928     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
 
 8C-11-CB   (hex)		ABUS Security-Center GmbH & Co. KG
 8C11CB     (base 16)		ABUS Security-Center GmbH & Co. KG
@@ -112628,12 +112958,6 @@ F0842F     (base 16)		ADB Broadband Italia
 				Taoyuan City    330
 				TW
 
-00-20-E0   (hex)		Actiontec Electronics, Inc
-0020E0     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave.
-				Sunnyvale.  CA  94085
-				US
-
 00-04-E3   (hex)		Accton Technology Corp
 0004E3     (base 16)		Accton Technology Corp
 				No. 1 Creation Rd. III,
@@ -113442,12 +113766,6 @@ E85659     (base 16)		Advanced-Connectek Inc.
 8801F2     (base 16)		Vitec System Engineering Inc.
 				203203 Kita-shinagawa
 				Shinagawa-ku  Tokyo  140-0001
-				JP
-
-FC-08-4A   (hex)		FUJITSU LIMITED
-FC084A     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
 				JP
 
 84-7B-EB   (hex)		Dell Inc.
@@ -117038,12 +117356,6 @@ A82BB5     (base 16)		Edgecore Networks Corporation
 				San Diego  CA  92123
 				US
 
-A8-B2-DA   (hex)		FUJITSU LIMITED
-A8B2DA     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
-
 0C-B9-37   (hex)		Ubee Interactive Co., Limited
 0CB937     (base 16)		Ubee Interactive Co., Limited
 				Room 1607 Dominion Centre, 43 Queen’s Road East
@@ -118462,12 +118774,6 @@ A83E0E     (base 16)		HMD Global Oy
 				60-39, Gasan-dong, Geumcheon-gu
 				Seoul    153-801
 				KR
-
-B4-EC-02   (hex)		ALPS ELECTRIC CO.,LTD.
-B4EC02     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				Kakuda  Miyagi-Pref  981-1595
-				JP
 
 00-01-49   (hex)		TDT AG
 000149     (base 16)		TDT AG
@@ -121403,12 +121709,6 @@ E0189F     (base 16)		EM Microelectronic
 				Marin-Epagnier  Neuchatel  2074
 				CH
 
-80-54-6A   (hex)		SHENZHEN GONGJIN ELECTRONICS CO.,LT
-80546A     (base 16)		SHENZHEN GONGJIN ELECTRONICS CO.,LT
-				SONGGANG
-				SHENZHEN  GUANGDONG  518105
-				CN
-
 18-B9-05   (hex)		Hong Kong Bouffalo Lab Limited
 18B905     (base 16)		Hong Kong Bouffalo Lab Limited
 				RM 1903, 19/F Lee Garden One 33 Hysan Avenue, Causeway Bay
@@ -121420,6 +121720,198 @@ E0189F     (base 16)		EM Microelectronic
 				12/F.,zte R&D building ,kejinan Road,Shenzhen,P.R.China
 				shenzhen  guangdong  518057
 				CN
+
+80-54-6A   (hex)		SHENZHEN GONGJIN ELECTRONICS CO.,LT
+80546A     (base 16)		SHENZHEN GONGJIN ELECTRONICS CO.,LT
+				SONGGANG
+				SHENZHEN  GUANGDONG  518105
+				CN
+
+B4-A9-FC   (hex)		Quanta Computer Inc.
+B4A9FC     (base 16)		Quanta Computer Inc.
+				No. 211, Wen-Hwa 2nd Rd.,Kuei-Shan Dist.
+				Taoyuan City  Taiwan  33377
+				TW
+
+F0-0E-BF   (hex)		ZettaHash Inc.
+F00EBF     (base 16)		ZettaHash Inc.
+				6F Chiyoda Ogawamachi Crosta, 1-11, Kanda Ogawamachi
+				Chiyoda-ku  Tokyo  101-0052
+				JP
+
+30-4A-26   (hex)		Shenzhen Trolink Technology CO, LTD
+304A26     (base 16)		Shenzhen Trolink Technology CO, LTD
+				201 B building 4 shijie, Chashu industry 505 block, Baoan airport Sanwei community, Hangcheng street Baoan area.
+				Shenzhen  GuangDong  518000
+				CN
+
+A4-12-32   (hex)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+A41232     (base 16)		GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD
+				NO.18 HAIBIN ROAD,
+				DONG GUAN  GUANG DONG  523860
+				CN
+
+78-B2-13   (hex)		DWnet Technologies(Suzhou) Corporation
+78B213     (base 16)		DWnet Technologies(Suzhou) Corporation
+				No.8,Tangzhuang Road, Suzhou Industrial Park, Jiangsu, China
+				Suzhou    21500
+				CN
+
+4C-E1-9E   (hex)		TECNO MOBILE LIMITED
+4CE19E     (base 16)		TECNO MOBILE LIMITED
+				ROOMS 05-15, 13A/F., SOUTH TOWER, WORLD FINANCE CENTRE, HARBOUR CITY, 17 CANTON ROAD, TSIM SHA TSUI, KOWLOON, HONG KONG
+				Hong Kong  Hong Kong  999077
+				HK
+
+D4-B7-61   (hex)		Sichuan AI-Link Technology Co., Ltd.
+D4B761     (base 16)		Sichuan AI-Link Technology Co., Ltd.
+				Anzhou,Industrial Park
+				Anzhou,Industrial Park  Sichuan  621000
+				CN
+
+CC-9E-A2   (hex)		Amazon Technologies Inc.
+CC9EA2     (base 16)		Amazon Technologies Inc.
+				P.O Box 8102
+				Reno    89507
+				US
+
+4C-21-8C   (hex)		Panasonic India Private limited
+4C218C     (base 16)		Panasonic India Private limited
+				12th floor, Ambience tower, Ambience Island
+				Gurgaon  Haryana  122002
+				IN
+
+44-B4-33   (hex)		tide.co.,ltd
+44B433     (base 16)		tide.co.,ltd
+				9F Kapeul GreatValley A-dong, Digitalro 9-ghil 32, Geumcheon-gu
+				seoul  seoul  ASIKRKS006
+				KR
+
+D4-3A-2E   (hex)		SHENZHEN MTC CO LTD
+D43A2E     (base 16)		SHENZHEN MTC CO LTD
+				5th Floor, 3rd Building, SHENZHEN MTC Industrial Park, XiaLilang Rd, Nanwan Street, Long’gang District
+				Shenzhen  Guangdong  518100
+				CN
+
+10-9F-A9   (hex)		Actiontec Electronics, Inc
+109FA9     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+00-20-E0   (hex)		Actiontec Electronics, Inc
+0020E0     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+AC-43-30   (hex)		Versa Networks
+AC4330     (base 16)		Versa Networks
+				6001 America center Drive, Suite 400
+				San Jose  CA  95070
+				US
+
+40-B0-76   (hex)		ASUSTek COMPUTER INC.
+40B076     (base 16)		ASUSTek COMPUTER INC.
+				15,Li-Te Rd., Peitou, Taipei 112, Taiwan
+				Taipei  Taiwan  112
+				TW
+
+4C-C7-D6   (hex)		FLEXTRONICS MANUFACTURING(ZHUHAI)CO.,LTD.
+4CC7D6     (base 16)		FLEXTRONICS MANUFACTURING(ZHUHAI)CO.,LTD.
+				Xin Qing Science & Technology Industrial Park,Jin An Town,Doumen ,Zhuhai,Guangdong,PRC
+				Zhuhai  Guangdong  519180
+				CN
+
+B8-BC-5B   (hex)		Samsung Electronics Co.,Ltd
+B8BC5B     (base 16)		Samsung Electronics Co.,Ltd
+				129, Samsung-ro, Youngtongl-Gu
+				Suwon  Gyeonggi-Do  16677
+				KR
+
+90-94-0A   (hex)		Analog Devices, Inc
+90940A     (base 16)		Analog Devices, Inc
+				Unit 2200, Airport Business Park, Kinsale Road
+				Cork    T12 X36X
+				IE
+
+00-21-4F   (hex)		ALPS ELECTRIC CO., LTD.
+00214F     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+B4-EC-02   (hex)		ALPS ELECTRIC CO., LTD.
+B4EC02     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				Kakuda  Miyagi-Pref  981-1595
+				JP
+
+E0-AE-5E   (hex)		ALPS ELECTRIC CO., LTD.
+E0AE5E     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-3-36 Furukawanakazato,
+				Osaki  Miyagi-pref  989-6181
+				JP
+
+34-C7-31   (hex)		ALPS ELECTRIC CO., LTD.
+34C731     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-3-36 Furukawanakazato,
+				Osaki  Miyagi-pref  989-6181
+				JP
+
+60-38-0E   (hex)		ALPS ELECTRIC CO., LTD.
+60380E     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi
+				Soma-city  Fukushima  976-8501
+				JP
+
+64-D4-BD   (hex)		ALPS ELECTRIC CO., LTD.
+64D4BD     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				KAKUDA-CITY  MIYAGI-PREF  981-1595
+				JP
+
+B0-99-28   (hex)		FUJITSU LIMITED
+B09928     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+74-2B-62   (hex)		FUJITSU LIMITED
+742B62     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+E4-7F-B2   (hex)		FUJITSU LIMITED
+E47FB2     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+FC-08-4A   (hex)		FUJITSU LIMITED
+FC084A     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+A8-B2-DA   (hex)		FUJITSU LIMITED
+A8B2DA     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+8C-6D-C4   (hex)		Megapixel VR
+8C6DC4     (base 16)		Megapixel VR
+				340 S. Lemon Ave
+				Walnut  CA  91789
+				US
+
+D4-25-CC   (hex)		IEEE Registration Authority
+D425CC     (base 16)		IEEE Registration Authority
+				445 Hoes Lane
+				Piscataway  NJ  08554
+				US
 
 2C-39-96   (hex)		Sagemcom Broadband SAS
 2C3996     (base 16)		Sagemcom Broadband SAS
@@ -121467,12 +121959,6 @@ A0F895     (base 16)		Shenzhen TINNO Mobile Technology Corp.
 2CFD37     (base 16)		Blue Calypso, Inc.
 				101 West Renner RD Suite 280
 				Richardson  TX  75082
-				US
-
-0C-61-27   (hex)		Actiontec Electronics, Inc
-0C6127     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
 				US
 
 00-1B-11   (hex)		D-Link Corporation
@@ -122429,40 +122915,10 @@ A46C2A     (base 16)		Cisco Systems, Inc
 				Lawrenceville    30044
 				US
 
-00-26-43   (hex)		ALPS ELECTRIC CO.,LTD.
-002643     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
-
-00-24-33   (hex)		ALPS ELECTRIC CO.,LTD.
-002433     (base 16)		ALPS ELECTRIC CO.,LTD.
-				1-2-1, Okinouchi,
-				Soma-city,  Fukushima-pref.,  976-8501
-				JP
-
 74-5E-1C   (hex)		PIONEER CORPORATION
 745E1C     (base 16)		PIONEER CORPORATION
 				1-1 Shin-ogura
 				Kawasaki-shi  Kanagawa Prefecture  2120031
-				JP
-
-00-06-F5   (hex)		ALPS ELECTRIC CO.,LTD.
-0006F5     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-3-36 Furukawanakazato,
-				Osaki  Miyagi-pref  989-6181
-				JP
-
-00-06-F7   (hex)		ALPS ELECTRIC CO.,LTD.
-0006F7     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-3-36 Furukawanakazato,
-				Osaki  Miyagi-pref  989-6181
-				JP
-
-00-07-04   (hex)		ALPS ELECTRIC CO.,LTD.
-000704     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-3-36 Furukawanakazato,
-				Osaki  Miyagi-pref  989-6181
 				JP
 
 1C-1D-86   (hex)		Cisco Systems, Inc
@@ -123638,12 +124094,6 @@ D4EC86     (base 16)		LinkedHope Intelligent Technologies Co., Ltd
 				Redmond  Washington  98052
 				FI
 
-A0-A3-E2   (hex)		Actiontec Electronics, Inc
-A0A3E2     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 54-09-8D   (hex)		deister electronic GmbH
 54098D     (base 16)		deister electronic GmbH
 				Hermann-Bahlsen-Str. 11
@@ -124116,12 +124566,6 @@ D42F23     (base 16)		Akenori PTE Ltd
 400107     (base 16)		Arista Corp
 				40675 Encyclopedia Circle
 				Fremont  CA  94538
-				US
-
-4C-8B-30   (hex)		Actiontec Electronics, Inc
-4C8B30     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
 				US
 
 08-05-CD   (hex)		DongGuang EnMai Electronic Product Co.Ltd.
@@ -126020,12 +126464,6 @@ EC4993     (base 16)		Qihan Technology Co., Ltd
 				Shenzhen  Guangdong  518040
 				CN
 
-B0-AC-FA   (hex)		FUJITSU LIMITED
-B0ACFA     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
-
 1C-95-9F   (hex)		Veethree Electronics And Marine LLC
 1C959F     (base 16)		Veethree Electronics And Marine LLC
 				2050 47th Terrace East
@@ -126550,12 +126988,6 @@ D8337F     (base 16)		Office FA.com Co.,Ltd.
 				5/21-25 Redland Drive
 				Mitcham  VIC  3132
 				AU
-
-40-8B-07   (hex)		Actiontec Electronics, Inc
-408B07     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
 
 98-02-84   (hex)		Theobroma Systems GmbH
 980284     (base 16)		Theobroma Systems GmbH
@@ -127241,12 +127673,6 @@ F0022B     (base 16)		Chrontel
 				San Jose  CA  95131
 				US
 
-00-7F-28   (hex)		Actiontec Electronics, Inc
-007F28     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 0C-92-4E   (hex)		Rice Lake Weighing Systems
 0C924E     (base 16)		Rice Lake Weighing Systems
 				230 West Coleman St
@@ -127900,12 +128326,6 @@ B8A8AF     (base 16)		Logic S.p.A.
 				20 Mason
 				Irvine  CA  92618
 				US
-
-5C-9A-D8   (hex)		FUJITSU LIMITED
-5C9AD8     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
 
 14-4C-1A   (hex)		Max Communication GmbH
 144C1A     (base 16)		Max Communication GmbH
@@ -133016,12 +133436,6 @@ DC3350     (base 16)		TechSAT GmbH
 				Chicago  IL  60661
 				US
 
-00-18-01   (hex)		Actiontec Electronics, Inc
-001801     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 00-17-F5   (hex)		LIG NEOPTEK
 0017F5     (base 16)		LIG NEOPTEK
 				926 Gosaek-dong
@@ -133720,12 +134134,6 @@ DC3350     (base 16)		TechSAT GmbH
 				Turgenevova 5
 				Brno  EU/Europe  618 00
 				CZ
-
-00-15-05   (hex)		Actiontec Electronics, Inc
-001505     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
 
 00-15-04   (hex)		GAME PLUS CO., LTD.
 001504     (base 16)		GAME PLUS CO., LTD.
@@ -134854,12 +135262,6 @@ DC3350     (base 16)		TechSAT GmbH
 				100 Jurong East Street 21
 				    609602
 				SG
-
-00-0F-B3   (hex)		Actiontec Electronics, Inc
-000FB3     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
 
 00-0F-A6   (hex)		S2 Security Corporation
 000FA6     (base 16)		S2 Security Corporation
@@ -143039,12 +143441,6 @@ AA0000     (base 16)		DIGITAL EQUIPMENT CORPORATION
 				WEBSTER  NY  14580
 				US
 
-08-00-30   (hex)		CERN
-080030     (base 16)		CERN
-				CH-1211 GENEVE 23
-				    SUISSE/SWITZ
-				CH
-
 00-DD-01   (hex)		UNGERMANN-BASS INC.
 00DD01     (base 16)		UNGERMANN-BASS INC.
 				3900 FREEDOM CIRCLE
@@ -143561,12 +143957,6 @@ A04FD4     (base 16)		ADB Broadband Italia
 				Taoyuan  Taoyuan County  33067
 				TW
 
-00-26-62   (hex)		Actiontec Electronics, Inc
-002662     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
-
 00-19-3E   (hex)		ADB Broadband Italia
 00193E     (base 16)		ADB Broadband Italia
 				VIALE SARCA 222
@@ -144029,12 +144419,6 @@ DC3A5E     (base 16)		Roku, Inc.
 				Hukou, Hsinchu    303
 				TW
 
-00-17-42   (hex)		FUJITSU LIMITED
-001742     (base 16)		FUJITSU LIMITED
-				Musashi-kosugi Tower Place Bldg.,403
-				Kawasaki  Kanagawa  211-8588
-				JP
-
 2C-10-C1   (hex)		Nintendo Co., Ltd.
 2C10C1     (base 16)		Nintendo Co., Ltd.
 				  11-1 HOKOTATE-CHO KAMITOBA, MINAMI-KU
@@ -144250,12 +144634,6 @@ C4E510     (base 16)		Mechatro, Inc.
 				Möddinghofe 30
 				Wuppertal  NRW  42279
 				DE
-
-10-78-5B   (hex)		Actiontec Electronics, Inc
-10785B     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
-				US
 
 88-A0-84   (hex)		Formation Data Systems
 88A084     (base 16)		Formation Data Systems
@@ -144772,12 +145150,6 @@ D89403     (base 16)		Hewlett Packard Enterprise
 				8000 Foothills Blvd.
 				Roseville  CA  95747
 				US
-
-9C-8D-7C   (hex)		ALPS ELECTRIC CO.,LTD.
-9C8D7C     (base 16)		ALPS ELECTRIC CO.,LTD.
-				6-1
-				Kakuda  Miyagi-Pref  981-1595
-				JP
 
 E0-4F-43   (hex)		Universal Global Scientific Industrial Co., Ltd.
 E04F43     (base 16)		Universal Global Scientific Industrial Co., Ltd.
@@ -145961,12 +146333,6 @@ BCA8A6     (base 16)		Intel Corporate
 				Edegem - Belgium    B-2650
 				BE
 
-38-AF-D7   (hex)		FUJITSU LIMITED
-38AFD7     (base 16)		FUJITSU LIMITED
-				Mushashi-kosuge Tower Place 13F
-				Kawasaki  Kanagawa  211-0063
-				JP
-
 28-99-3A   (hex)		Arista Networks
 28993A     (base 16)		Arista Networks
 				5453 Great America Parkway
@@ -146715,12 +147081,6 @@ C0-28-8D   (hex)		Logitech, Inc
 C0288D     (base 16)		Logitech, Inc
 				4700 NW Camas Meadows Drive
 				Camas  WA  98607
-				US
-
-9C-1E-95   (hex)		Actiontec Electronics, Inc
-9C1E95     (base 16)		Actiontec Electronics, Inc
-				760 North Mary Ave
-				Sunnyvale  CA  94085
 				US
 
 E0-78-A3   (hex)		Shanghai Winner Information Technology Co.,Inc
@@ -151864,3 +152224,213 @@ B447F5     (base 16)		Earda Technologies co Ltd
 				Block A,Lianfeng Creative Park, #2 Jisheng Rd., Nansha District
 				Guangzhou  Guangdong  511455
 				CN
+
+38-0B-3C   (hex)		Texas Instruments
+380B3C     (base 16)		Texas Instruments
+				12500 TI Blvd
+				Dallas  TX  75243
+				US
+
+5C-41-5A   (hex)		Amazon.com, LLC
+5C415A     (base 16)		Amazon.com, LLC
+				1200 12th Ave. South, Suite 1200
+				Seattle    98144
+				US
+
+BC-3E-07   (hex)		Hitron Technologies. Inc
+BC3E07     (base 16)		Hitron Technologies. Inc
+				No. 1-8, Lising 1st Rd. Hsinchu Science Park, Hsinchu, 300, Taiwan, R.O.C
+				Hsin-chu  Taiwan  300
+				TW
+
+44-FE-3B   (hex)		Arcadyan Corporation
+44FE3B     (base 16)		Arcadyan Corporation
+				No.8, Sec.2, Guangfu Rd.
+				Hsinchu City  Hsinchu  30071
+				TW
+
+D8-3A-F5   (hex)		Wideband Labs LLC
+D83AF5     (base 16)		Wideband Labs LLC
+				1027 S Main Street, STE 330
+				Joplin  MO  64801
+				US
+
+F4-6E-95   (hex)		Extreme Networks, Inc.
+F46E95     (base 16)		Extreme Networks, Inc.
+				6480 Via Del Oro
+				San Jose    95119
+				US
+
+00-0F-B3   (hex)		Actiontec Electronics, Inc
+000FB3     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+00-15-05   (hex)		Actiontec Electronics, Inc
+001505     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+00-18-01   (hex)		Actiontec Electronics, Inc
+001801     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+28-80-88   (hex)		NETGEAR
+288088     (base 16)		NETGEAR
+				350 East Plumeria Drive
+				San Jose  CA  95134
+				US
+
+00-7F-28   (hex)		Actiontec Electronics, Inc
+007F28     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+40-8B-07   (hex)		Actiontec Electronics, Inc
+408B07     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+4C-8B-30   (hex)		Actiontec Electronics, Inc
+4C8B30     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+A0-A3-E2   (hex)		Actiontec Electronics, Inc
+A0A3E2     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+0C-61-27   (hex)		Actiontec Electronics, Inc
+0C6127     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+00-26-62   (hex)		Actiontec Electronics, Inc
+002662     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+10-78-5B   (hex)		Actiontec Electronics, Inc
+10785B     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+9C-1E-95   (hex)		Actiontec Electronics, Inc
+9C1E95     (base 16)		Actiontec Electronics, Inc
+				301 Olcott St
+				Santa Clara  CA  95054
+				US
+
+9C-69-B4   (hex)		IEEE Registration Authority
+9C69B4     (base 16)		IEEE Registration Authority
+				445 Hoes Lane
+				Piscataway  NJ  08554
+				US
+
+E8-5B-B7   (hex)		Ample Systems Inc.
+E85BB7     (base 16)		Ample Systems Inc.
+				11F-2, No. 95 Minquan Rd.
+				New Taipei City     231
+				TW
+
+C8-08-73   (hex)		Ruckus Wireless
+C80873     (base 16)		Ruckus Wireless
+				350 West Java Drive
+				Sunnyvale  CA  94089
+				US
+
+08-00-30   (hex)		CERN
+080030     (base 16)		CERN
+				CH-1211
+				GENEVE  SUISSE/SWITZ  023
+				CH
+
+4C-DD-7D   (hex)		LHP Telematics LLC
+4CDD7D     (base 16)		LHP Telematics LLC
+				17406 Tiller Ct. STE 100
+				westfield  IN  46074
+				US
+
+00-24-33   (hex)		ALPS ELECTRIC CO., LTD.
+002433     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+00-26-43   (hex)		ALPS ELECTRIC CO., LTD.
+002643     (base 16)		ALPS ELECTRIC CO., LTD.
+				1-2-1, Okinouchi,
+				Soma-city,  Fukushima-pref.,  976-8501
+				JP
+
+9C-8D-7C   (hex)		ALPS ELECTRIC CO., LTD.
+9C8D7C     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-1
+				Kakuda  Miyagi-Pref  981-1595
+				JP
+
+70-1B-FB   (hex)		Integrated Device Technology (Malaysia) Sdn. Bhd.
+701BFB     (base 16)		Integrated Device Technology (Malaysia) Sdn. Bhd.
+				Phase 3, Bayan Lepas FIZ
+				Bayan Lepas  Penang  11900
+				MY
+
+00-06-F5   (hex)		ALPS ELECTRIC CO., LTD.
+0006F5     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-3-36 Furukawanakazato,
+				Osaki  Miyagi-pref  989-6181
+				JP
+
+00-06-F7   (hex)		ALPS ELECTRIC CO., LTD.
+0006F7     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-3-36 Furukawanakazato,
+				Osaki  Miyagi-pref  989-6181
+				JP
+
+00-07-04   (hex)		ALPS ELECTRIC CO., LTD.
+000704     (base 16)		ALPS ELECTRIC CO., LTD.
+				6-3-36 Furukawanakazato,
+				Osaki  Miyagi-pref  989-6181
+				JP
+
+5C-9A-D8   (hex)		FUJITSU LIMITED
+5C9AD8     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+B0-AC-FA   (hex)		FUJITSU LIMITED
+B0ACFA     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+00-17-42   (hex)		FUJITSU LIMITED
+001742     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+38-AF-D7   (hex)		FUJITSU LIMITED
+38AFD7     (base 16)		FUJITSU LIMITED
+				403, Kosugi-cho 1-chome, Nakahara-ku
+				Kawasaki  Kanagawa  211-0063
+				JP
+
+84-A0-6E   (hex)		Sagemcom Broadband SAS
+84A06E     (base 16)		Sagemcom Broadband SAS
+				250, route de l'Empereur
+				Rueil Malmaison Cedex  hauts de seine  92848
+				FR
