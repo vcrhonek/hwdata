@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2018.08.15
-# Date:    2018-08-15 20:34:06
+# Version: 2018.10.23
+# Date:    2018-10-23 20:34:06
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -18980,6 +18980,11 @@
 	0100  Dual-relay board
 	0500  Energy meter
 	0502  Precision barometer
+28de  Valve Software
+	1102  Wired Controller
+	1142  Wireless Steam Controller
+	2000  Lighthouse FPGA RX
+	2101  Watchman Dongle
 2931  Jolla Oy
 	0a01  Jolla Phone MTP
 	0a02  Jolla Phone Developer

@@ -9860,12 +9860,6 @@ FD1000-FD1FFF                 (base 16)                     Enyx SA
                                                             BOOS  Haute Normandie  76520
                                                             FR
 
-40-D8-55                      (hex)                         Chengdu Meihuan Technology Co.,Ltd
-1DF000-1DFFFF                 (base 16)                     Chengdu Meihuan Technology Co.,Ltd
-                                                            Floor 17,Building D6,Tianfu Software Park,
-                                                            Chengdu  Sichuan  610041
-                                                            CN
-
 40-D8-55                      (hex)                         Perm Scientific-Industrial Instrument Making Company JSC
 13D000-13DFFF                 (base 16)                     Perm Scientific-Industrial Instrument Making Company JSC
                                                             25th of October Str, 106
@@ -15607,6 +15601,12 @@ D3F000-D3FFFF                 (base 16)                     Communication System
                                                             Saltmakers House
                                                             Southampton  Hampshire  SO31 4NB
                                                             GB
+
+40-D8-55                      (hex)                         Chengdu Meihuan Technology Co., Ltd
+1DF000-1DFFFF                 (base 16)                     Chengdu Meihuan Technology Co., Ltd
+                                                            Floor 17,Building D6,Tianfu Software Park,
+                                                            Chengdu  Sichuan  610041
+                                                            CN
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH

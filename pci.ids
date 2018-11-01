@@ -1,11 +1,11 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.29
-#	Date:    2018-09-29 03:15:02
+#	Version: 2018.11.01
+#	Date:    2018-11-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
-#	the PCI ID Project at http://pci-ids.ucw.cz/.
+#	the PCI ID Project at https://pci-ids.ucw.cz/.
 #
 #	New data are always welcome, especially if they are accurate. If you have
 #	anything to contribute, please follow the instructions at the web site.
@@ -412,6 +412,7 @@
 	005c  SAS1064A PCI-X Fusion-MPT SAS
 	005d  MegaRAID SAS-3 3108 [Invader]
 		1000 9361  MegaRAID SAS 9361-8i
+		1000 9363  MegaRAID SAS 9361-4i
 		1000 9364  MegaRAID SAS 9364-8i
 		1000 936a  MegaRAID SAS 9364-8i
 		1028 1f41  PERC H830 Adapter
@@ -482,6 +483,7 @@
 	0065  SAS2116 PCI-Express Fusion-MPT SAS-2 [Meteor]
 	006e  SAS2308 PCI-Express Fusion-MPT SAS-2
 	0070  SAS2004 PCI-Express Fusion-MPT SAS-2 [Spitfire]
+		1000 3010  SAS9211-4i
 	0071  MR SAS HBA 2004
 	0072  SAS2008 PCI-Express Fusion-MPT SAS-2 [Falcon]
 		1000 30b0  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
@@ -1677,6 +1679,7 @@
 	6650  Bonaire
 	6651  Bonaire
 	6658  Bonaire XTX [Radeon R7 260X/360]
+		1043 04d3  AMD Radeon R7 260X
 		148c 0907  Radeon R7 360
 		1682 0907  Radeon R7 360
 		1682 7360  Radeon R7 360
@@ -2328,7 +2331,7 @@
 	67cc  Ellesmere [Polaris10]
 	67cf  Ellesmere [Polaris10]
 	67d0  Ellesmere [Radeon Pro V7300X / V7350x2]
-	67df  Ellesmere [Radeon RX 470/480/570/570X/580/580X]
+	67df  Ellesmere [Radeon RX 470/480/570/570X/580/580X/590]
 		1002 0b37  Radeon RX 480
 		1028 1722  Radeon RX 570X
 		1028 1723  Radeon RX 580X
@@ -2336,6 +2339,7 @@
 		1043 04b0  Radeon RX 470
 		1043 04fb  Radeon RX 480
 		1043 04fd  Radeon RX 480 8GB
+		1043 056a  Radeon RX 590
 		106b 0161  Radeon Pro 580
 		106b 0162  Radeon Pro 575
 		106b 0163  Radeon Pro 570
@@ -3144,6 +3148,7 @@
 	69a2  Vega 12
 	69a3  Vega 12
 	69af  Vega 12
+	6fdf  Polaris 20 XL [Radeon RX 580 2048SP]
 	700f  RS100 AGP Bridge
 	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
@@ -4787,11 +4792,14 @@
 		1028 028d  PowerEdge T410 MGA G200eW WPCM450
 		1028 029c  PowerEdge M710 MGA G200eW WPCM450
 		1028 02a4  PowerEdge T310 MGA G200eW WPCM450
+		15d9 0605  X8SIL
 		15d9 0624  X9SCM-F Motherboard
+		15d9 066b  X9SRL-F
 		15d9 a811  H8DGU
 	0533  MGA G200EH
 		103c 3381  iLO4
 	0534  G200eR2
+		1028 04f7  PowerEdge R320 server
 	0536  Integrated Matrox G200eW3 Graphics Controller
 	0538  MGA G200eH3
 		1590 00e4  iLO5 VGA
@@ -6461,6 +6469,8 @@
 		1077 0012  FastLinQ QL41112H 10GbE Adapter
 		1077 0019  QL41232HOCU - Dual Port 25/10GbE SFP28 OCP Adapter
 		1077 0039  QLogic QL41262 PCIe 25Gb 2-Port SFP28 Ethernet Adapter
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021d  10/25GbE 2P QL41222HLCU-HP Adapter
 		1590 021e  10/25GbE 2P QL41162HMRJ-HP Adapter
 		1590 021f  10/25GbE 2P QL41262HMCU-HP Adapter
@@ -6478,6 +6488,8 @@
 		1077 000d  FastLinQ QL41262H 25GbE FCoE Adapter
 		1077 000e  FastLinQ QL41162H 10GbE FCoE Adapter
 		1077 000f  2x25GE QL41262HMKR CNA
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 	8084  FastLinQ QL41000 Series 10/25/40/50GbE Controller (iSCSI)
 		1077 0001  10GE 2P QL41162HxRJ-DE Adapter
 		1077 0002  10GE 2P QL41112HxCU-DE Adapter
@@ -6492,6 +6504,8 @@
 		1077 000d  FastLinQ QL41262H 25GbE iSCSI Adapter
 		1077 000e  FastLinQ QL41162H 10GbE iSCSI Adapter
 		1077 000f  2x25GE QL41262HMKR CNA
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 	8090  FastLinQ QL41000 Series Gigabit Ethernet Controller (SR-IOV VF)
 		1077 0001  25GE 2P QL41262HxCU-DE Adapter
 		1077 0002  10GE 2P QL41112HxCU-DE Adapter
@@ -6509,6 +6523,8 @@
 		1077 0010  2x25GE QL41232HMKR NIC
 		1077 0011  FastLinQ QL41212H 25GbE Adapter (SR-IOV VF)
 		1077 0012  FastLinQ QL41112H 10GbE Adapter (SR-IOV VF)
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021e  10/25GbE 2P QL41162HMRJ-HP Adapter
 		1590 021f  10/25GbE 2P QL41262HMCU-HP Adapter
 	8430  ISP8324 1/10GbE Converged Network Controller (NIC VF)
@@ -10533,6 +10549,7 @@
 	10ef  GP102 HDMI Audio Controller
 	10f0  GP104 High Definition Audio Controller
 	10f1  GP106 High Definition Audio Controller
+	10f7  TU102 High Definition Audio Controller
 	1140  GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]
 		1019 0799  GeForce 820M
 		1019 999f  GeForce GT 720M
@@ -11152,6 +11169,7 @@
 	17f0  GM200GL [Quadro M6000]
 	17f1  GM200GL [Quadro M6000 24GB]
 	17fd  GM200GL [Tesla M40]
+	1ad6  TU102 USB 3.1 Controller
 	1b00  GP102 [TITAN X]
 	1b01  GP102
 	1b02  GP102 [TITAN Xp]
@@ -11207,6 +11225,8 @@
 		17aa 39b9  GeForce GTX 1060 Max-Q 3GB
 	1c21  GP106M [GeForce GTX 1050 Ti Mobile]
 	1c22  GP106M [GeForce GTX 1050 Mobile]
+	1c23  GP106M [GeForce GTX 1060 Mobile Rev. 2]
+		1414 0020  GTX 1060 Mobile
 	1c30  GP106GL [Quadro P2000]
 	1c35  GP106
 	1c60  GP106BM [GeForce GTX 1060 Mobile 6GB]
@@ -11242,11 +11262,13 @@
 	1ccd  GP107BM [GeForce GTX 1050 Mobile]
 	1d01  GP108 [GeForce GT 1030]
 	1d10  GP108M [GeForce MX150]
+		17aa 225e  ThinkPad T480
 	1d12  GP108M [GeForce MX150]
 		1d72 1701  Mi Notebook Pro [GeForce MX150]
 	1d33  GP108GLM [Quadro P500 Mobile]
 	1d81  GV100 [TITAN V]
 	1db1  GV100GL [Tesla V100 SXM2 16GB]
+	1db2  GV100 [Tesla V100-DGXS-16GB]
 	1db3  GV100GL [Tesla V100 FHHL 16GB]
 	1db4  GV100GL [Tesla V100 PCIe 16GB]
 	1db5  GV100GL [Tesla V100 SXM2 32GB]
@@ -11258,13 +11280,15 @@
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
-	1e30  TU102GL
+	1e30  TU102GL [Quadro RTX 6000]
 	1e3c  TU102GL [Quadro RTX 6000]
 	1e3d  TU102GL
 	1e82  TU104 [GeForce RTX 2080]
 	1e87  TU104 [GeForce RTX 2080 Rev. A]
 	1eab  TU104M [GeForce RTX 2080 Mobile]
 	1eae  TU104M
+	1eb0  TU104GL [Quadro RTX 5000]
+	1eb8  TU104GL [Tesla T4]
 	1f02  TU106 [GeForce RTX 2070]
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 10df  Emulex Corporation
@@ -11307,6 +11331,7 @@
 		10df e322  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
 		10df e323  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
 		10df e325  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
+	e333  Lancer Gen6: LPe32000 Fibre Channel Host Adapter
 	f011  Saturn: LightPulse Fibre Channel Host Adapter
 	f015  Saturn: LightPulse Fibre Channel Host Adapter
 	f085  LP850 Fibre Channel Host Adapter
@@ -11453,6 +11478,7 @@
 	524a  RTS524A PCI Express Card Reader
 	5250  RTS5250 PCI Express Card Reader
 	525a  RTS525A PCI Express Card Reader
+		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5286  RTS5286 PCI Express Card Reader
@@ -13178,6 +13204,7 @@
 		1137 012c  VIC 1340 MLOM Userspace NIC
 		1137 012e  VIC 1227 PCIe Userspace NIC
 		1137 0137  VIC 1380 Mezzanine Userspace NIC
+	023e  1GigE I350 LOM
 1138  Ziatech Corporation
 	8905  8905 [STD 32 Bridge]
 1139  Dynamic Pictures, Inc
@@ -13655,7 +13682,7 @@
 		14ef 0220  PCD-RP-220S
 		17aa 201c  ThinkPad X60/X60s
 		17aa 20c4  ThinkPad T61/R61
-		17aa 20c6  ThinkPad R61
+		17aa 20c6  ThinkPad R61/T400
 	0477  RL5c477
 	0478  RL5c478
 		1014 0184  ThinkPad A30p
@@ -13690,7 +13717,7 @@
 		1043 1237  A6J-Q008
 		1043 1967  V6800V
 		144d c018  X20 IV
-		17aa 20ca  ThinkPad T61
+		17aa 20ca  ThinkPad T61/T400
 	0811  R5C811
 	0822  R5C822 SD/SDIO/MMC/MS/MSPro Host Adapter
 		1014 0556  ThinkPad X40 / X41 / X60s / Z60t
@@ -13712,7 +13739,7 @@
 		144d c018  X20 IV
 		17aa 201d  ThinkPad X60/X60s
 		17aa 20c7  ThinkPad T61
-		17aa 20c8  ThinkPad W500
+		17aa 20c8  ThinkPad T400/W500
 	0832  R5C832 IEEE 1394 Controller
 		1025 0121  Aspire 5920G
 		1028 01d7  XPS M1210
@@ -13749,6 +13776,7 @@
 		1043 1967  V6800V
 		1180 0852  Pavilion 2410us
 		1324 10cf  P7120
+		17aa 20cb  ThinkPad T400
 	e230  R5U2xx (R5U230 / R5U231 / R5U241) [Memory Stick Host Controller]
 	e476  CardBus bridge
 		1028 040a  Latitude E6410
@@ -13756,6 +13784,7 @@
 	e822  MMC/SD Host Controller
 		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
+		17aa 21cf  ThinkPad T520
 	e823  PCIe SDXC/MMC Host Controller
 		17aa 21cf  ThinkPad T520
 	e832  R5C832 PCIe IEEE 1394 Controller
@@ -17273,6 +17302,9 @@
 		1014 0621  PCIe3 1.6TB NVMe Flash Adapter II x8
 		1014 0622  PCIe3 3.2TB NVMe Flash Adapter II x8
 		1014 0629  PCIe3 6.4TB NVMe Flash Adapter II x8
+		1014 064a  PCIe3 1.6TB NVMe Flash Adapter III x8
+		1014 064b  PCIe3 3.2TB NVMe Flash Adapter III x8
+		1014 064c  PCIe3 6.4TB NVMe Flash Adapter III x8
 		1028 1fd9  Express Flash PM1725a 800GB SFF
 		1028 1fda  Express Flash PM1725a 1.6TB SFF
 		1028 1fdb  Express Flash PM1725a 3.2TB SFF
@@ -17732,7 +17764,8 @@
 		103c 0890  NC6000 laptop
 		103c 099c  NX6110/NC6120
 		10cf 1279  LifeBook E8010D
-	165f  NetXtreme BCM5720 Gigabit Ethernet PCIe
+	165f  NetXtreme BCM5720 2-port Gigabit Ethernet PCIe
+		1028 04f7  PowerEdge R320 server
 	1662  NetXtreme II BCM57712 10 Gigabit Ethernet
 	1663  NetXtreme II BCM57712 10 Gigabit Ethernet Multi Function
 	1665  NetXtreme BCM5717 Gigabit Ethernet PCIe
@@ -18279,8 +18312,9 @@
 # Tomahawk
 	b960  Broadcom BCM56960 Switch ASIC
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
-		14e4 8024  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w4GB DRAM
-		14e4 8028  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w8GB DRAM
+		14e4 8021  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w16GB DRAM (Part No BCM958802A8046C)
+		14e4 8024  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w4GB DRAM (Part No BCM958802A8044C)
+		14e4 8028  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w8GB DRAM (Part No BCM958802A8048C)
 	d804  BCM58804 Stingray 100Gb Ethernet SoC
 14e5  Pixelfusion Ltd
 14e6  SHINING Technology Inc
@@ -19638,6 +19672,7 @@
 		1a3b 2100  AW-NB100H 802.11n Wireless Mini PCIe Card
 	003c  QCA986x/988x 802.11ac Wireless Network Adapter
 	003e  QCA6174 802.11ac Wireless Network Adapter
+		1a56 143a  Killer 1435 Wireless-AC
 		1a56 1525  Killer N1525 Wireless-AC
 	0040  QCA9980/9990 802.11ac Wireless Network Adapter
 	0041  QCA6164 802.11ac Wireless Network Adapter
@@ -19859,6 +19894,13 @@
 1760  TEDIA spol. s r. o.
 	0101  PCD-7004 Digital Bi-Directional Ports PCI Card
 	0102  PCD-7104 Digital Input & Output PCI Card
+	0121  PCT-7303A PC card with IRC counters
+	0122  PCT-7408A PC card with counters and timers
+	0123  PCT-7424 PCI card with standard counters
+	0214  PCT-7424C (F0) PC card with standard counters
+	0215  PCT-7424C (F1) PC card with standard counters
+	0216  PCT-7424E (F0) PC card with standard counters
+	0217  PCT-7424E (F1) PC card with standard counters
 	0303  PCD-7006C Digital Input & Output PCI Card
 1761  Pickering Interfaces Ltd
 1771  InnoVISION Multimedia Ltd.
@@ -20843,6 +20885,7 @@
 	2048  Attansic L2 Fast Ethernet
 	2060  AR8152 v1.1 Fast Ethernet
 	2062  AR8152 v2.0 Fast Ethernet
+		1043 8468  Eee PC 1015PX
 # E2200, E2201, E2205
 	e091  Killer E220x Gigabit Ethernet Controller
 	e0a1  Killer E2400 Gigabit Ethernet Controller
@@ -20856,7 +20899,10 @@
 1971  AGEIA Technologies, Inc.
 	1011  Physics Processing Unit [PhysX]
 		1043 0001  PhysX P1
-1974  Eberspaecher Electronics
+# nee Eberspaecher Electronics
+1974  Star Electronics GmbH & Co. KG
+	0009  FlexCard PMC-II
+	0011  FlexCard PMC-II Ethernet
 1976  TRENDnet
 1977  Parsec
 197b  JMicron Technology Corp.
@@ -21023,6 +21069,7 @@
 1a03  ASPEED Technology, Inc.
 	1150  AST1150 PCI-to-PCI Bridge
 	2000  ASPEED Graphics Family
+		15d9 0832  X10SRL-F
 1a07  Kvaser AB
 	0006  CAN interface PC104+ HS/HS
 	0007  CAN interface PCIcanx II HS or HS/HS
@@ -21341,6 +21388,7 @@
 		1d5c 1000  Anker USB 3.0 Express Card
 	1009  FL1009 USB 3.0 Host Controller
 	1100  FL1100 USB 3.0 Host Controller
+		16b8 6e31  Allegro Pro USB 3.0 PCIe
 1b74  OpenVox Communication Co. Ltd.
 	0115  D115P/D115E Single-port E1/T1 card
 	d130  D130P/D130E Single-port E1/T1 card (3rd GEN)
@@ -21472,6 +21520,7 @@
 		1014 04f5  PCIe3 1.6TB NVMe Flash Adapter
 		1014 04f6  PCIe3 3.2TB NVMe Flash Adapter
 	0023  Ultrastar SN200 Series NVMe SSD
+		1c58 8823  Ultrastar Memory (ME200)
 1c5c  SK hynix
 	1283  PC300 NVMe Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
@@ -21518,6 +21567,7 @@
 	0008  ExaNIC V5P
 	0009  ExaNIC X25
 	0100  ExaDISK FX1
+1cf0  Akitio
 1cf7  Subspace Dynamics
 1d00  Pure Storage
 1d05  Tongfang Hongkong Limited
@@ -22382,6 +22432,7 @@
 	c110  Virtualized HID
 # Device surfaced in guests to provide 2d graphics capabilities
 	c147  Virtualized Graphics Device
+	c200  XCP-ng Project PCI Device for Windows Update
 5854  GoTView
 5ace  Beholder International Ltd.
 6205  TBS Technologies (wrong ID)
@@ -22575,7 +22626,7 @@
 		1043 108d  VivoBook X202EV
 	0158  Xeon E3-1200 v2/Ivy Bridge DRAM Controller
 		1043 844d  P8 series motherboard
-		8086 2010  Server Board S1200BTS
+		8086 2010  Server Board S1200BT Family
 	0159  Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port
 	015a  Xeon E3-1200 v2/Ivy Bridge Graphics Controller
 	015c  Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller
@@ -22621,6 +22672,7 @@
 	0406  Haswell Integrated Graphics Controller
 	040a  Xeon E3-1200 v3 Processor Integrated Graphics Controller
 	0412  Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller
+		17aa 309f  ThinkCentre M83
 	0416  4th Gen Core Processor Integrated Graphics Controller
 		17aa 220e  ThinkPad T440p
 	041a  Xeon E3-1200 v3 Processor Integrated Graphics Controller
@@ -23145,6 +23197,7 @@
 	0bf6  Atom Processor D2xxx/N2xxx DRAM Controller
 	0bf7  Atom Processor D2xxx/N2xxx DRAM Controller
 	0c00  4th Gen Core Processor DRAM Controller
+		17aa 309f  ThinkCentre M83
 	0c01  Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller
 	0c04  Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller
 		103c 1909  ZBook 15
@@ -23154,6 +23207,7 @@
 	0c09  Xeon E3-1200 v3/4th Gen Core Processor PCI Express x4 Controller
 	0c0c  Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller
 		17aa 220e  ThinkPad T440p
+		17aa 309f  ThinkCentre M83
 	0c46  Atom Processor S1200 PCI Express Root Port 1
 	0c47  Atom Processor S1200 PCI Express Root Port 2
 	0c48  Atom Processor S1200 PCI Express Root Port 3
@@ -23200,14 +23254,18 @@
 	0d26  Crystal Well Integrated Graphics Controller
 	0d36  Crystal Well Integrated Graphics Controller
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e01  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port in DMI2 Mode
 	0e02  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1a
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e03  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1b
 	0e04  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2a
 	0e05  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2b
 	0e06  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2c
 	0e07  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2d
 	0e08  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3a
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e09  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3b
 	0e0a  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3c
 	0e0b  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3d
@@ -23220,24 +23278,48 @@
 	0e1e  Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers
 	0e1f  Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers
 	0e20  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e21  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e22  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e23  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e24  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e25  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e26  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e27  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e28  Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e29  Xeon E7 v2/Xeon E5 v2/Core i7 Memory Hotplug
 	0e2a  Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	0e2c  Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC
+		15d9 066b  X9SRL-F
 	0e2e  Xeon E7 v2/Xeon E5 v2/Core i7 CBDMA
 	0e2f  Xeon E7 v2/Xeon E5 v2/Core i7 CBDMA
 	0e30  Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e32  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0
 	0e33  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1
 	0e34  Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e36  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e37  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring
 	0e38  Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 1
 	0e3a  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 2
@@ -23264,6 +23346,7 @@
 	0e7f  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers
 	0e80  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0
 	0e81  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e83  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0
 	0e84  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0
 	0e85  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register
@@ -23273,6 +23356,7 @@
 	0e94  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 1
 	0e95  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register
 	0ea0  Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0ea8  Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers
 	0eaa  Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers
 	0eab  Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers
@@ -23765,9 +23849,11 @@
 		1043 8369  Motherboard
 		1093 76e9  PCIe-8233 Ethernet Adapter
 		10a9 8029  Prism XL Single Port Gigabit Ethernet
+		15d9 0605  X8SIL
 		15d9 060a  X7SPA-H/X7SPA-HF Motherboard
 		15d9 060d  C7SIM-Q Motherboard
 		8086 0001  Gigabit CT2 Desktop Adapter
+		8086 3578  Server Board S1200BTLR
 		8086 357a  Server Board S1200BTS
 		8086 a01f  Gigabit CT Desktop Adapter
 		e4bf 50c1  PC1-GROOVE
@@ -23820,6 +23906,7 @@
 		8086 106f  10-Gigabit XF LR Server Adapter
 		8086 a06f  10-Gigabit XF LR Server Adapter
 	10f5  82567LM Gigabit Network Connection
+		17aa 20ee  ThinkPad T400
 	10f6  82574L Gigabit Network Connection
 	10f7  10 Gigabit BR KX4 Dual Port Network Connection
 		108e 7b12  Sun Dual 10GbE PCIe 2.0 FEM
@@ -24102,6 +24189,7 @@
 	1502  82579LM Gigabit Network Connection (Lewisville)
 		1028 04a3  Precision M4600
 		17aa 21ce  ThinkPad T520
+		8086 3578  Server Board S1200BTLR
 		8086 357a  Server Board S1200BTS
 	1503  82579V Gigabit Network Connection
 		1043 849c  P8P67 Deluxe Motherboard
@@ -24163,6 +24251,7 @@
 		1093 76b1  PCIe-8237R-S Ethernet Adapter
 		1093 775b  PCIe-8237 Ethernet Adapter
 		10a9 802a  UV2-BaseIO dual-port GbE
+		1137 023e  1GigE I350 LOM
 		15d9 0652  Dual Port i350 GbE MicroLP [AOC-CGP-i2]
 		17aa 1074  ThinkServer I350-T4 AnyFabric
 		17aa 4005  I350 Gigabit Network Connection
@@ -24252,6 +24341,7 @@
 	153a  Ethernet Connection I217-LM
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
+		17aa 309f  ThinkCentre M83
 	153b  Ethernet Connection I217-V
 	1547  DSL3510 Thunderbolt Controller [Cactus Ridge 4C 2012]
 	1548  DSL3310 Thunderbolt Controller [Cactus Ridge 2C 2012]
@@ -24307,6 +24397,7 @@
 	156c  DSL5520 Thunderbolt 2 NHI [Falcon Ridge 4C 2013]
 	156d  DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
 	156f  Ethernet Connection I219-LM
+		1028 06dc  Latitude E7470
 	1570  Ethernet Connection I219-V
 	1571  Ethernet Virtual Function 700 Series
 	1572  Ethernet Controller X710 for 10GbE SFP+
@@ -24416,6 +24507,9 @@
 		8086 0008  Ethernet Network Adapter OCP XXV710-1
 		8086 0009  Ethernet 25G 2P XXV710 Adapter
 		8086 4001  Ethernet Network Adapter XXV710-2
+	1591  Ethernet Controller E810-C for backplane
+	1592  Ethernet Controller E810-C for QSFP
+	1593  Ethernet Controller E810-C for SFP
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
 	15a2  Ethernet Connection (3) I218-LM
@@ -24472,6 +24566,7 @@
 	15d8  Ethernet Connection (4) I219-V
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
+		17aa 225d  ThinkPad T480
 	15d9  JHL6340 Thunderbolt 3 NHI (C step) [Alpine Ridge 2C 2016]
 	15da  JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
 	15df  Ethernet Connection (8) I219-LM
@@ -24532,8 +24627,11 @@
 	1901  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
 	1902  HD Graphics 510
 	1903  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
+		17aa 225d  ThinkPad T480
 	1904  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 382a  B51-80 Laptop
 	1905  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8)
@@ -24548,8 +24646,10 @@
 	1911  Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
+		17aa 225d  ThinkPad T480
 	1912  HD Graphics 530
 	1916  Skylake GT2 [HD Graphics 520]
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 	1918  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1919  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Imaging Unit
@@ -24643,7 +24743,7 @@
 	1c02  6 Series/C200 Series Chipset Family 6 port Desktop SATA AHCI Controller
 		1028 04aa  XPS 8300
 		1043 844d  P8 series motherboard
-		8086 7270  Server Board S1200BTS
+		8086 7270  Server Board S1200BT Family
 	1c03  6 Series/C200 Series Chipset Family 6 port Mobile SATA AHCI Controller
 		1028 04a3  Precision M4600
 		1028 04b2  Vostro 3350
@@ -24701,7 +24801,7 @@
 		1028 04da  Vostro 3750
 		1043 844d  P8 series motherboard
 		17aa 21cf  ThinkPad T520
-		8086 7270  Server Board S1200BTS / Apple MacBook Pro 8,1/8,2
+		8086 7270  Server Board S1200BT Family / Apple MacBook Pro 8,1/8,2
 	1c24  6 Series/C200 Series Chipset Family Thermal Management Controller
 	1c25  6 Series/C200 Series Chipset Family DMI to PCI Bridge
 	1c26  6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1
@@ -24711,7 +24811,7 @@
 		1028 04da  Vostro 3750
 		1043 844d  P8 series motherboard
 		17aa 21cf  ThinkPad T520
-		8086 7270  Server Board S1200BTS / Apple MacBook Pro 8,1/8,2
+		8086 7270  Server Board S1200BT Family / Apple MacBook Pro 8,1/8,2
 	1c27  6 Series/C200 Series Chipset Family USB Universal Host Controller #1
 		8086 7270  Apple MacBookPro8,2 [Core i7, 15", 2011]
 	1c2c  6 Series/C200 Series Chipset Family USB Universal Host Controller #5
@@ -24723,7 +24823,7 @@
 		1028 04da  Vostro 3750
 		1043 844d  P8 series motherboard
 		17aa 21cf  ThinkPad T520
-		8086 7270  Server Board S1200BTS / Apple MacBook Pro 8,1/8,2
+		8086 7270  Server Board S1200BT Family / Apple MacBook Pro 8,1/8,2
 	1c33  6 Series/C200 Series Chipset Family LAN Controller
 	1c35  6 Series/C200 Series Chipset Family VECI Controller
 	1c3a  6 Series/C200 Series Chipset Family MEI Controller #1
@@ -24781,10 +24881,12 @@
 	1c5f  6 Series/C200 Series Chipset Family LPC Controller
 	1d00  C600/X79 series chipset 4-Port SATA IDE Controller
 	1d02  C600/X79 series chipset 6-Port SATA AHCI Controller
+		1028 04f7  C602J on PowerEdge R320 server
 	1d04  C600/X79 series chipset SATA RAID Controller
 	1d06  C600/X79 series chipset SATA Premium RAID Controller
 	1d08  C600/X79 series chipset 2-Port SATA IDE Controller
 	1d10  C600/X79 series chipset PCI Express Root Port 1
+		1028 04f7  C602J on PowerEdge R320 server
 	1d11  C600/X79 series chipset PCI Express Root Port 1
 	1d12  C600/X79 series chipset PCI Express Root Port 2
 	1d13  C600/X79 series chipset PCI Express Root Port 2
@@ -24793,29 +24895,44 @@
 	1d16  C600/X79 series chipset PCI Express Root Port 4
 	1d17  C600/X79 series chipset PCI Express Root Port 4
 	1d18  C600/X79 series chipset PCI Express Root Port 5
+		1028 04f7  C602J on PowerEdge R320 server
 	1d19  C600/X79 series chipset PCI Express Root Port 5
 	1d1a  C600/X79 series chipset PCI Express Root Port 6
 	1d1b  C600/X79 series chipset PCI Express Root Port 6
 	1d1c  C600/X79 series chipset PCI Express Root Port 7
 	1d1d  C600/X79 series chipset PCI Express Root Port 7
 	1d1e  C600/X79 series chipset PCI Express Root Port 8
+		1028 04f7  C602J on PowerEdge R320 server
 	1d1f  C600/X79 series chipset PCI Express Root Port 8
 	1d20  C600/X79 series chipset High Definition Audio Controller
 	1d22  C600/X79 series chipset SMBus Host Controller
+		15d9 066b  X9SRL-F
 	1d24  C600/X79 series chipset Thermal Management Controller
+		15d9 066b  X9SRL-F
 	1d25  C600/X79 series chipset DMI to PCI Bridge
 	1d26  C600/X79 series chipset USB2 Enhanced Host Controller #1
+		1028 04f7  C602J on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	1d2d  C600/X79 series chipset USB2 Enhanced Host Controller #2
+		1028 04f7  C602J on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	1d33  C600/X79 series chipset LAN Controller
 	1d35  C600/X79 series chipset VECI Controller
 	1d3a  C600/X79 series chipset MEI Controller #1
+		1028 04f7  C602J on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	1d3b  C600/X79 series chipset MEI Controller #2
+		1028 04f7  C602J on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	1d3c  C600/X79 series chipset IDE-r Controller
 	1d3d  C600/X79 series chipset KT Controller
 	1d3e  C600/X79 series chipset PCI Express Virtual Root Port
+		1028 04f7  C602J on PowerEdge R320 server
 	1d3f  C608/C606/X79 series chipset PCI Express Virtual Switch Port
 	1d40  C600/X79 series chipset LPC Controller
 	1d41  C600/X79 series chipset LPC Controller
+		1028 04f7  C602J on PowerEdge R320 server
+		15d9 066b  X9SRL-F
 	1d50  C608 chipset Dual 4-Port SATA/SAS Storage Control Unit
 	1d54  C600/X79 series chipset Dual 4-Port SATA/SAS Storage Control Unit
 	1d55  C600/X79 series chipset 4-Port SATA/SAS Storage Control Unit
@@ -25043,6 +25160,7 @@
 	201a  Sky Lake-E Non-Transparent Bridge Registers
 	201c  Sky Lake-E Non-Transparent Bridge Registers
 	2020  Sky Lake-E DMI3 Registers
+		15d9 095d  X11SPM-TF
 	2021  Sky Lake-E CBDMA Registers
 	2024  Sky Lake-E MM/Vt-d Configuration Registers
 	2030  Sky Lake-E PCI Express Root Port A
@@ -25306,6 +25424,7 @@
 		1028 020d  Inspiron 530
 		1028 0211  Optiplex 755
 		1028 02da  OptiPlex 980
+		1028 04f7  PowerEdge R320 server
 		103c 2a3b  Pavilion A1512X
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		103c 31fe  ProLiant DL140 G3
@@ -26327,11 +26446,13 @@
 		1043 817a  P5LD2-VM Mainboard
 		107b 5048  E4500
 		1462 7418  Wind PC MS-7418
+		1849 2770  ConRoe1333-D667
 		8086 544e  DeskTop Board D945GTP
 	2771  82945G/GZ/P/PL PCI Express Root Port
 	2772  82945G/GZ Integrated Graphics Controller
 		103c 2a3b  Pavilion A1512X
 		1462 7418  Wind PC MS-7418
+		1849 2772  ConRoe1333-D667
 		8086 544e  DeskTop Board D945GTP
 		8086 d605  Desktop Board D945GCCR
 	2774  82955X Memory Controller Hub
@@ -26407,6 +26528,7 @@
 		10f7 8338  Panasonic CF-Y5 laptop
 		17aa 2009  ThinkPad R60/T60/X60 series
 	27bc  NM10 Family LPC Controller
+		1043 83ad  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		144d c072  Notebook N150P
 		1458 5001  GA-D525TUD
@@ -26430,6 +26552,7 @@
 	27c1  NM10/ICH7 Family SATA Controller [AHCI mode]
 		1028 01df  PowerEdge SC440
 		103c 2a3b  Pavilion A1512X
+		1043 83ad  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		144d c072  Notebook N150P
 		1458 b005  GA-D525TUD
@@ -26464,6 +26587,7 @@
 		103c 30d5  530 Laptop
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		1043 83ad  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		1071 8209  Medion MIM 2240 Notebook PC [MD98100]
 		107b 5048  E4500
@@ -26488,6 +26612,7 @@
 		103c 30a3  Compaq nw8440
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		1043 83ad  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		1071 8209  Medion MIM 2240 Notebook PC [MD98100]
 		107b 5048  E4500
@@ -26512,6 +26637,7 @@
 		103c 30a3  Compaq nw8440
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		1043 83ad  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		1071 8209  Medion MIM 2240 Notebook PC [MD98100]
 		107b 5048  E4500
@@ -26534,6 +26660,7 @@
 		103c 30a3  Compaq nw8440
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		1043 83ad  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		1071 8209  Medion MIM 2240 Notebook PC [MD98100]
 		107b 5048  E4500
@@ -26558,6 +26685,7 @@
 		103c 30d5  530 Laptop
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		1043 83ad  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		1071 8209  Medion MIM 2240 Notebook PC [MD98100]
 		144d c072  Notebook N150P
@@ -26616,6 +26744,7 @@
 		1043 817f  P5LD2-VM Mainboard (Realtek ALC 882 codec)
 		1043 8290  P5KPL-VM Motherboard
 		1043 82ea  P5KPL-CM Motherboard
+		1043 8437  Eee PC 1015PX
 		105b 0d7c  D270S/D250S Motherboard
 		1071 8207  Medion MIM 2240 Notebook PC [MD98100]
 		107b 5048  E4500
@@ -26942,6 +27071,7 @@
 		1462 7345  MS-7345 Motherboard
 		8086 5044  Desktop Board DP35DP
 	2917  ICH9M-E LPC Interface Controller
+		17aa 20f5  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2918  82801IB (ICH9) LPC Interface Controller
 		1028 0236  PowerEdge R610 82801IB (ICH9) LPC Interface Controller
@@ -26981,6 +27111,7 @@
 	2928  82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]
 	2929  82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]
 		103c 3628  dv6-1190en
+		17aa 20f8  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	292c  82801IEM (ICH9M-E) SATA Controller [RAID mode]
 	292d  82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]
@@ -26993,6 +27124,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f9  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 		e4bf cc4d  CCM-BOOGIE
@@ -27014,6 +27146,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 		e4bf cc4d  CCM-BOOGIE
@@ -27032,6 +27165,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 		e4bf cc4d  CCM-BOOGIE
@@ -27048,6 +27182,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 		e4bf cc4d  CCM-BOOGIE
@@ -27064,6 +27199,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 2937  Optiplex 755
 		8086 2942  828011 (ICH9 Family ) USB UHCI Controller
@@ -27081,6 +27217,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 2938  Optiplex 755
 		8086 5044  Desktop Board DP35DP
@@ -27093,6 +27230,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 		e4bf cc4d  CCM-BOOGIE
@@ -27111,6 +27249,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f1  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 		e4bf cc4d  CCM-BOOGIE
@@ -27126,6 +27265,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f1  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 293c  Optiplex 755
 		8086 5044  Desktop Board DP35DP
@@ -27138,6 +27278,7 @@
 		1043 829f  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 735a  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f2  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 293e  Optiplex 755
 		8086 2940  Optiplex 755
@@ -27313,14 +27454,18 @@
 	2a16  Mobile GME965/GLE960 PT IDER Controller
 	2a17  Mobile GME965/GLE960 KT Controller
 	2a40  Mobile 4 Series Chipset Memory Controller Hub
+		17aa 20e0  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2a41  Mobile 4 Series Chipset PCI Express Graphics Port
 		e4bf cc4d  CCM-BOOGIE
 	2a42  Mobile 4 Series Chipset Integrated Graphics Controller
+		17aa 2112  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2a43  Mobile 4 Series Chipset Integrated Graphics Controller
+		17aa 2112  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2a44  Mobile 4 Series Chipset MEI Controller
+		17aa 20e6  ThinkPad T400
 	2a45  Mobile 4 Series Chipset MEI Controller
 	2a46  Mobile 4 Series Chipset PT IDER Controller
 	2a47  Mobile 4 Series Chipset AMT SOL Redirection
@@ -27727,6 +27872,20 @@
 # Stone Peak 1x1
 		8086 4210  Dual Band Wireless AC 3165
 	3166  Dual Band Wireless-AC 3165 Plus Bluetooth
+	3184  UHD Graphics 605
+	318c  Celeron/Pentium Silver Processor Dynamic Platform and Thermal Framework Processor Participant
+	318e  Celeron/Pentium Silver Processor NorthPeak
+	319a  Celeron/Pentium Silver Processor Trusted Execution Engine Interface
+	31ac  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
+	31ae  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
+	31bc  Celeron/Pentium Silver Processor Serial IO UART Host Controller
+	31be  Celeron/Pentium Silver Processor Serial IO UART Host Controller
+	31c0  Celeron/Pentium Silver Processor Serial IO UART Host Controller
+	31c2  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
+	31c4  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
+	31c6  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
+	31d4  Celeron/Pentium Silver Processor Gaussian Mixture Model
+	31ee  Celeron/Pentium Silver Processor Serial IO UART Host Controller
 	3200  GD31244 PCI-X SATA HBA
 		1775 c200  C2K onboard SATA host bus adapter
 	3310  IOP348 I/O Processor
@@ -28202,6 +28361,7 @@
 	3b12  3400 Series Chipset LPC Interface Controller
 	3b13  5 Series/3400 Series Chipset LPC Interface Controller
 	3b14  3420 Chipset LPC Interface Controller
+		15d9 0605  X8SIL
 	3b15  5 Series/3400 Series Chipset LPC Interface Controller
 	3b16  3450 Chipset LPC Interface Controller
 	3b17  5 Series/3400 Series Chipset LPC Interface Controller
@@ -28217,6 +28377,7 @@
 	3b21  5 Series/3400 Series Chipset 2 port SATA IDE Controller
 	3b22  5 Series/3400 Series Chipset 6 port SATA AHCI Controller
 		1028 02da  OptiPlex 980
+		15d9 0605  X8SIL
 		15d9 060d  C7SIM-Q Motherboard
 	3b23  5 Series/3400 Series Chipset 4 port SATA AHCI Controller
 	3b25  5 Series/3400 Series Chipset SATA RAID Controller
@@ -28248,6 +28409,7 @@
 		1043 3838  P7P55-M Motherboard
 		1043 8383  P7P55-M Motherboard
 		144d c06a  R730 Laptop
+		15d9 0605  X8SIL
 		15d9 060d  C7SIM-Q Motherboard
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 		e4bf 50c1  PC1-GROOVE
@@ -28262,6 +28424,7 @@
 		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
+		15d9 0605  X8SIL
 		15d9 060d  C7SIM-Q Motherboard
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 		e4bf 50c1  PC1-GROOVE
@@ -28277,6 +28440,7 @@
 		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
+		15d9 0605  X8SIL
 		15d9 060d  C7SIM-Q Motherboard
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 		e4bf 50c1  PC1-GROOVE
@@ -28612,11 +28776,14 @@
 	5911  Xeon E3-1200 v6/7th Gen Core Processor Gaussian Mixture Model
 	5912  HD Graphics 630
 	5914  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+		17aa 225d  ThinkPad T480
 	5916  HD Graphics 620
 		17aa 2248  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5917  UHD Graphics 620
+		17aa 225e  ThinkPad T480
 	5918  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+	591b  HD Graphics 630
 	591d  HD Graphics P630
 	591f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	5a84  Celeron N3350/Pentium N4200/Atom E3900 Series Integrated Graphics Controller
@@ -28675,6 +28842,7 @@
 	65fa  5100 Chipset PCI Express x16 Port 4-7
 	65ff  5100 Chipset DMA Engine
 	6f00  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2
+		15d9 0832  X10SRL-F
 	6f01  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0
 	6f02  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1
 	6f03  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1
@@ -28703,17 +28871,29 @@
 	6f1e  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
 	6f1f  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
 	6f20  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0
+		15d9 0832  X10SRL-F
 	6f21  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1
+		15d9 0832  X10SRL-F
 	6f22  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2
+		15d9 0832  X10SRL-F
 	6f23  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3
+		15d9 0832  X10SRL-F
 	6f24  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4
+		15d9 0832  X10SRL-F
 	6f25  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5
+		15d9 0832  X10SRL-F
 	6f26  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6
+		15d9 0832  X10SRL-F
 	6f27  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7
+		15d9 0832  X10SRL-F
 	6f28  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management
+		15d9 0832  X10SRL-F
 	6f29  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug
+		15d9 0832  X10SRL-F
 	6f2a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors
+		15d9 0832  X10SRL-F
 	6f2c  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC
+		15d9 0832  X10SRL-F
 	6f30  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
 	6f32  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
 	6f33  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
@@ -28995,6 +29175,7 @@
 	8c00  8 Series/C220 Series Chipset Family 4-port SATA Controller 1 [IDE mode]
 	8c01  8 Series Chipset Family 4-port SATA Controller 1 [IDE mode] - Mobile
 	8c02  8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]
+		17aa 309f  ThinkCentre M83
 	8c03  8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
@@ -29027,28 +29208,34 @@
 	8c20  8 Series/C220 Series Chipset High Definition Audio Controller
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
+		17aa 309f  ThinkCentre M83
 	8c21  8 Series/C220 Series Chipset High Definition Audio Controller
 	8c22  8 Series/C220 Series Chipset Family SMBus Controller
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
+		17aa 309f  ThinkCentre M83
 	8c23  8 Series Chipset Family CHAP Counters
 	8c24  8 Series Chipset Family Thermal Management Controller
 	8c26  8 Series/C220 Series Chipset Family USB EHCI #1
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
 		17aa 2210  ThinkPad T540p
+		17aa 309f  ThinkCentre M83
 		2210 17aa  ThinkPad T540p
 	8c2d  8 Series/C220 Series Chipset Family USB EHCI #2
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
+		17aa 309f  ThinkCentre M83
 	8c31  8 Series/C220 Series Chipset Family USB xHCI
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
+		17aa 309f  ThinkCentre M83
 	8c33  8 Series/C220 Series Chipset Family LAN Controller
 	8c34  8 Series/C220 Series Chipset Family NAND Controller
 	8c3a  8 Series/C220 Series Chipset Family MEI Controller #1
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
+		17aa 309f  ThinkCentre M83
 	8c3b  8 Series/C220 Series Chipset Family MEI Controller #2
 	8c3c  8 Series/C220 Series Chipset Family IDE-r Controller
 	8c3d  8 Series/C220 Series Chipset Family KT Controller
@@ -29065,6 +29252,7 @@
 	8c4a  H87 Express LPC Controller
 	8c4b  HM87 Express LPC Controller
 	8c4c  Q85 Express LPC Controller
+		17aa 309f  ThinkCentre M83
 	8c4d  8 Series/C220 Series Chipset Family LPC Controller
 	8c4e  Q87 Express LPC Controller
 	8c4f  QM87 Express LPC Controller
@@ -29149,14 +29337,20 @@
 	8d20  C610/X99 series chipset HD Audio Controller
 	8d21  C610/X99 series chipset HD Audio Controller
 	8d22  C610/X99 series chipset SMBus Controller
+		15d9 0832  X10SRL-F
 	8d24  C610/X99 series chipset Thermal Subsystem
 	8d26  C610/X99 series chipset USB Enhanced Host Controller #1
+		15d9 0832  X10SRL-F
 	8d2d  C610/X99 series chipset USB Enhanced Host Controller #2
+		15d9 0832  X10SRL-F
 	8d31  C610/X99 series chipset USB xHCI Host Controller
+		15d9 0832  X10SRL-F
 	8d33  C610/X99 series chipset LAN Controller
 	8d34  C610/X99 series chipset NAND Controller
 	8d3a  C610/X99 series chipset MEI Controller #1
+		15d9 0832  X10SRL-F
 	8d3b  C610/X99 series chipset MEI Controller #2
+		15d9 0832  X10SRL-F
 	8d3c  C610/X99 series chipset IDE-r Controller
 	8d3d  C610/X99 series chipset KT Controller
 	8d40  C610/X99 series chipset LPC Controller
@@ -29164,6 +29358,7 @@
 	8d42  C610/X99 series chipset LPC Controller
 	8d43  C610/X99 series chipset LPC Controller
 	8d44  C610/X99 series chipset LPC Controller
+		15d9 0832  X10SRL-F
 	8d45  C610/X99 series chipset LPC Controller
 	8d46  C610/X99 series chipset LPC Controller
 	8d47  C610/X99 series chipset LPC Controller
@@ -29182,6 +29377,7 @@
 	8d68  C610/X99 series chipset sSATA Controller [IDE mode]
 	8d6e  C610/X99 series chipset sSATA Controller [RAID mode]
 	8d7c  C610/X99 series chipset SPSR
+		15d9 0832  X10SRL-F
 	8d7d  C610/X99 series chipset MS SMBus 0
 	8d7e  C610/X99 series chipset MS SMBus 1
 	8d7f  C610/X99 series chipset MS SMBus 2
@@ -29299,7 +29495,9 @@
 	9ce5  Wildcat Point-LP Serial IO GSPI Controller #0
 	9ce6  Wildcat Point-LP Serial IO GSPI Controller #1
 	9d03  Sunrise Point-LP SATA Controller [AHCI mode]
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d10  Sunrise Point-LP PCI Express Root Port #1
 	9d12  Sunrise Point-LP PCI Express Root Port #3
@@ -29313,13 +29511,17 @@
 		17aa 382a  B51-80 Laptop
 	9d19  Sunrise Point-LP PCI Express Root Port #10
 	9d21  Sunrise Point-LP PMC
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
+		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d23  Sunrise Point-LP SMBus
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
+		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d27  Sunrise Point-LP Serial IO UART Controller #0
 	9d28  Sunrise Point-LP Serial IO UART Controller #1
@@ -29327,31 +29529,40 @@
 	9d2a  Sunrise Point-LP Serial IO SPI Controller #1
 	9d2d  Sunrise Point-LP Secure Digital IO Controller
 	9d2f  Sunrise Point-LP USB 3.0 xHCI Controller
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
+		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d31  Sunrise Point-LP Thermal subsystem
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
+		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d35  Sunrise Point-LP Integrated Sensor Hub
 	9d3a  Sunrise Point-LP CSME HECI #1
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
+		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d43  Sunrise Point-LP LPC Controller
 		17aa 382a  B51-80 Laptop
 	9d48  Sunrise Point-LP LPC Controller
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 	9d4e  Intel(R) 100 Series Chipset Family LPC Controller/eSPI Controller - 9D4E
+		17aa 225d  ThinkPad T480
 	9d56  Sunrise Point-LP LPC Controller
 	9d58  Sunrise Point-LP LPC Controller
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	9d60  Sunrise Point-LP Serial IO I2C Controller #0
 		1028 06f3  Latitude 3570
+		17aa 225d  ThinkPad T480
 		8086 9d60  100 Series PCH/Sunrise Point PCH I2C0 [Skylake/Kaby Lake LPSS I2C]
 	9d61  Sunrise Point-LP Serial IO I2C Controller #1
 	9d62  Sunrise Point-LP Serial IO I2C Controller #2
@@ -29360,9 +29571,11 @@
 	9d65  Sunrise Point-LP Serial IO I2C Controller #5
 	9d66  Sunrise Point-LP Serial IO UART Controller #2
 	9d70  Sunrise Point-LP HD Audio
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 382a  B51-80 Laptop
 	9d71  Sunrise Point-LP HD Audio
+		17aa 225d  ThinkPad T480
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
 		1458 5000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
@@ -29374,10 +29587,13 @@
 	a002  Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller
 	a003  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
 	a010  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
+		1043 83ac  Eee PC 1015PX
 		144d c072  Notebook N150P
 	a011  Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller
+		1043 83ac  Eee PC 1015PX
 		144d c072  Notebook N150P
 	a012  Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller
+		1043 83ac  Eee PC 1015PX
 		144d c072  Notebook N150P
 	a013  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
 	a102  Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]
@@ -29495,19 +29711,28 @@
 	a19f  C620 Series Chipset Family PCI Express Root Port #16
 	a1a0  C620 Series Chipset Family P2SB
 	a1a1  C620 Series Chipset Family Power Management Controller
+		15d9 095d  X11SPM-TF
 	a1a2  C620 Series Chipset Family cAVS
 	a1a3  C620 Series Chipset Family SMBus
+		15d9 095d  X11SPM-TF
 	a1a4  C620 Series Chipset Family SPI Controller
+		15d9 095d  X11SPM-TF
 	a1a6  C620 Series Chipset Family Trace Hub
 	a1af  C620 Series Chipset Family USB 3.0 xHCI Controller
+		15d9 095d  X11SPM-TF
 	a1b1  C620 Series Chipset Family Thermal Subsystem
+		15d9 095d  X11SPM-TF
 	a1ba  C620 Series Chipset Family MEI Controller #1
+		15d9 095d  X11SPM-TF
 	a1bb  C620 Series Chipset Family MEI Controller #2
+		15d9 095d  X11SPM-TF
 	a1bc  C620 Series Chipset Family IDE Redirection
 	a1bd  C620 Series Chipset Family KT Redirection
 	a1be  C620 Series Chipset Family MEI Controller #3
+		15d9 095d  X11SPM-TF
 	a1c1  C621 Series Chipset LPC/eSPI Controller
 	a1c2  C622 Series Chipset LPC/eSPI Controller
+		15d9 095d  X11SPM-TF
 	a1c3  C624 Series Chipset LPC/eSPI Controller
 	a1c4  C625 Series Chipset LPC/eSPI Controller
 	a1c5  C626 Series Chipset LPC/eSPI Controller
@@ -29636,6 +29861,7 @@
 		4c53 1051  CE7 mainboard
 		e4bf 1000  CC8-1-BLUES
 	d130  Core Processor DMI
+		15d9 0605  X8SIL
 	d131  Core Processor DMI
 		1028 02da  OptiPlex 980
 		15d9 060d  C7SIM-Q Motherboard
@@ -29791,7 +30017,7 @@
 		9004 7888  AHA-2930UW SCSI Controller
 	8b78  ABA-1030
 	ec78  AHA-4944W/UW
-# acquired by Microsemi
+# Acquired by Microsemi
 9005  Adaptec
 	0010  AHA-2940U2/U2W
 		9005 2180  AHA-2940U2 SCSI Controller
