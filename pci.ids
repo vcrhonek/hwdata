@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.01
-#	Date:    2018-11-01 03:15:02
+#	Version: 2018.12.02
+#	Date:    2018-12-02 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -587,10 +587,13 @@
 	0084  SAS2208 PCI-Express Fusion-MPT SAS-2
 	0085  SAS2208 PCI-Express Fusion-MPT SAS-2
 	0086  SAS2308 PCI-Express Fusion-MPT SAS-2
+		15d9 0690  Onboard MegaRAID SAS2208 [Thunderbolt]
+		15d9 0691  Onboard SAS2308 PCI-Express Fusion-MPT SAS-2
 	0087  SAS2308 PCI-Express Fusion-MPT SAS-2
 		1000 3020  9207-8i SAS2.1 HBA
 		1000 3040  9207-8e SAS2.1 HBA
 		1000 3050  SAS9217-8i
+		1014 0472  N2125 External Host Bus Adapter
 		1590 0044  H220i
 		8086 3000  RS25GB008 RAID Controller
 		8086 3060  RS25FB044 RAID Controller
@@ -628,6 +631,7 @@
 		8086 3020  RAID Controller RSP3GD016J
 	00ae  SAS3508 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00af  SAS3408 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
+		1000 3010  HBA 9400-8i
 		1d49 0200  ThinkSystem 430-8i SAS/SATA 12Gb HBA
 		1d49 0202  ThinkSystem 430-8e SAS/SATA 12Gb HBA
 		1d49 0204  ThinkSystem 430-8i SAS/SATA 12Gb Dense HBA
@@ -651,6 +655,14 @@
 	00d0  SAS3716 Fusion-MPT Tri-Mode RAID Controller Chip (ROC)
 	00d1  SAS3616 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
 	00d3  MegaRAID Tri-Mode SAS3716W
+	00e0  Fusion-MPT 12GSAS/PCIe Unsupported SAS39xx
+	00e1  Fusion-MPT 12GSAS/PCIe SAS39xx
+	00e2  Fusion-MPT 12GSAS/PCIe Secure SAS39xx
+	00e3  Fusion-MPT 12GSAS/PCIe Unsupported SAS39xx
+	00e4  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
+	00e5  Fusion-MPT 12GSAS/PCIe SAS38xx
+	00e6  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
+	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
 	02b0  Virtual Endpoint on PCIe Switch
 		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 		1d49 0002  ThinkSystem 810-4P NVMe Switch Adapter
@@ -726,6 +738,14 @@
 	0807  SA2020ZC
 	0901  61C102
 	1000  63C815
+	10e0  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
+	10e1  MegaRAID 12GSAS/PCIe SAS39xx
+	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
+	10e3  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
+	10e4  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
+	10e5  MegaRAID 12GSAS/PCIe SAS38xx
+	10e6  MegaRAID 12GSAS/PCIe Secure SAS38xx
+	10e7  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
 	1960  MegaRAID
 		1000 0518  MegaRAID 518 SCSI 320-2 Controller
 		1000 0520  MegaRAID 520 SCSI 320-1 Controller
@@ -2185,6 +2205,7 @@
 		1028 2120  Radeon HD 6450
 		103c 2128  Radeon HD 6450
 		103c 2aee  Radeon HD 7450A
+		1092 6450  Radeon HD 6450
 		1462 2125  Radeon HD 6450
 		1462 2346  Radeon HD 7450
 		1462 2490  Radeon HD 6450
@@ -3291,6 +3312,7 @@
 		1043 049e  Radeon R9 FURY
 		1043 04a0  Radeon R9 FURY X
 		174b e329  Radeon R9 FURY
+	731f  Navi 10
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -3613,11 +3635,11 @@
 	9919  Trinity [Radeon HD 7500G]
 	9920  Liverpool [Playstation 4 APU]
 	9921  Liverpool HDMI/DP Audio Controller
-	9990  Trinity [Radeon HD 7520G]
-	9991  Trinity [Radeon HD 7540D]
-	9992  Trinity [Radeon HD 7420G]
-	9993  Trinity [Radeon HD 7480D]
-	9994  Trinity [Radeon HD 7400G]
+	9990  Trinity 2 [Radeon HD 7520G]
+	9991  Trinity 2 [Radeon HD 7540D]
+	9992  Trinity 2 [Radeon HD 7420G]
+	9993  Trinity 2 [Radeon HD 7480D]
+	9994  Trinity 2 [Radeon HD 7400G]
 	9995  Richland [Radeon HD 8450G]
 	9996  Richland [Radeon HD 8470D]
 	9997  Richland [Radeon HD 8350G]
@@ -3628,9 +3650,9 @@
 	999c  Richland
 # AMD Quad-Core A8-Series APU A8-6500T with Radeon HD 8550D
 	999d  Richland [Radeon HD 8550D]
-	99a0  Trinity [Radeon HD 7520G]
-	99a2  Trinity [Radeon HD 7420G]
-	99a4  Trinity [Radeon HD 7400G]
+	99a0  Trinity 2 [Radeon HD 7520G]
+	99a2  Trinity 2 [Radeon HD 7420G]
+	99a4  Trinity 2 [Radeon HD 7400G]
 	aa00  R600 HDMI Audio [Radeon HD 2900 GT/PRO/XT]
 	aa01  RV635 HDMI Audio [Radeon HD 3650/3730/3750]
 	aa08  RV630 HDMI Audio [Radeon HD 2600 PRO/XT / HD 3610]
@@ -11170,6 +11192,7 @@
 	17f1  GM200GL [Quadro M6000 24GB]
 	17fd  GM200GL [Tesla M40]
 	1ad6  TU102 USB 3.1 Controller
+	1ad7  TU102 UCSI Controller
 	1b00  GP102 [TITAN X]
 	1b01  GP102
 	1b02  GP102 [TITAN Xp]
@@ -11280,17 +11303,25 @@
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
+	1e2d  TU102B
+	1e2e  TU102B
 	1e30  TU102GL [Quadro RTX 6000]
-	1e3c  TU102GL [Quadro RTX 6000]
+	1e38  TU102GL
+	1e3c  TU102GL
 	1e3d  TU102GL
+	1e3e  TU102GL
 	1e82  TU104 [GeForce RTX 2080]
 	1e87  TU104 [GeForce RTX 2080 Rev. A]
 	1eab  TU104M [GeForce RTX 2080 Mobile]
 	1eae  TU104M
 	1eb0  TU104GL [Quadro RTX 5000]
+	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
 	1f02  TU106 [GeForce RTX 2070]
+	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
+	1f08  TU106
+	1f82  TU107
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -11669,6 +11700,7 @@
 	ebf0  SED Systems Modulator/Demodulator
 	ebf1  SED Systems Audio Interface Card
 	ebf2  SED Systems Common PCI Interface
+	ebf3  SED Systems PCIe-AXI Bridge
 10ef  Racore Computer Products, Inc.
 	8154  M815x Token Ring Adapter
 10f0  Peritek Corporation
@@ -13580,6 +13612,13 @@
 	0102  Extended IDE Controller
 	0103  EX-IDE Type-B
 	010f  NVMe Controller
+	0110  NVMe SSD Controller Cx5
+		1028 1ffb  Express Flash NVMe 960G (RI) U.2 (CD5)
+		1028 1ffc  Express Flash NVMe 1.92T (RI) U.2 (CD5)
+		1028 1ffd  Express Flash NVMe 3.84T (RI) U.2 (CD5)
+		1028 1ffe  Express Flash NVMe 7.68T (RI) U.2 (CD5)
+		1d49 4039  Thinksystem U.2 CM5 NVMe SSD
+		1d49 403a  Thinksystem AIC CM5 NVMe SSD
 	0115  XG4 NVMe SSD Controller
 	0404  DVD Decoder card
 	0406  Tecra Video Capture device
@@ -17116,6 +17155,7 @@
 	6087  T6225-6087 Unified Wire Ethernet Controller
 	6088  T62100-6088 Unified Wire Ethernet Controller
 	6089  T62100-6089 Unified Wire Ethernet Controller
+	608a  T62100-608a Unified Wire Ethernet Controller
 	6401  T6225-CR Unified Wire Ethernet Controller
 	6402  T6225-SO-CR Unified Wire Ethernet Controller
 	6403  T6425-CR Unified Wire Ethernet Controller
@@ -17139,6 +17179,7 @@
 	6487  T6225-6087 Unified Wire Ethernet Controller
 	6488  T62100-6088 Unified Wire Ethernet Controller
 	6489  T62100-6089 Unified Wire Ethernet Controller
+	648a  T62100-608a Unified Wire Ethernet Controller
 	6501  T6225-CR Unified Wire Storage Controller
 	6502  T6225-SO-CR Unified Wire Storage Controller
 	6503  T6425-CR Unified Wire Storage Controller
@@ -17162,6 +17203,7 @@
 	6587  T6225-6087 Unified Wire Storage Controller
 	6588  T62100-6088 Unified Wire Storage Controller
 	6589  T62100-6089 Unified Wire Storage Controller
+	658a  T62100-608a Unified Wire Storage Controller
 	6601  T6225-CR Unified Wire Storage Controller
 	6602  T6225-SO-CR Unified Wire Storage Controller
 	6603  T6425-CR Unified Wire Storage Controller
@@ -17185,6 +17227,7 @@
 	6687  T6225-6087 Unified Wire Storage Controller
 	6688  T62100-6088 Unified Wire Storage Controller
 	6689  T62100-6089 Unified Wire Storage Controller
+	668a  T62100-608a Unified Wire Storage Controller
 	6801  T6225-CR Unified Wire Ethernet Controller [VF]
 	6802  T6225-SO-CR Unified Wire Ethernet Controller [VF]
 	6803  T6425-CR Unified Wire Ethernet Controller [VF]
@@ -17208,6 +17251,7 @@
 	6887  T6225-6087 Unified Wire Ethernet Controller [VF]
 	6888  T62100-6088 Unified Wire Ethernet Controller [VF]
 	6889  T62100-6089 Unified Wire Ethernet Controller [VF]
+	688a  T62100-608a Unified Wire Ethernet Controller [VF]
 	a000  PE10K Unified Wire Ethernet Controller
 1426  Storage Technology Corp.
 1427  Better On-Line Solutions
@@ -17282,6 +17326,7 @@
 	a802  NVMe SSD Controller SM951/PM951
 	a804  NVMe SSD Controller SM961/PM961
 	a808  NVMe SSD Controller SM981/PM981
+		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
 	a820  NVMe SSD Controller 171X
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
@@ -19143,6 +19188,7 @@
 15b7  Sandisk Corp
 	2001  Skyhawk Series NVME SSD
 	5001  WD Black NVMe SSD
+	5002  WD Black 2018/PC SN720 NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -21328,6 +21374,7 @@
 	001f  DSU
 	0020  ADQ14
 	0023  ADQ7
+	0026  ADQ8
 	2014  TX320
 	2019  S6000
 # now owned by HGST (a Western Digital subsidiary)
@@ -21523,6 +21570,7 @@
 		1c58 8823  Ultrastar Memory (ME200)
 1c5c  SK hynix
 	1283  PC300 NVMe Solid State Drive
+	1504  SC300 512GB M.2 2280 SATA Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	0540  PBlaze4 NVMe SSD
 # http://www.nicevt.ru/ (in Russian)
@@ -21734,20 +21782,25 @@
 	1000  IO Memory Controller
 	2000  NoLoad Hardware Development Kit
 1def  Ampere Computing, LLC
-	e005  Skylark PCI Express Root Port 0 [eMAG]
-	e006  Skylark PCI Express Root Port 1 [eMAG]
-	e007  Skylark PCI Express Root Port 2 [eMAG]
-	e008  Skylark PCI Express Root Port 3 [eMAG]
-	e009  Skylark PCI Express Root Port 4 [eMAG]
-	e00a  Skylark PCI Express Root Port 5 [eMAG]
-	e00b  Skylark PCI Express Root Port 6 [eMAG]
-	e00c  Skylark PCI Express Root Port 7 [eMAG]
+	e005  eMAG PCI Express Root Port 0
+	e006  eMAG PCI Express Root Port 1
+	e007  eMAG PCI Express Root Port 2
+	e008  eMAG PCI Express Root Port 3
+	e009  eMAG PCI Express Root Port 4
+	e00a  eMAG PCI Express Root Port 5
+	e00b  eMAG PCI Express Root Port 6
+	e00c  eMAG PCI Express Root Port 7
 1df7  opencpi.org
 	0001  ml605
 	0002  alst4
 	0003  alst4x
 1dfc  JSC NT-COM
 	1181  TDM 8 Port E1/T1/J1 Adapter
+1e24  Squirrels Research Labs
+	0101  Acorn CLE-101
+	0215  Acorn CLE-215
+	021f  Acorn CLE-215+
+	1525  Xilinx BCU-1525
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -25045,6 +25098,7 @@
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
 		1043 84ca  P8 series motherboard
+		17aa 21f3  ThinkPad T430
 		1849 1e31  Motherboard
 	1e33  7 Series/C210 Series Chipset Family LAN Controller
 	1e3a  7 Series/C216 Chipset Family MEI Controller #1
@@ -28784,8 +28838,13 @@
 		17aa 225e  ThinkPad T480
 	5918  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	591b  HD Graphics 630
+	591c  UHD Graphics 615
 	591d  HD Graphics P630
+	591e  HD Graphics 615
 	591f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+	5923  HD Graphics 635
+	5926  Iris Plus Graphics 640
+	5927  Iris Plus Graphics 650
 	5a84  Celeron N3350/Pentium N4200/Atom E3900 Series Integrated Graphics Controller
 	5a88  Celeron N3350/Pentium N4200/Atom E3900 Series Imaging Unit
 	5a98  Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster
@@ -29146,6 +29205,7 @@
 		1993 0ded  mGuard-PCI AV#2
 		1993 0dee  mGuard-PCI AV#1
 		1993 0def  mGuard-PCI AV#0
+	87c0  UHD Graphics 617
 	8800  Platform Controller Hub EG20T PCI Express Port
 	8801  Platform Controller Hub EG20T Packet Hub
 	8802  Platform Controller Hub EG20T Gigabit Ethernet Controller
@@ -29843,6 +29903,7 @@
 	a348  Cannon Lake PCH cAVS
 	a352  Cannon Lake PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
+	a363  Cannon Lake PCH Active Management Technology - SOL
 	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
 	a36f  Cannon Lake PCH Shared SRAM
 	a370  Wireless-AC 9560 [Jefferson Peak]

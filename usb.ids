@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2018.10.23
-# Date:    2018-10-23 20:34:06
+# Version: 2018.11.13
+# Date:    2018-11-13 20:34:05
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -19029,6 +19029,15 @@
 	200b  MX Phone (PTP)
 	200c  MX Phone (PTP & ADB)
 	2012  MX Phone (MTP & ACM)
+2ac7  Ultrahaptics Ltd.
+	0101  Evaluation Kit [Dragonfly]
+	0102  UHDK5
+	0104  Touchbase
+	0110  STRATOS Explore
+	0111  STRATOS Explore DFU
+	0112  STRATOS Inspire
+	0113  STRATOS Inspire DFU
+	ffff  DFU
 2b24  KeepKey LLC
 	0001  Bitcoin hardware wallet
 2c02  Planex Communications

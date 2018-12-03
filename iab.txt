@@ -3596,12 +3596,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             YOKKAICHI-SHI  MIE  510-0844
                                                             JP
 
-00-50-C2                      (hex)                         Algodue Elettronica srl
-204000-204FFF                 (base 16)                     Algodue Elettronica srl
-                                                            Via Passerina 3
-                                                            Fontaneto d'Agogna  Novara  28010
-                                                            IT
-
 00-50-C2                      (hex)                         Nansen S. A. - Instrumentos de Precisão
 218000-218FFF                 (base 16)                     Nansen S. A. - Instrumentos de Precisão
                                                             José Pedro Araújo, 960
@@ -4229,12 +4223,6 @@ BE7000-BE7FFF                 (base 16)                     Genetec Inc.
                                                             Saint-Laurent  Quebec  H4S 2A4
                                                             CA
 
-00-50-C2                      (hex)                         Elbit Systems of America - Fort Worth Operations
-CF9000-CF9FFF                 (base 16)                     Elbit Systems of America - Fort Worth Operations
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth   TX  76179
-                                                            US
-
 00-50-C2                      (hex)                         EKE-Electronics Ltd.
 380000-380FFF                 (base 16)                     EKE-Electronics Ltd.
                                                             Piispanportti 7
@@ -4574,6 +4562,18 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
 00-50-C2                      (hex)                         Private
 0BF000-0BFFFF                 (base 16)                     Private
 
+00-50-C2                      (hex)                         peiker acustic GmbH
+1DD000-1DDFFF                 (base 16)                     peiker acustic GmbH
+                                                            Max-Planck-Strasse 28-32
+                                                            Friedrichsdorf    61381
+                                                            DE
+
+00-50-C2                      (hex)                         Algodue Elettronica Srl
+204000-204FFF                 (base 16)                     Algodue Elettronica Srl
+                                                            Via Passerina 3
+                                                            Fontaneto d'Agogna  Novara  28010
+                                                            IT
+
 40-D8-55                      (hex)                         TECHBOARD SRL
 165000-165FFF                 (base 16)                     TECHBOARD SRL
                                                             VIA DELLA SCIENZA 50
@@ -4622,11 +4622,11 @@ F55000-F55FFF                 (base 16)                     Honeywell
                                                             Straubenhardt    75334
                                                             DE
 
-00-50-C2                      (hex)                         Peiker acustic GmbH & Co. KG
-1DD000-1DDFFF                 (base 16)                     Peiker acustic GmbH & Co. KG
-                                                            Max-Planck-Strasse 32
-                                                            Friedrichsdorf    61381
-                                                            DE
+00-50-C2                      (hex)                         Elbit Systems of America
+CF9000-CF9FFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth   TX  76179
+                                                            US
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -7304,12 +7304,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Westerstede  D 26655
                                                             DE
 
-00-50-C2                      (hex)                         Elbit Systems of America - Fort Worth Operations
-761000-761FFF                 (base 16)                     Elbit Systems of America - Fort Worth Operations
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
-
 00-50-C2                      (hex)                         Sky-Skan, Incorporated
 75E000-75EFFF                 (base 16)                     Sky-Skan, Incorporated
                                                             51 Lake Street
@@ -9386,12 +9380,6 @@ F53000-F53FFF                 (base 16)                     BAYCOM OPTO-ELECTRON
                                                             IMOLA  BOLOGNA  40026
                                                             IT
 
-00-50-C2                      (hex)                         Elbit Systems of America - Fort Worth Operations
-FBA000-FBAFFF                 (base 16)                     Elbit Systems of America - Fort Worth Operations
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
-
 00-50-C2                      (hex)                         Enseo, Inc.
 5CC000-5CCFFF                 (base 16)                     Enseo, Inc.
                                                             401 International Pkwy
@@ -9745,6 +9733,18 @@ FD1000-FD1FFF                 (base 16)                     Enyx SA
                                                             Serdobolskaya str.,65A
                                                             Saint-Petersburg    197342
                                                             RU
+
+00-50-C2                      (hex)                         Elbit Systems of America
+761000-761FFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         Elbit Systems of America
+FBA000-FBAFFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
 
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
@@ -10408,12 +10408,6 @@ F6E000-F6EFFF                 (base 16)                     Smith Meter, Inc.
                                                             1602 Wagner Ave.
                                                             Erie  PA  16514
                                                             US
-
-00-50-C2                      (hex)                         Algodue Elettronica Srl
-F6B000-F6BFFF                 (base 16)                     Algodue Elettronica Srl
-                                                            Via Passerina 3/a
-                                                            Fontaneto d'Agogna    28010
-                                                            IT
 
 00-50-C2                      (hex)                         Chrisso Technologies LLC
 F64000-F64FFF                 (base 16)                     Chrisso Technologies LLC
@@ -15607,6 +15601,12 @@ D3F000-D3FFFF                 (base 16)                     Communication System
                                                             Floor 17,Building D6,Tianfu Software Park,
                                                             Chengdu  Sichuan  610041
                                                             CN
+
+00-50-C2                      (hex)                         Algodue Elettronica Srl
+F6B000-F6BFFF                 (base 16)                     Algodue Elettronica Srl
+                                                            Via Passerina 3/a
+                                                            Fontaneto d'Agogna    28010
+                                                            IT
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
