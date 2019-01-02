@@ -4139,12 +4139,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Mannheim    68199
                                                             DE
 
-00-50-C2                      (hex)                         Teracom Telematica Ltda.
-025000-025FFF                 (base 16)                     Teracom Telematica Ltda.
-                                                            R. Felipe Neri, 246 CJ 301
-
-                                                            BR
-
 00-50-C2                      (hex)                         Cross Products Ltd.
 01B000-01BFFF                 (base 16)                     Cross Products Ltd.
                                                             23 The Calls, Leeds
@@ -4627,6 +4621,12 @@ CF9000-CF9FFF                 (base 16)                     Elbit Systems of Ame
                                                             4700 Marine Creek Parkway
                                                             Fort Worth   TX  76179
                                                             US
+
+00-50-C2                      (hex)                         TERACOM TELEMATICA S.A
+025000-025FFF                 (base 16)                     TERACOM TELEMATICA S.A
+                                                            RUA AMERICA N.1000
+                                                            Eldorado do Sul - RS    Brazil
+                                                            BR
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -21863,12 +21863,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
                                                             Ayr  South Ayrshire  KA7 1XA
                                                             GB
 
-00-50-C2                      (hex)                         Bixi Systems Ltd.
-4CD000-4CDFFF                 (base 16)                     Bixi Systems Ltd.
-                                                            Grammetstrasse 14
-                                                            Liestal  BL  4410
-                                                            CH
-
 40-D8-55                      (hex)                         InventLab s.c.
 1D2000-1D2FFF                 (base 16)                     InventLab s.c.
                                                             ul. Czarodziejska 22
@@ -27379,3 +27373,9 @@ B54000-B54FFF                 (base 16)                     APG Cash Drawer, LLC
                                                             5250 Industrial Blvd NE
                                                             Minneapolis  MN  55421
                                                             US
+
+00-50-C2                      (hex)                         Securiton AG
+4CD000-4CDFFF                 (base 16)                     Securiton AG
+                                                            Alpenstrasse 20, P.O. Box 127
+                                                            Zollikofen    CH-3052
+                                                            CH
