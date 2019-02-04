@@ -1145,12 +1145,6 @@ D03000-D03FFF                 (base 16)                     Peekel Instruments B
                                                             Rotterdam  ZH  3044 AS
                                                             NL
 
-00-50-C2                      (hex)                         Tritium Pty Ltd
-CFC000-CFCFFF                 (base 16)                     Tritium Pty Ltd
-                                                            Unit 1 / 30 Walker St
-                                                            Tennyson  QLD  4105
-                                                            AU
-
 00-50-C2                      (hex)                         AIRFOLC,INC.
 CFD000-CFDFFF                 (base 16)                     AIRFOLC,INC.
                                                             4F CHOYO-BLDG.,225 SANMONJI-CHO
@@ -1327,12 +1321,6 @@ C3D000-C3DFFF                 (base 16)                     PLA ELECTRO APPLIANC
                                                             THAKOR IND. ESTATE
                                                             MUMBAI  MAHARASHTRA  400086
                                                             IN
-
-00-50-C2                      (hex)                         Scienlab Electronic Systems GmbH
-C7C000-C7CFFF                 (base 16)                     Scienlab Electronic Systems GmbH
-                                                            Lise-Meitner-Allee 27
-                                                            Bochum    44801
-                                                            DE
 
 00-50-C2                      (hex)                         TAE Antriebstechnik GmbH
 C7D000-C7DFFF                 (base 16)                     TAE Antriebstechnik GmbH
@@ -4627,6 +4615,18 @@ CF9000-CF9FFF                 (base 16)                     Elbit Systems of Ame
                                                             RUA AMERICA N.1000
                                                             Eldorado do Sul - RS    Brazil
                                                             BR
+
+00-50-C2                      (hex)                         Tritium Pty Ltd
+CFC000-CFCFFF                 (base 16)                     Tritium Pty Ltd
+                                                            1/31 Archimedes PL.
+                                                            Murarrie  QLD   4172
+                                                            AU
+
+00-50-C2                      (hex)                         Keysight Technologies Inc.
+C7C000-C7CFFF                 (base 16)                     Keysight Technologies Inc.
+                                                            Lise-Meitner-Allee 27
+                                                            Bochum    44801
+                                                            DE
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
