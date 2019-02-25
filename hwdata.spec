@@ -14,7 +14,7 @@ hwdata contains various hardware identification and configuration data,
 such as the pci.ids and usb.ids databases.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}-%{uprelease}
 %configure
 
 %build
