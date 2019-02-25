@@ -3,7 +3,7 @@ VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}" hwdata.spec)
 ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^0-9-]\+\).*/\L\1/p'), rhel)
     # add revision to tag name for rhel branches
-    TAGNAME := $(NAME)-$(VERSION)-$(RELEASE)
+    TAGNAME := v$(VERSION)-$(RELEASE)
 else
     TAGNAME := v$(VERSION)
 endif
