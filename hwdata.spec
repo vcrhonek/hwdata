@@ -1,9 +1,11 @@
+%global uprelease 8.0
+
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.314
-Release: 1%{?dist}
+Release: %{uprelease}%{?dist}
 License: GPLv2+
-Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
+Source: https://github.com/vcrhonek/hwdata/archive/v%{version}-%{?uprelease}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
 BuildArch: noarch
 
@@ -29,6 +31,10 @@ make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Feb 25 2019 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.314-8.0
+- Bumped release
+- Updated pci, usb and vendor ids
+
 * Thu Aug 02 2018 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.314-1
 - Updated pci, usb and vendor ids.
 
