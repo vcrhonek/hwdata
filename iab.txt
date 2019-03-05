@@ -5096,12 +5096,6 @@ FF6000-FF6FFF                 (base 16)                     Booyco Electronics
                                                             Jetpark Ext 14  Gauteng  1549
                                                             ZA
 
-00-50-C2                      (hex)                         Penttech AB
-FF9000-FF9FFF                 (base 16)                     Penttech AB
-                                                            Vädursgatan 6
-                                                            Göteborg  Västra götaland  412 50
-                                                            SE
-
 00-50-C2                      (hex)                         Task Sistemas de Computacao
 FEF000-FEFFFF                 (base 16)                     Task Sistemas de Computacao
                                                             Rua Visconde de Ouro Preto, 5
@@ -6540,12 +6534,6 @@ AC5000-AC5FFF                 (base 16)                     E-Motion System, Inc
 9F2000-9F2FFF                 (base 16)                     Keith & Koep GmbH
                                                             Uellendahler Str. 199
                                                             Wuppertal  NRW  42109
-                                                            DE
-
-00-50-C2                      (hex)                         WoKa-Elektronik GmbH
-9EF000-9EFFFF                 (base 16)                     WoKa-Elektronik GmbH
-                                                            Zeller-Str.7
-                                                            Romrod  Hessen  36329
                                                             DE
 
 00-50-C2                      (hex)                         AFORE Solutions Inc.
@@ -9620,6 +9608,24 @@ E0A000-E0AFFF                 (base 16)                     Sicon srl
                                                             Isola Vicentina  Vicenza  36033
                                                             IT
 
+00-50-C2                      (hex)                         Elbit Systems of America
+761000-761FFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         Elbit Systems of America
+FBA000-FBAFFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         WoKa-Elektronik GmbH
+9EF000-9EFFFF                 (base 16)                     WoKa-Elektronik GmbH
+                                                            Zeller-Str.7
+                                                            Romrod  Hessen  36329
+                                                            DE
+
 00-50-C2                      (hex)                         Computerwise, Inc.
 9A3000-9A3FFF                 (base 16)                     Computerwise, Inc.
                                                             302 N. Winchester
@@ -9734,17 +9740,11 @@ FD1000-FD1FFF                 (base 16)                     Enyx SA
                                                             Saint-Petersburg    197342
                                                             RU
 
-00-50-C2                      (hex)                         Elbit Systems of America
-761000-761FFF                 (base 16)                     Elbit Systems of America
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
-
-00-50-C2                      (hex)                         Elbit Systems of America
-FBA000-FBAFFF                 (base 16)                     Elbit Systems of America
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
+00-50-C2                      (hex)                         AVA Monitoring AB
+FF9000-FF9FFF                 (base 16)                     AVA Monitoring AB
+                                                            Vädursgatan 6
+                                                            Göteborg  Västra götaland  412 50
+                                                            SE
 
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
@@ -15023,12 +15023,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Santa Clara  CA   95054-1826
                                                             US
 
-00-50-C2                      (hex)                         Clever Devices, Ltd.
-065000-065FFF                 (base 16)                     Clever Devices, Ltd.
-                                                            1662 Route 300
-                                                            Newburgh  NY  12550
-                                                            US
-
 00-50-C2                      (hex)                         Malden Electronics Ltd
 05F000-05FFFF                 (base 16)                     Malden Electronics Ltd
                                                             2 High Street
@@ -15607,6 +15601,12 @@ F6B000-F6BFFF                 (base 16)                     Algodue Elettronica 
                                                             Via Passerina 3/a
                                                             Fontaneto d'Agogna    28010
                                                             IT
+
+00-50-C2                      (hex)                         Clever Devices
+065000-065FFF                 (base 16)                     Clever Devices
+                                                            1662 Route 300
+                                                            Newburgh  NY  12550
+                                                            US
 
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH

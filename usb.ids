@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2019.01.17
-# Date:    2019-01-17 20:34:05
+# Version: 2019.02.25
+# Date:    2019-02-25 20:34:06
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -19051,6 +19051,9 @@
 22b9  eTurboTouch Technology, Inc.
 	0006  Touch Screen
 22ba  Technology Innovation Holdings, Ltd
+22e0  secunet Security Networks AG
+	0002  SINA Flash Drive
+	0003  SINA ID Token A
 2304  Pinnacle Systems, Inc.
 	0109  Studio PCTV USB (SECAM)
 	0110  Studio PCTV USB (PAL)
@@ -19187,6 +19190,21 @@
 	1213  MediaTV Pro III MiniPCIe (US)
 2676  Basler AG
 	ba02  ace
+2717  Xiaomi Inc.
+	0011  100Mbps Network Card Adapter
+	0360  Mi3W
+	0368  Mi4 LTE
+	3801  Mi ANC & Type-C In-Ear Earphones
+	4106  MediaTek MT7601U [MI WiFi]
+	ff08  Redmi Note 3 (ADB Interface)
+	ff10  Mi/Redmi series (PTP)
+	ff18  Mi/Redmi series (PTP + ADB)
+	ff40  Mi/Redmi series (MTP)
+	ff48  Mi/Redmi series (MTP + ADB)
+	ff60  redmi prime 2
+	ff68  Mi-4c
+	ff80  Mi/Redmi series (RNDIS)
+	ff88  Mi/Redmi series (RNDIS + ADB)
 2730  Citizen
 	200f  CT-S310 Label printer
 2735  DigitalWay
