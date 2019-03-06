@@ -1145,12 +1145,6 @@ D03000-D03FFF                 (base 16)                     Peekel Instruments B
                                                             Rotterdam  ZH  3044 AS
                                                             NL
 
-00-50-C2                      (hex)                         Tritium Pty Ltd
-CFC000-CFCFFF                 (base 16)                     Tritium Pty Ltd
-                                                            Unit 1 / 30 Walker St
-                                                            Tennyson  QLD  4105
-                                                            AU
-
 00-50-C2                      (hex)                         AIRFOLC,INC.
 CFD000-CFDFFF                 (base 16)                     AIRFOLC,INC.
                                                             4F CHOYO-BLDG.,225 SANMONJI-CHO
@@ -1327,12 +1321,6 @@ C3D000-C3DFFF                 (base 16)                     PLA ELECTRO APPLIANC
                                                             THAKOR IND. ESTATE
                                                             MUMBAI  MAHARASHTRA  400086
                                                             IN
-
-00-50-C2                      (hex)                         Scienlab Electronic Systems GmbH
-C7C000-C7CFFF                 (base 16)                     Scienlab Electronic Systems GmbH
-                                                            Lise-Meitner-Allee 27
-                                                            Bochum    44801
-                                                            DE
 
 00-50-C2                      (hex)                         TAE Antriebstechnik GmbH
 C7D000-C7DFFF                 (base 16)                     TAE Antriebstechnik GmbH
@@ -3596,12 +3584,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             YOKKAICHI-SHI  MIE  510-0844
                                                             JP
 
-00-50-C2                      (hex)                         Algodue Elettronica srl
-204000-204FFF                 (base 16)                     Algodue Elettronica srl
-                                                            Via Passerina 3
-                                                            Fontaneto d'Agogna  Novara  28010
-                                                            IT
-
 00-50-C2                      (hex)                         Nansen S. A. - Instrumentos de Precisão
 218000-218FFF                 (base 16)                     Nansen S. A. - Instrumentos de Precisão
                                                             José Pedro Araújo, 960
@@ -3649,12 +3631,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Unit 1, Fulcrum 4
                                                             Fareham  Hampshire  PO15 7FT
                                                             GB
-
-00-50-C2                      (hex)                         Peiker acustic GmbH & Co. KG
-1DD000-1DDFFF                 (base 16)                     Peiker acustic GmbH & Co. KG
-                                                            Max-Planck-Strasse 32
-                                                            Friedrichsdorf    61381
-                                                            DE
 
 00-50-C2                      (hex)                         Shenyang Internet Technology Inc
 1D2000-1D2FFF                 (base 16)                     Shenyang Internet Technology Inc
@@ -4151,12 +4127,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Mannheim    68199
                                                             DE
 
-00-50-C2                      (hex)                         Teracom Telematica Ltda.
-025000-025FFF                 (base 16)                     Teracom Telematica Ltda.
-                                                            R. Felipe Neri, 246 CJ 301
-
-                                                            BR
-
 00-50-C2                      (hex)                         Cross Products Ltd.
 01B000-01BFFF                 (base 16)                     Cross Products Ltd.
                                                             23 The Calls, Leeds
@@ -4234,12 +4204,6 @@ BE7000-BE7FFF                 (base 16)                     Genetec Inc.
                                                             2280 Alfred-Nobel Blvd., Suite 400
                                                             Saint-Laurent  Quebec  H4S 2A4
                                                             CA
-
-00-50-C2                      (hex)                         Elbit Systems of America - Fort Worth Operations
-CF9000-CF9FFF                 (base 16)                     Elbit Systems of America - Fort Worth Operations
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth   TX  76179
-                                                            US
 
 00-50-C2                      (hex)                         EKE-Electronics Ltd.
 380000-380FFF                 (base 16)                     EKE-Electronics Ltd.
@@ -4580,6 +4544,18 @@ F3E000-F3EFFF                 (base 16)                     Vtron Pty Ltd
 00-50-C2                      (hex)                         Private
 0BF000-0BFFFF                 (base 16)                     Private
 
+00-50-C2                      (hex)                         peiker acustic GmbH
+1DD000-1DDFFF                 (base 16)                     peiker acustic GmbH
+                                                            Max-Planck-Strasse 28-32
+                                                            Friedrichsdorf    61381
+                                                            DE
+
+00-50-C2                      (hex)                         Algodue Elettronica Srl
+204000-204FFF                 (base 16)                     Algodue Elettronica Srl
+                                                            Via Passerina 3
+                                                            Fontaneto d'Agogna  Novara  28010
+                                                            IT
+
 40-D8-55                      (hex)                         TECHBOARD SRL
 165000-165FFF                 (base 16)                     TECHBOARD SRL
                                                             VIA DELLA SCIENZA 50
@@ -4626,6 +4602,30 @@ F55000-F55FFF                 (base 16)                     Honeywell
 4A1000-4A1FFF                 (base 16)                     nVent, Schroff GmbH
                                                             Langenalber Strasse 96-100
                                                             Straubenhardt    75334
+                                                            DE
+
+00-50-C2                      (hex)                         Elbit Systems of America
+CF9000-CF9FFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth   TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         TERACOM TELEMATICA S.A
+025000-025FFF                 (base 16)                     TERACOM TELEMATICA S.A
+                                                            RUA AMERICA N.1000
+                                                            Eldorado do Sul - RS    Brazil
+                                                            BR
+
+00-50-C2                      (hex)                         Tritium Pty Ltd
+CFC000-CFCFFF                 (base 16)                     Tritium Pty Ltd
+                                                            1/31 Archimedes PL.
+                                                            Murarrie  QLD   4172
+                                                            AU
+
+00-50-C2                      (hex)                         Keysight Technologies Inc.
+C7C000-C7CFFF                 (base 16)                     Keysight Technologies Inc.
+                                                            Lise-Meitner-Allee 27
+                                                            Bochum    44801
                                                             DE
 
 00-50-C2                      (hex)                         EMAC, Inc.
@@ -5095,12 +5095,6 @@ FF6000-FF6FFF                 (base 16)                     Booyco Electronics
                                                             Unit 9, Innes Park
                                                             Jetpark Ext 14  Gauteng  1549
                                                             ZA
-
-00-50-C2                      (hex)                         Penttech AB
-FF9000-FF9FFF                 (base 16)                     Penttech AB
-                                                            Vädursgatan 6
-                                                            Göteborg  Västra götaland  412 50
-                                                            SE
 
 00-50-C2                      (hex)                         Task Sistemas de Computacao
 FEF000-FEFFFF                 (base 16)                     Task Sistemas de Computacao
@@ -6542,12 +6536,6 @@ AC5000-AC5FFF                 (base 16)                     E-Motion System, Inc
                                                             Wuppertal  NRW  42109
                                                             DE
 
-00-50-C2                      (hex)                         WoKa-Elektronik GmbH
-9EF000-9EFFFF                 (base 16)                     WoKa-Elektronik GmbH
-                                                            Zeller-Str.7
-                                                            Romrod  Hessen  36329
-                                                            DE
-
 00-50-C2                      (hex)                         AFORE Solutions Inc.
 9EB000-9EBFFF                 (base 16)                     AFORE Solutions Inc.
                                                             2680 Queensview Drive
@@ -7303,12 +7291,6 @@ A20000-A20FFF                 (base 16)                     Quorum Technologies 
                                                             Spitzenmeer 1
                                                             Westerstede  D 26655
                                                             DE
-
-00-50-C2                      (hex)                         Elbit Systems of America - Fort Worth Operations
-761000-761FFF                 (base 16)                     Elbit Systems of America - Fort Worth Operations
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
 
 00-50-C2                      (hex)                         Sky-Skan, Incorporated
 75E000-75EFFF                 (base 16)                     Sky-Skan, Incorporated
@@ -9386,12 +9368,6 @@ F53000-F53FFF                 (base 16)                     BAYCOM OPTO-ELECTRON
                                                             IMOLA  BOLOGNA  40026
                                                             IT
 
-00-50-C2                      (hex)                         Elbit Systems of America - Fort Worth Operations
-FBA000-FBAFFF                 (base 16)                     Elbit Systems of America - Fort Worth Operations
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
-
 00-50-C2                      (hex)                         Enseo, Inc.
 5CC000-5CCFFF                 (base 16)                     Enseo, Inc.
                                                             401 International Pkwy
@@ -9632,6 +9608,24 @@ E0A000-E0AFFF                 (base 16)                     Sicon srl
                                                             Isola Vicentina  Vicenza  36033
                                                             IT
 
+00-50-C2                      (hex)                         Elbit Systems of America
+761000-761FFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         Elbit Systems of America
+FBA000-FBAFFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         WoKa-Elektronik GmbH
+9EF000-9EFFFF                 (base 16)                     WoKa-Elektronik GmbH
+                                                            Zeller-Str.7
+                                                            Romrod  Hessen  36329
+                                                            DE
+
 00-50-C2                      (hex)                         Computerwise, Inc.
 9A3000-9A3FFF                 (base 16)                     Computerwise, Inc.
                                                             302 N. Winchester
@@ -9746,6 +9740,12 @@ FD1000-FD1FFF                 (base 16)                     Enyx SA
                                                             Saint-Petersburg    197342
                                                             RU
 
+00-50-C2                      (hex)                         AVA Monitoring AB
+FF9000-FF9FFF                 (base 16)                     AVA Monitoring AB
+                                                            Vädursgatan 6
+                                                            Göteborg  Västra götaland  412 50
+                                                            SE
+
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
                                                             Naulakatu 3
@@ -9859,12 +9859,6 @@ FD1000-FD1FFF                 (base 16)                     Enyx SA
                                                             75, allée Louis Blériot
                                                             BOOS  Haute Normandie  76520
                                                             FR
-
-40-D8-55                      (hex)                         Chengdu Meihuan Technology Co.,Ltd
-1DF000-1DFFFF                 (base 16)                     Chengdu Meihuan Technology Co.,Ltd
-                                                            Floor 17,Building D6,Tianfu Software Park,
-                                                            Chengdu  Sichuan  610041
-                                                            CN
 
 40-D8-55                      (hex)                         Perm Scientific-Industrial Instrument Making Company JSC
 13D000-13DFFF                 (base 16)                     Perm Scientific-Industrial Instrument Making Company JSC
@@ -10414,12 +10408,6 @@ F6E000-F6EFFF                 (base 16)                     Smith Meter, Inc.
                                                             1602 Wagner Ave.
                                                             Erie  PA  16514
                                                             US
-
-00-50-C2                      (hex)                         Algodue Elettronica Srl
-F6B000-F6BFFF                 (base 16)                     Algodue Elettronica Srl
-                                                            Via Passerina 3/a
-                                                            Fontaneto d'Agogna    28010
-                                                            IT
 
 00-50-C2                      (hex)                         Chrisso Technologies LLC
 F64000-F64FFF                 (base 16)                     Chrisso Technologies LLC
@@ -12661,12 +12649,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             800 E. Campbell Rd
                                                             Richardson  TX  75081-1873
                                                             US
-
-00-50-C2                      (hex)                         Open System Solutions Limited
-811000-811FFF                 (base 16)                     Open System Solutions Limited
-                                                            Saltmakers House
-                                                            Southampton  Hampshire  SO31 4NB
-                                                            GB
 
 00-50-C2                      (hex)                         Acube Systems s.r.l.
 80D000-80DFFF                 (base 16)                     Acube Systems s.r.l.
@@ -15041,12 +15023,6 @@ A05000-A05FFF                 (base 16)                     Adgil Design Inc.
                                                             Santa Clara  CA   95054-1826
                                                             US
 
-00-50-C2                      (hex)                         Clever Devices, Ltd.
-065000-065FFF                 (base 16)                     Clever Devices, Ltd.
-                                                            1662 Route 300
-                                                            Newburgh  NY  12550
-                                                            US
-
 00-50-C2                      (hex)                         Malden Electronics Ltd
 05F000-05FFFF                 (base 16)                     Malden Electronics Ltd
                                                             2 High Street
@@ -15606,6 +15582,30 @@ F0B000-F0BFFF                 (base 16)                     Treehaven Technologi
 D3F000-D3FFFF                 (base 16)                     Communication Systems Solutions
                                                             6030 S 58th St, STE C
                                                             Lincoln  NE  68516
+                                                            US
+
+00-50-C2                      (hex)                         Open System Solutions Limited
+811000-811FFF                 (base 16)                     Open System Solutions Limited
+                                                            Saltmakers House
+                                                            Southampton  Hampshire  SO31 4NB
+                                                            GB
+
+40-D8-55                      (hex)                         Chengdu Meihuan Technology Co., Ltd
+1DF000-1DFFFF                 (base 16)                     Chengdu Meihuan Technology Co., Ltd
+                                                            Floor 17,Building D6,Tianfu Software Park,
+                                                            Chengdu  Sichuan  610041
+                                                            CN
+
+00-50-C2                      (hex)                         Algodue Elettronica Srl
+F6B000-F6BFFF                 (base 16)                     Algodue Elettronica Srl
+                                                            Via Passerina 3/a
+                                                            Fontaneto d'Agogna    28010
+                                                            IT
+
+00-50-C2                      (hex)                         Clever Devices
+065000-065FFF                 (base 16)                     Clever Devices
+                                                            1662 Route 300
+                                                            Newburgh  NY  12550
                                                             US
 
 00-50-C2                      (hex)                         Aeroflex GmbH
@@ -21863,12 +21863,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
                                                             Ayr  South Ayrshire  KA7 1XA
                                                             GB
 
-00-50-C2                      (hex)                         Bixi Systems Ltd.
-4CD000-4CDFFF                 (base 16)                     Bixi Systems Ltd.
-                                                            Grammetstrasse 14
-                                                            Liestal  BL  4410
-                                                            CH
-
 40-D8-55                      (hex)                         InventLab s.c.
 1D2000-1D2FFF                 (base 16)                     InventLab s.c.
                                                             ul. Czarodziejska 22
@@ -27379,3 +27373,9 @@ B54000-B54FFF                 (base 16)                     APG Cash Drawer, LLC
                                                             5250 Industrial Blvd NE
                                                             Minneapolis  MN  55421
                                                             US
+
+00-50-C2                      (hex)                         Securiton AG
+4CD000-4CDFFF                 (base 16)                     Securiton AG
+                                                            Alpenstrasse 20, P.O. Box 127
+                                                            Zollikofen    CH-3052
+                                                            CH

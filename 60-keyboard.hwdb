@@ -272,7 +272,7 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pn*
  KEYBOARD_KEY_85=brightnessdown                         # Fn+Down Brightness Down
  KEYBOARD_KEY_86=brightnessup                           # Fn+Up Brightness Up
  KEYBOARD_KEY_87=battery                                # Fn+F3 battery icon
- KEYBOARD_KEY_88=!wlan                                  # Fn+(F2|PrtScr|Home) Turn On/Off Wireless
+ KEYBOARD_KEY_88=unknown                                # Fn+F2 Turn On/Off Wireless - handled in hardware
  KEYBOARD_KEY_89=ejectclosecd                           # Fn+F10 Eject CD
  KEYBOARD_KEY_8a=suspend                                # Fn+F1 hibernate
  KEYBOARD_KEY_8b=switchvideomode                        # Fn+F8 CRT/LCD (high keycode: "displaytoggle")
@@ -308,6 +308,10 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pnLatitude*2110:pvr*
  KEYBOARD_KEY_85=unknown  # Brightness Down, also emitted by acpi-video, ignore
  KEYBOARD_KEY_86=unknown  # Brightness Up, also emitted by acpi-video, ignore
 
+# Dell Inspiron 537*
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pnInspiron537*:pvr*
+ KEYBOARD_KEY_88=!wlan                                  # Fn-PrtScr rfkill
+
 # Latitude XT2
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pnLatitude*XT2:pvr*
  KEYBOARD_KEY_9b=up                                     # tablet rocker up
@@ -323,6 +327,7 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pnStudio*155[78]:pvr*
 # Dell Touchpad
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pnLatitude*:pvr*
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnDell*:pnPrecision*:pvr*
+ KEYBOARD_KEY_88=!                                      # wireless switch
  KEYBOARD_KEY_9e=!f21
 
 # Dell Latitude E7*
@@ -424,6 +429,13 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnFUJITSU*:pn*ESPRIMO*Mobile*V6*:pvr*
 
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnGIGABYTE:pnU2442:*
  KEYBOARD_KEY_a0=!                                      # mute
+
+###########################################################
+# Gemini
+###########################################################
+
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnGeminiDevices:pnNC14V1006:*
+ KEYBOARD_KEY_9c=enter
 
 ###########################################################
 # Genius
@@ -573,6 +585,10 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnHewlett-Packard*:pnHPZBook*:pvr*
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnHP*:pnHPZBook*:pvr*
  KEYBOARD_KEY_81=f20                                    # Fn+F8; Microphone mute button, should be micmute
 
+# HP ZBook 15 G2
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnHewlett-Packard*:pnHPZBook15G2:pvr*
+ KEYBOARD_KEY_f8=wlan                                   # Wireless HW switch button
+
 # HP ProBook 11 G1
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnHewlett-Packard*:pnHPProBook11G1:pvr*
  KEYBOARD_KEY_81=f20                                    # Fn+F8; Microphone mute button, should be micmute
@@ -603,6 +619,36 @@ evdev:atkbd:dmi:bvn*:bvr*:svnHP*:pnHP*ProBook*440*G3*
 evdev:atkbd:dmi:bvn*:bvr*:svnHP*:pnHP*ProBook*640*G2*
  KEYBOARD_KEY_85=unknown                                # lid close; also reported via special evdev
  KEYBOARD_KEY_f8=unknown                                # rf kill; also reported via special evdev
+
+# HP ProBook 645 G4
+evdev:atkbd:dmi:bvn*:bvr*:svnHP*:pnHP*ProBook*645*G4*
+ KEYBOARD_KEY_73=slash                                  # Slash key
+ KEYBOARD_KEY_f8=wlan                                   # Wireless HW switch button
+
+# HP Stream 7
+# The ACPI tables contains a gpio-keys entry for a non connected GPIO
+# causing spurious events, map this to unknown to disable it
+# older kernels use "ev:23" newer kernels "ev:3"
+evdev:name:gpio-keys:phys:gpio-keys/input0:ev:3:dmi:*:svnHewlett-Packard:pnHPStream7Tablet:*
+evdev:name:gpio-keys:phys:gpio-keys/input0:ev:23:dmi:*:svnHewlett-Packard:pnHPStream7Tablet:*
+ KEYBOARD_KEY_0=unknown
+
+##########################################################
+# Huawei
+##########################################################
+
+# Huawei WMI hotkeys driver
+evdev:name:Huawei WMI hotkeys:dmi:bvn*:bvr*:bd*:svnHUAWEI*
+ KEYBOARD_KEY_287=f20                                   # Microphone mute button, should be micmute
+
+# Huawei MACH-WX9
+evdev:atkbd:dmi:bvn*:bvr*:svnHUAWEI*:pnMACH-WX9:pvr*
+ KEYBOARD_KEY_f7=unknown
+ KEYBOARD_KEY_f8=fn
+
+evdev:name:Huawei WMI hotkeys:dmi:bvn*:bvr*:bd*:svnHUAWEI*:pnMACH-WX9:pvr*
+ KEYBOARD_KEY_281=unknown                               # Brightness Down, also emitted by acpi-video, ignore
+ KEYBOARD_KEY_282=unknown                               # Brightness Up, also emitted by acpi-video, ignore
 
 ###########################################################
 # IBM
@@ -669,6 +715,7 @@ evdev:name:ThinkPad Extra Buttons:dmi:bvn*:bvr*:bd*:svnLENOVO*:pn*
  KEYBOARD_KEY_16=mute
  KEYBOARD_KEY_17=prog1
  KEYBOARD_KEY_1a=f20                                    # Microphone mute button; should be micmute
+ KEYBOARD_KEY_45=bookmarks
 
 # ThinkPad Keyboard with TrackPoint
 evdev:input:b0003v17EFp6009*
@@ -920,6 +967,12 @@ evdev:input:b0003v045Ep00DB*
  KEYBOARD_KEY_c022d=up                                  # zoomin
  KEYBOARD_KEY_c022e=down                                # zoomout
 
+# Microsoft (Razer produced) Reclusa keyboard
+evdev:input:b0003v1532p0200*
+ KEYBOARD_KEY_c01c9=shuffle
+ KEYBOARD_KEY_c01ca=up                                  # zoomin
+ KEYBOARD_KEY_c01cb=down                                # zoomout
+
 ###########################################################
 # Micro Star
 ###########################################################
@@ -960,10 +1013,6 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnMicro-Star*:pn*PR200*:pvr*
 # MSI Wind U90/U100 generates separate touchpad on/off keycodes so ignore touchpad toggle keycode
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnMICRO-STAR*:pnU90/U100:*
  KEYBOARD_KEY_e4=reserved
-
-# MSI GS65 Stealth Thin has a physical backslash key next to the space bar
-evdev:atkbd:dmi:bvn*:bvr*:bd*:svnMicro-Star*:pnGS65StealthThin*:pvr*
- KEYBOARD_KEY_56=backslash
 
 ###########################################################
 # MSI
@@ -1083,6 +1132,10 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnPurism*:pn*Librem13v2*:pvr*
 
 # Purism Librem 13 V3
 evdev:atkbd:dmi:bvn*:bvr*:bd*:svnPurism*:pn*Librem13v3*:pvr*
+ KEYBOARD_KEY_56=backslash
+
+# Purism Librem 13 V4
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnPurism*:pn*Librem13v4*:pvr*
  KEYBOARD_KEY_56=backslash
 
 ###########################################################
