@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.03.05
-#	Date:    2019-03-05 03:15:01
+#	Version: 2019.03.26
+#	Date:    2019-03-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -481,6 +481,7 @@
 	0064  SAS2116 PCI-Express Fusion-MPT SAS-2 [Meteor]
 		1000 3030  9200-16e 6Gb/s SAS/SATA PCIe x8 External HBA
 		1000 30c0  SAS 9201-16i
+		1000 30d0  9201-16e 6Gb/s SAS/SATA PCIe x8 External HBA
 	0065  SAS2116 PCI-Express Fusion-MPT SAS-2 [Meteor]
 	006e  SAS2308 PCI-Express Fusion-MPT SAS-2
 	0070  SAS2004 PCI-Express Fusion-MPT SAS-2 [Spitfire]
@@ -2457,7 +2458,7 @@
 		1682 9470  Radeon RX 470
 		1682 9480  Radeon RX 480
 		1682 9588  Radeon RX 580 XTR
-		1682 c570  RX 570
+		1682 c570  Radeon RX 570
 		174b e347  Radeon RX 470/480
 		174b e349  Radeon RX 470
 		1787 a470  Radeon RX 470
@@ -2482,7 +2483,7 @@
 	67e9  Baffin [Polaris11]
 	67eb  Baffin [Radeon Pro V5300X]
 	67ef  Baffin [Radeon RX 460/560D / Pro 450/455/460/555/555X/560/560X]
-		103c 3421  RX460
+		103c 3421  Radeon RX 460
 		106b 0160  Radeon Pro 460
 		106b 0166  Radeon Pro 455
 		106b 0167  Radeon Pro 450
@@ -4387,7 +4388,7 @@
 	1434  Liverpool Processor SPLL Configuration
 	1436  Liverpool Processor Root Complex
 	1437  Liverpool I/O Memory Management Unit
-	1438  Liverpool Processor Root Port
+	1438  Liverpool UMI PCIe Dummy Host Bridge
 	1439  Family 16h Processor Functions 5:1
 	143a  Kingston/Clayton/Gladius/Montego Root Complex
 	143b  Kingston/Clayton/Gladius/Montego P2P Bridge for UMI Link
@@ -4420,7 +4421,7 @@
 	145c  Family 17h (Models 00h-0fh) USB 3.0 Host Controller
 	145d  Zeppelin Switch Upstream (PCIE SW.US)
 	145e  Zeppelin Switch Downstream (PCIE SW.DS)
-	145f  USB 3.0 Host controller
+	145f  Zeppelin USB 3.0 Host controller
 	1460  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
 	1461  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
 	1462  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
@@ -6748,6 +6749,9 @@
 		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
 		1077 02a2  QLE2694L Quad Port 16Gb Fibre Channel to PCIe Adapter
 		1077 02ad  QLE2694U Quad Port 16/32Gb Fibre Channel to PCIe Adapter
+	2081  ISP2814-based 64/32G Fibre Channel to PCIe Controller
+		1077 02e1  QLE2874 Quad Port 64GFC PCIe Gen4 x16 Adapter
+		1077 02e3  QLE2774 Quad Port 32GFC PCIe Gen4 x16 Adapter
 	2100  QLA2100 64-bit Fibre Channel Adapter
 		1077 0001  QLA2100 64-bit Fibre Channel Adapter
 	2200  QLA2200 64-bit Fibre Channel Adapter
@@ -6767,6 +6771,11 @@
 		1590 00fa  StoreFabric SN1100Q 16Gb Dual Port Fibre Channel Host Bus Adapter
 		1590 0203  StoreFabric SN1600Q 32Gb Single Port Fibre Channel Host Bus Adapter
 		1590 0204  StoreFabric SN1600Q 32Gb Dual Port Fibre Channel Host Bus Adapter
+	2281  ISP2812-based 64/32G Fibre Channel to PCIe Controller
+		1077 02e2  QLE2872 Dual Port 64GFC PCIe Gen4 x8 Adapter
+		1077 02e4  QLE2772 Dual Port 32GFC PCIe Gen4 x8 Adapter
+		1077 02ee  QLE2870 Single Port 64GFC PCIe Gen4 x8 Adapter
+		1077 02f0  QLE2770 Single Port 32GFC PCIe Gen4 x8 Adapter
 	2300  QLA2300 64-bit Fibre Channel Adapter
 	2312  ISP2312-based 2Gb Fibre Channel to PCI-X HBA
 		103c 0131  2Gb Fibre Channel - Single port [A7538A]
@@ -9226,6 +9235,7 @@
 	0111  NV11 [GeForce2 MX200]
 	0112  NV11M [GeForce2 Go]
 	0113  NV11GL [Quadro2 MXR/EX/Go]
+		1028 00e5  Quadro2 Go
 	0140  NV43 [GeForce 6600 GT]
 		1458 3125  GV-NX66T128D
 		1458 3126  GV-NX66T256DE
@@ -11678,7 +11688,7 @@
 	1eb0  TU104GL [Quadro RTX 5000]
 	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
-	1ed0  TU104M [GeForce RTX 2080 Mobile]
+	1ed0  TU104BM [GeForce RTX 2080 Mobile]
 	1f02  TU106 [GeForce RTX 2070]
 		1043 8673  TURBO RTX 2070
 	1f04  TU106
@@ -11687,9 +11697,9 @@
 	1f10  TU106M [GeForce RTX 2070 Mobile]
 	1f11  TU106M [GeForce RTX 2060 Mobile]
 	1f2e  TU106M
-	1f50  TU106M [GeForce RTX 2070 Mobile]
-	1f51  TU106M [GeForce RTX 2060 Mobile]
-	1f82  TU107
+	1f50  TU106BM [GeForce RTX 2070 Mobile]
+	1f51  TU106BM [GeForce RTX 2060 Mobile]
+	1f82  TU107 [GeForce GTX 1650]
 	1f92  TU107M [GeForce GTX 1650 Mobile]
 	1fbf  TU107GL
 	2182  TU116 [GeForce GTX 1660 Ti]
@@ -11698,7 +11708,7 @@
 	2191  TU116M [GeForce GTX 1660 Mobile]
 	21ae  TU116GL
 	21bf  TU116GL
-	21d1  TU116M [GeForce GTX 1660 Mobile]
+	21d1  TU116BM [GeForce GTX 1660 Mobile]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -13189,6 +13199,7 @@
 112f  Dalsa Inc.
 	0000  MVC IC-PCI
 	0001  MVC IM-PCI Video frame grabber/processor
+	0004  PCDig Digital Image Capture
 	0008  PC-CamLink PCI framegrabber
 1130  Computervision
 1131  Philips Semiconductors
@@ -19517,6 +19528,7 @@
 	5a46  MT23108 PCI Bridge
 	5e8c  MT24204 [InfiniHost III Lx HCA]
 	5e8d  MT25204 [InfiniHost III Lx HCA Flash Recovery]
+	6001  NVMe SNAP Controller
 	6274  MT25204 [InfiniHost III Lx HCA]
 	6278  MT25208 InfiniHost III Ex (Tavor compatibility mode)
 	6279  MT25208 [InfiniHost III Ex HCA Flash Recovery]
@@ -21006,6 +21018,7 @@
 	0175  NT20E3-2-PTP Network Adapter 2x10Gb
 	0185  NT40A01 Network Adapter
 	01a5  NT200A01 Network Adapter
+	01c5  NT200A02 Network Adapter
 18f6  NextIO
 	1000  [Nexsis] Switch Virtual P2P PCIe Bridge
 	1001  [Texsis] Switch Virtual P2P PCIe Bridge
@@ -21857,6 +21870,7 @@
 		1028 1fd6  BOSS-S1 Adapter
 		1028 1fdf  BOSS-S1 Modular
 		1028 1fe2  BOSS-S1 Adapter
+		1028 2010  BOSS-S2 Adapter
 		1d49 0300  ThinkSystem M.2 with Mirroring Enablement Kit
 	9235  88SE9235 PCIe 2.0 x2 4-port SATA 6 Gb/s Controller
 	9445  88SE9445 PCIe 2.0 x4 4-Port SAS/SATA 6 Gbps RAID Controller
@@ -21962,6 +21976,7 @@
 	0011  MIPS SoC PCI Express Port
 1bf4  VTI Instruments Corporation
 	0001  SentinelEX
+	7011  RX0xxx
 1bfd  EeeTOP
 1c09  CSP, Inc.
 	4254  10G-PCIE3-8D-2S
@@ -22192,6 +22207,7 @@
 	0100  RK3399 PCI Express Root Port
 	1808  RK1808 Neural Network Processor Card
 1d8f  Enyx
+1d93  YADRO (KNS Group)
 1d94  Chengdu Haiguang IC Design Co., Ltd.
 	1450  Root Complex
 	1451  I/O Memory Management Unit
@@ -22225,6 +22241,9 @@
 1d95  Graphcore Ltd
 	0001  Colossus GC2 [C2]
 	0002  Colossus GC1 [S1]
+1d9b  Facebook, Inc.
+	0010  Networking DOM Engine
+	0011  IO Bridge
 1da1  Teko Telecom S.r.l.
 1da2  Sapphire Technology Limited
 1dbb  NGD Systems, Inc.
@@ -22256,6 +22275,7 @@
 		1df3 0001  ENA2050F
 		1df3 0002  ENA2050FS
 	0203  ACE-NIC100 Programmable Network Accelerator
+		1df3 0000  Maintenance Mode
 		1df3 0001  ENA2080F
 		1df3 0002  ENA2080FS
 		1df3 0003  ENA2100F
@@ -23673,6 +23693,7 @@
 		1028 2005  Express Flash NVMe 4.0TB 2.5" U.2 (P4510)
 		108e 4870  NVMe PCIe 3.0 SSD 6.4TB AIC (P4608)
 		108e 4871  NVMe PCIe 3.0 SSD 6.4TB 2.5-inch (P4600)
+		108e 4879  NVMe PCIe 3.0 SSD v2 6.4TB AIC (P4618)
 		108e 487a  NVMe PCIe 3.0 SSD v2 6.4TB 2.5-inch (P4610)
 		1590 025d  NVMe Datacenter SSD [3DNAND] 1.0TB 2.5" U.2 (P4500)
 		1590 025e  NVMe Datacenter SSD [3DNAND] 2.0TB 2.5" U.2 (P4500)
@@ -23785,6 +23806,8 @@
 	0d16  Crystal Well Integrated Graphics Controller
 	0d26  Crystal Well Integrated Graphics Controller
 	0d36  Crystal Well Integrated Graphics Controller
+	0d4e  Ethernet Connection (10) I219-LM
+	0d4f  Ethernet Connection (10) I219-V
 	0d58  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0000  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
@@ -27018,6 +27041,7 @@
 		1028 2000  Express Flash NVMe [Optane] 375GB 2.5" U.2 (P4800X)
 		1028 2001  Express Flash NVMe [Optane] 750GB 2.5" U.2 (P4800X)
 		1028 2002  Express Flash NVMe [Optane] 750GB AIC (P4800X)
+		1028 200a  Express Flash NVMe [Optane] 375GB AIC (P4800X)
 		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2770  82945G/GZ/P/PL Memory Controller Hub
@@ -28755,6 +28779,7 @@
 	372c  Xeon C5500/C3500 Reserved
 	373f  Xeon C5500/C3500 IOxAPIC
 	37c8  C62x Chipset QuickAssist Technology
+	37cc  Ethernet Connection X722
 	37cd  Ethernet Virtual Function 700 Series
 	37ce  Ethernet Connection X722 for 10GbE backplane
 		1590 0215  Ethernet 10Gb 2-port 568i Adapter
@@ -30191,6 +30216,7 @@
 	9da4  Cannon Point-LP SPI Controller
 	9db0  Cannon Point-LP PCI Express Root Port #9
 	9db4  Cannon Point-LP PCI Express Root Port #13
+		1028 089e  Inspiron 5482
 	9db6  Cannon Point-LP PCI Express Root Port #15
 	9db8  Cannon Point-LP PCI Express Root Port #1
 	9dbc  Cannon Point-LP PCI Express Root Port #5
@@ -30206,6 +30232,7 @@
 	9def  Cannon Point-LP Shared SRAM
 	9df0  Cannon Point-LP CNVi [Wireless-AC]
 	9df9  Cannon Point-LP Thermal Controller
+	9dfc  Cannon Point-LP Integrated Sensor Hub
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
 		1458 5000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
@@ -30526,6 +30553,13 @@
 	d158  Core Processor Miscellaneous Registers
 	f1a5  SSD 600P Series
 	f1a6  SSD Pro 7600p/760p/E 6100p Series
+	f1a8  SSDPEKNW020T8 [660p, 2TB]
+		8086 390d  SSDPEKNW020T8 [660p, 2TB]
+8088  Beijing Wangxun Technology Co., Ltd.
+	1001  Ethernet Controller RP1000 for 10GbE SFP+
+		8088 0000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
+	2001  Ethernet Controller RP2000 for 10GbE SFP+
+		8088 2000  Ethernet Network Adaptor RP2000 for 10GbE SFP+
 80ee  InnoTek Systemberatung GmbH
 	beef  VirtualBox Graphics Adapter
 	cafe  VirtualBox Guest Service
@@ -30873,6 +30907,20 @@
 		152d 8a24  QS-8236-16i
 		152d 8a36  QS-8240-24i
 		152d 8a37  QS-8242-24i
+		193d 8460  HBA H460-M1
+		193d 8461  HBA H460-B1
+		193d c460  RAID P460-M2
+		193d c461  RAID P460-B2
+		193d f460  RAID P460-M4
+		193d f461  RAID P460-B4
+		1bd4 0045  SMART-HBA 8242-24i
+		1bd4 0046  RAID 8236-16i
+		1bd4 0047  RAID 8240-24i
+		1bd4 0048  SMART-HBA 8238-16i
+		1bd4 004a  PM8222-SHBA
+		1bd4 004b  RAID PM8204-2GB
+		1bd4 004c  RAID PM8204-4GB
+		1bd4 004f  PM8222-HBA
 		9005 0608  SmartRAID 3162-8i /e
 		9005 0800  SmartRAID 3154-8i
 		9005 0801  SmartRAID 3152-8i

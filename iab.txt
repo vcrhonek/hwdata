@@ -1013,12 +1013,6 @@ DE3000-DE3FFF                 (base 16)                     Breakaway Systems LL
                                                             Houston  TX  77042
                                                             US
 
-00-50-C2                      (hex)                         INTERNET PROTOCOLO LOGICA SL
-DE0000-DE0FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
-                                                            Sector Foresta 43. Edificio Oficentro
-                                                            Tres Cantos  Madrid  28760
-                                                            ES
-
 00-50-C2                      (hex)                         Automation Assist Japan Company
 E13000-E13FFF                 (base 16)                     Automation Assist Japan Company
                                                             2-8-20 Kamatahonmachi
@@ -4627,6 +4621,12 @@ C7C000-C7CFFF                 (base 16)                     Keysight Technologie
                                                             Lise-Meitner-Allee 27
                                                             Bochum    44801
                                                             DE
+
+00-50-C2                      (hex)                         INTERNET PROTOCOLO LOGICA SL
+DE0000-DE0FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
+                                                            Sector Foresta 43. Edificio Oficentro
+                                                            Tres Cantos  Madrid  28760
+                                                            ES
 
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
@@ -9751,12 +9751,6 @@ FF9000-FF9FFF                 (base 16)                     AVA Monitoring AB
                                                             Naulakatu 3
                                                             Tampere    33100
                                                             FI
-
-40-D8-55                      (hex)                         KRONOTECH SRL
-1A1000-1A1FFF                 (base 16)                     KRONOTECH SRL
-                                                            VIALE UNGHERIA 125 - UDINE
-                                                            CAMPOFORMIDO  UDINE  33030
-                                                            US
 
 40-D8-55                      (hex)                         Orion Systems, Inc
 1B8000-1B8FFF                 (base 16)                     Orion Systems, Inc
@@ -15608,6 +15602,12 @@ F6B000-F6BFFF                 (base 16)                     Algodue Elettronica 
                                                             Newburgh  NY  12550
                                                             US
 
+40-D8-55                      (hex)                         KRONOTECH SRL
+1A1000-1A1FFF                 (base 16)                     KRONOTECH SRL
+                                                            VIALE UNGHERIA 125 - UDINE
+                                                            CAMPOFORMIDO  UDINE  33030
+                                                            US
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -18655,12 +18655,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Unit 3/59 Township Drive
                                                             West Burleigh  Queensland  4219
                                                             AU
-
-00-50-C2                      (hex)                         AutomationX GmbH
-7FA000-7FAFFF                 (base 16)                     AutomationX GmbH
-                                                            Teslastraße 8
-                                                            Grambach  Stmk  8074
-                                                            AT
 
 00-50-C2                      (hex)                         Logotherm Regelsysteme GmbH
 7F2000-7F2FFF                 (base 16)                     Logotherm Regelsysteme GmbH
@@ -21833,6 +21827,12 @@ FB6000-FB6FFF                 (base 16)                     ARGUS-SPECTRUM
                                                             MINNEAPOLIS  Minnesota  55421
                                                             US
 
+00-50-C2                      (hex)                         AutomationX GmbH
+7FA000-7FAFFF                 (base 16)                     AutomationX GmbH
+                                                            Teslastraße 8
+                                                            Grambach  Stmk  8074
+                                                            AT
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -22192,12 +22192,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
                                                             2906 Corporate Way
                                                             Palmetto  Fl  34221
                                                             US
-
-40-D8-55                      (hex)                         INTERNET PROTOCOLO LOGICA SL
-076000-076FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
-                                                            Sector Foresta 43. local 26
-                                                            Tres Cantos  Madrid  28760
-                                                            ES
 
 40-D8-55                      (hex)                         CT Company
 072000-072FFF                 (base 16)                     CT Company
@@ -27379,3 +27373,9 @@ B54000-B54FFF                 (base 16)                     APG Cash Drawer, LLC
                                                             Alpenstrasse 20, P.O. Box 127
                                                             Zollikofen    CH-3052
                                                             CH
+
+40-D8-55                      (hex)                         INTERNET PROTOCOLO LOGICA SL
+076000-076FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
+                                                            Sector Foresta 43. local 26
+                                                            Tres Cantos  Madrid  28760
+                                                            ES
