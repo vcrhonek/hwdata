@@ -2372,12 +2372,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             Jerusalem    45190
                                                             IL
 
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-7D5000-7D5FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Strasse 140
-                                                            Bergisch-Gladbach  NRW  51465
-                                                            DE
-
 00-50-C2                      (hex)                         Precision MicroControl Corporation
 7CD000-7CDFFF                 (base 16)                     Precision MicroControl Corporation
                                                             2075 Corte del Nogal
@@ -4628,6 +4622,12 @@ DE0000-DE0FFF                 (base 16)                     INTERNET PROTOCOLO L
                                                             Tres Cantos  Madrid  28760
                                                             ES
 
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+7D5000-7D5FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Strasse 140
+                                                            Bergisch-Gladbach  NRW  51465
+                                                            DE
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -5626,12 +5626,6 @@ DA7000-DA7FFF                 (base 16)                     Capton
                                                             3001 Bridgeway
                                                             Sausalito  CA  94965
                                                             US
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-DA4000-DA4FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
 
 00-50-C2                      (hex)                         Mistral Solutions Pvt. Ltd
 D9D000-D9DFFF                 (base 16)                     Mistral Solutions Pvt. Ltd
@@ -9746,6 +9740,12 @@ FF9000-FF9FFF                 (base 16)                     AVA Monitoring AB
                                                             Göteborg  Västra götaland  412 50
                                                             SE
 
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+DA4000-DA4FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
+
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
                                                             Naulakatu 3
@@ -10233,12 +10233,6 @@ FFF000-FFFFFF                 (base 16)                     MSR-Solutions GmbH
 FDD000-FDDFFF                 (base 16)                     Toptech Systems, Inc.
                                                             1124 Florida Central Parkway
                                                             Longwood  FL  32750
-                                                            US
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-FD7000-FD7FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather str. 140
-                                                            Bergisch Gladbach  NRW  51465
                                                             US
 
 00-50-C2                      (hex)                         Aster Electric Co.,Ltd.
@@ -15608,6 +15602,12 @@ F6B000-F6BFFF                 (base 16)                     Algodue Elettronica 
                                                             CAMPOFORMIDO  UDINE  33030
                                                             US
 
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather str. 140
+                                                            Bergisch Gladbach  NRW  51465
+                                                            US
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -17617,12 +17617,6 @@ B67000-B67FFF                 (base 16)                     RC Systems Co. Inc.
                                                             8621 Hwy. 6
                                                             Hitchcock  TX  77563
                                                             US
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-B66000-B66FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
 
 00-50-C2                      (hex)                         Nayos LTD
 B61000-B61FFF                 (base 16)                     Nayos LTD
@@ -21833,6 +21827,12 @@ FB6000-FB6FFF                 (base 16)                     ARGUS-SPECTRUM
                                                             Grambach  Stmk  8074
                                                             AT
 
+00-50-C2                      (hex)                         8185
+B66000-B66FFF                 (base 16)                     8185
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -22114,12 +22114,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
                                                             Radomska 29
                                                             Starachowice  Swietokrzyskie  27-200
                                                             PL
-
-40-D8-55                      (hex)                         DEUTA-WERKE GmbH
-11C000-11CFFF                 (base 16)                     DEUTA-WERKE GmbH
-                                                            Paffrather Strasse 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
 
 40-D8-55                      (hex)                         Uniscan LLC
 116000-116FFF                 (base 16)                     Uniscan LLC
@@ -22781,12 +22775,6 @@ E47000-E47FFF                 (base 16)                     ENIKA.CZ
                                                             Nova Paka    50901
                                                             CZ
 
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-E44000-E44FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
-
 00-50-C2                      (hex)                         Baudisch Electronic GmbH
 E3D000-E3DFFF                 (base 16)                     Baudisch Electronic GmbH
                                                             Im Gewerbegebiet 7-9
@@ -23428,12 +23416,6 @@ CB6000-CB6FFF                 (base 16)                     Krontek Pty Ltd
                                                             2 Carinya Close
                                                             Allambie  NSW  2100
                                                             AU
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-CB3000-CB3FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
 
 00-50-C2                      (hex)                         Campbell Scientific Canada Corp.
 CAE000-CAEFFF                 (base 16)                     Campbell Scientific Canada Corp.
@@ -27379,3 +27361,21 @@ B54000-B54FFF                 (base 16)                     APG Cash Drawer, LLC
                                                             Sector Foresta 43. local 26
                                                             Tres Cantos  Madrid  28760
                                                             ES
+
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+E44000-E44FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
+
+40-D8-55                      (hex)                         DEUTA-WERKE GmbH
+11C000-11CFFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Strasse 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
+
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
