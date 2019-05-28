@@ -1013,12 +1013,6 @@ DE3000-DE3FFF                 (base 16)                     Breakaway Systems LL
                                                             Houston  TX  77042
                                                             US
 
-00-50-C2                      (hex)                         INTERNET PROTOCOLO LOGICA SL
-DE0000-DE0FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
-                                                            Sector Foresta 43. Edificio Oficentro
-                                                            Tres Cantos  Madrid  28760
-                                                            ES
-
 00-50-C2                      (hex)                         Automation Assist Japan Company
 E13000-E13FFF                 (base 16)                     Automation Assist Japan Company
                                                             2-8-20 Kamatahonmachi
@@ -2377,12 +2371,6 @@ A1F000-A1FFFF                 (base 16)                     Flight Data Systems 
                                                             7 Hamarpe st,
                                                             Jerusalem    45190
                                                             IL
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-7D5000-7D5FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Strasse 140
-                                                            Bergisch-Gladbach  NRW  51465
-                                                            DE
 
 00-50-C2                      (hex)                         Precision MicroControl Corporation
 7CD000-7CDFFF                 (base 16)                     Precision MicroControl Corporation
@@ -4628,6 +4616,18 @@ C7C000-C7CFFF                 (base 16)                     Keysight Technologie
                                                             Bochum    44801
                                                             DE
 
+00-50-C2                      (hex)                         INTERNET PROTOCOLO LOGICA SL
+DE0000-DE0FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
+                                                            Sector Foresta 43. Edificio Oficentro
+                                                            Tres Cantos  Madrid  28760
+                                                            ES
+
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+7D5000-7D5FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Strasse 140
+                                                            Bergisch-Gladbach  NRW  51465
+                                                            DE
+
 00-50-C2                      (hex)                         EMAC, Inc.
 0E0000-0E0FFF                 (base 16)                     EMAC, Inc.
                                                             2390 EMAC Way
@@ -5096,12 +5096,6 @@ FF6000-FF6FFF                 (base 16)                     Booyco Electronics
                                                             Jetpark Ext 14  Gauteng  1549
                                                             ZA
 
-00-50-C2                      (hex)                         Penttech AB
-FF9000-FF9FFF                 (base 16)                     Penttech AB
-                                                            Vädursgatan 6
-                                                            Göteborg  Västra götaland  412 50
-                                                            SE
-
 00-50-C2                      (hex)                         Task Sistemas de Computacao
 FEF000-FEFFFF                 (base 16)                     Task Sistemas de Computacao
                                                             Rua Visconde de Ouro Preto, 5
@@ -5173,12 +5167,6 @@ FE5000-FE5FFF                 (base 16)                     Scandinova Systems A
                                                             Platinum Building, St John's Innovation Park
                                                             Cambridge  Cambridgeshire  CB4 0WS
                                                             GB
-
-40-D8-55                      (hex)                         VITEC
-054000-054FFF                 (base 16)                     VITEC
-                                                            99, rue Pierre Semard
-                                                            Chatillon  Ile de France  92324
-                                                            FR
 
 40-D8-55                      (hex)                         CS Instruments Asia
 051000-051FFF                 (base 16)                     CS Instruments Asia
@@ -5632,12 +5620,6 @@ DA7000-DA7FFF                 (base 16)                     Capton
                                                             3001 Bridgeway
                                                             Sausalito  CA  94965
                                                             US
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-DA4000-DA4FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
 
 00-50-C2                      (hex)                         Mistral Solutions Pvt. Ltd
 D9D000-D9DFFF                 (base 16)                     Mistral Solutions Pvt. Ltd
@@ -9614,6 +9596,24 @@ E0A000-E0AFFF                 (base 16)                     Sicon srl
                                                             Isola Vicentina  Vicenza  36033
                                                             IT
 
+00-50-C2                      (hex)                         Elbit Systems of America
+761000-761FFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         Elbit Systems of America
+FBA000-FBAFFF                 (base 16)                     Elbit Systems of America
+                                                            4700 Marine Creek Parkway
+                                                            Fort Worth  TX  76179
+                                                            US
+
+00-50-C2                      (hex)                         WoKa-Elektronik GmbH
+9EF000-9EFFFF                 (base 16)                     WoKa-Elektronik GmbH
+                                                            Zeller-Str.7
+                                                            Romrod  Hessen  36329
+                                                            DE
+
 00-50-C2                      (hex)                         Computerwise, Inc.
 9A3000-9A3FFF                 (base 16)                     Computerwise, Inc.
                                                             302 N. Winchester
@@ -9728,35 +9728,29 @@ FD1000-FD1FFF                 (base 16)                     Enyx SA
                                                             Saint-Petersburg    197342
                                                             RU
 
-00-50-C2                      (hex)                         Elbit Systems of America
-761000-761FFF                 (base 16)                     Elbit Systems of America
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
+00-50-C2                      (hex)                         AVA Monitoring AB
+FF9000-FF9FFF                 (base 16)                     AVA Monitoring AB
+                                                            Vädursgatan 6
+                                                            Göteborg  Västra götaland  412 50
+                                                            SE
 
-00-50-C2                      (hex)                         Elbit Systems of America
-FBA000-FBAFFF                 (base 16)                     Elbit Systems of America
-                                                            4700 Marine Creek Parkway
-                                                            Fort Worth  TX  76179
-                                                            US
-
-00-50-C2                      (hex)                         WoKa-Elektronik GmbH
-9EF000-9EFFFF                 (base 16)                     WoKa-Elektronik GmbH
-                                                            Zeller-Str.7
-                                                            Romrod  Hessen  36329
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+DA4000-DA4FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
                                                             DE
+
+40-D8-55                      (hex)                         VITEC
+054000-054FFF                 (base 16)                     VITEC
+                                                            99, rue Pierre Semard
+                                                            Chatillon  Ile de France  92324
+                                                            FR
 
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
                                                             Naulakatu 3
                                                             Tampere    33100
                                                             FI
-
-40-D8-55                      (hex)                         KRONOTECH SRL
-1A1000-1A1FFF                 (base 16)                     KRONOTECH SRL
-                                                            VIALE UNGHERIA 125 - UDINE
-                                                            CAMPOFORMIDO  UDINE  33030
-                                                            US
 
 40-D8-55                      (hex)                         Orion Systems, Inc
 1B8000-1B8FFF                 (base 16)                     Orion Systems, Inc
@@ -10239,12 +10233,6 @@ FFF000-FFFFFF                 (base 16)                     MSR-Solutions GmbH
 FDD000-FDDFFF                 (base 16)                     Toptech Systems, Inc.
                                                             1124 Florida Central Parkway
                                                             Longwood  FL  32750
-                                                            US
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-FD7000-FD7FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather str. 140
-                                                            Bergisch Gladbach  NRW  51465
                                                             US
 
 00-50-C2                      (hex)                         Aster Electric Co.,Ltd.
@@ -15608,6 +15596,18 @@ F6B000-F6BFFF                 (base 16)                     Algodue Elettronica 
                                                             Newburgh  NY  12550
                                                             US
 
+40-D8-55                      (hex)                         KRONOTECH SRL
+1A1000-1A1FFF                 (base 16)                     KRONOTECH SRL
+                                                            VIALE UNGHERIA 125 - UDINE
+                                                            CAMPOFORMIDO  UDINE  33030
+                                                            US
+
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather str. 140
+                                                            Bergisch Gladbach  NRW  51465
+                                                            US
+
 00-50-C2                      (hex)                         Aeroflex GmbH
 B51000-B51FFF                 (base 16)                     Aeroflex GmbH
                                                             Gutenbergstrasse 2-4
@@ -17618,12 +17618,6 @@ B67000-B67FFF                 (base 16)                     RC Systems Co. Inc.
                                                             Hitchcock  TX  77563
                                                             US
 
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-B66000-B66FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
-
 00-50-C2                      (hex)                         Nayos LTD
 B61000-B61FFF                 (base 16)                     Nayos LTD
                                                             7 Golda Meir
@@ -18655,12 +18649,6 @@ A41000-A41FFF                 (base 16)                     Meiryo Denshi Corp.
                                                             Unit 3/59 Township Drive
                                                             West Burleigh  Queensland  4219
                                                             AU
-
-00-50-C2                      (hex)                         AutomationX GmbH
-7FA000-7FAFFF                 (base 16)                     AutomationX GmbH
-                                                            Teslastraße 8
-                                                            Grambach  Stmk  8074
-                                                            AT
 
 00-50-C2                      (hex)                         Logotherm Regelsysteme GmbH
 7F2000-7F2FFF                 (base 16)                     Logotherm Regelsysteme GmbH
@@ -21833,6 +21821,18 @@ FB6000-FB6FFF                 (base 16)                     ARGUS-SPECTRUM
                                                             MINNEAPOLIS  Minnesota  55421
                                                             US
 
+00-50-C2                      (hex)                         AutomationX GmbH
+7FA000-7FAFFF                 (base 16)                     AutomationX GmbH
+                                                            Teslastraße 8
+                                                            Grambach  Stmk  8074
+                                                            AT
+
+00-50-C2                      (hex)                         8185
+B66000-B66FFF                 (base 16)                     8185
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
+
 00-50-C2                      (hex)                         Baxter International Inc
 2E0000-2E0FFF                 (base 16)                     Baxter International Inc
                                                             One Baxter Parkway
@@ -22115,12 +22115,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
                                                             Starachowice  Swietokrzyskie  27-200
                                                             PL
 
-40-D8-55                      (hex)                         DEUTA-WERKE GmbH
-11C000-11CFFF                 (base 16)                     DEUTA-WERKE GmbH
-                                                            Paffrather Strasse 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
-
 40-D8-55                      (hex)                         Uniscan LLC
 116000-116FFF                 (base 16)                     Uniscan LLC
                                                             Arbyzova st. 4/26
@@ -22192,12 +22186,6 @@ CC7000-CC7FFF                 (base 16)                     TOPROOTTechnology Co
                                                             2906 Corporate Way
                                                             Palmetto  Fl  34221
                                                             US
-
-40-D8-55                      (hex)                         INTERNET PROTOCOLO LOGICA SL
-076000-076FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
-                                                            Sector Foresta 43. local 26
-                                                            Tres Cantos  Madrid  28760
-                                                            ES
 
 40-D8-55                      (hex)                         CT Company
 072000-072FFF                 (base 16)                     CT Company
@@ -22786,12 +22774,6 @@ E47000-E47FFF                 (base 16)                     ENIKA.CZ
                                                             Nadrazni 609
                                                             Nova Paka    50901
                                                             CZ
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-E44000-E44FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
 
 00-50-C2                      (hex)                         Baudisch Electronic GmbH
 E3D000-E3DFFF                 (base 16)                     Baudisch Electronic GmbH
@@ -23434,12 +23416,6 @@ CB6000-CB6FFF                 (base 16)                     Krontek Pty Ltd
                                                             2 Carinya Close
                                                             Allambie  NSW  2100
                                                             AU
-
-00-50-C2                      (hex)                         Deuta-Werke GmbH
-CB3000-CB3FFF                 (base 16)                     Deuta-Werke GmbH
-                                                            Paffrather Str. 140
-                                                            Bergisch Gladbach  Northrhine Westfalia  51465
-                                                            DE
 
 00-50-C2                      (hex)                         Campbell Scientific Canada Corp.
 CAE000-CAEFFF                 (base 16)                     Campbell Scientific Canada Corp.
@@ -27379,3 +27355,27 @@ B54000-B54FFF                 (base 16)                     APG Cash Drawer, LLC
                                                             Alpenstrasse 20, P.O. Box 127
                                                             Zollikofen    CH-3052
                                                             CH
+
+40-D8-55                      (hex)                         INTERNET PROTOCOLO LOGICA SL
+076000-076FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
+                                                            Sector Foresta 43. local 26
+                                                            Tres Cantos  Madrid  28760
+                                                            ES
+
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+E44000-E44FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
+
+40-D8-55                      (hex)                         DEUTA-WERKE GmbH
+11C000-11CFFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Strasse 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
+
+00-50-C2                      (hex)                         DEUTA-WERKE GmbH
+CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
+                                                            Paffrather Str. 140
+                                                            Bergisch Gladbach  Northrhine Westfalia  51465
+                                                            DE
