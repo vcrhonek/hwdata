@@ -5168,12 +5168,6 @@ FE5000-FE5FFF                 (base 16)                     Scandinova Systems A
                                                             Cambridge  Cambridgeshire  CB4 0WS
                                                             GB
 
-40-D8-55                      (hex)                         VITEC
-054000-054FFF                 (base 16)                     VITEC
-                                                            99, rue Pierre Semard
-                                                            Chatillon  Ile de France  92324
-                                                            FR
-
 40-D8-55                      (hex)                         CS Instruments Asia
 051000-051FFF                 (base 16)                     CS Instruments Asia
                                                             Room 31, Cambridge Plaza, Tower B
@@ -9745,6 +9739,12 @@ DA4000-DA4FFF                 (base 16)                     DEUTA-WERKE GmbH
                                                             Paffrather Str. 140
                                                             Bergisch Gladbach  Northrhine Westfalia  51465
                                                             DE
+
+40-D8-55                      (hex)                         VITEC
+054000-054FFF                 (base 16)                     VITEC
+                                                            99, rue Pierre Semard
+                                                            Chatillon  Ile de France  92324
+                                                            FR
 
 40-D8-55                      (hex)                         Patria Aviation Oy
 19F000-19FFFF                 (base 16)                     Patria Aviation Oy
