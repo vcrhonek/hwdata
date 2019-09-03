@@ -23,7 +23,8 @@ rm -rf $RPM_BUILD_ROOT
 make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 
 %files
-%doc LICENSE COPYING
+%license COPYING
+%doc LICENSE
 %dir %{_datadir}/%{name}
 %{_prefix}/lib/modprobe.d/dist-blacklist.conf
 %{_datadir}/%{name}/*
