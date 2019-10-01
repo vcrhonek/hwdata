@@ -13097,12 +13097,6 @@ AD0000-AD0FFF                 (base 16)                     Geonautics Australia
                                                             Brisbane  Queensland  4151
                                                             AU
 
-00-50-C2                      (hex)                         StockerYale
-ACC000-ACCFFF                 (base 16)                     StockerYale
-                                                            3020 Euro Business Park
-                                                            Cork
-                                                            IE
-
 00-50-C2                      (hex)                         Soft & Control Technology s.r.o.
 ACA000-ACAFFF                 (base 16)                     Soft & Control Technology s.r.o.
                                                             Magnezitarska 10
@@ -16304,6 +16298,12 @@ A7E000-A7EFFF                 (base 16)                     Densitron Technologi
                                                             Royston  Herts  SG8 6DN
                                                             GB
 
+00-50-C2                      (hex)                         ProPhotonix
+ACC000-ACCFFF                 (base 16)                     ProPhotonix
+                                                            3020 Euro Business Park
+                                                            Co Cork  Little Island  n/A
+                                                            IE
+
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
                                                             99, rue Pierre Semard
@@ -16813,12 +16813,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             445 Hoes Lane
                                                             Piscataway  NJ  08554
                                                             US
-
-00-50-C2                      (hex)                         Transas Marine Limited
-DD6000-DD6FFF                 (base 16)                     Transas Marine Limited
-                                                            Datavagen 37
-                                                            Askim  Vastra Gotaland  436 32
-                                                            SE
 
 00-50-C2                      (hex)                         Veracity UK Ltd
 9F0000-9F0FFF                 (base 16)                     Veracity UK Ltd
@@ -21560,6 +21554,12 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                                 EH53 0HY
                                                             GB
 
+00-50-C2                      (hex)                         Wartsila Voyage Limited
+DD6000-DD6FFF                 (base 16)                     Wartsila Voyage Limited
+                                                            13-18 City Quay
+                                                            Dublin 2    D02 ED70
+                                                            IE
+
 00-50-C2                      (hex)                         INTERNET PROTOCOLO LOGICA SL
 DE0000-DE0FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
                                                             Sector Foresta 43. Edificio Oficentro
@@ -22132,12 +22132,6 @@ E3C000-E3CFFF                 (base 16)                     Grupo Epelsa S.L.
                                                             via G.Donizetti 1/3/5
                                                             Brescia    25030
                                                             IT
-
-00-50-C2                      (hex)                         Transas Marine Limited
-886000-886FFF                 (base 16)                     Transas Marine Limited
-                                                            Datavagen 37
-                                                            Askim  Vastra Gotaland  436 32
-                                                            SE
 
 40-D8-55                      (hex)                         EMAC, Inc.
 19D000-19DFFF                 (base 16)                     EMAC, Inc.
@@ -27379,3 +27373,9 @@ A03000-A03FFF                 (base 16)                     EEG Enterprises Inc
                                                             7900 Wisconsin Avenue
                                                             Bethesda  MD  20817
                                                             US
+
+00-50-C2                      (hex)                         Wartsila Voyage Limited
+886000-886FFF                 (base 16)                     Wartsila Voyage Limited
+                                                            13-18 City Quay
+                                                            Dublin 2    D02 ED70
+                                                            IE

@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2019.08.21
-# Date:    2019-08-21 20:34:05
+# Version: 2019.09.20
+# Date:    2019-09-20 20:34:05
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -1808,6 +1808,7 @@
 	008c  to CF/SM/SD/MS Card Reader
 	008e  InkJet Color Printer
 	008f  X422
+	0091  Laser Printer E232
 	0093  X5250
 	0095  E220 Printer
 	0096  2200 series
@@ -19440,6 +19441,8 @@
 	0296  BG96 CAT-M1/NB-IoT modem
 	0306  EG06/EP06/EM06 LTE-A modem
 	0435  AG35 LTE modem
+2cdc  Sea & Sun Technology GmbH
+	f232  CTD48Mc CTD Probe
 2dcf  Dialog Semiconductor
 	c952  Audio Class 2.0 Devices
 2fb2  Fujitsu, Ltd
