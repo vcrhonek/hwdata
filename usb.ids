@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2019.10.25
-# Date:    2019-10-25 20:34:07
+# Version: 2019.11.05
+# Date:    2019-11-05 20:34:06
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -16614,6 +16614,7 @@
 	001b  Emu [Ambit3 Peak]
 	001c  Finch [Ambit3 Sport]
 	001d  Greentit [Ambit2 R]
+	001e  Ibisbill [Ambit3 Run]
 1497  Panstrong Company Ltd.
 1498  Microtek International Inc.
 	a090  DVB-T Tuner
