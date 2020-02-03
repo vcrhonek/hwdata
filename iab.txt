@@ -20426,12 +20426,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Helsinki    00510
                                                             FI
 
-00-50-C2                      (hex)                         ABB AG - Power Grids - Grid Automation
-3F3000-3F3FFF                 (base 16)                     ABB AG - Power Grids - Grid Automation
-                                                            Kallstadter Strasse 1
-                                                            Mannheim    68309
-                                                            DE
-
 00-50-C2                      (hex)                         dAFTdATA Limited
 3F6000-3F6FFF                 (base 16)                     dAFTdATA Limited
                                                             dAFT HQ
@@ -21559,6 +21553,12 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
                                                             38A Grove Street
                                                             Ridgefield  CT  06877
                                                             US
+
+00-50-C2                      (hex)                         ABB Power Grids Germany AG – Grid Automation
+3F3000-3F3FFF                 (base 16)                     ABB Power Grids Germany AG – Grid Automation
+                                                            Kallstadter Strasse 1
+                                                            Mannheim    68309
+                                                            DE
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
