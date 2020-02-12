@@ -1,7 +1,7 @@
 # This package is arch-specific just because of bundling different files for
 # different architectures. No -debuginfo package is needed.
 %global     debug_package %{nil}
-%global     uprelease   9.4
+%global     uprelease   9.5
 
 Name:       hwdata
 Summary:    Hardware identification and configuration data
@@ -50,6 +50,11 @@ udevadm hwdb --update >/dev/null 2>&1 || :
 %{_datadir}/%{name}/*
 
 %changelog
+* Wed Feb 12 2020 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.252-9.5
+- Fix URL for downloading hwdb files
+- Updated pci, usb, vendor ids and hwdb files
+  Resolves: #1721908
+
 * Tue Aug 06 2019 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.252-9.4
 - Updated pci, usb, vendor ids and hwdb files
   Resolves: #1721904
