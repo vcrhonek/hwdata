@@ -21668,12 +21668,6 @@ BD1000-BD1FFF                 (base 16)                     Ariem Technologies P
                                                             Bonn  NRW  D-53111
                                                             DE
 
-00-50-C2                      (hex)                         Midas Technology DBA Phoenix Audio Technologies
-F48000-F48FFF                 (base 16)                     Midas Technology DBA Phoenix Audio Technologies
-                                                            2934 N. Naomi Street
-                                                            Burbank  CA  91504
-                                                            US
-
 00-50-C2                      (hex)                         Silverbrook Research
 65B000-65BFFF                 (base 16)                     Silverbrook Research
                                                             393 Darling St
@@ -27378,4 +27372,10 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
 0C8000-0C8FFF                 (base 16)                     Mettler Toledo
                                                             1571 Northpointe Parkway
                                                             Lutz  FL  33558
+                                                            US
+
+00-50-C2                      (hex)                         Midas Technology, Inc. dba Stem Audio / Phoenix Au
+F48000-F48FFF                 (base 16)                     Midas Technology, Inc. dba Stem Audio / Phoenix Au
+                                                            2552 White Road, Suite A
+                                                            Irvine  CA  92614
                                                             US
