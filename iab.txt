@@ -20426,12 +20426,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Helsinki    00510
                                                             FI
 
-00-50-C2                      (hex)                         ABB AG - Power Grids - Grid Automation
-3F3000-3F3FFF                 (base 16)                     ABB AG - Power Grids - Grid Automation
-                                                            Kallstadter Strasse 1
-                                                            Mannheim    68309
-                                                            DE
-
 00-50-C2                      (hex)                         dAFTdATA Limited
 3F6000-3F6FFF                 (base 16)                     dAFTdATA Limited
                                                             dAFT HQ
@@ -21560,6 +21554,12 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
                                                             Ridgefield  CT  06877
                                                             US
 
+00-50-C2                      (hex)                         ABB Power Grids Germany AG – Grid Automation
+3F3000-3F3FFF                 (base 16)                     ABB Power Grids Germany AG – Grid Automation
+                                                            Kallstadter Strasse 1
+                                                            Mannheim    68309
+                                                            DE
+
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
                                                             Paffrather Str. 140
@@ -21667,12 +21667,6 @@ BD1000-BD1FFF                 (base 16)                     Ariem Technologies P
                                                             Bornheimer Str. 33a
                                                             Bonn  NRW  D-53111
                                                             DE
-
-00-50-C2                      (hex)                         Midas Technology DBA Phoenix Audio Technologies
-F48000-F48FFF                 (base 16)                     Midas Technology DBA Phoenix Audio Technologies
-                                                            2934 N. Naomi Street
-                                                            Burbank  CA  91504
-                                                            US
 
 00-50-C2                      (hex)                         Silverbrook Research
 65B000-65BFFF                 (base 16)                     Silverbrook Research
@@ -27378,4 +27372,10 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
 0C8000-0C8FFF                 (base 16)                     Mettler Toledo
                                                             1571 Northpointe Parkway
                                                             Lutz  FL  33558
+                                                            US
+
+00-50-C2                      (hex)                         Midas Technology, Inc. dba Stem Audio / Phoenix Au
+F48000-F48FFF                 (base 16)                     Midas Technology, Inc. dba Stem Audio / Phoenix Au
+                                                            2552 White Road, Suite A
+                                                            Irvine  CA  92614
                                                             US
