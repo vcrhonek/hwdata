@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.334
+Version: 0.335
 Release: 1%{?dist}
 License: GPLv2+
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
@@ -30,6 +30,9 @@ make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon May 04 2020 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.335-1
+- Update pci and vendor ids
+
 * Wed Apr 01 2020 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.334-1
 - Updated pci, usb and vendor ids.
 
