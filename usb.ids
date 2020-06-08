@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2020.03.07
-# Date:    2020-03-07 20:34:06
+# Version: 2020.03.28
+# Date:    2020-03-28 20:34:07
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -415,6 +415,7 @@
 	2417  LaserJet 4250
 	241d  Gobi 2000 Wireless Modem (QDL mode)
 	2424  LP1965 19" Monitor Hub
+	2441  Prime G2 [2AP18AA]
 	2502  PhotoSmart 7700 series
 	2504  DeskJet F4200 series
 	2505  ScanJet 3770
@@ -1892,6 +1893,7 @@
 043e  LG Electronics USA, Inc.
 	3001  AN-WF100 802.11abgn Wireless Adapter [Broadcom BCM4323]
 	3004  TWFM-B003D 802.11abgn Wireless Module [Broadcom BCM43236B]
+	3009  VC400
 	3101  AN-WF500 802.11abgn + BT Wireless Adapter [Broadcom BCM43242]
 	42bd  Flatron 795FT Plus Monitor
 	4a4d  Flatron 915FT Plus Monitor
@@ -2028,7 +2030,7 @@
 	e012  TI-Nspire Calculator
 	e013  Network Bridge
 	e01c  Data Collection Sled [Nspire Lab Cradle, Nspire Datatracker Cradle]
-	e01e  Nspire CX Navigator Access Point
+	e01e  Nspire CX Navigator Access Point
 	e01f  Python Adapter (firmware install mode)
 	e020  Python Adapter
 	e022  Nspire CX II
@@ -2572,6 +2574,7 @@
 	4de3  HP 5-Button Optical Comfort Mouse
 	4de7  webcam
 	4e04  Lenovo Keyboard KB1021
+	4e22  Dell Mouse, 2 Buttons, Modell: MS111-P
 	4e6f  Acer Wired Keyboard Model KBAY211
 0463  MGE UPS Systems
 	0001  UPS
@@ -3274,6 +3277,7 @@
 	0411  Savi Office Base Station
 	0ca1  USB DSP v4 Audio Interface
 	4254  BUA-100 Bluetooth Adapter
+	aa05  DA45
 	ac01  Savi 7xx
 	ad01  GameCom 777 5.1 Headset
 	af01  DA80
@@ -4566,7 +4570,7 @@
 	0143  GT-S55
 	0144  GT-S85
 	0151  Perfection V800 Photo
-	0202  Receipt Printer M129C/TM-T70
+	0202  Interface Card UB-U05 for Thermal Receipt Printers [M129C/TM-T70/TM-T88IV]
 	0401  CP 800 Digital Camera
 	0402  PhotoPC 850z
 	0403  PhotoPC 3000z
@@ -4644,7 +4648,7 @@
 	0849  Stylus SX205
 	084a  PX-501A [Stylus NX400]
 	084d  PX-402A [Stylus SX115/Stylus NX110 Series]
-	084f  ME OFFICE 510
+	084f  Multifunctional Printer Scanner [ME Office 510 / Epson Stylus SX215]
 	0850  EP-702A [Stylus Photo PX650/TX650 Series]
 	0851  Stylus SX410
 	0852  EP-802A [Artisan 710 Series/Stylus Photo PX710W/TX720W Series]
@@ -4685,6 +4689,7 @@
 	0891  Stylus Office BX535WD
 	0892  Stylus Office BX935FWD
 	0893  EP-774A
+	0e03  Thermal Receipt Printer [TM-T20]
 	1114  XP-440 [Expression Home Small-in-One Printer]
 	1129  ET-4750 [WorkForce ET-4750 EcoTank All-in-One]
 04b9  Rainbow Technologies, Inc.
@@ -4819,8 +4824,10 @@
 	072c  Revio KD20M
 	072d  Revio KD410Z
 04ca  Lite-On Technology Corp.
+	0020  USB Keyboard
 	004b  Keyboard
 	004f  SK-9020 keyboard
+	008a  Acer Wired Mouse Model SM-9023
 	1766  HID Monitor Controls
 	2004  Bluetooth 4.0 [Broadcom BCM20702A0]
 	2006  Broadcom BCM43142A0 Bluetooth Device
@@ -4830,6 +4837,7 @@
 	300d  Atheros AR3012 Bluetooth
 	300f  Atheros AR3012 Bluetooth
 	3014  Qualcomm Atheros Bluetooth
+	3015  Qualcomm Atheros QCA9377 Bluetooth
 	7022  HP HD Webcam
 	7025  HP HD Webcam
 	7046  TOSHIBA Web Camera - HD
@@ -4989,6 +4997,7 @@
 	9015  ICD 4 In-Circuit Debugger
 	c001  PicoLCD 20x4
 	e11c  TL866CS EEPROM Programmer [MiniPRO]
+	ed16  BeamiRC 2.0 CNC remote controller analoge
 	edb4  micro PLC (ATSAMD51G19A) [Black Brix ECU II]
 	edb5  ATMEGA32U4 [Black Brix ECU]
 	f2c4  Macareux-labs Hygrometry Temperature Sensor
@@ -5011,6 +5020,7 @@
 	ffef  PICoPLC [APStech]
 04d9  Holtek Semiconductor, Inc.
 	0022  Portable Keyboard
+	0348  Keyboard
 	048e  Optical Mouse
 	0499  Optical Mouse
 	1135  Mouse [MGK-15BU/MLK-15BU]
@@ -5037,6 +5047,8 @@
 	a09f  E-Signal LUOM G10 Mechanical Gaming Mouse
 	a100  Mouse [HV-MS735]
 	a11b  Mouse [MX-3200]
+	a29f  Microarray fingerprint reader
+	b534  LGT8F328P Microprocessor
 	e002  MCU
 04da  Panasonic (Matsushita)
 	0901  LS-120 Camera
@@ -5443,6 +5455,8 @@
 	7081  Human Interface Device
 	7301  Fingerprint Device
 	8001  Handheld
+	8002  Portable SSD 500GB Model Number: MU - P8500B
+	8003  Portable SSD T1
 	d003  GT-I9003
 	e020  SERI E02 SCOM 6200 UMTS Phone
 	e021  SERI E02 SCOM 6200 Virtual UARTs
@@ -5486,6 +5500,7 @@
 	0833  KU-0833 Keyboard
 	0841  HP Multimedia Keyboard
 	0860  2.4G Multimedia Wireless Kit
+	0939  Amazon Basics mouse
 	1061  HP KG-1061 Wireless Keyboard+Mouse
 	1121  Periboard 717 Mini Wireless Keyboard
 	a001  E-Video DC-100 Camera
@@ -5547,6 +5562,7 @@
 	b217  Lenovo Integrated Camera (0.3MP)
 	b221  integrated camera
 	b230  Integrated HP HD Webcam
+	b249  HP Integrated Webcam
 	b257  Lenovo Integrated Camera
 	b26b  Sony Visual Communication Camera
 	b272  Lenovo EasyCamera
@@ -5564,11 +5580,13 @@
 	b3fd  HD WebCam (Asus N-series)
 	b40e  HP Truevision HD camera
 	b444  Lenovo Integrated Webcam
+	b49f  Bluetooth (RTL8723BE)
 	b563  Integrated Camera
 	b5ce  Integrated Camera
 	b5cf  Integrated IR Camera
 	b5db  HP Webcam
 	b604  Integrated Camera (1280x720@30)
+	b681  ThinkPad T490 Webcam
 04f3  Elan Microelectronics Corp.
 	000a  Touchscreen
 	0103  ActiveJet K-2024 Multimedia Keyboard
@@ -5632,6 +5650,8 @@
 	0039  HL-5340 series
 	0041  HL-2250DN Laser Printer
 	0042  HL-2270DW Laser Printer
+	004d  HL-6180DW series
+	0080  HL-L6250DN series
 	0100  MFC8600/9650 series
 	0101  MFC9600/9870 series
 	0102  MFC9750/1200 series
@@ -5842,6 +5862,7 @@
 	023e  DCP-197C
 	023f  MFC-8680DN
 	0240  MFC-J950DN
+	0245  MFC-9560CDW
 	0248  DCP-7055 scanner/printer
 	024e  MFC-7460DN
 	0253  DCP-J125
@@ -6083,6 +6104,7 @@
 	03bb  MFC-L2680W
 	03bc  MFC-L2700DN
 	03bd  DCP-J762N
+	03fd  ADS-2700W
 	1000  Printer
 	1002  Printer
 	2002  PTUSB Printing
@@ -6095,7 +6117,10 @@
 	2027  QL-560 P-touch Label Printer
 	2028  QL-570 P-touch Label Printer
 	202b  PT-7600 P-touch Label Printer
+	202c  PT-1230PC P-touch Label Printer E mode
+	2030  PT-1230PC P-touch Label Printer EL mode
 	2041  PT-2730 P-touch Label Printer
+	2042  QL-700 P-touch Label Printer
 	2061  PT-P700 P-touch Label Printer
 	2064  PT-P700 P-touch Label Printer RemovableDisk
 	209b  QL-800 P-touch Label Printer
@@ -6648,6 +6673,7 @@
 	02c4  Device
 	02d1  DVD RW
 	02d2  PSP Slim
+	02d4  UP-CX1
 	02d8  SBAC-US10 SxS PRO memory card reader/writer
 	02e1  FeliCa S330 [PaSoRi]
 	02ea  PlayStation 3 Memory Card Adaptor
@@ -6666,6 +6692,9 @@
 	0385  Walkman NWZ-E436F
 	0387  IC Recorder (P)
 	03bc  Webbie HD - MHS-CM1
+	03c3  UP-DR80MD
+	03c4  Stryker SDP1000
+	03c5  UP-DR80
 	03cc  SD Card Reader
 	03d1  DPF-X95
 	03d3  DR-BT100CX
@@ -6695,6 +6724,7 @@
 	0c02  ILCE-7M3 [A7III] in Mass Storage mode
 	0c03  ILCE-7M3 [A7III] in MTP mode
 	0c34  ILCE-7M3 [A7III] in PC Remote mode
+	0cd3  WH-1000XM3 [Wireless Noise-Canceling Headphones]
 	0cda  PlayStation Classic controller
 	1000  Wireless Buzz! Receiver
 054d  Try Corp.
@@ -6852,6 +6882,8 @@
 	2802  Kbd Hub
 	3002  Keyboard
 	3004  Genius KB-29E
+	3013  BakkerElkhuizen Wired Keyboard S-board 840 Design
+	3020  BakkerElkhuizen Wired Keyboard S-board 840 Design USB-Hub
 	3027  Sun-Flex ProTouch
 	3107  Keyboard
 	3132  Optical mouse M-DY4DR / M-DY6DR
@@ -6922,6 +6954,7 @@
 	0093  TPC93
 	0097  TPC97
 	009a  TPC9A
+	00a2  STU-300B [LCD signature pad]
 	00b0  PTZ-430 [Intuos3 (4x5)]
 	00b1  PTZ-630 [Intuos3 (6x8)]
 	00b2  PTZ-930 [Intuos3 (9x12)]
@@ -6967,6 +7000,7 @@
 	00f4  DTK-2400 [Cintiq 24HD] tablet
 	00f6  DTH-2400 [Cintiq 24HD touch] touchscreen
 	00f8  DTH-2400 [Cintiq 24HD touch] tablet
+	00f9  DTK-2200 [Cintiq 22HD] hub
 	00fa  DTK-2200 [Cintiq 22HD] tablet
 	00fb  DTU-1031
 	0100  TPC100
@@ -7004,8 +7038,8 @@
 	033d  CTL-690 [Intuos Draw (M)]
 	033e  CTH-690 [Intuos Art (M)]
 	0343  DTK-1651
-	0347  Integrated Hub
-	0348  Integrated Hub
+	0347  DTH-W1620 [MobileStudio Pro 16] internal hub
+	0348  DTH-W1620 [MobileStudio Pro 16] external hub
 	034a  DTH-W1320 [MobileStudio Pro 13] touchscreen
 	034b  DTH-W1620 [MobileStudio Pro 16] touchscreen
 	034d  DTH-W1320 [MobileStudio Pro 13] tablet
@@ -7038,6 +7072,16 @@
 	038e  DTH-3220 [Cintiq Pro 32] external hub
 	038f  DTH-3220 [Cintiq Pro 32] internal hub
 	0390  DTK-1660 [Cintiq 16]
+	0392  PTH-460 [Intuos Pro (S)]
+	0396  DTK-1660E
+	0398  DTH-W1320 [MobileStudio Pro 13] tablet
+	0399  DTH-W1620 [MobileStudio Pro 16] tablet
+	039a  DTH-W1320 [MobileStudio Pro 13] touchscreen
+	039b  DTH-W1620 [MobileStudio Pro 16] touchscreen
+	039c  DTH-W1320 [MobileStudio Pro 16] external hub
+	039d  DTH-W1320 [MobileStudio Pro 16] internal hub
+	03aa  DTH-W1620 [MobileStudio Pro 16] tablet
+	03ac  DTH-W1620 [MobileStudio Pro 16] touchscreen
 	0400  PenPartner 4x5
 	4001  TPC4001
 	4004  TPC4004
@@ -7056,6 +7100,7 @@
 	0001  Monitor
 	0002  HID Monitor Controls
 	0003  Device Bay Controller
+	4001  Monitor
 056e  Elecom Co., Ltd
 	0002  29UO Mouse
 	0057  Micro Grast Pop M-PGDL
@@ -7091,6 +7136,8 @@
 	00a4  Blue LED Mouse M-BL06DB
 	00a5  M-NV1BR Bluetooth Mouse
 	00a7  Blue LED Mouse M-BL08DB
+	00a8  M-BL09DB Mouse
+	00a9  M-BL10UB Mouse
 	2003  JC-U3613M
 	2004  JC-U3613M
 	200c  LD-USB/TX
@@ -17028,6 +17075,7 @@
 	0a41  MI-2540D [Optical mouse]
 	0a4c  USB+PS/2 Optical Mouse
 	0a4d  Optical Mouse
+	0a4e  AM-5400 [Optical Mouse]
 	0a4f  Optical Mouse
 15dc  Hynix Semiconductor Inc.
 15e0  Seong Ji Industrial Co., Ltd.
@@ -19265,6 +19313,18 @@
 22b9  eTurboTouch Technology, Inc.
 	0006  Touch Screen
 22ba  Technology Innovation Holdings, Ltd
+22c9  StepOver GmbH
+	0601  naturaSign Pad Colour
+	0701  naturaSign Pad Mobile
+	0801  naturaSign Pad Comfort
+	0881  naturaSign Pad Flawless
+	0901  naturaSign Pad Classic
+	09e1  naturaSign Pad Biometric
+	0ce1  duraSign Pad Brilliance
+	0cf1  duraSign Pad Biometric 5.0
+	0d01  duraSign 10.0
+	0df1  duraSign Pad Biometric 10.0
+22cd  Kinova Robotics Inc.
 22e0  secunet Security Networks AG
 	0002  SINA Flash Drive
 	0003  SINA ID Token A
@@ -19576,6 +19636,8 @@
 	14ea  GW-US11H WLAN
 2c1a  Dolphin Peripherals
 	0000  Wireless Optical Mouse
+2c23  Supermicro Computer Incorporated
+	1b83  NIC
 2c7c  Quectel Wireless Solutions Co., Ltd.
 	0121  EC21 LTE modem
 	0125  EC25 LTE modem

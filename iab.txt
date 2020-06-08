@@ -25682,12 +25682,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Incheon    404-300
                                                             KR
 
-00-50-C2                      (hex)                         Computechnic AG
-5E3000-5E3FFF                 (base 16)                     Computechnic AG
-                                                            Bachwiesstrasse 24
-                                                            Rorschacherberg  St. Gallen  9404
-                                                            CH
-
 00-50-C2                      (hex)                         Automata Spa
 5D0000-5D0FFF                 (base 16)                     Automata Spa
                                                             Via Carducci 705
@@ -27044,12 +27038,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Modiin    71700
                                                             IL
 
-00-50-C2                      (hex)                         SR Research Ltd.
-139000-139FFF                 (base 16)                     SR Research Ltd.
-                                                            740 Meadow Wood Road
-                                                            Mississauga  Ontario  L5J 2S6
-                                                            CA
-
 00-50-C2                      (hex)                         InBus Engineering, Inc.
 131000-131FFF                 (base 16)                     InBus Engineering, Inc.
                                                             6233 Industrial Way
@@ -27374,8 +27362,20 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Lutz  FL  33558
                                                             US
 
-00-50-C2                      (hex)                         Midas Technology, Inc. dba Stem Audio / Phoenix Au
-F48000-F48FFF                 (base 16)                     Midas Technology, Inc. dba Stem Audio / Phoenix Au
+00-50-C2                      (hex)                         Phoenix Audio Technologies
+F48000-F48FFF                 (base 16)                     Phoenix Audio Technologies
                                                             2552 White Road, Suite A
                                                             Irvine  CA  92614
                                                             US
+
+00-50-C2                      (hex)                         SR RESEARCH LTD
+139000-139FFF                 (base 16)                     SR RESEARCH LTD
+                                                            740 Meadow Wood Road
+                                                            Mississauga  Ontario  L5J 2S6
+                                                            CA
+
+00-50-C2                      (hex)                         Computechnic AG
+5E3000-5E3FFF                 (base 16)                     Computechnic AG
+                                                            Rietlistrasse 3
+                                                            Rorschacherberg  Goldach  9403
+                                                            CH
