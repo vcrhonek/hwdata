@@ -27368,14 +27368,14 @@ F48000-F48FFF                 (base 16)                     Phoenix Audio Techno
                                                             Irvine  CA  92614
                                                             US
 
-00-50-C2                      (hex)                         Computechnic AG
-5E3000-5E3FFF                 (base 16)                     Computechnic AG
-                                                            Rietlistrasse 3
-                                                            Rorschacherberg  Goldach  9403
-                                                            CH
-
 00-50-C2                      (hex)                         SR RESEARCH LTD
 139000-139FFF                 (base 16)                     SR RESEARCH LTD
                                                             740 Meadow Wood Road
                                                             Mississauga  Ontario  L5J 2S6
                                                             CA
+
+00-50-C2                      (hex)                         Computechnic AG
+5E3000-5E3FFF                 (base 16)                     Computechnic AG
+                                                            Rietlistrasse 3
+                                                            Rorschacherberg  Goldach  9403
+                                                            CH
