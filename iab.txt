@@ -6101,12 +6101,6 @@ EE6000-EE6FFF                 (base 16)                     Narinet, Inc.
                                                             Sugar Land  Texas  77478
                                                             US
 
-40-D8-55                      (hex)                         KMtronic LTD
-163000-163FFF                 (base 16)                     KMtronic LTD
-                                                            Dobry Czintulov 28A
-                                                            Gorna Oriahovitca  VT  5100
-                                                            BG
-
 40-D8-55                      (hex)                         NFT Automatisierungssysteme GmbH
 164000-164FFF                 (base 16)                     NFT Automatisierungssysteme GmbH
                                                             Ignatz-Wiemeler-Str. 16
@@ -10564,6 +10558,12 @@ AB5000-AB5FFF                 (base 16)                     Mettler Toledo
                                                             13550 SW Karl Braun Drive
                                                             Beaverton  OR  97077
                                                             US
+
+40-D8-55                      (hex)                         KMtronic ltd
+163000-163FFF                 (base 16)                     KMtronic ltd
+                                                            Dobry Czintulov 28A
+                                                            Gorna Oriahovitca  VT  5100
+                                                            BG
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
@@ -25682,12 +25682,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Incheon    404-300
                                                             KR
 
-00-50-C2                      (hex)                         Computechnic AG
-5E3000-5E3FFF                 (base 16)                     Computechnic AG
-                                                            Bachwiesstrasse 24
-                                                            Rorschacherberg  St. Gallen  9404
-                                                            CH
-
 00-50-C2                      (hex)                         Automata Spa
 5D0000-5D0FFF                 (base 16)                     Automata Spa
                                                             Via Carducci 705
@@ -27044,12 +27038,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Modiin    71700
                                                             IL
 
-00-50-C2                      (hex)                         SR Research Ltd.
-139000-139FFF                 (base 16)                     SR Research Ltd.
-                                                            740 Meadow Wood Road
-                                                            Mississauga  Ontario  L5J 2S6
-                                                            CA
-
 00-50-C2                      (hex)                         InBus Engineering, Inc.
 131000-131FFF                 (base 16)                     InBus Engineering, Inc.
                                                             6233 Industrial Way
@@ -27379,3 +27367,15 @@ F48000-F48FFF                 (base 16)                     Phoenix Audio Techno
                                                             2552 White Road, Suite A
                                                             Irvine  CA  92614
                                                             US
+
+00-50-C2                      (hex)                         SR RESEARCH LTD
+139000-139FFF                 (base 16)                     SR RESEARCH LTD
+                                                            740 Meadow Wood Road
+                                                            Mississauga  Ontario  L5J 2S6
+                                                            CA
+
+00-50-C2                      (hex)                         Computechnic AG
+5E3000-5E3FFF                 (base 16)                     Computechnic AG
+                                                            Rietlistrasse 3
+                                                            Rorschacherberg  Goldach  9403
+                                                            CH
