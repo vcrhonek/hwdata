@@ -3335,12 +3335,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Santa Clara  CA  95054
                                                             US
 
-00-50-C2                      (hex)                         Austco Communication Systems Pty Ltd
-787000-787FFF                 (base 16)                     Austco Communication Systems Pty Ltd
-                                                            40 O'Malley Street
-                                                            Osborne Park  Western Australia  6017
-                                                            AU
-
 00-50-C2                      (hex)                         Quantum Medical Imaging
 7A5000-7A5FFF                 (base 16)                     Quantum Medical Imaging
                                                             2002 Orville Drive, North
@@ -5498,6 +5492,12 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Hampshire    RG24 8AH
                                                             GB
 
+00-50-C2                      (hex)                         Austco Marketing & Service (USA) ltd.
+787000-787FFF                 (base 16)                     Austco Marketing & Service (USA) ltd.
+                                                            9155 Sterling St Unit 100
+                                                            Irving  TX  75063
+                                                            US
+
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
                                                             1662 Route 300
@@ -7399,12 +7399,6 @@ C39000-C39FFF                 (base 16)                     SECAD SA
                                                             Zac des Pellants
                                                             St Martin du Fresne    01430
                                                             FR
-
-00-50-C2                      (hex)                         Austco Communication Systems Pty Ltd
-C26000-C26FFF                 (base 16)                     Austco Communication Systems Pty Ltd
-                                                            40 O'Malley Street
-                                                            Osborne Park  Western Australia  6017
-                                                            AU
 
 00-50-C2                      (hex)                         Audient Ltd
 C22000-C22FFF                 (base 16)                     Audient Ltd
@@ -10433,12 +10427,6 @@ A09000-A09FFF                 (base 16)                     Innovative American 
                                                             McKinney  TX  75069
                                                             US
 
-00-50-C2                      (hex)                         Austco Communication Systems Pty, Ltd
-059000-059FFF                 (base 16)                     Austco Communication Systems Pty, Ltd
-                                                            40 O'Malley St
-                                                            Osborne Park  Western Australia 6017
-                                                            AU
-
 00-50-C2                      (hex)                         MiSPO Co., Ltd.
 040000-040FFF                 (base 16)                     MiSPO Co., Ltd.
                                                             Kanagawa Prefecture,
@@ -10563,6 +10551,18 @@ C63000-C63FFF                 (base 16)                     Potter Electric Sign
 0F1000-0F1FFF                 (base 16)                     Steelcase Inc.
                                                             901 44th Street SE
                                                             Grand Rapids  MI  49508-7594
+                                                            US
+
+00-50-C2                      (hex)                         Austco Marketing & Service (USA) ltd.
+C26000-C26FFF                 (base 16)                     Austco Marketing & Service (USA) ltd.
+                                                            9155 Sterling St Unit 100
+                                                            Irving  TX  75063
+                                                            US
+
+00-50-C2                      (hex)                         Austco Marketing & Service (USA) ltd.
+059000-059FFF                 (base 16)                     Austco Marketing & Service (USA) ltd.
+                                                            9155 Sterling St Unit 100
+                                                            Irving  TX  75063
                                                             US
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
@@ -13426,12 +13426,6 @@ A1A000-A1AFFF                 (base 16)                     DDL
                                                             999 Broadway
                                                             Saugus  MA  01906
                                                             US
-
-00-50-C2                      (hex)                         Austco Communication Systems Pty Ltd
-9F8000-9F8FFF                 (base 16)                     Austco Communication Systems Pty Ltd
-                                                            40 O'Malley Street
-                                                            Osborne Park  Western Australia  6017
-                                                            AU
 
 00-50-C2                      (hex)                         Adgil Design Inc.
 A05000-A05FFF                 (base 16)                     Adgil Design Inc.
@@ -16304,6 +16298,12 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             Co Cork  Little Island  n/A
                                                             IE
 
+00-50-C2                      (hex)                         Austco Marketing & Service (USA) ltd.
+9F8000-9F8FFF                 (base 16)                     Austco Marketing & Service (USA) ltd.
+                                                            9155 Sterling St Unit 100
+                                                            Irving  TX  75063
+                                                            US
+
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
                                                             99, rue Pierre Semard
@@ -17257,12 +17257,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             1326 Monde
                                                             Sojya city  Okayama prefecture  7191156
                                                             JP
-
-40-D8-55                      (hex)                         elgris
-06A000-06AFFF                 (base 16)                     elgris
-                                                            Krantzstr 7
-                                                            Aachen  NRW  52070
-                                                            DE
 
 40-D8-55                      (hex)                         Wheatstone Corporation
 07F000-07FFFF                 (base 16)                     Wheatstone Corporation
@@ -21558,6 +21552,12 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
 3F3000-3F3FFF                 (base 16)                     Hitachi ABB Power Grids – Grid Automation
                                                             Kallstadter Strasse 1
                                                             Mannheim    68309
+                                                            DE
+
+40-D8-55                      (hex)                         elgris UG
+06A000-06AFFF                 (base 16)                     elgris UG
+                                                            Krantzstr 7
+                                                            Aachen  NRW  52070
                                                             DE
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
