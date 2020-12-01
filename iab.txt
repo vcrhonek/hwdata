@@ -10547,12 +10547,6 @@ AB5000-AB5FFF                 (base 16)                     Mettler Toledo
                                                             Grand Rapids  MI  49508-7594
                                                             US
 
-00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
-C63000-C63FFF                 (base 16)                     Potter Electric Signal Co. LLC
-                                                            1609 Park 370 Place
-                                                            Hazelwood  MO  63042
-                                                            US
-
 00-50-C2                      (hex)                         Austco Marketing & Service (USA) ltd.
 C26000-C26FFF                 (base 16)                     Austco Marketing & Service (USA) ltd.
                                                             9155 Sterling St Unit 100
@@ -10563,6 +10557,12 @@ C26000-C26FFF                 (base 16)                     Austco Marketing & S
 059000-059FFF                 (base 16)                     Austco Marketing & Service (USA) ltd.
                                                             9155 Sterling St Unit 100
                                                             Irving  TX  75063
+                                                            US
+
+00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
+C63000-C63FFF                 (base 16)                     Potter Electric Signal Co. LLC
+                                                            1609 Park 370 Place
+                                                            Hazelwood  MO  63042
                                                             US
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
@@ -25043,12 +25043,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Costa Mesa  CA  92626
                                                             US
 
-00-50-C2                      (hex)                         Lyngsoe Systems
-7EC000-7ECFFF                 (base 16)                     Lyngsoe Systems
-                                                            5570 Kennedy RD
-                                                            Mississauga  Ontario  L4Z 2A9
-                                                            CA
-
 00-50-C2                      (hex)                         Private
 7DF000-7DFFFF                 (base 16)                     Private
 
@@ -27362,20 +27356,26 @@ F48000-F48FFF                 (base 16)                     Phoenix Audio Techno
                                                             Irvine  CA  92614
                                                             US
 
-00-50-C2                      (hex)                         SR RESEARCH LTD
-139000-139FFF                 (base 16)                     SR RESEARCH LTD
-                                                            740 Meadow Wood Road
-                                                            Mississauga  Ontario  L5J 2S6
-                                                            CA
-
 00-50-C2                      (hex)                         Computechnic AG
 5E3000-5E3FFF                 (base 16)                     Computechnic AG
                                                             Rietlistrasse 3
                                                             Rorschacherberg  Goldach  9403
                                                             CH
 
+00-50-C2                      (hex)                         SR RESEARCH LTD
+139000-139FFF                 (base 16)                     SR RESEARCH LTD
+                                                            740 Meadow Wood Road
+                                                            Mississauga  Ontario  L5J 2S6
+                                                            CA
+
 00-50-C2                      (hex)                         Potter Electric Signal Co. LLC
 DF4000-DF4FFF                 (base 16)                     Potter Electric Signal Co. LLC
                                                             1609 Park 370 Place
                                                             Hazelwood  MO  63042
                                                             US
+
+00-50-C2                      (hex)                         Lyngsoe Systems
+7EC000-7ECFFF                 (base 16)                     Lyngsoe Systems
+                                                            101 Simona Dr Unit 2
+                                                            Bolton  Ontario  L7E 4E8
+                                                            CA
