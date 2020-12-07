@@ -3,3 +3,7 @@ Requisities:
   unoconf - python script using libreoffice to convert all office
             documents to anything else
     * used to update pnp.ids from MS database.
+    
+    
+Related:
+ * python binding https://github.com/xsuchy/python-hwdata
