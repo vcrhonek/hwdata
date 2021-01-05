@@ -1,17 +1,15 @@
-Index: hwdata/pnp.ids.txt
-===================================================================
---- hwdata.orig/pnp.ids.orig
-+++ hwdata/pnp.ids.orig
-@@ -176,7 +176,7 @@ ATT	AT&T
- ATV	Office Depot, Inc.
+--- pnp.ids.orig	2021-01-05 16:26:54.238200757 +0100
++++ pnp.ids	2021-01-05 16:26:54.240200773 +0100
+@@ -191,7 +191,7 @@
  ATX	Athenix Corporation
+ AUG	August Home, Inc.
  AUI	Alps Electric Inc
 -AUO	DO NOT USE - AUO
 +AUO	AU Optronics
  AUR	Aureal Semiconductor
+ AUS	ASUSTek COMPUTER INC
  AUT	Autotime Corporation
- AVA	Avaya Communication
-@@ -502,7 +502,7 @@ DIM	dPict Imaging, Inc.
+@@ -540,7 +540,7 @@
  DIN	Daintelecom Co., Ltd
  DIS	Diseda S.A.
  DIT	Dragon Information Technology
@@ -20,16 +18,16 @@ Index: hwdata/pnp.ids.txt
  DJP	Maygay Machines, Ltd
  DKY	Datakey Inc
  DLB	Dolby Laboratories Inc.
-@@ -792,7 +792,7 @@ GRV	Advanced Gravis
+@@ -862,7 +862,7 @@
  GRY	Robert Gray Company
  GSB	NIPPONDENCHI CO,.LTD
  GSC	General Standards Corporation
 -GSM	Goldstar Company Ltd
 +GSM	LG Electronics
+ GSN	Grandstream Networks, Inc.
  GST	Graphic SystemTechnology
  GSY	Grossenbacher Systeme AG
- GTC	Graphtec Corporation
-@@ -1141,7 +1141,7 @@ LOG	Logicode Technology Inc
+@@ -1246,7 +1246,7 @@
  LOL	Litelogic Operations Ltd
  LPE	El-PUSK Co., Ltd.
  LPI	Design Technology
@@ -38,7 +36,7 @@ Index: hwdata/pnp.ids.txt
  LSC	LifeSize Communications
  LSD	Intersil Corporation
  LSI	Loughborough Sound Images
-@@ -2066,9 +2066,9 @@ UMM	Universal Multimedia
+@@ -2258,9 +2258,9 @@
  UNA	Unisys DSD
  UNB	Unisys Corporation
  UNC	Unisys Corporation
@@ -49,12 +47,12 @@ Index: hwdata/pnp.ids.txt
 +UNE	Unisys Corporation
 +UNF	Unisys Corporation
  UNI	Uniform Industry Corp.
- UNI	Unisys Corporation
  UNM	Unisys Corporation
-@@ -2189,7 +2189,7 @@ WVM	Wave Systems Corporation
- WVV	WolfVision GmbH
+ UNO	Unisys Corporation
+@@ -2396,7 +2396,7 @@
  WWV	World Wide Video, Inc.
  WXT	Woxter Technology Co. Ltd
+ WYR	WyreStorm Technologies LLC
 -WYS	Myse Technology
 +WYS	Wyse Technology
  WYT	Wooyoung Image & Information Co.,Ltd.
