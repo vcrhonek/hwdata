@@ -115,7 +115,7 @@ iab.txt.downloaded:
 
 pnp.ids.xlsx:
 	@curl -o $@ \
-	    http://download.microsoft.com/download/7/E/7/7E7662CF-CBEA-470B-A97E-CE7CE0D98DC2/ISA_PNPID_List.xlsx
+	    https://www.uefi.org/uefi-pnp-export
 
 usb.ids: usb.ids.utf8
 	dos2unix -n $? $@
@@ -130,17 +130,17 @@ iab.txt: iab.txt.utf8
 	dos2unix -n $? $@
 
 pnp.ids.orig: pnp.ids.xlsx
-	@unoconv --stdout -f csv $? | \
+	grep "class" $? | \
 	    tr ' ' ' ' | \
 	    sed -n \
-		-e 's/^\s*"\s*\(.*\)\s*"/\1/' \
-		-e 's/\s\{2,\}/ /g' \
-		-e 's/\s*(used as 2nd pnpid)\s*//' \
-		-e 's:^\(.*\)\s*,\s*\([a-zA-Z@]\{3\}\)\s*,\s*\([0-9]\+/[0-9]\+/[0-9]\+\):\2\t\1:p' | \
+	        -e 's/\s\{2,\}/ /g' \
+	        -e 's/\&amp;/\&/g' \
+	        -e "s/\&#039;/'/g" \
+	        -e 's:^.*<tr class=".*"><td>\(.*\)</td><td>\([a-zA-Z@]\{3\}\).*</td><td>.*$$:\2\t\1:p' | \
 	    sed 's/\s*$$//' | sort -u >$@
 
 pnp.ids: pnp.ids.orig pnp.ids.patch
-	patch -o $@ <pnp.ids.patch
+	patch -p1 -o $@ pnp.ids.orig pnp.ids.patch
 
 %.utf8: %.downloaded
 	@text=`LANG=C file $?`
