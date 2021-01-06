@@ -6,6 +6,7 @@ License: GPLv2+
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
 BuildArch: noarch
+BuildRequires: make
 
 %description
 hwdata contains various hardware identification and configuration data,
