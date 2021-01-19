@@ -20,8 +20,7 @@ such as the pci.ids and usb.ids databases.
 # nothing to build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
+%make_install libdir=%{_prefix}/lib
 
 %files
 %license COPYING
