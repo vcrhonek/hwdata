@@ -1529,12 +1529,6 @@ E73000-E73FFF                 (base 16)                     ACS Motion Control L
                                                             Migdal Ha'Emek    10500
                                                             IL
 
-00-50-C2                      (hex)                         TAIYO SEIKI CO.,LTD.
-E60000-E60FFF                 (base 16)                     TAIYO SEIKI CO.,LTD.
-                                                            1600 Aza-Shironoshita Asahi
-                                                            Shin Asahi-cho  Takashima, Shiga  520-1501
-                                                            JP
-
 00-50-C2                      (hex)                         Institute For Information Industry
 E4E000-E4EFFF                 (base 16)                     Institute For Information Industry
                                                             7F., No.133, Sec. 4, Minsheng E. Rd.
@@ -4571,12 +4565,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Houston  TX  77002
                                                             US
 
-00-50-C2                      (hex)                         BMK professional electronics GmbH
-34D000-34DFFF                 (base 16)                     BMK professional electronics GmbH
-                                                            Werner-von-Siemens-Str. 6
-                                                            Augsburg  Bavaria  86156
-                                                            DE
-
 00-50-C2                      (hex)                         Novx Systems
 341000-341FFF                 (base 16)                     Novx Systems
                                                             Suite 100
@@ -5497,6 +5485,18 @@ A2A000-A2AFFF                 (base 16)                     Astronics Custom Con
                                                             6020 S 190th St
                                                             Kent  WA  98032
                                                             US
+
+00-50-C2                      (hex)                         Horizon Co., Ltd
+E60000-E60FFF                 (base 16)                     Horizon Co., Ltd
+                                                            1600 Aza-Shironoshita Asahi
+                                                            Shin Asahi-cho  Takashima, Shiga  520-1501
+                                                            JP
+
+00-50-C2                      (hex)                          BMK professional electronics GmbH
+34D000-34DFFF                 (base 16)                      BMK professional electronics GmbH
+                                                            Werner-von-Siemens-Straße 6
+                                                            Augsburg     86159
+                                                            DE
 
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
@@ -17174,12 +17174,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             Nanjing    210019
                                                             US
 
-40-D8-55                      (hex)                         insensiv GmbH
-0C7000-0C7FFF                 (base 16)                     insensiv GmbH
-                                                            Heidsieker Heide 114
-                                                            Bielefeld  Nordrhein-Westfalen  33739
-                                                            DE
-
 40-D8-55                      (hex)                         MITSUBISHI ELECTRIC SYSTEM & SERVICE CO.,LTD.
 0B4000-0B4FFF                 (base 16)                     MITSUBISHI ELECTRIC SYSTEM & SERVICE CO.,LTD.
                                                             26-43,1-Chome,Yata,Higashi-ku
@@ -21558,6 +21552,12 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
 06A000-06AFFF                 (base 16)                     elgris UG
                                                             Krantzstr 7
                                                             Aachen  NRW  52070
+                                                            DE
+
+40-D8-55                      (hex)                         insensiv GmbH
+0C7000-0C7FFF                 (base 16)                     insensiv GmbH
+                                                            Auf dem Esch 28
+                                                            Bielefeld  Nordrhein-Westfalen  33619
                                                             DE
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
