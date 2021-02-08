@@ -108,7 +108,7 @@ pci.ids.downloaded:
 	@curl -o $@ https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
 
 oui.txt.downloaded:
-	@curl -o $@ -O http://standards-oui.ieee.org/oui.txt
+	@curl -o $@ -O http://standards-oui.ieee.org/oui/oui.txt
 
 iab.txt.downloaded:
 	@curl -o $@ -O http://standards-oui.ieee.org/iab/iab.txt
