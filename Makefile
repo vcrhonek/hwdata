@@ -115,7 +115,7 @@ iab.txt.downloaded:
 
 pnp.ids.xlsx:
 	@curl -o $@ \
-	    https://www.uefi.org/uefi-pnp-export
+	    https://uefi.org/uefi-pnp-export
 
 usb.ids: usb.ids.utf8
 	dos2unix -n $? $@
