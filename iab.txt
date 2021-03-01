@@ -1277,12 +1277,6 @@ F3D000-F3DFFF                 (base 16)                     Project service S.a.
                                                             Seriate  Bergamo  24100
                                                             IT
 
-00-50-C2                      (hex)                         Vemco Sp. z o. o.
-F3C000-F3CFFF                 (base 16)                     Vemco Sp. z o. o.
-                                                            ul. Broniewskiego 3
-                                                            Sopot  pomorskie  81-837
-                                                            US
-
 00-50-C2                      (hex)                         Rosslare Enterprises Limited
 F37000-F37FFF                 (base 16)                     Rosslare Enterprises Limited
                                                             Flat 912 Wing Fat Industrial Building
@@ -5497,6 +5491,12 @@ E60000-E60FFF                 (base 16)                     Horizon Co., Ltd
                                                             Werner-von-Siemens-Straße 6
                                                             Augsburg     86159
                                                             DE
+
+00-50-C2                      (hex)                         Vemco Sp. z o. o.
+F3C000-F3CFFF                 (base 16)                     Vemco Sp. z o. o.
+                                                            ul. Biala 1
+                                                            Gdansk    80-435
+                                                            PL
 
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
@@ -26246,12 +26246,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Almere    1351 HL
                                                             NL
 
-00-50-C2                      (hex)                         Wisnu and Supak Co.Ltd.
-3D4000-3D4FFF                 (base 16)                     Wisnu and Supak Co.Ltd.
-                                                            102/111-112 Moo-Ban Sinpattanathanee
-                                                            Jatujak  Bangkok  10900
-                                                            TH
-
 00-50-C2                      (hex)                         Comlab Inc.
 3D6000-3D6FFF                 (base 16)                     Comlab Inc.
                                                             2300, Leon-Harmel
@@ -27379,3 +27373,9 @@ DF4000-DF4FFF                 (base 16)                     Potter Electric Sign
                                                             101 Simona Dr Unit 2
                                                             Bolton  Ontario  L7E 4E8
                                                             CA
+
+00-50-C2                      (hex)                         Wisnu and Supak Co.,Ltd.
+3D4000-3D4FFF                 (base 16)                     Wisnu and Supak Co.,Ltd.
+                                                            102/111-112 Moo-Ban Sinpattanathanee
+                                                            Jatujak  Bangkok  10900
+                                                            TH
