@@ -5486,17 +5486,17 @@ F3C000-F3CFFF                 (base 16)                     Vemco Sp. z o. o.
                                                             Gdansk    80-435
                                                             PL
 
-00-50-C2                      (hex)                         HORIZON.INC
-E60000-E60FFF                 (base 16)                     HORIZON.INC
-                                                            1600 Aza-Shironoshita Asahi
-                                                            Shin Asahi-cho  Takashima, Shiga  520-1501
-                                                            JP
-
 00-50-C2                      (hex)                         PESA
 1AF000-1AFFFF                 (base 16)                     PESA
                                                             103 Quality Circle, Suite 210
                                                             Huntsville  AL  35806
                                                             US
+
+00-50-C2                      (hex)                         HORIZON.INC
+E60000-E60FFF                 (base 16)                     HORIZON.INC
+                                                            1600 Aza-Shironoshita Asahi
+                                                            Shin Asahi-cho  Takashima, Shiga  520-1501
+                                                            JP
 
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
