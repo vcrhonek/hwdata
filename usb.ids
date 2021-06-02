@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2021.03.31
-# Date:    2021-03-31 20:34:09
+# Version: 2021.05.18
+# Date:    2021-05-18 20:34:10
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -800,6 +800,7 @@
 	6014  FT232H Single HS USB-UART/FIFO IC
 	6015  Bridge(I2C/SPI/UART/FIFO)
 	601f  Myriad-RF LimeSDR-Mini
+	6ee0  EZO Carrier Board
 	6f70  HB-RF-USB
 	8028  Dev board JTAG (FT232H based)
 	8040  4 Port Hub
@@ -929,6 +930,7 @@
 	f7c0  ZeitControl Cardsystems TagTracer MIFARE
 	f850  USB-UIRT (Universal Infrared Receiver+Transmitter)
 	f918  Ant8 Logic Probe
+	f9d9  Wetterempfanger 147.3kHz
 	fa00  Matrix Orbital USB Serial
 	fa01  Matrix Orbital MX2 or MX3
 	fa02  Matrix Orbital MX4 or MX5
@@ -1447,6 +1449,7 @@
 	4088  Live! Cam Chat HD [VF0700]
 	4095  Live! Cam Sync HD [VF0770]
 	4097  Live! Cam Chat HD [VF0700]
+	4099  Creative VF0800 [RealSense Camera SR300]
 	4100  Nomad Jukebox 2
 	4101  Nomad Jukebox 3
 	4102  NOMAD MuVo^2
@@ -2010,6 +2013,7 @@
 	b651  Ferrari GT Rumble Force Wheel
 	b653  RGT Force Feedback Clutch Racing Wheel
 	b654  Ferrari GT Force Feedback Wheel
+	b677  T150 Racing Wheel
 	b678  T.Flight Rudder Pedals
 	b679  T-Rudder
 	b687  TWCS Throttle
@@ -2690,9 +2694,15 @@
 	0837  BCC950 ConferenceCam
 	0840  QuickCam Express
 	0843  Webcam C930e
+	0845  ConferenceCam CC3000e Camera
+	0846  ConferenceCam CC3000e Speakerphone
+	084b  ConferenceCam Connect Video
 	0850  QuickCam Web
+	0857  Logi Group Speakerphone
 	085c  C922 Pro Stream Webcam
+	085e  BRIO Ultra HD Webcam
 	0870  QuickCam Express
+	0882  Logi Group Speakerphone
 	0890  QuickCam Traveler
 	0892  C920 HD Pro Webcam
 	0893  StreamCam
@@ -3315,6 +3325,7 @@
 	5002  VideoCam CABO II
 	5003  VideoCam
 	8018  Expert Wireless Trackball Mouse (K72359WW)
+	8068  Pro Fit Ergo Vertical Wireless Trackball
 047e  Agere Systems, Inc. (Lucent)
 	0300  ORiNOCO Card
 	1001  USS720 Parallel Port
@@ -4462,6 +4473,8 @@
 	040e  DSC D70s (ptp)
 	040f  D200 (mass storage mode)
 	0410  D200 (ptp)
+	0411  D80 (mass storage mode)
+	0412  D80 (MTP/PTP mode)
 	0413  D40 (mass storage mode)
 	041e  D60 digital camera (mass storage mode)
 	0422  D700 (ptp)
@@ -5126,6 +5139,7 @@
 	e002  MCU
 	fc2a  Gaming Mouse [Redragon M709]
 	fc30  Gaming Mouse [Redragon M711]
+	fc38  Gaming Mouse [Redragon M602-RGB]
 	fc4d  Gaming Mouse [Redragon M908]
 	fc55  Venus MMO Gaming Mouse
 04da  Panasonic (Matsushita)
@@ -6846,6 +6860,7 @@
 	0cd3  WH-1000XM3 [Wireless Noise-Canceling Headphones]
 	0cda  PlayStation Classic controller
 	0ce0  WF-1000XM3 [Wireless Noise-Canceling Headphones]
+	0cf0  MRW-G1
 	0d58  WH-1000XM4 [Wireless Noise-Canceling Headphones]
 	1000  Wireless Buzz! Receiver
 054d  Try Corp.
@@ -7222,7 +7237,19 @@
 	0001  Monitor
 	0002  HID Monitor Controls
 	0003  Device Bay Controller
+	4000  FlexScan EV3237
 	4001  Monitor
+	4002  USB HID Monitor
+	4014  FlexScan EV2750
+	4026  FlexScan EV2451
+	4027  FlexScan EV2456
+	4036  FlexScan EV2785
+	4037  FlexScan EV3285
+	4044  FlexScan EV2457
+	4059  FlexScan EV2760
+	405b  FlexScan EV2460
+	405f  FlexScan EV2795
+	4065  FlexScan EV3895
 056e  Elecom Co., Ltd
 	0002  29UO Mouse
 	0057  Micro Grast Pop M-PGDL
@@ -8763,6 +8790,7 @@
 	f102  VX7012 TV Box
 	f103  VX7012 TV Box
 	f104  VX7012 TV Box
+	f12a  Digital Microscope
 	fd21  3M TL20 Temperature Logger
 	fe00  Razer Mouse
 05e4  Red Wing Corp.
@@ -8854,6 +8882,7 @@
 	0002  Sino Wealth keyboard/mouse 2.4 GHz receiver
 	00f1  Keyboard (Labtec Ultra Flat Keyboard)
 	00f2  Keyboard (Labtec Ultra Flat Keyboard)
+	1002  Mobius actioncam (webcam mode)
 	6871  Mouse
 	8611  NTK96550 based camera
 0604  Jean Co., Ltd
@@ -9555,6 +9584,12 @@
 	00f7  OKI B4600 Mono Printer
 	015e  OKIPOS 411/412 POS Printer
 	01c9  OKI B430 Mono Printer
+	01db  MC860 Multifunction Printer
+	01dc  MC860 Multifunction Printer
+	01dd  MC860 Multifunction Printer
+	01de  MC860 Multifunction Printer
+	01df  CX2633 Multifunction Printer
+	01e0  ES8460 Multifunction Printer
 	020b  OKI ES4140 Mono Printer
 	02bb  OKI PT390 POS Printer
 	0383  MC563 Multifunction Printer

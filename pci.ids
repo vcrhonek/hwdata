@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.04.26
-#	Date:    2021-04-26 03:15:02
+#	Version: 2021.05.16
+#	Date:    2021-05-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3487,6 +3487,7 @@
 	6985  Lexa XT [Radeon PRO WX 3100]
 	6986  Polaris12
 	6987  Lexa [Radeon 540X/550X/630 / RX 640 / E9171 MCM]
+	698f  Lexa XT [Radeon PRO WX 3100 / Barco MXRT 4700]
 	6995  Lexa XT [Radeon PRO WX 2100]
 	699f  Lexa PRO [Radeon 540/540X/550/550X / RX 540X/550/550X]
 		1028 1720  Radeon RX 550X
@@ -3658,6 +3659,7 @@
 	7388  Arcturus GL-XL
 	738c  Arcturus GL-XL [AMD Instinct MI100]
 	738e  Arcturus GL-XL
+	73a3  Navi 21 [Radeon PRO W6800]
 	73a4  Navi 21 USB
 	73af  Navi 21 [Radeon RX 6900 XT]
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
@@ -3669,6 +3671,9 @@
 	73e1  Navi 23
 	73e4  Navi 23 USB
 	73ff  Navi 23 [Radeon RX 6600/6600 XT/6600M]
+	7408  Aldebaran
+	740c  Aldebaran
+	740f  Aldebaran
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -12142,6 +12147,7 @@
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
+	1e09  TU102 [CMP 50HX]
 	1e2d  TU102 [GeForce RTX 2080 Ti Engineering Sample]
 	1e2e  TU102 [GeForce RTX 2080 Ti 12GB Engineering Sample]
 	1e30  TU102GL [Quadro RTX 6000/8000]
@@ -12257,6 +12263,7 @@
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
 		1462 3892  RTX 3080 10GB GAMING X TRIO
 	2208  GA102 [GeForce RTX 3080 Ti]
+	220d  GA102 [GeForce RTX 3080 Lite Hash Rate]
 	222b  GA102 [GeForce RTX 3090 Engineering Sample]
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
@@ -12281,27 +12288,32 @@
 	24ad  GA104 [GeForce RTX 3060 Engineering Sample]
 	24af  GA104 [GeForce RTX 3070 Engineering Sample]
 	24b0  GA104GL [RTX A4000]
-	24b6  GA104
-	24b8  GA104
+	24b6  GA104GLM [RTX A5000 Mobile]
+	24b7  GA104GLM [RTX A4000 Mobile]
+	24b8  GA104GLM [RTX A3000 Mobile]
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
 	2501  GA106 [GeForce RTX 3060]
 	2503  GA106 [GeForce RTX 3060]
+	2504  GA106 [GeForce RTX 3060 Lite Hash Rate]
 	2505  GA106
 	2520  GA106M [GeForce RTX 3060 Mobile / Max-Q]
+	2523  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
 	2560  GA106M [GeForce RTX 3060 Mobile / Max-Q]
+	2563  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
 	2583  GA107 [GeForce RTX 3050]
 	25a0  GA107M [GeForce RTX 3050 Ti Mobile]
 	25a2  GA107M [GeForce RTX 3050 Mobile]
 	25a4  GA107
-	25a5  GA107M
+	25a5  GA107M [GeForce RTX 3050 Mobile]
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 	25b5  GA107GLM [RTX A4 Mobile]
-	25b8  GA107GLM
-	25e0  GA107BM
-	25e2  GA107BM
+	25b8  GA107GLM [RTX A2000 Mobile]
+	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
+	25e2  GA107BM [GeForce RTX 3050 Mobile]
+	25e5  GA107BM [GeForce RTX 3050 Mobile]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -16130,8 +16142,6 @@
 	5a4b  Telsat Turbo
 1268  Tektronix
 1269  Thomson-CSF/TTM
-# MBIM on top of MHI
-	00b4  5G Data Card [Cinterion MV31-W]
 126a  Lexmark International, Inc.
 126b  Adax, Inc.
 126c  Northern Telecom
@@ -17719,9 +17729,51 @@
 	9513  OX16PCI954 (Quad 16950 UART) function 1 (parallel port)
 	9521  OX16PCI952 (Dual 16950 UART)
 	9523  OX16PCI952 Integrated Parallel Port
-	c158  OXPCIe952 Dual 16C950 UART
+# The OXPCIe952 PCI Express Bridge to Dual Serial & Parallel Port chip is a multifunction device that encodes five reset straps and 1:0 function bits in bits 6:0 of the device ID.
+# Hence it consumes a whole 128-entry block, which is however sparsely populated as obviously disabled functions do not appear in the configuration space.
+	c100  OXPCIe952 Parallel Port
+	c101  OXPCIe952 Legacy 950 UART
+	c104  OXPCIe952 Parallel Port
+	c105  OXPCIe952 Legacy 950 UART
+	c106  OXPCIe952 GPIO
+	c108  OXPCIe952 Parallel Port
+	c109  OXPCIe952 Legacy 950 UART
+	c10c  OXPCIe952 Parallel Port
+	c10d  OXPCIe952 Legacy 950 UART
+	c10e  OXPCIe952 GPIO
+	c110  OXPCIe952 Parallel Port
+	c114  OXPCIe952 Parallel Port
+	c118  OXPCIe952 Parallel Port
+	c11b  OXPCIe952 Native 950 UART
+	c11c  OXPCIe952 Parallel Port
+	c11e  OXPCIe952 GPIO
+	c11f  OXPCIe952 Native 950 UART
+	c120  OXPCIe952 Legacy 950 UART
+	c124  OXPCIe952 Legacy 950 UART
+	c126  OXPCIe952 GPIO
+	c128  OXPCIe952 Legacy 950 UART
+	c12c  OXPCIe952 Legacy 950 UART
+	c12e  OXPCIe952 GPIO
+	c134  OXPCIe952 GPIO
+	c138  OXPCIe952 Native 950 UART
+	c13c  OXPCIe952 GPIO
+	c13d  OXPCIe952 Native 950 UART
+	c140  OXPCIe952 Legacy 950 UART #1
+	c141  OXPCIe952 Legacy 950 UART #2
+	c144  OXPCIe952 Legacy 950 UART #1
+	c145  OXPCIe952 Legacy 950 UART #2
+	c146  OXPCIe952 GPIO
+	c148  OXPCIe952 Legacy 950 UART #1
+	c149  OXPCIe952 Legacy 950 UART #2
+	c14c  OXPCIe952 Legacy 950 UART #1
+	c14d  OXPCIe952 Legacy 950 UART #2
+	c14e  OXPCIe952 GPIO
+	c154  OXPCIe952 GPIO
+	c158  OXPCIe952 Dual Native 950 UART
 		e4bf c504  CP4-SCAT Wireless Technologies Carrier Board
 		e4bf d551  DU1-MUSTANG Dual-Port RS-485 Interface
+	c15c  OXPCIe952 GPIO
+	c15d  OXPCIe952 Dual Native 950 UART
 	c308  EX-44016 16-port serial
 1416  Multiwave Innovation pte Ltd
 1417  Convergenet Technologies Inc
@@ -18484,7 +18536,7 @@
 		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
-	a80a  NVMe SSD Controller PM9A1/980PRO
+	a80a  NVMe SSD Controller PM9A1/PM9A3/980PRO
 	a820  NVMe SSD Controller 171X
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
@@ -19324,8 +19376,12 @@
 	1750  BCM57508 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
 		14e4 2100  NetXtreme-E Dual-port 100G QSFP56 Ethernet PCIe4.0 x16 Adapter (BCM957508-P2100G)
 		14e4 5208  NetXtreme-E Dual-port 100G QSFP56 Ethernet OCP 3.0 Adapter (BCM957508-N2100G)
+		14e4 d124  NetXtreme-E P2100D BCM57508 2x100G QSFP PCIE
 		14e4 df24  BCM57508 NetXtreme-E NGM2100D 2x100G KR Mezz Ethernet
 	1751  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
+		14e4 5045  NetXtreme-E BCM57504 4x25G OCP3.0
+		14e4 5250  NetXtreme-E BCM57504 4x25G KR Mezz
+		14e4 d142  NetXtreme-E P425D BCM57504 4x25G SFP28 PCIE
 	1752  BCM57502 NetXtreme-E 10Gb/25Gb/40Gb/50Gb Ethernet
 	1800  BCM57502 NetXtreme-E Ethernet Partition
 	1801  BCM57504 NetXtreme-E Ethernet Partition
@@ -21363,7 +21419,9 @@
 	0004  Octeon (and older) FIPS
 	0005  Octeon CN38XX Network Processor Pass 3.x
 	0006  RoHS
-	0010  Nitrox XL NPX
+	0010  CN15XX/CN16XX [Nitrox PX]
+	0011  CNN35XX [Nitrox III]
+	0012  CNN55XX [Nitrox V]
 	0020  Octeon CN31XX Network Processor
 	0030  Octeon CN30XX Network Processor
 	0040  Octeon CN58XX Network Processor
@@ -23525,6 +23583,9 @@
 	1017  AR-ARK-FX1 [Arkville 64B Multi-Homed Primary Endpoint]
 	1018  AR-ARK-FX1 [Arkville 64B Multi-Homed Secondary Endpoint]
 	1019  AR-ARK-FX1 [Arkville 64B Multi-Homed Tertiary Endpoint]
+	101a  AR-ARK-SRIOV-FX0 [Arkville 32B Primary Physical Function]
+	101b  AR-ARK-SRIOV-FX1 [Arkville 64B Primary Physical Function]
+	101c  AR-ARK-SRIOV-VF [Arkville Virtual Function]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
@@ -23589,6 +23650,7 @@
 	0001  Colossus GC2 [C2]
 	0002  Colossus GC1 [S1]
 1d97  Shenzhen Longsys Electronics Co., Ltd.
+	2263  SM2263EN/SM2263XT-based OEM SSD
 1d9b  Facebook, Inc.
 	0010  Networking DOM Engine
 	0011  IO Bridge
@@ -23599,6 +23661,8 @@
 	0001  HL-1000 AI Inference Accelerator [Goya]
 # PCIe accelerator card for Deep Learning training tasks
 	1000  HL-2000 AI Training Accelerator [Gaudi]
+# PCIe accelerator card for Deep Learning training tasks with secured firmware
+	1010  HL-2000 AI Training Accelerator [Gaudi secured]
 1db2  ATP ELECTRONICS INC
 1dbb  NGD Systems, Inc.
 1dbf  Guizhou Huaxintong Semiconductor Technology Co., Ltd
@@ -23799,7 +23863,7 @@
 1e36  Shanghai Enflame Technology Co. Ltd
 	0001  T10 [CloudBlazer]
 	0002  T11 [CloudBlazer]
-	0003  T10s [CloudBlazer]
+	0003  T10(QSFP-DD) [CloudBlazer]
 	8011  I10 [CloudBlazer]
 	8012  I10L [CloudBlazer]
 # nee Thinci, Inc
@@ -23868,7 +23932,7 @@
 1eae  XFX Limited
 1eb1  VeriSilicon Inc
 	1001  Video Accelerator
-1ebd  Emerge Technologies Company Ltd.
+1ebd  EMERGETECH Company Ltd.
 	0101  Seirios 2063 Video Codec
 1ed3  Yeston
 1ed8  Digiteq Automotive
@@ -26198,7 +26262,7 @@
 		103c 2159  Ethernet 10Gb 2-port 562i Adapter
 		108e 7b11  Ethernet Server Adapter X520-2
 		1170 004c  82599 DP 10G Mezzanine Adapter
-		15d9 0611  AOC-STGN-I2S [REV 1.01]
+		15d9 0611  AOC-STGN-i2S
 		1734 11a9  10 Gigabit Dual Port Network Connection
 		17aa 1071  ThinkServer X520-2 AnyFabric
 		17aa 4007  82599ES 10-Gigabit SFI/SFP+ Network Connection
@@ -26533,6 +26597,7 @@
 		1093 775b  PCIe-8237 Ethernet Adapter
 		10a9 802a  UV2-BaseIO dual-port GbE
 		1137 023e  1GigE I350 LOM
+		15d9 0000  AOC-SGP-i4
 		15d9 0652  Dual Port i350 GbE MicroLP [AOC-CGP-i2]
 		17aa 1074  ThinkServer I350-T4 AnyFabric
 		17aa 4005  I350 Gigabit Network Connection
@@ -27383,6 +27448,7 @@
 		15d9 066b  X9SRL-F
 	1d2d  C600/X79 series chipset USB2 Enhanced Host Controller #2
 		1028 04f7  C602J on PowerEdge R320 server
+		103c 18a9  HP DL360e G8
 		15d9 066b  X9SRL-F
 	1d33  C600/X79 series chipset LAN Controller
 	1d35  C600/X79 series chipset VECI Controller
@@ -28965,7 +29031,8 @@
 		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2723  Wi-Fi 6 AX200
-		8086 2723  Wireless AX200
+		1a56 1654  Killer™ Wi-Fi 6 AX1650x (AX200NGW)
+		8086 0084  Wi-Fi 6 AX200NGW
 	2725  Wi-Fi 6 AX210/AX211/AX411 160MHz
 		8086 0020  Wi-Fi 6 AX210 160MHz
 		8086 0024  Wi-Fi 6 AX210 160MHz
@@ -30469,7 +30536,9 @@
 	31d9  Gemini Lake PCI Express Root Port
 	31da  Gemini Lake PCI Express Root Port
 	31db  Gemini Lake PCI Express Root Port
-	31dc  AC 1550i Wireless
+	31dc  Gemini Lake PCH CNVi WiFi
+		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
+		8086 0034  Wireless-AC 9560
 	31e3  Celeron/Pentium Silver Processor SATA Controller
 	31e8  Celeron/Pentium Silver Processor LPC Controller
 	31ee  Celeron/Pentium Silver Processor Serial IO UART Host Controller
@@ -30570,7 +30639,10 @@
 	34eb  Ice Lake-LP Serial IO I2C Controller #3
 	34ed  Ice Lake-LP USB 3.1 xHCI Host Controller
 	34ef  Ice Lake-LP DRAM Controller
-	34f0  Killer Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)
+	34f0  Ice Lake-LP PCH CNVi WiFi
+		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
+		8086 0074  Wi-Fi 6 AX201
+		8086 0264  Wireless-AC 9461
 	34f8  Ice Lake-LP SD Controller
 	34fc  Ice Lake-LP Integrated Sensor Solution
 	3500  6311ESB/6321ESB PCI Express Upstream Port
@@ -31347,6 +31419,7 @@
 	43f0  Tiger Lake PCH CNVi WiFi
 		8086 0034  Wireless-AC 9560
 		8086 0074  Wi-Fi 6 AX201 160MHz
+		8086 0264  Wireless-AC 9461
 		8086 02a4  Wireless-AC 9462
 	444e  Turbo Memory Controller
 	467f  Volume Management Device NVMe RAID Controller
@@ -32145,6 +32218,7 @@
 	9a60  TigerLake-H GT1 [UHD Graphics]
 	9a68  TigerLake-H GT1 [UHD Graphics]
 	9b41  CometLake-U GT2 [UHD Graphics]
+		1028 09bd  Latitude 7310
 	9b44  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b53  Comet Lake-S 6c Host Bridge/DRAM Controller
 	9b54  10th Gen Core Processor Host Bridge/DRAM Registers
@@ -32766,8 +32840,9 @@
 	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
 		1028 0869  Vostro 3470
 	a36f  Cannon Lake PCH Shared SRAM
-	a370  Wireless-AC 9560 [Jefferson Peak]
+	a370  Cannon Lake PCH CNVi WiFi
 		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
+		8086 0034  Wireless-AC 9560
 	a379  Cannon Lake PCH Thermal Controller
 		1028 0869  Vostro 3470
 	a382  400 Series Chipset Family SATA AHCI Controller
@@ -33489,6 +33564,7 @@ bdbd  Blackmagic Design
 c001  TSI Telsys
 c0a9  Micron/Crucial Technology
 	2263  P1 NVMe PCIe SSD
+	540a  P2 NVMe PCIe SSD
 c0de  Motorola
 c0fe  Motion Engineering, Inc.
 ca3b  Cambrionix Ltd.
