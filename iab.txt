@@ -1277,12 +1277,6 @@ F3D000-F3DFFF                 (base 16)                     Project service S.a.
                                                             Seriate  Bergamo  24100
                                                             IT
 
-00-50-C2                      (hex)                         Vemco Sp. z o. o.
-F3C000-F3CFFF                 (base 16)                     Vemco Sp. z o. o.
-                                                            ul. Broniewskiego 3
-                                                            Sopot  pomorskie  81-837
-                                                            US
-
 00-50-C2                      (hex)                         Rosslare Enterprises Limited
 F37000-F37FFF                 (base 16)                     Rosslare Enterprises Limited
                                                             Flat 912 Wing Fat Industrial Building
@@ -1630,12 +1624,6 @@ DF2000-DF2FFF                 (base 16)                     Ocean Sonics
                                                             Hill House
                                                             Great Village  Nova Scotia  B0M 1L0
                                                             CA
-
-00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
-DD8000-DD8FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
-                                                            11300 W 89th St
-                                                            Overland Park    66214
-                                                            US
 
 00-50-C2                      (hex)                         A&A GENERAL SRL
 DDD000-DDDFFF                 (base 16)                     A&A GENERAL SRL
@@ -4961,12 +4949,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             CHARLEROI  Hainaut  B6000
                                                             BE
 
-00-50-C2                      (hex)                         PESA Switching Systems, Inc.
-1AF000-1AFFFF                 (base 16)                     PESA Switching Systems, Inc.
-                                                            330A Wynn Drive
-                                                            Huntsville  AL  35805
-                                                            US
-
 00-50-C2                      (hex)                         WillMonius Inc.
 1C0000-1C0FFF                 (base 16)                     WillMonius Inc.
                                                             425-1 Kil1-dong, Kangdong-gu
@@ -5486,17 +5468,35 @@ A2A000-A2AFFF                 (base 16)                     Astronics Custom Con
                                                             Kent  WA  98032
                                                             US
 
-00-50-C2                      (hex)                         Horizon Co., Ltd
-E60000-E60FFF                 (base 16)                     Horizon Co., Ltd
-                                                            1600 Aza-Shironoshita Asahi
-                                                            Shin Asahi-cho  Takashima, Shiga  520-1501
-                                                            JP
-
 00-50-C2                      (hex)                          BMK professional electronics GmbH
 34D000-34DFFF                 (base 16)                      BMK professional electronics GmbH
                                                             Werner-von-Siemens-Straße 6
                                                             Augsburg     86159
                                                             DE
+
+00-50-C2                      (hex)                         Vemco Sp. z o. o.
+F3C000-F3CFFF                 (base 16)                     Vemco Sp. z o. o.
+                                                            ul. Biala 1
+                                                            Gdansk    80-435
+                                                            PL
+
+00-50-C2                      (hex)                         PESA
+1AF000-1AFFFF                 (base 16)                     PESA
+                                                            103 Quality Circle, Suite 210
+                                                            Huntsville  AL  35806
+                                                            US
+
+00-50-C2                      (hex)                         HORIZON.INC
+E60000-E60FFF                 (base 16)                     HORIZON.INC
+                                                            1600 Aza-Shironoshita Asahi
+                                                            Shin Asahi-cho  Takashima, Shiga  520-1501
+                                                            JP
+
+00-50-C2                      (hex)                         Leonardo UK Ltd
+DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
+                                                            Christopher Martin Road
+                                                            Basildon  Essex  SS14 3EL
+                                                            GB
 
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
@@ -5590,12 +5590,6 @@ D88000-D88FFF                 (base 16)                     T+A elektroakustik G
                                                             Ortiz de Ocampo 3060 - Piso 2
                                                             Buenos Aires  CF  1425
                                                             AR
-
-00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
-913000-913FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
-                                                            A Finmeccanica Company
-                                                            Basildon  Essex  SS14 3EL
-                                                            GB
 
 00-50-C2                      (hex)                         EATON FHF Funke + Huster Fernsig GmbH
 FBD000-FBDFFF                 (base 16)                     EATON FHF Funke + Huster Fernsig GmbH
@@ -5770,12 +5764,6 @@ C0A000-C0AFFF                 (base 16)                     ABB Transmission and
                                                             Ingvald Ystgaards vei 23
                                                             N-7047  Trondheim  0000
                                                             NO
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-00C000-00CFFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
 
 00-50-C2                      (hex)                         Aplex Technology Inc.
 E6A000-E6AFFF                 (base 16)                     Aplex Technology Inc.
@@ -10565,6 +10553,18 @@ C63000-C63FFF                 (base 16)                     Potter Electric Sign
                                                             Hazelwood  MO  63042
                                                             US
 
+40-D8-55                      (hex)                         Aplex Technology Inc.
+00C000-00CFFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
+
+00-50-C2                      (hex)                         Leonardo UK Ltd
+913000-913FFF                 (base 16)                     Leonardo UK Ltd
+                                                            Christopher Martin Road
+                                                            Basildon  Essex  SS14 3EL
+                                                            GB
+
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
                                                             Paffrather str. 140
@@ -10912,18 +10912,6 @@ DE1000-DE1FFF                 (base 16)                     ABB Transmission and
                                                             71th-73th Nicolae Caramfil street, 2nd floor, 1th district
                                                             Bucuresti  Romania  014142
                                                             RO
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-18A000-18AFFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-110000-110FFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
 
 00-50-C2                      (hex)                         Aplex Technology Inc.
 B49000-B49FFF                 (base 16)                     Aplex Technology Inc.
@@ -16304,6 +16292,18 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             Irving  TX  75063
                                                             US
 
+40-D8-55                      (hex)                         Aplex Technology Inc.
+110000-110FFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
+
+40-D8-55                      (hex)                         Aplex Technology Inc.
+18A000-18AFFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
+
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
                                                             99, rue Pierre Semard
@@ -16627,18 +16627,6 @@ EE4000-EE4FFF                 (base 16)                     Rohde&Schwarz Topex 
                                                             71th-73th Nicolae Caramfil street, 2nd floor, 1th district
                                                             Bucuresti  Romania  014142
                                                             RO
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-0BC000-0BCFFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-060000-060FFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
 
 00-50-C2                      (hex)                         Aplex Technology Inc.
 F08000-F08FFF                 (base 16)                     Aplex Technology Inc.
@@ -21560,6 +21548,18 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
                                                             Bielefeld  Nordrhein-Westfalen  33619
                                                             DE
 
+40-D8-55                      (hex)                         Aplex Technology Inc.
+060000-060FFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
+
+40-D8-55                      (hex)                         Aplex Technology Inc.
+0BC000-0BCFFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
+
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
                                                             Paffrather Str. 140
@@ -21871,24 +21871,6 @@ FB7000-FB7FFF                 (base 16)                     Pounce Consulting
                                                             Av 8 de Julio 1295
                                                             Guadalajara   Jalisco  44190
                                                             MX
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-1DC000-1DCFFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-16A000-16AFFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
-
-40-D8-55                      (hex)                         Aplex Technology Inc.
-147000-147FFF                 (base 16)                     Aplex Technology Inc.
-                                                            2Q , NanYouTianAn industrial park Tower4 ,Nanshan District
-                                                            Shenzhen  Guangdong  518054
-                                                            CN
 
 00-50-C2                      (hex)                         Aplex Technology Inc.
 F6F000-F6FFFF                 (base 16)                     Aplex Technology Inc.
@@ -26246,12 +26228,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Almere    1351 HL
                                                             NL
 
-00-50-C2                      (hex)                         Wisnu and Supak Co.Ltd.
-3D4000-3D4FFF                 (base 16)                     Wisnu and Supak Co.Ltd.
-                                                            102/111-112 Moo-Ban Sinpattanathanee
-                                                            Jatujak  Bangkok  10900
-                                                            TH
-
 00-50-C2                      (hex)                         Comlab Inc.
 3D6000-3D6FFF                 (base 16)                     Comlab Inc.
                                                             2300, Leon-Harmel
@@ -27379,3 +27355,27 @@ DF4000-DF4FFF                 (base 16)                     Potter Electric Sign
                                                             101 Simona Dr Unit 2
                                                             Bolton  Ontario  L7E 4E8
                                                             CA
+
+00-50-C2                      (hex)                         Wisnu and Supak Co.,Ltd.
+3D4000-3D4FFF                 (base 16)                     Wisnu and Supak Co.,Ltd.
+                                                            102/111-112 Moo-Ban Sinpattanathanee
+                                                            Jatujak  Bangkok  10900
+                                                            TH
+
+40-D8-55                      (hex)                         Aplex Technology Inc.
+147000-147FFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
+
+40-D8-55                      (hex)                         Aplex Technology Inc.
+16A000-16AFFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
+
+40-D8-55                      (hex)                         Aplex Technology Inc.
+1DC000-1DCFFF                 (base 16)                     Aplex Technology Inc.
+                                                            501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
+                                                            Shenzhen City  Guangdong  518129
+                                                            CN
