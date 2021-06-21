@@ -1,9 +1,11 @@
+%global uprelease 9.0
+
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.348
-Release: 1%{?dist}
+Release: %{uprelease}%{?dist}
 License: GPLv2+
-Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
+Source: https://github.com/vcrhonek/hwdata/archive/v%{version}-%{?uprelease}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
 BuildArch: noarch
 BuildRequires: make
@@ -30,6 +32,10 @@ such as the pci.ids and usb.ids databases.
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Jun 21 2021 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-9.0
+- Bump release
+- Update usb and vendor ids
+
 * Wed Jun 02 2021 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-1
 - Update pci, usb and vendor ids
 
