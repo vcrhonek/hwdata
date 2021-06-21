@@ -1,5 +1,5 @@
---- pnp.ids.orig	2021-06-02 09:51:54.015640200 +0200
-+++ pnp.ids	2021-06-02 09:51:54.018640237 +0200
+--- pnp.ids.orig	2021-06-21 09:45:42.077334459 +0200
++++ pnp.ids	2021-06-21 09:45:42.079334486 +0200
 @@ -191,7 +191,7 @@
  ATX	Athenix Corporation
  AUG	August Home, Inc.
@@ -18,7 +18,7 @@
  DJP	Maygay Machines, Ltd
  DKY	Datakey Inc
  DLB	Dolby Laboratories Inc.
-@@ -866,7 +866,7 @@
+@@ -869,7 +869,7 @@
  GRY	Robert Gray Company
  GSB	NIPPONDENCHI CO,.LTD
  GSC	General Standards Corporation
@@ -27,7 +27,7 @@
  GSN	Grandstream Networks, Inc.
  GST	Graphic SystemTechnology
  GSY	Grossenbacher Systeme AG
-@@ -1252,7 +1252,7 @@
+@@ -1259,7 +1259,7 @@
  LOL	Litelogic Operations Ltd
  LPE	El-PUSK Co., Ltd.
  LPI	Design Technology
@@ -36,7 +36,7 @@
  LSC	LifeSize Communications
  LSD	Intersil Corporation
  LSI	Loughborough Sound Images
-@@ -2269,9 +2269,9 @@
+@@ -2281,9 +2281,9 @@
  UNA	Unisys DSD
  UNB	Unisys Corporation
  UNC	Unisys Corporation
@@ -49,7 +49,7 @@
  UNI	Uniform Industry Corp.
  UNM	Unisys Corporation
  UNO	Unisys Corporation
-@@ -2408,7 +2408,7 @@
+@@ -2421,7 +2421,7 @@
  WWV	World Wide Video, Inc.
  WXT	Woxter Technology Co. Ltd
  WYR	WyreStorm Technologies LLC
