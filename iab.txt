@@ -1319,12 +1319,6 @@ F0B000-F0BFFF                 (base 16)                     Treehaven Technologi
                                                             Powell  OH  43065-9033
                                                             US
 
-00-50-C2                      (hex)                         ESI Ventures
-F05000-F05FFF                 (base 16)                     ESI Ventures
-                                                            902 Incentive Drive
-                                                            Fort Wayne  Indiana  46825
-                                                            US
-
 00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
 F17000-F17FFF                 (base 16)                     ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
                                                             ABB Industrial Park, Torch Hi-Tech Development Zone.
@@ -1624,12 +1618,6 @@ DF2000-DF2FFF                 (base 16)                     Ocean Sonics
                                                             Hill House
                                                             Great Village  Nova Scotia  B0M 1L0
                                                             CA
-
-00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
-DD8000-DD8FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
-                                                            11300 W 89th St
-                                                            Overland Park    66214
-                                                            US
 
 00-50-C2                      (hex)                         A&A GENERAL SRL
 DDD000-DDDFFF                 (base 16)                     A&A GENERAL SRL
@@ -5498,6 +5486,18 @@ E60000-E60FFF                 (base 16)                     HORIZON.INC
                                                             Shin Asahi-cho  Takashima, Shiga  520-1501
                                                             JP
 
+00-50-C2                      (hex)                         ESI Ventures, LLC
+F05000-F05FFF                 (base 16)                     ESI Ventures, LLC
+                                                            902 Incentive Drive
+                                                            Fort Wayne  Indiana  46825
+                                                            US
+
+00-50-C2                      (hex)                         Leonardo UK Ltd
+DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
+                                                            Christopher Martin Road
+                                                            Basildon  Essex   SS14 3EL
+                                                            GB
+
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
                                                             1662 Route 300
@@ -5590,12 +5590,6 @@ D88000-D88FFF                 (base 16)                     T+A elektroakustik G
                                                             Ortiz de Ocampo 3060 - Piso 2
                                                             Buenos Aires  CF  1425
                                                             AR
-
-00-50-C2                      (hex)                         Leonardo MW Ltd (Land & Naval Defence Electronic)
-913000-913FFF                 (base 16)                     Leonardo MW Ltd (Land & Naval Defence Electronic)
-                                                            A Finmeccanica Company
-                                                            Basildon  Essex  SS14 3EL
-                                                            GB
 
 00-50-C2                      (hex)                         EATON FHF Funke + Huster Fernsig GmbH
 FBD000-FBDFFF                 (base 16)                     EATON FHF Funke + Huster Fernsig GmbH
@@ -10564,6 +10558,12 @@ C63000-C63FFF                 (base 16)                     Potter Electric Sign
                                                             501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
                                                             Shenzhen City  Guangdong  518129
                                                             CN
+
+00-50-C2                      (hex)                         Leonardo UK Ltd
+913000-913FFF                 (base 16)                     Leonardo UK Ltd
+                                                            Christopher Martin Road
+                                                            Basildon  Essex   SS14 3EL
+                                                            GB
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
