@@ -1,5 +1,5 @@
---- pnp.ids.orig	2021-06-21 09:45:42.077334459 +0200
-+++ pnp.ids	2021-06-21 09:45:42.079334486 +0200
+--- pnp.ids.orig	2021-08-23 09:39:21.929757276 +0200
++++ pnp.ids	2021-08-23 09:39:21.931757295 +0200
 @@ -191,7 +191,7 @@
  ATX	Athenix Corporation
  AUG	August Home, Inc.
@@ -36,7 +36,7 @@
  LSC	LifeSize Communications
  LSD	Intersil Corporation
  LSI	Loughborough Sound Images
-@@ -2281,9 +2281,9 @@
+@@ -2283,9 +2283,9 @@
  UNA	Unisys DSD
  UNB	Unisys Corporation
  UNC	Unisys Corporation
@@ -49,7 +49,7 @@
  UNI	Uniform Industry Corp.
  UNM	Unisys Corporation
  UNO	Unisys Corporation
-@@ -2421,7 +2421,7 @@
+@@ -2424,7 +2424,7 @@
  WWV	World Wide Video, Inc.
  WXT	Woxter Technology Co. Ltd
  WYR	WyreStorm Technologies LLC
