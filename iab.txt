@@ -596,12 +596,6 @@ A0E000-A0EFFF                 (base 16)                     ENGICAM s.r.l.
                                                             San Diego  CA  92129
                                                             US
 
-40-D8-55                      (hex)                         Broachlink Technology Co.,Limited
-1AA000-1AAFFF                 (base 16)                     Broachlink Technology Co.,Limited
-                                                            Room B402,Building No.28,Danhebei Road
-                                                            Shenzhen  GuangDong  518100
-                                                            CN
-
 40-D8-55                      (hex)                         ENTEC Electric & Electronic CO., LTD
 1A7000-1A7FFF                 (base 16)                     ENTEC Electric & Electronic CO., LTD
                                                             78-2 Buncheon-ri
@@ -1317,12 +1311,6 @@ F24000-F24FFF                 (base 16)                     CT Company
 F0B000-F0BFFF                 (base 16)                     Treehaven Technologies, Inc.
                                                             3960 Presidential Pkwy Suite B
                                                             Powell  OH  43065-9033
-                                                            US
-
-00-50-C2                      (hex)                         ESI Ventures
-F05000-F05FFF                 (base 16)                     ESI Ventures
-                                                            902 Incentive Drive
-                                                            Fort Wayne  Indiana  46825
                                                             US
 
 00-50-C2                      (hex)                         ABB Transmission and Distribution Automation Equipment (Xiamen) Co., Ltd.
@@ -3004,12 +2992,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Engelberg 2
                                                             Achstetten  bawu  88480
                                                             DE
-
-00-50-C2                      (hex)                         Calnex Solutions Limited
-8B7000-8B7FFF                 (base 16)                     Calnex Solutions Limited
-                                                            Springfield
-                                                            Linlithgow  West Lothian  EH49 7NX
-                                                            GB
 
 00-50-C2                      (hex)                         Peek Traffic Corp
 8D5000-8D5FFF                 (base 16)                     Peek Traffic Corp
@@ -5480,22 +5462,40 @@ F3C000-F3CFFF                 (base 16)                     Vemco Sp. z o. o.
                                                             Gdansk    80-435
                                                             PL
 
-00-50-C2                      (hex)                         PESA
-1AF000-1AFFFF                 (base 16)                     PESA
-                                                            103 Quality Circle, Suite 210
-                                                            Huntsville  AL  35806
-                                                            US
-
 00-50-C2                      (hex)                         HORIZON.INC
 E60000-E60FFF                 (base 16)                     HORIZON.INC
                                                             1600 Aza-Shironoshita Asahi
                                                             Shin Asahi-cho  Takashima, Shiga  520-1501
                                                             JP
 
+00-50-C2                      (hex)                         PESA
+1AF000-1AFFFF                 (base 16)                     PESA
+                                                            103 Quality Circle, Suite 210
+                                                            Huntsville  AL  35806
+                                                            US
+
+00-50-C2                      (hex)                         ESI Ventures, LLC
+F05000-F05FFF                 (base 16)                     ESI Ventures, LLC
+                                                            902 Incentive Drive
+                                                            Fort Wayne  Indiana  46825
+                                                            US
+
 00-50-C2                      (hex)                         Leonardo UK Ltd
 DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
                                                             Christopher Martin Road
-                                                            Basildon  Essex  SS14 3EL
+                                                            Basildon  Essex   SS14 3EL
+                                                            GB
+
+40-D8-55                      (hex)                         Broachlink Technology Co.,Limited
+1AA000-1AAFFF                 (base 16)                     Broachlink Technology Co.,Limited
+                                                            1212, Yongtong BLDG,RenMin North Rd.,
+                                                            Shenzhen  GuangDong  518100
+                                                            CN
+
+00-50-C2                      (hex)                         Calnex Solutions plc
+8B7000-8B7FFF                 (base 16)                     Calnex Solutions plc
+                                                            Oracle Campus
+                                                             Linlithgow  West Lothian  EH49 7LR
                                                             GB
 
 00-50-C2                      (hex)                         Clever Devices
@@ -7746,12 +7746,6 @@ A99000-A99FFF                 (base 16)                     Haivision Systems In
 A9A000-A9AFFF                 (base 16)                     Absolutron. LLC
                                                             1107 Fair Oaks Ave. #476
                                                             South Pasadena  CA  91030
-                                                            US
-
-00-50-C2                      (hex)                         SPX Dehydration & Filtration
-A93000-A93FFF                 (base 16)                     SPX Dehydration & Filtration
-                                                            4647 S.W. 40th Ave.
-                                                            Ocala  FL  34474
                                                             US
 
 00-50-C2                      (hex)                         Par-Tech, Inc.
@@ -10562,8 +10556,14 @@ C63000-C63FFF                 (base 16)                     Potter Electric Sign
 00-50-C2                      (hex)                         Leonardo UK Ltd
 913000-913FFF                 (base 16)                     Leonardo UK Ltd
                                                             Christopher Martin Road
-                                                            Basildon  Essex  SS14 3EL
+                                                            Basildon  Essex   SS14 3EL
                                                             GB
+
+00-50-C2                      (hex)                         SPX Flow Technology
+A93000-A93FFF                 (base 16)                     SPX Flow Technology
+                                                            4647 S.W. 40th Ave.
+                                                            Ocala  FL  34474
+                                                            US
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
@@ -10654,12 +10654,6 @@ D09000-D09FFF                 (base 16)                     Guardtec,Inc
                                                             #1203, Hansin IT Tower, 235,
                                                             Seoul    152-768
                                                             KR
-
-00-50-C2                      (hex)                         Guardian Controls International Ltd
-1D8000-1D8FFF                 (base 16)                     Guardian Controls International Ltd
-                                                            56, Crewe Road,
-                                                            Sandbach  Cheshire  CW11 4NN
-                                                            GB
 
 00-50-C2                      (hex)                         Imarda New Zealand Limited
 31D000-31DFFF                 (base 16)                     Imarda New Zealand Limited
@@ -14534,12 +14528,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             seoul    143-709
                                                             KR
 
-00-50-C2                      (hex)                         Dorsett Technologies, Inc.
-659000-659FFF                 (base 16)                     Dorsett Technologies, Inc.
-                                                            100 Woodlyn Drive
-                                                            Yadkinville  North Carolina  27055
-                                                            US
-
 00-50-C2                      (hex)                         T2 Communication Ltd
 63E000-63EFFF                 (base 16)                     T2 Communication Ltd
                                                             Unit A, Wellfleet Industrial Park
@@ -16304,6 +16292,18 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             Shenzhen City  Guangdong  518129
                                                             CN
 
+00-50-C2                      (hex)                         Guardian Controls International Ltd
+1D8000-1D8FFF                 (base 16)                     Guardian Controls International Ltd
+                                                             The Dairy, Spring Bank Farm
+                                                            Arclid  Cheshire  CW11 2UD
+                                                            GB
+
+00-50-C2                      (hex)                         Dorsett Technologies Inc
+659000-659FFF                 (base 16)                     Dorsett Technologies Inc
+                                                            100 Woodlyn Drive
+                                                            Yadkinville  North Carolina  27055
+                                                            US
+
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
                                                             99, rue Pierre Semard
@@ -17130,12 +17130,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
 0D9000-0D9FFF                 (base 16)                     YUKO ELECTRIC CO.,LTD
                                                             ICHIGAYA BUILDING 2002-12
                                                             TODA CITY  SAITAMA  335-0021
-                                                            JP
-
-40-D8-55                      (hex)                         First Design System Inc.
-0A7000-0A7FFF                 (base 16)                     First Design System Inc.
-                                                            Tachibana Shinjyuku Bldg. 4F
-                                                            Shinjyuku-ku,  Tokyo  1600023
                                                             JP
 
 40-D8-55                      (hex)                         Shenzhen SETEC Power Co.,Ltd
@@ -21559,6 +21553,12 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
                                                             501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
                                                             Shenzhen City  Guangdong  518129
                                                             CN
+
+40-D8-55                      (hex)                         First Design System Inc.
+0A7000-0A7FFF                 (base 16)                     First Design System Inc.
+                                                            Tachibana Shinjuku Bldg. 3F, 3-2-26 Nishi-Shinjuku
+                                                            Tokyo  Shinjuku-ku  160-0023
+                                                            JP
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
