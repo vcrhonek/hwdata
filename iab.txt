@@ -14528,12 +14528,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             seoul    143-709
                                                             KR
 
-00-50-C2                      (hex)                         Dorsett Technologies, Inc.
-659000-659FFF                 (base 16)                     Dorsett Technologies, Inc.
-                                                            100 Woodlyn Drive
-                                                            Yadkinville  North Carolina  27055
-                                                            US
-
 00-50-C2                      (hex)                         T2 Communication Ltd
 63E000-63EFFF                 (base 16)                     T2 Communication Ltd
                                                             Unit A, Wellfleet Industrial Park
@@ -16303,6 +16297,12 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                              The Dairy, Spring Bank Farm
                                                             Arclid  Cheshire  CW11 2UD
                                                             GB
+
+00-50-C2                      (hex)                         Dorsett Technologies Inc
+659000-659FFF                 (base 16)                     Dorsett Technologies Inc
+                                                            100 Woodlyn Drive
+                                                            Yadkinville  North Carolina  27055
+                                                            US
 
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
