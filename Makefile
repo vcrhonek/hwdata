@@ -55,7 +55,7 @@ changelog:
 	@(GIT_DIR=.git git log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 
 check:
-	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
+	@lspci -i pci.ids > /dev/null || { echo "FAILURE: lspci -i pci.ids"; exit 1; } && echo "OK: lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@./check-usb-ids.sh
 	@for file in $(UTF_IDFILES); do \
