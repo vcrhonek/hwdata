@@ -61,7 +61,7 @@ check:
 	@for file in $(UTF_IDFILES); do \
 	    text=`LANG=C file $$file`; \
 	    expected="$$file: UTF-8 Unicode text"; \
-	    if [[ "$$text" != "$$expected" ]]; then \
+	    if [ "$$text" != "$$expected" ]; then \
 		printf "Expected: %s\n Got instead: %s\n" "$$expected" "$$text" >&2; \
 		exit 1; \
 	    fi; \
@@ -145,7 +145,7 @@ pnp.ids: pnp.ids.orig pnp.ids.patch
 %.utf8: %.downloaded
 	@text=`LANG=C file $?`
 	@encoding=`echo "$$text" | sed -n 's/.*\(iso-8859\S\*\|cp1[12]\d\+\).*/\1/Ip'`
-	@if [[ -n "$$encoding" ]]; then \
+	@if [ -n "$$encoding" ]; then \
 	    iconv -f "$$encoding" -t UTF-8 $?; \
 	else \
 	    cat $?; \
