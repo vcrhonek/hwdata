@@ -59,13 +59,8 @@ check:
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@./check-usb-ids.sh
 	@for file in $(UTF_IDFILES); do \
-	    text=`LANG=C file $$file`; \
-	    expected="$$file: UTF-8 Unicode text"; \
-	    if [ "$$text" != "$$expected" ]; then \
-		printf "Expected: %s\n Got instead: %s\n" "$$expected" "$$text" >&2; \
-		exit 1; \
-	    fi; \
-	    echo "OK: $$text"; \
+	    iconv -f UTF-8 "$$file" >/dev/null || { echo "FAILURE: $$file is not valid UTF-8 data"; exit 1; }; \
+	    echo "OK: $$file is valid UTF-8 data"; \
 	done
 	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
