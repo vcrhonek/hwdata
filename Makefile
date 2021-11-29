@@ -55,17 +55,12 @@ changelog:
 	@(GIT_DIR=.git git log > .changelog.tmp && mv .changelog.tmp ChangeLog || rm -f .changelog.tmp) || (touch ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 
 check:
-	@[ -x /sbin/lspci ] && /sbin/lspci -i pci.ids > /dev/null || { echo "FAILURE: /sbin/lspci -i pci.ids"; exit 1; } && echo "OK: /sbin/lspci -i pci.ids"
+	@lspci -i pci.ids > /dev/null || { echo "FAILURE: lspci -i pci.ids"; exit 1; } && echo "OK: lspci -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@./check-usb-ids.sh
 	@for file in $(UTF_IDFILES); do \
-	    text=`LANG=C file $$file`; \
-	    expected="$$file: UTF-8 Unicode text"; \
-	    if [[ "$$text" != "$$expected" ]]; then \
-		printf "Expected: %s\n Got instead: %s\n" "$$expected" "$$text" >&2; \
-		exit 1; \
-	    fi; \
-	    echo "OK: $$text"; \
+	    iconv -f UTF-8 "$$file" >/dev/null || { echo "FAILURE: $$file is not valid UTF-8 data"; exit 1; }; \
+	    echo "OK: $$file is valid UTF-8 data"; \
 	done
 	@echo -n "CHECK date of pci.ids: "; grep "Date:" pci.ids | cut -d ' ' -f 5
 	@echo -n "CHECK date of usb.ids: "; grep "Date:" usb.ids | cut -d ' ' -f 6
@@ -145,7 +140,7 @@ pnp.ids: pnp.ids.orig pnp.ids.patch
 %.utf8: %.downloaded
 	@text=`LANG=C file $?`
 	@encoding=`echo "$$text" | sed -n 's/.*\(iso-8859\S\*\|cp1[12]\d\+\).*/\1/Ip'`
-	@if [[ -n "$$encoding" ]]; then \
+	@if [ -n "$$encoding" ]; then \
 	    iconv -f "$$encoding" -t UTF-8 $?; \
 	else \
 	    cat $?; \
