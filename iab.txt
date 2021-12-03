@@ -13637,12 +13637,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             D-60599  Frankfurt/Main
                                                             DE
 
-00-50-C2                      (hex)                         PHB Eletronica Ltda.
-925000-925FFF                 (base 16)                     PHB Eletronica Ltda.
-                                                            Aroaba St., 129
-                                                            São Paulo    05315-020
-                                                            BR
-
 00-50-C2                      (hex)                         ATIS group s.r.o.
 927000-927FFF                 (base 16)                     ATIS group s.r.o.
                                                             Za Strašnickou vozovnou 7
@@ -16303,6 +16297,12 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             9777 Wilshire Boulevard, Ste 430
                                                              Beverly Hills  CA  90212
                                                             US
+
+00-50-C2                      (hex)                         PHB Eletronica Ltda.
+925000-925FFF                 (base 16)                     PHB Eletronica Ltda.
+                                                            12 Sao Bernardino
+                                                            São Paulo  Parque Anhanguera  05120-050
+                                                            BR
 
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
@@ -21506,12 +21506,6 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
                                                             Kloten  Zuerich  8302
                                                             CH
 
-00-50-C2                      (hex)                         Hitachi ABB Power Grids – Grid Automation
-3F3000-3F3FFF                 (base 16)                     Hitachi ABB Power Grids – Grid Automation
-                                                            Kallstadter Strasse 1
-                                                            Mannheim    68309
-                                                            DE
-
 40-D8-55                      (hex)                         elgris UG
 06A000-06AFFF                 (base 16)                     elgris UG
                                                             Krantzstr 7
@@ -21558,6 +21552,12 @@ B58000-B58FFF                 (base 16)                     RealD, Inc.
 9BC000-9BCFFF                 (base 16)                     Kistler Straubenhardt GmbH
                                                             Otto-Hahn-Straße 14
                                                             Straubenhardt  Baden-Württemberg  75334
+                                                            DE
+
+00-50-C2                      (hex)                         Hitachi Energy
+3F3000-3F3FFF                 (base 16)                     Hitachi Energy
+                                                            Kallstadter Strasse 1
+                                                            Mannheim    68309
                                                             DE
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
