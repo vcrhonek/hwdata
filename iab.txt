@@ -6335,12 +6335,6 @@ EE6000-EE6FFF                 (base 16)                     Narinet, Inc.
                                                             Ansan-Si  Kyunggi-Do  426863
                                                             KR
 
-40-D8-55                      (hex)                         Nautel Limited
-019000-019FFF                 (base 16)                     Nautel Limited
-                                                            10089 Peggy's Cove Road
-                                                            Hackett's Cove  Nova Scotia  B3Z 3J4
-                                                            US
-
 40-D8-55                      (hex)                         Scharco Elektronik GmbH
 01D000-01DFFF                 (base 16)                     Scharco Elektronik GmbH
                                                             Tilsiter Strasse 8
@@ -6983,12 +6977,6 @@ DAF000-DAFFFF                 (base 16)                     eumig industrie-tv G
                                                             Salzburg  Anif  5081
                                                             AT
 
-00-50-C2                      (hex)                         Fluid Components International
-DC6000-DC6FFF                 (base 16)                     Fluid Components International
-                                                            1755 La Costa Meadows Dr.
-                                                            San Marcos  CA  92078
-                                                            US
-
 00-50-C2                      (hex)                         Gamber Johnson LLC
 D9C000-D9CFFF                 (base 16)                     Gamber Johnson LLC
                                                             3001 Borham Ave
@@ -7131,12 +7119,6 @@ D5B000-D5BFFF                 (base 16)                     Infinition Inc.
 D60000-D60FFF                 (base 16)                     Nihon Kessho Koogaku Co., Ltd.
                                                             318-19 Kondo-cho
                                                             Tatebayashi  Gunma  374-0042
-                                                            JP
-
-00-50-C2                      (hex)                         infinitec co., ltd.
-D5E000-D5EFFF                 (base 16)                     infinitec co., ltd.
-                                                            2-6-35, Honcho
-                                                            Yonezawasi  Yamagata  992-0037
                                                             JP
 
 00-50-C2                      (hex)                         F+D Feinwerk- und Drucktechnik GmbH
@@ -10565,6 +10547,24 @@ A93000-A93FFF                 (base 16)                     SPX Flow Technology
                                                             Ocala  FL  34474
                                                             US
 
+00-50-C2                      (hex)                         Fluid Components Intl
+DC6000-DC6FFF                 (base 16)                     Fluid Components Intl
+                                                            1755 La Costa Meadows Dr.
+                                                            San Marcos  CA  92078
+                                                            US
+
+40-D8-55                      (hex)                         Nautel LTD
+019000-019FFF                 (base 16)                     Nautel LTD
+                                                            10089 Peggy's Cove Road
+                                                            Hackett's Cove  Nova Scotia  B3Z 3J4
+                                                            US
+
+00-50-C2                      (hex)                         PRIVATECH Inc.
+D5E000-D5EFFF                 (base 16)                     PRIVATECH Inc.
+                                                            2-32-3, Kita-shinagawa
+                                                            Tokyo   Shinagawa-ku  140-0001
+                                                            JP
+
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
                                                             Paffrather str. 140
@@ -13637,12 +13637,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             D-60599  Frankfurt/Main
                                                             DE
 
-00-50-C2                      (hex)                         PHB Eletronica Ltda.
-925000-925FFF                 (base 16)                     PHB Eletronica Ltda.
-                                                            Aroaba St., 129
-                                                            São Paulo    05315-020
-                                                            BR
-
 00-50-C2                      (hex)                         ATIS group s.r.o.
 927000-927FFF                 (base 16)                     ATIS group s.r.o.
                                                             Za Strašnickou vozovnou 7
@@ -14899,12 +14893,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             Karlstejnska 162
                                                             Orech  Jinocany  25225
                                                             CZ
-
-00-50-C2                      (hex)                         REAL D
-4F6000-4F6FFF                 (base 16)                     REAL D
-                                                            100 N. CRESCENT DR. #120
-                                                            BEVERLY HILLS  CA  90210
-                                                            US
 
 00-50-C2                      (hex)                         Hwayoung RF Solution Inc
 4FC000-4FCFFF                 (base 16)                     Hwayoung RF Solution Inc
@@ -16304,6 +16292,18 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             Yadkinville  North Carolina  27055
                                                             US
 
+00-50-C2                      (hex)                         RealD, Inc.
+4F6000-4F6FFF                 (base 16)                     RealD, Inc.
+                                                            9777 Wilshire Boulevard, Ste 430
+                                                             Beverly Hills  CA  90212
+                                                            US
+
+00-50-C2                      (hex)                         PHB Eletronica Ltda.
+925000-925FFF                 (base 16)                     PHB Eletronica Ltda.
+                                                            12 Sao Bernardino
+                                                            São Paulo  Parque Anhanguera  05120-050
+                                                            BR
+
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
                                                             99, rue Pierre Semard
@@ -16657,12 +16657,6 @@ F26000-F26FFF                 (base 16)                     WaveIP
                                                             Teradion Ind Park
                                                             Misgav  Israel  20692
                                                             IL
-
-00-50-C2                      (hex)                         RealD
-C90000-C90FFF                 (base 16)                     RealD
-                                                            5335 STERLING DRIVE
-                                                            BOULDER  CO  80301
-                                                            US
 
 00-50-C2                      (hex)                         RAFI GmbH & Co.KG
 2B7000-2B7FFF                 (base 16)                     RAFI GmbH & Co.KG
@@ -18440,12 +18434,6 @@ B61000-B61FFF                 (base 16)                     Nayos LTD
                                                             Nes Ziona    74036
                                                             IL
 
-00-50-C2                      (hex)                         Real D
-B58000-B58FFF                 (base 16)                     Real D
-                                                            5335 Sterling Drive
-                                                            Boulder  CO  80301
-                                                            US
-
 00-50-C2                      (hex)                         SINOVIA SA
 B56000-B56FFF                 (base 16)                     SINOVIA SA
                                                             3 RUE DE CHEVILLY
@@ -18865,12 +18853,6 @@ A18000-A18FFF                 (base 16)                     Eoslink
                                                             Kundratka 17
                                                             Prague    18000
                                                             CZ
-
-00-50-C2                      (hex)                         Vester Elektronik GmbH
-9BC000-9BCFFF                 (base 16)                     Vester Elektronik GmbH
-                                                            Otto-Hahn-Straße 14
-                                                            Straubenhardt  Baden-Württemberg  75334
-                                                            DE
 
 00-50-C2                      (hex)                         OMICRON electronics GmbH
 9BB000-9BBFFF                 (base 16)                     OMICRON electronics GmbH
@@ -21524,12 +21506,6 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
                                                             Kloten  Zuerich  8302
                                                             CH
 
-00-50-C2                      (hex)                         Hitachi ABB Power Grids – Grid Automation
-3F3000-3F3FFF                 (base 16)                     Hitachi ABB Power Grids – Grid Automation
-                                                            Kallstadter Strasse 1
-                                                            Mannheim    68309
-                                                            DE
-
 40-D8-55                      (hex)                         elgris UG
 06A000-06AFFF                 (base 16)                     elgris UG
                                                             Krantzstr 7
@@ -21559,6 +21535,30 @@ EA9000-EA9FFF                 (base 16)                     Mettler Toledo
                                                             Tachibana Shinjuku Bldg. 3F, 3-2-26 Nishi-Shinjuku
                                                             Tokyo  Shinjuku-ku  160-0023
                                                             JP
+
+00-50-C2                      (hex)                         RealD, Inc.
+C90000-C90FFF                 (base 16)                     RealD, Inc.
+                                                            9777 Wilshire Boulevard, Ste 430
+                                                             Beverly Hills  CA  90212
+                                                            US
+
+00-50-C2                      (hex)                         RealD, Inc.
+B58000-B58FFF                 (base 16)                     RealD, Inc.
+                                                            9777 Wilshire Boulevard, Ste 430
+                                                             Beverly Hills  CA  90212
+                                                            US
+
+00-50-C2                      (hex)                         Kistler Straubenhardt GmbH
+9BC000-9BCFFF                 (base 16)                     Kistler Straubenhardt GmbH
+                                                            Otto-Hahn-Straße 14
+                                                            Straubenhardt  Baden-Württemberg  75334
+                                                            DE
+
+00-50-C2                      (hex)                         Hitachi Energy
+3F3000-3F3FFF                 (base 16)                     Hitachi Energy
+                                                            Kallstadter Strasse 1
+                                                            Mannheim    68309
+                                                            DE
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
@@ -25760,12 +25760,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Freiburg  NA  79098
                                                             DE
 
-00-50-C2                      (hex)                         Nautel Limited
-597000-597FFF                 (base 16)                     Nautel Limited
-                                                            10089 Peggy's Cove Road
-                                                            Hackett's Cove  Nova Scotia  B3Z3J4
-                                                            CA
-
 00-50-C2                      (hex)                         Innovative Neurotroncs
 551000-551FFF                 (base 16)                     Innovative Neurotroncs
                                                             2 Bethesda Metro Center
@@ -27379,3 +27373,9 @@ DF4000-DF4FFF                 (base 16)                     Potter Electric Sign
                                                             501-5B01,Xintianxia phase 2 building,Wankecheng community,Bantian township,Longgang district
                                                             Shenzhen City  Guangdong  518129
                                                             CN
+
+00-50-C2                      (hex)                         Nautel LTD
+597000-597FFF                 (base 16)                     Nautel LTD
+                                                            10089 Peggy's Cove Road
+                                                            Hackett's Cove  Nova Scotia  B3Z3J4
+                                                            CA
