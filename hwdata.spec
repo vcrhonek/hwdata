@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.354
+Version: 0.355
 Release: 1%{?dist}
 License: GPLv2+
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
@@ -30,6 +30,9 @@ such as the pci.ids and usb.ids databases.
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Jan 03 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.355-1
+- Update pci, usb and vendor ids
+
 * Fri Dec 03 2021 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.354-1
 - Update pci and vendor ids
 
