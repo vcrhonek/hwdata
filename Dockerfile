@@ -1,3 +1,3 @@
-FROM fedora:22
+FROM fedora:35
 MAINTAINER Vitezslav Crhonek <vcrhonek@redhat.com>
-RUN dnf install -y usbutils python-hwdata && rm -rf /var/cache/yum
+RUN dnf -y update && dnf -y install usbutils && dnf -y install python3-hwdata --setopt='tsflags=' && dnf clean all
