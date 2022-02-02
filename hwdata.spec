@@ -14,9 +14,10 @@ such as the pci.ids and usb.ids databases.
 
 %prep
 %setup -q
-%configure
 
 %build
+%configure
+
 # nothing to build
 
 %install
