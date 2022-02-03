@@ -3605,12 +3605,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Penang    10350
                                                             MY
 
-00-50-C2                      (hex)                         dPict Imaging, Inc.
-63C000-63CFFF                 (base 16)                     dPict Imaging, Inc.
-                                                            3815 River Crossing Pkwy
-                                                            Indianapolis  IN  46240
-                                                            US
-
 00-50-C2                      (hex)                         Qstreams Networks Inc.
 639000-639FFF                 (base 16)                     Qstreams Networks Inc.
                                                             2301 Dorsey Rd.
@@ -5497,6 +5491,12 @@ DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
                                                             Oracle Campus
                                                              Linlithgow  West Lothian  EH49 7LR
                                                             GB
+
+00-50-C2                      (hex)                         dPict Imaging, Inc.
+63C000-63CFFF                 (base 16)                     dPict Imaging, Inc.
+                                                            7400 N. Shadeland Ave., Suite 255
+                                                            Indianapolis  IN  46250
+                                                            US
 
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
