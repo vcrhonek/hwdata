@@ -3605,12 +3605,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Penang    10350
                                                             MY
 
-00-50-C2                      (hex)                         dPict Imaging, Inc.
-63C000-63CFFF                 (base 16)                     dPict Imaging, Inc.
-                                                            3815 River Crossing Pkwy
-                                                            Indianapolis  IN  46240
-                                                            US
-
 00-50-C2                      (hex)                         Qstreams Networks Inc.
 639000-639FFF                 (base 16)                     Qstreams Networks Inc.
                                                             2301 Dorsey Rd.
@@ -5497,6 +5491,12 @@ DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
                                                             Oracle Campus
                                                              Linlithgow  West Lothian  EH49 7LR
                                                             GB
+
+00-50-C2                      (hex)                         dPict Imaging, Inc.
+63C000-63CFFF                 (base 16)                     dPict Imaging, Inc.
+                                                            7400 N. Shadeland Ave., Suite 255
+                                                            Indianapolis  IN  46250
+                                                            US
 
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
@@ -16070,12 +16070,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             Torrance  CA  90503
                                                             US
 
-00-50-C2                      (hex)                         BMC Messsysteme GmbH
-0AD000-0ADFFF                 (base 16)                     BMC Messsysteme GmbH
-                                                            Peter-Henlein-Str. 4
-                                                            82140 Olching
-                                                            DE
-
 00-50-C2                      (hex)                         ApSecure Technologies (Canada), Inc.
 0B6000-0B6FFF                 (base 16)                     ApSecure Technologies (Canada), Inc.
                                                             4603 Kinsway, Suite 402
@@ -16303,6 +16297,12 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             12 Sao Bernardino
                                                             São Paulo  Parque Anhanguera  05120-050
                                                             BR
+
+00-50-C2                      (hex)                         BMC Messsysteme GmbH
+0AD000-0ADFFF                 (base 16)                     BMC Messsysteme GmbH
+                                                            Haupstr. 21
+                                                            Maisach    82216
+                                                            DE
 
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
