@@ -16070,12 +16070,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             Torrance  CA  90503
                                                             US
 
-00-50-C2                      (hex)                         BMC Messsysteme GmbH
-0AD000-0ADFFF                 (base 16)                     BMC Messsysteme GmbH
-                                                            Peter-Henlein-Str. 4
-                                                            82140 Olching
-                                                            DE
-
 00-50-C2                      (hex)                         ApSecure Technologies (Canada), Inc.
 0B6000-0B6FFF                 (base 16)                     ApSecure Technologies (Canada), Inc.
                                                             4603 Kinsway, Suite 402
@@ -16303,6 +16297,12 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             12 Sao Bernardino
                                                             São Paulo  Parque Anhanguera  05120-050
                                                             BR
+
+00-50-C2                      (hex)                         BMC Messsysteme GmbH
+0AD000-0ADFFF                 (base 16)                     BMC Messsysteme GmbH
+                                                            Haupstr. 21
+                                                            Maisach    82216
+                                                            DE
 
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
@@ -27320,12 +27320,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Lutz  FL  33558
                                                             US
 
-00-50-C2                      (hex)                         Phoenix Audio Technologies
-F48000-F48FFF                 (base 16)                     Phoenix Audio Technologies
-                                                            2552 White Road, Suite A
-                                                            Irvine  CA  92614
-                                                            US
-
 00-50-C2                      (hex)                         Computechnic AG
 5E3000-5E3FFF                 (base 16)                     Computechnic AG
                                                             Rietlistrasse 3
@@ -27379,3 +27373,9 @@ DF4000-DF4FFF                 (base 16)                     Potter Electric Sign
                                                             10089 Peggy's Cove Road
                                                             Hackett's Cove  Nova Scotia  B3Z3J4
                                                             CA
+
+00-50-C2                      (hex)                         SHURE INCORPORATED
+F48000-F48FFF                 (base 16)                     SHURE INCORPORATED
+                                                            5800 W. TOUHY AVE.
+                                                            NILES  IL  60714
+                                                            US

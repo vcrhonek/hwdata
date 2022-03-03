@@ -9,8 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-# Version: 2021.12.24
-# Date:    2021-12-24 20:34:10
+# Version: 2022.02.23
+# Date:    2022-02-23 20:34:10
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -22654,6 +22654,14 @@
 	f190  MSO-19
 	f280  MSO-28
 	f281  MSO-28
+3197  Katusha
+	1001  M151
+	1002  M250
+	1003  P130
+	1004  M130
+	1101  P247
+	1102  M247
+	1103  M348
 31c9  BeiJing LanXum Computer Technology Co., Ltd.
 	1001  Printer
 	1301  Black and White Laser Printer
