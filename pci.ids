@@ -27964,6 +27964,11 @@
 	163d  Broadwell-U Integrated Graphics
 	163e  Broadwell-U Integrated Graphics
 	1889  Ethernet Adaptive Virtual Function
+	188a  Ethernet Connection E823-C for backplane
+	188b  Ethernet Controller E823-C for QSFP
+	188c  Ethernet Controller E823-C for SFP
+	188d  Ethernet Connection E823-C/X557-AT 10GBASE-T
+	188e  Ethernet Connection E823-C 1GbE
 	1890  Ethernet Connection E822-C for backplane
 	1891  Ethernet Connection E822-C for QSFP
 	1892  Ethernet Connection E822-C for SFP
