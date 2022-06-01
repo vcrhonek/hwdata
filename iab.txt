@@ -6737,12 +6737,6 @@ EAB000-EABFFF                 (base 16)                     Warp9 Tech Design, I
                                                             Blaine  MN  55449
                                                             US
 
-00-50-C2                      (hex)                         BAE Systems
-EAA000-EAAFFF                 (base 16)                     BAE Systems
-                                                            65 Spir Brook Rd.
-                                                            Nashua  New Hamshire  03060
-                                                            US
-
 00-50-C2                      (hex)                         ThinkRF Corp
 EA2000-EA2FFF                 (base 16)                     ThinkRF Corp
                                                             390 Legget Drive
@@ -10565,6 +10559,12 @@ D5E000-D5EFFF                 (base 16)                     PRIVATECH Inc.
                                                             Tokyo   Shinagawa-ku  140-0001
                                                             JP
 
+00-50-C2                      (hex)                         BAE Systems
+EAA000-EAAFFF                 (base 16)                     BAE Systems
+                                                            65 Spir Brook Rd.
+                                                            Nashua  NH  03060
+                                                            US
+
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
                                                             Paffrather str. 140
@@ -14372,12 +14372,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             Foxboro  MA  02035
                                                             US
 
-00-50-C2                      (hex)                         Ajeco Oy
-6D9000-6D9FFF                 (base 16)                     Ajeco Oy
-                                                            Koronakatu 1A
-                                                            Espoo  Uusimaa  Fi-02210 Esp
-                                                            FI
-
 00-50-C2                      (hex)                         Ifox - Industria e Comercio Ltda
 6AA000-6AAFFF                 (base 16)                     Ifox - Industria e Comercio Ltda
                                                             Rua Chico Pontes, 329
@@ -16303,6 +16297,12 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             Haupstr. 21
                                                             Maisach    82216
                                                             DE
+
+00-50-C2                      (hex)                         Ajeco Oy
+6D9000-6D9FFF                 (base 16)                     Ajeco Oy
+                                                            Arinatie 8
+                                                            Helsinki    00370
+                                                            FI
 
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
