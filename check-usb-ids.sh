@@ -8,11 +8,6 @@ if [[ "${NO_DOCKER:-0}" == 1 ]]; then
     exit 0
 fi
 
-if ! [[ -e /run/docker.sock ]]; then
-    echo "Skipping check of usb ids because of missing docker socket."
-    exit 0
-fi
-
 tmpdir=`mktemp -d`
 echo "Listing usb devices:"
 sudo podman run -t --privileged --rm=true \
