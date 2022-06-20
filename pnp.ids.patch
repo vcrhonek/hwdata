@@ -1,60 +1,28 @@
---- pnp.ids.orig	2022-02-17 10:27:52.402916711 +0100
-+++ pnp.ids	2022-02-17 10:27:52.406916709 +0100
-@@ -193,7 +193,7 @@
- AUD	AudioControl
- AUG	August Home, Inc.
- AUI	ALPS ALPINE CO., LTD.
--AUO	DO NOT USE - AUO
-+AUO	AU Optronics
- AUR	Aureal Semiconductor
- AUS	ASUSTek COMPUTER INC
- AUT	Autotime Corporation
-@@ -545,7 +545,7 @@
- DIN	Daintelecom Co., Ltd
- DIS	Diseda S.A.
- DIT	Dragon Information Technology
--DJE	Capstone Visua lProduct Development
-+DJE	Capstone Visual Product Development
- DJP	Maygay Machines, Ltd
- DKY	Datakey Inc
- DLB	Dolby Laboratories Inc.
-@@ -871,7 +871,7 @@
- GRY	Robert Gray Company
- GSB	NIPPONDENCHI CO,.LTD
- GSC	General Standards Corporation
--GSM	Goldstar Company Ltd
-+GSM	LG Electronics
- GSN	Grandstream Networks, Inc.
- GST	Graphic SystemTechnology
- GSY	Grossenbacher Systeme AG
-@@ -1262,7 +1262,7 @@
- LOL	Litelogic Operations Ltd
- LPE	El-PUSK Co., Ltd.
- LPI	Design Technology
--LPL	DO NOT USE - LPL
-+LPL	LG Philips
- LSC	LifeSize Communications
- LSD	Intersil Corporation
- LSI	Loughborough Sound Images
-@@ -2292,9 +2292,9 @@
- UNA	Unisys DSD
- UNB	Unisys Corporation
- UNC	Unisys Corporation
--UND	DO NOT USE - UND
--UNE	DO NOT USE - UNE
--UNF	DO NOT USE - UNF
-+UND	Unisys Corporation
-+UNE	Unisys Corporation
-+UNF	Unisys Corporation
- UNI	Uniform Industry Corp.
- UNM	Unisys Corporation
- UNO	Unisys Corporation
-@@ -2433,7 +2433,7 @@
- WWV	World Wide Video, Inc.
- WXT	Woxter Technology Co. Ltd
- WYR	WyreStorm Technologies LLC
--WYS	Myse Technology
-+WYS	Wyse Technology
- WYT	Wooyoung Image & Information Co.,Ltd.
- XAC	XAC Automation Corp
- XAD	Alpha Data
+196c196
+< AUO	DO NOT USE - AUO
+---
+> AUO	AU Optronics
+548c548
+< DJE	Capstone Visua lProduct Development
+---
+> DJE	Capstone Visual Product Development
+874c874
+< GSM	Goldstar Company Ltd
+---
+> GSM	LG Electronics
+1268c1268
+< LPL	DO NOT USE - LPL
+---
+> LPL	LG Philips
+2302,2304c2302,2304
+< UND	DO NOT USE - UND
+< UNE	DO NOT USE - UNE
+< UNF	DO NOT USE - UNF
+---
+> UND	Unisys Corporation
+> UNE	Unisys Corporation
+> UNF	Unisys Corporation
+2444c2444
+< WYS	Myse Technology
+---
+> WYS	Wyse Technology
