@@ -5462,12 +5462,6 @@ E60000-E60FFF                 (base 16)                     HORIZON.INC
                                                             Shin Asahi-cho  Takashima, Shiga  520-1501
                                                             JP
 
-00-50-C2                      (hex)                         PESA
-1AF000-1AFFFF                 (base 16)                     PESA
-                                                            103 Quality Circle, Suite 210
-                                                            Huntsville  AL  35806
-                                                            US
-
 00-50-C2                      (hex)                         ESI Ventures, LLC
 F05000-F05FFF                 (base 16)                     ESI Ventures, LLC
                                                             902 Incentive Drive
@@ -5496,6 +5490,12 @@ DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
 63C000-63CFFF                 (base 16)                     dPict Imaging, Inc.
                                                             7400 N. Shadeland Ave., Suite 255
                                                             Indianapolis  IN  46250
+                                                            US
+
+00-50-C2                      (hex)                         PESA Inc.
+1AF000-1AFFFF                 (base 16)                     PESA Inc.
+                                                            103 Quality Circle, Suite 210
+                                                            Huntsville   AL  35806
                                                             US
 
 00-50-C2                      (hex)                         Clever Devices
