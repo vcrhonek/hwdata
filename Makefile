@@ -8,7 +8,7 @@ else
     TAGNAME := v$(VERSION)
 endif
 SOURCEDIR := $(shell pwd)
-ARCHIVE := $(TAGNAME).tar.bz2
+ARCHIVE := $(TAGNAME).tar.gz
 
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
@@ -82,12 +82,12 @@ check:
 create-archive:
 	@rm -rf $(TAGNAME) $(TAGNAME).tar*  2>/dev/null
 	@make changelog
-	@git archive --format=tar --prefix=$(TAGNAME)/ HEAD > $(TAGNAME).tar
-	@mkdir $(TAGNAME)
-	@cp ChangeLog $(TAGNAME)/
-	@tar --append -f $(TAGNAME).tar $(TAGNAME)
-	@bzip2 -f $(TAGNAME).tar
-	@rm -rf $(TAGNAME)
+	@git archive --format=tar --prefix=hwdata-$(VERSION)/ HEAD > $(TAGNAME).tar
+	@mkdir hwdata-$(VERSION)
+	@cp ChangeLog hwdata-$(VERSION)/
+	@tar --append -f $(TAGNAME).tar hwdata-$(VERSION)
+	@gzip -f $(TAGNAME).tar
+	@rm -rf hwdata-$(VERSION)
 	@echo ""
 	@echo "The final archive is in $(ARCHIVE)"
 
@@ -102,8 +102,8 @@ srpm-x: create-archive
 	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
 
 clean:
-	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
-	    *.downloaded *.utf8 *.orig hwdata.pc
+	@rm -f $(TAGNAME)*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
+	    *.downloaded *.utf8 *.orig hwdata.pc ChangeLog clog
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
