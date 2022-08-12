@@ -14,10 +14,10 @@ CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
 CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
-IDFILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
+IDFILES = pci.ids usb.ids oui.txt iab.txt pnp.ids pnp.ids.xlsx
 
 # usb.ids is not in UTF-8
-UTF_IDFILES = pci.ids oui.txt iab.txt pnp.ids
+UTF_IDFILES = pci.ids oui.txt iab.txt pnp.ids pnp.ids.xlsx
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
     clean clog download

@@ -1,0 +1,7 @@
+Makefile.inc
+hwdata.pc
+iab.txt.*
+oui.txt.*
+pci.ids.*
+pnp.ids.orig
+usb.ids.*
