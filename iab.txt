@@ -2699,12 +2699,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Coimbra    3030-320
                                                             PT
 
-00-50-C2                      (hex)                         Hirotech, Inc
-9CC000-9CCFFF                 (base 16)                     Hirotech, Inc
-                                                            Shinyokohama I.O Bldg. #602, 1-3-10, Shinyokohama, Kohoku-ku
-                                                            Yokohama City  Kanagawa  222-0033
-                                                            JP
-
 00-50-C2                      (hex)                         Protronic GmbH
 9C6000-9C6FFF                 (base 16)                     Protronic GmbH
                                                             Am Schwarzwasser 2b
@@ -5497,6 +5491,12 @@ DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
                                                             103 Quality Circle, Suite 210
                                                             Huntsville   AL  35806
                                                             US
+
+00-50-C2                      (hex)                         Hirotech inc.
+9CC000-9CCFFF                 (base 16)                     Hirotech inc.
+                                                            Shinyokohama I.O Bldg. #602, 1-3-10, Shinyokohama, Kohoku-ku
+                                                            Yokohama City  Kanagawa  222-0033
+                                                            JP
 
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
