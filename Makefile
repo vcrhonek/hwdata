@@ -48,8 +48,10 @@ install: Makefile.inc hwdata.pc
 	for foo in $(IDFILES) ; do \
 		install -m 644 $$foo $(DESTDIR)$(datadir)/$(NAME) ;\
 	done
-	mkdir -p -m 755 $(DESTDIR)$(libdir)/modprobe.d
-	install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf
+	@if [ "$(blacklist)" = true ]; then \
+		mkdir -p -m 755 $(DESTDIR)$(libdir)/modprobe.d ;\
+		install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf ;\
+	fi;
 	mkdir -p -m 755 $(DESTDIR)$(datadir)/pkgconfig
 	install -m 644 hwdata.pc $(DESTDIR)$(datadir)/pkgconfig/
 
