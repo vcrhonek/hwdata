@@ -6,6 +6,7 @@
 
 prefix=/usr
 datarootdir=${datarootdir:-${prefix}/share}
+blacklist=true
 
 for arg; do
     case "$arg" in
@@ -18,6 +19,7 @@ for arg; do
         --sysconfdir=*) sysconfdir=${arg#*=};;
         --libdir=*) libdir=${arg#*=};;
         --mandir=*) mandir=${arg#*=};;
+        --disable-blacklist) blacklist=false;;
         *) echo "Ignoring unknown option '$arg'";;
     esac
     shift
@@ -41,6 +43,8 @@ datadir ?= ${datadir:-${datarootdir}}
 sysconfdir ?= ${sysconfdir:-${prefix}/etc}
 libdir ?= ${libdir:-${prefix}/lib}
 mandir ?= ${mandir:-${prefix}/share/man}
+
+blacklist ?= ${blacklist}
 
 EOF
 mv Makefile.inc.tmp Makefile.inc
