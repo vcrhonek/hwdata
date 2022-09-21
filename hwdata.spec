@@ -29,7 +29,7 @@ such as the pci.ids and usb.ids databases.
 %dir %{_datadir}/%{name}
 %{_prefix}/lib/modprobe.d/dist-blacklist.conf
 %{_datadir}/%{name}/*
-%{_datadir}/pkgconfig/%{name}.pc
+%exclude %{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
 * Wed Sep 07 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.362-1
