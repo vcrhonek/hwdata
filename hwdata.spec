@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
 Version: 0.362
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv2+
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
@@ -11,6 +11,14 @@ BuildRequires: make
 %description
 hwdata contains various hardware identification and configuration data,
 such as the pci.ids and usb.ids databases.
+
+%package        devel
+Summary:        Development files for %{name}
+Requires:       %{name}%{?_isa} = %{version}-%{release}
+
+%description    devel
+The %{name}-devel package contains files for developing applications that use
+%{name}.
 
 %prep
 %setup -q
@@ -29,9 +37,14 @@ such as the pci.ids and usb.ids databases.
 %dir %{_datadir}/%{name}
 %{_prefix}/lib/modprobe.d/dist-blacklist.conf
 %{_datadir}/%{name}/*
-%exclude %{_datadir}/pkgconfig/%{name}.pc
+
+%files devel
+%{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
+* Sun Sep 25 2022 Pete Walter <pwalter@fedoraproject.org> - 0.362-2
+- Move pkgconfig file to -devel subpackage (#2128591)
+
 * Wed Sep 07 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.362-1
 - Update pci and vendor ids
 
