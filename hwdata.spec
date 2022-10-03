@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.362
-Release: 2%{?dist}
+Version: 0.363
+Release: 1%{?dist}
 License: GPLv2+
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
@@ -42,6 +42,9 @@ The %{name}-devel package contains files for developing applications that use
 %{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
+* Mon Oct 03 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.363-1
+- Update pci and vendor ids
+
 * Sun Sep 25 2022 Pete Walter <pwalter@fedoraproject.org> - 0.362-2
 - Move pkgconfig file to -devel subpackage (#2128591)
 
