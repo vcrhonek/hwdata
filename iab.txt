@@ -7145,12 +7145,6 @@ D3B000-D3BFFF                 (base 16)                     Gitsn Inc.
                                                             Seoul    152-769
                                                             KR
 
-00-50-C2                      (hex)                         Olympus NDT Canada Inc.
-D1F000-D1FFFF                 (base 16)                     Olympus NDT Canada Inc.
-                                                            505, boul Parc Technologique
-                                                            Quebec    G1P 4S9
-                                                            CA
-
 00-50-C2                      (hex)                         TECHKON GmbH
 D1B000-D1BFFF                 (base 16)                     TECHKON GmbH
                                                             Wiesbadener Str. 27
@@ -10564,6 +10558,12 @@ EAA000-EAAFFF                 (base 16)                     BAE Systems
                                                             65 Spir Brook Rd.
                                                             Nashua  NH  03060
                                                             US
+
+00-50-C2                      (hex)                         Olympus NDT Canada
+D1F000-D1FFFF                 (base 16)                     Olympus NDT Canada
+                                                            505, boul Parc Technologique
+                                                            Quebec    G1P 4S9
+                                                            CA
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH

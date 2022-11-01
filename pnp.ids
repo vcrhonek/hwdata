@@ -242,6 +242,7 @@ BBX	Black Box Corporation
 BCC	Beaver Computer Corporaton
 BCD	Barco GmbH
 BCI	Broadata Communications Inc.
+BCK	Beck GmbH & Co. Elektronik Bauelemente KG
 BCM	Broadcom
 BCQ	Deutsche Telekom Berkom GmbH
 BCS	Booria CAD/CAM systems
@@ -729,6 +730,7 @@ ETT	E-Tech Inc
 EUT	Ericsson Mobile Networks B.V.
 EVE	Advanced Micro Peripherals Ltd
 EVI	eviateg GmbH
+EVP	EverPro Technologies Company Limited
 EVX	Everex
 EXA	Exabyte
 EXC	Excession Audio
@@ -1171,6 +1173,7 @@ KGI	Klipsch Group, Inc
 KGL	KEISOKU GIKEN Co.,Ltd.
 KIO	Kionix, Inc.
 KIS	KiSS Technology A/S
+KLT	Colorlight
 KMC	Mitsumi Company Ltd
 KME	KIMIN Electronics Co., Ltd.
 KML	Kensington Microware Ltd
@@ -1238,6 +1241,7 @@ LEN	Lenovo Group Limited
 LEO	First International Computer Inc
 LEX	Lexical Ltd
 LGC	Logic Ltd
+LGD	LG Display
 LGI	Logitech Inc
 LGS	LG Semicom Company Ltd
 LGX	Lasergraphics, Inc.
@@ -1501,6 +1505,7 @@ NCP	Najing CEC Panda FPD Technology CO. ltd
 NCR	NCR Electronics
 NCS	Northgate Computer Systems
 NCT	NEC CustomTechnica, Ltd.
+NCV	NewCoSemi (Beijing) Technology CO.,Ltd.
 NDC	National DataComm Corporaiton
 NDF	NDF Special Light Products B.V.
 NDI	National Display Systems
@@ -1762,6 +1767,7 @@ PTI	Promise Technology Inc
 PTL	Pantel Inc
 PTS	Plain Tree Systems Inc
 PTW	DO NOT USE - PTW
+PTX	Printronix LLC
 PUL	Pulse-Eight Ltd
 PVC	DO NOT USE - PVC
 PVG	Proview Global Co., Ltd
@@ -2190,6 +2196,7 @@ TLT	Dai Telecom S.p.A.
 TLV	S3 Inc
 TLX	Telxon Corporation
 TLY	Truly Semiconductors Ltd.
+TMA	Tianma Microelectronics Ltd.
 TMC	Techmedia Computer Systems Corporation
 TME	AT&T Microelectronics
 TMI	Texas Microsystem
