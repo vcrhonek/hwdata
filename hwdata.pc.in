@@ -1,6 +1,6 @@
 prefix=@prefix@
 datadir=@datadir@
-pkgdatadir=@pkgdatadir@
+pkgdatadir=${pc_sysrootdir}@pkgdatadir@
 
 Name: @NAME@
 Description: Hardware identification and configuration data
