@@ -1,4 +1,4 @@
-%global uprelease 8.14
+%global uprelease 8.15
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -31,6 +31,10 @@ make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Dec 19 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.314-8.15
+- Update pci, usb and vendor ids
+  Resolves: #2125563
+
 * Mon Aug 22 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.314-8.14
 - Update pci nd vendor ids
   Resolves: #2062131

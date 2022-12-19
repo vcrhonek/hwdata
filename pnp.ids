@@ -242,6 +242,7 @@ BBX	Black Box Corporation
 BCC	Beaver Computer Corporaton
 BCD	Barco GmbH
 BCI	Broadata Communications Inc.
+BCK	Beck GmbH & Co. Elektronik Bauelemente KG
 BCM	Broadcom
 BCQ	Deutsche Telekom Berkom GmbH
 BCS	Booria CAD/CAM systems
@@ -259,6 +260,7 @@ BGT	Budzetron Inc
 BHZ	BitHeadz, Inc.
 BIA	Biamp Systems Corporation
 BIC	Big Island Communications
+BIG	Bigscreen, Inc.
 BII	Boeckeler Instruments Inc
 BIL	Billion Electric Company Ltd
 BIO	BioLink Technologies International, Inc.
@@ -718,6 +720,7 @@ EST	Embedded Solution Technology
 ESY	E-Systems Inc
 ETC	Everton Technology Company Ltd
 ETD	ELAN MICROELECTRONICS CORPORATION
+ETG	Eizo Technologies GmbH
 ETH	Etherboot Project
 ETI	Eclipse Tech Inc
 ETK	eTEK Labs Inc.
@@ -727,6 +730,7 @@ ETT	E-Tech Inc
 EUT	Ericsson Mobile Networks B.V.
 EVE	Advanced Micro Peripherals Ltd
 EVI	eviateg GmbH
+EVP	EverPro Technologies Company Limited
 EVX	Everex
 EXA	Exabyte
 EXC	Excession Audio
@@ -882,6 +886,7 @@ GTM	Garnet System Company Ltd
 GTS	Geotest Marvin Test Systems Inc
 GTT	General Touch Technology Co., Ltd.
 GUD	Guntermann & Drunck GmbH
+GUP	GoUp Co.,Ltd
 GUZ	Guzik Technical Enterprises
 GVC	GVC Corporation
 GVL	Global Village Communication
@@ -1168,6 +1173,7 @@ KGI	Klipsch Group, Inc
 KGL	KEISOKU GIKEN Co.,Ltd.
 KIO	Kionix, Inc.
 KIS	KiSS Technology A/S
+KLT	Colorlight
 KMC	Mitsumi Company Ltd
 KME	KIMIN Electronics Co., Ltd.
 KML	Kensington Microware Ltd
@@ -1235,6 +1241,7 @@ LEN	Lenovo Group Limited
 LEO	First International Computer Inc
 LEX	Lexical Ltd
 LGC	Logic Ltd
+LGD	LG Display
 LGI	Logitech Inc
 LGS	LG Semicom Company Ltd
 LGX	Lasergraphics, Inc.
@@ -1498,6 +1505,7 @@ NCP	Najing CEC Panda FPD Technology CO. ltd
 NCR	NCR Electronics
 NCS	Northgate Computer Systems
 NCT	NEC CustomTechnica, Ltd.
+NCV	NewCoSemi (Beijing) Technology CO.,Ltd.
 NDC	National DataComm Corporaiton
 NDF	NDF Special Light Products B.V.
 NDI	National Display Systems
@@ -1586,6 +1594,7 @@ ODM	ODME Inc.
 ODR	Odrac
 OEC	ORION ELECTRIC CO.,LTD
 OEI	Optum Engineering Inc.
+OFI	Jiangxi Jinghao Optical Co., Ltd.
 OHW	M-Labs Limited
 OIC	Option Industrial Computers
 OIM	Option International
@@ -1758,6 +1767,7 @@ PTI	Promise Technology Inc
 PTL	Pantel Inc
 PTS	Plain Tree Systems Inc
 PTW	DO NOT USE - PTW
+PTX	Printronix LLC
 PUL	Pulse-Eight Ltd
 PVC	DO NOT USE - PVC
 PVG	Proview Global Co., Ltd
@@ -1943,6 +1953,7 @@ SGE	Kansai Electric Company Ltd
 SGI	Scan Group Ltd
 SGL	Super Gate Technology Company Ltd
 SGM	SAGEM
+SGN	Shenzhen Soogeen Electronics Co., LTD.
 SGO	Logos Design A/S
 SGT	Stargate Technology
 SGW	Shanghai Guowei Science and Technology Co., Ltd.
@@ -2044,6 +2055,7 @@ SRT	SeeReal Technologies GmbH
 SSC	Sierra Semiconductor Inc
 SSD	FlightSafety International
 SSE	Samsung Electronic Co.
+SSG	Steelseries ApS
 SSI	S-S Technology Inc
 SSJ	Sankyo Seiki Mfg.co., Ltd
 SSL	Shenzhen South-Top Computer Co., Ltd.
@@ -2185,6 +2197,7 @@ TLT	Dai Telecom S.p.A.
 TLV	S3 Inc
 TLX	Telxon Corporation
 TLY	Truly Semiconductors Ltd.
+TMA	Tianma Microelectronics Ltd.
 TMC	Techmedia Computer Systems Corporation
 TME	AT&T Microelectronics
 TMI	Texas Microsystem
@@ -2419,6 +2432,7 @@ WIP	Wipro Infotech
 WKH	Uni-Take Int'l Inc.
 WLD	Wildfire Communications Inc
 WLF	WOLF Advanced Technology
+WMI	Weidmuller Interface GmbH & Co. KG
 WML	Wolfson Microelectronics Ltd
 WMO	Westermo Teleindustri AB
 WMT	Winmate Communication Inc
