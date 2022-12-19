@@ -2699,12 +2699,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Coimbra    3030-320
                                                             PT
 
-00-50-C2                      (hex)                         Hirotech, Inc
-9CC000-9CCFFF                 (base 16)                     Hirotech, Inc
-                                                            Shinyokohama I.O Bldg. #602, 1-3-10, Shinyokohama, Kohoku-ku
-                                                            Yokohama City  Kanagawa  222-0033
-                                                            JP
-
 00-50-C2                      (hex)                         Protronic GmbH
 9C6000-9C6FFF                 (base 16)                     Protronic GmbH
                                                             Am Schwarzwasser 2b
@@ -5498,6 +5492,12 @@ DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
                                                             Huntsville   AL  35806
                                                             US
 
+00-50-C2                      (hex)                         Hirotech inc.
+9CC000-9CCFFF                 (base 16)                     Hirotech inc.
+                                                            Shinyokohama I.O Bldg. #602, 1-3-10, Shinyokohama, Kohoku-ku
+                                                            Yokohama City  Kanagawa  222-0033
+                                                            JP
+
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
                                                             1662 Route 300
@@ -5704,12 +5704,6 @@ E98000-E98FFF                 (base 16)                     i3 International Inc
                                                             1-29-18 Tamagawa
                                                             Choufu-shi  Tokyo  182-0025
                                                             JP
-
-00-50-C2                      (hex)                         Ubiquiti Networks Inc.
-B04000-B04FFF                 (base 16)                     Ubiquiti Networks Inc.
-                                                            91 E Tasman Dr
-                                                            San Jose  CA  95134
-                                                            US
 
 00-50-C2                      (hex)                         Fr. Sauter AG
 DE6000-DE6FFF                 (base 16)                     Fr. Sauter AG
@@ -7144,12 +7138,6 @@ D3B000-D3BFFF                 (base 16)                     Gitsn Inc.
                                                             #811, Woolim Ebiz Center First, 170-5
                                                             Seoul    152-769
                                                             KR
-
-00-50-C2                      (hex)                         Olympus NDT Canada Inc.
-D1F000-D1FFFF                 (base 16)                     Olympus NDT Canada Inc.
-                                                            505, boul Parc Technologique
-                                                            Quebec    G1P 4S9
-                                                            CA
 
 00-50-C2                      (hex)                         TECHKON GmbH
 D1B000-D1BFFF                 (base 16)                     TECHKON GmbH
@@ -10563,6 +10551,18 @@ D5E000-D5EFFF                 (base 16)                     PRIVATECH Inc.
 EAA000-EAAFFF                 (base 16)                     BAE Systems
                                                             65 Spir Brook Rd.
                                                             Nashua  NH  03060
+                                                            US
+
+00-50-C2                      (hex)                         Olympus NDT Canada
+D1F000-D1FFFF                 (base 16)                     Olympus NDT Canada
+                                                            505, boul Parc Technologique
+                                                            Quebec    G1P 4S9
+                                                            CA
+
+00-50-C2                      (hex)                         Ubiquiti Inc
+B04000-B04FFF                 (base 16)                     Ubiquiti Inc
+                                                            685 Third Avenue, 27th Floor
+                                                            New York  NY  New York NY 10017
                                                             US
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
@@ -21554,9 +21554,9 @@ B58000-B58FFF                 (base 16)                     RealD, Inc.
                                                             Straubenhardt  Baden-Württemberg  75334
                                                             DE
 
-00-50-C2                      (hex)                         Hitachi Energy
-3F3000-3F3FFF                 (base 16)                     Hitachi Energy
-                                                            Kallstadter Strasse 1
+00-50-C2                      (hex)                         Hitachi Energy Germany AG
+3F3000-3F3FFF                 (base 16)                     Hitachi Energy Germany AG
+                                                            Havellandstr. 10-14
                                                             Mannheim    68309
                                                             DE
 
@@ -26066,12 +26066,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Austin  TX  78759
                                                             US
 
-00-50-C2                      (hex)                         BiPOM Electronics, Inc.
-469000-469FFF                 (base 16)                     BiPOM Electronics, Inc.
-                                                            16301 Blue Ridge Road
-                                                            Missouri City  TEXAS  77489
-                                                            US
-
 00-50-C2                      (hex)                         Funkwerk plettac electronic GmbH
 45A000-45AFFF                 (base 16)                     Funkwerk plettac electronic GmbH
                                                             Wuerzburger Strasse 150
@@ -27378,4 +27372,10 @@ DF4000-DF4FFF                 (base 16)                     Potter Electric Sign
 F48000-F48FFF                 (base 16)                     SHURE INCORPORATED
                                                             5800 W. TOUHY AVE.
                                                             NILES  IL  60714
+                                                            US
+
+00-50-C2                      (hex)                         Bipom Electronics, Inc.
+469000-469FFF                 (base 16)                     Bipom Electronics, Inc.
+                                                            9788 Clarewood Dr. 306
+                                                            Houston  TX  77036
                                                             US

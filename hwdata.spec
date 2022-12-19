@@ -1,4 +1,4 @@
-%global uprelease 9.5
+%global uprelease 9.6
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -32,6 +32,10 @@ such as the pci.ids and usb.ids databases.
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Dec 19 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-9.6
+- Update pci, usb and vendor ids
+  Resolves: #2125571
+
 * Mon Aug 22 2022 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-9.5
 - Update pci and vendor ids
   Resolves: #2062103
