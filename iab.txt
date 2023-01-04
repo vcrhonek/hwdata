@@ -5705,12 +5705,6 @@ E98000-E98FFF                 (base 16)                     i3 International Inc
                                                             Choufu-shi  Tokyo  182-0025
                                                             JP
 
-00-50-C2                      (hex)                         Ubiquiti Networks Inc.
-B04000-B04FFF                 (base 16)                     Ubiquiti Networks Inc.
-                                                            91 E Tasman Dr
-                                                            San Jose  CA  95134
-                                                            US
-
 00-50-C2                      (hex)                         Fr. Sauter AG
 DE6000-DE6FFF                 (base 16)                     Fr. Sauter AG
                                                             Im Surinam 55
@@ -10564,6 +10558,12 @@ D1F000-D1FFFF                 (base 16)                     Olympus NDT Canada
                                                             505, boul Parc Technologique
                                                             Quebec    G1P 4S9
                                                             CA
+
+00-50-C2                      (hex)                         Ubiquiti Inc
+B04000-B04FFF                 (base 16)                     Ubiquiti Inc
+                                                            685 Third Avenue, 27th Floor
+                                                            New York  NY  New York NY 10017
+                                                            US
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 FD7000-FD7FFF                 (base 16)                     DEUTA-WERKE GmbH
@@ -26066,12 +26066,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Austin  TX  78759
                                                             US
 
-00-50-C2                      (hex)                         BiPOM Electronics, Inc.
-469000-469FFF                 (base 16)                     BiPOM Electronics, Inc.
-                                                            16301 Blue Ridge Road
-                                                            Missouri City  TEXAS  77489
-                                                            US
-
 00-50-C2                      (hex)                         Funkwerk plettac electronic GmbH
 45A000-45AFFF                 (base 16)                     Funkwerk plettac electronic GmbH
                                                             Wuerzburger Strasse 150
@@ -27378,4 +27372,10 @@ DF4000-DF4FFF                 (base 16)                     Potter Electric Sign
 F48000-F48FFF                 (base 16)                     SHURE INCORPORATED
                                                             5800 W. TOUHY AVE.
                                                             NILES  IL  60714
+                                                            US
+
+00-50-C2                      (hex)                         Bipom Electronics, Inc.
+469000-469FFF                 (base 16)                     Bipom Electronics, Inc.
+                                                            9788 Clarewood Dr. 306
+                                                            Houston  TX  77036
                                                             US
