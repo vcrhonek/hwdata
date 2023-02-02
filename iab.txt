@@ -1193,12 +1193,6 @@ F9B000-F9BFFF                 (base 16)                     NEWELL TECHNOLOGIES 
                                                             Kowloon
                                                             HK
 
-00-50-C2                      (hex)                         RF Code, Inc
-F71000-F71FFF                 (base 16)                     RF Code, Inc
-                                                            9229 Waterford Centre
-                                                            Austin  TX  78758
-                                                            US
-
 00-50-C2                      (hex)                         Pro Design Electronic GmbH
 F6D000-F6DFFF                 (base 16)                     Pro Design Electronic GmbH
                                                             Albert-Mayer-Straße 14-16
@@ -5498,6 +5492,12 @@ DD8000-DD8FFF                 (base 16)                     Leonardo UK Ltd
                                                             Yokohama City  Kanagawa  222-0033
                                                             JP
 
+00-50-C2                      (hex)                         RF Code
+F71000-F71FFF                 (base 16)                     RF Code
+                                                            9229 Waterford Centre Blvd #500
+                                                            Austin  TX  78758
+                                                            US
+
 00-50-C2                      (hex)                         Clever Devices
 065000-065FFF                 (base 16)                     Clever Devices
                                                             1662 Route 300
@@ -8756,12 +8756,6 @@ A09000-A09FFF                 (base 16)                     Innovative American 
                                                             Hildebran  NC  28637
                                                             US
 
-00-50-C2                      (hex)                         RF Code, Inc.
-689000-689FFF                 (base 16)                     RF Code, Inc.
-                                                            1250 S. Clearview Ave.
-                                                            Mesa  AZ  85209
-                                                            US
-
 00-50-C2                      (hex)                         SELCO
 68E000-68EFFF                 (base 16)                     SELCO
                                                             ZI DU VAL D OMBREE
@@ -9758,12 +9752,6 @@ A09000-A09FFF                 (base 16)                     Innovative American 
                                                             Ettlingen    76275
                                                             DE
 
-00-50-C2                      (hex)                         Tornado Modular Systems, Ltd
-2FA000-2FAFFF                 (base 16)                     Tornado Modular Systems, Ltd
-                                                            p.b. 709
-                                                            Novosibirsk    630090
-                                                            RU
-
 00-50-C2                      (hex)                         Research Applications
 2DE000-2DEFFF                 (base 16)                     Research Applications
                                                             650 S 79th St
@@ -10563,6 +10551,18 @@ D1F000-D1FFFF                 (base 16)                     Olympus NDT Canada
 B04000-B04FFF                 (base 16)                     Ubiquiti Inc
                                                             685 Third Avenue, 27th Floor
                                                             New York  NY  New York NY 10017
+                                                            US
+
+00-50-C2                      (hex)                         Tornado Modular Systems
+2FA000-2FAFFF                 (base 16)                     Tornado Modular Systems
+                                                            p.b. 709
+                                                            Novosibirsk    630090
+                                                            RU
+
+00-50-C2                      (hex)                         RF Code
+689000-689FFF                 (base 16)                     RF Code
+                                                            9229 Waterford Centre Blvd #500
+                                                            Austin  TX  78758
                                                             US
 
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
@@ -12757,12 +12757,6 @@ BDB000-BDBFFF                 (base 16)                     GasTOPS Ltd.
                                                             1011 Polytek Street
                                                             Ottawa  Ontario  K1J9J3
                                                             CA
-
-00-50-C2                      (hex)                         RF Code, Inc
-BE5000-BE5FFF                 (base 16)                     RF Code, Inc
-                                                            9229 Waterford Centre
-                                                            Austin  TX  78758
-                                                            US
 
 00-50-C2                      (hex)                         Jiskoot Ltd
 BE3000-BE3FFF                 (base 16)                     Jiskoot Ltd
@@ -16304,6 +16298,12 @@ ACC000-ACCFFF                 (base 16)                     ProPhotonix
                                                             Helsinki    00370
                                                             FI
 
+00-50-C2                      (hex)                         RF Code
+BE5000-BE5FFF                 (base 16)                     RF Code
+                                                            9229 Waterford Centre Blvd #500
+                                                            Austin  TX  78758
+                                                            US
+
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
                                                             99, rue Pierre Semard
@@ -16879,12 +16879,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                              Bldg 2, F/6, Zone S2
                                                             Shenzhen  China  518000
                                                             CN
-
-40-D8-55                      (hex)                         RF Code
-194000-194FFF                 (base 16)                     RF Code
-                                                            9229 Waterford Centre
-                                                            Austin  Tx  78758
-                                                            US
 
 40-D8-55                      (hex)                         FORZA SILICON CORP.
 193000-193FFF                 (base 16)                     FORZA SILICON CORP.
@@ -18439,12 +18433,6 @@ B56000-B56FFF                 (base 16)                     SINOVIA SA
                                                             3 RUE DE CHEVILLY
                                                             FRESNES  VAL DE MARNE  94260
                                                             FR
-
-00-50-C2                      (hex)                         Timberline Mfg Company
-B5B000-B5BFFF                 (base 16)                     Timberline Mfg Company
-                                                            1050 Lyons Lane
-                                                            Marion   IA  52302
-                                                            US
 
 00-50-C2                      (hex)                         Trench Austria GmbH
 B2A000-B2AFFF                 (base 16)                     Trench Austria GmbH
@@ -21560,6 +21548,18 @@ B58000-B58FFF                 (base 16)                     RealD, Inc.
                                                             Mannheim    68309
                                                             DE
 
+40-D8-55                      (hex)                         RF Code
+194000-194FFF                 (base 16)                     RF Code
+                                                            9229 Waterford Centre Blvd #500
+                                                            Austin  TX  78758
+                                                            US
+
+00-50-C2                      (hex)                         Timberline Manufacturing
+B5B000-B5BFFF                 (base 16)                     Timberline Manufacturing
+                                                            1029 Blairs Ferry Rd
+                                                            Marion  IA  52302
+                                                            US
+
 00-50-C2                      (hex)                         DEUTA-WERKE GmbH
 CB3000-CB3FFF                 (base 16)                     DEUTA-WERKE GmbH
                                                             Paffrather Str. 140
@@ -23284,12 +23284,6 @@ DDB000-DDBFFF                 (base 16)                     LUCEO
                                                             16 Rue Laënnec
                                                             Vern Sur Seiche    35770
                                                             FR
-
-00-50-C2                      (hex)                         RF Code, Inc
-DB1000-DB1FFF                 (base 16)                     RF Code, Inc
-                                                            9229 Waterford Centre
-                                                            Austin  TX  78758
-                                                            US
 
 00-50-C2                      (hex)                         SoftwareCannery
 DB2000-DB2FFF                 (base 16)                     SoftwareCannery
@@ -26807,12 +26801,6 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Montpellier    34000
                                                             FR
 
-00-50-C2                      (hex)                         RF Code
-1A6000-1A6FFF                 (base 16)                     RF Code
-                                                            1250 S. Clearview Ave.
-                                                            Mesa  AZ  85208-3378
-                                                            US
-
 00-50-C2                      (hex)                         Axotec Technologies GmbH
 1A9000-1A9FFF                 (base 16)                     Axotec Technologies GmbH
                                                             Sudetenstraße 88
@@ -27378,4 +27366,16 @@ F48000-F48FFF                 (base 16)                     SHURE INCORPORATED
 469000-469FFF                 (base 16)                     Bipom Electronics, Inc.
                                                             9788 Clarewood Dr. 306
                                                             Houston  TX  77036
+                                                            US
+
+00-50-C2                      (hex)                         RF Code
+1A6000-1A6FFF                 (base 16)                     RF Code
+                                                            9229 Waterford Centre Blvd #500
+                                                            Austin  TX  78758
+                                                            US
+
+00-50-C2                      (hex)                         RF Code
+DB1000-DB1FFF                 (base 16)                     RF Code
+                                                            9229 Waterford Centre Blvd #500
+                                                            Austin  TX  78758
                                                             US
