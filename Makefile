@@ -131,8 +131,11 @@ pnp.ids.xlsx:
 usb.ids: usb.ids.utf8
 	dos2unix -n $? $@
 
-pci.ids: pci.ids.utf8
+pci.ids.orig: pci.ids.utf8
 	dos2unix -n $? $@
+
+pci.ids: pci.ids.orig missgenerated-pci.ids.patch
+	patch -p1 -o $@ pci.ids.orig missgenerated-pci.ids.patch
 
 oui.txt: oui.txt.utf8
 	dos2unix -n $? $@
