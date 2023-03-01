@@ -15110,12 +15110,6 @@ A01000-A01FFF                 (base 16)                     Patronics Internatio
                                                             Netanya    P.O BOX 8709
                                                             IL
 
-00-50-C2                      (hex)                         3D perception
-3DC000-3DCFFF                 (base 16)                     3D perception
-                                                            PO Box 455
-                                                            Asker    N-1373
-                                                            NO
-
 00-50-C2                      (hex)                         Micro-Robotics Limited
 3D0000-3D0FFF                 (base 16)                     Micro-Robotics Limited
                                                             135 Ditton Walk
@@ -16303,6 +16297,12 @@ BE5000-BE5FFF                 (base 16)                     RF Code
                                                             9229 Waterford Centre Blvd #500
                                                             Austin  TX  78758
                                                             US
+
+00-50-C2                      (hex)                         3D perception AS
+3DC000-3DCFFF                 (base 16)                     3D perception AS
+                                                            Nye Vakas vei 14
+                                                            Hvalstad    1395
+                                                            NO
 
 40-D8-55                      (hex)                         VITEC
 054000-054FFF                 (base 16)                     VITEC
