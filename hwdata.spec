@@ -1,4 +1,4 @@
-%global uprelease 9.7
+%global uprelease 9.8
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -13,6 +13,14 @@ BuildRequires: make
 %description
 hwdata contains various hardware identification and configuration data,
 such as the pci.ids and usb.ids databases.
+
+%package        devel
+Summary:        Development files for %{name}
+Requires:       %{name}%{?_isa} = %{version}-%{release}
+
+%description    devel
+The %{name}-devel package contains files for developing applications that use
+%{name}.
 
 %prep
 %setup -q -n %{name}-%{version}-%{uprelease}
@@ -31,7 +39,14 @@ such as the pci.ids and usb.ids databases.
 %{_prefix}/lib/modprobe.d/dist-blacklist.conf
 %{_datadir}/%{name}/*
 
+%files devel
+%{_datadir}/pkgconfig/%{name}.pc
+
 %changelog
+* Thu Mar 09 2023 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-9.8
+- Provide pkgconfig file in -devel subpackage
+  Resolves: #2176788
+
 * Mon Feb 20 2023 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-9.7
 - Update pci, usb and vendor ids
   Resolves: #2125573

@@ -31,13 +31,27 @@ Makefile.inc: configure
 	@echo "$@ generated. Run the make again."
 	@exit 1
 
-install: Makefile.inc
+hwdata.pc: hwdata.pc.in
+	datadir="$(datadir)"; \
+	if [ "$${datadir#$(prefix)}" != "$$datadir" ]; then \
+		datadir="\$${prefix}$${datadir#$(prefix)}"; \
+	fi; \
+	sed -e 's|@prefix@|$(prefix)|g' \
+		-e "s|@datadir@|$$datadir|g" \
+		-e 's|@pkgdatadir@|$${datadir}/$(NAME)|g' \
+		-e 's|@VERSION@|$(VERSION)|g' \
+		-e 's|@NAME@|$(NAME)|g' \
+		$< > $@
+
+install: Makefile.inc hwdata.pc
 	mkdir -p -m 755 $(DESTDIR)$(datadir)/$(NAME)
 	for foo in $(IDFILES) ; do \
 		install -m 644 $$foo $(DESTDIR)$(datadir)/$(NAME) ;\
 	done
 	mkdir -p -m 755 $(DESTDIR)$(libdir)/modprobe.d
 	install -m 644 -T blacklist.conf $(DESTDIR)$(libdir)/modprobe.d/dist-blacklist.conf
+	mkdir -p -m 755 $(DESTDIR)$(datadir)/pkgconfig
+	install -m 644 hwdata.pc $(DESTDIR)$(datadir)/pkgconfig/
 
 commit:
 	git commit -vas ||:
@@ -89,7 +103,7 @@ srpm-x: create-archive
 
 clean:
 	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
-	    *.downloaded *.utf8 *.orig
+	    *.downloaded *.utf8 *.orig hwdata.pc
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@

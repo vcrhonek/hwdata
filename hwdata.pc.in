@@ -1,0 +1,8 @@
+prefix=@prefix@
+datadir=@datadir@
+pkgdatadir=${pc_sysrootdir}@pkgdatadir@
+
+Name: @NAME@
+Description: Hardware identification and configuration data
+Version: @VERSION@
+URL: https://github.com/vcrhonek/hwdata
