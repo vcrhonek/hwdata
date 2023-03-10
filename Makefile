@@ -1,14 +1,9 @@
 NAME=hwdata
-VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)
 RELEASE=$(shell rpm -q --define 'dist %{nil}' --specfile --qf "%{release}\n" hwdata.spec | sort -u)
-ifeq ($(shell git rev-parse --abbrev-ref HEAD | sed -n 's/^\([^0-9-]\+\).*/\L\1/p'), rhel)
-    # add revision to tag name for rhel branches
-    TAGNAME := v$(VERSION)-$(RELEASE)
-else
-    TAGNAME := v$(VERSION)
-endif
+VERSION=$(shell awk '/Version:/ { print $$2 }' hwdata.spec)-$(RELEASE)
+TAGNAME := v$(VERSION)
 SOURCEDIR := $(shell pwd)
-ARCHIVE := $(TAGNAME).tar.bz2
+ARCHIVE := $(TAGNAME).tar.gz
 
 CVSROOT = $(shell cat CVS/Root 2>/dev/null || :)
 
@@ -82,12 +77,12 @@ check:
 create-archive:
 	@rm -rf $(TAGNAME) $(TAGNAME).tar*  2>/dev/null
 	@make changelog
-	@git archive --format=tar --prefix=$(TAGNAME)/ HEAD > $(TAGNAME).tar
-	@mkdir $(TAGNAME)
-	@cp ChangeLog $(TAGNAME)/
-	@tar --append -f $(TAGNAME).tar $(TAGNAME)
-	@bzip2 -f $(TAGNAME).tar
-	@rm -rf $(TAGNAME)
+	@git archive --format=tar --prefix=hwdata-$(VERSION)/ HEAD > $(TAGNAME).tar
+	@mkdir hwdata-$(VERSION)
+	@cp ChangeLog hwdata-$(VERSION)/
+	@tar --append -f $(TAGNAME).tar hwdata-$(VERSION)
+	@gzip -f $(TAGNAME).tar
+	@rm -rf hwdata-$(VERSION)
 	@echo ""
 	@echo "The final archive is in $(ARCHIVE)"
 
@@ -99,11 +94,11 @@ upload:
 srpm-x: create-archive
 	@echo Creating $(NAME) src.rpm
 	@rpmbuild --nodeps -bs --define "_sourcedir $(SOURCEDIR)" --define "_srcrpmdir $(SOURCEDIR)" $(NAME).spec
-	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
+	@echo SRPM is: $(NAME)-$(VERSION).src.rpm
 
 clean:
-	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
-	    *.downloaded *.utf8 *.orig hwdata.pc
+	@rm -f $(TAGNAME)*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
+	    *.downloaded *.utf8 *.orig hwdata.pc ChangeLog clog
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
