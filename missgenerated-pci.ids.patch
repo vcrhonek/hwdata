@@ -1,6 +1,6 @@
---- pci.ids.orig	2023-03-01 15:17:00.315516241 +0100
-+++ pci.ids	2023-03-01 15:17:00.319516241 +0100
-@@ -2749,7 +2749,7 @@
+--- pci.ids.orig	2023-04-03 12:35:33.132718213 +0200
++++ pci.ids	2023-04-03 12:35:33.137718212 +0200
+@@ -2752,7 +2752,7 @@
  # FX-797A-TNBC
  		1682 3213  HD 7970 Black Edition
  		1682 3214  Double D HD 7970
@@ -9,7 +9,7 @@
  # Radeon HD 7970 X2
  		1787 2317  Radeon HD 7990
  		1787 3000  Tahiti XT2 [Radeon HD 7970 GHz Edition]
-@@ -2812,7 +2812,7 @@
+@@ -2815,7 +2815,7 @@
  		174b e282  Vapor-X R9 290X Tri-X OC
  		174b e285  R9 290X Tri-X OC
  		174b e324  Grenada XT2 [Radeon R9 390X]
@@ -18,7 +18,7 @@
  		1787 2357  Grenada XT [Radeon R9 390X]
  	67b1  Hawaii PRO [Radeon R9 290/390]
  		1043 04dd  STRIX R9 390
-@@ -3162,7 +3162,7 @@
+@@ -3165,7 +3165,7 @@
  	688c  Cypress XT GL [FireStream 9370]
  	688d  Cypress PRO GL [FireStream 9350]
  	6898  Cypress XT [Radeon HD 5870]
@@ -27,7 +27,7 @@
  		106b 00d0  Radeon HD 5870 Mac Edition
  # R5870-PM2D1G
  		1462 8032  Radeon HD 5870 1 GB GDDR5
-@@ -3703,7 +3703,7 @@
+@@ -3707,7 +3707,7 @@
  		1002 0322  All-in-Wonder X1800XL
  		1002 0d02  Radeon X1800 CrossFire Edition
  	710a  R520 [Radeon X1800 GTO]
@@ -36,7 +36,7 @@
  	710b  R520 [Radeon X1800 GTO]
  	710e  R520 GL [FireGL V7300]
  		13cc 3d0c  MXRT-5150
-@@ -7495,7 +7495,7 @@
+@@ -7499,7 +7499,7 @@
  		1077 02f2  QLogic 1x32Gb QLE2770 FC HBA
  		1077 02f3  QLogic 2x32Gb QLE2772 FC HBA
  		1590 02d3  SN1610Q - 1P Enhanced 32GFC Single Port Fibre Channel Host Bus Adapter
@@ -45,7 +45,7 @@
  	2289  ISP2852-based 64/32G Fibre Channel to PCIe Controller with StorCryption
  		1077 02e9  QLE2882 Dual Port 64GFC PCIe Gen4 x8 Adapter with StorCryption
  		1077 02eb  QLE2782 Dual Port 32GFC PCIe Gen4 x8 Adapter with StorCryption
-@@ -13227,7 +13227,7 @@
+@@ -13233,7 +13233,7 @@
  		10ec 8739  Dell Wireless 1801
  		17aa b736  Z50-75
  	b822  RTL8822BE 802.11a/b/g/n/ac WiFi adapter
@@ -54,7 +54,7 @@
  		17aa 5124  ThinkPad E595
  		17aa b023  ThinkPad E595
  	c821  RTL8821CE 802.11ac PCIe Wireless Network Adapter
-@@ -21323,10 +21323,10 @@
+@@ -21338,10 +21338,10 @@
  		193d 1084  NIC-ETH540F-3S-2P
  	1016  MT27710 Family [ConnectX-4 Lx Virtual Function]
  	1017  MT27800 Family [ConnectX-5]
@@ -69,7 +69,7 @@
  		193d 1051  NIC-IB1040i-Mb-2P
  	1018  MT27800 Family [ConnectX-5 Virtual Function]
  	1019  MT28800 Family [ConnectX-5 Ex]
-@@ -21522,7 +21522,7 @@
+@@ -21540,7 +21540,7 @@
  15cd  Dreamtech Co Ltd
  15ce  Genrad Inc
  # https://www.hilscher.com/imprint/
@@ -78,7 +78,7 @@
  	0000  CIFX PCI/PCIe
  15d1  Infineon Technologies AG
  15d2  FIC (First International Computer Inc)
-@@ -21993,14 +21993,14 @@
+@@ -22013,14 +22013,14 @@
  	002e  AR9287 Wireless Network Adapter (PCI-Express)
  		105b e034  T77H167.00
  	0030  AR93xx Wireless Network Adapter
@@ -95,7 +95,7 @@
  		105b e044  Unex DHXA-225
  		144d 410e  AR9485WB-EG 802.11b/g/n mini-PCIe card on a series 3 laptop
  		1a3b 1186  AW-NE186H
-@@ -25410,13 +25410,13 @@
+@@ -25434,13 +25434,13 @@
  	1203  NVMe SSD Controller UHXXXa series
  		1e81 a121  NVMe SSD UHXXXa series U.2 960GB
  		1e81 a122  NVMe SSD UHXXXa series U.2 1920GB
@@ -115,7 +115,7 @@
  		1e81 f123  NVMe SSD TP6500 series U.2 3840GB
  1e83  Huaqin Technology Co.Ltd
  1e85  Heitec AG
-@@ -30857,7 +30857,7 @@
+@@ -30883,7 +30883,7 @@
  		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
  		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
  	2723  Wi-Fi 6 AX200
@@ -124,7 +124,7 @@
  		8086 0084  Wi-Fi 6 AX200NGW
  	2725  Wi-Fi 6 AX210/AX211/AX411 160MHz
  		8086 0020  Wi-Fi 6 AX210 160MHz
-@@ -35631,7 +35631,7 @@
+@@ -35657,7 +35657,7 @@
  # 2-port Serial 1-port Parallel Adaptor
  	9912  PCIe 9912 Multi-I/O Controller
  	9922  MCS9922 PCIe Multi-I/O Controller
