@@ -1,0 +1,6 @@
+PURPOSE of /kernel/hwdata/Sanity/ids-files
+
+Description: compares upstream ID files with our ID files
+
+Author: Milos Malik <mmalik@redhat.com>
+

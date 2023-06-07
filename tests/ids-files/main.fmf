@@ -1,0 +1,17 @@
+summary: compares upstream ID files with our ID files
+description: |+
+    Description: compares upstream ID files with our ID files
+
+    Author: Milos Malik <mmalik@redhat.com>
+
+contact: Milos Malik <mmalik@redhat.com>
+component:
+  - hwdata
+test: ./runtest.sh
+framework: beakerlib
+recommend:
+  - hwdata
+  - wget
+duration: 5m
+extra-summary: /kernel/hwdata/Sanity/ids-files
+extra-task: /kernel/hwdata/Sanity/ids-files

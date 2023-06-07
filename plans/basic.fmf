@@ -1,0 +1,9 @@
+summary:
+    Basic checks
+discover:
+    how: fmf
+prepare:
+    how: shell
+    script:  dnf -y update && dnf -y install usbutils && dnf -y install python3-hwdata --setopt='tsflags=' && dnf clean all
+execute:
+    how: tmt
