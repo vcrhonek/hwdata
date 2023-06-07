@@ -1,0 +1,23 @@
+# See the documentation for more information:
+# https://packit.dev/docs/configuration/
+
+specfile_path: hwdata.spec
+
+# name in upstream package repository or registry (e.g. in PyPI)
+upstream_package_name: hwdata
+upstream_project_url: https://github.com/vcrhonek/hwdata
+upstream_tag_template: v{version}
+# downstream (Fedora) RPM package name
+downstream_package_name: hwdata
+#issue_repository: https://src.fedoraproject.org/rpms/hwdata
+
+jobs:
+- job: copr_build
+  trigger: pull_request
+  targets: [fedora-all]
+  owner: vcrhonek
+  project: hwdata-packit
+
+- job: tests
+  trigger: pull_request
+  targets: [fedora-all]

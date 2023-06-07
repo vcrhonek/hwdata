@@ -1,0 +1,2 @@
+summary: Test using python-hwdata
+test: ./test-python-hwdata.sh

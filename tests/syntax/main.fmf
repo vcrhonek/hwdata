@@ -1,0 +1,20 @@
+summary: checks for basic syntax errors
+description: |+
+    Description: checks for basic syntax errors
+
+    Author: Milos Malik <mmalik@redhat.com>
+
+contact: Milos Malik <mmalik@redhat.com>
+component:
+  - hwdata
+test: ./runtest.sh
+framework: beakerlib
+recommend:
+  - hwdata
+  - pciutils
+  - usbutils
+  - grep
+  - mktemp
+duration: 5m
+extra-summary: /kernel/hwdata/idfiles/syntax
+extra-task: /kernel/hwdata/idfiles/syntax

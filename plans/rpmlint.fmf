@@ -1,0 +1,14 @@
+summary:
+    Execute rpmlint on the spec file
+discover:
+    how: shell
+    tests:
+      - name: rpmlint
+        test: rpmlint hwdata.spec
+prepare:
+  - name: packages
+    how: install
+    package:
+    - rpmlint
+execute:
+    how: tmt
