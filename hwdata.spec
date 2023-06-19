@@ -1,4 +1,4 @@
-%global uprelease 9.9
+%global uprelease 9.10
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -43,6 +43,10 @@ The %{name}-devel package contains files for developing applications that use
 %{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
+* Mon Jun 19 2023 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-9.10
+- Update pci, usb and vendor ids
+  Resolves: #2169689
+
 * Fri Mar 10 2023 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.348-9.9
 - Fix version in pkgconfig file, fix srpm-x creation
   Relased: #2176788
