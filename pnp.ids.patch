@@ -1,6 +1,6 @@
---- pnp.ids.orig	2023-06-01 11:01:15.648462693 +0200
-+++ pnp.ids	2023-06-01 11:01:15.651462696 +0200
-@@ -193,7 +193,7 @@
+--- pnp.ids.orig	2023-07-03 08:39:50.859229917 +0200
++++ pnp.ids	2023-07-03 08:39:50.862229922 +0200
+@@ -194,7 +194,7 @@
  AUD	AudioControl
  AUG	August Home, Inc.
  AUI	ALPS ALPINE CO., LTD.
@@ -9,7 +9,7 @@
  AUR	Aureal Semiconductor
  AUS	ASUSTek COMPUTER INC
  AUT	Autotime Corporation
-@@ -548,7 +548,7 @@
+@@ -549,7 +549,7 @@
  DIN	Daintelecom Co., Ltd
  DIS	Diseda S.A.
  DIT	Dragon Information Technology
@@ -18,7 +18,7 @@
  DJP	Maygay Machines, Ltd
  DKY	Datakey Inc
  DLB	Dolby Laboratories Inc.
-@@ -791,7 +791,7 @@
+@@ -792,7 +792,7 @@
  FOK	Fokus Technologies GmbH
  FOS	Foss Tecator
  FOV	FOVE INC
@@ -27,7 +27,7 @@
  FPC	Fingerprint Cards AB
  FPE	Fujitsu Peripherals Ltd
  FPS	Deltec Corporation
-@@ -878,7 +878,7 @@
+@@ -879,7 +879,7 @@
  GRY	Robert Gray Company
  GSB	NIPPONDENCHI CO,.LTD
  GSC	General Standards Corporation
@@ -36,7 +36,7 @@
  GSN	Grandstream Networks, Inc.
  GST	Graphic SystemTechnology
  GSY	Grossenbacher Systeme AG
-@@ -1278,7 +1278,7 @@
+@@ -1280,7 +1280,7 @@
  LOL	Litelogic Operations Ltd
  LPE	El-PUSK Co., Ltd.
  LPI	Design Technology
@@ -45,7 +45,7 @@
  LSC	LifeSize Communications
  LSD	Intersil Corporation
  LSI	Loughborough Sound Images
-@@ -2319,9 +2319,9 @@
+@@ -2322,9 +2322,9 @@
  UNA	Unisys DSD
  UNB	Unisys Corporation
  UNC	Unisys Corporation
@@ -58,7 +58,7 @@
  UNI	Uniform Industry Corp.
  UNM	Unisys Corporation
  UNO	Unisys Corporation
-@@ -2462,7 +2462,7 @@
+@@ -2466,7 +2466,7 @@
  WWV	World Wide Video, Inc.
  WXT	Woxter Technology Co. Ltd
  WYR	WyreStorm Technologies LLC
