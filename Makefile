@@ -116,7 +116,7 @@ usb.ids.downloaded:
 	@curl -o $@ http://www.linux-usb.org/usb.ids
 
 pci.ids.downloaded:
-	@curl -o $@ https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids
+	@curl -o $@ https://pci-ids.ucw.cz/v2.2/pci.ids
 
 oui.txt.downloaded:
 	@curl -o $@ -O https://standards-oui.ieee.org/oui/oui.txt
