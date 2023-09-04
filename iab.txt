@@ -887,12 +887,6 @@ A0E000-A0EFFF                 (base 16)                     ENGICAM s.r.l.
                                                             KIYOSU  AICHI  452-8561
                                                             JP
 
-40-D8-55                      (hex)                         ELAN SYSTEMS
-0D2000-0D2FFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
-
 40-D8-55                      (hex)                         Inspired Systems
 0C4000-0C4FFF                 (base 16)                     Inspired Systems
                                                             70 Mordaunt Cct
@@ -1180,12 +1174,6 @@ FBE000-FBEFFF                 (base 16)                     senTec Elektronik Gm
                                                             Werner-von-Siemens-Strasse 6
                                                             Ilmenau    98693
                                                             DE
-
-00-50-C2                      (hex)                         ELAN SYSTEMS
-FDA000-FDAFFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
 
 00-50-C2                      (hex)                         Ease Inc.
 FD8000-FD8FFF                 (base 16)                     Ease Inc.
@@ -5498,6 +5486,18 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Hampshire    RG24 8AH
                                                             GB
 
+00-50-C2                      (hex)                         Bucher Automation Budapest
+FDA000-FDAFFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
+40-D8-55                      (hex)                         Bucher Automation Budapest
+0D2000-0D2FFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
 00-50-C2                      (hex)                         Cleaveland/Price, Inc.
 93B000-93BFFF                 (base 16)                     Cleaveland/Price, Inc.
                                                             14000 Route 993
@@ -9248,12 +9248,6 @@ A09000-A09FFF                 (base 16)                     Innovative American 
                                                             OGRE    LV5001
                                                             LV
 
-00-50-C2                      (hex)                         MATRIX TELECOM PVT. LTD.
-55B000-55BFFF                 (base 16)                     MATRIX TELECOM PVT. LTD.
-                                                            394-GIDC
-                                                            VADODARA  GUJARAT  390010
-                                                            IN
-
 00-50-C2                      (hex)                         DBMCORP, Inc.
 519000-519FFF                 (base 16)                     DBMCORP, Inc.
                                                             32A Spruce Street
@@ -10565,6 +10559,12 @@ D74000-D74FFF                 (base 16)                     Computech Internatio
                                                             Woodbury  NY  11797
                                                             US
 
+00-50-C2                      (hex)                         MATRIX COMSEC PRIVATE LIMITED
+55B000-55BFFF                 (base 16)                     MATRIX COMSEC PRIVATE LIMITED
+                                                            394-GIDC
+                                                            VADODARA  GUJARAT  390010
+                                                            IN
+
 00-50-C2                      (hex)                         Karl DUNGS GmbH & Co. KG
 7F9000-7F9FFF                 (base 16)                     Karl DUNGS GmbH & Co. KG
                                                             Karl-Dungs-Platz 1
@@ -11308,12 +11308,6 @@ BE7000-BE7FFF                 (base 16)                     Genetec Inc.
                                                             7620 Miramar Road, Suite 4100
                                                             San Diego  California  92126
                                                             US
-
-40-D8-55                      (hex)                         ELAN SYSTEMS
-1AC000-1ACFFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
 
 40-D8-55                      (hex)                         Rosslare Enterprises Limited
 1AB000-1ABFFF                 (base 16)                     Rosslare Enterprises Limited
@@ -16304,6 +16298,12 @@ A1A000-A1AFFF                 (base 16)                     DDL
 
                                                             BE
 
+40-D8-55                      (hex)                         Bucher Automation Budapest
+1AC000-1ACFFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
 00-50-C2                      (hex)                         Timberline Manufacturing
 B5B000-B5BFFF                 (base 16)                     Timberline Manufacturing
                                                             1029 Blairs Ferry Rd
@@ -17642,12 +17642,6 @@ F29000-F29FFF                 (base 16)                     RADYNE CORPORATION
                                                             Milwaukee  Wisconsin  53207
                                                             US
 
-00-50-C2                      (hex)                         ELAN SYSTEMS
-F27000-F27FFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
-
 00-50-C2                      (hex)                         Saia-Burgess Controls AG
 F1B000-F1BFFF                 (base 16)                     Saia-Burgess Controls AG
                                                             Bahnhofstrasse 18
@@ -17947,12 +17941,6 @@ DF1000-DF1FFF                 (base 16)                     Saia-Burgess Control
                                                             Bahnhofstrasse 18
                                                             Murten  FR  3280
                                                             CH
-
-00-50-C2                      (hex)                         Elan Systems
-DE7000-DE7FFF                 (base 16)                     Elan Systems
-                                                            10 Ihasz utca
-                                                            BUDAPEST    1105
-                                                            HU
 
 00-50-C2                      (hex)                         Visual Productions
 DE8000-DE8FFF                 (base 16)                     Visual Productions
@@ -21559,6 +21547,18 @@ A02000-A02FFF                 (base 16)                     Reference, LLC.
                                                             115 Emily Place
                                                             Ontario    K7C 4J5
                                                             CA
+
+00-50-C2                      (hex)                         Bucher Automation Budapest
+F27000-F27FFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
+00-50-C2                      (hex)                         Bucher Automation Budapest
+DE7000-DE7FFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
 
 00-50-C2                      (hex)                         RF Code
 1A6000-1A6FFF                 (base 16)                     RF Code
