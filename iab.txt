@@ -2639,12 +2639,6 @@ A58000-A58FFF                 (base 16)                     EPL
                                                             FAREMOUTIERS  SEINE ET MARNE  77515
                                                             FR
 
-00-50-C2                      (hex)                         GSP Sprachtechnologie GmbH
-A59000-A59FFF                 (base 16)                     GSP Sprachtechnologie GmbH
-                                                            Teltowkanalstr. 1
-                                                              Berlin  12247
-                                                            DE
-
 00-50-C2                      (hex)                         Diamond Point International (Europe) Ltd
 A54000-A54FFF                 (base 16)                     Diamond Point International (Europe) Ltd
                                                             13 Ashford House, Beaufort Court
@@ -5497,6 +5491,12 @@ FDA000-FDAFFF                 (base 16)                     Bucher Automation Bu
                                                             Ihasz u. 10
                                                             Budapest    1105
                                                             HU
+
+00-50-C2                      (hex)                         Televic Rail GmbH
+A59000-A59FFF                 (base 16)                     Televic Rail GmbH
+                                                            Teltowkanalstr. 1
+                                                              Berlin  12247
+                                                            DE
 
 00-50-C2                      (hex)                         Cleaveland/Price, Inc.
 93B000-93BFFF                 (base 16)                     Cleaveland/Price, Inc.
@@ -11423,12 +11423,6 @@ BE7000-BE7FFF                 (base 16)                     Genetec Inc.
                                                             Vriezenveen  Ov  7671AX
                                                             NL
 
-40-D8-55                      (hex)                         GSP Sprachtechnologie GmbH
-130000-130FFF                 (base 16)                     GSP Sprachtechnologie GmbH
-                                                            Teltowkanalstr.1
-                                                            Berlin    12247
-                                                            DE
-
 40-D8-55                      (hex)                         shanghai Anjian Information technology co. , ltd.
 121000-121FFF                 (base 16)                     shanghai Anjian Information technology co. , ltd.
                                                             Room 413，Block B ,
@@ -16303,6 +16297,12 @@ A1A000-A1AFFF                 (base 16)                     DDL
                                                             Ihasz u. 10
                                                             Budapest    1105
                                                             HU
+
+40-D8-55                      (hex)                         Televic Rail GmbH
+130000-130FFF                 (base 16)                     Televic Rail GmbH
+                                                            Teltowkanalstr.1
+                                                            Berlin    12247
+                                                            DE
 
 00-50-C2                      (hex)                         Timberline Manufacturing
 B5B000-B5BFFF                 (base 16)                     Timberline Manufacturing
@@ -22883,12 +22883,6 @@ F82000-F82FFF                 (base 16)                     Sincair Systems Inte
                                                             Fresno  CA  93725
                                                             US
 
-00-50-C2                      (hex)                         GSP Sprachtechnologie GmbH
-F83000-F83FFF                 (base 16)                     GSP Sprachtechnologie GmbH
-                                                            Teltowkanalstr. 1
-                                                              Berlin  12247
-                                                            DE
-
 00-50-C2                      (hex)                         Atonometrics, Inc.
 F7C000-F7CFFF                 (base 16)                     Atonometrics, Inc.
                                                             8900 Shoal Creek Blvd Ste 116
@@ -27379,3 +27373,9 @@ A23000-A23FFF                 (base 16)                     Agility Mfg, Inc.
                                                             Via di Valle Caia, 37
                                                             Pomezia  Rome   00071
                                                             IT
+
+00-50-C2                      (hex)                         Televic Rail GmbH
+F83000-F83FFF                 (base 16)                     Televic Rail GmbH
+                                                            Teltowkanalstr. 1
+                                                              Berlin  12247
+                                                            DE
