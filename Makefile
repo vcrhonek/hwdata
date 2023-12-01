@@ -88,7 +88,7 @@ srpm-x: create-archive
 	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
 
 clean:
-	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm pnp.ids.xlsx \
+	@rm -f $(NAME)-*.gz $(NAME)-*.src.rpm pnp.ids.csv \
 	    *.downloaded *.utf8 *.orig
 
 clog: hwdata.spec
@@ -108,7 +108,7 @@ oui.txt.downloaded:
 iab.txt.downloaded:
 	@curl -o $@ -O https://standards-oui.ieee.org/iab/iab.txt
 
-pnp.ids.xlsx:
+pnp.ids.csv:
 	@curl -o $@ \
 	    https://uefi.org/uefi-pnp-export
 
@@ -124,15 +124,8 @@ oui.txt: oui.txt.utf8
 iab.txt: iab.txt.utf8
 	dos2unix -n $? $@
 
-pnp.ids.orig: pnp.ids.xlsx
-	grep "class" $? | \
-	    tr ' ' ' ' | \
-	    sed -n \
-	        -e 's/\s\{2,\}/ /g' \
-	        -e 's/\&amp;/\&/g' \
-	        -e "s/\&#039;/'/g" \
-	        -e 's:^.*<tr class=".*"><td>\(.*\)</td><td>\([a-zA-Z@]\{3\}\).*</td><td>.*$$:\2\t\1:p' | \
-	    sed 's/\s*$$//' | sort -u >$@
+pnp.ids.orig: pnp.ids.csv
+	./process-pnp-ids.py $? $@
 
 pnp.ids: pnp.ids.orig pnp.ids.patch
 	patch -p1 -o $@ pnp.ids.orig pnp.ids.patch
