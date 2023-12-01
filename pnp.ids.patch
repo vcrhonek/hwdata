@@ -1,5 +1,5 @@
---- pnp.ids.orig	2023-11-03 09:22:04.589321258 +0100
-+++ pnp.ids	2023-11-03 09:22:04.592321261 +0100
+--- pnp.ids.orig	2023-12-01 12:31:22.334189729 +0100
++++ pnp.ids	2023-12-01 12:31:22.340189743 +0100
 @@ -194,7 +194,7 @@
  AUD	AudioControl
  AUG	August Home, Inc.
@@ -36,7 +36,7 @@
  GSN	Grandstream Networks, Inc.
  GST	Graphic SystemTechnology
  GSY	Grossenbacher Systeme AG
-@@ -1284,7 +1284,7 @@
+@@ -1285,7 +1285,7 @@
  LOL	Litelogic Operations Ltd
  LPE	El-PUSK Co., Ltd.
  LPI	Design Technology
