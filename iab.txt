@@ -17516,12 +17516,6 @@ FEB000-FEBFFF                 (base 16)                     Axible Technologies
                                                             Labège    31670
                                                             FR
 
-00-50-C2                      (hex)                         Scandinova Systems AB
-FE5000-FE5FFF                 (base 16)                     Scandinova Systems AB
-                                                            Ulltunaallen 2A
-                                                              UPPSALA  75651
-                                                            SE
-
 00-50-C2                      (hex)                         HSDC Sp. z o.o.
 FC3000-FC3FFF                 (base 16)                     HSDC Sp. z o.o.
                                                             SNIADECKICH 10 VP
@@ -21559,6 +21553,12 @@ DE7000-DE7FFF                 (base 16)                     Bucher Automation Bu
                                                             Ihasz u. 10
                                                             Budapest    1105
                                                             HU
+
+00-50-C2                      (hex)                         ScandiNova Systems
+FE5000-FE5FFF                 (base 16)                     ScandiNova Systems
+                                                            Typsnittsgatan 15
+                                                            Uppsala    75454
+                                                            SE
 
 00-50-C2                      (hex)                         RF Code
 1A6000-1A6FFF                 (base 16)                     RF Code
