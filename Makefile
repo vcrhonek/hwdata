@@ -142,7 +142,7 @@ iab.txt: iab.txt.utf8
 	dos2unix -n $? $@
 
 pnp.ids.orig: pnp.ids.csv
-	tail -n +2 $? | csvtool format '%(2)\t%(1)\n' - | sort -u >$@
+	./process-pnp-ids.py $? $@
 
 pnp.ids: pnp.ids.orig pnp.ids.patch
 	patch -p1 -o $@ pnp.ids.orig pnp.ids.patch
