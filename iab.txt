@@ -887,12 +887,6 @@ A0E000-A0EFFF                 (base 16)                     ENGICAM s.r.l.
                                                             KIYOSU  AICHI  452-8561
                                                             JP
 
-40-D8-55                      (hex)                         ELAN SYSTEMS
-0D2000-0D2FFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
-
 40-D8-55                      (hex)                         DATA SHARING CONSULTING
 0B5000-0B5FFF                 (base 16)                     DATA SHARING CONSULTING
                                                             815 AV IRENE ET FREDERIC JOLIOT CURIE
@@ -1174,12 +1168,6 @@ FCB000-FCBFFF                 (base 16)                     Propagation Systems 
                                                             Unit219A, 2/F, Enterprise Place, No.5 Science Park Science Park,
                                                             Shatin
                                                             HK
-
-00-50-C2                      (hex)                         ELAN SYSTEMS
-FDA000-FDAFFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
 
 00-50-C2                      (hex)                         Preston Industries dba PolyScience
 FB2000-FB2FFF                 (base 16)                     Preston Industries dba PolyScience
@@ -2627,12 +2615,6 @@ A58000-A58FFF                 (base 16)                     EPL
                                                             FAREMOUTIERS  SEINE ET MARNE  77515
                                                             FR
 
-00-50-C2                      (hex)                         GSP Sprachtechnologie GmbH
-A59000-A59FFF                 (base 16)                     GSP Sprachtechnologie GmbH
-                                                            Teltowkanalstr. 1
-                                                              Berlin  12247
-                                                            DE
-
 00-50-C2                      (hex)                         MECC CO., LTD.
 A5D000-A5DFFF                 (base 16)                     MECC CO., LTD.
                                                             196-1 FUKUDO
@@ -3106,12 +3088,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Chaussée de Namur, 119
                                                             Nivelles (Thines)  Brabant  1402
                                                             BE
-
-00-50-C2                      (hex)                         Sensata Technologies, Inc.
-89B000-89BFFF                 (base 16)                     Sensata Technologies, Inc.
-                                                            4467 White Bear Parkway
-                                                            White Bear Lake  MN  55110
-                                                            US
 
 00-50-C2                      (hex)                         Xelerated
 8AF000-8AFFFF                 (base 16)                     Xelerated
@@ -5497,6 +5473,30 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Chineham Court, Lutyens Close
                                                             Hampshire    RG24 8AH
                                                             GB
+
+00-50-C2                      (hex)                         Bucher Automation Budapest
+FDA000-FDAFFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
+40-D8-55                      (hex)                         Bucher Automation Budapest
+0D2000-0D2FFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
+00-50-C2                      (hex)                         Televic Rail GmbH
+A59000-A59FFF                 (base 16)                     Televic Rail GmbH
+                                                            Teltowkanalstr. 1
+                                                              Berlin  12247
+                                                            DE
+
+00-50-C2                      (hex)                         Sensata Technologies
+89B000-89BFFF                 (base 16)                     Sensata Technologies
+                                                            4467 White Bear Parkway
+                                                            White Bear Lake  MN  55110
+                                                            US
 
 00-50-C2                      (hex)                         Cleaveland/Price, Inc.
 93B000-93BFFF                 (base 16)                     Cleaveland/Price, Inc.
@@ -9230,12 +9230,6 @@ A00000-A00FFF                 (base 16)                     Technovare Systems
                                                             79098  Freiburg
                                                             DE
 
-00-50-C2                      (hex)                         MATRIX TELECOM PVT. LTD.
-55B000-55BFFF                 (base 16)                     MATRIX TELECOM PVT. LTD.
-                                                            394-GIDC
-                                                            VADODARA  GUJARAT  390010
-                                                            IN
-
 00-50-C2                      (hex)                         Convergent Design
 54E000-54EFFF                 (base 16)                     Convergent Design
                                                             4465 Northpark Dr. Suite 400
@@ -10565,6 +10559,12 @@ D74000-D74FFF                 (base 16)                     Computech Internatio
                                                             Woodbury  NY  11797
                                                             US
 
+00-50-C2                      (hex)                         MATRIX COMSEC PRIVATE LIMITED
+55B000-55BFFF                 (base 16)                     MATRIX COMSEC PRIVATE LIMITED
+                                                            394-GIDC
+                                                            VADODARA  GUJARAT  390010
+                                                            IN
+
 00-50-C2                      (hex)                         Karl DUNGS GmbH & Co. KG
 7F9000-7F9FFF                 (base 16)                     Karl DUNGS GmbH & Co. KG
                                                             Karl-Dungs-Platz 1
@@ -11321,12 +11321,6 @@ BE7000-BE7FFF                 (base 16)                     Genetec Inc.
                                                             Pombal    3100-371
                                                             PT
 
-40-D8-55                      (hex)                         ELAN SYSTEMS
-1AC000-1ACFFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
-
 40-D8-55                      (hex)                         Rosslare Enterprises Limited
 1AB000-1ABFFF                 (base 16)                     Rosslare Enterprises Limited
                                                             Flat 912 Wing Fat Industrial Building
@@ -11422,12 +11416,6 @@ BE7000-BE7FFF                 (base 16)                     Genetec Inc.
                                                             Oosteinde 219
                                                             Vriezenveen  Ov  7671AX
                                                             NL
-
-40-D8-55                      (hex)                         GSP Sprachtechnologie GmbH
-130000-130FFF                 (base 16)                     GSP Sprachtechnologie GmbH
-                                                            Teltowkanalstr.1
-                                                            Berlin    12247
-                                                            DE
 
 40-D8-55                      (hex)                         Venco
 144000-144FFF                 (base 16)                     Venco
@@ -16304,6 +16292,18 @@ A1A000-A1AFFF                 (base 16)                     DDL
 
                                                             BE
 
+40-D8-55                      (hex)                         Bucher Automation Budapest
+1AC000-1ACFFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
+40-D8-55                      (hex)                         Televic Rail GmbH
+130000-130FFF                 (base 16)                     Televic Rail GmbH
+                                                            Teltowkanalstr.1
+                                                            Berlin    12247
+                                                            DE
+
 00-50-C2                      (hex)                         Timberline Manufacturing
 B5B000-B5BFFF                 (base 16)                     Timberline Manufacturing
                                                             1029 Blairs Ferry Rd
@@ -17516,12 +17516,6 @@ FEB000-FEBFFF                 (base 16)                     Axible Technologies
                                                             Labège    31670
                                                             FR
 
-00-50-C2                      (hex)                         Scandinova Systems AB
-FE5000-FE5FFF                 (base 16)                     Scandinova Systems AB
-                                                            Ulltunaallen 2A
-                                                              UPPSALA  75651
-                                                            SE
-
 00-50-C2                      (hex)                         HSDC Sp. z o.o.
 FC3000-FC3FFF                 (base 16)                     HSDC Sp. z o.o.
                                                             SNIADECKICH 10 VP
@@ -17617,12 +17611,6 @@ F4C000-F4CFFF                 (base 16)                     Enistic Limited
                                                             Unit 4, Isis Business Centre
                                                             Oxford  Oxfordshire  OX4 2RD
                                                             GB
-
-00-50-C2                      (hex)                         ELAN SYSTEMS
-F27000-F27FFF                 (base 16)                     ELAN SYSTEMS
-                                                            10 IHASZ STR
-                                                            BUDAPEST    1105
-                                                            HU
 
 00-50-C2                      (hex)                         Saia-Burgess Controls AG
 F1B000-F1BFFF                 (base 16)                     Saia-Burgess Controls AG
@@ -17983,12 +17971,6 @@ DCD000-DCDFFF                 (base 16)                     dilitronics GmbH
                                                             Felsbachstr. 5
                                                             Jena  Thuringia  07745
                                                             DE
-
-00-50-C2                      (hex)                         Elan Systems
-DE7000-DE7FFF                 (base 16)                     Elan Systems
-                                                            10 Ihasz utca
-                                                            BUDAPEST    1105
-                                                            HU
 
 00-50-C2                      (hex)                         Visual Productions
 DE8000-DE8FFF                 (base 16)                     Visual Productions
@@ -21560,6 +21542,24 @@ A02000-A02FFF                 (base 16)                     Reference, LLC.
                                                             Ontario    K7C 4J5
                                                             CA
 
+00-50-C2                      (hex)                         Bucher Automation Budapest
+F27000-F27FFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
+00-50-C2                      (hex)                         Bucher Automation Budapest
+DE7000-DE7FFF                 (base 16)                     Bucher Automation Budapest
+                                                            Ihasz u. 10
+                                                            Budapest    1105
+                                                            HU
+
+00-50-C2                      (hex)                         ScandiNova Systems
+FE5000-FE5FFF                 (base 16)                     ScandiNova Systems
+                                                            Typsnittsgatan 15
+                                                            Uppsala    75454
+                                                            SE
+
 00-50-C2                      (hex)                         RF Code
 1A6000-1A6FFF                 (base 16)                     RF Code
                                                             9229 Waterford Centre Blvd #500
@@ -22870,12 +22870,6 @@ F82000-F82FFF                 (base 16)                     Sincair Systems Inte
                                                             3115 S. Willow Avenue
                                                             Fresno  CA  93725
                                                             US
-
-00-50-C2                      (hex)                         GSP Sprachtechnologie GmbH
-F83000-F83FFF                 (base 16)                     GSP Sprachtechnologie GmbH
-                                                            Teltowkanalstr. 1
-                                                              Berlin  12247
-                                                            DE
 
 00-50-C2                      (hex)                         PLDA
 F81000-F81FFF                 (base 16)                     PLDA
@@ -27379,3 +27373,9 @@ A13000-A13FFF                 (base 16)                     Talyst, Inc.
                                                             Via di Valle Caia, 37
                                                             Pomezia  Rome   00071
                                                             IT
+
+00-50-C2                      (hex)                         Televic Rail GmbH
+F83000-F83FFF                 (base 16)                     Televic Rail GmbH
+                                                            Teltowkanalstr. 1
+                                                              Berlin  12247
+                                                            DE
