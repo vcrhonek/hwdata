@@ -11255,12 +11255,6 @@ BE7000-BE7FFF                 (base 16)                     Genetec Inc.
                                                             Jönköping  Jönköping  55302
                                                             SE
 
-40-D8-55                      (hex)                         Peter Huber
-1CE000-1CEFFF                 (base 16)                     Peter Huber
-                                                            Kaeltemaschinenbau GmbH
-                                                            Offenburg  Ba-Wue  77656
-                                                            DE
-
 40-D8-55                      (hex)                         Omnik New Energy Co., Ltd
 1CF000-1CFFFF                 (base 16)                     Omnik New Energy Co., Ltd
                                                             A4-414 No.218 Xinghu Road bioBAY Park
@@ -11917,12 +11911,6 @@ F2F000-F2FFFF                 (base 16)                     Arcos Technologies L
                                                             26 Hasivim
                                                             Petach Tikva    49517
                                                             IL
-
-00-50-C2                      (hex)                         Peter Huber Kältemaschinenbau GmbH
-F16000-F16FFF                 (base 16)                     Peter Huber Kältemaschinenbau GmbH
-                                                            Werner-von-Siemens-Str. 1
-                                                            Offenburg  Baden-Württemberg  77656
-                                                            DE
 
 00-50-C2                      (hex)                         Organis GmbH
 F11000-F11FFF                 (base 16)                     Organis GmbH
@@ -16302,6 +16290,18 @@ A1A000-A1AFFF                 (base 16)                     DDL
 130000-130FFF                 (base 16)                     Televic Rail GmbH
                                                             Teltowkanalstr.1
                                                             Berlin    12247
+                                                            DE
+
+40-D8-55                      (hex)                         Peter Huber Kaeltemaschinenbau SE
+1CE000-1CEFFF                 (base 16)                     Peter Huber Kaeltemaschinenbau SE
+                                                            Kaeltemaschinenbau GmbH
+                                                            Offenburg  Ba-Wue  77656
+                                                            DE
+
+00-50-C2                      (hex)                         Peter Huber Kaeltemaschinenbau SE
+F16000-F16FFF                 (base 16)                     Peter Huber Kaeltemaschinenbau SE
+                                                            Werner-von-Siemens-Str. 1
+                                                            Offenburg  Baden-Württemberg  77656
                                                             DE
 
 00-50-C2                      (hex)                         Timberline Manufacturing
