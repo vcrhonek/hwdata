@@ -1,7 +1,7 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.377
-Release: 2%{?dist}
+Version: 0.378
+Release: 1%{?dist}
 License: GPL-2.0-or-later
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
@@ -42,6 +42,9 @@ The %{name}-devel package contains files for developing applications that use
 %{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
+* Wed Jan 03 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.378-1
+- Update vendor ids
+
 * Mon Dec 04 2023 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.377-2
 - Remove trailing spaces from pnp.ids (patch by Pino Toscano)
 
