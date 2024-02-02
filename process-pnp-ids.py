@@ -27,7 +27,8 @@ if __name__ == "__main__":
         if len(pnp_id) != 3:
             print(f"PNP ID: {pnp_id}", file=sys.stderr)
             continue
-        output_lines.append(f"{pnp_id}\t{company_name}\n")
+        if f"{pnp_id}\t{company_name}\n" not in output_lines:
+            output_lines.append(f"{pnp_id}\t{company_name}\n")
 
     output_lines.sort(key=str.lower)
 
