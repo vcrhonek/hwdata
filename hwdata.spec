@@ -1,4 +1,4 @@
-%global uprelease 8.21
+%global uprelease 8.22
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -31,6 +31,10 @@ make install DESTDIR=$RPM_BUILD_ROOT libdir=%{_prefix}/lib
 %{_datadir}/%{name}/*
 
 %changelog
+* Mon Feb 19 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.314-8.22
+- Rebuild
+  Related: RHEL-6946
+
 * Mon Feb 19 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.314-8.21
 - Update pci, usb and vendor ids
   Resolves: RHEL-6946
