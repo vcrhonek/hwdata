@@ -16910,12 +16910,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             Piscataway  NJ  08554
                                                             US
 
-00-50-C2                      (hex)                         Wartsila Voyage Limited
-DD6000-DD6FFF                 (base 16)                     Wartsila Voyage Limited
-                                                            13-18 City Quay
-                                                            Dublin 2    D02 ED70
-                                                            IE
-
 00-50-C2                      (hex)                         Veracity UK Ltd
 9F0000-9F0FFF                 (base 16)                     Veracity UK Ltd
                                                             6 Barns Street
@@ -21560,6 +21554,12 @@ FE5000-FE5FFF                 (base 16)                     ScandiNova Systems
                                                             Uppsala    75454
                                                             SE
 
+00-50-C2                      (hex)                         Wartsila Voyage Oy
+DD6000-DD6FFF                 (base 16)                     Wartsila Voyage Oy
+                                                            Hiililaiturinkuja 2
+                                                            Helsinki    00180
+                                                            FI
+
 00-50-C2                      (hex)                         RF Code
 1A6000-1A6FFF                 (base 16)                     RF Code
                                                             9229 Waterford Centre Blvd #500
@@ -22246,12 +22246,6 @@ E3C000-E3CFFF                 (base 16)                     Grupo Epelsa S.L.
                                                             Friedrichstr. 231
                                                             Berlin    10969
                                                             DE
-
-00-50-C2                      (hex)                         Wartsila Voyage Limited
-886000-886FFF                 (base 16)                     Wartsila Voyage Limited
-                                                            13-18 City Quay
-                                                            Dublin 2    D02 ED70
-                                                            IE
 
 40-D8-55                      (hex)                         EMAC, Inc.
 19D000-19DFFF                 (base 16)                     EMAC, Inc.
@@ -27379,3 +27373,9 @@ F83000-F83FFF                 (base 16)                     Televic Rail GmbH
                                                             Teltowkanalstr. 1
                                                               Berlin  12247
                                                             DE
+
+00-50-C2                      (hex)                         Wartsila Voyage Oy
+886000-886FFF                 (base 16)                     Wartsila Voyage Oy
+                                                            Hiililaiturinkuja 2
+                                                            Helsinki    00180
+                                                            FI
