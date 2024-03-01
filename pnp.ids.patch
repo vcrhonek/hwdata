@@ -1,5 +1,5 @@
---- pnp.ids.orig	2024-02-02 14:11:49.847073149 +0100
-+++ pnp.ids	2024-02-02 14:11:49.849073154 +0100
+--- pnp.ids.orig	2024-03-01 10:00:03.853154715 +0100
++++ pnp.ids	2024-03-01 10:00:03.858154719 +0100
 @@ -194,7 +194,7 @@
  AUD	AudioControl
  AUG	August Home, Inc.
@@ -18,7 +18,7 @@
  DJP	Maygay Machines, Ltd
  DKY	Datakey Inc
  DLB	Dolby Laboratories Inc.
-@@ -795,7 +795,7 @@
+@@ -796,7 +796,7 @@
  FOK	Fokus Technologies GmbH
  FOS	Foss Tecator
  FOV	FOVE INC
@@ -27,7 +27,7 @@
  FPC	Fingerprint Cards AB
  FPE	Fujitsu Peripherals Ltd
  FPS	Deltec Corporation
-@@ -882,7 +882,7 @@
+@@ -883,7 +883,7 @@
  GRY	Robert Gray Company
  GSB	NIPPONDENCHI CO,.LTD
  GSC	General Standards Corporation
@@ -36,7 +36,7 @@
  GSN	Grandstream Networks, Inc.
  GST	Graphic SystemTechnology
  GSY	Grossenbacher Systeme AG
-@@ -1286,7 +1286,7 @@
+@@ -1287,7 +1287,7 @@
  LOL	Litelogic Operations Ltd
  LPE	El-PUSK Co., Ltd.
  LPI	Design Technology
@@ -45,7 +45,7 @@
  LSC	LifeSize Communications
  LSD	Intersil Corporation
  LSI	Loughborough Sound Images
-@@ -2333,9 +2333,9 @@
+@@ -2337,9 +2337,9 @@
  UNA	Unisys DSD
  UNB	Unisys Corporation
  UNC	Unisys Corporation
@@ -58,7 +58,7 @@
  UNI	Uniform Industry Corp.
  UNM	Unisys Corporation
  UNO	Unisys Corporation
-@@ -2477,7 +2477,7 @@
+@@ -2481,7 +2481,7 @@
  WWV	World Wide Video, Inc.
  WXT	Woxter Technology Co. Ltd
  WYR	WyreStorm Technologies LLC
