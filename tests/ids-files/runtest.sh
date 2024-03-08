@@ -39,7 +39,7 @@ USB_IDS_URL="http://www.linux-usb.org/usb.ids"
 rlJournalStart
     rlPhaseStartSetup
         rlAssertRpm ${PACKAGE}
-        rlAssertRpm wget
+        rlIsFedora ">39" && rlAssertRpm wget2 || rlAssertRpm wget
         rlAssertExists ${HWDATA_DIR}/${PCI_IDS_FILE}
         rlAssertExists ${HWDATA_DIR}/${USB_IDS_FILE}
     rlPhaseEnd
