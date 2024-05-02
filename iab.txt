@@ -3023,12 +3023,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Nailsea  Bristol  BS48 4DD
                                                             GB
 
-00-50-C2                      (hex)                         Internet Protocolo Lógica SL
-8D4000-8D4FFF                 (base 16)                     Internet Protocolo Lógica SL
-                                                            Ramón y Cajal 5
-                                                            Alcobendas  Madrid  28100
-                                                            ES
-
 00-50-C2                      (hex)                         IFAM GmbH
 8D3000-8D3FFF                 (base 16)                     IFAM GmbH
                                                             Parselvalstr. 2
@@ -5497,6 +5491,12 @@ A59000-A59FFF                 (base 16)                     Televic Rail GmbH
                                                             Gewerbeparkstr.9
                                                             Salzburg  Anif  5081
                                                             AT
+
+00-50-C2                      (hex)                         INTERNET PROTOCOLO LOGICA SL
+8D4000-8D4FFF                 (base 16)                     INTERNET PROTOCOLO LOGICA SL
+                                                            Ramón y Cajal 5
+                                                            Alcobendas  Madrid  28100
+                                                            ES
 
 00-50-C2                      (hex)                         Cleaveland/Price, Inc.
 93B000-93BFFF                 (base 16)                     Cleaveland/Price, Inc.
@@ -24053,12 +24053,6 @@ B86000-B86FFF                 (base 16)                     ASTO
                                                             Singapore    568357
                                                             SG
 
-00-50-C2                      (hex)                         Measurement Technology NW
-B62000-B62FFF                 (base 16)                     Measurement Technology NW
-                                                            4211 24th Avenue West
-                                                            Seattle  WA  98199
-                                                            US
-
 00-50-C2                      (hex)                         Plitron Manufacturing Inc.
 B5D000-B5DFFF                 (base 16)                     Plitron Manufacturing Inc.
                                                             8-601 Magnetic Drive
@@ -27379,3 +27373,9 @@ F83000-F83FFF                 (base 16)                     Televic Rail GmbH
                                                             Hiililaiturinkuja 2
                                                             Helsinki    00180
                                                             FI
+
+00-50-C2                      (hex)                         Rugged Controls
+B62000-B62FFF                 (base 16)                     Rugged Controls
+                                                            4211 24th Avenue West
+                                                            Seattle  WA  98199
+                                                            US
