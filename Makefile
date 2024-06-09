@@ -145,7 +145,8 @@ pnp.ids.orig: pnp.ids.csv
 	./process-pnp-ids.py $? $@
 
 pnp.ids: pnp.ids.orig pnp.ids.patch
-	patch -p1 -o $@ pnp.ids.orig pnp.ids.patch
+	patch -p1 -o - pnp.ids.orig pnp.ids.patch | \
+	    sed 's/\tDO NOT USE - /\tInvalid Vendor Codename - /' >$@
 
 %.utf8: %.downloaded
 	@text=`LANG=C file $?`
