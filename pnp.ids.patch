@@ -1,5 +1,5 @@
---- pnp.ids.orig	2024-05-31 08:15:53.745868299 +0200
-+++ pnp.ids	2024-05-31 08:15:53.750868304 +0200
+--- pnp.ids.orig	2024-06-17 10:58:21.012682382 +0200
++++ pnp.ids	2024-06-17 10:58:21.015682386 +0200
 @@ -194,7 +194,7 @@
  AUD	AudioControl
  AUG	August Home, Inc.
@@ -45,7 +45,7 @@
  LSC	LifeSize Communications
  LSD	Intersil Corporation
  LSI	Loughborough Sound Images
-@@ -2340,9 +2340,9 @@
+@@ -2341,9 +2341,9 @@
  UNA	Unisys DSD
  UNB	Unisys Corporation
  UNC	Unisys Corporation
@@ -58,7 +58,7 @@
  UNI	Uniform Industry Corp.
  UNM	Unisys Corporation
  UNO	Unisys Corporation
-@@ -2484,7 +2484,7 @@
+@@ -2485,7 +2485,7 @@
  WWV	World Wide Video, Inc.
  WXT	Woxter Technology Co. Ltd
  WYR	WyreStorm Technologies LLC
