@@ -1,9 +1,11 @@
+%global uprelease 10.0
+
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.383
-Release: 1%{?dist}
+Version: 0.379
+Release: %{uprelease}%{?dist}
 License: GPL-2.0-or-later
-Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
+Source: https://github.com/vcrhonek/hwdata/archive/v%{version}-%{?uprelease}.tar.gz
 URL:    https://github.com/vcrhonek/hwdata
 BuildArch: noarch
 BuildRequires: make
@@ -21,11 +23,10 @@ The %{name}-devel package contains files for developing applications that use
 %{name}.
 
 %prep
-%setup -q
-
-%build
+%setup -q -n %{name}-%{version}-%{uprelease}
 %configure
 
+%build
 # nothing to build
 
 %install
@@ -42,17 +43,9 @@ The %{name}-devel package contains files for developing applications that use
 %{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
-* Fri May 31 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.383-1
-- Update pci and vendor ids
-
-* Thu May 02 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.382-1
-- Update pci and vendor ids
-
-* Tue Apr 02 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.381-1
+* Mon Jun 17 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.379-10.0
 - Update pci, usb and vendor ids
-
-* Fri Mar 01 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.380-1
-- Update pci and vendor ids
+  Resolves: RHEL-42416
 
 * Fri Feb 02 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.379-1
 - Update pci, usb and vendor ids

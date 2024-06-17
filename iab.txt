@@ -4649,12 +4649,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             Seoul  Seoul  135-508
                                                             KR
 
-00-50-C2                      (hex)                         Casa Systems Inc.
-31C000-31CFFF                 (base 16)                     Casa Systems Inc.
-                                                            500 Clark Road
-                                                            Tewksbury  MA  01876
-                                                            US
-
 00-50-C2                      (hex)                         SHF Communication Technologies AG
 2EE000-2EEFFF                 (base 16)                     SHF Communication Technologies AG
                                                             Wilhelm-von-Siemens-Str. 23 d
@@ -5497,6 +5491,12 @@ A59000-A59FFF                 (base 16)                     Televic Rail GmbH
                                                             Ramón y Cajal 5
                                                             Alcobendas  Madrid  28100
                                                             ES
+
+00-50-C2                      (hex)                         AxyomCore Inc.
+31C000-31CFFF                 (base 16)                     AxyomCore Inc.
+                                                            500 Clark Road
+                                                            Tewksbury  MA  01876
+                                                            US
 
 00-50-C2                      (hex)                         Cleaveland/Price, Inc.
 93B000-93BFFF                 (base 16)                     Cleaveland/Price, Inc.
