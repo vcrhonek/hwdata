@@ -10001,12 +10001,6 @@ A09000-A09FFF                 (base 16)                     Innovative American 
                                                             Vezenobres  Gard  30360
                                                             FR
 
-00-50-C2                      (hex)                         4Links Limited
-212000-212FFF                 (base 16)                     4Links Limited
-                                                            PO Box 816, The Mansion
-                                                            Milton Keynes  Buckinghamshire  MK3 6ZP
-                                                            GB
-
 00-50-C2                      (hex)                         OlympusNDT
 201000-201FFF                 (base 16)                     OlympusNDT
                                                             421 N Quay
@@ -10564,6 +10558,12 @@ DAF000-DAFFFF                 (base 16)                     eumig industrie-TV G
                                                             1420 Kristina Way, Suite #102
                                                             Chesapeake  VA  23320
                                                             US
+
+00-50-C2                      (hex)                         4Links Limited
+212000-212FFF                 (base 16)                     4Links Limited
+                                                            12 Shenley Pavilions, Chalkdell Drive, Shenley Wood,
+                                                            Milton Keynes  Buckinghamshire  MK5 6LB
+                                                            GB
 
 00-50-C2                      (hex)                         Karl DUNGS GmbH & Co. KG
 7F9000-7F9FFF                 (base 16)                     Karl DUNGS GmbH & Co. KG
@@ -17114,12 +17114,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             Houston  Texas  77032
                                                             US
 
-40-D8-55                      (hex)                         Akse srl
-128000-128FFF                 (base 16)                     Akse srl
-                                                            Via Aldo Moro, 39
-                                                            Reggio Emilia  Italy  42124
-                                                            IT
-
 40-D8-55                      (hex)                         DSP DESIGN
 129000-129FFF                 (base 16)                     DSP DESIGN
                                                             TAPTON PARK INNOVATION CENTRE
@@ -19526,12 +19520,6 @@ A02000-A02FFF                 (base 16)                     Reference, LLC.
                                                             RAISIO  Finland  21210
                                                             FI
 
-00-50-C2                      (hex)                         Lyngdorf Audio Aps
-7C6000-7C6FFF                 (base 16)                     Lyngdorf Audio Aps
-                                                            Ulvevej 28
-                                                            Skive  Jylland  DK-7800
-                                                            DK
-
 00-50-C2                      (hex)                         ViewPlus Technologies, Inc.
 7CB000-7CBFFF                 (base 16)                     ViewPlus Technologies, Inc.
                                                             1853 SW Airport Ave.
@@ -21559,6 +21547,18 @@ DD6000-DD6FFF                 (base 16)                     Wartsila Voyage Oy
                                                             Unit 22 Ford Lane Business Park Ford Lane
                                                             Ford  West Sussex  BN18 0UZ
                                                             GB
+
+00-50-C2                      (hex)                         SL Audio A/S
+7C6000-7C6FFF                 (base 16)                     SL Audio A/S
+                                                            Ulvevej 28
+                                                            Skive  Jylland  DK-7800
+                                                            DK
+
+40-D8-55                      (hex)                         AKSE srl
+128000-128FFF                 (base 16)                     AKSE srl
+                                                            Via Aldo Moro, 39
+                                                            Reggio Emilia  Italy  42124
+                                                            IT
 
 00-50-C2                      (hex)                         RF Code
 1A6000-1A6FFF                 (base 16)                     RF Code
