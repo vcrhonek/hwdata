@@ -1,6 +1,6 @@
 Name: hwdata
 Summary: Hardware identification and configuration data
-Version: 0.384
+Version: 0.385
 Release: 1%{?dist}
 License: GPL-2.0-or-later
 Source: https://github.com/vcrhonek/hwdata/archive/v%{version}.tar.gz
@@ -42,6 +42,9 @@ The %{name}-devel package contains files for developing applications that use
 %{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
+* Mon Aug 05 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.385-1
+- Update usb and vendor ids
+
 * Wed Jul 03 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.384-1
 - Update pci and vendor ids
 
