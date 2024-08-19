@@ -1,4 +1,4 @@
-%global uprelease 10.0
+%global uprelease 10.1
 
 Name: hwdata
 Summary: Hardware identification and configuration data
@@ -43,6 +43,10 @@ The %{name}-devel package contains files for developing applications that use
 %{_datadir}/pkgconfig/%{name}.pc
 
 %changelog
+* Mon Aug 19 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.379-10.1
+- Update pci, usb and vendor ids
+  Resolves: RHEL-42439
+
 * Mon Jun 17 2024 Vitezslav Crhonek <vcrhonek@redhat.com> - 0.379-10.0
 - Update pci, usb and vendor ids
   Resolves: RHEL-42416
