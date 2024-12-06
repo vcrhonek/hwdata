@@ -5213,12 +5213,6 @@ A04000-A04FFF                 (base 16)                     TP Radio
                                                             87600 Kaufbeuren
                                                             DE
 
-00-50-C2                      (hex)                         Raven Industries
-0F9000-0F9FFF                 (base 16)                     Raven Industries
-                                                            PO Box 1007
-                                                            Sioux Falls  SD  57104
-                                                            US
-
 00-50-C2                      (hex)                         Inducomp Corporation
 0FD000-0FDFFF                 (base 16)                     Inducomp Corporation
                                                             1265 Jefferson St.
@@ -5496,6 +5490,12 @@ A59000-A59FFF                 (base 16)                     Televic Rail GmbH
 31C000-31CFFF                 (base 16)                     AxyomCore Inc.
                                                             500 Clark Road
                                                             Tewksbury  MA  01876
+                                                            US
+
+00-50-C2                      (hex)                         Raven Industries Inc.
+0F9000-0F9FFF                 (base 16)                     Raven Industries Inc.
+                                                            PO Box 1007
+                                                            Sioux Falls  SD  57104
                                                             US
 
 00-50-C2                      (hex)                         Cleaveland/Price, Inc.
@@ -23639,12 +23639,6 @@ CED000-CEDFFF                 (base 16)                     AeroMechanical Servi
                                                             Calgary  Alberta  T2E7P1
                                                             CA
 
-00-50-C2                      (hex)                         TelGaAs, Inc.
-CF1000-CF1FFF                 (base 16)                     TelGaAs, Inc.
-                                                            125 N. Central Dr.
-                                                            O'Fallon  MO  63366
-                                                            US
-
 00-50-C2                      (hex)                         EMBED-IT OG
 CEE000-CEEFFF                 (base 16)                     EMBED-IT OG
                                                             Phorusgasse 8
@@ -26354,12 +26348,6 @@ A23000-A23FFF                 (base 16)                     Agility Mfg, Inc.
                                                             Calgary  AB  T2E 7E1
                                                             CA
 
-00-50-C2                      (hex)                         Networked Robotics Corporation
-3AA000-3AAFFF                 (base 16)                     Networked Robotics Corporation
-                                                            825 Chicago Avenue Suite F
-                                                            Evanston  Illinois  60202
-                                                            US
-
 00-50-C2                      (hex)                         RapidWave Inc.
 396000-396FFF                 (base 16)                     RapidWave Inc.
                                                             6296A San Ignacio Ave.
@@ -27378,4 +27366,16 @@ F83000-F83FFF                 (base 16)                     Televic Rail GmbH
 B62000-B62FFF                 (base 16)                     Rugged Controls
                                                             4211 24th Avenue West
                                                             Seattle  WA  98199
+                                                            US
+
+00-50-C2                      (hex)                         Networked Robotics Corporation
+3AA000-3AAFFF                 (base 16)                     Networked Robotics Corporation
+                                                            4900 Hopyard Rd Suite 100
+                                                            Pleasanton  CA  94588
+                                                            US
+
+00-50-C2                      (hex)                         Bascom Hunter
+CF1000-CF1FFF                 (base 16)                     Bascom Hunter
+                                                            5501 Bascom Way
+                                                            Baton Rouge  LA  70809
                                                             US
