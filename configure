@@ -5,7 +5,6 @@
 # Licensed under the new-BSD license (http://www.opensource.org/licenses/bsd-license.php)
 
 prefix=/usr
-datarootdir=${datarootdir:-${prefix}/share}
 blacklist=true
 
 for arg; do
@@ -14,7 +13,6 @@ for arg; do
         --bindir=*) bindir=${arg#*=};;
         --sbindir=*) sbindir=${arg#*=};;
         --libexecdir=*) libexecdir=${arg#*=};;
-        --datarootdir=*) datarootdir=${arg#*=};;
         --datadir=*) datadir=${arg#*=};;
         --sysconfdir=*) sysconfdir=${arg#*=};;
         --libdir=*) libdir=${arg#*=};;
@@ -38,8 +36,7 @@ prefix ?= ${prefix}
 bindir ?= ${bindir:-${prefix}/bin}
 sbindir ?= ${sbindir:-${prefix}/sbin}
 libexecdir ?= ${libexecdir:-${prefix}/libexec}
-datarootdir ?= ${datarootdir}
-datadir ?= ${datadir:-${datarootdir}}
+datadir ?= ${datadir:-${prefix}/share}
 sysconfdir ?= ${sysconfdir:-${prefix}/etc}
 libdir ?= ${libdir:-${prefix}/lib}
 mandir ?= ${mandir:-${prefix}/share/man}
