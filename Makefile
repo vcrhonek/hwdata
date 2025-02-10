@@ -16,9 +16,6 @@ CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 
 IDFILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
 
-# usb.ids is not in UTF-8
-UTF_IDFILES = pci.ids oui.txt iab.txt pnp.ids
-
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
     clean clog download
 
@@ -75,7 +72,7 @@ check:
 		{ echo "FAILURE: lspci -A dump -O dump.name=lspci-dump.txt -i pci.ids"; exit 1; } && echo "OK: lspci -A dump -O dump.name=lspci-dump.txt -i pci.ids"
 	@./check-pci-ids.py || { echo "FAILURE: ./check-pci-ids.py"; exit 1; } && echo "OK: ./check-pci-ids.py"
 	@./check-usb-ids.sh
-	@for file in $(UTF_IDFILES); do \
+	@for file in $(IDFILES); do \
 	    iconv -f UTF-8 "$$file" >/dev/null || { echo "FAILURE: $$file is not valid UTF-8 data"; exit 1; }; \
 	    echo "OK: $$file is valid UTF-8 data"; \
 	done
@@ -106,7 +103,7 @@ srpm-x: create-archive
 
 clean:
 	@rm -f $(TAGNAME)*.gz $(NAME)-*.src.rpm pnp.ids.csv \
-	    *.downloaded *.utf8 *.orig hwdata.pc ChangeLog clog
+	    *.downloaded *.utf8 *.orig *.converted hwdata.pc ChangeLog clog
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
@@ -129,8 +126,12 @@ pnp.ids.csv:
 	@curl -o $@ \
 	    https://uefi.org/uefi-pnp-export
 
-usb.ids: usb.ids.utf8
+usb.ids.converted: usb.ids.utf8
 	dos2unix -n $? $@
+
+usb.ids: usb.ids.converted 01-utf-8-encoding.patch.patch 02-typos.patch.patch
+	patch -p1 -o $@ usb.ids.converted 01-utf-8-encoding.patch.patch
+	patch -p0 -b <02-typos.patch.patch
 
 pci.ids: pci.ids.utf8
 	dos2unix -n $? $@

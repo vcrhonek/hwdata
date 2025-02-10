@@ -1,0 +1,11 @@
+--- usb.ids.orig	2025-02-10 12:18:44.961357388 +0100
++++ usb.ids	2025-02-10 12:20:17.220507456 +0100
+@@ -24479,7 +24479,7 @@
+ 	031  \ and | (Backslash and Bar)
+ 	032  # and ~ (Hash and Tilde, Non-US Keyboard near right shift)
+ 	033  ; and : (Semicolon and Colon)
+-	034  ´ and " (Accent Acute and Double Quotes)
++	034  Â´ and " (Accent Acute and Double Quotes)
+ 	035  ` and ~ (Accent Grace and Tilde)
+ 	036  , and < (Comma and Less)
+ 	037  . and > (Period and Greater)
