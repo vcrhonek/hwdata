@@ -23447,12 +23447,6 @@ DB6000-DB6FFF                 (base 16)                     PROSOFT-SYSTEMS LTD
                                                             Ekaterinburg  Sverdlovskaya region  620102
                                                             RU
 
-00-50-C2                      (hex)                         SOREL GmbH Mikroelektronik
-DB7000-DB7FFF                 (base 16)                     SOREL GmbH Mikroelektronik
-                                                            Jahnstrasse 36
-                                                            Sprockhovel    45549
-                                                            DE
-
 00-50-C2                      (hex)                         Scale-Tron, Inc.
 D72000-D72FFF                 (base 16)                     Scale-Tron, Inc.
                                                             6428 Trans-Canada Highway
@@ -27379,3 +27373,9 @@ CF1000-CF1FFF                 (base 16)                     Bascom Hunter
                                                             5501 Bascom Way
                                                             Baton Rouge  LA  70809
                                                             US
+
+00-50-C2                      (hex)                         SOREL GmbH
+DB7000-DB7FFF                 (base 16)                     SOREL GmbH
+                                                            Jahnstrasse 36
+                                                            Sprockhovel    45549
+                                                            DE
