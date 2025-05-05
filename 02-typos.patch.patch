@@ -1,6 +1,6 @@
---- usb.ids.orig	2025-02-10 12:20:17.220507456 +0100
-+++ usb.ids	2025-02-10 12:21:14.926984411 +0100
-@@ -24086,7 +24086,7 @@
+--- usb.ids.converted	2025-05-05 08:54:30.714309419 +0200
++++ usb.ids	2025-05-05 08:54:30.728309297 +0200
+@@ -24087,7 +24087,7 @@
  AT 0201  Microphone
  AT 0202  Desktop Microphone
  AT 0203  Personal Microphone
@@ -9,7 +9,7 @@
  AT 0205  Microphone Array
  AT 0206  Processing Microphone Array
  AT 0300  Output Undefined
-@@ -24101,8 +24101,8 @@
+@@ -24102,8 +24102,8 @@
  AT 0401  Handset
  AT 0402  Headset
  AT 0403  Speakerphone, no echo reduction
@@ -20,7 +20,7 @@
  AT 0500  Telephony Undefined
  AT 0501  Phone line
  AT 0502  Telephone
-@@ -24324,7 +24324,7 @@
+@@ -24325,7 +24325,7 @@
  	0b9  Elevator Trim
  	0ba  Rudder
  	0bb  Throttle
@@ -29,7 +29,7 @@
  	0bd  Flare Release
  	0be  Landing Gear
  	0bf  Toe Break
-@@ -24341,8 +24341,8 @@
+@@ -24342,8 +24342,8 @@
  	0ca  Barrel Elevation
  	0cb  Drive Plane
  	0cc  Ballast
@@ -40,7 +40,7 @@
  	0cf  Front Brake
  	0d0  Rear Brake
  HUT 03  VR Controls
-@@ -24614,7 +24614,7 @@
+@@ -24615,7 +24615,7 @@
  	00b  High Cut Filter
  	00c  Low Cut Filter
  	00d  Equalizer Enable
@@ -49,7 +49,7 @@
  	00f  Surround On
  	010  Repeat
  	011  Stereo
-@@ -25157,7 +25157,7 @@
+@@ -25158,7 +25158,7 @@
  	02d  Display Status
  	02e  Stat Not Ready
  	02f  Stat Ready
@@ -58,7 +58,7 @@
  	031  Err Font Data Cannot Be Read
  	032  Cursur Position Report
  	033  Row
-@@ -25425,14 +25425,14 @@
+@@ -25426,14 +25426,14 @@
  	04  Libya
  	05  Algeria
  	06  Morocco
@@ -75,7 +75,7 @@
  	0f  Bahrain
  	10  Qatar
  L 0002  Bulgarian
-@@ -25461,7 +25461,7 @@
+@@ -25462,7 +25462,7 @@
  	06  Ireland
  	07  South Africa
  	08  Jamaica
@@ -84,7 +84,7 @@
  	0a  Belize
  	0b  Trinidad
  	0c  Zimbabwe
-@@ -25497,7 +25497,7 @@
+@@ -25498,7 +25498,7 @@
  	06  Monaco
  L 000d  Hebrew
  L 000e  Hungarian
@@ -93,7 +93,7 @@
  L 0010  Italian
  	01  Italian
  	02  Swiss
-@@ -25551,13 +25551,13 @@
+@@ -25552,13 +25552,13 @@
  L 002f  Macedonian
  L 0036  Afrikaans
  L 0037  Georgian
