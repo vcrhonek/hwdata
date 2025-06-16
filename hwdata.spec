@@ -16,7 +16,7 @@ such as the pci.ids and usb.ids databases.
 
 %package        devel
 Summary:        Development files for %{name}
-Requires:       %{name}%{?_isa} = %{version}-%{release}
+Requires:       %{name} = %{version}-%{release}
 
 %description    devel
 The %{name}-devel package contains files for developing applications that use
