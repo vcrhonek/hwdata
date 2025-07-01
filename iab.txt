@@ -2387,12 +2387,6 @@ B65000-B65FFF                 (base 16)                     Peek Traffic Corpora
                                                             Palmetto  Florida  34221
                                                             US
 
-00-50-C2                      (hex)                         Efftronics Systems (P) Ltd
-B45000-B45FFF                 (base 16)                     Efftronics Systems (P) Ltd
-                                                            40-15-9
-                                                            Vijayawada  Andhra Pradesh  520010
-                                                            IN
-
 00-50-C2                      (hex)                         Sound Metrics Corp
 B6D000-B6DFFF                 (base 16)                     Sound Metrics Corp
                                                             15029 Bothell Way NE
@@ -5497,6 +5491,12 @@ A59000-A59FFF                 (base 16)                     Televic Rail GmbH
                                                             PO Box 1007
                                                             Sioux Falls  SD  57104
                                                             US
+
+00-50-C2                      (hex)                         Efftronics Systems (P) Ltd
+B45000-B45FFF                 (base 16)                     Efftronics Systems (P) Ltd
+                                                            Plot No.4, IT Park, Auto Nagar
+                                                            Mangalagiri  Andhra Pradesh  520010
+                                                            IN
 
 00-50-C2                      (hex)                         Cleaveland/Price, Inc.
 93B000-93BFFF                 (base 16)                     Cleaveland/Price, Inc.
