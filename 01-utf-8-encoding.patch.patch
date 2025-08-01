@@ -1,6 +1,6 @@
---- usb.ids.orig	2025-02-10 12:18:44.961357388 +0100
-+++ usb.ids	2025-02-10 12:20:17.220507456 +0100
-@@ -24480,7 +24480,7 @@
+--- usb.ids.converted	2025-08-01 09:57:10.118057102 +0200
++++ usb.ids.updated	2025-08-01 09:57:10.122057073 +0200
+@@ -24531,7 +24531,7 @@
  	031  \ and | (Backslash and Bar)
  	032  # and ~ (Hash and Tilde, Non-US Keyboard near right shift)
  	033  ; and : (Semicolon and Colon)
