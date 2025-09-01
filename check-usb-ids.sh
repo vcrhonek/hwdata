@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 set -euo pipefail
 IFS=$'\n\t'
@@ -10,7 +10,7 @@ fi
 
 tmpdir=`mktemp -d`
 echo "Listing usb devices:"
-sudo podman run -t --privileged --rm=true \
+podman run -t --privileged --rm=true \
     -v `pwd`/usb.ids:/usr/share/hwdata/usb.ids:ro \
     -v "$tmpdir:/mnt/out" \
     vcrhonek/hwdata-check \
