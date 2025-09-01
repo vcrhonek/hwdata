@@ -17192,12 +17192,6 @@ F58000-F58FFF                 (base 16)                     IEEE Registration Au
                                                             Houston  TX  77042
                                                             US
 
-40-D8-55                      (hex)                         GeneSys Elektronik GmbH
-0EF000-0EFFFF                 (base 16)                     GeneSys Elektronik GmbH
-                                                            In der Spoeck 10
-                                                            77656 Offenburg
-                                                            US
-
 40-D8-55                      (hex)                         YUKO ELECTRIC CO.,LTD
 0D9000-0D9FFF                 (base 16)                     YUKO ELECTRIC CO.,LTD
                                                             ICHIGAYA BUILDING 2002-12
@@ -21559,6 +21553,12 @@ F08000-F08FFF                 (base 16)                     Aplex Technology Inc
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
+
+40-D8-55                      (hex)                         GeneSys Elektronik GmbH
+0EF000-0EFFFF                 (base 16)                     GeneSys Elektronik GmbH
+                                                            Maria-und-Georg-Dietrich-Str. 6
+                                                            Offenburg    77652
+                                                            DE
 
 00-50-C2                      (hex)                         RF Code
 1A6000-1A6FFF                 (base 16)                     RF Code
