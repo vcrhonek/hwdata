@@ -15845,12 +15845,6 @@ A1A000-A1AFFF                 (base 16)                     DDL
 00-50-C2                      (hex)                         Private
 064000-064FFF                 (base 16)                     Private
 
-00-50-C2                      (hex)                         PMC
-16E000-16EFFF                 (base 16)                     PMC
-                                                            56, Avenue Raspail
-                                                            Saint Maur
-                                                            FR
-
 00-50-C2                      (hex)                         Private
 062000-062FFF                 (base 16)                     Private
 
@@ -16303,6 +16297,12 @@ B49000-B49FFF                 (base 16)                     Aplex Technology Inc
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
+
+00-50-C2                      (hex)                         Groupe Carrus
+16E000-16EFFF                 (base 16)                     Groupe Carrus
+                                                            56, Avenue Raspail
+                                                            Saint Maur
+                                                            FR
 
 00-50-C2                      (hex)                         Timberline Manufacturing
 B5B000-B5BFFF                 (base 16)                     Timberline Manufacturing
