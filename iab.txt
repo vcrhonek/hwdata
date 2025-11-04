@@ -10541,12 +10541,6 @@ DAF000-DAFFFF                 (base 16)                     eumig industrie-TV G
                                                             Milton Keynes  Buckinghamshire  MK5 6LB
                                                             GB
 
-00-50-C2                      (hex)                         Aplex Technology Inc.
-DAB000-DABFFF                 (base 16)                     Aplex Technology Inc.
-                                                            15F-1, No.186, Jian Yi Road
-                                                            Zhonghe District  New Taipei City 235   -
-                                                            TW
-
 40-D8-55                      (hex)                         Aplex Technology Inc.
 00C000-00CFFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
@@ -10561,6 +10555,12 @@ E6A000-E6AFFF                 (base 16)                     Aplex Technology Inc
 
 00-50-C2                      (hex)                         Aplex Technology Inc.
 E00000-E00FFF                 (base 16)                     Aplex Technology Inc.
+                                                            15F-1, No.186, Jian Yi Road
+                                                            Zhonghe District  New Taipei City 235   -
+                                                            TW
+
+00-50-C2                      (hex)                         Aplex Technology Inc.
+DAB000-DABFFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
@@ -16286,14 +16286,14 @@ F16000-F16FFF                 (base 16)                     Peter Huber Kaeltema
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-40-D8-55                      (hex)                         Aplex Technology Inc.
-18A000-18AFFF                 (base 16)                     Aplex Technology Inc.
+00-50-C2                      (hex)                         Aplex Technology Inc.
+B49000-B49FFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-00-50-C2                      (hex)                         Aplex Technology Inc.
-B49000-B49FFF                 (base 16)                     Aplex Technology Inc.
+40-D8-55                      (hex)                         Aplex Technology Inc.
+18A000-18AFFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
@@ -21050,12 +21050,6 @@ A02000-A02FFF                 (base 16)                     Reference, LLC.
                                                             Kernen-Rommelshausen  BaWü  71394
                                                             DE
 
-00-50-C2                      (hex)                         Cyan Technology Ltd
-187000-187FFF                 (base 16)                     Cyan Technology Ltd
-                                                            Unit 2, Buckingway Business Park
-                                                            Swavesey  Cambridge  CB24 4UQ
-                                                            GB
-
 00-50-C2                      (hex)                         AZIO TECHNOLOGY CO.
 19A000-19AFFF                 (base 16)                     AZIO TECHNOLOGY CO.
                                                             1F, 215-7, Poi-dong, Kangnam-Gu
@@ -21542,14 +21536,14 @@ DBA000-DBAFFF                 (base 16)                     Motor Protection Ele
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-40-D8-55                      (hex)                         Aplex Technology Inc.
-060000-060FFF                 (base 16)                     Aplex Technology Inc.
+00-50-C2                      (hex)                         Aplex Technology Inc.
+F08000-F08FFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-00-50-C2                      (hex)                         Aplex Technology Inc.
-F08000-F08FFF                 (base 16)                     Aplex Technology Inc.
+40-D8-55                      (hex)                         Aplex Technology Inc.
+060000-060FFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
@@ -21559,6 +21553,12 @@ F08000-F08FFF                 (base 16)                     Aplex Technology Inc
                                                             Maria-und-Georg-Dietrich-Str. 6
                                                             Offenburg    77652
                                                             DE
+
+00-50-C2                      (hex)                         CyanConnode
+187000-187FFF                 (base 16)                     CyanConnode
+                                                            Suite 2, Ground Floor, The Jeffreys Building, Cowley Road
+                                                            Milton  Cambridge  CB4 0DS
+                                                            GB
 
 00-50-C2                      (hex)                         RF Code
 1A6000-1A6FFF                 (base 16)                     RF Code
