@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.02
-#	Date:    2026-03-02 03:15:02
+#	Version: 2026.04.01
+#	Date:    2026-04-01 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30,13 +30,19 @@
 # This is a relabelled RTL-8139
 	8139  AT-2500TX V3 Ethernet
 0014  Loongson Technology LLC
+	3b0f  DMA Adress Translation Unit [Loongson 3 Processor Family]
+	3c09  Internal PCI to PCI Bridge [Loongson 3 Processor Family]
+	3c0f  DMA Adress Translation Unit [Loongson 3 Processor Family]
+	3c19  PCI Express x16 Root Port [Loongson 3 Processor Family]
+	3c29  PCI Express x8 Root Port [Loongson 3 Processor Family]
+	3c39  PCI Express x4 Root Port [Loongson 3 Processor Family]
 	7a00  7A1000 Chipset Hyper Transport Bridge Controller
 	7a02  2K1000 / 7A1000 Chipset Advanced Peripheral Bus Controller
 	7a03  2K1000/2000 / 7A1000 Chipset Gigabit Ethernet Controller
 	7a04  2K1000 / 7A1000 Chipset OTG USB Controller
 	7a05  2K1000 Vivante GC1000 GPU
 	7a06  2K1000 / 7A1000 Chipset Display Controller
-	7a07  2K1000/2000 / 7A1000/2000 Chipset HD Audio Controller
+	7a07  2K1000/2000/3000 / 3B6000M / 7A1000/2000 Chipset HD Audio Controller
 	7a08  2K1000 / 7A1000 Chipset 3Gb/s SATA AHCI Controller
 	7a09  2K1000 / 7A1000 Chipset PCIe x1 Bridge
 	7a0b  7A1000 Chipset SPI Controller
@@ -49,34 +55,43 @@
 	7a15  7A1000 Chipset Vivante GC1000 GPU
 	7a16  2K1000/2000 VPU Decoder
 	7a17  7A1000 Chipset AC97 Audio Controller
-	7a18  2K2000 / 7A2000 Chipset 6Gb/s SATA AHCI Controller
+	7a18  2K2000/3000 / 3B6000M / 7A2000 Chipset 6Gb/s SATA AHCI Controller
 	7a19  PCI-to-PCI Bridge
 	7a1a  2K2000 Configuration Bus
-	7a1b  2K2000 / 7A2000 Chipset SPI Controller
-	7a1d  2K2000 RapidIO Interface
+	7a1b  2K2000/3000 / 3B6000M / 7A2000 Chipset SPI Controller
+	7a1d  2K2000 / 2K3000 / 3B6000M RapidIO Interface
 	7a1e  2K2000 DES Controller
 	7a22  2K2000 Advanced Peripheral Bus Controller
+	7a23  Gigabit Ethernet Controller [Chipset / CPU inside]
 	7a24  2K1000 / 7A1000/2000 Chipset USB OHCI Controller
 	7a25  2K2000 / 7A2000 Chipset LG100 GPU
 	7a26  2K1000 Camera Controller
-	7a27  2K2000 / 7A2000 Chipset I2S Controller
+	7a27  2K2000/3000 / 3B6000M / 7A2000 Chipset I2S Controller
 	7a29  7A1000 Chipset PCIe x8 Bridge
 	7a2e  2K2000 RSA Controller
 	7a2f  2K2000 DMA Controller
-	7a34  2K2000 / 7A2000 Chipset USB 3.0 xHCI Controller
+	7a34  2K2000/3000 / 3B6000M / 7A2000 Chipset USB 3.0 xHCI Controller
+	7a35  LG200 GPU
 	7a36  2K2000 / 7A2000 Chipset Display Controller
-	7a37  2K2000 HDMI Audio Controller
+	7a37  2K2000/3000 / 3B6000M HDMI Audio Controller
 	7a39  2K2000 / 7A2000 Chipset PCIe x1 Root Port
 	7a3e  2K2000 RNG Controller
-	7a44  2K2000 USB 2.0 xHCI Controller
-	7a48  2K2000 SDIO Controller
+	7a42  Advanced Peripheral Bus Controller [Chipset / CPU inside]
+	7a44  2K2000/3000 / 3B6000M USB 2.0 xHCI Controller
+	7a46  Video Display Controller [Chipset / CPU inside]
+	7a47  Pulse-Code Modulation [Chipset / CPU inside]
+	7a48  2K2000/3000 / 3B6000M SDIO Controller
 	7a49  2K2000 / 7A2000 Chipset PCIe x4 Root Port
 	7a54  2K2000 OTG USB Controller
+	7a56  Video Processing Unit Decoder [Chipset / CPU inside]
 	7a59  7A2000 Chipset PCIe x8 Root Port
+	7a66  Video Processing Unit Encoder [Chipset / CPU inside]
 	7a69  7A2000 Chipset PCIe x16 Root Port
 	7a79  2K2000 PCIe Root Complex
-	7a88  2K2000 eMMC Controller
+	7a88  2K2000/3000 / 3B6000M eMMC Controller
+	7a89  PCI Express x1 Root Port [Chipset / CPU inside]
 	7a8e  2K2000 SE Controller
+	7a99  PCI Express x4 Root Port [Chipset / CPU inside]
 	7af9  2K2000 PCIe Endpoint
 0018  Fn-Link Technology Limited
 	6252  6252CPUB 802.11ax PCIe Wireless Network Adapter
@@ -329,6 +344,9 @@
 	f130  NetFlex-3/P ThunderLAN 1.0
 	f150  NetFlex-3/P ThunderLAN 2.3
 0e55  HaSoTec GmbH
+# Real MediaTek ID is 0x14c3, this actually the USB VID and was used on at least the MT7621
+0e8d  MediaTek Inc. (Wrong ID)
+	0801  MT7621 PCIe Bridge
 0eac  SHF Communication Technologies AG
 	0008  Ethernet Powerlink Managing Node 01
 0f62  Acrox Technologies Co., Ltd.
@@ -4028,8 +4046,8 @@
 		1da2 e409  Sapphire Technology Limited Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1da2 e410  Sapphire NITRO+ RX 5700 XT
 		1da2 e411  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
-	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5300/5500M]
-		106b 0210  Radeon Pro 5300M
+	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5300/5300M/5500M]
+		106b 0210  MacBookPro16,1 (16", 2019) [Radeon Pro 5300M]
 		106b 0219  iMac (Retina 5K, 27-inch, 2020) [Radeon Pro 5300]
 	7341  Navi 14 [Radeon Pro W5500]
 	7347  Navi 14 [Radeon Pro W5500M]
@@ -4145,7 +4163,8 @@
 	74b9  Aqua Vanjaram [Instinct MI325X VF]
 	74bd  Aqua Vanjaram [Instinct MI300X HF]
 	7550  Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]
-		148c 2435  Reaper Radeon RX 9070 XT 16GB GDDR6 (RX9070XT 16G-A)
+		148c 2435  Radeon RX 9070 XT 16GB
+		1849 5403  Navi 48 XTX [Steel Legend Radeon RX 9070 XT]
 		1da2 e490  Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]
 	7551  Navi 48 [Radeon AI PRO R9700]
 	7590  Navi 44 [Radeon RX 9060 XT]
@@ -7821,6 +7840,7 @@
 	1020  ISP1020/1040 Fast-wide SCSI
 	1022  ISP1022 Fast-wide SCSI
 	1080  ISP1080 SCSI Host Adapter
+		1077 0001  QLA1080
 	1216  ISP12160 Dual Channel Ultra3 SCSI Processor
 		101e 8471  QLA12160 on AMI MegaRAID
 		101e 8493  QLA12160 on AMI MegaRAID
@@ -13495,6 +13515,7 @@
 	28f8  AD107GLM [RTX 2000 Ada Generation Embedded GPU]
 	2900  GB100 [Reserved Dev ID A]
 	2901  GB100 [B200]
+	2909  GB100 [B200]
 	2920  GB100 [TS4 / B100]
 	2924  GB100
 	2925  GB100
@@ -13529,7 +13550,7 @@
 	2c34  GB203GL [RTX PRO 4000 Blackwell]
 	2c38  GB203GLM [RTX PRO 5000 Blackwell Generation Laptop GPU]
 	2c39  GB203GLM [RTX PRO 4000 Blackwell Generation Laptop GPU]
-	2c3a  GB203GL [RTX PRO 4500 Blackwell]
+	2c3a  GB203GL [RTX PRO 4500 Blackwell Server Edition]
 	2c58  GB203M / GN22-X11 [GeForce RTX 5090 Max-Q / Mobile]
 	2c59  GB203M / GN22-X9 [GeForce RTX 5080 Max-Q / Mobile]
 	2c77  GB203GLM [RTX PRO 5000 Blackwell Embedded GPU]
@@ -13563,6 +13584,7 @@
 	31a1  GB110 [GB300 MaxQ]
 	31c0  GB110 [Reserved Dev ID B]
 	31c2  GB110 [GB300]
+	31c3  GB110 [GB300]
 	31fe  GB110
 	3200  GB112
 	3224  GB112
@@ -18692,6 +18714,19 @@
 		1028 23a6  MTFDLBQ30T7THL-1BK1JABDA
 		1028 23a7  MTFDLAL61T4THL-1BK1JABDA
 		1028 23a8  MTFDLAL30T7THL-1BK1JABDA
+	51cc  6600 ION NVMe SSD
+		1028 2453  MTFDLBQ122T8QHF-1BQ1JABDA
+		1028 2483  MTFDLBQ61T4QHF-1BQ1JABDA
+		1028 2484  MTFDLBQ30T7QHF-1BQ1JABDA
+		1028 2485  MTFDLBQ122T8QHF-1BQ1DFCDA
+		1028 2486  MTFDLBQ61T4QHF-1BQ1DFCDA
+		1028 2487  MTFDLBQ30T7QHF-1BQ1DFCDA
+		1028 2489  MTFDLAL122T8QHF-1BQ1JABDA
+		1028 248a  MTFDLAL61T4QHF-1BQ1JABDA
+		1028 248b  MTFDLAL30T7QHF-1BQ1JABDA
+		1028 248d  MTFDLAL122T8QHF-1BQ1DFCDA
+		1028 248e  MTFDLAL61T4QHF-1BQ1DFCDA
+		1028 248f  MTFDLAL30T7QHF-1BQ1DFCDA
 	51cd  9650 PRO NVMe SSD
 	5404  2210 NVMe SSD [Cobain]
 	5405  2300 NVMe SSD [Santana]
@@ -21585,6 +21620,8 @@
 		14e4 9340  BCM57608 4x100G OCP Ethernet NIC
 		14e4 9345  BCM57608 4x25G OCP Ethernet NIC
 		14e4 d125  BCM57608 2x200G PCIe Ethernet NIC
+		193d 105b  NIC-ETH2030F-LP-2P 2x200G PCIe Ethernet NIC
+		193d 105c  NIC-ETH4030F-LP-1P 1x400G PCIe Ethernet NIC
 	1800  BCM57502 NetXtreme-E Ethernet Partition
 	1801  BCM57504 NetXtreme-E Ethernet Partition
 		1590 0420  Ethernet NPAR 6310C Adapter
@@ -21880,6 +21917,7 @@
 	5f72  BCM4388 Bluetooth Controller
 # Bluetooth PCI function of the BRCM4377 Wireless Network Adapter
 	5fa0  BRCM4377 Bluetooth Controller
+	6865  BCM68650 [Aspen] XGSPON OLT
 	8411  BCM47xx PCIe Bridge
 	8602  BCM7400/BCM7405 Serial ATA Controller
 	9026  CN99xx [ThunderX2] Integrated USB 3.0 xHCI Host Controller
@@ -25579,7 +25617,10 @@
 	0016  SEL-3350 Serial Expansion Board
 	0017  SEL-3350 GPIO Expansion Board
 	0018  SEL-3390E4 Ethernet Adapter
+	0019  SEL-2241-2/SEL-3361 Mainboard
 	001c  SEL-3390E4 Ethernet Adapter
+	001d  SEL-3350 GPIO Expansion Board
+	001e  SEL-3350 Serial Expansion Board
 1aab  Silver Creations AG
 	7750  Sceye 10L
 1aae  Global Velocity, Inc.
@@ -26687,6 +26728,7 @@
 	33f3  IM2P33F3 NVMe SSD (DRAM-less)
 	33f4  IM2P33F4 NVMe SSD (DRAM-less)
 	33f8  IM2P33F8 series NVMe SSD (DRAM-less)
+	413d  SM2P41D3Q NVMe SSD (DRAM-less)
 	41c3  SM2P41C3 NVMe SSD (DRAM-less)
 	41c8  SM2P41C8 NVMe SSD (DRAM-less)
 	41d3  SM2P41D3 NVMe SSD (DRAM-less)
@@ -28002,6 +28044,9 @@
 	0033  Exceria Plus G4 NVMe SSD (DRAM-less)
 	0034  CM9-based E3.S NVMe SSD
 	0035  CM9-based U3 NVMe SSD
+	003d  LC9 E3.L NVMe SSD
+		1028 244f  RLC9GZV245T
+		1028 2450  RLC9CZV245T
 	003e  LC9 E3.S NVMe SSD
 	003f  LC9 U.2 NVMe SSD
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
@@ -28421,7 +28466,7 @@
 # aka SED Systems
 1e94  Calian SED
 1e95  Solid State Storage Technology Corporation
-	1000  XA1-311024 NVMe SSD M.2
+	1000  XA1 Series NVMe SSD M.2 (DRAM-less)
 	1001  CA6-8D512 NVMe SSD M.2
 	1002  NVMe SSD [3DNAND] 2.5" U.2 (LJ1)
 		1e95 1101  NVMe SSD [3DNAND] 2.5" U.2 (LJ1)
@@ -28429,7 +28474,7 @@
 	1003  CLR-8W512 NVMe SSD M.2 (DRAM-less)
 	1005  PLEXTOR M10P(GN) NVMe SSD M.2
 	1006  CA8 Series NVMe SSD M.2
-	1007  CL4-8D512 NVMe SSD M.2 (DRAM-less)
+	1007  CL4 Series NVMe SSD M.2 (DRAM-less)
 	1008  CL5-8D512 NVMe SSD M.2 (DRAM-less)
 	100b  XB2-311024 NVMe SSD M.2 (DRAM-less)
 	100c  CL6 Series NVMe SSD M.2 (DRAM-less)
@@ -28438,6 +28483,12 @@
 		1e95 0001  M.2 2280 960 GB
 		1e95 0002  M.2 2280 1920 GB
 		1e95 0003  M.2 22110 3840 GB
+		1e95 0004  U.2 1920 GB
+		1e95 0005  U.2 3840 GB
+		1e95 0006  U.2 7680 GB
+		1e95 0007  U.2 1600 GB
+		1e95 0008  U.2 3200 GB
+		1e95 0009  U.2 6400 GB
 	100f  EJ5-2W3840 NVMe SSD U.2
 	1010  CX3 Series NVMe SSD
 		1e95 0000  M.2 2280 480 GB
@@ -28994,6 +29045,7 @@
 	451b  NN4LE NVMe SSD (DRAM-less)
 	4622  NEM-PAC NVMe SSD (DRAM-less)
 1f32  Wuhan YuXin Semiconductor Co., Ltd.
+	ed55  U800G NVMe SSD
 1f3f  3SNIC Ltd
 	2100  SSSHBA SAS/SATA HBA
 		1f3f 0120  HBA 32 Ports
@@ -29423,6 +29475,10 @@
 	10a1  NIC1160 Ethernet Controller Family
 		1ff2 0c11  10GE Ethernet Adapter 1160-2X
 	10a2  NIC1160 Ethernet Controller Virtual Function Family
+	10b1  NIC 1260 Ethernet Controller Family
+	10b2  NIC 1260 Ethernet Controller Virtual Function Family
+	10b3  NIC 1260C Ethernet Controller Family
+	10b4  NIC 1260C Ethernet Controller Virtual Function Family
 	20a1  IOC2110 Storage Controller
 		1ff2 0a11  2120-16i SATA3/SAS3 HBA Adapter
 		1ff2 0a12  2120-8i SATA3/SAS3 HBA Adapter
@@ -29688,17 +29744,28 @@
 	7101  LS X710-E
 	7103  LS X710-M
 	7104  LS X710-P
+	7180  LS X718
+	7211  LS X721-E
+	7223  LS X722-M
+	7224  LS X722-P
 20e3  Elix Systems SA
 20e7  TOPSSD
 20f4  TRENDnet
 20f6  Shenzhen Zhishi Network Technology Co., Ltd.
 	0001  MPU H1
 20f9  Shenzhen Silicon Dynamic Networks Co., Ltd.
+2100  Shenzhen Kimviking Semiconductor Co., Ltd.
+2105  Shanghai Timar Integrated Circuit Co., LTD
 2106  ZCHL Technology Co., Ltd
 	0001  HL100 Accelerator Controller
 		2106 0001  HLC100 Accelerator Card
 # HXQ
 2108  HuiLink Technologies (Xiamen) Co., Ltd.
+# HXQ
+	2401  PCIe4.0 to USB3.2 Gen2 Host Controller
+2114  EigenQ, Inc.
+	0007  QMA Board M.2 Gen2
+	000a  QMA Board PCIe Gen2
 2116  ZyDAS Technology Corp.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
@@ -32127,6 +32194,7 @@
 	11a5  Merrifield Serial IO PWM Controller
 	11c3  Quark SoC X1000 PCIe Root Port 0
 	11c4  Quark SoC X1000 PCIe Root Port 1
+	11df  Infrastructure Data Path Function
 	11eb  Simics NVMe Controller
 	1200  IXP1200 Network Processor
 		172a 0000  AEP SSL Accelerator
@@ -37505,6 +37573,7 @@
 	3e98  CoffeeLake-S GT2 [UHD Graphics 630]
 	3e9a  Coffee Lake-S GT2 [UHD Graphics P630]
 	3e9b  CoffeeLake-H GT2 [UHD Graphics 630]
+		106b 019c  MacBookPro16,1 (16", 2019)
 	3e9c  Coffee Lake-S GT1 [UHD Graphics 610]
 	3ea0  WhiskeyLake-U GT2 [UHD Graphics 620]
 		1028 089e  Inspiron 5482
@@ -39460,38 +39529,56 @@
 		1043 83ac  Eee PC 1015PX
 		144d c072  Notebook N150P
 	a013  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
-	a082  Tiger Lake-LP LPC Controller
-	a0a3  Tiger Lake-LP SMBus Controller
-	a0a4  Tiger Lake-LP SPI Controller
-	a0a6  Tiger Lake-LP Trace Hub
-	a0a8  Tiger Lake-LP Serial IO UART Controller #0
-	a0a9  Tiger Lake-LP Serial IO UART Controller #1
-	a0ab  Tiger Lake-LP Serial IO SPI Controller #1
-	a0b0  Tiger Lake-LP PCI Express Root Port #9
-	a0b1  Tiger Lake-LP PCI Express Root Port #10
-	a0b3  Tiger Lake-LP PCI Express Root Port #12
-	a0b8  Tiger Lake-LP PCI Express Root Port #0
-	a0bb  Tiger Lake-LP PCI Express Root Port #3
-	a0bc  Tiger Lake-LP PCI Express Root Port #5
-	a0bd  Tigerlake PCH-LP PCI Express Root Port #6
-	a0be  Tiger Lake-LP PCI Express Root Port #7
-	a0bf  Tiger Lake-LP PCI Express Root Port #8
-	a0c5  Tiger Lake-LP Serial IO I2C Controller #4
-	a0c6  Tiger Lake-LP Serial IO I2C Controller #5
-	a0c8  Tiger Lake-LP Smart Sound Technology Audio Controller
-# SATA controller on Intel Tiger Lake based mobile platforms in AHCI mode. Could be found on Panasonic Let's Note CF-SV2.
-	a0d3  Tiger Lake-LP SATA Controller
-	a0e0  Tiger Lake-LP Management Engine Interface
-	a0e3  Tiger Lake-LP Active Management Technology - SOL
-	a0e8  Tiger Lake-LP Serial IO I2C Controller #0
-	a0e9  Tiger Lake-LP Serial IO I2C Controller #1
-	a0ea  Tiger Lake-LP Serial IO I2C Controller #2
-	a0eb  Tiger Lake-LP Serial IO I2C Controller #3
-	a0ed  Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller
-	a0ef  Tiger Lake-LP Shared SRAM
+	a082  500 Series Chipset Family On-Package eSPI Controller
+	a0a0  500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)
+	a0a1  500 Series Chipset Family On-Package Power Management Controller (PMC)
+	a0a3  500 Series Chipset Family On-Package System Management Bus (SMBus)
+	a0a4  500 Series Chipset Family On-Package SPI (flash) Controller
+	a0a6  500 Series Chipset Family On-Package Trace Hub
+	a0a8  500 Series Chipset Family On-Package UART Controller #0
+	a0a9  500 Series Chipset Family On-Package UART Controller #1
+	a0aa  500 Series Chipset Family On-Package Generic SPI (GSPI) #0
+	a0ab  500 Series Chipset Family On-Package Generic SPI (GSPI) #1
+	a0b0  500 Series Chipset Family On-Package PCI Express Root Port #9
+	a0b1  500 Series Chipset Family On-Package PCI Express Root Port #10
+	a0b2  500 Series Chipset Family On-Package PCI Express Root Port #11
+	a0b3  500 Series Chipset Family On-Package PCI Express Root Port #12
+	a0b8  500 Series Chipset Family On-Package PCI Express Root Port #1
+	a0b9  500 Series Chipset Family On-Package PCI Express Root Port #2
+	a0ba  500 Series Chipset Family On-Package PCI Express Root Port #3
+	a0bb  500 Series Chipset Family On-Package PCI Express Root Port #4
+	a0bc  500 Series Chipset Family On-Package PCI Express Root Port #5
+	a0bd  500 Series Chipset Family On-Package PCI Express Root Port #6
+	a0be  500 Series Chipset Family On-Package PCI Express Root Port #7
+	a0bf  500 Series Chipset Family On-Package PCI Express Root Port #8
+	a0c5  500 Series Chipset Family On-Package I2C Controller #4
+	a0c6  500 Series Chipset Family On-Package I2C Controller #5
+	a0c7  500 Series Chipset Family On-Package UART Controller #2
+	a0c8  500 Series Chipset Family On-Package High Definition Audio (HD Audio)
+	a0d0  500 Series Chipset Family On-Package Touch Host Controller #0
+	a0d1  500 Series Chipset Family On-Package Touch Host Controller #1
+	a0d3  500 Series Chipset Family On-Package SATA Controller (AHCI)
+	a0d5  500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) no premium
+	a0d7  500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) premium
+	a0da  500 Series Chipset Family On-Package UART Controller #3
+	a0e0  500 Series Chipset Family On-Package CSME HECI #1
+	a0e1  500 Series Chipset Family On-Package CSME HECI #2
+	a0e2  500 Series Chipset Family On-Package CSME IDE Redirection (IDE-R)
+	a0e3  500 Series Chipset Family On-Package CSME Keyboard and Text (KT) Redirection
+	a0e4  500 Series Chipset Family On-Package CSME HECI #3
+	a0e5  500 Series Chipset Family On-Package CSME HECI #4
+	a0e8  500 Series Chipset Family On-Package I2C Controller #0
+	a0e9  500 Series Chipset Family On-Package I2C Controller #1
+	a0ea  500 Series Chipset Family On-Package I2C Controller #2
+	a0eb  500 Series Chipset Family On-Package I2C Controller #3
+	a0ed  500 Series Chipset Family On-Package USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller
+	a0ee  500 Series Chipset Family On-Package USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)
+	a0ef  500 Series Chipset Family On-Package Shared SRAM
 	a0f0  Wi-Fi 6 AX201
 		8086 0244  Wi-Fi 6 AX101NGW
-	a0fc  Tiger Lake-LP Integrated Sensor Hub
+	a0fb  500 Series Chipset Family On-Package Generic SPI (GSPI) #2
+	a0fc  500 Series Chipset Family On-Package Integrated Sensor Hub
+	a0fd  500 Series Chipset Family On-Package Generic SPI (GSPI) #3
 	a102  Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]
 		1043 8694  H110I-PLUS Motherboard
 		1462 7994  H110M ECO/GAMING
@@ -39914,7 +40001,7 @@
 	a83b  Lunar Lake-M PCI Express Root Port #4
 	a83c  Lunar Lake-M PCI Express Root Port #5
 	a83d  Lunar Lake-M PCI Express Root Port #6
-	a840  BE201 320MHz
+	a840  BE200 Series Wi-Fi 7
 	a845  Lunar Lake-M Integrated Sensor Hub
 	a847  Lunar Lake-M UFS Controller
 	a848  Lunar Lake-M Touch Host Controller #0 ID1
@@ -39996,6 +40083,24 @@
 	d156  Core Processor Semaphore and Scratchpad Registers
 	d157  Core Processor System Control and Status Registers
 	d158  Core Processor Miscellaneous Registers
+	d323  Nova Lake PCD-H SPI Controller
+	d325  Nova Lake PCD-H Serial IO UART Controller #0
+	d326  Nova Lake PCD-H Serial IO UART Controller #1
+	d327  Nova Lake PCD-H Serial IO SPI Controller #0
+	d330  Nova Lake PCD-H Serial IO SPI Controller #1
+	d331  Nova Lake-H Thunderbolt 5 USB Controller
+	d333  Nova Lake-H Thunderbolt 5 NHI #0
+	d347  Nova Lake PCD-H Serial IO SPI Controller #2
+	d34e  Nova Lake-H Thunderbolt 5 PCI Express Root Port #0
+	d34f  Nova Lake-H Thunderbolt 5 PCI Express Root Port #1
+	d350  Nova Lake PCD-H Serial IO I2C Controller #4
+	d351  Nova Lake PCD-H Serial IO I2C Controller #5
+	d352  Nova Lake PCD-H Serial IO UART Controller #2
+	d360  Nova Lake-H Thunderbolt 5 PCI Express Root Port #2
+	d378  Nova Lake PCD-H Serial IO I2C Controller #0
+	d379  Nova Lake PCD-H Serial IO I2C Controller #1
+	d37a  Nova Lake PCD-H Serial IO I2C Controller #2
+	d37b  Nova Lake PCD-H Serial IO I2C Controller #3
 	d431  Nova Lake-S Thunderbolt 5 USB Controller
 	d433  Nova Lake-S Thunderbolt 5 NHI #0
 	d44e  Nova Lake-S Thunderbolt 5 PCI Express Root Port #0
@@ -40007,6 +40112,15 @@
 	d743  NVL-HX
 	d744  NVL-UL
 	d745  NVL-HX
+	d750  NVL-P
+	d751  NVL-P
+	d752  NVL-P
+	d753  NVL-P
+	d754  NVL-P
+	d755  NVL-P
+	d756  NVL-P
+	d757  NVL-P
+	d75f  NVL-P
 	e202  Battlemage G21 [Intel Graphics]
 	e20b  Battlemage G21 [Arc B580]
 	e20c  Battlemage G21 [Arc B570]
@@ -40018,8 +40132,8 @@
 	e216  Battlemage G21 [Intel Graphics]
 	e220  Battlemage G31 [Intel Graphics]
 	e221  Battlemage G31 [Intel Graphics]
-	e222  Battlemage G31 [Intel Graphics]
-	e223  Battlemage G31 [Intel Graphics]
+	e222  Battlemage G31 [Arc Pro B65]
+	e223  Battlemage G31 [Arc Pro B70]
 	e302  Panther Lake LPC/eSPI Controller
 	e322  Panther Lake SMBus Controller
 	e323  Panther Lake SPI(flash) Controller
@@ -40066,6 +40180,12 @@
 	e37c  Panther Lake I3C Host Controller #1
 	e37d  Panther Lake USB 3.2 xHCI Controller
 	e37f  Panther Lake Shared SRAM
+	e431  Panther Lake USB 3.2 xHCI Controller
+	e434  Panther Lake Thunderbolt 4 NHI #2
+	e440  Panther Lake PCH CNVi WiFi
+		8086 0114  Wi-Fi 7 BE211 320MHz
+	e476  Panther Lake Bluetooth PCI Enumerator
+	e47d  Panther Lake USB 3.2 xHCI Controller
 	f1a5  SSD 600P Series
 		8086 390a  SSDPEKKW256G7 256GB
 	f1a6  SSD DC P4101/Pro 7600p/760p/E 6100p Series
