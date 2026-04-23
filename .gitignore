@@ -1,3 +1,4 @@
 Makefile.inc
 hwdata.pc
 pci.ids.old
+pnp.ids.csv
