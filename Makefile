@@ -19,6 +19,9 @@ IDFILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
     clean clog download
 
+# Preserve manually downloaded pnp.ids.csv (can't auto-download due to Cloudflare)
+.PRECIOUS: pnp.ids.csv
+
 include Makefile.inc
 
 all:
@@ -102,8 +105,9 @@ srpm-x: create-archive
 	@echo SRPM is: $(NAME)-$(VERSION)-$(RELEASE).src.rpm
 
 clean:
-	@rm -f $(TAGNAME)*.gz $(NAME)-*.src.rpm pnp.ids.csv \
+	@rm -f $(TAGNAME)*.gz $(NAME)-*.src.rpm \
 	    *.downloaded *.utf8 *.orig *.converted hwdata.pc ChangeLog clog
+	@# Note: pnp.ids.csv is preserved (must be manually downloaded)
 
 clog: hwdata.spec
 	@sed -n '/^%changelog/,/^$$/{/^%/d;/^$$/d;s/%%/%/g;p}' $< | tee $@
@@ -123,8 +127,18 @@ iab.txt.downloaded:
 	@curl -o $@ -O https://standards-oui.ieee.org/iab/iab.txt
 
 pnp.ids.csv:
-	@curl -o $@ \
-	    https://uefi.org/uefi-pnp-export
+	@if [ ! -f $@ ]; then \
+		echo "Downloading pnp.ids.csv from UEFI..." ; \
+		if ! curl -f -o $@ https://uefi.org/uefi-pnp-export 2>/dev/null; then \
+			echo "ERROR: Automatic download failed (Cloudflare protection)." ; \
+			echo "Please manually download from https://uefi.org/uefi-pnp-export" ; \
+			echo "and save as pnp.ids.csv in the project directory." ; \
+			rm -f $@ ; \
+			exit 1 ; \
+		fi ; \
+	else \
+		echo "Using existing pnp.ids.csv (manual download)" ; \
+	fi
 
 usb.ids.converted: usb.ids.utf8
 	dos2unix -n $? $@
