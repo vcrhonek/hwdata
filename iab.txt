@@ -10541,6 +10541,12 @@ DAF000-DAFFFF                 (base 16)                     eumig industrie-TV G
                                                             Milton Keynes  Buckinghamshire  MK5 6LB
                                                             GB
 
+00-50-C2                      (hex)                         Aplex Technology Inc.
+DAB000-DABFFF                 (base 16)                     Aplex Technology Inc.
+                                                            15F-1, No.186, Jian Yi Road
+                                                            Zhonghe District  New Taipei City 235   -
+                                                            TW
+
 40-D8-55                      (hex)                         Aplex Technology Inc.
 00C000-00CFFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
@@ -10555,12 +10561,6 @@ E6A000-E6AFFF                 (base 16)                     Aplex Technology Inc
 
 00-50-C2                      (hex)                         Aplex Technology Inc.
 E00000-E00FFF                 (base 16)                     Aplex Technology Inc.
-                                                            15F-1, No.186, Jian Yi Road
-                                                            Zhonghe District  New Taipei City 235   -
-                                                            TW
-
-00-50-C2                      (hex)                         Aplex Technology Inc.
-DAB000-DABFFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
@@ -16286,14 +16286,14 @@ F16000-F16FFF                 (base 16)                     Peter Huber Kaeltema
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-00-50-C2                      (hex)                         Aplex Technology Inc.
-B49000-B49FFF                 (base 16)                     Aplex Technology Inc.
+40-D8-55                      (hex)                         Aplex Technology Inc.
+18A000-18AFFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-40-D8-55                      (hex)                         Aplex Technology Inc.
-18A000-18AFFF                 (base 16)                     Aplex Technology Inc.
+00-50-C2                      (hex)                         Aplex Technology Inc.
+B49000-B49FFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
@@ -21536,14 +21536,14 @@ DBA000-DBAFFF                 (base 16)                     Motor Protection Ele
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-00-50-C2                      (hex)                         Aplex Technology Inc.
-F08000-F08FFF                 (base 16)                     Aplex Technology Inc.
+40-D8-55                      (hex)                         Aplex Technology Inc.
+060000-060FFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
 
-40-D8-55                      (hex)                         Aplex Technology Inc.
-060000-060FFF                 (base 16)                     Aplex Technology Inc.
+00-50-C2                      (hex)                         Aplex Technology Inc.
+F08000-F08FFF                 (base 16)                     Aplex Technology Inc.
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
