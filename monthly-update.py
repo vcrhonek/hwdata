@@ -18,6 +18,7 @@ Usage:
 import argparse
 import subprocess
 import sys
+import tempfile
 from datetime import datetime
 from pathlib import Path
 
@@ -43,11 +44,15 @@ def log(message, color=None):
 
 
 def run_command(cmd, check=True, capture=True):
-    """Run shell command and return output."""
+    """Run shell command and return output.
+
+    Note: Uses shell=True for convenience with git/make commands.
+    All command strings are constructed internally, not from user input.
+    """
     log(f"Running: {cmd}", Colors.OKCYAN)
     result = subprocess.run(
         cmd,
-        shell=True,
+        shell=True,  # Safe here: all commands are hardcoded, no user input
         capture_output=capture,
         text=True,
         check=False
@@ -132,11 +137,11 @@ def get_file_dates():
     dates = {}
 
     # PCI date
-    result = run_command("grep 'Date:' pci.ids | cut -d' ' -f5")
+    result = run_command("grep 'Date:' pci.ids | head -n1 | cut -d' ' -f5")
     dates['pci'] = result.stdout.strip() if result.stdout else 'unknown'
 
     # USB date
-    result = run_command("grep 'Date:' usb.ids | cut -d' ' -f6")
+    result = run_command("grep 'Date:' usb.ids | head -n1 | cut -d' ' -f6")
     dates['usb'] = result.stdout.strip() if result.stdout else 'unknown'
 
     return dates
@@ -225,7 +230,7 @@ def update_spec_file(new_version, changes):
             changelog_index = i
             break
 
-    if changelog_index:
+    if changelog_index is not None:
         # Insert new entry after %changelog line
         new_entry = f"* {today} {user_name} <{user_email}> - {new_version}-1\n- {changelog_msg}\n\n"
         lines.insert(changelog_index + 1, new_entry)
@@ -296,9 +301,18 @@ def create_pr(branch_name, new_version, dates, pci_stats, local_only=False):
 
     # Create PR using gh CLI
     log("\n📬 Creating pull request...", Colors.HEADER)
-    pr_body_escaped = pr_body.replace('"', '\\"').replace('\n', '\\n')
-    cmd = f'gh pr create --title "{pr_title}" --body "{pr_body_escaped}"'
-    result = run_command(cmd, check=False)
+
+    # Write PR body to temp file (safer than escaping)
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+        f.write(pr_body)
+        body_file = f.name
+
+    try:
+        cmd = f'gh pr create --title "{pr_title}" --body-file "{body_file}"'
+        result = run_command(cmd, check=False)
+    finally:
+        # Clean up temp file
+        Path(body_file).unlink(missing_ok=True)
 
     if result.returncode != 0:
         log("Failed to create PR automatically. Create it manually on GitHub:", Colors.WARNING)

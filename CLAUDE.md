@@ -159,7 +159,7 @@ After the script completes, review the PR, wait for CI/Sourcery, and merge when 
 If you need to do updates manually, follow this workflow:
 
 1. **Create feature branch** with month name: `jan-update`, `feb-update`, `mar-update`, etc.
-2. **Setup and download**:
+2. **Set up and download**:
    ```bash
    ./configure
    make download
