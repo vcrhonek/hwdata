@@ -34,6 +34,8 @@ def parse_pci_file(ids_file, file_name):
         if vendor in res:
             sys.stderr.write('Warning: vendor "%04x" redeclared!'
                 ' File: %s : %d\n'%(vendor, file_name, line))
+            # Update vendor name but keep existing devices
+            res[vendor] = (vendor_name, res[vendor][1])
         else:
             res[vendor] = (vendor_name, {})
         return vendor
