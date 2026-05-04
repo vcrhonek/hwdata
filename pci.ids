@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.01
-#	Date:    2026-04-01 03:15:01
+#	Version: 2026.05.04
+#	Date:    2026-05-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -241,6 +241,7 @@
 	f011  JM1100-IV
 	f111  JM1100-MV
 	ff11  JM1100-YV
+0771  Xi'an Microelectronics Technology Institute
 0777  Ubiquiti Networks, Inc.
 0795  Wired Inc.
 	6663  Butane II (MPEG2 encoder board)
@@ -4279,6 +4280,7 @@
 	9500  RV670 [Radeon HD 3850 X2]
 	9501  RV670 [Radeon HD 3870]
 		174b e620  Radeon HD 3870
+		1787 2244  Radeon HD 3870
 	9504  RV670/M88 [Mobility Radeon HD 3850]
 	9505  RV670 [Radeon HD 3690/3850]
 		148c 3000  Radeon HD 3850
@@ -13202,6 +13204,7 @@
 	1f76  TU106GLM [Quadro RTX 3000 Mobile Refresh]
 	1f81  TU117
 	1f82  TU117 [GeForce GTX 1650]
+		19da 3595  GeForce GTX 1650 OC GDDR6
 	1f83  TU117 [GeForce GTX 1630]
 	1f91  TU117M [GeForce GTX 1650 Mobile / Max-Q]
 	1f92  TU117M [GeForce GTX 1650 Mobile]
@@ -16232,6 +16235,8 @@
 		117c 00c9  Celerity FC-641E
 		117c 00ca  Celerity FC-642E
 		117c 00d4  Celerity FC-644E
+		117c 40d8  ThunderLink FC 5642
+		117c 40d9  ThunderLink FC 5322
 	00c5  ExpressNVM PCIe Gen4 Switch
 		117c 00c6  ExpressNVM S48F PCIe Gen4
 		117c 00cb  ExpressNVM S4FF PCIe Gen4
@@ -16241,6 +16246,11 @@
 		117c 00c2  ExpressSAS H1244 GT
 		117c 00c3  ExpressSAS H12F0 GT
 		117c 00c4  ExpressSAS H120F GT
+		117c 00e1  ExpressSAS H1280 GT
+		117c 00e2  ExpressSAS H1208 GT
+		117c 00e3  ExpressSAS H1244 GT
+		117c 40e0  ThunderLink SH 5128
+		117c 40e4  ThunderLink SH 5128
 	8013  ExpressPCI UL4D
 	8014  ExpressPCI UL4S
 	8027  ExpressPCI UL5D
@@ -16248,7 +16258,7 @@
 		117c 0070  ExpressSAS H1280
 		117c 0071  ExpressSAS H1208
 		117c 0080  ExpressSAS H1244
-		117c 40ae  ThunderLink TLSH-3128
+		117c 40ae  ThunderLink SH 3128
 	8072  ExpressSAS 12Gb/s SAS/SATA HBA
 		117c 0072  ExpressSAS H12F0
 		117c 0073  ExpressSAS H120F
@@ -17109,10 +17119,33 @@
 11f7  Scientific Atlanta
 # née PMC-Sierra Inc.
 11f8  Microchip Technology
+	4000  PM40100 Switchtec PFX 100xG4 Fanout PCIe Switch
+	4028  PM40028 Switchtec PFX 28xG4 Fanout PCIe Switch
 	4036  PM40036 Switchtec PFX 36xG4 Fanout PCIe Switch
 	4052  PM40052 Switchtec PFX 52xG4 Fanout PCIe Switch
+	4068  PM40068 Switchtec PFX 68xG4 Fanout PCIe Switch
 	4084  PM40084 Switchtec PFX 84xG4 Fanout PCIe Switch
+	4100  PM41100 Switchtec PSX 100xG4 Programmable PCIe Switch
 	4128  PM41028 Switchtec PSX 28xG4 Programmable PCIe Switch
+	4136  PM41036 Switchtec PSX 36xG4 Programmable PCIe Switch
+	4152  PM41052 Switchtec PSX 52xG4 Programmable PCIe Switch
+	4168  PM41068 Switchtec PSX 68xG4 Programmable PCIe Switch
+	4184  PM41084 Switchtec PSX 84xG4 Programmable PCIe Switch
+	4200  PM42100 Switchtec PAX 100xG4 Programmable Advanced Fabric PCIe Switch
+	4228  PM42028 Switchtec PAX 28xG4 Programmable Advanced Fabric PCIe Switch
+	4236  PM42036 Switchtec PAX 36xG4 Programmable Advanced Fabric PCIe Switch
+	4252  PM42052 Switchtec PAX 52xG4 Programmable Advanced Fabric PCIe Switch
+	4268  PM42068 Switchtec PAX 68xG4 Programmable Advanced Fabric PCIe Switch
+	4284  PM42084 Switchtec PAX 84xG4 Programmable Advanced Fabric PCIe Switch
+	4328  PM43028 Switchtec PFXA 28xG4 Automotive Fanout PCIe Switch
+	4336  PM43036 Switchtec PFXA 36xG4 Automotive Fanout PCIe Switch
+	4352  PM43052 Switchtec PFXA 52xG4 Automotive Fanout PCIe Switch
+	4428  PM44028 Switchtec PSXA 28xG4 Automotive Programmable PCIe Switch
+	4436  PM44036 Switchtec PSXA 36xG4 Automotive Programmable PCIe Switch
+	4452  PM44052 Switchtec PSXA 52xG4 Automotive Programmable PCIe Switch
+	4528  PM45028 Switchtec PAXA 28xG4 Automotive Programmable Advanced Fabric PCIe Switch
+	4536  PM45036 Switchtec PAXA 36xG4 Automotive Programmable Advanced Fabric PCIe Switch
+	4552  PM45052 Switchtec PAXA 52xG4 Automotive Programmable Advanced Fabric PCIe Switch
 	5000  PM50100 Switchtec PFX 100xG5 Fanout PCIe Switch
 	5028  PM50028 Switchtec PFX 28xG5 Fanout PCIe Switch
 	5036  PM50036 Switchtec PFX 36xG5 Fanout PCIe Switch
@@ -17125,7 +17158,47 @@
 	5152  PM51052 Switchtec PSX 52xG5 Programmable PCIe Switch
 	5168  PM51068 Switchtec PSX 68xG5 Programmable PCIe Switch
 	5184  PM51084 Switchtec PSX 84xG5 Programmable PCIe Switch
+	5200  PM52100 Switchtec PAX 100xG5 Programmable Advanced Fabric PCIe Switch
 	5220  BR522x [PMC-Sierra maxRAID SAS Controller]
+	5228  PM52028 Switchtec PAX 28xG5 Programmable Advanced Fabric PCIe Switch
+	5236  PM52036 Switchtec PAX 36xG5 Programmable Advanced Fabric PCIe Switch
+	5252  PM52052 Switchtec PAX 52xG5 Programmable Advanced Fabric PCIe Switch
+	5268  PM52068 Switchtec PAX 68xG5 Programmable Advanced Fabric PCIe Switch
+	5284  PM52084 Switchtec PAX 84xG5 Programmable Advanced Fabric PCIe Switch
+	5300  PM53100 Switchtec PFXA 100xG5 Automotive Fanout PCIe Switch
+	5328  PM53028 Switchtec PFXA 28xG5 Automotive Fanout PCIe Switch
+	5336  PM53036 Switchtec PFXA 36xG5 Automotive Fanout PCIe Switch
+	5352  PM53052 Switchtec PFXA 52xG5 Automotive Fanout PCIe Switch
+	5368  PM53068 Switchtec PFXA 68xG5 Automotive Fanout PCIe Switch
+	5384  PM53084 Switchtec PFXA 84xG5 Automotive Fanout PCIe Switch
+	5400  PM54100 Switchtec PSXA 100xG5 Automotive Programmable PCIe Switch
+	5428  PM54028 Switchtec PSXA 28xG5 Automotive Programmable PCIe Switch
+	5436  PM54036 Switchtec PSXA 36xG5 Automotive Programmable PCIe Switch
+	5452  PM54052 Switchtec PSXA 52xG5 Automotive Programmable PCIe Switch
+	5468  PM54068 Switchtec PSXA 68xG5 Automotive Programmable PCIe Switch
+	5484  PM54084 Switchtec PSXA 84xG5 Automotive Programmable PCIe Switch
+	5500  PM55100 Switchtec PAXA 100xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5528  PM55028 Switchtec PAXA 28xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5536  PM55036 Switchtec PAXA 36xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5552  PM55052 Switchtec PAXA 52xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5568  PM55068 Switchtec PAXA 68xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5584  PM55084 Switchtec PAXA 84xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	6044  PM60144 Switchtec PFXs 144xG6 Secure-capable Fanout PCIe Switch
+	6048  PM60048 Switchtec PFXs 48xG6 Secure-capable Fanout PCIe Switch
+	6060  PM60160 Switchtec PFXs 160xG6 Secure-capable Fanout PCIe Switch
+	6064  PM60064 Switchtec PFXs 64xG6 Secure-capable Fanout PCIe Switch
+	6144  PM61144 Switchtec PSXs 144xG6 Secure-capable Programmable PCIe Switch
+	6148  PM61048 Switchtec PSXs 48xG6 Secure-capable Programmable PCIe Switch
+	6160  PM61160 Switchtec PSXs 160xG6 Secure-capable Programmable PCIe Switch
+	6164  PM61064 Switchtec PSXs 64xG6 Secure-capable Programmable PCIe Switch
+	6244  PM62144 Switchtec PFX 144xG6 Fanout PCIe Switch
+	6248  PM62048 Switchtec PFX 48xG6 Fanout PCIe Switch
+	6260  PM62160 Switchtec PFX 160xG6 Fanout PCIe Switch
+	6264  PM62064 Switchtec PFX 64xG6 Fanout PCIe Switch
+	6344  PM63144 Switchtec PSX 144xG6 Programmable PCIe Switch
+	6348  PM63048 Switchtec PSX 48xG6 Programmable PCIe Switch
+	6360  PM63160 Switchtec PSX 160xG6 Programmable PCIe Switch
+	6364  PM63064 Switchtec PSX 64xG6 Programmable PCIe Switch
 	7364  PM7364 [FREEDM - 32 Frame Engine & Datalink Mgr]
 	7375  PM7375 [LASAR-155 ATM SAR]
 	7384  PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]
@@ -17154,8 +17227,30 @@
 	8535  PM8535 PFX 80xG3 PCIe Fanout Switch
 	8536  PM8536 PFX 96xG3 PCIe Fanout Switch
 		1bd4 0081  PM8536 PFX 96xG3 PCIe Fanout Switch
+	8541  PM8541 PSX 24xG3 Programmable PCIe Switch
+	8542  PM8542 PSX 32xG3 Programmable PCIe Switch
+	8543  PM8543 PSX 48xG3 Programmable PCIe Switch
+	8544  PM8544 PSX 64xG3 Programmable PCIe Switch
+	8545  PM8545 PSX 80xG3 Programmable PCIe Switch
 	8546  PM8546 B-FEIP PSX 96xG3 PCIe Storage Switch
+	8551  PM8551 PAX 24xG3 Programmable Advanced Fabric PCIe Switch
+	8552  PM8552 PAX 32xG3 Programmable Advanced Fabric PCIe Switch
+	8553  PM8553 PAX 48xG3 Programmable Advanced Fabric PCIe Switch
+	8554  PM8554 PAX 64xG3 Programmable Advanced Fabric PCIe Switch
+	8555  PM8555 PAX 80xG3 Programmable Advanced Fabric PCIe Switch
+	8556  PM8556 PAX 96xG3 Programmable Advanced Fabric PCIe Switch
+	8561  PM8561 Switchtec PFX-L 24xG3 Fanout-Lite PCIe Switch
 	8562  PM8562 Switchtec PFX-L 32xG3 Fanout-Lite PCIe Gen3 Switch
+	8563  PM8563 Switchtec PFX-L 48xG3 Fanout-Lite PCIe Switch
+	8564  PM8564 Switchtec PFX-L 64xG3 Fanout-Lite PCIe Switch
+	8565  PM8565 Switchtec PFX-L 80xG3 Fanout-Lite PCIe Switch
+	8566  PM8566 Switchtec PFX-L 96xG3 Fanout-Lite PCIe Switch
+	8571  PM8571 Switchtec PFX-I 24xG3 Industrial Fanout PCIe Switch
+	8572  PM8572 Switchtec PFX-I 32xG3 Industrial Fanout PCIe Switch
+	8573  PM8573 Switchtec PFX-I 48xG3 Industrial Fanout PCIe Switch
+	8574  PM8574 Switchtec PFX-I 64xG3 Industrial Fanout PCIe Switch
+	8575  PM8575 Switchtec PFX-I 80xG3 Industrial Fanout PCIe Switch
+	8576  PM8576 Switchtec PFX-I 96xG3 Industrial Fanout PCIe Switch
 11f9  I-Cube Inc
 11fa  Kasan Electronics Company, Ltd.
 11fb  Datel Inc
@@ -20720,28 +20815,28 @@
 		1028 2341  DC NVMe PM9D3a RI U.2 960GB
 		1028 2342  DC NVMe PM9D3a RI U.2 1.92TB
 		1028 2343  DC NVMe PM9D3a RI U.2 3.84TB
-		1028 2344  DC NVMe PM9D3a RI U.2 7.68GTB
+		1028 2344  DC NVMe PM9D3a RI U.2 7.68TB
 		1028 2345  DC NVMe PM9D3a RI U.2 15.36TB
 		1028 2346  DC NVMe FIPS PM9D3a RI U.2 960GB
 		1028 2347  DC NVMe FIPS PM9D3a RI U.2 1.92TB
 		1028 2348  DC NVMe FIPS PM9D3a RI U.2 3.84TB
 		1028 2349  DC NVMe FIPS PM9D3a RI U.2 7.68TB
 		1028 234a  DC NVMe FIPS PM9D3a RI U.2 15.36TB
-		1028 234d  DC NVMe PM9D3a RI E3s 1.92TB
-		1028 234e  DC NVMe PM9D3a RI E3s 3.84TB
-		1028 234f  DC NVMe PM9D3a RI E3s 7.68GTB
-		1028 2350  DC NVMe PM9D3a RI E3s 15.36TB
-		1028 2351  DC NVMe FIPS PM9D3a RI E3s 1.92TB
-		1028 2352  DC NVMe FIPS PM9D3a RI E3s 3.84TB
-		1028 2353  DC NVMe FIPS PM9D3a RI E3s 7.68TB
-		1028 2354  DC NVMe FIPS PM9D3a RI E3s 15.36TB
+		1028 234d  DC NVMe PM9D3a RI E3.S 1.92TB
+		1028 234e  DC NVMe PM9D3a RI E3.S 3.84TB
+		1028 234f  DC NVMe PM9D3a RI E3.S 7.68TB
+		1028 2350  DC NVMe PM9D3a RI E3.S 15.36TB
+		1028 2351  DC NVMe FIPS PM9D3a RI E3.S 1.92TB
+		1028 2352  DC NVMe FIPS PM9D3a RI E3.S 3.84TB
+		1028 2353  DC NVMe FIPS PM9D3a RI E3.S 7.68TB
+		1028 2354  DC NVMe FIPS PM9D3a RI E3.S 15.36TB
 		1028 2355  DC NVMe PM9D5a MU U.2 800GB
 		1028 2356  DC NVMe PM9D5a MU U.2 1.6TB
 		1028 2357  DC NVMe PM9D5a MU U.2 3.2TB
 		1028 2358  DC NVMe PM9D5a MU U.2 6.4TB
-		1028 2359  DC NVMe PM9D5a MU E3.s 1.6TB
-		1028 235a  DC NVMe PM9D5a MU E3.s 3.2TB
-		1028 235b  DC NVMe PM9D5a MU E3.s 6.4TB
+		1028 2359  DC NVMe PM9D5a MU E3.S 1.6TB
+		1028 235a  DC NVMe PM9D5a MU E3.S 3.2TB
+		1028 235b  DC NVMe PM9D5a MU E3.S 6.4TB
 	aa00  NVMe SSD Controller BM1743
 		1028 2312  NVMe FIPS BM1743 QLC U.2 15.36TB
 		1028 2313  NVMe FIPS BM1743 QLC U.2 30.72TB
@@ -20753,6 +20848,56 @@
 		1028 2366  MZ3MO15THCLCAD3
 		1028 2367  MZ3MO30THCLFAD3
 	ac00  NVMe SSD Controller PM175x
+# NVMe FIPS PM1753 RI E3.S 1.92TB
+		1028 2383  MZ3L91T9HFJAAD9
+# NVMe PM1753 RI E3.S 1.92TB
+		1028 2384  MZ3L91T9HFJAAD3
+# NVMe FIPS PM1753 RI E3.S 3.84TB
+		1028 2385  MZ3L93T8HFJAAD9
+# NVMe PM1753 RI E3.S 3.84TB
+		1028 2386  MZ3L93T8HFJAAD3
+# NVMe FIPS PM1753 RI E3.S 7.68TB
+		1028 2387  MZ3L97T6HFLTAD9
+# NVMe PM1753 RI E3.S 7.68TB
+		1028 2388  MZ3L97T6HFLTAD3
+# NVMe FIPS PM1753 RI E3.S 15.36TB
+		1028 2389  MZ3L915THBLCAD9
+# NVMe PM1753 RI E3.S 15.36TB
+		1028 238a  MZ3L915THBLCAD3
+# NVMe FIPS PM1753 RI E3.S 30.72TB
+		1028 238b  MZ3L930THBLFAD9
+# NVMe PM1753 RI E3.S 30.72TB
+		1028 238c  MZ3L930THBLFAD3
+# NVMe FIPS PM1755 MU E3.S 1.6TB
+		1028 238d  MZ3L91T6HFJAAD9
+# NVMe PM1755 MU E3.S 1.6TB
+		1028 238e  MZ3L91T6HFJAAD3
+# NVMe FIPS PM1755 MU E3.S 3.2TB
+		1028 238f  MZ3L93T2HFJAAD9
+# NVMe PM1755 MU E3.S 3.2TB
+		1028 2390  MZ3L93T2HFJAAD3
+# NVMe FIPS PM1755 MU E3.S 6.4TB
+		1028 2391  MZ3L96T4HFLTAD9
+# NVMe PM1755 MU E3.S 6.4TB
+		1028 2392  MZ3L96T4HFLTAD3
+# NVMe PM1753 RI U.2 1.92TB
+		1028 2394  MZWL91T9HFJAAD3
+# NVMe PM1753 RI U.2 3.84TB
+		1028 2396  MZWL93T8HFLTAD3
+# NVMe PM1753 RI U.2 7.68TB
+		1028 2398  MZWL97T6HFLAAD3
+# NVMe PM1753 RI U.2 15.36TB
+		1028 239a  MZWL915THBLFAD3
+# NVMe FIPS PM1753 RI U.2 30.72TB
+		1028 239b  MZWL930THBLFAD9
+# NVMe PM1753 RI U.2 30.72TB
+		1028 239c  MZWL930THBLFAD3
+# NVMe PM1755 MU U.2 1.6TB
+		1028 239e  MZWL91T6HFJAAD3
+# NVMe PM1755 MU U.2 3.2TB
+		1028 239f  MZWL93T2HFLTAD3
+# NVMe PM1755 MU U.2 6.4TB
+		1028 23a0  MZWL96T4HFLAAD3
 	ecec  Exynos 8895 PCIe Root Complex
 144e  OLITEC
 144f  Askey Computer Corp.
@@ -20975,6 +21120,7 @@
 	7991  MT7996 secondary link PCIe Wi-Fi 7(802.11be) 320MHz Wireless Network Adapter [Filogic 680]
 	7992  MT7992 primary link PCIe Wi-Fi 7(802.11be) 160MHz Wireless Network Adapter [Filogic 660]
 	799a  MT7992 secondary link PCIe Wi-Fi 7(802.11be) 160MHz Wireless Network Adapter [Filogic 660]
+	8188  MT8188 [Kompanio 838] Root Complex
 	8650  MT7650 Bluetooth
 14c4  IWASAKI Information Systems Co Ltd
 14c5  Automation Products AB
@@ -21513,6 +21659,7 @@
 		193d 1087  NIC-ETH531F-3S-2P
 	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
 		117c 00cc  FastFrame N422 Dual-port 25Gb Ethernet Adapter
+		117c 40d7  ThunderLink NS 5252 Dual-port 25Gb Ethernet Adapter
 		14e4 1402  BCM957414A4142CC 10Gb/25Gb Ethernet PCIe
 		14e4 1404  BCM957414M4142C OCP 2x25G Type1 wRoCE
 		14e4 4140  NetXtreme E-Series Advanced Dual-port 25Gb SFP28 Network Daughter Card
@@ -21584,7 +21731,7 @@
 		17aa 3a23  IdeaPad S10e
 	1750  BCM57508 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
 		117c 00cf  FastFrame N412 Dual-port 100Gb Ethernet Adapter
-		117c 40d6  ThunderLink TLNS-5102 Dual-port 100Gb Ethernet Adapter
+		117c 40d6  ThunderLink NS 5102 Dual-port 100Gb Ethernet Adapter
 		14e4 2100  NetXtreme-E Dual-port 100G QSFP56 Ethernet PCIe4.0 x16 Adapter (BCM957508-P2100G)
 		14e4 5208  NetXtreme-E Dual-port 100G QSFP56 Ethernet OCP 3.0 Adapter (BCM957508-N2100G)
 		14e4 520a  NetXtreme-E Dual-port 100G DSFP Ethernet OCP 3.0 Adapter (BCM957508-N2100GD)
@@ -21595,6 +21742,7 @@
 		1028 09d4  PowerEdge XR11/XR12 LOM
 		1028 0b1b  PowerEdge XR5610 LOM
 		117c 00da  FastFrame N424 Quad-port 25Gb Ethernet Adapter
+		117c 40df  ThunderLink NS 5254 Quad-port 25Gb Ethernet Adapter
 		14e4 4250  NetXtreme-E Quad-port 25G SFP28 Ethernet PCIe4.0 x16 Adapter (BCM957504-P425G)
 		14e4 5045  NetXtreme-E BCM57504 4x25G OCP3.0
 		14e4 5100  NetXtreme-E Single-port 100G QSFP56 Ethernet OCP 3.0 Adapter (BCM957504-N1100G)
@@ -21605,6 +21753,7 @@
 		1590 0420  HPE Ethernet 25/50Gb 2-port 6310C Adapter
 	1752  BCM57502 NetXtreme-E 10Gb/25Gb/40Gb/50Gb Ethernet
 	1760  BCM57608 25Gb/50Gb/100Gb/200Gb/400Gb Ethernet
+		117c 00cf  FastFrame N522 Dual-port 200Gb Ethernet Adapter
 		14e4 9110  BCM57608 1x400G PCIe Ethernet NIC
 		14e4 9120  BCM57608 2x200G PCIe Ethernet NIC
 		14e4 9121  BCM57608 2x100G PCIe Ethernet NIC
@@ -22680,7 +22829,6 @@
 	0224  CX9 Family [ConnectX-9 Flash Recovery]
 	0225  CX9 Family [ConnectX-9 Secure Flash Recovery-RMA]
 	0226  CX10 Family [ConnectX-10 Flash Recovery]
-# Name change request
 	0227  CX10 Family [ConnectX-10 RMA]
 	0228  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Flash Recovery]
 	0229  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Secure Flash Recovery-RMA]
@@ -22721,21 +22869,16 @@
 	0285  Sagitta RMA
 	0286  LibraE Flash Recovery
 	0287  LibraE RMA
-# Flash recovery
-	0288  Arcus2
+	0288  Arcus2 Flash Recovery
 	0289  Arcus2 RMA
 	0290  SagittaZ
 	0292  Arcus3 Flash Recovery
 	0293  Arcus3 RMA
-	0294  Ophy 2.1 (SagittaZ)
-# Sagitta
-	0296  OPHY2.6
-# Sagitta
-	0298  OPHY3.0
-# Sagitta
-	029a  OPHY3.1
-# Sagitta
-	029c  OPHY3.5
+	0294  OPHY2.1 [SagittaZ]
+	0296  OPHY2.6 [Sagitta]
+	0298  OPHY3.0 [Sagitta]
+	029a  OPHY3.1 [Sagitta]
+	029c  OPHY3.5 [Sagitta]
 	02a0  NVLink-8 Switch in Flash Recovery Mode
 	02a1  NVLink-8 Switch RMA
 	02a2  Spectrum-7 in Flash Recovery Mode
@@ -24207,7 +24350,7 @@
 	0302  MDM9x55 LTE Modem [Snapdragon X16]
 	0304  SDX24 [Snapdragon X24 4G]
 	0306  SDX55 [Snapdragon X55 5G]
-	0308  SDX62 [Snapdragon X62 5G]
+	0308  SDX61/SDX62/SDX65 [Snapdragon 5G X6X-series]
 	0400  Datacenter Technologies QDF2432 PCI Express Root Port
 	0401  Datacenter Technologies QDF2400 PCI Express Root Port
 	1000  QCS405 PCIe Root Complex
@@ -25357,6 +25500,8 @@
 		19e5 0051  Hi1822 SP681 (2*25/10GE)
 		19e5 0052  Hi1822 SP680 (4*25/10GE)
 		19e5 00a1  Hi1822 SP670 (2*100GE)
+	0229  Hi1872 Family
+	022a  Hi1872 Family Virtual Function
 	1710  iBMA Virtual Network Adapter
 	1711  Hi171x Series [iBMC Intelligent Management system chip w/VGA support]
 	1712  Intelligent Management system chip Virtual Network Adapter
@@ -26995,6 +27140,7 @@
 	efa1  Elastic Fabric Adapter (EFA)
 	efa2  Elastic Fabric Adapter (EFA)
 	efa3  Elastic Fabric Adapter (EFA)
+	efa4  Elastic Fabric Adapter (EFA)
 1d17  Zhaoxin
 	070f  ZX-100 PCI Express Root Port
 	0710  ZX-100/ZX-200 PCI Express Root Port
@@ -28996,9 +29142,10 @@
 		1f0f 0001  S2055AS, 2x 25GbE, SFP28, PCIe 4.0 x8
 		1f0f 0002  S2025XS, 2x 10GbE, SFP+, PCIe 4.0 x8
 	3504  M18305 Family BASE-T
-		1f0f 0001  S2025XT, 2x 10GbE, Base-T, PCIe 4.0 x8, Fan
-		1f0f 0002  S2025XT, 2x 10GbE, Base-T, PCIe 4.0 x8
+		1f0f 0001  S2025XT, 2x 10GbE, Base-T, PCIe 4.0 x8
+		1f0f 0002  S2025XT, 2x 10GbE, BASE-T, PCIe 4.0 x4, Fan
 		1f0f 0003  S2045XT, 4x 10GbE, Base-T, PCIe 4.0 x8
+		1f0f 0004  S2045XT, 4x 10GbE, BASE-T, PCIe 4.0 x8, Fan
 	350a  M18305 Family Virtual Function
 		1f0f 0001  M18305 Family Virtual Function
 	9088  D1055AS PCI Express Switch Downstream Port
@@ -29129,6 +29276,17 @@
 	2018  DPU Card
 # Network Accelerating Card
 	2020  DPU
+	3011  K3 Family [FLEXFLOW-3100R]
+		1f47 000a  FLEXFLOW-3100R 1*100GE Ethernet Adapter
+		1f47 000b  FLEXFLOW-3100R 2*100GE Ethernet Adapter
+		1f47 000c  FLEXFLOW-3100R 4*100GE Ethernet Adapter
+		1f47 000d  FLEXFLOW-3100R 8*100GE Ethernet Adapter
+		1f47 000e  FLEXFLOW-3100R 1*100GE Ethernet Adapter
+		1f47 000f  FLEXFLOW-3100R 2*100GE Ethernet Adapter
+		1f47 0010  FLEXFLOW-3100R 4*100GE Ethernet Adapter
+		1f47 0011  FLEXFLOW-3100R 8*100GE Ethernet Adapter
+	3012  K3 Family [FLEXFLOW-3100R Virtual Function]
+	3013  K3 Family [FLEXFLOW-3100R MGMT Function]
 	3101  FLEXFLOW-2100R Ethernet Controller
 		1f47 0001  Ethernet 10G 2P FLEXFLOW-2100R
 		1f47 0002  Ethernet 25G 2P FLEXFLOW-2100R
@@ -29147,9 +29305,6 @@
 		1f47 0006  Ethernet 25G 2P FLEXFLOW-2200R
 		1f47 0007  Ethernet 50G 2P FLEXFLOW-2200R
 		1f47 0008  Ethernet 100G 2P FLEXFLOW-2200R
-	3301  K3 Family [FLEXFLOW-3100R]
-		1f47 0001  FLEXFLOW-3100R 1*100GE Ethernet Adapter
-	3302  K3 Family [FLEXFLOW-3100R Virtual Function]
 	3303  K3 Family [CONFLUX-3100R MGMT Function]
 	4001  K2-Pro Family [CONFLUX-2200E]
 		1f47 0001  Ethernet 25G 2P CONFLUX-2200E
@@ -29767,6 +29922,8 @@
 	0007  QMA Board M.2 Gen2
 	000a  QMA Board PCIe Gen2
 2116  ZyDAS Technology Corp.
+# Add Vendor id 0x2123 to pci.ids
+2123  Shanghai Warpdrive Technology Co., Ltd
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
@@ -29787,27 +29944,26 @@
 	5008  A1000/U-SNS8154P3 x2 NVMe SSD [E8]
 	500a  DC1000B NVMe SSD [E12DC]
 	500b  DC1000M NVMe SSD [SM2270]
-	500c  OM8PCP Design-In PCIe 3 NVMe SSD (DRAM-less)
-	500d  OM3PDP3 NVMe SSD
+	500c  OM8PCP3 PCIe 3 NVMe SSD (DRAM-less)
+	500d  OM3PDP3 PCIe 3 NVMe SSD (DRAM-less)
 	500e  NV1 NVMe SSD [E13T] (DRAM-less)
 	500f  NV1 NVMe SSD [SM2263XT] (DRAM-less)
 	5010  OM8SBP NVMe PCIe SSD (DRAM-less)
 	5012  DC1500M NVMe SSD [SM2270]
 	5013  KC3000/FURY Renegade NVMe SSD [E18]
-	5014  OM8SEP4 Design-In PCIe 4 NVMe SSD (TLC) (DRAM-less)
-	5016  OM3PGP4 NVMe SSD (DRAM-less)
+	5014  OM8SEP4 PCIe 4 NVMe SSD (TLC) (DRAM-less)
+	5016  OM3PGP4 PCIe 4 NVMe SSD (DRAM-less)
 	5017  NV2 NVMe SSD [SM2267XT] (DRAM-less)
 	5018  OM8SFP4 PCIe 4 NVMe SSD (DRAM-less)
 	5019  NV2 NVMe SSD [E21T] (DRAM-less)
-# 128GB
-	501a  OM8PGP4 Design-In PCIe 4 NVMe SSD (TLC) (DRAM-less)
+	501a  OM8PGP4 PCIe 4 NVMe SSD (TLC) (DRAM-less)
 	501b  OM8PGP4 NVMe PCIe SSD (DRAM-less)
 	501c  NV2 NVMe SSD [E19T] (DRAM-less)
 	501d  NV2 NVMe SSD [TC2200] (DRAM-less)
 	501e  OM3PGP4 NVMe SSD (DRAM-less)
 	501f  FURY Renegade NVMe SSD [E18] (Heatsink)
-	5021  OM8SEP4 Design-In PCIe 4 NVMe SSD (QLC) (DRAM-less)
-	5022  OM8PGP4 Design-In PCIe 4 NVMe SSD (QLC) (DRAM-less)
+	5021  OM8SEP4 PCIe 4 NVMe SSD (QLC) (DRAM-less)
+	5022  OM8PGP4 PCIe 4 NVMe SSD (QLC) (DRAM-less)
 	5023  NV2 NVMe SSD [SM2269XT] (DRAM-less)
 	5024  DC2000B NVMe SSD [E18DC]
 	5025  NV3 NVMe SSD [TC2201] (DRAM-less)
@@ -29819,6 +29975,7 @@
 	502c  DC3000ME NVMe SSD [SC5]
 	502d  OM8TAP4 PCIe 4 NVMe SSD (QLC) (DRAM-less)
 	5030  NV3 2230 NVMe SSD [SM2268XT2] (DRAM-less)
+	5034  NV3 NVMe SSD [E33T] (DRAM-less)
 270b  Xantel Corporation
 270f  Chaintech Computer Co. Ltd
 2711  AVID Technology Inc.
@@ -30013,7 +30170,16 @@
 		434e 0003  CN5000 SuperNIC, Single Port, QSFP, x16 PCIe Gen 5, II
 		434e 0004  CN5000 SuperNIC, Dual Port, QSFP-DD, x16 PCIe Gen 5, II
 	0002  CN6000 HFI Silicon, Dual Port, BGA [discrete]
+		434e 0001  CN6000 SuperNIC, Single Port, QSFP-DD, x16 PCIe Gen 6
 	8001  CN5000 Switch Silicon, 48 Port, BGA
+# Add CN5000 Switch
+		434e 0101  CN5000 Switch
+# Add CN5000 Director Class Switch Spine
+		434e 0103  CN5000 Director Class Switch Spine
+# Add CN5000 Director Class Switch Leaf
+		434e 0104  CN5000 Director Class Switch Leaf
+# Add CN6000 Switch
+		434e 0106  CN6000 Switch
 4444  Internext Compression Inc
 	0016  iTVC16 (CX23416) Video Decoder
 		0070 0003  WinTV PVR 250
@@ -30244,6 +30410,13 @@
 		4c53 3002  PLUSTEST-MM card (PMC)
 4c54  Lisuan Technology Co., Ltd.
 	5000  LISUAN 7G100 Series Graphics
+# LISUAN 7G100 Series Graphics
+	5001  LISUAN 7G100 Series Graphics
+	5002  LISUAN 7G100 Series Graphics
+	5003  LISUAN 7G100 Series Graphics
+	5004  LISUAN 7G100 Series Graphics
+	5005  LISUAN 7G100 Series Graphics
+	5006  LISUAN 7G100 Series Graphics
 4ca1  Seanix Technology Inc
 4d51  MediaQ Inc.
 	0200  MQ-200
@@ -40185,6 +40358,7 @@
 	e440  Panther Lake PCH CNVi WiFi
 		8086 0114  Wi-Fi 7 BE211 320MHz
 	e476  Panther Lake Bluetooth PCI Enumerator
+	e47b  Serial IO I2C Host Controller - E47B
 	e47d  Panther Lake USB 3.2 xHCI Controller
 	f1a5  SSD 600P Series
 		8086 390a  SSDPEKKW256G7 256GB
