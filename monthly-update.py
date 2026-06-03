@@ -267,7 +267,8 @@ def create_commit(changes):
     log(f"✅ Committed: {commit_msg.split(chr(10), maxsplit=1)[0]}", Colors.OKGREEN)
 
 
-def create_pr(branch_name, new_version, dates, pci_stats, local_only=False):
+def create_pr(branch_name, new_version, dates, pci_stats, changes,
+              local_only=False):
     """Push branch and create pull request."""
     if local_only:
         log("\n⏭️  Skipping push and PR creation (local-only mode)", Colors.WARNING)
@@ -279,12 +280,19 @@ def create_pr(branch_name, new_version, dates, pci_stats, local_only=False):
     # Create PR description
     pr_title = f"Monthly update - {datetime.now().strftime('%B %Y')}"
 
+    # Build updated files list based on actual changes
+    updated_files = []
+    if 'pci' in changes:
+        updated_files.append(f"- PCI IDs: {dates.get('pci', 'N/A')}")
+    if 'usb' in changes:
+        updated_files.append(f"- USB IDs: {dates.get('usb', 'N/A')}")
+    if 'vendor ids' in changes:
+        updated_files.append("- Vendor IDs (OUI/IAB/PNP): Updated")
+
     pr_body = f"""Automated monthly update of hardware IDs to version {new_version}
 
 ## Updated Files
-- PCI IDs: {dates.get('pci', 'N/A')}
-- USB IDs: {dates.get('usb', 'N/A')}
-- Vendor IDs (OUI/IAB/PNP): Updated
+{'\n'.join(updated_files)}
 
 """
 
@@ -403,7 +411,7 @@ def main():  # pylint: disable=too-many-statements
         create_commit(changes)
 
         # Step 10: Create PR (or skip if local-only)
-        create_pr(branch_name, new_version, dates, pci_stats, local_only=local_only)
+        create_pr(branch_name, new_version, dates, pci_stats, changes, local_only=local_only)
 
         # Cleanup
         cleanup()
