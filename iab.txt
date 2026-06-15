@@ -11021,12 +11021,6 @@ DE1000-DE1FFF                 (base 16)                     ABB Transmission and
                                                             Santa Cruz  CA  95062
                                                             US
 
-40-D8-55                      (hex)                         Power Electronics Espana, S.L.
-102000-102FFF                 (base 16)                     Power Electronics Espana, S.L.
-                                                            Leonardo Da Vinci, 24-26
-                                                            Paterna  Valencia  46980
-                                                            ES
-
 00-50-C2                      (hex)                         RFL Electronics, Inc.
 ED5000-ED5FFF                 (base 16)                     RFL Electronics, Inc.
                                                             353 Powerville Road
@@ -16303,6 +16297,12 @@ B49000-B49FFF                 (base 16)                     Aplex Technology Inc
                                                             56, Avenue Raspail
                                                             Saint Maur
                                                             FR
+
+40-D8-55                      (hex)                         Power Electronics Espana, S.L.
+102000-102FFF                 (base 16)                     Power Electronics Espana, S.L.
+                                                            RONDA DEL CAMP DE AVIACIO, NO. 4 CARRASES INDUSTRIAL ESTATE
+                                                            LLÍRIA   Valencia  46160
+                                                            ES
 
 00-50-C2                      (hex)                         Timberline Manufacturing
 B5B000-B5BFFF                 (base 16)                     Timberline Manufacturing
@@ -22016,12 +22016,6 @@ FB7000-FB7FFF                 (base 16)                     Pounce Consulting
                                                             Santa Cruz  CA  95062
                                                             US
 
-00-50-C2                      (hex)                         Power Electronics Espana, S.L.
-723000-723FFF                 (base 16)                     Power Electronics Espana, S.L.
-                                                            C/ Leonardo Da Vinci, 24-26
-                                                            Paterna  Valencia  46980
-                                                            ES
-
 00-50-C2                      (hex)                         WaveIP
 AC7000-AC7FFF                 (base 16)                     WaveIP
                                                             Teradion Ind Park
@@ -27379,3 +27373,9 @@ D11000-D11FFF                 (base 16)                     Aplex Technology Inc
                                                             15F-1, No.186, Jian Yi Road
                                                             Zhonghe District  New Taipei City 235   -
                                                             TW
+
+00-50-C2                      (hex)                         Power Electronics Espana, S.L.
+723000-723FFF                 (base 16)                     Power Electronics Espana, S.L.
+                                                            RONDA DEL CAMP DE AVIACIO, NO. 4 CARRASES INDUSTRIAL ESTATE
+                                                            LLÍRIA   Valencia  46160
+                                                            ES
