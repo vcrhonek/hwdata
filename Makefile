@@ -17,7 +17,7 @@ CVSTAG = $(NAME)-r$(subst .,-,$(VERSION))
 IDFILES = pci.ids usb.ids oui.txt iab.txt pnp.ids
 
 .PHONY: all install tag force-tag check commit create-archive archive srpm-x \
-    clean clog download
+    clean clog download update-usb-patches
 
 # Preserve manually downloaded pnp.ids.csv (can't auto-download due to Cloudflare)
 .PRECIOUS: pnp.ids.csv
@@ -171,4 +171,40 @@ pnp.ids: pnp.ids.orig pnp.ids.patch
 	else \
 	    cat $?; \
 	fi | sed 's/\s\+$$//' >$@
+
+update-usb-patches:
+	@echo "Regenerating USB patches with updated line numbers..."
+	@if [ ! -f usb.ids.converted ]; then \
+		echo "Error: usb.ids.converted not found. Run 'make download' first."; \
+		exit 1; \
+	fi
+	@# Save current usb.ids (has correct content)
+	@cp -f usb.ids usb.ids.backup
+	@# Remove usb.ids and rebuild it WITH patches (allowing offsets)
+	@rm -f usb.ids
+	@$(MAKE) usb.ids 2>/dev/null || true
+	@# Now usb.ids has patches applied (possibly with offsets)
+	@# Compare it to the backup to see if patches worked correctly
+	@if ! diff -q usb.ids usb.ids.backup >/dev/null 2>&1; then \
+		echo "Warning: Rebuilt usb.ids differs from original!"; \
+		echo "Patches may have failed. Review carefully."; \
+	fi
+	@# Regenerate patch 1: usb.ids.converted -> intermediate (after patch 1)
+	@# First, apply JUST patch 1
+	@patch -p1 -o usb.ids.step1 usb.ids.converted 01-utf-8-encoding.patch.patch 2>/dev/null || \
+		cp usb.ids.converted usb.ids.step1
+	@diff -Naur usb.ids.converted usb.ids.step1 > 01-utf-8-encoding.patch.patch.new 2>/dev/null || \
+		touch 01-utf-8-encoding.patch.patch.new
+	@# Regenerate patch 2: intermediate -> final
+	@diff -Naur usb.ids.step1 usb.ids > 02-typos.patch.patch.new 2>/dev/null || \
+		touch 02-typos.patch.patch.new
+	@# Restore backup
+	@mv -f usb.ids.backup usb.ids
+	@rm -f usb.ids.step1
+	@echo "✓ Generated 01-utf-8-encoding.patch.patch.new"
+	@echo "✓ Generated 02-typos.patch.patch.new"
+	@echo ""
+	@echo "To use the new patches:"
+	@echo "  mv 01-utf-8-encoding.patch.patch.new 01-utf-8-encoding.patch.patch"
+	@echo "  mv 02-typos.patch.patch.new 02-typos.patch.patch"
 

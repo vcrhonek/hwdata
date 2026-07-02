@@ -122,6 +122,47 @@ def download_files():
     log("✅ Download complete", Colors.OKGREEN)
 
 
+def update_usb_patches():
+    """Check if USB patches need updating and regenerate them if needed."""
+    log("\n🔧 Checking USB patches...", Colors.HEADER)
+
+    # Check if patches apply cleanly (no offset warnings)
+    result = run_command(
+        "patch --dry-run -p1 -o /dev/null usb.ids.converted "
+        "01-utf-8-encoding.patch.patch 2>&1 | grep -i offset",
+        check=False
+    )
+
+    has_offset = result.returncode == 0 and result.stdout.strip()
+
+    if has_offset:
+        log("   Patches have offsets, regenerating...", Colors.WARNING)
+
+        # Regenerate patches using make target
+        result = run_command("make update-usb-patches 2>&1", check=False)
+        if result.returncode != 0:
+            log("   Failed to regenerate patches", Colors.FAIL)
+            return False
+
+        # Verify .new files were created
+        patch1_new = Path("01-utf-8-encoding.patch.patch.new")
+        patch2_new = Path("02-typos.patch.patch.new")
+
+        if not (patch1_new.exists() and patch2_new.exists()):
+            log("   Patch generation failed - .new files not created", Colors.FAIL)
+            return False
+
+        # Move .new files to replace originals
+        patch1_new.rename("01-utf-8-encoding.patch.patch")
+        patch2_new.rename("02-typos.patch.patch")
+        log("   ✅ Patches regenerated with zero offset", Colors.OKGREEN)
+
+        return True  # Patches were updated
+    else:
+        log("   ✅ Patches apply cleanly", Colors.OKGREEN)
+        return False  # No update needed
+
+
 def validate_files():
     """Run make check to validate files."""
     log("\n✅ Validating ID files...", Colors.HEADER)
@@ -382,6 +423,9 @@ def main():  # pylint: disable=too-many-statements
         # Step 4: Download files
         download_files()
 
+        # Step 4.5: Update USB patches if needed
+        patches_updated = update_usb_patches()
+
         # Step 5: Validate
         validate_files()
 
@@ -407,7 +451,11 @@ def main():  # pylint: disable=too-many-statements
         new_version = bump_version(current_version)
         update_spec_file(new_version, changes)
 
-        # Step 9: Create commit
+        # Step 9: Create commit (include patch updates if any)
+        if patches_updated:
+            log("   Adding updated patch files to commit", Colors.OKCYAN)
+            run_command("git add 01-utf-8-encoding.patch.patch 02-typos.patch.patch")
+
         create_commit(changes)
 
         # Step 10: Create PR (or skip if local-only)

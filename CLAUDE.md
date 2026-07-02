@@ -98,6 +98,28 @@ When updating ID files from upstream sources:
 
 The Makefile automatically handles encoding detection and conversion from iso-8859 or cp12xx to UTF-8.
 
+### Updating usb.ids Patches
+
+Two patches are applied to usb.ids:
+- `01-utf-8-encoding.patch.patch` - Encoding fixes
+- `02-typos.patch.patch` - Typo corrections
+
+If you need to update these patches (rare):
+
+```bash
+# 1. Run normal download to get usb.ids.converted
+make download
+
+# 2. Manually edit usb.ids to fix issues
+
+# 3. Regenerate patches
+make update-usb-patches
+
+# 4. Review the .new files and replace originals if good
+mv 01-utf-8-encoding.patch.patch.new 01-utf-8-encoding.patch.patch
+mv 02-typos.patch.patch.new 02-typos.patch.patch
+```
+
 ### Known Issue: pnp.ids.csv Download
 
 The UEFI PnP export URL (https://uefi.org/uefi-pnp-export) is protected by Cloudflare bot detection and often fails with automated downloads. 
@@ -126,9 +148,10 @@ Tests are run via Packit CI on pull requests against all Fedora releases.
 The `monthly-update.py` script automates the monthly update workflow. It:
 1. Creates the feature branch (e.g., `apr-update`)
 2. Downloads and validates ID files
-3. Updates hwdata.spec version and changelog
-4. Creates commits with proper messages
-5. Pushes and creates a GitHub PR
+3. **Auto-regenerates USB patches if needed** - detects patch offsets and regenerates with zero offset
+4. Updates hwdata.spec version and changelog
+5. Creates commits with proper messages (including patch updates if any)
+6. Pushes and creates a GitHub PR
 
 **Prerequisites:**
 - Clean working tree on master branch
