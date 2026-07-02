@@ -84,16 +84,26 @@ def check_clean_working_tree():
         sys.exit(1)
 
 
-def create_update_branch(month):
+def create_update_branch(month, local_only=False):
     """Create and checkout monthly update branch."""
     branch_name = f"{month}-update"
+    if local_only:
+        branch_name += "-test"
+
     log(f"\n📝 Creating branch: {branch_name}", Colors.HEADER)
 
     # Check if branch already exists
     result = run_command(f"git rev-parse --verify {branch_name}", check=False)
     if result.returncode == 0:
-        log(f"Branch {branch_name} already exists. Checking it out.", Colors.WARNING)
-        run_command(f"git checkout {branch_name}")
+        if local_only:
+            # In test mode, fail if test branch exists - don't reuse it
+            log(f"Error: Test branch {branch_name} already exists.", Colors.FAIL)
+            log(f"Delete it first: git branch -D {branch_name}", Colors.FAIL)
+            sys.exit(1)
+        else:
+            # In normal mode, allow resuming existing branch
+            log(f"Branch {branch_name} already exists. Checking it out.", Colors.WARNING)
+            run_command(f"git checkout {branch_name}")
     else:
         run_command(f"git checkout -b {branch_name}")
 
@@ -417,7 +427,7 @@ def main():  # pylint: disable=too-many-statements
 
     # Step 3: Create branch
     month = get_month_name()
-    branch_name = create_update_branch(month)
+    branch_name = create_update_branch(month, local_only=local_only)
 
     try:
         # Step 4: Download files
