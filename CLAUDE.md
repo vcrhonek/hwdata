@@ -192,8 +192,9 @@ If you need to do updates manually, follow this workflow:
    - Bump Version field
    - Add %changelog entry with current date and description
 4. **Commit and push** changes to GitHub
-   - Commit message should reflect what changed: "Update pci and vendor ids", "Update pci, usb and vendor ids", "Update vendor ids", etc.
-   - Components: `pci` (pci.ids), `usb` (usb.ids), `vendor ids` (oui.txt, iab.txt, pnp.ids)
+   - Commit message should reflect what changed: "Update pci ids", "Update pci and vendor ids", "Update pci, usb and vendor ids", "Update vendor ids", etc.
+   - Components: `pci` (pci.ids), `usb` (usb.ids), `vendor` (oui.txt, iab.txt, pnp.ids)
+   - Components are joined with commas plus a final "and", with "ids" appended once at the end
 5. **Automated CI** runs on GitHub:
    - Packit builds the package for all Fedora releases
    - Tests execute automatically

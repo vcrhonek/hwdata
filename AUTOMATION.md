@@ -106,15 +106,23 @@ Once the script completes:
 
 ## Commit Message Format
 
-The script automatically generates commit messages based on what changed:
+The script automatically generates commit messages based on what changed.
+The components are `pci` (pci.ids), `usb` (usb.ids) and `vendor` (oui.txt,
+iab.txt, pnp.ids). They are joined with commas plus a final "and", and the
+word "ids" is appended once at the end:
 
-- Only pci.ids: `"Update pci"`
-- Only USB: `"Update usb"`
-- Only vendor files: `"Update vendor ids"`
-- PCI + vendors: `"Update pci and vendor ids"`
-- All files: `"Update pci, usb and vendor ids"`
+- `pci`: `"Update pci ids"`
+- `usb`: `"Update usb ids"`
+- `vendor`: `"Update vendor ids"`
+- `pci` + `usb`: `"Update pci and usb ids"`
+- `pci` + `vendor`: `"Update pci and vendor ids"`
+- `usb` + `vendor`: `"Update usb and vendor ids"`
+- `pci` + `usb` + `vendor`: `"Update pci, usb and vendor ids"`
 
-All commits include: `Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`
+If no ID file changed and you answer `y` to the "Continue anyway?" prompt,
+only hwdata.spec is committed and the message is `"Bump version"`.
+
+The same message is used for the `%changelog` entry in hwdata.spec.
 
 ## PR Description Format
 

@@ -226,9 +226,22 @@ def detect_changes():
 
     result = run_command("git diff --name-only oui.txt iab.txt pnp.ids", check=False)
     if result.stdout.strip():
-        changes.append("vendor ids")
+        changes.append("vendor")
 
     return changes
+
+
+def format_commit_subject(changes):
+    """Build the commit subject, e.g. "Update pci, usb and vendor ids".
+
+    With no changed ID files only hwdata.spec is committed, so the subject
+    describes the version bump instead.
+    """
+    if not changes:
+        return "Bump version"
+    if len(changes) == 1:
+        return f"Update {changes[0]} ids"
+    return f"Update {', '.join(changes[:-1])} and {changes[-1]} ids"
 
 
 def get_current_version():
@@ -268,11 +281,7 @@ def update_spec_file(new_version, changes):
     user_email = result.stdout.strip()
 
     # Determine changelog message
-    if changes:
-        change_list = ", ".join(changes)
-        changelog_msg = f"Update {change_list}"
-    else:
-        changelog_msg = "Update hardware IDs"
+    changelog_msg = format_commit_subject(changes)
 
     # Find %changelog section
     changelog_index = None
@@ -303,15 +312,11 @@ def create_commit(changes):
         files_to_add.append("pci.ids")
     if "usb" in changes:
         files_to_add.append("usb.ids")
-    if "vendor ids" in changes:
+    if "vendor" in changes:
         files_to_add.extend(["oui.txt", "iab.txt", "pnp.ids"])
 
     # Create commit message
-    if changes:
-        change_list = " and ".join(changes)
-        commit_msg = f"Update {change_list}"
-    else:
-        commit_msg = "Update hardware IDs"
+    commit_msg = format_commit_subject(changes)
 
     run_command(f"git add {' '.join(files_to_add)}")
     run_command(f"git commit -s -m '{commit_msg}'")
@@ -337,15 +342,17 @@ def create_pr(branch_name, new_version, dates, pci_stats, changes,
         updated_files.append(f"- PCI IDs: {dates.get('pci', 'N/A')}")
     if 'usb' in changes:
         updated_files.append(f"- USB IDs: {dates.get('usb', 'N/A')}")
-    if 'vendor ids' in changes:
+    if 'vendor' in changes:
         updated_files.append("- Vendor IDs (OUI/IAB/PNP): Updated")
 
-    pr_body = f"""Automated monthly update of hardware IDs to version {new_version}
-
-## Updated Files
-{'\n'.join(updated_files)}
-
-"""
+    if updated_files:
+        file_list = "\n".join(updated_files)
+        pr_body = (
+            f"Automated monthly update of hardware IDs to version"
+            f" {new_version}\n\n## Updated Files\n{file_list}\n\n"
+        )
+    else:
+        pr_body = f"Version bump to {new_version}, no ID file changed.\n\n"
 
     if pci_stats:
         pr_body += f"## PCI Changes\n```\n{pci_stats}```\n\n"
